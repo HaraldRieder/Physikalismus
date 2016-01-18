@@ -1,0 +1,896 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../sites/default/files/pyramid_power.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="21" />
+<link rel="canonical" href="21" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Mandukya-Karika | Physikalismus</title>
+  <style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/system/system.base.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.menus.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.messages.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.theme.css?nwwcfu");
+</style>
+<style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/comment/comment.css?nwwcfu");
+@import url("http://physikalismus.de/modules/field/theme/field.css?nwwcfu");
+@import url("http://physikalismus.de/modules/node/node.css?nwwcfu");
+@import url("http://physikalismus.de/modules/search/search.css?nwwcfu");
+@import url("http://physikalismus.de/modules/user/user.css?nwwcfu");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/default/files/color/garland-b0e715b8/style.css@nwwcfu");
+</style>
+<style type="text/css" media="print">
+@import url("http://physikalismus.de/themes/garland/print.css?nwwcfu");
+</style>
+
+<!--[if lt IE 7]>
+<link type="text/css" rel="stylesheet" href="http://physikalismus.de/themes/garland/fix-ie.css?nwwcfu" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?nwwcfu"></script>
+<script type="text/javascript" src="../sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@nwwcfu"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"IPDtPawzpEXW5icHe6XpQRiOae0-tFkJsTJA_Arn8eY","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/node\/21":true,"\/node\/21?destination=node\/21":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-21 node-type-page fluid-width" >
+  <div id="skip-link">
+    <a href="21#main-content" class="element-invisible element-focusable">Direkt zum Inhalt</a>
+  </div>
+      
+  <div id="wrapper">
+    <div id="container" class="clearfix">
+
+      <div id="header">
+        <div id="logo-floater">
+                              <div id="branding"><strong><a href="../index.html">
+                          <img src="../sites/default/files/pyramid_power.png" alt=" " title=" " id="logo" />
+                                    </a></strong></div>
+                          </div>
+
+        <h2 class="element-invisible">Hauptmenü</h2><ul class="links inline main-menu"><li class="menu-218 first"><a href="../index.html" title="">Start</a></li>
+<li class="menu-310"><a href="../Quellen">Quellen</a></li>
+<li class="menu-311"><a href="../Zitate">Zitate</a></li>
+<li class="menu-410"><a href="../Bibliothek" title="Zum Verständnis Dienliches an diesem Ort Archiviertes">Bibliothek</a></li>
+<li class="menu-423 last"><a href="../Impressum">Impressum</a></li>
+</ul>              </div> <!-- /#header -->
+
+              <div id="sidebar-first" class="sidebar">
+            <div class="region region-sidebar-first">
+    <div id="block-search-form" class="block block-search clearfix">
+
+    
+  <div class="content">
+    <form action="21" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Suchformular</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
+ <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-J8FYekHAA3jBLDkGb8yDUSFU0cNA5P-ZtR5NdrLFYIk" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-system-navigation" class="block block-system block-menu clearfix">
+
+    <h2 class="title">Navigation</h2>
+  
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="../Dao" title="Der Weg zur Erkenntnis">Dao</a></li>
+<li class="leaf"><a href="../Bewusstsein" title="Gedanken über den Geist">Bewusstsein</a></li>
+<li class="leaf"><a href="../Energie" title="Ein Wort zur Energie">Energie</a></li>
+<li class="leaf"><a href="../Erloesung" title="Wie kann das Abgeteilte erlöst werden?">Erlösung</a></li>
+<li class="leaf"><a href="../Erwachsenwerden" title="Erwachsenwerden in der Begrifflichkeit des Schopenhauerschen Willens">Erwachsenwerden</a></li>
+<li class="leaf"><a href="../Freunde" title="Wie Freunde uns in die Irre führen">Freunde</a></li>
+<li class="leaf"><a href="../Geister" title="Wann ist ein Geist ein Geist?">Geister</a></li>
+<li class="leaf"><a href="../Geld" title="Preis als Energie und Geld als Software">Geld</a></li>
+<li class="collapsed"><a href="../Gleichnisse" title="Gleichnisse für Physiker von einem Physiker über Physik">Gleichnisse</a></li>
+<li class="leaf"><a href="../Ethik" title="Was sollen wir tun?">gut &amp; böse</a></li>
+<li class="leaf"><a href="../Ich" title="Was ist das Ich?">Ich</a></li>
+<li class="leaf"><a href="../Jesus" title="Wie ich mir Jesus vorstelle">Jesus</a></li>
+<li class="leaf"><a href="../Juristerei" title="Kann richtig geurteilt werden?">Juristerei</a></li>
+<li class="leaf"><a href="../Kampf" title="Die falsche Idee vom totalen Frieden">Kampf</a></li>
+<li class="leaf"><a href="../N" title="Was an den natürlichen Zahlen unnatürlich ist">N</a></li>
+<li class="collapsed"><a href="../Quantenmechanik" title="Die philosophischen Konsequenzen aus der Quantenmechanik">Quanten</a></li>
+<li class="leaf"><a href="../Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen">Reduktionismus</a></li>
+<li class="leaf"><a href="../Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
+<li class="leaf"><a href="../Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
+<li class="last leaf"><a href="../Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+</ul>  </div>
+</div>
+<div id="block-user-login" class="block block-user clearfix">
+
+    <h2 class="title">Benutzeranmeldung</h2>
+  
+  <div class="content">
+    <form action="http://physikalismus.de/node/21?destination=node/21" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Benutzername <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">Passwort <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="first last"><a href="../user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
+</ul></div><input type="hidden" name="form_build_id" value="form-h9A3gUcWj_Mtf455-ZidA5cbSBW9jqIaOW9bRzYAvSc" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
+</div>
+  </div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <h2 class="element-invisible">Sie sind hier</h2><div class="breadcrumb"><a href="../index.html">Startseite</a></div>                    <a id="main-content"></a>
+          <div id="tabs-wrapper" class="clearfix">                                <h1 class="with-tabs">Mandukya-Karika</h1>
+                              </div>                                                  <div class="clearfix">
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <div id="node-21" class="node node-page" about="/node/21" typeof="foaf:Document">
+
+  
+      <span property="dc:title" content="Mandukya-Karika" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><strong>Zweiter Teil,<br />
+genannt Vaitathyam, "die Unwahrheit"</strong></p>
+<p>1. Alles, was wir im Traum sehen,<br />
+Ist unwahr, sagen Weise uns,<br />
+Weil alles dies nur inwendig,<br />
+Weil es in uns beschlossen liegt; </p>
+<p>2. Auch weil die Zeit zu kurz wäre<br />
+Zum Besuch ferner Gegenden,<br />
+Und weil wir ja beim Aufwachen<br />
+Nicht sind in jenen Gegenden. </p>
+<p>3. "Da sind nicht Wagen, nicht Straßen,"<br />
+Lehrt die Schrift und das Denken uns,<br />
+So ist des Träumens Unwahrheit<br />
+Erwiesen und auch offenbart. </p>
+<p>4. Weil Vielheit hier nur inwendig,<br />
+Ist sie es auch im Wachen nur;<br />
+Hier wie dort ist nur Vorstellung,<br />
+In uns beschlossen, hier wie dort.            </p>
+<p>5. Des Träumens Zustand und Wachens<br />
+Als derselbe den Weisen gilt,<br />
+Denn gleich ist beiden die Vielheit, –<br />
+Aus diesem wohlerwiesnen Grund. </p>
+<p>6. Was nicht vorher und nicht nachher,<br />
+Ist auch nicht in der Zwischenzeit;<br />
+Obwohl es unwahr ist, wird es<br />
+Für nicht unwahr doch angesehn.</p>
+<p>7. Des Wachens Tun ist zweckmäßig,<br />
+Aber nicht, wenn wir träumen, mehr;<br />
+Drum, weil es anfängt und aufhört,<br />
+Kann auch es nur auf Trug beruhn. </p>
+<p>8. Auch was am Traume neu, stammt nur<br />
+Aus dem Geist, und wenn Götter ihm<br />
+Erscheinen, schaut er sie so nur,<br />
+Wie er über sie ward belehrt. </p>
+<p>9. Was er träumend im Geist bildet<br />
+Innerlich, das ist unreal,<br />
+Wiewohl sein Geist es griff draußen,<br />
+Als gesehn unwahr beides ist. </p>
+<p>10. Was er wachend im Geist bildet<br />
+Innerlich, das ist unreal,<br />
+Wiewohl sein Geist es griff draußen,<br />
+Folgerecht unwahr beides ist. </p>
+<p>11. Wenn nun beiderlei Vielheiten<br />
+Unwahr im Traum und Wachen sind,<br />
+Wer erkennt beide Vielheiten,<br />
+Wer stellt sie im Bewußtsein vor? </p>
+<p>12. Durch Selbsttäuschung der Gott Âtman<br />
+Stellt sein Selbst durch sich selber vor,<br />
+Erkennend beide Vielheiten, –<br />
+Feststeht dieser Vedântasatz. </p>
+<p>13. Umwandelnd stellt er als andres<br />
+Vor, was nur im Bewußtsein ist,<br />
+Als draußen und als notwendig<br />
+Stellt in sich es der Âtman vor. </p>
+<p>14. Geist ist des Innern Zeitmesser,<br />
+Die Vielheit der des Äußeren,<br />
+Ihr Unterschied liegt nur hierin,<br />
+Als Vorstellung sind beide gleich. </p>
+<p>15. Undeutlich ist die Welt drinnen<br />
+Deutlich die Welt, die draußen liegt;<br />
+Dem Sinnorgan nach verschieden,<br />
+Sind als Vorstellung beide gleich.</p>
+<p>16. Die Seele stellt man vor erstlich,<br />
+Sodann der Dinge Sonderheit,<br />
+Der äußeren und der drinnen,<br />
+Wie man weiß, so erinnert man. </p>
+<p>17. Wie ein Strick, nicht erkannt deutlich<br />
+Im Dunkeln, falsch wird vorgestellt<br />
+Als Schlange, als ein Strich Wassers,<br />
+So wird falsch vorgestellt das Selbst (âtman). </p>
+<p>18. Wie, wenn der Strick erkannt deutlich,<br />
+Und die falsche Vorstellung weicht,<br />
+Er nur Strick bleibt unzweiheitlich,<br />
+So, wenn deutlich erkannt, das Selbst. </p>
+<p>19. Wenn er als Prâna's, als alle<br />
+Die vielen Dinge uns erscheint,<br />
+So ist das alles nur Blendwerk (mâyâ),<br />
+Mit dem der Gott sich selbst betrügt. </p>
+<p>20. Prâna-Kennern ist er Prâna's   (Vaisheshika's),<br />
+Elemente dem, der sie kennt          (Lokâyatika's),<br />
+Guna-Wissern ist er Guna's           (Sânkhya's),<br />
+Tattva's ist er dem, der sie kennt    (Shaiva's). </p>
+<p>21. Viertelwissern ist er Viertel     (Mândûkya-Up.),<br />
+Sinnlichkeitswissern Sinnlichkeit    (Vatsyâyana),<br />
+Den Weltraumwissern Welträume (Paurânika's),<br />
+Götter den Götterkundigen           (Veda-Anhängern). </p>
+<p>22. Den Vedawissern ist Veda's,<br />
+Den Opferwissern Opfer er,<br />
+Genießer denen, die diesen,<br />
+Genußobjekt, die dies verstehn. </p>
+<p>28. Subtil für solche, die dieses,<br />
+Grob für solche, die dies verstehn,<br />
+Gestaltet denen, die dieses,<br />
+Ungestaltet, die dies verstehn. </p>
+<p>24. Zeit ist er für die Zeitwisser,<br />
+Für Raumkenner ist er der Raum,<br />
+Künste ist er für Kunstkenner,<br />
+Weltschichten dem, der diese kennt.</p>
+<p>25. Für Manas-Kenner ist Manas,<br />
+Für Buddhi-Kenner Buddhi er,<br />
+Geist ist er für die Geistwisser,<br />
+Recht und Unrecht dem, der sie kennt. </p>
+<p>26. Fünfundzwanzigfach für diese (Sânkhya's),<br />
+Jenen als sechsundzwanzigster     (Pâtanjala's),<br />
+Einunddreißigfach für andre         (Pâshupata's),<br />
+Unendlich gilt für viele er. </p>
+<p>27. Welten ist er dem Weltkenner,<br />
+Lebensstadien, dem der sie kennt,<br />
+Drei-Genushaft den Sprachlehrern,<br />
+Andern nied'res und höheres. </p>
+<p>28. Für Schöpfungswisser Weltschöpfung,<br />
+Für Vergangwisser Weltvergang,<br />
+Weltbestand für Bestandwisser, –<br />
+So ist alles er allerwärts. </p>
+<p>29. Welches Sein man so andichtet<br />
+Dem Âtman, dafür hält er sich,<br />
+Das hegt er und, zu ihm werdend,<br />
+Gibt er ihm sich als Dämon hin. </p>
+<p>30. Er selbst ist alle Seinsformen,<br />
+Von denen er verschieden scheint, –<br />
+Wer dies weiß, wird sich vorstellen<br />
+Ohne Sehen, wie es wirklich ist. </p>
+<p>31. Wie Traum nnd Blendwerk man ansieht,<br />
+Wie eine Wüstenspiegelung,<br />
+So sieht an dieses Weltganze,<br />
+Wer des Vedânta kundig ist. </p>
+<p>32. Kein Vergang ist und kein Werden,<br />
+Kein Gebundner, kein Wirkender,<br />
+Kein Erlösungsbedürftiger,<br />
+Kein Erlöster, der Wahrheit nach. </p>
+<p>33. Als unreale Seinsformen<br />
+Und als Einer wird er gedacht,<br />
+Doch wer sie denkt, ist stets Einer,<br />
+Drum die Einheit den Sieg behält.</p>
+<p>34. Nicht auf den Âtman stützt Vielheit<br />
+Und auch nie auf sich selber sich,<br />
+Nicht neben ihm und nicht durch ihn<br />
+Kann bestehn sie, das ist gewiß. </p>
+<p>35. Furcht, Zorn und Neigung ablegend,<br />
+Schaut zweiheitlos und wandellos<br />
+Der Weltausbreitung Aufhören<br />
+Der Muni, der den Veda kennt. </p>
+<p>36. Wer so erkannt der Welt Wesen,<br />
+Der halte an der Einheit treu;<br />
+Der Zweiheitlosigkeit sicher,<br />
+Geht er kalt an der Welt vorbei. </p>
+<p>37. Von Preisen frei und Lobsingen,<br />
+Ja, auch ohne den Manenkult,<br />
+In allem, was da lebt, heimisch,<br />
+Lebt er so "wie es eben kommt". </p>
+<p>38. Das Wesen in sich selbst sehend,<br />
+Das Wesen in der Außenwelt,<br />
+Zu ihm werdend, in ihm ruhend,<br />
+Halt er treu an dem Wesen fest.</p>
+<p><strong>Dritter Teil,<br />
+genannt Advaitam, "die Zweiheitlosigkeit"</strong></p>
+<p>1. Verehrung das Gebot fordert<br />
+Des Brahman als Gewordenen,<br />
+Eh' es ward, war es noch nicht da,<br />
+Drum armselig Verehrer sind. </p>
+<p>2. Was nicht armselig, hört jetzo,<br />
+Ungeboren, gleich allerwärts,<br />
+Und warum nichts entsteht irgend,<br />
+Obwohl entstehend überall. </p>
+<p>3. Der Âtman gleicht dem Weltraume,<br />
+Der Jîva gleicht dem Raum im Topf,<br />
+Die Töpfe sind die Leibstoffe,<br />
+Was "entstehn" heißt, dies Gleichnis zeigt.</p>
+<p>4. Wenn die Töpfe zugrund gehen,<br />
+Was wird dann aus dem Raum im Topf?<br />
+Er zergeht in dem Weltraume, –<br />
+So der Jîva im Âtman anch. </p>
+<p>6. Wie, wenn in einem Topfraume<br />
+Staub sich vorfindet oder Rauch,<br />
+Nicht alle Räume dies teilen,<br />
+So die Jîva's nicht Lust and Leid. </p>
+<p>6. Ja, Formen, Wirkungen, Namen<br />
+Sind verschieden nach ihrem Ort,<br />
+Doch der Raum, den sie einnehmen,<br />
+Ist sich gleich, – so die Jîva's auch. </p>
+<p>7. Wie der Topfraum vom Weltraume<br />
+Kein Produkt ist und anch kein Glied,<br />
+So ist der Jîva vom Âtman<br />
+Kein Produkt, auch kein Glied von ihm. </p>
+<p>8. So wie der Himmelsraum Kindern<br />
+[Obwohl farblos,] als blau erscheint,<br />
+So scheint behaftet mit Flecken<br />
+Unerfahrnen der Âtman auch. </p>
+<p>9. Was Sterben und Entstehn angeht,<br />
+Fortgehn und Wiederherkommen<br />
+Und alle Körper Durchsetzen, –<br />
+Ist dem Raume vergleichbar er. </p>
+<p>10. Doch traumgleich alle Leibstoffe<br />
+Als Trug der Âtman breitet aus;<br />
+Weder als gleich, noch als ungleich<br />
+An Rang lassen sie denken sich. </p>
+<p>11. Als Seele (jîva) in den fünf Hüllen,<br />
+So lehrt das Taittirîyakam,<br />
+Der höchste Âtman verstockt ist,<br />
+Er, den dem Raum verglichen wir. </p>
+<p>12. Im Honigteile wird paarweis<br />
+Das höchste Brahman aufgezeigt, –<br />
+Wie in der Erd' und im Leibe, –<br />
+Er, den dem Raum verglichen wir.</p>
+<p>13. Wenn die Schrift Jîva und Âtman<br />
+Durch Gleichsetzung für eins erklärt,<br />
+Verwerfend alles Vielheitsein,<br />
+So ist das wahr in vollem Sinn. </p>
+<p>14. Doch wenn auch vor der Weltschöpfung<br />
+Sie beide auseinander hält,<br />
+So gilt das bildlich, nicht wörtlich,<br />
+Und nur von dem, was werden soll. </p>
+<p>15. Und wenn sie überhaupt Schöpfung<br />
+Im Bild von Ton, Erz, Funken lehrt,<br />
+So dient dies nur als Lehrmittel,<br />
+Denn "nicht ist Vielheit irgendwie". </p>
+<p>16. Schüler gibt es in drei Stufen,<br />
+Schwache, mittlere, treffliche;<br />
+Um ihrer willen, aus Mitleid<br />
+Verehrungsobjekt Brahman wird. </p>
+<p>17. Auf ihrer Sätze Standpunkt stehn<br />
+Zuversichtlich die Zweiheitler,<br />
+Doch widersprechen sie selbst sich,<br />
+Bei uns fehlt dieser Widerspruch. </p>
+<p>18. In Wahrheit ist die Unzweiheit,<br />
+Zweiheit nur in der Spaltungswelt;<br />
+Sie lehren beiderseits Zweiheit,<br />
+Bei uns fehlt solcher Widerspruch. </p>
+<p>19. Als Blendwerk nur besteht Spaltung<br />
+Jenes Einzigen, Ewigen,<br />
+Denn wäre Spaltung in Wahrheit,<br />
+Sterblich würde, was ewig ist. </p>
+<p>20. Vom ungeword'nen Sein nehmen<br />
+Jene Lehrer ein Werden an, –<br />
+Was ungeboren, unsterblich,<br />
+Wie könnte sterblich werden das! </p>
+<p>21. Was unsterblich, kann nicht sterblich,<br />
+Was sterblich, nicht unsterblich sein,<br />
+Kein Ding kann anders sein jemals,<br />
+Als es seiner Natur nach ist.</p>
+<p>22. Wenn ein unsterbliches Dasein<br />
+Überginge in Sterblichsein,<br />
+Nur scheinbar wär' es unsterblich,<br />
+Wo bliebe seine Ewigkeit? </p>
+<p>23. Von Wahrheit oder Schein redend,<br />
+Stets von der Schöpfung Gleiches lehrt<br />
+Die Schrift, sicher und grundhabend,<br />
+Ist's, wie sie sagt, und anders nicht. </p>
+<p>24. "Nicht ist hier Vielheit" so heißt es,<br />
+"Durch Blendwerk vielfach Indrâ geht",<br />
+"Als ungeboren wird vielfach"<br />
+Durch Blendwerk nur geboren er. </p>
+<p>25. Durch Bestreitung der Sambhûti<br />
+Wird ein Entstehen abgewehrt;<br />
+"Wer könnte ihn hervorbringen?"<br />
+Dies Wort zeigt ihn als ursachlos. </p>
+<p>26. Das Wort: "er ist nicht so, nicht so",<br />
+Absprechend alles Sagbare,<br />
+Kann, wie die Unerkennbarkeit<br />
+Zeigt, auf Ihn sich beziehen nur. </p>
+<p>27. Das Seiende kann nicht werden,<br />
+Es wäre denn durch Blendwerk nur;<br />
+Wer es in Wahrheit läßt werden,<br />
+Läßt werden, was schon war vorher. </p>
+<p>28. Nicht in Wahrheit, noch als Blendwerk<br />
+Kann je entstehn Nichtseiendes;<br />
+Ein Sohn der Unfruchtbaren wird<br />
+Nicht in Wirklichkeit, noch im Schein. </p>
+<p>29. Wie im Traume der Geist regt sich,<br />
+Als viel scheinend durch Täuschung nur,<br />
+So im Wachen der Geist regt sich,<br />
+Als viel scheinend durch Täuschung nur. </p>
+<p>30. Als viel erscheint, der nur eins ist,<br />
+Im Traum der Geist, – das ist ja klar;<br />
+Als viel erscheint, der nur eins ist,<br />
+Der wache Geist, – auch das ist klar.</p>
+<p>40. Der Geist muß unterdrückt werden,<br />
+Damit zuteil dem Yogin wird<br />
+Das Furchtlose, das Schmerzlose,<br />
+Die Erweckung, die ew'ge Ruh. </p>
+<p>41. Wie wenn zerfließt im Weltmeere<br />
+Der Tropfen, der am Grashalm hing,<br />
+So des Geistes Unterdrückung<br />
+Erfolgt ohne Beschwerlichkeit.</p>
+<p>42. Man unterdrücke methodisch<br />
+Den Geist, den Wunsch und Lust zerstreut,<br />
+Ganz ruhig wird er dann schwinden,<br />
+Sein Schwinden ist wie Liebeslust. </p>
+<p>43. Man weiß, daß alles voll Schmerzen,<br />
+Und wendet sich von Wunsch und Lust;<br />
+Man weiß, daß alles nur Brahman,<br />
+Und sieht nicht das Gewordne mehr. </p>
+<p>44. Weckt den Geist, will er nichts werden (einschlafen),<br />
+Sammelt ihn, will er sich zerstreun;<br />
+Beides wisse man als sündhaft;<br />
+Ward er brahmangleich, stört ihn nicht! </p>
+<p>45. Freilich schmeckt er dann nicht Lust mehr,<br />
+Keiner Begierde sich bewußt;<br />
+Sein Denken, ungestört wirkend,<br />
+Strebe eifrig zur Einheit hin. </p>
+<p>46. Wenn dann weder im Schlaf schwindet<br />
+Der Geist, noch auch Zerstreuung sucht,<br />
+Dann tritt hervor er als Brahman,<br />
+Regungslos und vom Scheine frei. </p>
+<p>47. Als frei, beruhigt und leidlos,<br />
+Als unaussprechlich höchste Lust,<br />
+Als ewig, ewigen Objekts<br />
+Allbewußt, schildern Kenner es.</p>
+<p>48. Keine Seele entsteht jemals,<br />
+Kein Entsteh'n ist der ganzen Welt,<br />
+Das ist die höchste Heilswahrheit,<br />
+Daß es nirgend ein Werden gibt!</p>
+<p><strong>Vierter Teil,<br />
+genannt Alâtashânti, "die Beilegung des Feuerbrandes"</strong></p>
+<p>1. Der wie Wolken im Weltraume<br />
+Die Vielheiten im Einen weiß,<br />
+Das Subjekt und zugleich Objekt<br />
+Ist, – ihn ehr' ich, den Purusha! </p>
+<p>2. Den wir als Ungefühl-Yoga,<br />
+Allem Seienden freund und gut,<br />
+Widerspruchlos, unanfechtbar,<br />
+Aufgezeigt, – ihm Verehrung sei! </p>
+<p>3. "Ein Werden ist nur des, was ist",<br />
+So sagen manche Denker uns; –<br />
+"Nein! des, was nicht ist", so andre,<br />
+Gegenseitig in Widerspruch. </p>
+<p>4. "Was ist, das kann doch nicht werden!" –<br />
+"Was nicht ist, kann auch werden nicht!" –<br />
+So streitend, für das Nichtwerden,<br />
+Gleich Nichtzweiheitlern, zeugen sie. </p>
+<p>5. Uns freut, wenn sie dadurch zeigen,<br />
+Daß ein Werden unmöglich ist; –<br />
+Daß wir uns nicht, wie sie alle,.<br />
+Widersprechen, das höret jetzt. </p>
+<p>6. Des Ungewordenen Werden<br />
+Nehmen jene Behaupter an,<br />
+Doch, was nicht ward, was unsterblich,<br />
+Wie könnte sterblich werden das?</p>
+<p>7. Was unsterblich, kann nicht sterblich,<br />
+Was sterblich, nicht unsterblich sein,<br />
+Sein Ding kann anders sein jemals,<br />
+Als es seiner Natur nach ist. </p>
+<p>8. Wenn ein unsterbliches Wesen<br />
+Überginge in Sterblichsein,<br />
+Nur scheinbar war' es unsterblich,<br />
+Wo bliebe seine Ewigkeit? </p>
+<p>9. Wesenseigen, bestandbildend,<br />
+Angeboren und ungemacht,<br />
+Das eigne Sein nie aufgebend, –<br />
+So ist, was "die Natur" (prakrti) man nennt. </p>
+<p>10. Ungeboren und unsterbend<br />
+Sind Selbstheiten (dharma) dem Wesen nach;<br />
+Der ist der Selbstheit unkundig,<br />
+Der sie entstehn und sterben läßt. </p>
+<p>11. Für wen die Ursach wird Wirkung,<br />
+Der läßt werden die Ursache, –<br />
+Wie kann, was ewig ist, werden?<br />
+Wie, was eigen ist, trennen sich? </p>
+<p>12. Wird die Ursache selbst Wirkung,<br />
+Dann ist ewig die Wirkung schon,<br />
+Und doch wird sie! und ihr Werden<br />
+Läßt die Ursach verloren gehn! </p>
+<p>13. Neinl Wer das Ew'ge läßt Werden,<br />
+Dem steht keine Erfahrung bei; .<br />
+Und wer Gewordnes läßt werden,<br />
+Verfällt in ewigen Regreß! </p>
+<p>14. Wenn ein Erfolg des Grunds Ursprung,<br />
+Und der Grund Ursprung des Erfolgs,<br />
+Dann wären anfanglos beide,<br />
+Grund und Erfolg, wie kann das sein? </p>
+<p>15. Wenn ein Erfolg des Grunds Ursprung,<br />
+Und der Grund Ursprung des Erfolgs,<br />
+Dann ist wohl das Entstehn beider,<br />
+Wie wenn der Sohn den Vater zeugt?</p>
+<p>16. Grund und Erfolg, wenn entstanden,<br />
+Erheischen Reihenfolge doch;<br />
+Denn entstehen sie gleichzeitig,<br />
+Wie zwei Hörner, so fehlt das Band. </p>
+<p>17. Daß aus Erfolgen entspränge<br />
+Der Grund selbst, ist beweisbar nicht,<br />
+Und ist der Grund unbeweisbar,<br />
+Wie kann er wirken den Erfolg?. </p>
+<p>18. Wenn aus Erfolg der Grund folgte<br />
+Und aus dem Grunde der Erfolg,<br />
+Welcher von beiden ist früher,<br />
+Und sein Folgen nur relativ? </p>
+<p>19. So legt Unmöglichkeit, Unsinn<br />
+Und Verwirrung der Zeitordnung,<br />
+In die die Gegner stets fallen,<br />
+Für das Nichtwerden Zeugnis ab. </p>
+<p>20. Der Fall von Samen und Pflanze<br />
+Ist nur scheinbar beweisend hier;<br />
+Was aber nur beweist scheinbar,<br />
+Ist zum Beweisen tauglich nicht. </p>
+<p>21. Der Widersinn der Zeitfolge<br />
+Bestätigt das Nichtwerden nur;<br />
+Da Werdendes zurückweisen<br />
+Sicher würde auf Früheres. </p>
+<p>22. Nicht aus sich selbst, noch aus anderm<br />
+Kann ein Wesen entstehen je;<br />
+Nicht als seiend, noch nichtseiend,<br />
+Noch als beides, kann es entstehn.</p>
+<p>23. Grund und Erfolg, wenn anfanglos,<br />
+Schließen das Werden von sich aus;<br />
+Wofür es gibt keinen Anfang,<br />
+Dafür gibt keinen Anfang es. </p>
+<p>24. Wahrnehmung müsse Grund haben,<br />
+Weil unmöglich ihr Wechseln sonst,<br />
+Auch sei von uns unabhängig<br />
+Schmerz und Wahrnehmung, – meinen sie. </p>
+<p>25. Wahrnehmung müsse Grund haben,<br />
+So beweisen sie künstlich uns, –<br />
+Doch daß der Grund keinen Grund hat,<br />
+Das lehrt Wesensbetrachtung uns. </p>
+<p>26. Der Geist berührt nicht Objekte<br />
+Und auch nicht der Objekte Schein;<br />
+Wenn unreal die Objekte,<br />
+Ist's auch, vom Geist getrennt, ihr Schein. </p>
+<p>27. Auch nicht, in den drei Zeitläuften,<br />
+Berührt je ein Objekt den Geist;<br />
+Grundloser Schein noch viel wen'ger;<br />
+Wie könnte werden der zum Grund! </p>
+<p>28. Darum ist nirgend ein Werden,<br />
+Im Subjekt nicht, im Objekt nicht;<br />
+Wer eins von beiden läßt werden,<br />
+Der wandelt in den Wolken nur. </p>
+<p>29. Weil sonst das Ewige würde,<br />
+Ist unwerdend die Wesenheit;<br />
+Kein Ding kann anders sein jemals,<br />
+Als es seiner Natur nach ist. </p>
+<p>30. War' anfanglos der Samsâra,<br />
+So könnte er nicht endlich sein;<br />
+Wär' die Erlösung anfangend,<br />
+Sie könnte nicht unendlich sein. </p>
+<p>31. Was nicht vorher und nicht nachher,<br />
+Ist auch nicht in der Zwischenzeit;<br />
+Obwohl es unwahr ist, wird es<br />
+Für nicht unwahr doch angesehn.</p>
+<p>32. Des Wachens Tun ist zweckmäßig,<br />
+Aber nicht, wenn wir träumen, mehr;<br />
+Drum, weil es anfängt und aufhört,<br />
+Kann auch es nur auf Trug beruhn. </p>
+<p>33. Was im Traume wir wahrnehmen,<br />
+Ist irrig, weil im Körper nur;<br />
+Wie ließen Dinge sich schauen<br />
+In diesem eingeschlossnen Raum? </p>
+<p>34. Auch ist die Zeit nicht hinreichend,<br />
+Hinzugehen, um sie zu sehn;<br />
+Auch finden wir beim Aufwachen<br />
+Uns nicht da, wo wir sie gesehn. </p>
+<p>35. Und was mit andern man absprach,<br />
+Besteht nicht mehr, wenn man erwacht;<br />
+Und was im Traume man faßte,<br />
+Hält man, erwacht, in Händen nicht. </p>
+<p>36. Auch was wir von dem Leib träumen,<br />
+Ist unwahr und nicht wie es ist; –<br />
+Unwahr wie dieses, ist alles,<br />
+Was der Geist nimmt im Wachen wahr. </p>
+<p>37. Was wir, wie wachend, wahrnehmen<br />
+Im Traum, hat seinen Grund in uns;<br />
+So hat in uns seinen Grund auch,<br />
+Was wir im Wachen nehmen wahr. </p>
+<p>38. Unbegreiflich ist Entstehung;<br />
+Alles als ewig lehrt die Schrift;<br />
+Nimmermehr kann hervorgehen<br />
+Aus Seiendem Nichtseiendes (Werdendes). </p>
+<p>39. Nichtseiendes sehn wir wachend;<br />
+Das Traumbild ist aus gleichem Stoff:<br />
+Nichtseiendes sehn wir träumend;<br />
+Wenn wir erwachen, ist es nichts. </p>
+<p>40. Nichtsein gebiert doch nicht Nichtsein,<br />
+Nichtsein gebiert auch nicht das Sein;<br />
+Und auch das Sein gebiert Sein nicht;<br />
+Sein kann Nichtsein gebären nicht.</p>
+<p>41. Wie man im Wachen aus Irrtum<br />
+Unmögliches als seiend faßt,<br />
+So auch im Traume aus Irrtum<br />
+Sieht man Wesen erscheinen sich. </p>
+<p>42. Aus Wahrnehmung und Herkommen<br />
+Halten am Realismus sie;<br />
+Was sie kennen ist nur Werden,<br />
+Zurückschreckend von dem, was ist. </p>
+<p>43. Manche, vom Sein zurückschreckend,<br />
+Wenn auch nicht bloße Wahrnehmler,<br />
+Des Werdens Mängel nicht meiden;<br />
+Mängel bleiben es, wenn auch klein.</p>
+<p>44. Durch Wahrnehmung, durch Herkommen<br />
+Heißt auch ein Blendwerk Elefant;<br />
+Durch Wahrnehmung, durch Herkommen<br />
+Heißt auch das Ding ein seiendes. </p>
+<p>45. Werden ist Schein, Bewegung Schein,<br />
+Das Dingliche ist bloßer Schein;<br />
+Nichtwerdend, unbewegt, dinglos,<br />
+Still, zweiheitlos die Wahrheit ist. </p>
+<p>46. So ist kein Werden im Subjekt,<br />
+Im Objekte kein Werden ist;<br />
+Wer dieses hat erkannt einmal,<br />
+Fällt nicht zurück ins Gegenteil. </p>
+<p>47. Wie Funkenschwingung den Schein gibt<br />
+Grader und krummer Linien,<br />
+So den Schein Bewußtseinsschwingung<br />
+Von Auffassen und Auffasser. </p>
+<p>48. Wie ungeschwungen der Funke<br />
+Nicht erscheint, nicht entsteht (als Kreis),<br />
+So Bewußtsein ungeschwungen<br />
+Erscheint nicht und entsteht auch nicht.</p>
+<p>49. Schwingt der Funke, so kommt der Schein<br />
+Nicht von außen her irgendwie,<br />
+Nicht von anderm als dem Schwingen,<br />
+Nicht ist Zuwachs dem Funken er. </p>
+<p>50. Auch nicht entflieht er dem Funken,<br />
+Weil er nicht hat ein Wirklichsein,<br />
+Ebenso ist's beim Erkennen,<br />
+Denn auch dieses ist bloßer Schein. </p>
+<p>51. Schwingt Erkenntnis, so kommt der Schein<br />
+Nicht von außen her irgendwie,<br />
+Nicht von anderm als dem Schwingen,<br />
+Nicht ist Bewußtseinszuwachs er. </p>
+<p>52. Nicht entflieht er dem Bewußtsein,<br />
+Weil er nicht hat ein Wirklichsein;<br />
+Weil Verursachtsein unwirklich,<br />
+Ist als wirklich undenkbar er. </p>
+<p>53. Ein Ding, so meint man, sei Ursach<br />
+Des Daseins für ein andres Ding,<br />
+Doch für die Wesenheit gibt es<br />
+Kein Dingsein und kein Anderssein. </p>
+<p>54. Weder aus Geist entspringt Dasein,<br />
+Noch aus Dasein entspringt der Geist;<br />
+Drum nehmen Weise kein Werden<br />
+Des Grunds oder Erfolges an. </p>
+<p>55. Wer noch Grund und Erfolg annimmt,<br />
+Dem entstehn aus einander sie;<br />
+Wer frei von dieser Annahme,<br />
+Für den entstehen sie nicht mehr. </p>
+<p>56. Wer noch Grund und Erfolg annimmt,<br />
+Für den streckt der Samsâra sich;<br />
+Wer frei von dieser Annahme,<br />
+Der ist auch vom Samsâra frei. </p>
+<p>57. Wer geistumnachtet, sieht werdend<br />
+Alles, ein Ew'ges kennt er nicht;<br />
+In Wahrheit alles ist ewig,<br />
+Vernichtetwerden gibt es nicht.</p>
+<p>58. Die Wesenheiten, die werden,<br />
+Die werden nicht in Wirklichkeit;<br />
+Ihr Entstehen ist nur Blendwerk,<br />
+Und Blendwerk ist nicht Wirklichkeit. </p>
+<p>59. Wie, wo der Same nur Blendwerk,<br />
+Auch die Pflanze ein solches ist,<br />
+Nicht wesenhaft noch austilgbar,<br />
+So steht's mit allen Dingen hier. </p>
+<p>60. Da alle Dinge nicht wirklich,<br />
+Gibt nicht Dauer es noch Vergang;<br />
+Wo alle Farben wegfallen,<br />
+Ist keine Unterscheidbarkeit. </p>
+<p>61. Wie in des Traumes Scheinvielheit<br />
+Der Geist irrtümlich ist verstrickt,<br />
+So in des Wachens Scheinvielheit<br />
+Ist irrtümlich der Geist verstrickt. </p>
+<p>62. Wie träumend eine Schein-Vielheit<br />
+Erblickt der vielheitlose Geist,<br />
+So wachend eine Schein-Vielheit<br />
+Erblickt der vielheitlose Geist. </p>
+<p>63. Was man, im Traum umherschweifend<br />
+In allen Himmelsgegenden,<br />
+An Tieren, Vögeln, Insekten<br />
+Nur immer wahrzunehmen meint, </p>
+<p>64. Das besteht nirgendwo anders<br />
+Als im Geiste des Träumenden;<br />
+Drum alles, was er dann sieht, ist<br />
+Nur Bewußtsein des Träumenden. </p>
+<p>65. Was man, wachend umherschweifend<br />
+In allen Himmelsgegenden,<br />
+An Tieren, Vögeln, Insekten<br />
+Nur immer wahrzunehmen meint, </p>
+<p>66. Das besteht nirgendwo anders<br />
+Als im Geiste des Wachenden;<br />
+Drum alles, was er dann sieht, ist<br />
+Nur Bewußtsein des Wachenden.</p>
+<p>67. Das Ding und seine Vorstellung<br />
+Bedingen gegenseitig sich;<br />
+Bestandlos ist für sich jedes,<br />
+Nur im Bewußtsein stehn sie da. </p>
+<p>68. Wie wir von einem bloß träumen,<br />
+Daß er geboren wird, und stirbt,<br />
+So sind all diese Weltwesen<br />
+Wirklich und doch auch wirklich nicht. </p>
+<p>69. Wie wir im Wahngebild schauen,<br />
+Daß einer lebt und wieder stirbt,<br />
+So sind all diese Weltwesen<br />
+Wirklich und doch auch wirklich nicht. </p>
+<p>70. Wie Zauberkunst uns läßt schauen,<br />
+Daß einer lebt und wieder stirbt,<br />
+So sind all diese Weltwesen<br />
+Wirklich und doch auch wirklich nicht. </p>
+<p>71. Keine Seele entsteht jemals,<br />
+Kein Entstehn ist der ganzen Welt;<br />
+Das ist die höchste Heilswahrheit,<br />
+Daß es nirgend ein Werden gibt. </p>
+<p>72. Was zweifach als Subjekt-Objekt<br />
+Scheint, ist Bewußtseinsschwingung nur;<br />
+Der Geist ist ewig objektlos,<br />
+"An ihm haftet nichts", lehrt die Schrift. </p>
+<p>73. Wie es künstlich durch Annahme,<br />
+So ist es nicht in Wirklichkeit;<br />
+Was andre Schulen annehmen,<br />
+Ist für sie, nicht in Wirklichkeit. </p>
+<p>74. Was als ewig sie annehmen<br />
+Künstlich, ist wirklich ewig nicht;<br />
+Das Resultat andrer Schulen<br />
+Zeigt als Irrtum und werdend es. </p>
+<p>75. An das, was nicht ist, Anpassung<br />
+Beweist nicht, daß es Zweiheit gibt;<br />
+Ist ihr Nichtsein erkannt, dann fällt<br />
+Die Anpassung als zwecklos weg.</p>
+<p>76. Wenn man nicht annimmt Ursachen<br />
+In allen Reichen der Natur,<br />
+So auch nicht ihre Vorstellung;<br />
+Mit der Ursach' die Wirkung fällt. </p>
+<p>77. Geist ist grundlos; das Nichtwerden,<br />
+Zweiheitlos, ist ihm eigen stets;<br />
+Geisterscheinung nur ist Zweiheit<br />
+Des Ewigen, das alles ist. </p>
+<p>78. Grundlosigkeit als wahr wissend,<br />
+Verwerfend Einzel-Ursachen,<br />
+Gelangt man zu dem furchtlosen,<br />
+Wunschlosen, kummerlosen Ort. </p>
+<p>79. Sich anpassend dem, was nicht ist,<br />
+Bleibt in solches verstrickt der Geist;<br />
+Der Dinge Nichts erkannt habend,<br />
+Kehrt er zum Anhaftlosen sich. </p>
+<p>80. Wer dies ergreift und nicht läßt mehr,<br />
+Des Stand bleibt unbeweglich dann;<br />
+Der.Weisen Ziel ist dies ew'ge<br />
+Zweiheitlose Identischsein. </p>
+<p>81. Das schlummerlose, traumlose<br />
+Ew'ge ist dann sich selber Licht;<br />
+"Für immer licht" ist dies Wesen,<br />
+Ist diese Wesenheit an sich. </p>
+<p>82. Gar leicht verbirgt er uns immer,<br />
+Gar schwer enthüllt sein Wesen er,<br />
+Solang wir einzeln auffassen<br />
+Die Dinge, – er, der heilige. </p>
+<p>83. "Er ist!" "Ist nicht!" "Ist und ist nicht!"<br />
+"Er ist nicht nicht!" so denkend ihn<br />
+Unstät, stät, zwiefach, neinsagend,<br />
+Verbirgt sein Wesen sich der Tor.</p>
+<p>84. Durch dieser vier Gesichtspunkte<br />
+Verfolgung bleibt verborgen stets<br />
+Der Heil'ge, unberührt durch sie, –<br />
+Doch allschauend ist, wer ihn schaut. </p>
+<p>85. Wer voll besitzt die Allschauung,<br />
+Den zweiheitlosen Brahman-Ort,<br />
+An dem nicht Anfang, Mitt', Ende,<br />
+Dem bleibt nichts zu erstreben mehr. </p>
+<p>86. Das heißt echte Gemütsruhe,<br />
+Das ist die wahre Priesterzucht,<br />
+Das ist der Selbstnatur Zähmung,<br />
+Wer sie kennt, geht zur Ruhe ein. </p>
+<p>87. Wahrnehmunghaft und objekthaft<br />
+Ist die zweithafte Weltlichkeit (Wachen);<br />
+Wahrnehmunghaft und objektlos<br />
+Ist geläuterte Weltlichkeit (Traum). </p>
+<p>88. Wahrnehmunglos und objektlos,<br />
+Das heißt die Überweltlichkeit;<br />
+Ihr Subjekt ist zugleich Objekt,<br />
+So lehrten Weise aller Zeit. </p>
+<p>89. Subjekt und die drei Objekte<br />
+Stufenweis als in sich erkannt, –<br />
+Daraus entsteht die Allschauung,<br />
+Allerwärts des Hochsinnigen. </p>
+<p>90. Erst frage man: was soll werden<br />
+Geflohn, erkannt, erlangt und reif?<br />
+Für's Erkennen gilt Wahrnehmung,<br />
+Und so auch für die andern drei, </p>
+<p>91. Alle Wesen sind ursprünglich<br />
+Unbegrenzt und dem Baume gleich,<br />
+Und nicht ist irgendwo Vielheit<br />
+Unter ihnen, in keinem Sinn. </p>
+<p>92. Alle Wesen sind ursprünglich<br />
+Urerweckte (âdibuddha), das ist gewiß; –<br />
+Wer dieses sich genug sein läßt,<br />
+Der ist reif zur Unsterblichkeit. </p>
+<p>93. Sie alle sind auch ursprünglich<br />
+Urberuhigt, voll Seligkeit;<br />
+Sich gleich alle und unteilbar,<br />
+Ew'ge, reine Identität. </p>
+<p>94. Doch diese Reinheit ist nicht mehr,<br />
+Wenn sie vielfach zersplittern sich;<br />
+Vielheitversunken, zwiespältig<br />
+Heißen darum armselig sie. </p>
+<p>95. Doch wem hier zur Gewißheit ward<br />
+Die ewige Identität,<br />
+Der weiß in dieser Welt Großes,<br />
+Die Welt aber versteht es nicht. </p>
+<p>96. Wissen des Ew'gen ist ewig<br />
+Auch, mit nichts sonst befassend sich;<br />
+Als nichtbefassend sich, heißt dies<br />
+Wissen das unanhaftende (4,72. 79). </p>
+<p>97. Doch wo die kleinste Ungleichheit<br />
+Für wahr hält der unweise Geist,<br />
+Da ist weder Nichtanhaftung<br />
+Noch Weichen der Verdunkelung. </p>
+<p>98. Alle Seelen sind ursprünglich<br />
+Frei vom Dunkel und fleckenlos,<br />
+Urerweckt schon und urerlöst<br />
+Erwachen sie, der Meister spricht. </p>
+<p>99. Wie die Sonne durch sich leuchtet,<br />
+So Wissen ohne Dinge auch;<br />
+Alle Dinge sind nur Wissen, –<br />
+Unsagbar dem Erweckten selbst. </p>
+<p>100. Die dunkle, überaus tiefe,<br />
+Ew'ge, reine Identität,<br />
+Der Einheit Stätte nach Kräften<br />
+Erkannt habend, verehren wir!</p>
+</div></div></div>  </div>
+
+  <div class="clearfix">
+          <div class="links"></div>
+    
+      </div>
+
+</div>
+  </div>
+</div>
+  </div>
+          </div>
+                      <div class="region region-footer">
+    <div id="block-system-powered-by" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+</div>
+  </div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /#container -->
+  </div> <!-- /#wrapper -->
+  </body>
+</html>

@@ -1,0 +1,430 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../sites/default/files/pyramid_power.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="14" />
+<link rel="canonical" href="../Zitate" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Zitate | Physikalismus</title>
+  <style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/system/system.base.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.menus.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.messages.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.theme.css?nwwcfu");
+</style>
+<style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/comment/comment.css?nwwcfu");
+@import url("http://physikalismus.de/modules/field/theme/field.css?nwwcfu");
+@import url("http://physikalismus.de/modules/node/node.css?nwwcfu");
+@import url("http://physikalismus.de/modules/search/search.css?nwwcfu");
+@import url("http://physikalismus.de/modules/user/user.css?nwwcfu");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/default/files/color/garland-b0e715b8/style.css@nwwcfu");
+</style>
+<style type="text/css" media="print">
+@import url("http://physikalismus.de/themes/garland/print.css?nwwcfu");
+</style>
+
+<!--[if lt IE 7]>
+<link type="text/css" rel="stylesheet" href="http://physikalismus.de/themes/garland/fix-ie.css?nwwcfu" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?nwwcfu"></script>
+<script type="text/javascript" src="../sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@nwwcfu"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"-HzQFgHD_havqYGRAuLiyKa2JF8Dn12u6jE81dSYYuA","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/node\/14":true,"\/Zitate?destination=node\/14":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-14 node-type-page fluid-width" >
+  <div id="skip-link">
+    <a href="14#main-content" class="element-invisible element-focusable">Direkt zum Inhalt</a>
+  </div>
+      
+  <div id="wrapper">
+    <div id="container" class="clearfix">
+
+      <div id="header">
+        <div id="logo-floater">
+                              <div id="branding"><strong><a href="../index.html">
+                          <img src="../sites/default/files/pyramid_power.png" alt=" " title=" " id="logo" />
+                                    </a></strong></div>
+                          </div>
+
+        <h2 class="element-invisible">Hauptmenü</h2><ul class="links inline main-menu"><li class="menu-218 first"><a href="../index.html" title="">Start</a></li>
+<li class="menu-310"><a href="../Quellen">Quellen</a></li>
+<li class="menu-311 active-trail active"><a href="../Zitate" class="active-trail active">Zitate</a></li>
+<li class="menu-410"><a href="../Bibliothek" title="Zum Verständnis Dienliches an diesem Ort Archiviertes">Bibliothek</a></li>
+<li class="menu-423 last"><a href="../Impressum">Impressum</a></li>
+</ul>              </div> <!-- /#header -->
+
+              <div id="sidebar-first" class="sidebar">
+            <div class="region region-sidebar-first">
+    <div id="block-search-form" class="block block-search clearfix">
+
+    
+  <div class="content">
+    <form action="14" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Suchformular</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
+ <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-z4sYHILjxQHnNq_E6WfMBfrZlTCjmkTXVd3_Tl3IK0I" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-system-navigation" class="block block-system block-menu clearfix">
+
+    <h2 class="title">Navigation</h2>
+  
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="../Dao" title="Der Weg zur Erkenntnis">Dao</a></li>
+<li class="leaf"><a href="../Bewusstsein" title="Gedanken über den Geist">Bewusstsein</a></li>
+<li class="leaf"><a href="../Energie" title="Ein Wort zur Energie">Energie</a></li>
+<li class="leaf"><a href="../Erloesung" title="Wie kann das Abgeteilte erlöst werden?">Erlösung</a></li>
+<li class="leaf"><a href="../Erwachsenwerden" title="Erwachsenwerden in der Begrifflichkeit des Schopenhauerschen Willens">Erwachsenwerden</a></li>
+<li class="leaf"><a href="../Freunde" title="Wie Freunde uns in die Irre führen">Freunde</a></li>
+<li class="leaf"><a href="../Geister" title="Wann ist ein Geist ein Geist?">Geister</a></li>
+<li class="leaf"><a href="../Geld" title="Preis als Energie und Geld als Software">Geld</a></li>
+<li class="collapsed"><a href="../Gleichnisse" title="Gleichnisse für Physiker von einem Physiker über Physik">Gleichnisse</a></li>
+<li class="leaf"><a href="../Ethik" title="Was sollen wir tun?">gut &amp; böse</a></li>
+<li class="leaf"><a href="../Ich" title="Was ist das Ich?">Ich</a></li>
+<li class="leaf"><a href="../Jesus" title="Wie ich mir Jesus vorstelle">Jesus</a></li>
+<li class="leaf"><a href="../Juristerei" title="Kann richtig geurteilt werden?">Juristerei</a></li>
+<li class="leaf"><a href="../Kampf" title="Die falsche Idee vom totalen Frieden">Kampf</a></li>
+<li class="leaf"><a href="../N" title="Was an den natürlichen Zahlen unnatürlich ist">N</a></li>
+<li class="collapsed"><a href="../Quantenmechanik" title="Die philosophischen Konsequenzen aus der Quantenmechanik">Quanten</a></li>
+<li class="leaf"><a href="../Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen">Reduktionismus</a></li>
+<li class="leaf"><a href="../Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
+<li class="leaf"><a href="../Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
+<li class="last leaf"><a href="../Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+</ul>  </div>
+</div>
+<div id="block-user-login" class="block block-user clearfix">
+
+    <h2 class="title">Benutzeranmeldung</h2>
+  
+  <div class="content">
+    <form action="http://physikalismus.de/Zitate?destination=node/14" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Benutzername <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">Passwort <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="first last"><a href="../user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
+</ul></div><input type="hidden" name="form_build_id" value="form-EHAzgIvetgmi2akWJY11FXtUzU8HRGW9QG3lQhp4b-0" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
+</div>
+  </div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <h2 class="element-invisible">Sie sind hier</h2><div class="breadcrumb"><a href="../index.html">Startseite</a></div>                    <a id="main-content"></a>
+          <div id="tabs-wrapper" class="clearfix">                                <h1 class="with-tabs">Zitate</h1>
+                              </div>                                                  <div class="clearfix">
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <div id="node-14" class="node node-page" about="/Zitate" typeof="foaf:Document">
+
+  
+      <span property="dc:title" content="Zitate" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Wie alle Einteilungen ist auch die hier vorliegende völlig willkürlich und beliebig.</p>
+<p><strong>Der Philosoph und der Rest</strong><br /><a href="http://www.azquotes.com/quote/541291" title="George Berkeley quote"><img src="http://www.azquotes.com/picture-quotes/quote-few-men-think-yet-all-will-have-opinions-george-berkeley-54-12-91.jpg" alt="Few men think, yet all will have opinions. - George Berkeley" width="400px" /></a></p>
+<p><cite>Diese Lehre hier, ihren Sinn, der Wirklichkeit hat, zu verstehen, werden immer die Menschen zu töricht sein, so ehe sie gehört, wie wenn sie erst gehört haben. Denn geschieht auch alles nach diesem Sinn, so sind sie doch wie Unerfahrene - trotz all ihrer Erfahrung mit derlei Worten und Werken, wie ich hier sie eingehend auseinanderlege einzeln ihrem Wesen nach und erkläre, wie sich jedes verhält; den andern Menschen aber bleibt unbewußt, was sie im Wachen tun, wie was sie im Schlaf bewußtlos tun.<br /></cite> [Heraklit-F]</p>
+<p><cite>Denn viele sehn das nicht ein, soviele auch daran stoßen; belehrt man sie auch, sie erkennen es nicht - aber sie bilden sich etwas ein.<br /></cite> [Heraklit-F]</p>
+<p><cite>Dem Blöden fährt bei jedem sinnvollen Wort der Schrecken in die Glieder.<br /></cite> [Heraklit-F]</p>
+<p><cite>8. In des Nichtwissens Tiefe hin sich windend,<br />
+Sich selbst als Weise, als Gelehrte wähnend,<br />
+So stoßen ziellos sich herum die Toren,<br />
+Wie Blinde, die ein selbst auch Blinder anführt.<br />
+9. Im Nichtwissen vielfältig hin sich windend,<br />
+Am Ziel der Wünsche wähnen sich die Toren;<br />
+Vor Werkdienst kommen sie nicht zur Besinnung,<br />
+Der Not verfallend, wenn der Lohn verbraucht ist.<br /></cite> [Mundaka-Upanishad]</p>
+<p><strong>Über den Weg zur Erkenntnis</strong></p>
+<p><cite>Ich richtete mein Herz darauf, zu erkennen die Weisheit und zu schauen die Mühe, die auf Erden geschieht, daß einer weder Tag noch Nacht Schlaf bekommt in seine Augen. Und ich sah alles Tun Gottes, daß ein Mensch das Tun nicht ergründen kann, das unter der Sonne geschieht. Und je mehr der Mensch sich müht, zu suchen, desto weniger findet er. Und auch wenn der Weise meint: „Ich weiß es“, so kann er's doch nicht finden.</cite> [Prediger Salomo 8]</p>
+<p><cite>»Die Welt ist meine Vorstellung:« – dies ist die Wahrheit, welche in Beziehung auf jedes lebende und erkennende Wesen gilt; wiewohl der Mensch allein sie in das reflektirte abstrakte Bewußtseyn bringen kann: und thut er dies wirklich; so ist die philosophische Besonnenheit bei ihm eingetreten. Es wird ihm dann deutlich und gewiß, daß er keine Sonne kennt und keine Erde; sondern immer nur ein Auge, das eine Sonne sieht, eine Hand, die eine Erde fühlt; daß die Welt, welche ihn umgiebt, nur als Vorstellung da ist, d.h. durchweg nur in Beziehung auf ein Anderes, das Vorstellende, welches er selbst ist.</cite> [Schopenhauer-D]</p>
+<p><cite>Die großen Philosophen ... haben verstanden oder gefühlt, daß jede sprachliche Formulierung die Wirklichkeit nicht nur ergreift, sondern auch gestaltet und idealisiert, und daß eben in dem Maß, in dem die Begriffe sich verschärfen, die Idealisierung sich wieder von der Wirklichkeit löst; daher auch werden die letzten, tiefsten Erkenntnisse schließlich im Gleichnis ausgesprochen.<br /></cite> [Heisenberg-O]</p>
+<p><cite>Vielwisserei lehrt keine Vernunft; sonst hätte sie Hesiod belehrt und Pythagoras, auch Xenophanes und Hekataios. Denn das Weise ist das Eine: den einsichtsvollen Willen zu verstehen, der alles durch alles hindurchsteuert.<br /></cite> [Heraklit-F]</p>
+<p><cite>11. Nur wer es nicht erkennt, kennt es,<br />
+Wer es erkennt, der weiß es nicht, —<br />
+Nicht erkannt vom Erkennenden,<br />
+Erkannt vom Nicht-Erkennenden!<br />
+12. In wem es aufwacht, der weiß es<br />
+Und findet die Unsterblichkeit;<br />
+Daß er es selbst ist, gibt Kraft ihm,<br />
+Daß er dies weiß, Unsterblichkeit.<br />
+13. Wer ihn hienieden fand, besitzt die Wahrheit,<br />
+Wer ihn hier nicht fand, dem ist's groß Verderben.<br />
+In jedem Wesen nimmt ihn wahr der Weise<br />
+Und wird, hinscheidend aus der Welt, unsterblich.<br /></cite> [Kena-Upanishad, Zweiter Khanda]</p>
+<p><cite>14. Steht auf! wacht auf! erlangt habend<br />
+Treffliche Lehrer, merkt auf sie.<br />
+Wie schwer zu gehn auf scharfer Messerschneide ist,<br />
+Schwer ist der Weg! Den lehren euch die Weisen.<br /></cite> [Kathaka-Upanishad, Erster Adhyaya, Dritte Valli]</p>
+<p><cite>Schwervollbringbar, schwererreichbar,<br />
+Schwer zu schauen, zu gründen schwer,<br />
+Schwer ausführbar ist dies Sinnen<br />
+Selbst für Weise und Einsame.<br /></cite> [Tejobindu-Upanishad]</p>
+<p><cite>Nicht Grobes erkennend und nicht Feines erkennend, noch nach beiden Seiten erkennend, weder bewusst noch unbewusst, auch nicht durch und durch aus Erkenntnis bestehend, unsichtbar, unbetastbar, ungreifbar, uncharakterisierbar, undenkbar, unbezeichenbar, nur in der Gewissheit des eigenen Selbstes gegründet, die ganze Weltausbreitung auslöschend, selig, beruhigt, zweitlos, – das ist [das vierte Viertel], das« eben »ist der Âtman, den« eben »soll man erkennen«, –<br />
+und auch der Îçvara (der persönliche Gott) wird verschlungen von dem Turîya (dem Vierten), – von dem Turîya!<br /></cite> [Nrisinha-Uttara-Tâpanîya-Upanishad]</p>
+<p><cite>Wie fließende Ströme im Meer verschwinden, ihren Namen und ihre Form verlieren, so schreitet ein weiser Mensch, von Namen und Gestalt befreit, in die göttliche Weisheit ein, die über allem steht.<br /></cite> [Yajnavalkya-D]</p>
+<p><cite>Und wer auch immer, Ananda, jetzt oder nach seinem Tode sich selbst Richtschnur sein wird, sich selbst Zuflucht sein wird, keine äußere Zuflucht suchen wird, sondern zur Wahrheit stehen wird als zu seiner Richtschnur ... und zu niemandem Zuflucht nehmen wird , wird außer zu sich selbst - er ist der, der die allerhöchste Höhe erreichen wird. Doch er muß eifrig bestrebt sein zu lernen.<br /></cite> [Buddha-D]</p>
+<p><cite>Wissen ist eine Sache des Intellekts; es stellt sich in Begriffen dar und erhält Urteile über falsch und richtig, für und wider, also Ausschließungen, so daß es nur Bruchstücke der Wirklichkeit erfassen kann. Weisheit aber ist ein Gegensätze transzendierendes Einswerden [Anmerkung: eigentlich nicht Einswerden sondern Erkennen des Einsseins] mit der Wirklichkeit <strong>alles</strong> Daseienden, etwas Erlebnishaftes, das nach Abwerfen rationaler Beschränkungen, aller Ansichten und Lehren erfahren wird. Sie wird als „All-Wissenheit“ (sarvajnata) definiert und steht im Mahayana sysnonym für „Erleuchtung“ (bodhi)...<br />
+Indem er durchschaut, daß alles Existierende [Anmerkung: dies sind die Objektivationen des Willens bei Schopenhauer] ein Produkt fluktuierender Dharmas ist [Anmerkung: eben des Willens], erkennt er die Leerheit [Anmerkung: das Undingliche, das Gesetz bei Heisenberg oder Dürr] als die einzige Wirklichkeit in allen Erscheinungen. Zugleich erlebt er sie als mit der Soheit der Welt und der Buddhaheit der Buddhas identisch: in der Leerheit durchschaut er die Wesen und Buddhas als eins und erlöst. Zwischen einem Buddha und einem Weltmenschen, so geht ihm auf, besteht kein wesenhafter Unterschied. Ein Buddha lediglich ist sich seiner Buddhaheit bewußt - er <strong>weiß</strong>, daß er ein Buddha ist. Im Weltling dagegen ist die Buddhanatur unter Unwissenheit verschüttet. In Unkenntnis seiner Buddhaheit hält er sich für unerlöst.<br />
+Die Weisheitserkenntnis der Leerheit verändert die Haltung des Menschen von Grund auf. Nicht nur durchschaut er das samsarische Leiden als Schein und Traum - auch Buddhaschaft und Nirvana haben für ihn den Wert verloren. Sie sind illusionäre Ideale, nützlich nur für den, der nichts von seiner wesenhaften Erlöstheit weiß.<br /></cite> [Schumann S.174-175]</p>
+<p><strong>Über den Weg zum Glück</strong></p>
+<p><cite>Die Gold suchen, graben viel Erde und finden wenig.<br /></cite> [Heraklit-F]</p>
+<p><cite>12. Wenn seine Seele blind ist durch die Mâyâ,<br />
+Bewohnt den Leib er und betreibt die Werke,<br />
+Durch Weiber, Speise, Trank und viel Genüsse<br />
+Erlangt er Sättigung im Stand des Wachens.<br /></cite> [Kaivalya-Upanishad]</p>
+<p><cite>Darüber ist auch dieser Vers:<br />
+9. Vor dem die Worte umkehren<br />
+Und das Denken, nicht findend ihn,<br />
+Wer dieses Brahman's Wonne kennt,<br />
+Der fürchtet sich vor keinem mehr.<br />
+Ihn, fürwahr, quälen nicht mehr die Fragen: „Welches Gute habe ich unterlassen?“ — „Welches Böse habe ich begangen?“ — Wer, solches wissend, sich von diesen hin zum Atman rettet, der rettet sich zugleich von beiden [Gutem und Bösem] hin zum Atman, — wer solches weiß. — So lautet die Upanishad.<br /></cite> [Taittiriya-Upanishad, Anandavalli]</p>
+<p><cite>14. Wenn alle Leidenschaft schwindet,<br />
+Die nistet in des Menschen Herz,<br />
+Dann wird, wer sterblich, unsterblich,<br />
+Hier schon erlangt das Brahman er.<br /></cite> [Kathaka-Upanishad, Zweiter Adhyaya, Sechste Valli]</p>
+<p><cite>9. Spalt' hundertmal des Haars Spitze<br />
+Und nimm davon ein Hundertstel,<br />
+Das denk' als Größe der Seele,<br />
+Und sie wird zur Unendlichkeit.<br />
+10. Er ist nicht weiblich, nicht männlich,<br />
+Und doch ist er auch sächlich nicht;<br />
+Je nach dem Leib, den er wählte,<br />
+Steckt er in diesem und in dem.<br />
+11. Durch Wahn des Vorstellens, Berührens, Sehens,<br />
+Fährt er als Seele, seinem Werk entsprechend,<br />
+Durch Essens, Trinkens, Zeugens Selbsterschaffung,<br />
+Abwechselnd hier und dort in die Gestalten.<br />
+12. Als Seele wählt viel grobe und auch feine<br />
+Gestalten er, entsprechend seiner Tugend;<br />
+Und was ihn band, kraft seines Werks und Selbstes,<br />
+In diese, bindet wieder ihn in andre.<br />
+13. Wer ihn, anfanglos, endlos, in dem Gemenge<br />
+Als Weltenschöpfer vielfach sich gestaltend.<br />
+Den Einen, der das Weltall hält umschlossen,<br />
+Als Gott kennt, wird befreit von allen Banden.<br />
+14. Wer im Herzen den nestlosen (leiblosen),<br />
+Sein und Nichtsein bewirkenden.<br />
+Die [sechzehn] Teile bindenden<br />
+Sel'gen Gott sucht, verläßt den Leib.<br /></cite> [Svetasvatara-Upanishad, Fünfter Adhyaya]</p>
+<p><cite>Wenn ihn der Seher schaut, wie Goldschmuck strahlend,<br />
+Den Schöpfer, Herrn und Geist, die Brahmanwiege,<br />
+Dann gibt der Weise Gutes auf und Böses,<br />
+Einsmachend alles in dem Ew'gen, Höchsten.<br /></cite> [Maytrayana-Upanishad, Sechster Prapathaka]</p>
+<p><cite>6. Der Schauende schaut nicht den Tod,<br />
+Nicht Krankheit und nicht Ungemach,<br />
+Das All nur schaut der Schauende,<br />
+Das All durchdringt er allerwärts.<br /></cite> [Maytrayana-Upanishad, Siebenter Prapathaka]</p>
+<p><cite>8. Wer jenes Höchst-und-Tiefste schaut,<br />
+Dem spaltet sich des Herzens Knoten,<br />
+Dem lösen alle Zweifel sich,<br />
+Und seine Werke werden Nichts.<br /></cite> [Mundaka-Upanishad, Zweites Mundakam]</p>
+<p><cite>Das aber verkünde ich, o Freund: in eben diesem klafterhohen, mit Wahrnehmung und Bewußtsein versehenen Körper, da ist die Welt enthalten, der Welt Entstehung, der Welt Ende und der zu der Welt Ende führende Pfad.<br /></cite> [Anguttara Nikaya IV 45]</p>
+<p><cite>Leidvoll ist Lust, o Eraka!<br />
+Nicht Glück bringt Lust, o Eraka!<br />
+Wer sich nach Sinnenlüsten sehnt,<br />
+ersehnt das Leiden, Eraka!<br />
+Wer Sinnenlüste nicht ersehnt,<br />
+ersehnt nicht Leiden, Eraka!<br /></cite> [Theragata 93]</p>
+<p><cite>(1) Dies sind die geheimen Worte, die Jesus, der Lebendige, sprach und die<br />
+Didymus Judas Thomas niedergeschrieben hat.<br />
+Und er sprach: „Wer die Bedeutung dieser Worte findet, wird<br />
+den Tod nicht schmecken.“<br />
+(2) Jesus sprach: „Wer sucht, soll nicht aufhören zu suchen, bis er findet;<br />
+und wenn er findet, wird er erschrocken sein; und wenn er erschrocken ist,<br />
+wird er verwundert sein, und er wird über das All herrschen.“<br />
+(3) Jesus sprach: „Wenn die, die euch führen, euch sagen: Seht, das<br />
+Königreich ist im Himmel, so werden die Vögel des Himmels euch<br />
+vorangehen. Wenn sie euch sagen: es ist im Meer, so werden die Fische<br />
+euch vorangehen. Aber das Königreich ist in euch, und es ist außerhalb von<br />
+euch.<br />
+Wenn ihr euch erkennen werdet, dann werdet ihr erkannt, und ihr werdet<br />
+wissen, das ihr die Söhne des lebendigen Vaters seid. Aber wenn ihr euch<br />
+nicht erkennt, dann seid ihr in der Armut, und ihr seid die Armut.“<br />
+(4) Jesus sprach: „Der betagte Mensch wird nicht zögern, ein kleines Kind<br />
+von sieben Tagen zu fragen nach dem Ort des Lebens, und er wird<br />
+leben. Denn viele Erste werden Letzte werden, und sie werden ein einziger<br />
+werden.“<br />
+(37) Seine Jünger sprachen: „Wann wirst du uns offenbar werden, und wann<br />
+werden wir dich sehen?“<br />
+Jesus sprach: „Wenn ihr euch entkleidet ohne Scham und eure Kleider<br />
+nehmt und sie unter eure Füße legt wie die kleinen Kinder und auf sie tretet,<br />
+dann werdet ihr den Sohn des Lebendigen [sehen] und ihr werdet euch nicht<br />
+fürchten.“<br />
+(42) Jesus sprach: „Werdet Vorübergehende!“<br />
+(51) Seine Jünger sprachen zu ihm: „Wann wird die Ruhe der Toten<br />
+eintreten, und wann wird die neue Welt kommen?“<br />
+Er sprach zu ihnen: „Was ihr erwartet, ist gekommen, aber ihr erkennt es<br />
+nicht.“<br />
+(63) Jesus sprach: „Es war ein begüterter Mann, der viel Reichtum hatte. Er<br />
+sprach: Ich werde meine Reichtümer benutzen, um zu säen, zu ernten, zu<br />
+pflanzen, meine Speicher mit Frucht zu füllen, auf daß mir nichts fehle. Das<br />
+war es, was in seinem Herzen dachte. Und in jener Nacht starb er. Wer<br />
+Ohren hat, möge hören.“<br />
+(113) Seine Jünger sprachen zu ihm: „Das Königreich, wann wird es<br />
+kommen?“<br />
+Jesus sprach: „Es wird nicht kommen, wenn es erwartet wird. Man wird<br />
+nicht sagen: Seht, hier, oder seht, dort. Sondern das Königreich des Vaters<br />
+ist ausgebreitet über die Erde, und die Menschen sehen es nicht.“<br /></cite> [Thomas]</p>
+<p><cite>An die wenigen Erfahrungen, welche ich bis jetzt auf dem Wege zu meinem eigentlichen Lebensziel gefunden hatte, reihte sich diese neue: das Betrachten solcher Gebilde, das Sichhingeben an irrationale, krause, seltsame Formen der Natur erzeugt in uns ein Gefühl von der Übereinstimmung unseres Innern mit dem Willen, der diese Gebilde werden ließ — wir spüren bald die Versuchung, sie für unsere eigenen Launen, für unsere eigenen Schöpfungen zu halten — wir sehen die Grenzen zwischen uns und der Natur zittern und zerfließen und lernen die Stimmung kennen, in der wir nicht wissen, ob die Bilder auf unserer Netzhaut von äußeren Eindrücken stammen oder von inneren. Nirgends so einfach und leicht wie bei dieser Übung machen wir die Entdeckung, wie sehr wir Schöpfer sind, wie sehr unsere Seele immerzu teilhat an der beständigen Erschaffung der Welt. Vielmehr ist es dieselbe unteilbare Gottheit, die in uns und die in der Natur tätig ist, und wenn die äußere Welt unterginge, so wäre einer von uns fähig, sie wieder aufzubauen, denn Berg und Strom, Baum und Blatt, Wurzel und Blüte, alles Gebildete in der Natur liegt in uns vorgebildet, stammt aus der Seele, deren Wesen Ewigkeit ist, deren Wesen wir nicht kennen, das sich uns aber zumeist als Liebeskraft und Schöpferkraft zu fühlen gibt.<br /></cite> [Demian]</p>
+<p><strong>Das Wesen der Welt</strong></p>
+<p><cite>... weil ... ein großer Passagierdampfer an uns vorbeiglitt ... Was war der Dampfer wirklich? War er eine Masse Eisen mit einer Kraftzentrale, einem elektrischen Leitungssystem und Glühbirnen? Oder war er der Ausdruck einer menschlichen Absicht, eine Gestalt, die sich als Ergebnis der zwischenmenschlichen Beziehungen gebildet hat? Oder war er die Folge der biologischen Naturgesetze, die als Objekt für ihre Gestaltungskraft diesmal nicht nur Eiweißmoleküle, sondern Stahl und elektrische Ströme verwendet hatten? Stellt das Wort „Absicht“ also nur den Reflex dieser gestaltenden Kraft oder der Naturgesetze im menschlichen Bewußtsein dar?<br /></cite> [Heisenberg-G, Kap. 17]</p>
+<p><cite>Nach dem Abschluss dieser Entwicklung [der physikalischen Wissenschaft] scheinen die Wörter: „Materie“, „Kraft“, „Struktur von Raum und Zeit“ nur verschiedene Seiten des gleichen Geschehens zu bezeichnen. Die hierdurch erreichte Vereinheitlichung hat dabei zur Folge, dass keiner dieser Begriffe ohne Vorbehalt in dem einfachen ursprünglichen Sinne verwendet werden kann, sofern es sich nicht um Vorgänge im Bereich der täglichen Erfahrung handelt.<br /></cite> [Heisenberg-O]</p>
+<p><cite>Alle Elementarteilchen sind aus derselben Substanz, aus demselben Stoff gemacht, den wir nun Energie oder universelle Materie nennen können; sie sind nur verschiedene Formen, in denen Materie erscheinen kann.<br /></cite> [Heisenberg-P]</p>
+<p><cite>Im Gebiet der kleinsten Organismen kann ja auch die Frage, ob ein bestimmtes Gebilde ein „lebendes Wesen“ oder ein Stück „toter Materie“ sei, nur durch willkürliche Definitionen beantwortet werden.<br /></cite> [Heisenberg-O]</p>
+<p><cite>Bei diesen kleinsten Lebewesen aber wird die Frage, ob sie aus lebendiger oder toter Materie bestehen, unentscheidbar. Man kann dies so ausdrücken, daß es überhaupt nur lebendige Materie gebe; ...<br /></cite> [Heisenberg-O]</p>
+<p><cite>Gehört die eben aufgenommene Nahrung, die Luft, die eingeatmet wurde, mit zum Körper, oder nicht? Von welchem Zeitpunkt ab sollen sie als Teile des Körpers bezeichnet werden? Gehört das Schneckenhaus mit zum Organismus der Schnecke, das Netz mit zu dem der Spinne? Müsste nicht bis zu einem gewissen Grad auch das Erdreich, in dem die Pflanze wurzelt, mit zu ihrem lebendigen Zusammenhang gerechnet werden?<br /></cite> [Heisenberg-O]</p>
+<p><cite>Offenbar sind doch z.B. die folgenden biologischen Abläufe innerlich eng verwandt und gewissermaßen nur dem Grade nach verschieden: Der Aufbau eines Organs aus vielen gleichartigen Zellen; die Bildung eines nach bestimmten Gesetzen lebenden Ameisenstaates, der fast ebenso wie das Organ als etwas Ganzes reagiert; der Zusammenschluß von Menschen zu einer Gemeinschaft.<br /></cite> [Heisenberg-O]</p>
+<p><cite>Meine Herren, als Physiker, der sein ganzes Leben der nüchternen Wissenschaft, der Erforschung der Materie widmete, bin ich sicher von dem Verdacht frei, für einen Schwarmgeist gehalten zu werden. Und so sage ich nach meinen Erforschungen des Atoms dieses: Es gibt keine Materie an sich. Alle Materie entsteht und besteht nur durch eine Kraft, welche die Atomteilchen in Schwingung bringt und sie zum winzigsten Sonnensystem des Alls zusammenhält. Da es im ganzen Weltall aber weder eine intelligente Kraft noch eine ewige Kraft gibt - es ist der Menschheit nicht gelungen, das heißersehnte Perpetuum mobile zu erfinden - so müssen wir hinter dieser Kraft einen bewußten intelligenten Geist annehmen. Dieser Geist ist der Urgrund aller Materie. Nicht die sichtbare, aber vergängliche Materie ist das Reale, Wahre, Wirkliche - denn die Materie bestünde ohne den Geist überhaupt nicht - , sondern der unsichtbare, unsterbliche Geist ist das Wahre! Da es aber Geist an sich ebenfalls nicht geben kann, sondern jeder Geist einem Wesen zugehört, müssen wir zwingend Geistwesen annehmen. Da aber auch Geistwesen nicht aus sich selber sein können, sondern geschaffen werden müssen, so scheue ich mich nicht, diesen geheimnisvollen Schöpfer ebenso zu benennen, wie ihn alle Kulturvölker der Erde früherer Jahrtausende genannt haben: Gott! Damit kommt der Physiker, der sich mit der Materie zu befassen hat, vom Reiche des Stoffes in das Reich des Geistes. Und damit ist unsere Aufgabe zu Ende, und wir müssen unser Forschen weitergeben in die Hände der Philosophie.<br /></cite> [Planck]</p>
+<p><cite>Eigentlich gibt es gar nichts Unlebendiges!<br /></cite> [Dürr-M II.]</p>
+<p><cite>Dass ein Tisch im Grunde auch lebendig ist, bemerken wir nicht, weil wir ihn nur vergröbert betrachten und damit vereinfacht sehen.<br /></cite> [Dürr-GKP S.108]</p>
+<p><cite>Habt ihr nicht mich, sondern den Sinn vernommen, so ist es weise, im gleichen Sinn zu sagen: Eins ist alles.<br /></cite> [Heraklit-F]</p>
+<p><cite>Ein und dasselbe ist Lebendiges und Totes und Wachendes und Schlafendes und Junges und Altes; denn dies schlägt um und ist jenes, und jenes wieder schlägt um und ist dies.<br /></cite> [Heraklit-F]</p>
+<p><cite>Diese Weltordnung hier hat nicht der Götter noch der Menschen einer geschaffen, sondern sie war immer und ist und wird sein: immer-lebendes Feuer, aufflammend nach Maßen, und verlöschend nach Maßen.<br /></cite> [Heraklit-F]</p>
+<p><cite>Für Feuer ist Gegentausch alles und Feuer für alles wie Geld für Gold und Gold für Geld.<br /></cite> [Heraklit-F]</p>
+<p><cite>Kaltes erwärmt sich, Warmes kühlt sich ab, Feuchtes vertrocknet, Dürres wird benetzt.<br /></cite> [Heraklit-F]</p>
+<p><cite>In die gleichen Ströme steigen wir und steigen wir nicht; wir sind es und sind es nicht.<br /></cite> [Heraklit-F]</p>
+<p><cite>Alles ist im Fluß.<br /></cite> [Heraklit-F]</p>
+<p><cite>... ewiges Werden, endloser Fluß gehört zur Offenbarung des Wesens des Willens.<br /></cite> [Schopenhauer-D 2. Buch §29]</p>
+<p><cite>Und diesen tausend Gottheiten erstand das staublose, unbefleckte Auge für die Lehre: „Was immer auch dem Entstehen angehört, alles gehört auch der Vernichtung an!“<br /></cite> [Majjhimanikaya Nr.147]</p>
+<p><cite>(77) Jesus sprach: „Ich bin das Licht, das über ihnen allen ist. Ich bin das<br />
+All, das All ist aus mir hervorgegangen, und das All ist bis zu mir<br />
+ausgedehnt. Spaltet ein Holz, ich bin da. Hebt den Stein auf, und ihr werdet<br />
+mich dort finden.“<br /></cite> [Thomas]</p>
+<p><cite>9. Aus dem die Hymnen, Opfer, Werk, Gelübde.<br />
+Vergangnes, Künftiges, Vedalehren stammen.<br />
+Der hat als Zauberer diese Welt geschaffen.<br />
+In der der andre ist verstrickt durch Blendwerk.<br />
+10. Als Blendwerk die Natur wisse,<br />
+Als den Zaub'rer den höchsten Gott;<br />
+Doch ist von seinen Teilstoffen<br />
+Durchdrungen diese ganze Welt.<br /></cite> [Svetasvatara-Upanishad, Vierter Adhyaya]</p>
+<p><cite>1. Dieses ist die Wahrheit:<br />
+Wie aus dem wohlentflammten Feuer die Funken,<br />
+Ihm gleichen Wesens, tausendfach entspringen,<br />
+So geh'n, o Teurer, aus dem Unvergänglichen<br />
+Die mannigfachen Wesen<br />
+Hervor und wieder in dasselbe ein.<br />
+2. Denn himmlisch ist der Geist, der ungestaltete,<br />
+Der draußen ist und drinnen, ungeboren,<br />
+Der odemlose, wünschelose, reine,<br />
+Noch höher, als das höchste Unvergängliche.<br />
+3. Aus ihm entsteht der Odem, der<br />
+Verstand und alle Sinne,<br />
+Aus ihm entstehen Äther, Wind und Feuer,<br />
+Das Wasser und Alltragende, die Erde.<br /></cite> [Mundaka-Upanishad, Zweites Mundakam]</p>
+<p><cite>4. Und er sprach:<br />
+"Was oberhalb des Himmels ist, o Gârgî, und was unterhalb der Erde ist<br />
+und was zwischen beiden, dem Himmel und der Erde, ist,<br />
+was sie das Vergangene, Gegenwärtige und Zukünftige nennen,<br />
+das ist eingewoben und verwoben in dem Raume (Äther)."<br /></cite> [Brihadaranyaka-Upanishad, Dritter Adhyaya, Achtes Brahmanam]</p>
+<p><cite>Der erste Vorläufer der Newtonschen Abstraktion [gemeint ist die Vorstellung eines absoluten Raumes] dürfte der Begriff des Leeren der griechischen Atomisten (Leukipp, Demokrit) sein. Dieser hat seinerseits eine philosophische Vorgeschichte. Parmenides von Elea hat den Begriff des Seienden (éon) als Grundbegriff eingeführt. Das Seiende kann nicht entstehen und nicht vergehen, denn es müßte aus dem Nichtseienden entstehen und in das Nichtseiende vergehen; das Nichtseiende aber ist nicht. Die Veränderung der Welt, die wir erfahren, ist dann bloße Erscheinung (doxa).<br /></cite> [Weizsäcker 6.2.d]</p>
+<p><cite>Die Vielheit der Dinge in Raum und Zeit, welche sämtliche seine [= des Willens] Objektität sind, trifft daher ihn nicht, und er bleibt ihrer ungeachtet untheilbar. Nicht ist etwan ein kleinerer Teil von ihm im Stein, ein größerer im Menschen: ...<br /></cite> [Schopenhauer-D 2. Buch §25]</p>
+<p><cite>Die Vielheit ist bloßer Schein; in Wahrheit gibt es nur EIN Bewußtsein. Das ist die Lehre der Upanischaden […] Nichts spiegelt sich! Die Welt ist nur einmal gegeben. Urbild und Spiegelbild sind eins. Die in Raum und Zeit ausgedehnte Welt existiert nur in unsrer Vorstellung.<br /></cite> [Schrödinger G&amp;M S.79,92]</p>
+<p><cite>Auch Erwin Schrödinger versteht die eigentliche Wirklichkeit als Geist. Sie ist für ihn das Ganze, das Eine, wie es uns in unserem Bewußtsein unmittelbar und ungebrochen entgegentritt. „Die Vielheit anschauender und denkender Individuen ist nur Schein, sie besteht in Wirklichkeit gar nicht.“ Die Vielheit sind verschiedene Reflektionen des Einen, ähnlich wie im Gleichnis der Philosophen des Vedanta die vielen Spiegelungen eines einzigen Gegenstands im Kristall.<br /></cite> [Dürr P&amp;E V.]</p>
+<p><strong>Erkenntnistheorie</strong></p>
+<p><cite>Eine besondere Folge dieses Bewußtwerdens lebendiger Zusammenhänge muß noch hervorgehoben werden: daß nämlich das Bewußtsein - im Gegensatz zu allen niederen Zusammenhängen - zu einer scharfen Trennung des Individuums von seiner Umwelt führt.<br /></cite> [Heisenberg-O]</p>
+<p><cite>Wie eine Spinne in der Mitte ihres Netzes spürt, sobald eine Fliege einen der Fäden zerreißt, und darum schnell herzueilt, als wäre sie besorgt um den zerrissenen Faden, so wandert die Seele des Menschen, falls ein Körperteil verletzt ist, eilends dorthin, gleichsam empört über die Verletzung des Körpers, mit dem sie fest und nach bestimmtem Sinn verbunden ist.<br /></cite> [Heraklit-F]</p>
+<p><cite>Der Mann heißt kindisch vor Gott wie der Knabe vor dem Mann.<br /></cite> [Heraklit-F]</p>
+<p><cite>„Wenn einer [außer sich] kein andres sieht, kein andres<br />
+hört, kein andres erkennt, das ist die Unbeschränktheit;<br />
+wenn er ein andres sieht, hört, erkennt, das ist das Beschränkte.<br />
+Die Unbeschränktheit ist das Unsterbliche, das<br />
+Beschränkte ist sterblich.“<br /></cite> [Chandogya-Upanishad, Siebenter Prapathaka, Vierundzwanzigster Khanda]</p>
+<p><cite>'Als wesenlos die Eindrücke,<br />
+Gehör, Gefühl im Menschen sind,<br />
+Und doch vergißt, in sie vergafft,<br />
+Der Bhutatman die höchste Welt.'<br /></cite> [Maitrayana-Upanishad, Vierter Prapathaka]</p>
+<p><cite>"Ich war anderswo mit meinem Verstande (Manas), darum sah ich nicht;<br />
+ich war anderswo mit meinem Verstande, darum hörte ich nicht"; so sagt man;<br />
+denn nur mit dem Verstande sieht man und mit dem Verstande hört man.<br />
+Verlangen, Entscheidung, Zweifel, Glaube, Unglaube,<br />
+Festigkeit, Unfestigkeit, Scham, Erkenntnis, Furcht, –<br />
+alles dies ist nur Manas.<br /></cite> [Brihadaranyaka-Upanishad, Erster Adhyaya, Fünftes Brahmanam]</p>
+<p><cite>12. Mit diesem [Selbst] ist es wie mit einem Salzklumpen,<br />
+der, ins Wasser geworfen, sich in dem Wasser auflöst,<br />
+also daß es nicht möglich ist, ihn wieder herauszunehmen,<br />
+woher man aber immer schöpfen mag, überall ist es salzig; –<br />
+also, fürwahr, geschieht es auch,<br />
+daß dieses große, endlose, uferlose, aus lauter Erkenntnis bestehende Wesen<br />
+aus diesen Elementen [Erde, Wasser, Feuer, Luft, Äther] sich erhebt<br />
+und in sie wieder mit [dem Leibe] untergeht;<br />
+nach dem Tode ist kein Bewußtsein, so, fürwahr, sage ich." – Also<br />
+sprach Yâjñavalkya.<br /></cite> [Brihadaranyaka-Upanishad, Zweiter Adhyaya, Viertes Brahmanam]</p>
+<p><cite>Was Mönche, ist das All? -: Das Auge und die Formen, das Ohr und die Töne, die Nase und die Gerüche, die Zunge und die Geschmäcke, der Körper und die Tastobjekte, das Denkorgan und die Denkobjekte.<br /></cite> [Saṃyutta-nikāya 35, 23, 3 IV S.15]</p>
+<p><cite>Wenn ich am hellichten Tag die Augen öffne, so liegt es nicht in meiner Macht zu entscheiden, ob ich sehen werde oder nicht, oder auch welche einzelnen Gegenstände sich meinem Blick darbieten werden. Und genauso ist es beim Hören und anderen Sinneserregungen. Die ihnen gemäßen Vorstellungen sind nicht Geschöpfe meines Willens. Daraus kann man folgern, dass es einen anderen Willen oder Geist gibt, der sie hervorbringt.<br /></cite> [Berkeley $29]</p>
+<p><cite>Ein Mensch ist Teil eines Ganzen, von uns Universum genannt - ein Teil, begrenzt in Zeit und Raum. Er erfährt sich, seine Gedanken und Gefühle, als getrennt vom Rest der Welt - eine Art optische Wahnvorstellung des Bewusstseins. Diese Wahnvorstellung ist ein Gefängnis, das unsere persönlichen Wünsche und Zuneigungen auf einige wenige Personen, die uns am nächsten stehen, begrenzt.<br /></cite> [Einstein]</p>
+<p><cite>Ich weiß ehrlich nicht, was die Leute meinen, wenn sie von Freiheit des menschlichen Willens sprechen. Ich habe zum Beispiel das Gefühl, dass ich irgendetwas will; aber was das mit Freiheit zu tun hat, kann ich überhaupt nicht verstehen. Ich spüre, dass ich meine Pfeife anzünden will und tue das auch; aber wie kann ich das mit der Idee der Freiheit verbinden? Was liegt hinter dem Willensakt, dass ich meine Pfeife anzünden will? Ein anderer Willensakt? Schopenhauer hat einmal gesagt:"Der Mensch kann, was er will; er kann aber nicht wollen, was er will!"<br /></cite> [Einstein]</p>
+<p><cite>Wenn wir einmal eingesehen haben, dass jede physikalische Theorie im wesentlichen lediglich ein Modell für die Welt der Erfahrung ist, müssen wir alle Hoffnung aufgeben, so etwas wie die „richtige“ Theorie finden zu können. Nichts hindert eine Reihe sehr unterschiedlicher Modelle daran, mit der Erfahrung zu übereinstimmen (sie sind also alle „richtig“), und es gibt einfach deshalb, weil uns niemals die Gesamtheit aller Erfahrungen zugänglich ist, keine Möglichkeit, die vollständige Richtigkeit eines Modells zu bestätigen.<br /></cite> [Everett-VW 7]</p>
+<p><cite>Beim begrifflichen Reden machen wir wohl im allgemeinen eine stillschweigende Voraussetzung, die etwa auf die Trennbarkeit der Alternativen hinausläuft. Es ist in der Tat schwer zu sehen, wie eindeutige Begriffe gebildet werden sollten, wenn alles von allem abhinge. Andererseits hängt in der Wirklichkeit wohl in der Tat alles mit allem zusammen. Begriffliches Denken kann darum wohl im Bereich der Erfahrung nie volle Eindeutigkeit erreichen.<br /> [Weizsäcker 8.3.b.1]</cite></p>
+<p><cite>Die Naturwissenschaft handelt nicht von der eigentlichen Wirklichkeit, der ursprünglichen Welterfahrung oder allgemeiner: was dahinter steht!, sondern nur von einer bestimmten Projektion dieser Wirklichkeit, nämlich von dem Aspekt, den man, nach Maßgabe detaillierter Anleitungen in Experimentalhandbüchern, durch „gute“ Beobachtungen herausfiltern kann.<br /></cite> [Dürr P&amp;E I.]</p>
+<p><cite>Mit unserem analytischen Denken und einer begrifflich scharf gefaßten Sprache, am exaktesten in der Kunstsprache der Mathematik, zerbrechen wir notwendigerweise das Ganze in Teile. Wir versuchen dann am Ende das Ganze wieder aus der Summe aller seiner Teile gedanklich zurückzugewinnen. Aber mit diesem zurückgewonnenen Ganzen fangen wir das „Ganzheitliche“ nicht ein, das, wie eine Gestalt, etwas „Einheitliches“ bringt, für das es keine Teile gibt. Das einheitliche Ganze, das Ganzheitliche kann deshalb nicht mehr „gedacht“ werden, sondern nur in unserem Bewußtsein als solches auftauchen.<br /></cite> [Dürr P&amp;E III.]</p>
+<p><cite>Die [Quanten-]Umgebung [des Quanten-Systems] bildet eine starke Quelle für die indirekte Erlangung von Information über das System. In der Tat ist es wichtig zu erkennen, dass Beobachter meistens (wenn nicht immer) Information über den Zustand eines Systems durch indirekte Beobachtung sammeln... ein charakteristisches Merkmal der klassischen Physik ist die Tatsache, das der Zustand eines Systems durch viele Beobachter unabhängig voneinander herausgefunden und bestätigt werden kann, ohne diesen Zustand zu stören. <strong>In diesem Sinn existieren klassische Zustände objektiv und führen zu unserer Vorstellung von „klassischer Realität.“</strong><br /></cite> [Schlosshauer Kap. 2.9]</p>
+<p><strong>Über die Religion</strong></p>
+<p><cite>Etliche schrien so, etliche anders, und die Versammlung war in Verwirrung, und die meisten wußten nicht, warum sie zusammengekommen waren.</cite> [Apostel 19]</p>
+<p><cite>Leichen verdienen mehr als Mist, dass man sie wegwirft.<br /></cite> [Heraklit-F]</p>
+<p><cite>... erscheint es daher eben so verkehrt, die Fortdauer seiner Individualität zu verlangen, welche durch andere Individuen ersetzt wird, als den Bestand der Materie seines Leibes, die stets durch neue ersetzt wird: es erscheint eben so thöricht, Leichen einzubalsamiren, als es wäre, seine Auswürfe sorgfältig zu bewahren.<br /></cite> [Schopenhauer-D 4. Buch §54]</p>
+<p><cite>Jabali, ein gelehrter Brahmane und wortgewandter Sophist (nichts wahr ihm Glaube und Pflicht), sprach also zum Fürsten Ayodhyas: "Warum lässest, oh Rama, du müß`ge Gebote dein Herz so bedrängen? Sinds doch Gebote, die Dummen und Blöden zu täuschen! Mich jammern die irrenden Menschen, die vermeintliche Pflichten befolgen: Sie opfern den süßen Genuß, bis ihr unfruchtbar Leben versickert. Vergeblich bringen sie noch den Göttern und Vätern ihr Opfer. Vergeudetes Mahl! Kein Gott und kein Vater nimmt jemals geopferte Speise. Wenn einer sich mästet, was frommt es den anderen? Dem Brahmanen gespendete Speise, was hilft sie den Vätern? Listige Priester erfanden Gebote und sagen mit eigensüchtigen Sinnen: "Gib deine Gabe, tu Buße und bete, laß fahren die irdische Habe! Nicht gibt es ein Jenseits, oh Rama, vergeblich ist hoffen und Glauben; genieße dein Leben allhier, verachte das ärmliche Blendwerk!"<br /></cite> [Ramayana-D]</p>
+<p><cite>Das religiöse Empfinden des Wissenschaftlers äußert sich als hingerissenes Staunen, über die Harmonie der Naturgesetzte, welche eine Intelligenz von solcher Überlegenheit offenbaren, dass, verglichen damit, das gesamte systematische Denken der Menschen ein äußerst unbedeutender Abglanz ist.<br /></cite> [Einstein]</p>
+<p><cite>Der Laie meint gewöhnlich, wenn er ‚Wirklichkeit‘ sagt, spreche er von etwas Selbstverständlich-Bekanntem; während es mir gerade die wichtigste und überaus schwierige Aufgabe unserer Zeit zu sein scheint, daran zu arbeiten, eine neue Idee der Wirklichkeit auszubauen. Dies ist es auch, was ich meine, wenn ich immer betone, daß Wissenschaft und Religion etwas miteinander zu tun haben ‚müssen‘.<br /></cite> [Pauli]</p>
+<p><cite>„Naturwissenschaft ohne Religion ist lahm, Religion ohne Naturwissenschaft ist blind“ sagt Albert Einstein.<br /></cite> [Dürr P&amp;E V.]</p>
+<p><strong>Über Alles </strong></p>
+<p><cite><a href="21">Mandukya-Karika</a><br /></cite> [Mandukya-Upanishad]</p>
+<!-- ENDEMARKE --></div></div></div>  </div>
+
+  <div class="clearfix">
+          <div class="links"></div>
+    
+      </div>
+
+</div>
+  </div>
+</div>
+  </div>
+          </div>
+                      <div class="region region-footer">
+    <div id="block-system-powered-by" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+</div>
+  </div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /#container -->
+  </div> <!-- /#wrapper -->
+  </body>
+</html>

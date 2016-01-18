@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../sites/default/files/pyramid_power.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="24" />
+<link rel="canonical" href="../Juristerei" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Juristerei | Physikalismus</title>
+  <style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/system/system.base.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.menus.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.messages.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.theme.css?nwwcfu");
+</style>
+<style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/comment/comment.css?nwwcfu");
+@import url("http://physikalismus.de/modules/field/theme/field.css?nwwcfu");
+@import url("http://physikalismus.de/modules/node/node.css?nwwcfu");
+@import url("http://physikalismus.de/modules/search/search.css?nwwcfu");
+@import url("http://physikalismus.de/modules/user/user.css?nwwcfu");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/default/files/color/garland-b0e715b8/style.css@nwwcfu");
+</style>
+<style type="text/css" media="print">
+@import url("http://physikalismus.de/themes/garland/print.css?nwwcfu");
+</style>
+
+<!--[if lt IE 7]>
+<link type="text/css" rel="stylesheet" href="http://physikalismus.de/themes/garland/fix-ie.css?nwwcfu" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?nwwcfu"></script>
+<script type="text/javascript" src="../sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@nwwcfu"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"1PcCPTJqSMuC13pcmExoM0kU9kG5Gz_jvKq0G23Hkzc","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/node\/24":true,"\/Juristerei?destination=node\/24":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-24 node-type-page fluid-width" >
+  <div id="skip-link">
+    <a href="24#main-content" class="element-invisible element-focusable">Direkt zum Inhalt</a>
+  </div>
+      
+  <div id="wrapper">
+    <div id="container" class="clearfix">
+
+      <div id="header">
+        <div id="logo-floater">
+                              <div id="branding"><strong><a href="../index.html">
+                          <img src="../sites/default/files/pyramid_power.png" alt=" " title=" " id="logo" />
+                                    </a></strong></div>
+                          </div>
+
+        <h2 class="element-invisible">Hauptmenü</h2><ul class="links inline main-menu"><li class="menu-218 first"><a href="../index.html" title="">Start</a></li>
+<li class="menu-310"><a href="../Quellen">Quellen</a></li>
+<li class="menu-311"><a href="../Zitate">Zitate</a></li>
+<li class="menu-410"><a href="../Bibliothek" title="Zum Verständnis Dienliches an diesem Ort Archiviertes">Bibliothek</a></li>
+<li class="menu-423 last"><a href="../Impressum">Impressum</a></li>
+</ul>              </div> <!-- /#header -->
+
+              <div id="sidebar-first" class="sidebar">
+            <div class="region region-sidebar-first">
+    <div id="block-search-form" class="block block-search clearfix">
+
+    
+  <div class="content">
+    <form action="24" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Suchformular</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
+ <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-zeeb7iyZyny3PqtfhT8XJ_qMBaTiDO5e1wI5GGnFP44" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-system-navigation" class="block block-system block-menu clearfix">
+
+    <h2 class="title">Navigation</h2>
+  
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="../Dao" title="Der Weg zur Erkenntnis">Dao</a></li>
+<li class="leaf"><a href="../Bewusstsein" title="Gedanken über den Geist">Bewusstsein</a></li>
+<li class="leaf"><a href="../Energie" title="Ein Wort zur Energie">Energie</a></li>
+<li class="leaf"><a href="../Erloesung" title="Wie kann das Abgeteilte erlöst werden?">Erlösung</a></li>
+<li class="leaf"><a href="../Erwachsenwerden" title="Erwachsenwerden in der Begrifflichkeit des Schopenhauerschen Willens">Erwachsenwerden</a></li>
+<li class="leaf"><a href="../Freunde" title="Wie Freunde uns in die Irre führen">Freunde</a></li>
+<li class="leaf"><a href="../Geister" title="Wann ist ein Geist ein Geist?">Geister</a></li>
+<li class="leaf"><a href="../Geld" title="Preis als Energie und Geld als Software">Geld</a></li>
+<li class="collapsed"><a href="../Gleichnisse" title="Gleichnisse für Physiker von einem Physiker über Physik">Gleichnisse</a></li>
+<li class="leaf"><a href="../Ethik" title="Was sollen wir tun?">gut &amp; böse</a></li>
+<li class="leaf"><a href="../Ich" title="Was ist das Ich?">Ich</a></li>
+<li class="leaf"><a href="../Jesus" title="Wie ich mir Jesus vorstelle">Jesus</a></li>
+<li class="leaf active-trail"><a href="../Juristerei" title="Kann richtig geurteilt werden?" class="active-trail active">Juristerei</a></li>
+<li class="leaf"><a href="../Kampf" title="Die falsche Idee vom totalen Frieden">Kampf</a></li>
+<li class="leaf"><a href="../N" title="Was an den natürlichen Zahlen unnatürlich ist">N</a></li>
+<li class="collapsed"><a href="../Quantenmechanik" title="Die philosophischen Konsequenzen aus der Quantenmechanik">Quanten</a></li>
+<li class="leaf"><a href="../Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen">Reduktionismus</a></li>
+<li class="leaf"><a href="../Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
+<li class="leaf"><a href="../Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
+<li class="last leaf"><a href="../Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+</ul>  </div>
+</div>
+<div id="block-user-login" class="block block-user clearfix">
+
+    <h2 class="title">Benutzeranmeldung</h2>
+  
+  <div class="content">
+    <form action="http://physikalismus.de/Juristerei?destination=node/24" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Benutzername <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">Passwort <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="first last"><a href="../user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
+</ul></div><input type="hidden" name="form_build_id" value="form-mDwpDZ-Dz0Q1YzTrvnkJtG0sNyv3R2CpjdaE4JjPGEo" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
+</div>
+  </div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <h2 class="element-invisible">Sie sind hier</h2><div class="breadcrumb"><a href="../index.html">Startseite</a></div>                    <a id="main-content"></a>
+          <div id="tabs-wrapper" class="clearfix">                                <h1 class="with-tabs">Juristerei</h1>
+                              </div>                                                  <div class="clearfix">
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <div id="node-24" class="node node-page" about="/Juristerei" typeof="foaf:Document">
+
+  
+      <span property="dc:title" content="Juristerei" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><cite>Der Radikale Konstruktivismus (RK) nimmt für sich in Anspruch, das Wahrheitsproblem gelöst zu haben, indem er aus dieser Zirkularität heraustritt. Da alle Wahrnehmung subjektiv ist, ist auch die Sicht der Welt oder die Sicht von Dingen ausschließlich subjektiv. Es gibt daher nur miteinander konkurrierende subjektive Wahrheiten. Ein Vergleich mit der Sache selbst ist aus systematischen Gründen nicht möglich. Ernst von Glasersfeld bezieht sich dabei unter anderem auf die Sapir-Whorf-Hypothese, die besagt, dass man mit der Muttersprache die in dieser enthaltenen und ausgedrückten Wahrheiten erlernt. Verschiedene Muttersprachen stehen somit auch für verschiedene Wahrheiten. Der RK gibt daher konsequent den Begriff der einen Wahrheit und damit der Wahrheit selbst aus systematischen Gründen auf.<br /></cite> [Wikipedia 2013]</p>
+<p><cite>Dieser den Wissenschaften eigentümliche Weg der Erkenntnis, vom Allgemeinen zum Besonderen, bringt es mit sich, daß in ihnen vieles durch Ableitung aus vorhergegangenen Sätzen, also durch Beweise begründet wird, und dies hat den alten Irrtum veranlaßt, daß nur das Bewiesene vollkommen wahr sei und jede Wahrheit eines Beweises bedürfe; da vielmehr im Gegenteil jeder Beweis einer unbewiesenen Wahrheit bedarf, die zuletzt ihn oder auch wieder seine Beweise stützt: daher eine unmittelbar begründete Wahrheit der durch einen Beweis begründeten so vorzuziehen ist wie Wasser aus der Quelle dem aus dem Aquädukt ...<br />
+Es kann keine Wahrheit geben, die unbedingt allein durch Schlüsse herauszubringen wäre; sondern die Notwendigkeit, sie bloß durch Schlüsse zu begründen, ist immer nur relativ, ja subjektiv ...<br />
+Beweise sind überhaupt weniger für die, welche lernen, als für die, welche disputieren wollen.<br /></cite> [Schopenhauer-D 1. Buch §14]</p>
+<p>Wahrheiten gibt es demnach so viele wie erkennende Subjekte. Die Wirklichkeit ist nicht direkt erfahrbar, sondern nur als Vorstellung. Dass man Vorstellungen besitze, die mit der Wirklichkeit übereinstimmen und damit absolut wahr sein könnten, ist ein irrsinniger Glaube. Eher könnte es gelingen, eine <cite>Vorstellungswahrheit</cite> zu definieren als Maß für die Entfernung einer bestimmten Vorstellung von der Wirklichkeit. Nur wer definiert, was <strong>die</strong> Wirklichkeit ist, wenn niemand sie sicher kennt?</p>
+<p><cite>Sie schwören, dass Sie nach bestem Wissen die reine Wahrheit gesagt und nichts verschwiegen haben. - Ich schwöre es.</cite></p>
+<p>Was tut somit einer kund, der mit so einer Eidesformel schwört? Übersetzt ungefähr dies:</p>
+<p><cite>Ich schwöre, dass ich ein Seher bin, der die Wirklichkeit direkt und ohne die üblichen Umwege, welche über Leib und Sinne führen, erkennen kann. Ferner bin ich dazu in der Lage, was ich erkenne in Wortsprache anderen Nichtsehern mitzuteilen, und zwar so, dass sie nach Erfahrung über den Gehörsinn und Deutung des Gehörten ebenfalls direkt die Wirklichkeit erkennen können - so wie ich.<br /></cite></p>
+<p>Es könnte auch dies bedeuten:</p>
+<p><cite>Ich schwöre, dass ich dazu in der Lage bin, aus den wenigen Sinneseindrücken, die mir zur Verfügung stehen, stets die gesamte Wirklichkeit zu rekonstruieren, woran bisher alle auch noch so genialen Wissenschaftler gescheitert sind. Denn ich bin im Besitz eines Perpetuum Mobile, das aus wenig Information in eindeutiger Weise viel Information erschaffen kann.<br /></cite></p>
+<p>Was kann man denn einem glauben, der so etwas behauptet? </p>
+<p>Wahrheitsfindung vor Gericht bedeutet, dass ein Richter (oder Richtergremium) sich eine Meinung bildet, was in der Wirklichkeit geschehen sei - und dies nicht aufgrund eigener Sinneserfahrung, sondern aufgrund der Erfahrung anderer, die meist systematisch versuchen, die Meinung des Richters in die Richtung des eigenen Willens zu lenken, und das losgelöst von deren eigenen Vorstellungen über die Wirklichkeit, sozusagen gelogen. Man könnte meinen, so ein Unterfangen könne immer nur scheitern. Oft genug gelingt es doch, was wesentlich von der Kunst der Richter abhängt.  </p>
+<p>Was hier herausgestrichen werden soll ist, dass vor Gericht niemals mit Sicherheit Gerechtigkeit hergestellt werden kann, und zwar <strong>prinzipiell nicht</strong>. Bei vielen verhandelten Fällen wird es immer welche geben, in denen die Vorstellungen des oder der Richtenden sehr weit von der Wirklichkeit entfernt sind - die Ursache von Fehlurteilen. Doch wer kann entscheiden, welches Urteil ein Fehlurteil ist und welches nicht? </p>
+<p>Die Zuhilfenahme von technischen Mitteln bringt keine prinzipielle Besserung. Die richtige Anwendung erhöht sicher die Vorstellungswahrheit in obigem Sinne - aber nur im statistischen Mittel. </p>
+<p>Ein Beispiel: </p>
+<p>Ein Geschwindigkeitsmessgerät dokumentiert automatisch Temposünder anhand von Nummernschildern und scharfen Fotos aller Insassen (mit allem, was die Technik hergibt). Wenn ein Richter die Aufzeichnungen sieht, so wird er stets glauben, dass wenn ein Nummernschild scharf zu erkennen ist und eine Geschwindigkeit dazu gemessen worden ist und ein Sachverständiger versichert, dass das Gerät in einwandfreiem Zustand gewesen ist, dass sich zu jenem Eigenzeitpunkt Materie über der zulässigen Höchstgeschwindigkeit bewegt hat. Und zwar Materie, die gemeinhin als Automobil bezeichnet wird. </p>
+<p>Selbst wenn das Gerät einwandfrei arbeitet, so wie es erdacht worden ist: eine Störung aus den Tiefen des Alls kann es immer durcheinanderbringen, ein Ereignis vortäuschen, das nie dagewesen ist. Sollte einer das Pech haben, aufgrund eines Neutrinoeinfangs geblitzt worden zu sein, so wird er erfahren: <strong>auch in einem Rechtsstaat kann die Beweislast beim Angeklagten landen</strong>. Niemand wird ihm jemals glauben, wenn er nicht selbst Gegenbeweise beschaffen kann.</p>
+<p>Durch Vertrauen auf bessere Vorstellungswahrheit durch die Anwendung technischer Mittel kann deren Nutzen wiederum konterkariert werden - so geschehen im Wattestäbchen-Skandal. </p>
+<p>Der Mensch kalkuliert Wahrscheinlichkeiten immer nur für Dinge, die er sich vorstellen kann oder will. Für das Kernkraftwerk in Fukujima gab es sicher Risikoberechungen aber wahrscheinlich keine, die einen Tsunami berücksichtigten. Die nicht in die Kalkulation eingegangenen Wahrscheinlichkeiten sind in der Wirklichkeit nichtsdestotrotz vorhanden!</p>
+<p>Kommen wir nun zum eigentlichen Zweck des Rechts und der Justizapparate. Keineswegs haben sie das Ziel, in jedem Einzelfall gerecht zu entscheiden. Fehlurteile wird es immer geben, sie sind prinzipbedingt. Der eigentlich Zweck ist die Bewahrung der größeren Form, des Stammes, des Staates. Dessen Überleben soll gesichert werden. Dazu ist es notwendig, die widerstrebenden Naturkräfte auf der Ebene des Willens juristischer Personen in geordnete Bahnen zu lenken, so dass sie die größere Form nicht bedrohen. So wie sich die (intern und extern) waltenden Kräfte wandeln, so wie sich größere Formen wandeln, mit denen man in Konkurrenz steht, so muss sich auch das Recht und die Justiz wandeln und anpassen. Der Wandel des Rechts ist somit ganz natürlich. Immergleiches Recht, als was manch einer die 10 Gebote oder die Scharia auffasst, führt früher oder später zum Untergang der größeren Form, die dieses Recht anwendet.</p>
+</div></div></div>  </div>
+
+  <div class="clearfix">
+          <div class="links"></div>
+    
+      </div>
+
+</div>
+  </div>
+</div>
+  </div>
+          </div>
+                      <div class="region region-footer">
+    <div id="block-system-powered-by" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+</div>
+  </div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /#container -->
+  </div> <!-- /#wrapper -->
+  </body>
+</html>

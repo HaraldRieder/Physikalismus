@@ -1,0 +1,246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="sites/default/files/pyramid_power.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="node/65" />
+<link rel="canonical" href="Sprache" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Wie die Sprache uns in die Irre führt | Physikalismus</title>
+  <style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/system/system.base.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.menus.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.messages.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.theme.css?nwwcfu");
+</style>
+<style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/comment/comment.css?nwwcfu");
+@import url("http://physikalismus.de/modules/field/theme/field.css?nwwcfu");
+@import url("http://physikalismus.de/modules/node/node.css?nwwcfu");
+@import url("http://physikalismus.de/modules/search/search.css?nwwcfu");
+@import url("http://physikalismus.de/modules/user/user.css?nwwcfu");
+</style>
+<style type="text/css" media="all">
+@import url("sites/default/files/color/garland-b0e715b8/style.css@nwwcfu");
+</style>
+<style type="text/css" media="print">
+@import url("http://physikalismus.de/themes/garland/print.css?nwwcfu");
+</style>
+
+<!--[if lt IE 7]>
+<link type="text/css" rel="stylesheet" href="http://physikalismus.de/themes/garland/fix-ie.css?nwwcfu" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?nwwcfu"></script>
+<script type="text/javascript" src="sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@nwwcfu"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"7Kco35yozbaPhJMK_YgFUalaCkocqm5YvdnXrIgHDdA","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Sprache":true,"\/Sprache?destination=node\/65":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-65 node-type-page fluid-width" >
+  <div id="skip-link">
+    <a href="Sprache#main-content" class="element-invisible element-focusable">Direkt zum Inhalt</a>
+  </div>
+      
+  <div id="wrapper">
+    <div id="container" class="clearfix">
+
+      <div id="header">
+        <div id="logo-floater">
+                              <div id="branding"><strong><a href="index.html">
+                          <img src="sites/default/files/pyramid_power.png" alt=" " title=" " id="logo" />
+                                    </a></strong></div>
+                          </div>
+
+        <h2 class="element-invisible">Hauptmenü</h2><ul class="links inline main-menu"><li class="menu-218 first"><a href="index.html" title="">Start</a></li>
+<li class="menu-310"><a href="Quellen">Quellen</a></li>
+<li class="menu-311"><a href="Zitate">Zitate</a></li>
+<li class="menu-410"><a href="Bibliothek" title="Zum Verständnis Dienliches an diesem Ort Archiviertes">Bibliothek</a></li>
+<li class="menu-423 last"><a href="Impressum">Impressum</a></li>
+</ul>              </div> <!-- /#header -->
+
+              <div id="sidebar-first" class="sidebar">
+            <div class="region region-sidebar-first">
+    <div id="block-search-form" class="block block-search clearfix">
+
+    
+  <div class="content">
+    <form action="Sprache" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Suchformular</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
+ <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-csyKVPZRqGC_uo4s4a4y-0VyMx-f8Zw9_wKdC6JDk3s" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-system-navigation" class="block block-system block-menu clearfix">
+
+    <h2 class="title">Navigation</h2>
+  
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="Dao" title="Der Weg zur Erkenntnis">Dao</a></li>
+<li class="leaf"><a href="Bewusstsein" title="Gedanken über den Geist">Bewusstsein</a></li>
+<li class="leaf"><a href="Energie" title="Ein Wort zur Energie">Energie</a></li>
+<li class="leaf"><a href="Erloesung" title="Wie kann das Abgeteilte erlöst werden?">Erlösung</a></li>
+<li class="leaf"><a href="Erwachsenwerden" title="Erwachsenwerden in der Begrifflichkeit des Schopenhauerschen Willens">Erwachsenwerden</a></li>
+<li class="leaf"><a href="Freunde" title="Wie Freunde uns in die Irre führen">Freunde</a></li>
+<li class="leaf"><a href="Geister" title="Wann ist ein Geist ein Geist?">Geister</a></li>
+<li class="leaf"><a href="Geld" title="Preis als Energie und Geld als Software">Geld</a></li>
+<li class="collapsed"><a href="Gleichnisse" title="Gleichnisse für Physiker von einem Physiker über Physik">Gleichnisse</a></li>
+<li class="leaf"><a href="Ethik" title="Was sollen wir tun?">gut &amp; böse</a></li>
+<li class="leaf"><a href="Ich" title="Was ist das Ich?">Ich</a></li>
+<li class="leaf"><a href="Jesus" title="Wie ich mir Jesus vorstelle">Jesus</a></li>
+<li class="leaf"><a href="Juristerei" title="Kann richtig geurteilt werden?">Juristerei</a></li>
+<li class="leaf"><a href="Kampf" title="Die falsche Idee vom totalen Frieden">Kampf</a></li>
+<li class="leaf"><a href="N" title="Was an den natürlichen Zahlen unnatürlich ist">N</a></li>
+<li class="collapsed"><a href="Quantenmechanik" title="Die philosophischen Konsequenzen aus der Quantenmechanik">Quanten</a></li>
+<li class="leaf"><a href="Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen">Reduktionismus</a></li>
+<li class="leaf"><a href="Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
+<li class="leaf active-trail"><a href="Sprache" title="Wie die Sprache uns in die Irre führt" class="active-trail active">Sprache</a></li>
+<li class="last leaf"><a href="Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+</ul>  </div>
+</div>
+<div id="block-user-login" class="block block-user clearfix">
+
+    <h2 class="title">Benutzeranmeldung</h2>
+  
+  <div class="content">
+    <form action="http://physikalismus.de/Sprache?destination=node/65" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Benutzername <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">Passwort <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="first last"><a href="user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
+</ul></div><input type="hidden" name="form_build_id" value="form-BYKpc2cGyex6rihhoEJl_dBPNXcxWth5z8D9W9kxUVg" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
+</div>
+  </div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <h2 class="element-invisible">Sie sind hier</h2><div class="breadcrumb"><a href="index.html">Startseite</a></div>                    <a id="main-content"></a>
+          <div id="tabs-wrapper" class="clearfix">                                <h1 class="with-tabs">Wie die Sprache uns in die Irre führt</h1>
+                              </div>                                                  <div class="clearfix">
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <div id="node-65" class="node node-page" about="/Sprache" typeof="foaf:Document">
+
+  
+      <span property="dc:title" content="Wie die Sprache uns in die Irre führt" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Was ist Sprache?<br /><cite>Geschriebene und gesprochene Sprache ist ein Medium des Denkens und der Weltauffassung schlechthin </cite> [Wikipedia 2013, Wilhelm von Humboldt].</p>
+<p>Den Menschen dient sie zunächst zum Überleben in menschlichen Gemeinschaften unter den Herausforderungen des menschlichen Daseins. Sie ermöglicht abgestimmtes Verhalten durch die Übermittlung von Vorstellungen. Ihr Zweck ist damit ursprünglich pragmatisch und auf die physische Welt gerichtet. </p>
+<p><cite>Daß Lebewesen Präferenzordnungen, also im pragmatischen, nichtreflexiven Sinn des Worts, Begriffe haben, hängt mit den Bedingungen des Überlebens zusammen </cite> [Weizsäcker 5.6.d]</p>
+<p><cite>Wir haben hier auch mit einem sprachlichen Problem zu kämpfen. Unsere Sprache ist von ihrem Ursprung her angepasst an unsere Handlungen. Ich nenne daher unsere Umgangssprache gerne die „Apfel-Pflück-Sprache“.</cite> [Dürr-M II.]</p>
+<p>Die Wortsprache ermöglicht einen Abgleich der verschiedenen Vorstellungen, die vor den Einzelbewusstseinen stehen. Nach heutiger wissenschaftlicher Auffassung erfolgt die Speicherung solcher synchronisierter Vorstellungen in Gehirnen. Sprache beteiligt sich auf diese Weise an der Schaffung gespeicherter Modelle der Welt, die nach langem Lernen einigermaßen übertragbar von Mensch zu Mensch sind. Andersherum kann etwas, das nicht über Sprache abgeglichen werden kann, kaum vermittelt werden. Es mag in einzelnen Modellen vorhanden sein, aber es ist nicht gemeinschaftlich. So können sich Raben sicher über Dinge unterhalten, die uns Menschen nicht vermittelt werden können.</p>
+<p>Die Sprache macht die menschliche Art sehr erfolgreich. Über den pragmatischen Zweck hinaus erlaubt sie abstraktes, von der Wirklichkeit abgehobenes Denken. Der Mensch kann sich mit Hilfe der Sprache Vorstellungen schaffen, die mit der Wirklichkeit kaum noch etwas zu tun haben. Wenn jedoch hinreichend viele andere menschliche Vorstellungswelten mit seiner abgehobenen Vorstellung abgeglichen sind, dann ist es für ihn durchaus eine Realität, sozusagen eine sprachlich geschaffene gemeinsame Realität. „Ich bin katholisch.“ Was soll dies bedeuten? Es gibt irgendwo einen Zettel auf dem „katholisch.“ steht zusammen mit einem Namen, den ich als die eindeutige Kennung meines Bewusstseins ansehe? Oder soll es bedeuten, dass in diesem Gehirn Inhalte gespeichert sind, die in bestimmten Situationen mit hoher Wahrscheinlichkeit zu ganz bestimmten Reaktionen führen werden, zum Beispiel zu barmherziger Hilfe oder zu Hexenverbrennungen?</p>
+<p>Der Mensch findet es letztlich ganz normal, die niemals sich wiederholenden vielfältigsten Sinneseindrücke einer lebendigen Wirklichkeit auf wenige sprachliche Symbole abzubilden, die er ständig wiederholt. Die Reduktion der Information erfolgt dabei in einer astronomischen Größenordnung! Schließlich findet sein ganzes bewusstes Denken in diesem extremst reduzierten Weltbild statt. Damit liegt das sprachunterstützte menschliche Denken grundsätzlich um astronomische Größenordnungen neben der Wirklichkeit. Wenn man von dem Vorhandensein dieses Fehlers nichts weiß, kann man auf Ideen wie Rassismus, Nationalismus oder Fanatismus kommen.</p>
+<p>Ein Beispiel mit Eigenschaftswörtern:</p>
+<p>kalt - kühl - lau - warm - heiß</p>
+<p>Dies ist so ungefähr der deutsche Wortschatz zur Beschreibung:</p>
+<ul><li>einer subjektiven Empfindung: „Mir ist kalt“ kann auch bei hoher physikalischer Temperatur geäußert werden.</li>
+<li>der physiklischen Temperatur</li>
+</ul><p>Lange Verhandlungen und Palaver zwischen Menschen sind notwendig wenn es darum geht, sich auf ein Eigenschaftswort für einen groben physikalischen Temperaturbereich, z.B. eines lauwarmen Frühstückseies, zu einigen. Der Naturwissenschaftler vermeidet diese Schwierigkeiten durch ein unendliches Reservoir an reellen Zahlen und eine Messvorschrift zur Ermittlung der reellen Zahl für die Temperatur, inklusive Schranken für die Messfehler. </p>
+<p>Wenn schon nicht klar ist, was z.B. „kalt“ bedeuten soll, dann sollte man vielleicht wenigstens von einem Wort wie „Stuhl“ erwarten können, dass es eine einigermaßen klare Bedeutung im Sinne einer Abbildung aus der Wirklichkeit in die Vorstellungswelt hat. </p>
+<p>Was ist ein Stuhl?</p>
+<ul><li>Ist ein Festkörper.</li>
+<li>Hat eine bestimmte geometrische Gestalt: 1..n Füße, eine Sitzfläche, eine Rückenlehne.</li>
+<li>Erlaubt einem Menschen längere Zeit sitzende Haltung einzunehmen.</li>
+</ul><p>So könnte man sich in etwa auf „Stuhl“ einigen. Das mit dem Festkörper relativiert sich, wenn jemand auf die Idee kommt, analog zum Wasserbett einen Wasserstuhl zu erfinden. Die geometrische Gestalt könnte man noch am ehesten mathematisch exakt erfassen. Die Übergänge zum Sessel, den es ja auch noch als Wort gibt, sind aber fließend. Man könnte einen Bausatz entwerfen, mit dem sich zwischen Sessel und Stuhl jegliche Übergangsform bauen ließe.<br />
+Das Unterstützen der Sitzhaltung ist der wichtige pragmatische Zweck, der durch diesen Begriff gegriffen wird. Witzig wird es, wenn die ersten beiden Punkte klar erfüllt sind, aber der 3. trotzdem nicht, z.B. weil der Stuhl aus Weichgummi ist oder ein winziger Puppenstubenstuhl. Witzig ist es auch, wenn jemand etwas als Stuhl bezeichnet und benützt, dass die Sitzhaltung gut unterstützt, aber dafür nicht die erwartete geometrische Gestalt hat, zum Beispiel ein Ölfass mit Rückenlehne. Wenn wir merken, dass unser Sprachmodell an seine Grenzen stößt, fangen wir an zu lachen. Wenn wir es nicht merken, fangen wir an, uns zu bekriegen.</p>
+<p><cite>Das Lachen entsteht jedesmal aus nichts anderm als aus der plötzlich wahrgenommenen Inkongruenz zwischen einem Begriff und den realen Objekten, die durch ihn in irgendeiner Beziehung gedacht worden waren, und es ist selbst eben nur der Ausdruck dieser Inkongruenz.</cite> [Schopenhauer-D 1. Buch §13]</p>
+<p>Selbst wenn man sich mit vielen Menschen einig ist, dass da ein Stuhl herumstehe, so hören die Schwierigkeiten mit diesem Wort noch lange nicht auf. Nehmen wir mal an, der Stuhl wird hin- und hergerückt. Beim Hinrücken wird ein organisches Molekül des Stuhls vom Fußboden weggehobelt. Beim Herrücken landet es durch einen großen Zufall wieder an der ursprünglichen Position. Ist dieses Molekül jetzt immer Bestandteil des Stuhls gewesen oder zwischenzeitlich nicht? Wie weit muss sich das Molekül entfernen, um nicht mehr zum Stuhl zu gehören? Wie lange muss es zeitlich weg sein? Der Rand des Stuhls ist offensichtlich nicht scharf zu fassen! </p>
+<p>Jetzt geht ein Bein kaputt und wird durch ein neues ersetzt. Welches Bein gehört zum Stuhl, das alte, das neue, oder beide? Das alte Bein wird repariert und wieder an den Stuhl befestigt. Gehört es jetzt wieder zum Stuhl? Mit welcher Kraft muss es befestigt sein, damit es wieder zum Stuhl gehört? Reichen van-der-Waals-Kräfte?</p>
+<p>Was ist mit dem elektromagnetischen Feld im Stuhl? Es ist eine Überlagerung aus Feldern der Ladungsträger des Stuhls und Feldern aus den Weiten des Alls. Wenn ein Photon aus dem Gesamtfeld heraustritt, woher stammt es dann? Aus dem Stuhl oder dem Rest des Weltalls? Kann man das immer feststellen?</p>
+<p>Betrachten wir als weiteres Beispiel ein „Huhn“. Wann ist ein Huhn ein Huhn? Wenn es aus dem Ei geschlüpft ist? Oder ist es davor schon ein Huhn, eben ein ungeschlüpftes Huhn im Ei? Ein einförmiges Ei wandelt sich zu einer ziemlich ausgefransten Erscheinung. Das Huhn hat einen Stoffwechsel. Moleküle werden ständig ausgetauscht.<br /><cite>Man kann nicht zweimal in denselben Fluss steigen, denn andere Wasser strömen nach.</cite> [Heraklit] (Und auch man selbst ist inzwischen ein anderer.)<br />
+Mikroorganismen bevölkern den Darm. Bakterien, ohne die das Huhn nicht leben kann zusammen mit solchen, die es töten würden - und wahrscheinlich alle Zwischenstufen davon. Welche Bakterien soll man zum Huhn dazurechnen? Ist der Darminhalt eher Teil des Huhns oder ist er als Außenwelt zu betrachten? </p>
+<p>Ab wann ist ein Mensch ein Mensch? Ab der Befruchtung? Da muss er sich doch erst noch zum Vielzeller entwickeln! Und dann zum Fisch und so weiter. Hier kommt die einzig richtige Antwort auf diese Frage: <strong>Bitte trete nochmal 3 Schritte zurück und versuche zu erkennen, dass diese Frage sinnlos gestellt ist und jedes Palaver darüber genau so sinnlos!</strong> Eine bessere Frage wäre: „Wie kann man sich auf eine Messvorschrift einigen, die besagt, wie  Menschlichkeit gemessen werden kann?“ Das Ergebnis der Messung müsste eine reelle Zahl sein, oder ein Vektor oder allgemein ein Tensor.</p>
+<p>Wann ist ein Mensch tot? Wie wäre diese Frage wohl zu beantworten? </p>
+<p><cite>10. Was hier ist, das ist auch dorten.<br />
+Was dorten ist, das ist auch hier;<br />
+Von Tod in neuen Tod stürzt sich,<br />
+Wer hier Verschied'nes meint zu sehn.<br />
+11. Im Geiste soll man dies merken:<br />
+Nicht ist hier Vielheit irgendwie.<br />
+Von Tod zu neuem Tod schreitet,<br />
+Wer hier Verschied'nes meint zu sehn.<br />
+...<br />
+14. Wie Wasser, im Gebirg regnend.<br />
+An den Abhängen sich verläuft.<br />
+So verläuft, wer den Eindrücken<br />
+Einzeln folgt, hinter ihnen, sich.</cite><br />
+[Kathaka-Upanishad, Zweiter Adhyaya, Vierte Valli]</p>
+<p>Am Anfang freut sich der Lernende, wenn er seinen Wortschatz erweitern kann. Einfachere Naturen haben einen geringeren Wortschatz. Der Wortreiche denkt sich den Wortärmeren prinzipiell überlegen und genießt, dass er von Zuhörern derart beurteilt wird. Die wenigsten sind sich bewusst, dass bezüglich der Tiefe der Erkenntnis irgendwann auf dem eingetretenen Pfad nichts mehr zu erlangen ist.</p>
+<p><cite>Nicht durch Belehrung wird erlangt der Atman,<br />
+Nicht durch Verstand und viele Schriftgelehrtheit;<br />
+Nur wen er wählt, von dem wird er begriffen:<br />
+Ihm macht der Atman offenbar sein Wesen.</cite><br />
+[Kathaka-Upanishad, Erster Adhyaya, Zweite Valli]</p>
+<p><cite>Vielwisserei lehrt keine Vernunft; sonst hätte sie Hesiod belehrt und Pythagoras, auch Xenophanes und Hekataios. Denn das Weise ist das Eine: den einsichtsvollen Willen zu verstehen, der alles durch alles hindurchsteuert.</cite> [Heraklit-F] </p>
+<p><strong>Deutsch</strong></p>
+<p>Am Anfang meiner Münchner Zeit lernte ich einen aus Rumänien zugezogenen Violinisten kennen. Er war der Meinung, dass das Deutsche die beste Sprache zum Philosophieren sei. Die damalige Software in meinem Gehirn maß dieser Äußerung keine große Bedeutung bei und war der Meinung, dass außer einer weltweit einheitlichen Sprache ohnehin keine weiteren notwendig seien. Das Deutsche hat aber eine Eigenheit, die dem Englischen fehlt. Es lassen sich neue Haupt-, Eigenschafts- und Zeitwörter durch Zusammensetzung bilden. Die durch die Sprache vorgenommene Zerhackung der Wirklichkeit kann so wieder ein wenig zurückgenommen werden. „Ich apfelernte“ kann etwas anderes bedeuten wie „ich ernte Äpfel“. </p>
+<p><strong>Genmutation</strong></p>
+<p>Dieser Begriff ist ein typisches Beispiel für ein wissenschaftlich klingendes Fremdwort, hinter dem sich Nichterkenntnis versteckt: beinhaltet es doch, dass das Fortbestehen eines DNA-Moleküls der Normalfall sei und seine Veränderung etwas Besonderes, das etwa nach einer Einwirkung „von außen“ erfolgt. Nun ist ein DNA-Molekül auch nichts anderes wie alles andere, was man sich als physikalisches Ding vorstellt. Es ist ein Stück „Materie“, eine Konfiguration der Energie, die man sich - was der erste Denkfehler ist - abgetrennt vom Rest denkt. Quantentheoretisch würde man es erfassen als Zustand in einem hochdimensionalen Konfigurationsraum. Oder genauer als ein Zustandsgemisch von solchen Zuständen, die wir noch mit „dieses DNA-Molekül“ bezeichnen können. Diese Zustände haben <strong>immer</strong> nichtverschwindende Übergangswahrscheinlichkeiten (wie man sie z.B. mit den S-Matrixelementen berechnet) in andere Zustände, die wir nicht mehr als „dieses DNA-Molekül“ bezeichnen würden. Der Wandel ist sicher, das Fortbestehen immer nur eine vorübergehend mögliche Näherungsvorstellung.<br />
+Der geringe Gewinn an diesem Begriff ist die Verständigung darauf, dass man von allen möglichen Zustandsübergängen nur solche betrachten will, die in Zustände führen, die noch als „ein anderes DNA-Molekül“ bezeichnet werden können - und nicht in solche, die als „Nicht-DNA-Moleküle“ oder als „Atome“ oder als „Plasma“ bezeichnet werden müssten.</p>
+<p><strong>Sprache und Erkenntnis</strong></p>
+<p>Wieso reden und schreiben selbst solche Philosophen, die abstreiten, dass fundamentale Erkenntnis in Worten gelehrt werden kann? Ist das nicht sinnlos? Als Weg zur Erkenntnis können solche Reden und Schriften für Viele durchaus untauglich sein. Wer den gewohnten Sinn hinter den Begriffen sieht, wird daraus Botschaften entnehmen, mit denen er nichts anfangen kann. Oder er wird Botschaften entnehmen, die nicht gemeint waren. Wieso also?<br />
+Einerseits richten sich diese Denker damit an andere Denker, die von selbst zu den gleichen Erkenntnissen gekommen sind. Wie Schopenhauer in den Upanishaden können Philosophen in den Schriften der Anderen ihr eigenes Denken wiedererkennen. Und so sind solche Schriften die Belletristik des Philosophen: sie festigen seine bereits vorhandenen Vorstellungen, sie bestätigen sein Denken.<br />
+Andererseits klappt es trotzdem manchmal, Vorstellungen der Anderen, die eigentlich zu weit entfernt für einen sprachlichen Abgleich zu sein scheinen, erfolgreich zu verändern. Und das rechtfertigt den Aufwand für philosophische Schriften.</p>
+<p>Wenn wir als Menschen unser Leben in Vorstellungswelten verbringen, jeder in seiner eigenen, dann haben diese einen mehr oder weniger großen Abstand zur Wirklichkeit. Diesen Abstand kann man sich als Abstand von Punkten in einem vieldimensionalen Konfigurationsraum vorstellen. Im Grenzübergang zu unendlich vielen Vorstellungswelten würden wir eine Dichtefunktion auf dem Abstandsmaß erhalten, die irgendwo ein erkennbares Maximum hätte. Dieses Maximum würde definieren, was als „normal“ gilt.</p>
+<p><img src="sites/default/files/pictures/Sprache.png" width="600px" /></p>
+<p>Je stärker die Vorstellungen durch Sprache abgeglichen werden, desto spitzer ist die Dichtefunktion. </p>
+<p>Ein Weiser ist mit seiner Vorstellungswelt näher an der Wirklichkeit als ein Normaler. Und ein Wahnsinniger ist weiter weg. Da ein Normaler aber nicht weiß in welcher Richtung es zur Wirklichkeit geht, er meistens sogar glaubt, selbst am Nächsten dran zu sein, kommen ihm weise und wahnsinnige Vorstellungen sehr ähnlich vor.</p>
+<p>Als frei erfundenes Beispiel sei ein Beitrag der bayerischen Vorstellungswelten zur gesamten Dichte eingezeichnet. Im Beispiel wäre der „Synchronisationsdruck“ der bayerischen Sprache höher als der durch menschliche Sprache insgesamt, so dass die bayerisch abgeglichenen Vorstellungswelten enger beieinander lägen. Außerdem ist im Beispiel der durch die bayerische Sprache erreichte Mittelwelt vom normalen Wert verschoben in Richtung Wahnsinn eingezeichnet.</p>
+<p>Am Ende muss man erkennen, wie Sprache die Formung unterstützt. Menschliche Wortsprache hat keinen anderen Zweck als die Verständigung von Zellen in einem Organismus ihn hat: sie dient der höheren Form. Sie ist wie eine Rückkopplung, einerseits ist sie durch die Form bedingt, andererseits soll sie das Erscheinen ähnlicher Formen wahrscheinlicher machen. <strong>Sprache verhindert eine tiefere Erkenntnis des sprachlich nicht fassbaren Wesens hinter den Erscheinungen.</strong> Denn nicht zu diesem Zwecke gibt es sie.</p>
+</div></div></div>  </div>
+
+  <div class="clearfix">
+          <div class="links"></div>
+    
+      </div>
+
+</div>
+  </div>
+</div>
+  </div>
+          </div>
+                      <div class="region region-footer">
+    <div id="block-system-powered-by" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+</div>
+  </div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /#container -->
+  </div> <!-- /#wrapper -->
+  </body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="sites/default/files/pyramid_power.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="node/45" />
+<link rel="canonical" href="Bewusstsein" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Bewusstsein | Physikalismus</title>
+  <style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/system/system.base.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.menus.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.messages.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.theme.css?nwwcfu");
+</style>
+<style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/comment/comment.css?nwwcfu");
+@import url("http://physikalismus.de/modules/field/theme/field.css?nwwcfu");
+@import url("http://physikalismus.de/modules/node/node.css?nwwcfu");
+@import url("http://physikalismus.de/modules/search/search.css?nwwcfu");
+@import url("http://physikalismus.de/modules/user/user.css?nwwcfu");
+</style>
+<style type="text/css" media="all">
+@import url("sites/default/files/color/garland-b0e715b8/style.css@nwwcfu");
+</style>
+<style type="text/css" media="print">
+@import url("http://physikalismus.de/themes/garland/print.css?nwwcfu");
+</style>
+
+<!--[if lt IE 7]>
+<link type="text/css" rel="stylesheet" href="http://physikalismus.de/themes/garland/fix-ie.css?nwwcfu" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?nwwcfu"></script>
+<script type="text/javascript" src="sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@nwwcfu"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"r_ikmZ4wLv1ckVQFR0_VKzmCCBAgnHxExnbkMdLpMTE","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Bewusstsein":true,"\/Bewusstsein?destination=node\/45":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-45 node-type-page fluid-width" >
+  <div id="skip-link">
+    <a href="Bewusstsein#main-content" class="element-invisible element-focusable">Direkt zum Inhalt</a>
+  </div>
+      
+  <div id="wrapper">
+    <div id="container" class="clearfix">
+
+      <div id="header">
+        <div id="logo-floater">
+                              <div id="branding"><strong><a href="index.html">
+                          <img src="sites/default/files/pyramid_power.png" alt=" " title=" " id="logo" />
+                                    </a></strong></div>
+                          </div>
+
+        <h2 class="element-invisible">Hauptmenü</h2><ul class="links inline main-menu"><li class="menu-218 first"><a href="index.html" title="">Start</a></li>
+<li class="menu-310"><a href="Quellen">Quellen</a></li>
+<li class="menu-311"><a href="Zitate">Zitate</a></li>
+<li class="menu-410"><a href="Bibliothek" title="Zum Verständnis Dienliches an diesem Ort Archiviertes">Bibliothek</a></li>
+<li class="menu-423 last"><a href="Impressum">Impressum</a></li>
+</ul>              </div> <!-- /#header -->
+
+              <div id="sidebar-first" class="sidebar">
+            <div class="region region-sidebar-first">
+    <div id="block-search-form" class="block block-search clearfix">
+
+    
+  <div class="content">
+    <form action="Bewusstsein" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Suchformular</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
+ <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-IKZzKzXdHJcUcZa6gxQT67Igqzto7U5c1qHhrBrmORg" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-system-navigation" class="block block-system block-menu clearfix">
+
+    <h2 class="title">Navigation</h2>
+  
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="Dao" title="Der Weg zur Erkenntnis">Dao</a></li>
+<li class="leaf active-trail"><a href="Bewusstsein" title="Gedanken über den Geist" class="active-trail active">Bewusstsein</a></li>
+<li class="leaf"><a href="Energie" title="Ein Wort zur Energie">Energie</a></li>
+<li class="leaf"><a href="Erloesung" title="Wie kann das Abgeteilte erlöst werden?">Erlösung</a></li>
+<li class="leaf"><a href="Erwachsenwerden" title="Erwachsenwerden in der Begrifflichkeit des Schopenhauerschen Willens">Erwachsenwerden</a></li>
+<li class="leaf"><a href="Freunde" title="Wie Freunde uns in die Irre führen">Freunde</a></li>
+<li class="leaf"><a href="Geister" title="Wann ist ein Geist ein Geist?">Geister</a></li>
+<li class="leaf"><a href="Geld" title="Preis als Energie und Geld als Software">Geld</a></li>
+<li class="collapsed"><a href="Gleichnisse" title="Gleichnisse für Physiker von einem Physiker über Physik">Gleichnisse</a></li>
+<li class="leaf"><a href="Ethik" title="Was sollen wir tun?">gut &amp; böse</a></li>
+<li class="leaf"><a href="Ich" title="Was ist das Ich?">Ich</a></li>
+<li class="leaf"><a href="Jesus" title="Wie ich mir Jesus vorstelle">Jesus</a></li>
+<li class="leaf"><a href="Juristerei" title="Kann richtig geurteilt werden?">Juristerei</a></li>
+<li class="leaf"><a href="Kampf" title="Die falsche Idee vom totalen Frieden">Kampf</a></li>
+<li class="leaf"><a href="N" title="Was an den natürlichen Zahlen unnatürlich ist">N</a></li>
+<li class="collapsed"><a href="Quantenmechanik" title="Die philosophischen Konsequenzen aus der Quantenmechanik">Quanten</a></li>
+<li class="leaf"><a href="Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen">Reduktionismus</a></li>
+<li class="leaf"><a href="Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
+<li class="leaf"><a href="Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
+<li class="last leaf"><a href="Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+</ul>  </div>
+</div>
+<div id="block-user-login" class="block block-user clearfix">
+
+    <h2 class="title">Benutzeranmeldung</h2>
+  
+  <div class="content">
+    <form action="http://physikalismus.de/Bewusstsein?destination=node/45" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Benutzername <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">Passwort <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="first last"><a href="user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
+</ul></div><input type="hidden" name="form_build_id" value="form-0pOpR1F7yTD-ADwnapVJIxu0ecfcbwDLuVVY6eEeej8" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
+</div>
+  </div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <h2 class="element-invisible">Sie sind hier</h2><div class="breadcrumb"><a href="index.html">Startseite</a></div>                    <a id="main-content"></a>
+          <div id="tabs-wrapper" class="clearfix">                                <h1 class="with-tabs">Bewusstsein</h1>
+                              </div>                                                  <div class="clearfix">
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <div id="node-45" class="node node-page" about="/Bewusstsein" typeof="foaf:Document">
+
+  
+      <span property="dc:title" content="Bewusstsein" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><cite>In einem materialistischen Weltbild entsteht das Rätsel des Bewusstseins anhand der Frage, wie es prinzipiell möglich sein kann, dass aus einer bestimmten Anordnung und Dynamik von Materie die Vorstellung von Bewusstsein entsteht.</cite> [Wikipedia 2015]</p>
+<p>Niemand kann heute die Frage beantworten, wie Bewusstsein aus Materie entstehen kann, und doch glaubt die Hirnforschung, dies irgendwann leisten zu können. Vielleicht kann man das Problem der Entstehung vermeiden, wenn man den Glauben an die Entstehung aufgibt, die Frage nach der Entstehung gar nicht erst stellt? Vielleicht wird das Vorhandensein von Bewusstsein dadurch weniger unbegreiflich? </p>
+<p>Physiker wissen, dass sie in einer Welt leben, in der nichts entsteht und nichts vergeht. Aus allem wird stets etwas anderes. Nie kommt etwas hinein oder geht hinaus. Es konfiguriert sich nur um, es wandelt sich, und viele Eigenschaften müssen aufgrund von Symmetrien während des Wandels in Summe erhalten bleiben. Wieso sollte gerade der Geist aus Nichtgeist entstehen können? Könnte es nicht sein, dass das Bewusstsein immer schon vorhanden ist, in jedem Stein? Dass es nur einer bestimmten Konfiguration, einem Gehirn, bedarf, um es zu formen und an einen tierischen Leib zu binden, es zu lokalisieren, diesem Leib zu Diensten zu geben? Diese Betrachtung hat schon vor tausenden von Jahren zur Idee eines alldurchdringenden Bewusstseins oder Geistes geführt.</p>
+<p>In der indischen Tradition gibt es den Glauben an die Seelenwanderung. Dass diese Vorstellung zu einfach ist, dass da keine Dinge von einem Leib in einen anderen hinüberwandern, haben tiefere Denker schon immer gesehen. Doch wie soll man das jemandem beibringen, der in einer Vorstellungswelt lebt, die von einzelnen Wörtern aufgespannt wird? </p>
+<p><cite>"Warum, o Herr, hat der Erhabene die Frage des Pilgers Vacchagotto nicht beantwortet?"<br />
+"Hätte ich, Anando, auf die Frage des Pilgers Vacchagatto, ob es ein Selbst gibt, geantwortet: 'Es gibt ein Selbst', so wäre ich den Asketen und Brahmanen gefolgt, die Ewigkeit behaupten. Hätte ich aber, Anando, auf die Frage des Pilgers Vacchagotto, ob es kein Selbst gibt, geantwortet: 'Es gibt kein Selbst', dann wäre ich den Asketen und Brahmanen gefolgt, die Vernichtung behaupten.<br />
+"Hätte ich, Anando, auf die Frage des Pilgers Vacchagotto, ob es ein Selbst gibt, geantwortet: 'Es gibt ein Selbst' würde das der Erkenntnis entsprechen: 'Alle Dinge sind ohne Ich'?"<br />
+"Gewiß nicht, o Herr".<br />
+"Hätte ich aber, Anando, auf die Frage des Pilgers Vacchagotto, ob es kein Selbst gibt, geantwortet: 'Es gibt kein Selbst', so würde der verwirrte Vacchagotto noch mehr in Verwirrung geraten sein: 'Früher hatte ich ein Selbst, jetzt nicht mehr'."<br /></cite> [Samyutta Nikaya 44.10]</p>
+<p>Was uns der Buddha - oder der Autor - damit mitteilen wollte: es wohnt nicht irgendein unveränderliches Teil im Leib, das den Tod überdauert. So gesehen gibt es kein ewiges Selbst. Doch ist etwas Geistiges am Leib. Beide zusammen schaffen die Vorstellung vom Selbst, vom Ich. Dieses Geistige bleibt in derselben Weise erhalten wie der Leib: die Konfiguration wandelt sich ständig unter Austausch mit der Umgebung bei Erhaltung der Gesamtsubstanz. So gesehen gibt es eine Ewigkeit für dieses Geistige, so wie es Ewigkeit für den Leib gibt. Beide sind so gesehen über den Tod hinaus, der nur in der Vorstellung der Menschen ein Ende von etwas zuvor Seiendem ist. Vacchagotto wird dies nie verstehen können.</p>
+</div></div></div>  </div>
+
+  <div class="clearfix">
+          <div class="links"></div>
+    
+      </div>
+
+</div>
+  </div>
+</div>
+  </div>
+          </div>
+                      <div class="region region-footer">
+    <div id="block-system-powered-by" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+</div>
+  </div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /#container -->
+  </div> <!-- /#wrapper -->
+  </body>
+</html>

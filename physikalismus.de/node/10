@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../sites/default/files/pyramid_power.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="10" />
+<link rel="canonical" href="../Ethik" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Was sollen wir tun? | Physikalismus</title>
+  <style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/system/system.base.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.menus.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.messages.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.theme.css?nwwcfu");
+</style>
+<style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/comment/comment.css?nwwcfu");
+@import url("http://physikalismus.de/modules/field/theme/field.css?nwwcfu");
+@import url("http://physikalismus.de/modules/node/node.css?nwwcfu");
+@import url("http://physikalismus.de/modules/search/search.css?nwwcfu");
+@import url("http://physikalismus.de/modules/user/user.css?nwwcfu");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/default/files/color/garland-b0e715b8/style.css@nwwcfu");
+</style>
+<style type="text/css" media="print">
+@import url("http://physikalismus.de/themes/garland/print.css?nwwcfu");
+</style>
+
+<!--[if lt IE 7]>
+<link type="text/css" rel="stylesheet" href="http://physikalismus.de/themes/garland/fix-ie.css?nwwcfu" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?nwwcfu"></script>
+<script type="text/javascript" src="../sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@nwwcfu"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"uTESDeiduffe7cJb9w6FOt-5gm0NCKpYUCHGjuaMqQA","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/node\/10":true,"\/Ethik?destination=node\/10":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-10 node-type-page fluid-width" >
+  <div id="skip-link">
+    <a href="10#main-content" class="element-invisible element-focusable">Direkt zum Inhalt</a>
+  </div>
+      
+  <div id="wrapper">
+    <div id="container" class="clearfix">
+
+      <div id="header">
+        <div id="logo-floater">
+                              <div id="branding"><strong><a href="../index.html">
+                          <img src="../sites/default/files/pyramid_power.png" alt=" " title=" " id="logo" />
+                                    </a></strong></div>
+                          </div>
+
+        <h2 class="element-invisible">Hauptmenü</h2><ul class="links inline main-menu"><li class="menu-218 first"><a href="../index.html" title="">Start</a></li>
+<li class="menu-310"><a href="../Quellen">Quellen</a></li>
+<li class="menu-311"><a href="../Zitate">Zitate</a></li>
+<li class="menu-410"><a href="../Bibliothek" title="Zum Verständnis Dienliches an diesem Ort Archiviertes">Bibliothek</a></li>
+<li class="menu-423 last"><a href="../Impressum">Impressum</a></li>
+</ul>              </div> <!-- /#header -->
+
+              <div id="sidebar-first" class="sidebar">
+            <div class="region region-sidebar-first">
+    <div id="block-search-form" class="block block-search clearfix">
+
+    
+  <div class="content">
+    <form action="10" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Suchformular</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
+ <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-TVixJzuyYNkm8STx8-Glpc3UGAYpkfOYzP3Z8GEQt4Q" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-system-navigation" class="block block-system block-menu clearfix">
+
+    <h2 class="title">Navigation</h2>
+  
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="../Dao" title="Der Weg zur Erkenntnis">Dao</a></li>
+<li class="leaf"><a href="../Bewusstsein" title="Gedanken über den Geist">Bewusstsein</a></li>
+<li class="leaf"><a href="../Energie" title="Ein Wort zur Energie">Energie</a></li>
+<li class="leaf"><a href="../Erloesung" title="Wie kann das Abgeteilte erlöst werden?">Erlösung</a></li>
+<li class="leaf"><a href="../Erwachsenwerden" title="Erwachsenwerden in der Begrifflichkeit des Schopenhauerschen Willens">Erwachsenwerden</a></li>
+<li class="leaf"><a href="../Freunde" title="Wie Freunde uns in die Irre führen">Freunde</a></li>
+<li class="leaf"><a href="../Geister" title="Wann ist ein Geist ein Geist?">Geister</a></li>
+<li class="leaf"><a href="../Geld" title="Preis als Energie und Geld als Software">Geld</a></li>
+<li class="collapsed"><a href="../Gleichnisse" title="Gleichnisse für Physiker von einem Physiker über Physik">Gleichnisse</a></li>
+<li class="leaf active-trail"><a href="../Ethik" title="Was sollen wir tun?" class="active-trail active">gut &amp; böse</a></li>
+<li class="leaf"><a href="../Ich" title="Was ist das Ich?">Ich</a></li>
+<li class="leaf"><a href="../Jesus" title="Wie ich mir Jesus vorstelle">Jesus</a></li>
+<li class="leaf"><a href="../Juristerei" title="Kann richtig geurteilt werden?">Juristerei</a></li>
+<li class="leaf"><a href="../Kampf" title="Die falsche Idee vom totalen Frieden">Kampf</a></li>
+<li class="leaf"><a href="../N" title="Was an den natürlichen Zahlen unnatürlich ist">N</a></li>
+<li class="collapsed"><a href="../Quantenmechanik" title="Die philosophischen Konsequenzen aus der Quantenmechanik">Quanten</a></li>
+<li class="leaf"><a href="../Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen">Reduktionismus</a></li>
+<li class="leaf"><a href="../Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
+<li class="leaf"><a href="../Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
+<li class="last leaf"><a href="../Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+</ul>  </div>
+</div>
+<div id="block-user-login" class="block block-user clearfix">
+
+    <h2 class="title">Benutzeranmeldung</h2>
+  
+  <div class="content">
+    <form action="http://physikalismus.de/Ethik?destination=node/10" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Benutzername <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">Passwort <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="first last"><a href="../user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
+</ul></div><input type="hidden" name="form_build_id" value="form-PIvq4iG5-v6kuVcMAIHMtkl1HXJ8CROTteYcdgtzp8M" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
+</div>
+  </div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <h2 class="element-invisible">Sie sind hier</h2><div class="breadcrumb"><a href="../index.html">Startseite</a></div>                    <a id="main-content"></a>
+          <div id="tabs-wrapper" class="clearfix">                                <h1 class="with-tabs">Was sollen wir tun?</h1>
+                              </div>                                                  <div class="clearfix">
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <div id="node-10" class="node node-page" about="/Ethik" typeof="foaf:Document">
+
+  
+      <span property="dc:title" content="Was sollen wir tun?" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Was will der Wille eines Menschen, der Wille eines Abgeteilten? Er will Erscheinungen, bei denen er Glück empfand, in Zukunft wieder haben. Wenn der Verstand weiter entwickelt ist, dann will er Erscheinungen, die er noch gar nicht hatte, von denen er sich aber denkt, dass er dabei Glück empfinden müsste, in Zukunft haben. Der Wille von Menschen, die im Leben stehen, hat immer eine Richtung. Der Verstand arbeitet daran, Wahrscheinlichkeiten für zukünftige Ereignisse auszurechnen auf der Grundlage seiner Ursache-Wirkung-Modelle. Handlungen am Anfang der gedachten Kausalketten werden bewertet im Hinblick auf die Willensrichtung, im Hinblick auf die Ziele des Abgeteilten. Handlungen, die zur Erreichung der Ziele dienen, sind gute Handlungen, die anderen sind schlechte Handlungen. Ziele die Glücksgefühl auslösen sind gute Ziele, die anderen sind schlechte Ziele. </p>
+<p><strong>Gut und schlecht sind nichts weiter als Synonyme für das, was der Wille eines Abgeteilten will beziehungsweise nicht will.</strong> Da es verschiedene Willensrichtungen gibt, gibt es kein absolut Gutes und kein absolut Böses. Auf verschiedenen Ebenen - Familie, Verein, Religionsgemeinschaft, Staat - gibt es wiederum weitere Willensrichtungen. Endlos und sinnlos sind deswegen Palaver darüber, was als gut oder schlecht zu gelten habe. Viele Missverständnisse könnten sich die Beteiligten ersparen, wenn sie statt dessen über Ursache-Wirkungsmodelle und die Berechnung von Wahrscheinlichkeiten reden würden. Dann würden sie erkennen, dass vieles nicht so klar, keineswegs eindeutig ist, und ihr eigenes Wollen würde sich abschwächen. Das aber will die Natur gar nicht...</p>
+<p><cite>Ich will aber zuvörderst jene Begriffe gut und böse, welche von den philosophischen Schriftstellern unserer Tage, höchst wunderlicherweise, als einfache, also keiner Analyse fähige Begriffe behandelt werden, auf ihre eigentliche Bedeutung zurückführen; damit man nicht etwan in einem undeutlichen Wahn befangen bleibe, daß sie mehr enthalten, als wirklich der Fall ist, und an und für sich schon alles hier Nöthige besagten ...<br />
+Also Alles, was dem Willen in irgend einer seiner Aeußerungen zusagt, seinen Zweck erfüllt, das wird durch den Begriff gut gedacht, so verschieden es auch im Uebrigen seyn mag. Darum sagen wir gutes Essen, gute Wege, gutes Wetter, gute Waffen, gute Vorbedeutung u.s.w., kurz, nennen alles gut, was gerade so ist, wie wir es eben wollen; daher auch dem Einen gut seyn kann, was dem Andern gerade das Gegentheil davon ist ...<br />
+Der Begriff des Gegentheils wird, so lange von nichterkennenden Wesen die Rede ist, durch das Wort schlecht, seltener und abstrakter durch Uebel ausgedrückt, welches also alles dem jedesmaligen Streben des Willens nicht Zusagende bezeichnet. Wie alle andern Wesen, die in Beziehung zum Willen treten können, hat man nun auch Menschen, die den gerade gewollten Zwecken günstig, förderlich, befreundet waren, gut genannt, in der selben Bedeutung und immer mit Beibehaltung des Relativen, welches sich z.B. in der Redensart zeigt: »Dieser ist mir gut, dir aber nicht.« Diejenigen aber, deren Charakter es mit sich brachte, überhaupt die fremden Willensbestrebungen als solche nicht zu hindern, vielmehr zu befördern, die also durchgängig hülfreich, wohlwollend, freundlich, wohlthätig waren, sind, wegen dieser Relation ihrer Handlungsweise zum Willen Anderer überhaupt, gute Menschen genannt worden. Den entgegengesetzten Begriff bezeichnet man im Deutschen und seit etwan hundert Jahren auch im Französischen, bei erkennenden Wesen (Thieren und Menschen) durch ein anderes Wort als bei erkenntnißlosen, nämlich durch böse, méchant, während in fast allen andern Sprachen dieser Unterschied nicht Statt findet und kakos, malus, cattivo, bad von Menschen wie von leblosen Dingen gebraucht werden, welche den Zwecken eines bestimmten individuellen Willens entgegen sind.<br /></cite> [Schopenhauer-D 1. Band §65]</p>
+<p>Wenn ein Kind einen Erwachsenen fragt, warum er etwas macht - zum Beispiel den eigenen Gartenzaun neu streicht - so kann er darauf antworten. Wenn das Kind immer weiter <cite>warum?</cite> fragt, dann kann der Erwachsene bald nicht mehr antworten. Denn er kennt letztlich selber keinen Grund für das, was er will. Dies will der Erwachsene aber nicht wissen. Sein Leib hat seinen Verstand versklavt und der Erwachsene kann sogar wütend werden, wenn ein Kind dies entlarvt, wenn dieses Machtverhältnis in Frage gestellt wird.</p>
+<p>Es gibt Leute, die ihren Mitmenschen pausenlos erzählen müssen, was sie gut und schlecht finden. Wenn sie ein Erlebnis berichten, können sie es nicht tun, ohne dass sie ihre eigenen Wertungen hineinflechten oder noch krasser: vorwegschicken. Wenn die Wertungen mit den eigenen zufällig gut übereinstimmen, so kann so ein Erzähler durchaus als Freund oder vernünftiger Mensch angesehen werden. Gibt es aber kaum gemeinsame Wertungen, so wird so ein Erzähler als Angreifer empfunden. Und so einer ist er! Denn um nichts anderes als darum, seinen eigenen Willen durchzusetzen, geht es so einem Erzähler. </p>
+<p>Es gibt Leute, die ihren Mitmenschen gute Ratschläge geben, die ihnen dabei helfen wollen, im Leben alles richtig zu machen. Der Berater kann dabei durchaus selbstlos handeln. Es muss nicht sein, dass er sich zukünftiges persönliches Glück davon verspricht, dass der andere die gegebenen Ratschläge umsetzt. In diesem Fall geht es um Fortpflanzung auf der Ebene menschlicher Gehirn-Software. Die Software im Gehirn des Ratgebers versucht die Software im Gehirn des Anderen nach dem eigenen Bilde zu gestalten.</p>
+<p><strong>Der Sinn des Lebens</strong></p>
+<p>Als <cite>sinnvoll</cite> wird etwas bewertet, was die Wahrscheinlichkeit für die Erreichung eines Ziels, berechnet nach dem eigenen Ursache-Wirkungsmodell, erhöht. Das Ziel ist immer irgendwie zufällig. Eine Zahl für die Sinnhaftigkeit muss demnach wiederum zufällig sein. Die Frage nach dem Sinn des Lebens ist die Frage nach einem absoluten Sinn. Einen solchen absoluten Sinn gibt es genauso wenig wie es eine einzige Willensrichtung gibt.<br /><strong>Somit kann die Frage nach dem [absoluten] Sinn des Lebens klar beantwortet werden: es gibt keinen!</strong> Man könnte auch sagen: Gott denkt so nicht! <cite>Sinn</cite> ist ein Begriff, der in menschliche Vorstellungswelten greift, aber nicht in die Wirklichkeit. Heraklit hat es diese Erkenntnis so ausgedrückt: <cite>Für Gott ist alles schön und gut und recht; nur die Menschen sind der Meinung, das eine sei recht, das andere unrecht.</cite></p>
+<p><strong>Theodizee</strong></p>
+<p>Wie kann ein gütiger allmächtiger Gott zulassen, dass soviel Leidvolles in der Welt geschieht? Diese Fragestellung ist größenwahnsinnig und egozentrisch. Denn:</p>
+<ul><li>Da <cite>gut</cite> nur ein weiteres Wort für das ist, was ein Wille will, ist ein gütiger Gott einer, der das will, was der, der die Frage gestellt hat, will.</li>
+<li><cite>leidvoll</cite> ist nur ein weiteres Wort für das, was ein Wille nicht will, also für das, was der, der die Frage gestellt hat, nicht will.</li>
+</ul><p>Die Frage meint also eigentlich: wie kann jemand Allmächtiges, der immer genau das will, was ich will, zulassen, das soviel geschieht, was ich nicht will? Oder anders ausgedrückt, da ja jemand, der immer genau das will, was ich will, mit Sicherheit ich selber bin: <strong>Warum eigentlich bin ich nicht selber der allmächtige Gott?</strong> Diese größenwahnsinnige egozentrische Frage ist die Frage der Theodizee.</p>
+<p><strong>Was sollen wir tun?</strong></p>
+<p>Eine Antwort von Konfuzius:</p>
+<p><cite>Das ist ‚gegenseitige Rücksichtnahme‘ (shu). Was man mir nicht antun soll, will ich auch nicht anderen Menschen zufügen.</cite> [Wikipedia 2015 Goldene Regel]</p>
+<p>Eine Antwort von Jesus:</p>
+<p><cite>Alles nun, was ihr wollt, daß euch die Leute tun sollen, das tut ihr ihnen auch. Das ist das Gesetz und die Propheten.</cite> [Matthäus 7:12]</p>
+<p>Eine Antwort von Kant:</p>
+<p><cite>Handle nur nach derjenigen Maxime, durch die du zugleich wollen kannst, dass sie ein allgemeines Gesetz werde.</cite> [Wikipedia 2015 Kategorischer Imperativ]</p>
+<p>Eine Beobachtung von Shopenhauer:</p>
+<p><cite>Indem nun aber der Wille jene Selbstbejahung des eigenen Leibes in unzähligen Individuen neben einander darstellt, geht er, vermöge des Allen eigenthümlichen Egoismus, sehr leicht in einem Individuo über diese Bejahung hinaus, bis zur Verneinung des selben, im andern Individuo erscheinenden Willens. Der Wille des erstem bricht in die Gränze der fremden Willensbejahung ein, Indem das Individuum entweder den fremden Leib selbst zerstört oder verletzt, oder aber auch, indem es die Kräfte jenes fremden Leibes seinem Willen zu dienen zwingt, statt dem in jenem fremden Leibe selbst erscheinenden Willen; also wenn es dem als fremder Leib erscheinenden Willen die Kräfte dieses Leibes entzieht und dadurch die seinem Willen dienende Kraft über die seines eigenen Leibes hinaus vermehrt, folglich seinen eigenen Willen über seinen eigenen Leib hinaus bejaht, mittelst Verneinung des in einem fremden Leibe erscheinenden Willens. – Dieser Einbruch in die Gränze fremder Willensbejahung ist von jeher deutlich erkannt und der Begriff desselben durch das Wort Unrecht bezeichnet worden.<br /></cite> [Schopenhauer-D 1. Band §62]</p>
+<p><strong>Die Antwort des Physikers?</strong></p>
+<p>Alle Ratschläge bzw. Beobachtungen unserer Weisen basieren auf der Vorstellung, dass es eine gestaltbare Zukunft gäbe. Sie setzen eine <strong>Zeitrichtung</strong> voraus. Die Existenz einer Zeitrichtung ist genau so gut gesichert wie die Existenz des Bewusstseins, die wir bereits in der Einleitung als Fundament anerkannt haben. Vor dem Bewusstsein erscheint ein Fluss der Zeit und eine Richtung dieses Flusses. Jede Naturwissenschaft muss am Ende mit diesem - manchmal als <cite>psychologisch</cite> bezeichneten - Zeitpfeil verträglich sein oder ihn „erklären“ können. </p>
+<p>Unsere derzeitigen physikalischen Gleichungen sind auf makroskopischer Ebene dagegen stets <strong>zeitumkehrinvariant</strong>. Die klassische Physik beschreibt die Welt aus elektromagnetischen und Schwerkräften, die sich an die T-Symmetrie zu halten scheinen. Wenn wir die Effekte der schwachen Kraft berücksichtigen, dann gibt es nur noch die CPT-Symmetrie (Ladung, Parität und Zeitrichtung müssen zusammen getauscht werden). Eine Zeitrichtung ist dabei allerdings auch nicht zu erkennen. Es gilt somit zunächst, die klaffende Lücke zwischen dem offensichtlich existenten Zeitpfeil des Bewusstseins und den physikalischen Modellen zu schließen. Und davon sind wir noch weit entfernt. [Zeh-T] </p>
+<p>Eine Ausnahme in der klassischen Physik scheint zunächst der 2. Hauptsatz der Thermodynamik zu bilden: eine Ungleichung, die einen Zeitpfeil in die Theorie der Wärme zu bringen scheint. Bei näherem Hinsehen entpuppt sich dieses phänomenologische Gesetz jedoch als erklärbar aus T-symmetrischen mechanischen Gleichungen: der 2. Hauptsatz drückt lediglich aus, dass Experimentatoren sich wesentlich mehr für äußerst unwahrscheinliche Anfangsbedingungen interessieren als für die viel häufiger anzutreffenden Zustände höherer Entropie. Ein einfaches Modell, wie „irreversible“ Vorgänge aus T-symmetrischen Gesetzen <em>erscheinen</em> können, findet sich in der Bibliothek.</p>
+<p>Die statistische Mechanik basiert auf Modellen, die die Welt als in identische Dinge unterteilbar beschreiben: Atome, Moleküle, Teilchen, Menschen. Erst unter dieser Voraussetzung lässt sich eine Statistik und ein Informations- oder Entropiebegriff entwickeln. Weizsäcker hat klar herausgestellt, dass so ein Informationsbegriff relativ ist:</p>
+<p><cite>Es folgt dann, daß die Maßzahl der Information relativ auf zwei semantische Ebenen, eben die der zugrundegelegten Makro- und Mikrozustände definiert ist. Ein absoluter Begriff der Information hat keinen Sinn; ...</cite> [Weizsäcker]</p>
+<p>Das ist der Grund, warum die Berechnung der Entropie eines zweiatomigen Gases mit den Mitteln der klassischen statistischen Physik zunächst Schiffbruch erleidet: bei Raumtemperatur sind die Schwingungsfreiheitsgrade der zweiatomigen Moleküle „eingefroren“, sie dürfen nicht im Mikrozustand berücksichtigt werden. Erklärlich wird dieses Einfrieren erst durch die Quantisierung der Schwingungsfreiheitsgrade.</p>
+<p>In einem Punkt muss Weizsäcker allerdings widersprochen werden: offensichtlich lässt sich Entropie durchaus messen, und dies deutet darauf hin, <strong>dass es in der Wirklichkeit doch ein absolutes Informationsmaß gibt</strong>! Die Rettung kommt hierbei aus der Richtung der Quantentheorie: aus der Zustandssumme der <em>klassischen</em> statistischen Mechanik lassen sich nur dann die experimentell gemessenen Zahlenwerte ableiten, wenn sie für jeden „Freiheitsgrad“ durch das Planksche Wirkungsquantum geteilt wird. Den Freiheitsgraden entsprechen in der QT nichtverschwindende Kommutatoren der Algebra. Wenn die Wirklichkeit nicht eindeutig in Teile aufteilbar ist - da geben wir Weizsäcker vollkommen recht - so scheint sie, wenigstens was die Anzahl betrifft, irgendwie in nichtverschwindende Kommutatoren aufgeteilt zu sein. Der Konfigurationsraum der QT, der dem Phasenraum der klassischen Mechanik entspricht, scheint unterteilt zu sein in zweidimensionale Wirkungsflächen der Größe ħ, wobei nur deren Anzahl absolut im vorausgegangen Sinne ist, nicht deren Lage.</p>
+<p>Die Ratschläge und Beobachtungen unserer Weisen basieren außerdem auf der <strong>Vorstellung von Dingen</strong>, wobei manche dieser Dinge Menschen sind, welche sich hinreichend ähnlich sind. Goldene Regel und kategorischer Imperativ bedeuten in diesen Vorstellungen die Forderung nach einer Austauschsymmetrie auf sozialer Ebene. Sei der Wille W<sub>1</sub> lokalisiert in einem Leib L<sub>1</sub> und der Wille W<sub>2</sub> lokalisiert in einem Leib L<sub>2</sub>. Sind sich die Menschen hinreichend ähnlich, so lassen sich ihre Zustände denken als L<sub>1</sub>(W<sub>1</sub>) und L<sub>2</sub>(W<sub>2</sub>), wobei L die selbe Funktion von W ist („hinreichend ähnlich“). Zwischen den Leibern wird es eine Wechselwirkung geben, die von W<sub>1</sub> und W<sub>2</sub> abhängen wird. Die Wechselwirkung wird nicht nur von einem Abstandsmaß zwischen den Willen abhängen - wie sonst in den Gesetzen der Physik - sondern von beiden konkreten Willenswerten. Die goldene Regel fordert, dass <strong>im zeitlichen Mittel</strong> diese Wechselwirkung symmetrisch gegenüber einem Austausch von W<sub>1</sub> und W<sub>2</sub> sein soll. Wenn die Wechselwirkung nicht selbst symmetrisch ist, dann geht die Forderung auf die Willen selbst über und über die Leibesgleichheit auf die Zustände. Also fordert die goldene Regel dass alle Menschenzustände im zeitlichen Mittel gleich sein sollen, was die Wechselwirkung mit anderen Menschen betrifft. Das heißt, jedes Menschenleben soll im Phasenraum jeden Punkt gleich häufig beinhalten, sofern es ein Punkt mit Wechselwirkung zu einem anderen Menschen ist.</p>
+<p><strong>Die Antwort des Physikers!</strong></p>
+<p>Er muss zugeben, dass er für den Zeitpfeil des Bewusstseins noch keine Erklärung hat.</p>
+<p>Zum Zweiten ist für ihn die Welt nicht aus Dingen aufgebaut, sie ist nur am Stück zu bekommen, wobei es eine algebraische Unterteilung im Konfigurationsraum gibt, aus der heraus auf größtenteils noch unverstandene Weise lokalisierte Zustände wie zum Beispiel Menschen erscheinen können. </p>
+<p>Da Menschen, Tiere und Steine mittels der selben Gesetze aus dem gemeinsamen Urgrund entspringen, macht es keinen Sinn, irgendwelche ethischen Empfehlungen zu geben, die sich lediglich auf Menschen beziehen. Herkömmliche Ethiken dienen auch nicht dazu, das absolut Gute in der Welt zu etablieren, vielmehr sollen sie wie andere Gesetze auch das Überleben der Form wahrscheinlicher machen. Eine absolute Ethik darf aber nicht nur einzelnen Formen dienen. </p>
+<p>Wenn wir einmal das Problem des Zeitpfeils ausblenden, so scheint aus der Vergangenheit heraus, wie die Naturwissenschaft sie sich vorstellt, eine Richtung erkennbar zu sein, die sich durch alles hindurch wie ein roter Faden zieht. Hätte die Natur diese Richtung nicht immanent, so wäre dieser Text jetzt nicht zu lesen. Die Entstehung von <strong>Komplexität</strong> wäre kein Zufall, sondern ein der Natur innewohnendes Prinzip.</p>
+<p>Hierbei stellt sich sofort die Frage, was Komplexität überhaupt ist. Darum soll es an anderer Stelle gehen... Hier nur soviel: wenn uns die Quantentheorie ein absolutes Informationsmaß gibt, dann kann sie auch den mit der Information eng gekoppelten Begriff der Komplexität vor dem Tod durch Relativität retten.</p>
+<p>Wenn wir also auch noch das Problem des noch fehlenden absoluten Komplexitätsmaßes in der Physik ausblenden und dem Bauchgefühl folgen, dass der nicht verstandene Zeitpfeil in die Richtung einer zunehmenden Komplexität zeigt, so könnten wir uns damit eventuell auf die Seite der Natur schlagen. Dann hieße gut = Mehrung der Gesamtkomplexität, schlecht = Verminderung der Gesamtkomplexität. </p>
+<p>Ein Atomkrieg erscheint nach dieser Ethik schlecht, da er die Komplexität vermindert. Durch die prinzipielle Unvorhersehbarkeit der Zukunft, wie sie sich aus dem Bild des quantenmechanischen Zufalls im Mikrokosmos mit nachgeschalteter makroskopischer Zufallsverstärkung durch Nichtlinearität, Rückkopplung und Iteration ergibt, ist dies jedoch zu kurz gedacht. Eine Katastrophe kann auch gut sein, zum Beispiel, wenn sie eine Verklemmung der Evolution beseitigt. Die Menschen sehen das Verschwinden der meisten Dinosaurier als solch ein Ereignis an.</p>
+<p>Ein momentaner Gewinn kann später jederzeit zunichte gemacht werden. Die Natur ist deswegen immer in die Breite gegangen und hat nie alles auf eine Karte gesetzt. Gut auf lange Sicht ist Vielfalt. </p>
+<p>Was würde eine fortgeschrittene Zivilisation unternehmen, träfe sie auf einen Planeten mit sich entwickelndem Leben und handelte sie nach dieser Ethik? Sie würde sich über die gewonnene Vielfalt freuen, sie sich weiter entwickeln lassen und nur eingreifen, wenn die Gefahr der Komplexitätsminderung bestünde. Dann allerdings könnte sie sich dafür entscheiden, den Komposthaufen komplett umzugraben. </p>
+<p>Was bedeutet diese Ethik für den einzelnen Menschen? Letzlich sehr wenig, da sein Beitrag im Durchschnitt sehr gering ausfallen wird. Der Beitrag kann zufällig in die dem Willen entgegengesetzte Richtung ausfallen, oder auch in Willensrichtung stark verstärkt werden. Ob, wann und warum der eine oder andere Fall eintreffen wird, ist nicht voraussagbar. Es können lediglich Wahrscheinlichkeitsaussagen basierend auf vergangener Erfahrung gemacht werden, oder aufgrund physikalischer Modelle, die wiederum auf vergangener Erfahrung basieren.</p>
+<p><strong>Genaue Handlungsempfehlungen?</strong></p>
+<p>Keine! Das Eingeständnis unseres Nichtverstehens verbietet es, jegliche Willensrichtungen absolut zu bewerten, verbietet es, irgendwelche absoluten Handlungsempfehlungen zu geben, verbietet es uns so zu tun, als seien wir selber Gott. Natürlich könnten wir es trotzdem tun, die anderen machen es schließlich auch ständig...</p>
+<p>Das Eingeständnis des Nichtverstehens relativiert das eigene Wollen komplett. Dadurch verschwindet viel Verdruss aus dem eigenen Leben, welcher sich aus unerfüllten Wünschen ergeben hatte. Es müssen keine Zerstreuungen mehr gesucht werden, die einen seither davor retten mussten, in freien Augenblicken doch wieder vor den großen Fragen stehen zu müssen und wieder keine Antworten zu haben. </p>
+<p>Auch das Wollen anderer wird selbstverständlich komplett relativiert. Erstens hat es sowieso keinen Grund, zweitens kann es unserem eigenen Wollen nicht mehr entgegenstehen, wenn wir kein eigenes Wollen mehr haben. Wir könnten es also komplett ignorieren. </p>
+<p>Wir erinnern uns noch an die Zeit, als wir selber im eigenen Wollen gefangen waren, und erkennen auf den Gesichtern unserer Nächsten diese Gefangenschaft. Es ist kaum etwas leichter, als diesen aus jener Gefangenschaften herauszuhelfen, ihnen die ein oder andere eingebildete Angst vor der Welt zu nehmen, einfach dadurch, dass wir mit ihnen sprechen. <strong>Warum sollten wir das nicht tun, jetzt, wo wir doch mangels Zerstreuungen wieder Zeit übrig haben?</strong> Aber auch das ist vielleicht nur ein weiterer Versuch einer Software, sich selbst fortzupflanzen, ein Versuch zu überleben, jetzt, da sie schon mal in's Rennen gegen die anderen geschickt worden ist.</p>
+</div></div></div>  </div>
+
+  <div class="clearfix">
+          <div class="links"></div>
+    
+      </div>
+
+</div>
+  </div>
+</div>
+  </div>
+          </div>
+                      <div class="region region-footer">
+    <div id="block-system-powered-by" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+</div>
+  </div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /#container -->
+  </div> <!-- /#wrapper -->
+  </body>
+</html>

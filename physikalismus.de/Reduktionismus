@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="sites/default/files/pyramid_power.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="node/12" />
+<link rel="canonical" href="Reduktionismus" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Reduktionismus | Physikalismus</title>
+  <style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/system/system.base.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.menus.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.messages.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.theme.css?nwwcfu");
+</style>
+<style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/comment/comment.css?nwwcfu");
+@import url("http://physikalismus.de/modules/field/theme/field.css?nwwcfu");
+@import url("http://physikalismus.de/modules/node/node.css?nwwcfu");
+@import url("http://physikalismus.de/modules/search/search.css?nwwcfu");
+@import url("http://physikalismus.de/modules/user/user.css?nwwcfu");
+</style>
+<style type="text/css" media="all">
+@import url("sites/default/files/color/garland-b0e715b8/style.css@nwwcfu");
+</style>
+<style type="text/css" media="print">
+@import url("http://physikalismus.de/themes/garland/print.css?nwwcfu");
+</style>
+
+<!--[if lt IE 7]>
+<link type="text/css" rel="stylesheet" href="http://physikalismus.de/themes/garland/fix-ie.css?nwwcfu" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?nwwcfu"></script>
+<script type="text/javascript" src="sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@nwwcfu"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"tiO0m4TftqIaTrjUF2Iz6iwMBgb2j-2XJ5zEdm-i8a0","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Reduktionismus":true,"\/Reduktionismus?destination=node\/12":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-12 node-type-page fluid-width" >
+  <div id="skip-link">
+    <a href="Reduktionismus#main-content" class="element-invisible element-focusable">Direkt zum Inhalt</a>
+  </div>
+      
+  <div id="wrapper">
+    <div id="container" class="clearfix">
+
+      <div id="header">
+        <div id="logo-floater">
+                              <div id="branding"><strong><a href="index.html">
+                          <img src="sites/default/files/pyramid_power.png" alt=" " title=" " id="logo" />
+                                    </a></strong></div>
+                          </div>
+
+        <h2 class="element-invisible">Hauptmenü</h2><ul class="links inline main-menu"><li class="menu-218 first"><a href="index.html" title="">Start</a></li>
+<li class="menu-310"><a href="Quellen">Quellen</a></li>
+<li class="menu-311"><a href="Zitate">Zitate</a></li>
+<li class="menu-410"><a href="Bibliothek" title="Zum Verständnis Dienliches an diesem Ort Archiviertes">Bibliothek</a></li>
+<li class="menu-423 last"><a href="Impressum">Impressum</a></li>
+</ul>              </div> <!-- /#header -->
+
+              <div id="sidebar-first" class="sidebar">
+            <div class="region region-sidebar-first">
+    <div id="block-search-form" class="block block-search clearfix">
+
+    
+  <div class="content">
+    <form action="Reduktionismus" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Suchformular</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
+ <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-QrtEtOIpEna0ywMq7pgBgoQ7GcPGMfimSi6YAUnw24c" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-system-navigation" class="block block-system block-menu clearfix">
+
+    <h2 class="title">Navigation</h2>
+  
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="Dao" title="Der Weg zur Erkenntnis">Dao</a></li>
+<li class="leaf"><a href="Bewusstsein" title="Gedanken über den Geist">Bewusstsein</a></li>
+<li class="leaf"><a href="Energie" title="Ein Wort zur Energie">Energie</a></li>
+<li class="leaf"><a href="Erloesung" title="Wie kann das Abgeteilte erlöst werden?">Erlösung</a></li>
+<li class="leaf"><a href="Erwachsenwerden" title="Erwachsenwerden in der Begrifflichkeit des Schopenhauerschen Willens">Erwachsenwerden</a></li>
+<li class="leaf"><a href="Freunde" title="Wie Freunde uns in die Irre führen">Freunde</a></li>
+<li class="leaf"><a href="Geister" title="Wann ist ein Geist ein Geist?">Geister</a></li>
+<li class="leaf"><a href="Geld" title="Preis als Energie und Geld als Software">Geld</a></li>
+<li class="collapsed"><a href="Gleichnisse" title="Gleichnisse für Physiker von einem Physiker über Physik">Gleichnisse</a></li>
+<li class="leaf"><a href="Ethik" title="Was sollen wir tun?">gut &amp; böse</a></li>
+<li class="leaf"><a href="Ich" title="Was ist das Ich?">Ich</a></li>
+<li class="leaf"><a href="Jesus" title="Wie ich mir Jesus vorstelle">Jesus</a></li>
+<li class="leaf"><a href="Juristerei" title="Kann richtig geurteilt werden?">Juristerei</a></li>
+<li class="leaf"><a href="Kampf" title="Die falsche Idee vom totalen Frieden">Kampf</a></li>
+<li class="leaf"><a href="N" title="Was an den natürlichen Zahlen unnatürlich ist">N</a></li>
+<li class="collapsed"><a href="Quantenmechanik" title="Die philosophischen Konsequenzen aus der Quantenmechanik">Quanten</a></li>
+<li class="leaf active-trail"><a href="Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen" class="active-trail active">Reduktionismus</a></li>
+<li class="leaf"><a href="Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
+<li class="leaf"><a href="Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
+<li class="last leaf"><a href="Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+</ul>  </div>
+</div>
+<div id="block-user-login" class="block block-user clearfix">
+
+    <h2 class="title">Benutzeranmeldung</h2>
+  
+  <div class="content">
+    <form action="http://physikalismus.de/Reduktionismus?destination=node/12" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Benutzername <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">Passwort <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="first last"><a href="user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
+</ul></div><input type="hidden" name="form_build_id" value="form-Gy-2LxOrE7wpqS6bWXwZEFoj97UVeutAzLImZVgW5Uc" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
+</div>
+  </div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <h2 class="element-invisible">Sie sind hier</h2><div class="breadcrumb"><a href="index.html">Startseite</a></div>                    <a id="main-content"></a>
+          <div id="tabs-wrapper" class="clearfix">                                <h1 class="with-tabs">Reduktionismus</h1>
+                              </div>                                                  <div class="clearfix">
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <div id="node-12" class="node node-page" about="/Reduktionismus" typeof="foaf:Document">
+
+  
+      <span property="dc:title" content="Reduktionismus" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><cite>Reduktionismus ist die philosophische Lehre, nach der ein System durch seine Einzelbestandteile (‚Elemente‘) vollständig bestimmt wird.</cite> [Wikipedia 2013]</p>
+<p><strong>Was ist ein Teil?</strong></p>
+<p>Ein Teil ist zunächst etwas, was sich der Verstand als Vorstellung schafft. Wodurch kommt die Vorstellung zustande, dass etwas vom gesamten Strom der Erscheinungen abgetrennt werden kann?</p>
+<p>Wenn beim Billardspiel die schwarze Kugel am Spiel teilnimmt und als erste eingelocht wird, so erwartet man, dass man sie bald an der Kugelsammelstelle wieder entnehmen kann. Und nicht die rote Kugel, die ja noch nicht eingelocht ist. Die schwarze Kugel ist eine Summe von Eigenschaften, die längere Zeit immer wieder gemeinsam erscheinen, sei es als Sinneswahrnehmung oder als Messwert auf einem Instrument:</p>
+<ul><li>schwarz</li>
+<li>170 g schwer</li>
+<li>kugelförmig mit 57 mm Durchmesser</li>
+</ul><p>Genau so ist es mit den Teilchen der Physiker. Man spricht von einem Teilchen, wenn gewisse Eigenschaften immer wieder zusammen auftreten. Bei einem Elektron sind das zum Beispiel:</p>
+<ul><li>mit einer Elementarladung negativ geladen</li>
+<li>eine Ruhemasse (oder Energie) von 1 Elektronenmasse</li>
+<li>halbzahliger Spin</li>
+</ul><p>Die makroskopischen Teile sind alle verschieden, die „Elementarteilchen“ sind alle ununterscheidbar. Wie kann man das verstehen? Bei beiden Sorten handelt es sich um eine Menge von Eigenschaften, die während der zeitlichen Entwicklung des betrachteten Weltausschnitts erhalten bleiben und zusammen antreffbar (messbar) sind. Die erhaltenen Eigenschaften wie die Ruhemasse, der Spin, die Ladung sind quantisiert, sie können nur bestimmte Werte annehmen. Sind die Werte gleich, so sind sie also exakt gleich, nicht unterscheidbar gleich. Bei „Elementarteilchen“ gibt es nur eine Hand voll solcher Eigenschaften. Wenn sie alle gleich sind, so sind sie exakt gleich und man spricht von der Erscheinung eines „Teilches“ der Sorte, die eben diese Eigenschaften hat. Ein makroskopisches Teil hat viel mehr Eigenschaften. Wie viele, hängt allerdings von den Beobachtungsmitteln, die zur Verfügung stehen, ab. Sind die Mittel beschränkt, zum Beispiel auf Augen mit grauem Star, eine ungenaue Waage und einen Meterstab aus dem Baumarkt, so können auch Billardkugeln ununterscheidbar sein. Makroskopische Teile lassen sich mit besseren Mitteln aber fast immer unterscheiden, da sie so sehr viele Eigenschaften haben, wie zum Beispiel die Parameter der Anordnungen der Unzahlen von Molekülen, dass man immer eine Eigenschaft finden wird, die unterschiedlich ist.</p>
+<p><strong>Es gibt keinen prinzipiellen Unterschied zwischen dem makroskopischen und dem mikroskopischen Teil. Die makroskopische Menge von Eigenschaften ist nur so sehr groß, dass es extrem unwahrscheinlich ist, nochmal eine ununterscheidbar ähnliche („genau gleiche“) Menge von Eigenschaften anzutreffen.</strong></p>
+<p>Das Teilchen an sich gibt es in der Quantenwelt nicht. Insofern ist der Begriff „Elementarteilchen“ irreführend. Es gibt Zustände und Gesetze. Die Zustände entwickeln sich zeitlich, die Erhaltungsgrößen bleiben dabei erhalten. Letztlich gibt es nur sehr wenige Erhaltungsgrößen wie zum Beispiel die Gesamtenergie oder die Gesamtladung. Die Verteilung dieser auf den Raum unterliegt einem ständigen Wandel nach raum- und zeitunabhängig gedachten Gesetzen. Die Kombinationen von Eigenschaften können nach diesen Gesetzen entstehen oder verlorengehen. Ein Elektron und ein Positron können sich in 2 Photonen wandeln, die Gesamtenergie, der Gesamtimpuls, die Gesamtladung sind vor und nach der Umwandlung gleich. Die Art, wie diese Zustände auf ihre Umgebung wirken können, ist verschieden.</p>
+<p>Somit gibt es ein Teil im Makrokosmos genau so wenig wie im Mikrokosmos. Ein Zustand mit einer großen Menge von Eigenschaften unterliegt dem ständigen Wandel nach den selben Gesetzen wie ein Zustand mit wenigen Eigenschaften. Die Vorstellung einer Welt von Dingen entsteht im menschlichen Gehirn, um die Komplexität der wirklichen Welt zu reduzieren. Diese menschengedachten Alltagswelten  entsprechen nicht dem wirklichen Wesen der Welt.</p>
+<p><strong>Was ist ein System?</strong></p>
+<p>Nach der Aufteilung erfolgt das Wiederzusammenfügen in der Vorstellung des Verstandes. Ein System ist eine Summe aus Teilen plus gedachte Wechselwirkungen zwischen den Teilen, so dass wieder ein Ganzes entsteht.</p>
+<p>Reduktionismus erklärt Erscheinungen auf makroskopischer Ebene durch Systeme mikroskopischer Teile. Für den Reduktionismus sprechen 2 Dinge:</p>
+<ol><li>Ohne drastische Komplexitätsreduktion ist es dem menschlichen Verstand gar nicht möglich, handhabbare Modelle von der Welt zu schaffen.</li>
+<li>Reduktionismus ist ein sehr erfolgreiches Konzept in dem Sinne, dass er zu vielen praktischen Errungenschaften geführt hat.</li>
+</ol><p>Ein älteres Beispiel für erfolgreichen Reduktionismus sind Thermodynamik (makroskopisch) und statistische Mechanik (mikroskopisch). Die makroskopische  Erfahrungsgröße „Temperatur“ ist betrachtbar als mittlere kinetische Energie aller Freiheitsgrade der mikroskopischen Teilchen. Der Gasdruck ist der mittlere Impulaustausch der Gasteilchen mit der Gefäßwand bei elastischen Stößen gegen die Wand. Usw.</p>
+<p>Die Reduktion von Makrokosmos zu Mikrokosmos gelingt bei Linearität des makroskopischen Modells, das heißt wenn das makroskopische Verhalten durch lineare Gleichungen oder Differentialgleichungen beschrieben wird. Lösungen linearer Gleichungen können linear kombiniert werden zu neuen Lösungen. Gesamtverhalten lässt sich so aus Teilverhalten zusammensetzen.</p>
+<p>Lineare Modelle sind sehr häufig. Das hat diese Gründe:</p>
+<ul><li>Der Mensch arbeitet in der Technik gerne mit linearen Modellen, da deren zeitliche Entwicklung voraussehbar ist, wofür er verantwortlich gemacht wird.</li>
+<li>Nichtlineare Modelle in einem (lokalen) energetischen Minimum können bei geringen Anregungsenergien durch das lineare Modell eines harmonischen Oszillators angenähert werden.</li>
+</ul><p>In diesem Rahmen hat der Reduktionismus seine Berechtigung. Der Makrokosmos verhält sich jedoch im Allgemeinen, besser gesagt im häufigsten Fall, deutlich anders. Zu seiner Beschreibung sind nichtlineare Modelle, Iterationen und Rückkopplungen angemessen. Wie die Linearität auf makroskopischer Ebene durch Linearität auf mikroskopischer Ebene erklärt werden kann, so wird der Nichtlinearität auf makroskopischer Ebene eine entsprechende Nichtlinearität im Kleinen entsprechen. </p>
+<p>Ausgehend von der Vorstellung von makroskopischen Dingen erfolgte die Reduktion zunächst auf solche im Kleinen. Zum Beispiel kann man sich eine Billardkugel aus kleinen Kügelchen - Atomen - aufgebaut denken. </p>
+<p>Inzwischen erfolgt die Reduktion anders. Annehmend, dass die Billardkugel eigentlich ein quantenmechanischer Zustand ist, denkt man sie sich aus Unterzuständen aufgebaut. Ein Unterzustand kann beispielsweise der eines Atoms sein. Die einzelnen Unterzustände in ihren jeweiligen Unterräumen multipliziert man einfachstenfalls zum Gesamtzustand im Produktraum. Der Operator der Gesamtenergie ist dann die Summe der Energieoperatoren der Atome, die nur in ihren jeweiligen Unterräumen operieren. Die möglichen Eigenwerte für die Gesamtenergie addieren sich als Konsequenz aus den Eigenwerten der Atomenergien zusammen (in allen erlaubten Kombinationen). Eine Wechselwirkung zwischen den Unterräumen bringt man hinterher in das Modell ein. Erst dabei kann die Gesamtenergie etwas anderes wie die Summe der Teilenergien werden. Der nichtreduzierende Ansatz müsste eine Gesamtdifferentialgleichung für die Billiardkugel mit Koordinaten „all ihrer Atome“ aufstellen und diese lösen. Der Papiervorrat der Erde dürfte nicht reichen, diese Gleichung aufzuschreiben.</p>
+</div></div></div>  </div>
+
+  <div class="clearfix">
+          <div class="links"></div>
+    
+      </div>
+
+</div>
+  </div>
+</div>
+  </div>
+          </div>
+                      <div class="region region-footer">
+    <div id="block-system-powered-by" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+</div>
+  </div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /#container -->
+  </div> <!-- /#wrapper -->
+  </body>
+</html>

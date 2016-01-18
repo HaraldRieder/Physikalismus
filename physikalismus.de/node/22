@@ -1,0 +1,209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../sites/default/files/pyramid_power.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="22" />
+<link rel="canonical" href="../Kampf" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Kampf | Physikalismus</title>
+  <style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/system/system.base.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.menus.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.messages.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.theme.css?nwwcfu");
+</style>
+<style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/comment/comment.css?nwwcfu");
+@import url("http://physikalismus.de/modules/field/theme/field.css?nwwcfu");
+@import url("http://physikalismus.de/modules/node/node.css?nwwcfu");
+@import url("http://physikalismus.de/modules/search/search.css?nwwcfu");
+@import url("http://physikalismus.de/modules/user/user.css?nwwcfu");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/default/files/color/garland-b0e715b8/style.css@nwwcfu");
+</style>
+<style type="text/css" media="print">
+@import url("http://physikalismus.de/themes/garland/print.css?nwwcfu");
+</style>
+
+<!--[if lt IE 7]>
+<link type="text/css" rel="stylesheet" href="http://physikalismus.de/themes/garland/fix-ie.css?nwwcfu" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?nwwcfu"></script>
+<script type="text/javascript" src="../sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@nwwcfu"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"N4BNRGY6iIJW9mqx6XxcTw46zCKmfUV03025YBi2FYo","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/node\/22":true,"\/Kampf?destination=node\/22":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-22 node-type-page fluid-width" >
+  <div id="skip-link">
+    <a href="22#main-content" class="element-invisible element-focusable">Direkt zum Inhalt</a>
+  </div>
+      
+  <div id="wrapper">
+    <div id="container" class="clearfix">
+
+      <div id="header">
+        <div id="logo-floater">
+                              <div id="branding"><strong><a href="../index.html">
+                          <img src="../sites/default/files/pyramid_power.png" alt=" " title=" " id="logo" />
+                                    </a></strong></div>
+                          </div>
+
+        <h2 class="element-invisible">Hauptmenü</h2><ul class="links inline main-menu"><li class="menu-218 first"><a href="../index.html" title="">Start</a></li>
+<li class="menu-310"><a href="../Quellen">Quellen</a></li>
+<li class="menu-311"><a href="../Zitate">Zitate</a></li>
+<li class="menu-410"><a href="../Bibliothek" title="Zum Verständnis Dienliches an diesem Ort Archiviertes">Bibliothek</a></li>
+<li class="menu-423 last"><a href="../Impressum">Impressum</a></li>
+</ul>              </div> <!-- /#header -->
+
+              <div id="sidebar-first" class="sidebar">
+            <div class="region region-sidebar-first">
+    <div id="block-search-form" class="block block-search clearfix">
+
+    
+  <div class="content">
+    <form action="22" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Suchformular</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
+ <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-Ro49vg4JsWDPvHKe0OWbxn4A7x3hrGmfMEICM0z5V6E" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-system-navigation" class="block block-system block-menu clearfix">
+
+    <h2 class="title">Navigation</h2>
+  
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="../Dao" title="Der Weg zur Erkenntnis">Dao</a></li>
+<li class="leaf"><a href="../Bewusstsein" title="Gedanken über den Geist">Bewusstsein</a></li>
+<li class="leaf"><a href="../Energie" title="Ein Wort zur Energie">Energie</a></li>
+<li class="leaf"><a href="../Erloesung" title="Wie kann das Abgeteilte erlöst werden?">Erlösung</a></li>
+<li class="leaf"><a href="../Erwachsenwerden" title="Erwachsenwerden in der Begrifflichkeit des Schopenhauerschen Willens">Erwachsenwerden</a></li>
+<li class="leaf"><a href="../Freunde" title="Wie Freunde uns in die Irre führen">Freunde</a></li>
+<li class="leaf"><a href="../Geister" title="Wann ist ein Geist ein Geist?">Geister</a></li>
+<li class="leaf"><a href="../Geld" title="Preis als Energie und Geld als Software">Geld</a></li>
+<li class="collapsed"><a href="../Gleichnisse" title="Gleichnisse für Physiker von einem Physiker über Physik">Gleichnisse</a></li>
+<li class="leaf"><a href="../Ethik" title="Was sollen wir tun?">gut &amp; böse</a></li>
+<li class="leaf"><a href="../Ich" title="Was ist das Ich?">Ich</a></li>
+<li class="leaf"><a href="../Jesus" title="Wie ich mir Jesus vorstelle">Jesus</a></li>
+<li class="leaf"><a href="../Juristerei" title="Kann richtig geurteilt werden?">Juristerei</a></li>
+<li class="leaf active-trail"><a href="../Kampf" title="Die falsche Idee vom totalen Frieden" class="active-trail active">Kampf</a></li>
+<li class="leaf"><a href="../N" title="Was an den natürlichen Zahlen unnatürlich ist">N</a></li>
+<li class="collapsed"><a href="../Quantenmechanik" title="Die philosophischen Konsequenzen aus der Quantenmechanik">Quanten</a></li>
+<li class="leaf"><a href="../Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen">Reduktionismus</a></li>
+<li class="leaf"><a href="../Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
+<li class="leaf"><a href="../Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
+<li class="last leaf"><a href="../Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+</ul>  </div>
+</div>
+<div id="block-user-login" class="block block-user clearfix">
+
+    <h2 class="title">Benutzeranmeldung</h2>
+  
+  <div class="content">
+    <form action="http://physikalismus.de/Kampf?destination=node/22" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Benutzername <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">Passwort <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="first last"><a href="../user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
+</ul></div><input type="hidden" name="form_build_id" value="form-OgTuo2GaNndOnwGh1dKzJbNXNtUo3Stx7v0hgw7qmyA" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
+</div>
+  </div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <h2 class="element-invisible">Sie sind hier</h2><div class="breadcrumb"><a href="../index.html">Startseite</a></div>                    <a id="main-content"></a>
+          <div id="tabs-wrapper" class="clearfix">                                <h1 class="with-tabs">Kampf</h1>
+                              </div>                                                  <div class="clearfix">
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <div id="node-22" class="node node-page" about="/Kampf" typeof="foaf:Document">
+
+  
+      <span property="dc:title" content="Kampf" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Schauen wir uns zunächst die Botschaften zweier Philosophen zum Thema an. Zuerst die von Heraklit:</p>
+<p><cite>Zu wissen aber tut not: Der Krieg führt zusammen, und Recht ist Streit, und alles Leben entsteht durch Streit und Notwendigkeit.<br /></cite> [Heraklit-F]</p>
+<p>Dann die Schopenhauers, welcher in dem Zusammenhang bereits Empodekles zitiert:</p>
+<p><cite>... weil der in allen Ideen sich objektivirende eine Wille, indem er zur höchstmöglichen Objektivation strebt, hier die niedern Stufen seiner Erscheinung, nach einem Konflikt derselben, aufgiebt, um auf einer hohem desto mächtiger zu erscheinen. Kein Sieg ohne Kampf: indem die höhere Idee, oder Willensobjektivation, nur durch Ueberwältigung der niedrigeren hervortreten kann, erleidet sie den Widerstand dieser, welche, wenn gleich zur Dienstbarkeit gebracht, doch immer noch streben, zur unabhängigen und vollständigen Aeußerung ihres Wesens zu gelangen.</cite> [Schopenhauer-D 2. Buch §27]</p>
+<p><cite>So sehn wir in der Natur überall Streit, Kampf und Wechsel des Sieges, und werden eben darin weiterhin die dem Willen wesentliche Entzweiung mit sich selbst deutlicher erkennen. Jede Stufe der Objektivation des Willens macht der andern die Materie, den Raum, die Zeit streitig. Beständig muß die beharrende Materie die Form wechseln, indem, am Leitfaden der Kausalität, mechanische, physische, chemische, organische Erscheinungen, sich gierig zum Hervortreten drängend, einander die Materie entreißen, da jede ihre Idee offenbaren will. Durch die gesammte Natur läßt sich dieser Streit verfolgen, ja, sie besteht eben wieder nur durch ihn... ist doch dieser Streit selbst nur die Offenbarung der dem Willen wesentlichen Entzweiung mit sich selbst.</cite> [Schopenhauer-D 2. Buch §27]</p>
+<p>Schopenhauer hat nicht nur den ewigen Kampf der Welt mit sich selbst erkannt - wie bereits andere Denker zuvor - sondern er liefert gleich die Begründung mit, warum er stattfinden <strong>muss</strong>. Dies versucht er uns in jenem Paragraphen in verschiedenen Formulierungen und durch Beispiele unterlegt, mitzuteilen.</p>
+<p>Die Physiker kennen heute cirka 4 Naturkräfte und nennen diese: Starke Kraft, Schwache Kraft, Elektromagnetische Kraft, Schwerkraft. Die Zahl der Kräfte ändert sich hin und wieder, und man wird das Gefühl nicht los, alles könne die Äußerung einer einzigen Urkraft sein. Um 1970 herum setzte sich theoretisch und experimentell belegt die Vorstellung durch, dass schwache und elekromagnetische Kraft in der Wirklichkeit ein und die selbe sind und nannte sie Elektroschwache Kraft.<br />
+Die Kräfte sind so angelegt, dass sie zwischen den „Ladungen“ im weitesten Sinn (einschließlich des inneren Drehimpulses usw.) in einer widerstrebenden Weise wirken, wobei die Schwerkraft auf mikroskopischer Ebene bis heute noch überhaupt nicht verstanden ist. Verschiedene Erhaltungssätze wie die für die Energie oder für die elektrische Ladung drücken aus, dass aus dem Nichts (Vakuum) heraus nicht dauerhaft Neues gewonnen werden kann. Durch Nichtlinearitäten, Iterationen und Rückkopplungen erklärt man sich die Strukturbildungen auf verschiedenen Größenskalen, angetrieben durch diese Kräfte bzw. die durch sie generierten Übergangswahrscheinlichkeiten.</p>
+<p>Die Entwicklung in der Natur hat offenbar eine bestimmte Richtung: hin zu mehr Komplexität. Da immer bereits schon einfachere Formen vorhanden sind, können sich die komplexeren nur auf Kosten dieser bilden. Es ist dieser Zusammenhang, der sich uns so vielfältig darstellt. Nichts anderes steckt dahinter, wenn ein Mitochondrium als Organelle einer höheren Form dient, wenn eine Zelle dem Vielzeller dient, oder wenn der Vielzeller einen anderen verschlingt, um weiterleben zu können.</p>
+<p>So können wir letztlich verstehen, was uns jene dunklen Abschnitte der Upanishaden mitteilen wollen, die - in der Übersetzung Deussens - von „Nahrung“ reden:</p>
+<p><cite>Die Nahrung, fürwahr, ist die Erde, und der Nahrungesser<br />
+ist der Raum (Äther). Der Raum ist in der Erde gegründet,<br />
+und die Erde ist in dem Raume gegründet. In dieser<br />
+Weise ist die Nahrung in der Nahrung gegründet.</cite> [Taittiriya-Upanishad Bhriguvalli]</p>
+<p>Die Nahrung bedeutet dort nichts anderes als Materie, welche zur Wandlung bestimmt ist. Die Materie aber ist Ausstülpung des Dinges an Sich, des einen Seienden. Sie ist etwas lokal Erscheinendes von einiger Dauer, da es Gesetze gibt, die tiefere, stest fließende Zustände, so verbinden, dass ihre Wirkungen auf die Umgebung eben dauerhaft ähnlich erfolgen. Diese Wirkungen auf die Umgebung sind die Erscheinung von Materie, das ist ihr Sein, doch dieses Sein ist kein Wesentliches - wesentlich sind die Gesetze.<br />
+In den Wandlungen des Einen bekommen die Ladungen neue „Plätze“ zugewiesen, wobei die Unteilbaren die kleinsten Einheiten sind, in denen sie dorthin bewegt werden können. In diesem Sinn ist selbstverständlich auch der eigene Leib der ständigen Wandlung auf mikroskopischer und makroskopischer Skala unterworfen, ist nichts als eine sich ständig zusammen mit dem Ganzen verändernde Konfiguration, die jedoch vom Verstand mit dem immer gleichen Wort betitelt wird und nur deswegen beständig ist, nur beständig in dieser Vorstellung aber nicht wesentlich da-seiend. Das ist es, was hier in freudiger Erkenntnis verkündet wird:</p>
+<p><cite>Ich bin Nahrung, ich bin Nahrung, ich bin Nahrung!<br />
+Ich bin Nahrungesser, ich bin Nahrungesser, ich bin Nahrungesser!<br />
+Ich bin Ruhmkünder, ich bin Ruhmkünder, ich bin Ruhmkünder!<br />
+Der Erstgeborne der Weltordnung bin ich,<br />
+Schon vor den Göttern, an des Ew'gen Quellpunkt;<br />
+Wer mich austeilt, der labt mich eben damit.<br />
+Denn ich bin Nahrung, essend den Nahrungesser,<br />
+Bin über diese ganze Welt erhaben!<br />
+Wie Gold leuchtend ist, wer solches weiß! — So lautet die Upanishad.<br /></cite> [Taittiriya-Upanishad Bhriguvalli]</p>
+<p>Der friedliebende Mensch freut sich, wenn er in Frieden leben darf. Doch ist dies eine Illusion, die nur unter Ausblendung großer Teile der Wirklichkeit gelingen kann. Wenn der Mensch von Frieden spricht, so meint er meistens, dass er selbst in Frieden leben darf, dass er nicht angegriffen wird von anderen Nahrungsessern, seien dies Leoparden oder explodierende Kernkraftwerke, die die Materie seines Leibes nach ihrem Willen umgestalten wollen. Er arbeitet daran, die Wahrscheinlichkeiten für solche Ereignisse zu minimieren, das ist die Rückkopplung, mit der er die Wahrscheinlichkeit der Existenz seinesgleichen steigern will. Nur Formen, die diese Rückkopplung bewerkstelligen können, dürfen in dieser Welt länger überdauern. </p>
+<p>Tatsächlich bedeutet der eigene Friede einen verschärften Krieg gegen den Rest. Gerade dort, wo dauerhaft Frieden zwischen Menschen herrscht, tobt der Kampf gegen den Rest der Natur nur um so stärker, wird den anderen Lebensformen systematisch die Grundlage ihrer Existenz streitig gemacht. Schnell stellt sich dabei dem Kritischen die Frage, warum man einen Artgenossen hochschätzen soll und einen ganz Ähnlichen, den Schimpansen oder den Menschen mit schwarzer Hautfarbe, ausbeuten darf. Zu deren Beantwortung wurden in die Religionen und Ideologien schon immer Begründungen eingeflochten, etwa dass nur die menschliche Art gottähnlicher Natur sei und deswegen ihr der Rest der Materie zur freien Ausbeutung überlassen sei, oder dass der Adlige edleren Geblüts sei und deswegen herrschen müsse, oder dass der Herrenmensch der bessere sei und deswegen über die Untermenschen herrschen dürfe, oder dass man zum von Gott auserwählten Volk gehöre, wodurch man das Recht habe, den Nichterwählten Jericho abzunehmen, und so weiter.</p>
+</div></div></div>  </div>
+
+  <div class="clearfix">
+          <div class="links"></div>
+    
+      </div>
+
+</div>
+  </div>
+</div>
+  </div>
+          </div>
+                      <div class="region region-footer">
+    <div id="block-system-powered-by" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+</div>
+  </div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /#container -->
+  </div> <!-- /#wrapper -->
+  </body>
+</html>

@@ -1,0 +1,130 @@
+\documentclass[10pt]{article} % required
+\pagestyle{empty} % required
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage[T1]{fontenc}
+
+\begin{document}
+
+\section{Zweikoerperproblem}
+
+Abkuerzungen
+\[\vec{r_1} \equiv \begin{pmatrix} x_1 \\ y_1 \\ z_1 \end{pmatrix}\]
+\[\vec{r_2} \equiv \begin{pmatrix} x_2 \\ y_2 \\ z_2 \end{pmatrix}\]
+Lagrangefunktion
+\[
+L(\vec{r_1},\vec{r_2},\dot{\vec{r_1}},\dot{\vec{r_2}}) = 
+\frac{m_1}{2}(\dot{\vec{r_1}})^2 +  \frac{m_2}{2}(\dot{\vec{r_2}})^2
+- V(\left| \vec{r_2} - \vec{r_1} \right|)
+\]
+Kanonische Impulse
+\[ \vec{p_1} \equiv  \begin{pmatrix} p_{1x} \\ p_{1y} \\ p_{1z} \end{pmatrix} = \nabla _{\dot{\vec{r_1}}} L \]
+\[ \vec{p_2} \equiv  \begin{pmatrix} p_{2x} \\ p_{2y} \\ p_{2z} \end{pmatrix} = \nabla _{\dot{\vec{r_2}}} L \]
+ z.B. $ p_{1x} = \frac{\partial L}{\partial \dot{x_1}} $
+Hamiltonfunktion
+\[
+H(\vec{r_1},\vec{r_2},\vec{p_1},\vec{p_2}) = 
+\frac{\vec{p_1}^2}{2m} +  \frac{\vec{p_2}^2}{2m}
++ V(\left| \vec{r_2} - \vec{r_1} \right|)
+\]
+Hamiltonsche Gleichungen
+\[ \dot{r_1} = \nabla_{\vec{p_1}} H \]
+\[ \dot{r_2} = \nabla_{\vec{p_2}} H \]
+\[ \dot{p_1} = - \nabla_{\vec{r_1}} H \]
+\[ \dot{p_2} = - \nabla_{\vec{r_2}} H \]
+oder
+\[ \frac{\partial H}{\partial p_{i}}(q(t),p(t))\ ,\quad \dot{p}_{i}=-\frac{\partial H}{\partial q_{i}}(q(t),p(t)) \] 
+mit
+\[ q = \{ x_1, y_1, z_1, x_2, y_2, z_2 \} \ , \quad p = \{ p_{1x}, p_{1y}, p_{1z}, p_{2x}, p_{2y}, p_{2z} \} \]
+fehlt noch: Poissonklammern
+\[
+\left\{f,g\right\}_{q,p}\equiv \left\{f,g\right\}_{Q,P}
+\]
+
+\section{Transformation auf Differenz- und Schwerpunkt-Koordinaten}
+\[
+\begin{pmatrix}
+\vec{r_1} \\ \vec{r_2} \\ \vec{p_1} \\ \vec{p_2}
+\end{pmatrix}
+\mapsto
+\begin{pmatrix}
+\vec{r} \\ \vec{R} \\ \vec{p} \\ \vec{P}
+\end{pmatrix}
+\]
+
+\[ \vec{r}(\vec{r_1},\vec{r_2},\vec{p_1},\vec{p_2}) \equiv \begin{pmatrix} x \\ y \\ z \end{pmatrix} = \vec{r_2} - \vec{r_1} \]
+\[ \vec{R}(\vec{r_1},\vec{r_2},\vec{p_1},\vec{p_2}) \equiv \begin{pmatrix} X \\ Y \\ Z \end{pmatrix} = \frac {m_1\vec{r_1} + m_2\vec{r_2}} {m_1 + m_2} \]
+\[ \vec{p}(\vec{r_1},\vec{r_2},\vec{p_1},\vec{p_2}) \equiv \begin{pmatrix} p_x \\ p_y \\ p_z \end{pmatrix} = \frac{1}{m_1+m_2} ( m_1\vec{p_2} - m_2\vec{p_1}) \]
+\[ \vec{P}(\vec{r_1},\vec{r_2},\vec{p_1},\vec{p_2}) \equiv \begin{pmatrix} P_x \\ P_y \\ P_z \end{pmatrix} = \vec{p_1} + \vec{p_2} \]
+umgekehrt
+\[ m := \frac{m_1 m_2}{m_1 + m_2} \]
+\[ M := m_1 + m_2 \]
+\[ \vec{r_1}(\vec{r},\vec{R},\vec{p},\vec{P}) = \vec{R} - \frac{m_2}{m_1 + m_2}\vec{r} \]
+\[ \vec{r_2}(\vec{r},\vec{R},\vec{p},\vec{P}) = \vec{R} + \frac{m_1}{m_1 + m_2}\vec{r} \]
+\[ \vec{p_1}(\vec{r},\vec{R},\vec{p},\vec{P}) = \frac{m_1}{m_1 + m_2}\vec{P} - \vec{p} \]
+\[ \vec{p_2}(\vec{r},\vec{R},\vec{p},\vec{P}) = \frac{m_2}{m_1 + m_2}\vec{P} + \vec{p} \]
+\[
+L(\vec{r},\vec{R},\dot{\vec{r}},\dot{\vec{R}}) = 
+\frac{m}{2}(\dot{\vec{r}})^2 +  \frac{M}{2}(\dot{\vec{R}})^2
+- V(\left| \vec{r} \right|)
+\]
+\[ \vec{p} = \nabla _{\dot{\vec{r}}} L \]
+\[ \vec{P} = \nabla _{\dot{\vec{R}}} L \]
+\[
+H(\vec{r},\vec{R},\vec{p},\vec{P}) = 
+\frac{\vec{p}^2}{2m} +  \frac{\vec{P}^2}{2M}
++ V(\left| \vec{r} \right|)
+\]
+Hamiltonsche Gleichungen
+\[ \dot{r} = \nabla_{\vec{p}} H \]
+\[ \dot{R} = \nabla_{\vec{P}} H \]
+\[ \dot{p} = - \nabla_{\vec{r}} H \]
+\[ \dot{P} = - \nabla_{\vec{R}} H \]
+oder
+\[ \frac{\partial H}{\partial p_{i}}(q(t),p(t))\ ,\quad \dot{p}_{i}=-\frac{\partial H}{\partial q_{i}}(q(t),p(t)) \] 
+mit
+\[ q = \{ x, y, z, X, Y, Z \} \ , \quad p = \{ p_{x}, p_{y}, p_{z}, p_{X}, p_{Y}, p_{Z} \} \]
+
+fehlt noch: Poisson-Klammern und Probe rechnen!!
+
+\section{Kanonische Transformation, die Orte und Impulse vertauscht}
+
+\[ F_1 = \sum_iq_iQ_i \]
+\[p_i = \frac{\partial F_1}{\partial q_i} \]
+\[P_i = - \frac{\partial F_1}{\partial Q_i} \]
+
+Erzeugende \[ F_1(\vec{r_1}, \vec{r_2},\vec{R_1},\vec{R_2}) = \vec{r_1}\vec{R_1} + \vec{r_2}\vec{R_2} \]
+\[
+\begin{pmatrix}
+\vec{r_1} \\ \vec{r_2} \\ \vec{p_1} \\ \vec{p_2}
+\end{pmatrix}
+\mapsto
+\begin{pmatrix}
+\vec{R_1} \\ \vec{R_2} \\ \vec{P_1} \\ \vec{P_2}
+\end{pmatrix}
+\]
+\[ \vec{p_1} = \vec{R_1} \]
+\[ \vec{p_2} = \vec{R_2} \]
+\[ \vec{P_1} = -\vec{r_1} \]
+\[ \vec{P_2} = -\vec{r_2} \]
+
+\[
+H(\vec{R_1},\vec{R_2},\vec{P_1},\vec{P_2}) = 
+\frac{\vec{R_1}^2}{2m_1} +  \frac{\vec{R_2}^2}{2m_2}
++ V(\left| \vec{P_2} - \vec{P_1} \right|) 
+:= \frac{1}{2}D_1\vec{R_1}^2 + \frac{1}{2}D_2\vec{R_2}^2 + V(\left| \vec{P_2} - \vec{P_1} \right|)
+\]
+Hamiltonsche Gleichungen
+\[ \dot{R_1} = \nabla_{\vec{P_1}} H \]
+\[ \dot{R_2} = \nabla_{\vec{P_2}} H \]
+\[ \dot{P_1} = - \nabla_{\vec{R_1}} H \]
+\[ \dot{P_2} = - \nabla_{\vec{R_2}} H \]
+oder
+\[ \frac{\partial H}{\partial p_{i}}(q(t),p(t))\ ,\quad \dot{p}_{i}=-\frac{\partial H}{\partial q_{i}}(q(t),p(t)) \] 
+mit
+\[ q = \{ X_1, Y_1, Z_1, X_2, Y_2, Z_2 \} \ , \quad p = \{ p_{X1}, p_{Y1}, p_{Z1}, p_{X2}, p_{Y2}, p_{Z2} \} \]
+
+fehlt noch: Poisson-Klammern und Probe rechnen!!
+
+\end{document}

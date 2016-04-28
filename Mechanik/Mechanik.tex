@@ -18,47 +18,47 @@ Abkuerzungen
 \vec{r_2} \equiv \begin{pmatrix} x_2 \\ y_2 \\ z_2 \end{pmatrix}
 \end{equation}
 Lagrangefunktion
-\[
+\begin{equation}
 L(\vec{r_1},\vec{r_2},\dot{\vec{r_1}},\dot{\vec{r_2}}) = 
 \frac{m_1}{2}(\dot{\vec{r_1}})^2 +  \frac{m_2}{2}(\dot{\vec{r_2}})^2
 - V(\left| \vec{r_2} - \vec{r_1} \right|)
-\]
+\end{equation}
 Kanonische Impulse
-\[ 
+\begin{equation} 
 \vec{p_1} \equiv  \begin{pmatrix} p_{1x} \\ p_{1y} \\ p_{1z} \end{pmatrix} = \nabla _{\dot{\vec{r_1}}} L  \quad \quad
 \vec{p_2} \equiv  \begin{pmatrix} p_{2x} \\ p_{2y} \\ p_{2z} \end{pmatrix} = \nabla _{\dot{\vec{r_2}}} L 
-\]
+\end{equation}
 \centering
 z.B.  $ p_{2x} = \frac{\partial L}{\partial \dot{x_2}} $
 \par 
 \raggedright
 Hamiltonfunktion
-\[
+\begin{equation}
 H(\vec{r_1},\vec{r_2},\vec{p_1},\vec{p_2}) = 
 \frac{\vec{p_1}^2}{2m} +  \frac{\vec{p_2}^2}{2m}
 + V(\left| \vec{r_2} - \vec{r_1} \right|)
-\]
+\end{equation}
 Hamiltonsche Gleichungen
-\[ 
+\begin{equation} 
 \dot{q}_{i}= \frac{\partial H}{\partial p_{i}}(q(t),p(t))\ \quad \quad 
 \dot{p}_{i}=-\frac{\partial H}{\partial q_{i}}(q(t),p(t)) 
-\] 
+\end{equation} 
 mit
-\[ \{q_i\} = \{ x_1, y_1, z_1, x_2, y_2, z_2 \} \  \quad \quad \{p_i\} = \{ p_{1x}, p_{1y}, p_{1z}, p_{2x}, p_{2y}, p_{2z} \} \]
+\begin{equation} \{q_i\} = \{ x_1, y_1, z_1, x_2, y_2, z_2 \} \  \quad \quad \{p_i\} = \{ p_{1x}, p_{1y}, p_{1z}, p_{2x}, p_{2y}, p_{2z} \} \end{equation}
 nehmen die Form an
-\[ \dot{\vec{r_1}} = \nabla_{\vec{p_1}} H = \frac{\vec{p_1}}{m_1} \]
-\[ \dot{\vec{r_2}} = \nabla_{\vec{p_2}} H = \frac{\vec{p_2}}{m_2} \]
-\[ \dot{\vec{p_1}} = - \nabla_{\vec{r_1}} H = \frac{\vec{r_2} - \vec{r_1}}{\left|\vec{r_2} - \vec{r_1}\right|} \cdot V'(\left|\vec{r_2} - \vec{r_1}\right|) \]
-\[ \dot{\vec{p_2}} = - \nabla_{\vec{r_2}} H = -  \frac{\vec{r_2} - \vec{r_1}}{\left|\vec{r_2} - \vec{r_1}\right|} \cdot V'(\left|\vec{r_2} - \vec{r_1}\right|) \]
+\begin{equation} \dot{\vec{r_1}} = \nabla_{\vec{p_1}} H = \frac{\vec{p_1}}{m_1} \end{equation}
+\begin{equation} \dot{\vec{r_2}} = \nabla_{\vec{p_2}} H = \frac{\vec{p_2}}{m_2} \end{equation}
+\begin{equation} \dot{\vec{p_1}} = - \nabla_{\vec{r_1}} H = \frac{\vec{r_2} - \vec{r_1}}{\left|\vec{r_2} - \vec{r_1}\right|} \cdot V'(\left|\vec{r_2} - \vec{r_1}\right|) \end{equation}
+\begin{equation} \dot{\vec{p_2}} = - \nabla_{\vec{r_2}} H = -  \frac{\vec{r_2} - \vec{r_1}}{\left|\vec{r_2} - \vec{r_1}\right|} \cdot V'(\left|\vec{r_2} - \vec{r_1}\right|) \end{equation}
 mit der Ableitung
-\[ V'(x) \equiv \frac{\partial V(x)}{\partial x} \]
+\begin{equation} V'(x) \equiv \frac{\partial V(x)}{\partial x} \end{equation}
 fehlt noch: Poissonklammern
-\[
+\begin{equation}
 \left\{f,g\right\}_{q,p}\equiv \left\{f,g\right\}_{Q,P}
-\]
+\end{equation}
 
 \section{Punkt-Transformation auf Differenz- und Schwerpunkt-Koordinaten}
-\[
+\begin{equation}
 \begin{pmatrix}
 \vec{r_1} \\ \vec{r_2} \\ \vec{p_1} \\ \vec{p_2}
 \end{pmatrix}
@@ -66,69 +66,69 @@ fehlt noch: Poissonklammern
 \begin{pmatrix}
 \vec{r} \\ \vec{R} \\ \vec{p} \\ \vec{P}
 \end{pmatrix}
-\]
+\end{equation}
 
-\[ 
+\begin{equation} 
 \vec{r}(\vec{r_1},\vec{r_2},\vec{p_1},\vec{p_2}) \equiv \begin{pmatrix} x \\ y \\ z \end{pmatrix} = \vec{r_2} - \vec{r_1} \quad \quad
 \vec{R}(\vec{r_1},\vec{r_2},\vec{p_1},\vec{p_2}) \equiv \begin{pmatrix} X \\ Y \\ Z \end{pmatrix} = \frac {m_1\vec{r_1} + m_2\vec{r_2}} {m_1 + m_2} 
-\]
-\[ 
+\end{equation}
+\begin{equation} 
 \vec{p}(\vec{r_1},\vec{r_2},\vec{p_1},\vec{p_2}) \equiv \begin{pmatrix} p_x \\ p_y \\ p_z \end{pmatrix} = \frac{ m_1\vec{p_2} - m_2\vec{p_1}}{m_1+m_2} \quad \quad
 \vec{P}(\vec{r_1},\vec{r_2},\vec{p_1},\vec{p_2}) \equiv \begin{pmatrix} P_x \\ P_y \\ P_z \end{pmatrix} = \vec{p_1} + \vec{p_2} 
-\]
+\end{equation}
 umgekehrt
-\[ 
+\begin{equation} 
 \vec{r_1}(\vec{r},\vec{R},\vec{p},\vec{P}) = \vec{R} - \frac{m_2}{m_1 + m_2}\cdot \vec{r} \quad \quad
 \vec{r_2}(\vec{r},\vec{R},\vec{p},\vec{P}) = \vec{R} + \frac{m_1}{m_1 + m_2} \cdot \vec{r} 
-\]
-\[ 
+\end{equation}
+\begin{equation} 
 \vec{p_1}(\vec{r},\vec{R},\vec{p},\vec{P}) = \frac{m_1}{m_1 + m_2}\cdot \vec{P} - \vec{p} \quad \quad
 \vec{p_2}(\vec{r},\vec{R},\vec{p},\vec{P}) = \frac{m_2}{m_1 + m_2}\cdot \vec{P} + \vec{p} 
-\]
+\end{equation}
 mit reduzierter Masse m und Gesamtmasse M
-\[ m \equiv \frac{m_1 m_2}{m_1 + m_2} \]
-\[ M \equiv m_1 + m_2 \]
+\begin{equation} m \equiv \frac{m_1 m_2}{m_1 + m_2} \end{equation}
+\begin{equation} M \equiv m_1 + m_2 \end{equation}
 Lagrangefunktion
-\[
+\begin{equation}
 L(\vec{r},\vec{R},\dot{\vec{r}},\dot{\vec{R}}) = 
 \frac{m}{2}(\dot{\vec{r}})^2 +  \frac{M}{2}(\dot{\vec{R}})^2
 - V(\left| \vec{r} \right|)
-\]
-\[ \vec{p} = \nabla _{\dot{\vec{r}}} L \]
-\[ \vec{P} = \nabla _{\dot{\vec{R}}} L \]
+\end{equation}
+\begin{equation} \vec{p} = \nabla _{\dot{\vec{r}}} L \end{equation}
+\begin{equation} \vec{P} = \nabla _{\dot{\vec{R}}} L \end{equation}
 Hamiltonfunktion
-\[
+\begin{equation}
 H(\vec{r},\vec{R},\vec{p},\vec{P}) = 
 \frac{\vec{p}^2}{2m} +  \frac{\vec{P}^2}{2M}
 + V(\left| \vec{r} \right|)
-\]
+\end{equation}
 Hamiltonsche Gleichungen
 mit
-\[ \{q_i\} = \{ x, y, z, X, Y, Z \} \quad \quad \{p_i\} = \{ p_{x}, p_{y}, p_{z}, P_{x}, P_{y}, P_{z} \} \]
+\begin{equation} \{q_i\} = \{ x, y, z, X, Y, Z \} \quad \quad \{p_i\} = \{ p_{x}, p_{y}, p_{z}, P_{x}, P_{y}, P_{z} \} \end{equation}
 nehmen die Form an
-\[ \dot{\vec{r}} = \nabla_{\vec{p}} H = \frac{ \vec{p} }{m} \]
-\[ \dot{\vec{R}} = \nabla_{\vec{P}} H = \frac{ \vec{P} }{M} \]
-\[ \dot{\vec{p}} = - \nabla_{\vec{r}} H = -V'( \left| \vec{r} \right| ) \cdot \frac{ \vec{r} }{ \left| \vec{r} \right| } \]
-\[ \dot{\vec{P}} = - \nabla_{\vec{R}} H = \vec{0} \]
+\begin{equation} \dot{\vec{r}} = \nabla_{\vec{p}} H = \frac{ \vec{p} }{m} \end{equation}
+\begin{equation} \dot{\vec{R}} = \nabla_{\vec{P}} H = \frac{ \vec{P} }{M} \end{equation}
+\begin{equation} \dot{\vec{p}} = - \nabla_{\vec{r}} H = -V'( \left| \vec{r} \right| ) \cdot \frac{ \vec{r} }{ \left| \vec{r} \right| } \end{equation}
+\begin{equation} \dot{\vec{P}} = - \nabla_{\vec{R}} H = \vec{0} \end{equation}
 
 fehlt noch: Poisson-Klammern
 
 Loesung
 
-\[ 
+\begin{equation} 
 \vec{P} = \vec{P}(t = 0) \quad \Rightarrow \quad \vec{R} = \frac{ \vec{P}(t = 0) }{M} +  \vec{R}(t = 0)
-\]
-\[ m\cdot \ddot \vec{r} = -V'( \left| \vec{r} \right| ) \cdot \frac{\vec{r}}{\left| \vec{r} \right|}
-\quad \quad ( allgemeiner = -\nabla_{\vec{r}} \cdot V(\vec{r}) ) \]
+\end{equation}
+\begin{equation} m\cdot \ddot \vec{r} = -V'( \left| \vec{r} \right| ) \cdot \frac{\vec{r}}{\left| \vec{r} \right|}
+\quad \quad ( allgemeiner = -\nabla_{\vec{r}} \cdot V(\vec{r}) ) \end{equation}
 
 \section{Kanonische Transformation, die Orte und Impulse vertauscht}
 
-\[ F_1 = \sum_iq_iQ_i \]
-\[p_i = \frac{\partial F_1}{\partial q_i} \]
-\[P_i = - \frac{\partial F_1}{\partial Q_i} \]
+\begin{equation} F_1 = \sum_iq_iQ_i \end{equation}
+\begin{equation}p_i = \frac{\partial F_1}{\partial q_i} \end{equation}
+\begin{equation}P_i = - \frac{\partial F_1}{\partial Q_i} \end{equation}
 
-Erzeugende \[ F_1(\vec{r_1}, \vec{r_2},\vec{R_1},\vec{R_2}) = \vec{r_1}\vec{R_1} + \vec{r_2}\vec{R_2} \]
-\[
+Erzeugende \begin{equation} F_1(\vec{r_1}, \vec{r_2},\vec{R_1},\vec{R_2}) = \vec{r_1}\vec{R_1} + \vec{r_2}\vec{R_2} \end{equation}
+\begin{equation}
 \begin{pmatrix}
 \vec{r_1} \\ \vec{r_2} \\ \vec{p_1} \\ \vec{p_2}
 \end{pmatrix}
@@ -136,28 +136,28 @@ Erzeugende \[ F_1(\vec{r_1}, \vec{r_2},\vec{R_1},\vec{R_2}) = \vec{r_1}\vec{R_1}
 \begin{pmatrix}
 \vec{R_1} \\ \vec{R_2} \\ \vec{P_1} \\ \vec{P_2}
 \end{pmatrix}
-\]
-\[ \vec{p_1} = \vec{R_1} \]
-\[ \vec{p_2} = \vec{R_2} \]
-\[ \vec{P_1} = -\vec{r_1} \]
-\[ \vec{P_2} = -\vec{r_2} \]
+\end{equation}
+\begin{equation} \vec{p_1} = \vec{R_1} \end{equation}
+\begin{equation} \vec{p_2} = \vec{R_2} \end{equation}
+\begin{equation} \vec{P_1} = -\vec{r_1} \end{equation}
+\begin{equation} \vec{P_2} = -\vec{r_2} \end{equation}
 Hamiltonfunktion
-\[
+\begin{equation}
 H(\vec{R_1},\vec{R_2},\vec{P_1},\vec{P_2}) = 
 \frac{\vec{R_1}^2}{2m_1} +  \frac{\vec{R_2}^2}{2m_2}
 + V(\left| \vec{P_2} - \vec{P_1} \right|) 
 \equiv \frac{1}{2}D_1\vec{R_1}^2 + \frac{1}{2}D_2\vec{R_2}^2 + V(\left| \vec{P_2} - \vec{P_1} \right|)
-\]
+\end{equation}
 mit Federkonstanten
-\[ D_1 \equiv \frac{1}{m_1} \quad \quad  D_2 \equiv \frac{1}{m_2} \]
+\begin{equation} D_1 \equiv \frac{1}{m_1} \quad \quad  D_2 \equiv \frac{1}{m_2} \end{equation}
 Hamiltonsche Gleichungen
 mit
-\[ \{q_i\} = \{ X_1, Y_1, Z_1, X_2, Y_2, Z_2 \} \quad \quad \{p_i\} = \{ P_{1x}, P_{1y}, P_{1z}, P_{2x}, P_{2y}, P_{2z} \} \]
+\begin{equation} \{q_i\} = \{ X_1, Y_1, Z_1, X_2, Y_2, Z_2 \} \quad \quad \{p_i\} = \{ P_{1x}, P_{1y}, P_{1z}, P_{2x}, P_{2y}, P_{2z} \} \end{equation}
 nehmen die Form an
-\[ \dot{R_1} = \nabla_{\vec{P_1}} H = -V'( \left| \vec{P_2} - \vec{P_1} \right| ) \cdot \frac{ \vec{P_2} - \vec{P_1} }{\left| \vec{P_2} - \vec{P_1} \right|} \]
-\[ \dot{R_2} = \nabla_{\vec{P_2}} H = V'( \left| \vec{P_2} - \vec{P_1} \right| ) \cdot \frac{ \vec{P_2} - \vec{P_1} }{\left| \vec{P_2} - \vec{P_1} \right|} \]
-\[ \dot{P_1} = - \nabla_{\vec{R_1}} H = D_1 \vec{R_1} \]
-\[ \dot{P_2} = - \nabla_{\vec{R_2}} H = D_2 \vec{R_2} \]
+\begin{equation} \dot{R_1} = \nabla_{\vec{P_1}} H = -V'( \left| \vec{P_2} - \vec{P_1} \right| ) \cdot \frac{ \vec{P_2} - \vec{P_1} }{\left| \vec{P_2} - \vec{P_1} \right|} \end{equation}
+\begin{equation} \dot{R_2} = \nabla_{\vec{P_2}} H = V'( \left| \vec{P_2} - \vec{P_1} \right| ) \cdot \frac{ \vec{P_2} - \vec{P_1} }{\left| \vec{P_2} - \vec{P_1} \right|} \end{equation}
+\begin{equation} \dot{P_1} = - \nabla_{\vec{R_1}} H = D_1 \vec{R_1} \end{equation}
+\begin{equation} \dot{P_2} = - \nabla_{\vec{R_2}} H = D_2 \vec{R_2} \end{equation}
 
 fehlt noch: Poisson-Klammern
 

@@ -15,39 +15,54 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="shortcut icon" href="sites/default/files/pyramid_power.ico" type="image/vnd.microsoft.icon" />
 <link rel="shortlink" href="node/66" />
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ['tex2jax.js'],
+  jax: ['input/TeX','output/HTML-CSS'],
+  tex2jax: {
+    inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+    processEscapes: true,
+    processClass: 'tex2jax',
+    ignoreClass: 'html'
+  },
+  showProcessingMessages: false,
+  messageStyle: 'none'
+});
+</script><meta name="Generator" content="Drupal 7 (http://drupal.org)" />
 <link rel="canonical" href="Start" />
-<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
   <title>Worum geht es hier? Und worum nicht? | Physikalismus</title>
   <style type="text/css" media="all">
-@import url("http://physikalismus.de/modules/system/system.base.css?nwwcfu");
-@import url("http://physikalismus.de/modules/system/system.menus.css?nwwcfu");
-@import url("http://physikalismus.de/modules/system/system.messages.css?nwwcfu");
-@import url("http://physikalismus.de/modules/system/system.theme.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.base.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.menus.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.messages.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.theme.css?obwofu");
 </style>
 <style type="text/css" media="all">
-@import url("http://physikalismus.de/modules/comment/comment.css?nwwcfu");
-@import url("http://physikalismus.de/modules/field/theme/field.css?nwwcfu");
-@import url("http://physikalismus.de/modules/node/node.css?nwwcfu");
-@import url("http://physikalismus.de/modules/search/search.css?nwwcfu");
-@import url("http://physikalismus.de/modules/user/user.css?nwwcfu");
+@import url("http://physikalismus.de/modules/comment/comment.css?obwofu");
+@import url("http://physikalismus.de/modules/field/theme/field.css?obwofu");
+@import url("http://physikalismus.de/modules/node/node.css?obwofu");
+@import url("http://physikalismus.de/modules/search/search.css?obwofu");
+@import url("http://physikalismus.de/modules/user/user.css?obwofu");
 </style>
 <style type="text/css" media="all">
-@import url("sites/default/files/color/garland-b0e715b8/style.css@nwwcfu");
+@import url("sites/default/files/color/garland-b0e715b8/style.css@obwofu");
 </style>
 <style type="text/css" media="print">
-@import url("http://physikalismus.de/themes/garland/print.css?nwwcfu");
+@import url("http://physikalismus.de/themes/garland/print.css?obwofu");
 </style>
 
 <!--[if lt IE 7]>
-<link type="text/css" rel="stylesheet" href="http://physikalismus.de/themes/garland/fix-ie.css?nwwcfu" media="all" />
+<link type="text/css" rel="stylesheet" href="http://physikalismus.de/themes/garland/fix-ie.css?obwofu" media="all" />
 <![endif]-->
   <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
 <script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
-<script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?nwwcfu"></script>
-<script type="text/javascript" src="sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@nwwcfu"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?obwofu"></script>
+<script type="text/javascript" src="sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@obwofu"></script>
+<script type="text/javascript" src="sites/all/modules/mathjax/mathjax.js@obwofu"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"fQ9FELqcdTFGqmJRLShf_aEfQM-DHD8j7qJ6icFzi7s","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Start":true,"\/Start?destination=node\/66":true}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"b3SJt-2yLV49GLmVmBIp5w-kxsQ663VFGBreXhw3gEA","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Start":true,"\/Start?destination=node\/66":true}});
 //--><!]]>
 </script>
 </head>
@@ -67,6 +82,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                           </div>
 
         <h2 class="element-invisible">Hauptmenü</h2><ul class="links inline main-menu"><li class="menu-218 first"><a href="index.html" title="">Start</a></li>
+<li class="menu-467"><a href="tracker" title="">Neuester Inhalt</a></li>
 <li class="menu-310"><a href="Quellen">Quellen</a></li>
 <li class="menu-311"><a href="Zitate">Zitate</a></li>
 <li class="menu-410"><a href="Bibliothek" title="Zum Verständnis Dienliches an diesem Ort Archiviertes">Bibliothek</a></li>
@@ -85,7 +101,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
  <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-e6QquyQOAvaekDJ0JSYQ8SVJBK_ilI0sOhT-VYuEqEE" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-htfz5zjmNrlHm-nbMMGylC_G55rwg3kCB-lK0yhhrlo" />
 <input type="hidden" name="form_id" value="search_block_form" />
 </div>
 </div></form>  </div>
@@ -106,15 +122,20 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 <li class="collapsed"><a href="Gleichnisse" title="Gleichnisse für Physiker von einem Physiker über Physik">Gleichnisse</a></li>
 <li class="leaf"><a href="Ethik" title="Was sollen wir tun?">gut &amp; böse</a></li>
 <li class="leaf"><a href="Ich" title="Was ist das Ich?">Ich</a></li>
+<li class="leaf"><a href="Information" title="Baustelle">Information</a></li>
 <li class="leaf"><a href="Jesus" title="Wie ich mir Jesus vorstelle">Jesus</a></li>
 <li class="leaf"><a href="Juristerei" title="Kann richtig geurteilt werden?">Juristerei</a></li>
 <li class="leaf"><a href="Kampf" title="Die falsche Idee vom totalen Frieden">Kampf</a></li>
+<li class="collapsed"><a href="Masse" title="Wie sich die Masse in ein Geflecht auflöst">Masse</a></li>
+<li class="collapsed"><a href="Mechanik" title="Was man von der klassischen Mechanik noch lernen kann">Mechanik</a></li>
 <li class="leaf"><a href="N" title="Was an den natürlichen Zahlen unnatürlich ist">N</a></li>
 <li class="collapsed"><a href="Quantenmechanik" title="Die philosophischen Konsequenzen aus der Quantenmechanik">Quanten</a></li>
 <li class="leaf"><a href="Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen">Reduktionismus</a></li>
 <li class="leaf"><a href="Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
 <li class="leaf"><a href="Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
-<li class="last leaf"><a href="Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+<li class="leaf"><a href="Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+<li class="leaf"><a href="Aufsauger" title="Feynmans Gedankenexperiment">Aufsauger</a></li>
+<li class="last leaf"><a href="Statistik" title="Was hat die klassische Statistik in der Quantenmechanik verloren?">Statisitik</a></li>
 </ul>  </div>
 </div>
 <div id="block-user-login" class="block block-user clearfix">
@@ -131,7 +152,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
  <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
 </div>
 <div class="item-list"><ul><li class="first last"><a href="user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
-</ul></div><input type="hidden" name="form_build_id" value="form-fDW4YCFO7pjRC2ye3Ar3SCZPXc2w130A6tWP9H1ul0o" />
+</ul></div><input type="hidden" name="form_build_id" value="form-YTacgUW1BtXoGMx1T7f5y2lZXdYdDHYxZDlHlnfFJzM" />
 <input type="hidden" name="form_id" value="user_login_block" />
 <div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
 </div>
@@ -153,7 +174,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
       <span property="dc:title" content="Worum geht es hier? Und worum nicht?" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
   
   <div class="content clearfix">
-    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Es geht hier um Philosophie auf der Grundlage eines breiten physikalischen Wissens, das heißt eines Wissens um das Verhalten des Seienden, wie es sich durch Experimente und Erfahrung erschließt. </p>
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="tex2jax"><p>Es geht hier um Philosophie auf der Grundlage eines breiten physikalischen Wissens, das heißt eines Wissens um das Verhalten des Seienden, wie es sich durch Experimente und Erfahrung erschließt. </p>
 <p>Wozu eigentlich noch Philosophie, wenn es doch die moderne Naturwissenschaft gibt, die uns alles so schön erklären kann? Dazu der theoretische Physiker und Wissenschaftsphilosoph Bernard d'Espagnat:</p>
 <p><cite>Tatsächlich behaupten die meisten Wissenschaftler höchstrichtig, dass es der Zweck der Wissenschaft sei, menschliche Erfahrungen zu beschreiben, nicht das „was wirklich ist“...</cite> [d'Espagnat-Meas]</p>
 <p>Man sollte sich vor Wissenschaftlern hüten, die einem allzu schnell erklären können, was ist. Die Philosophen versuchen sich weiter vorzutasten in das Dunkel, dass weder unsere Sinne noch unsere Messinstrumente sehen können. Es ist oft berichtet worden, dass einer, der ständig fragt und grübelt, plötzlich wie vom Blitz getroffen meint, mehr sehen zu können. Dies versetzt ihn derart in Aufregung, dass er seine Gesichte anderen mitteilen will. Um solch eine Mitteilung geht es hier. </p>
@@ -176,7 +197,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 <p><cite>... umgekehrt nun aber wird Geistesarmuth, Verworrenheit, Verschrobenheit sich in die gesuchtesten Ausdrücke und dunkelsten Redensarten kleiden, um so in schwierige und pomphafte Phrasen kleine, winzige, nüchterne, oder alltägliche Gedanken zu verhüllen, demjenigen gleich, der, weil ihm die Majestät der Schönheit abgeht, diesen Mangel durch die Kleidung ersetzen will und unter barbarischem Putz, Flittern, Federn, Krausen, Puffen und Mantel, die Winzigkeit oder Häßlichkeit seiner Person zu verstecken sucht. So verlegen wie dieser, wenn er nackt gehn sollte, wäre mancher Autor, wenn man ihn zwänge, sein so pomphaftes, dunkles Buch in dessen kleinen, klaren Inhalt zu übersetzen.</cite> [Schopenhauer-D 3. Buch §47]</p>
 <p>Als erstes entledigen wir uns gleich hier des Begriffes „Individuum“, der „Unteilbares“ bedeutet. In der heute oft üblichen Verwendung von „Individuum“ scheint der Begriff gar nicht richtig zu passen. Statt dessen werden wir den besser passenden Begriff des Sich-abgeteilt-denkenden verwenden, kurz: <strong>das Abgeteilte</strong>. Für den, der mit der alten indischen Philosophie vertraut ist, ordnet sich dieser Begriff so ein: deren <cite>Vielheitler</cite> ist ein Sich-abgeteilt-denkender, der glaubt, dass die Welt mit vielen anderen Abgeteilten bevölkert ist.</p>
 <p>Es gibt durch die einzelnen Schriften hier keinen geraden Weg zu dem, was in der Zusammenfassung geschrieben steht. Jeder mag sich seinen eigenen suchen...</p>
-</div></div></div>  </div>
+</div></div></div></div>  </div>
 
   <div class="clearfix">
           <div class="links"></div>

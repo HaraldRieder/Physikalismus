@@ -1,0 +1,349 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="sites/default/files/pyramid_power.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="node/70" />
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ['tex2jax.js'],
+  jax: ['input/TeX','output/HTML-CSS'],
+  tex2jax: {
+    inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+    processEscapes: true,
+    processClass: 'tex2jax',
+    ignoreClass: 'html'
+  },
+  showProcessingMessages: false,
+  messageStyle: 'none'
+});
+</script><meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="Mechanik" />
+  <title>Was man von der klassischen Mechanik noch lernen kann | Physikalismus</title>
+  <style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/system/system.base.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.menus.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.messages.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.theme.css?obwofu");
+</style>
+<style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/comment/comment.css?obwofu");
+@import url("http://physikalismus.de/modules/field/theme/field.css?obwofu");
+@import url("http://physikalismus.de/modules/node/node.css?obwofu");
+@import url("http://physikalismus.de/modules/search/search.css?obwofu");
+@import url("http://physikalismus.de/modules/user/user.css?obwofu");
+</style>
+<style type="text/css" media="all">
+@import url("sites/default/files/color/garland-b0e715b8/style.css@obwofu");
+</style>
+<style type="text/css" media="print">
+@import url("http://physikalismus.de/themes/garland/print.css?obwofu");
+</style>
+
+<!--[if lt IE 7]>
+<link type="text/css" rel="stylesheet" href="http://physikalismus.de/themes/garland/fix-ie.css?obwofu" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?obwofu"></script>
+<script type="text/javascript" src="sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@obwofu"></script>
+<script type="text/javascript" src="sites/all/modules/mathjax/mathjax.js@obwofu"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"o3x3js0ba3qF7vTB-KPzR5yUVIOSodBH8_J0KV4IlTs","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Mechanik":true,"\/Mechanik?destination=node\/70":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-70 node-type-page fluid-width" >
+  <div id="skip-link">
+    <a href="Mechanik#main-content" class="element-invisible element-focusable">Direkt zum Inhalt</a>
+  </div>
+      
+  <div id="wrapper">
+    <div id="container" class="clearfix">
+
+      <div id="header">
+        <div id="logo-floater">
+                              <div id="branding"><strong><a href="index.html">
+                          <img src="sites/default/files/pyramid_power.png" alt=" " title=" " id="logo" />
+                                    </a></strong></div>
+                          </div>
+
+        <h2 class="element-invisible">Hauptmenü</h2><ul class="links inline main-menu"><li class="menu-218 first"><a href="index.html" title="">Start</a></li>
+<li class="menu-467"><a href="tracker" title="">Neuester Inhalt</a></li>
+<li class="menu-310"><a href="Quellen">Quellen</a></li>
+<li class="menu-311"><a href="Zitate">Zitate</a></li>
+<li class="menu-410"><a href="Bibliothek" title="Zum Verständnis Dienliches an diesem Ort Archiviertes">Bibliothek</a></li>
+<li class="menu-423 last"><a href="Impressum">Impressum</a></li>
+</ul>              </div> <!-- /#header -->
+
+              <div id="sidebar-first" class="sidebar">
+            <div class="region region-sidebar-first">
+    <div id="block-search-form" class="block block-search clearfix">
+
+    
+  <div class="content">
+    <form action="Mechanik" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Suchformular</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
+ <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-38jkQpEikgX66YbX72OJsBpT6g-EuUlrkeUuRp7c1UA" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-system-navigation" class="block block-system block-menu clearfix">
+
+    <h2 class="title">Navigation</h2>
+  
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="Dao" title="Der Weg zur Erkenntnis">Dao</a></li>
+<li class="leaf"><a href="Bewusstsein" title="Gedanken über den Geist">Bewusstsein</a></li>
+<li class="leaf"><a href="Energie" title="Ein Wort zur Energie">Energie</a></li>
+<li class="leaf"><a href="Erloesung" title="Wie kann das Abgeteilte erlöst werden?">Erlösung</a></li>
+<li class="leaf"><a href="Erwachsenwerden" title="Erwachsenwerden in der Begrifflichkeit des Schopenhauerschen Willens">Erwachsenwerden</a></li>
+<li class="leaf"><a href="Freunde" title="Wie Freunde uns in die Irre führen">Freunde</a></li>
+<li class="leaf"><a href="Geister" title="Wann ist ein Geist ein Geist?">Geister</a></li>
+<li class="leaf"><a href="Geld" title="Preis als Energie und Geld als Software">Geld</a></li>
+<li class="collapsed"><a href="Gleichnisse" title="Gleichnisse für Physiker von einem Physiker über Physik">Gleichnisse</a></li>
+<li class="leaf"><a href="Ethik" title="Was sollen wir tun?">gut &amp; böse</a></li>
+<li class="leaf"><a href="Ich" title="Was ist das Ich?">Ich</a></li>
+<li class="leaf"><a href="Information" title="Baustelle">Information</a></li>
+<li class="leaf"><a href="Jesus" title="Wie ich mir Jesus vorstelle">Jesus</a></li>
+<li class="leaf"><a href="Juristerei" title="Kann richtig geurteilt werden?">Juristerei</a></li>
+<li class="leaf"><a href="Kampf" title="Die falsche Idee vom totalen Frieden">Kampf</a></li>
+<li class="collapsed"><a href="Masse" title="Wie sich die Masse in ein Geflecht auflöst">Masse</a></li>
+<li class="expanded active-trail"><a href="Mechanik" title="Was man von der klassischen Mechanik noch lernen kann" class="active-trail active">Mechanik</a><ul class="menu"><li class="first last leaf"><a href="MechanikSymmetrien" title="Symmetrien sind wesentlich">Symmetrien</a></li>
+</ul></li>
+<li class="leaf"><a href="N" title="Was an den natürlichen Zahlen unnatürlich ist">N</a></li>
+<li class="collapsed"><a href="Quantenmechanik" title="Die philosophischen Konsequenzen aus der Quantenmechanik">Quanten</a></li>
+<li class="leaf"><a href="Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen">Reduktionismus</a></li>
+<li class="leaf"><a href="Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
+<li class="leaf"><a href="Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
+<li class="leaf"><a href="Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+<li class="leaf"><a href="Aufsauger" title="Feynmans Gedankenexperiment">Aufsauger</a></li>
+<li class="last leaf"><a href="Statistik" title="Was hat die klassische Statistik in der Quantenmechanik verloren?">Statisitik</a></li>
+</ul>  </div>
+</div>
+<div id="block-user-login" class="block block-user clearfix">
+
+    <h2 class="title">Benutzeranmeldung</h2>
+  
+  <div class="content">
+    <form action="http://physikalismus.de/Mechanik?destination=node/70" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Benutzername <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">Passwort <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="first last"><a href="user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
+</ul></div><input type="hidden" name="form_build_id" value="form-jrNJ_3cU4ShYjN3USujSW9W-Kc13cJZ5BcKcYC-WaOM" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
+</div>
+  </div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <h2 class="element-invisible">Sie sind hier</h2><div class="breadcrumb"><a href="index.html">Startseite</a></div>                    <a id="main-content"></a>
+          <div id="tabs-wrapper" class="clearfix">                                <h1 class="with-tabs">Was man von der klassischen Mechanik noch lernen kann</h1>
+                              </div>                                                  <div class="clearfix">
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <div id="node-70" class="node node-page" about="/Mechanik" typeof="foaf:Document">
+
+  
+      <span property="dc:title" content="Was man von der klassischen Mechanik noch lernen kann" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="tex2jax"><p>Für dieses Kapitel werden Kenntnisse der theoretischen Mechanik vorausgesetzt [z.B. Goldstein].</p>
+<p>es sind konstant: E, die Kommutatorrelationen zwischen den kanonischen Variablen. diese sind wesentliche. symmetrie -&gt; mit H vertauschende Casimir-Operatoren. Also ein oder mehrere Zahlen und die Algebra dazu. Das ist das Wesen dieser Welt. Nicht x1, x2.</p>
+<p>warum orte von 1. gleichung ausgezeichnet? antwort: kopplung an umgebung bestimmt die bevorzugte basis.<br />
+problem der bevorzugten basis nicht spezifisch qtheoretisch sondern bereits in der klassischen Mechanik.</p>
+<h2>Zweikörperproblem</h2>
+<p>Das Zweikörperproblem geht davon aus, dass es in der Welt wenigstens 2 Körper - was auch immer das genau sein soll - gibt, die sich als voneinander getrennt ansehen lassen und zwischen denen eine Kraft wirken kann, die diese Trennung wieder zunichte machen kann. Die Körper sollen sich in einem dreidimensionalen Raum befinden, dessen Dasein hier nicht weiter hinterfragt werden soll. Die Körper werden auf ihren Schwerpunkt abstrahiert, also im mathematischen Modell als Massenpunkte angesehen, die sich an 2 verschiedenen Orten im Raum befinden. Die Kraft zwischen den Körpern verschwindet bei unendlichem Abstand der Schwerpunkte, was Voraussetzung dafür ist, dass man sie als trennbar ansehen darf.</p>
+<p>Sollte es noch weitere Dinge in dieser Welt geben, so sollen sie aus irgendwelchen Gründen keinen Einfluss auf die beiden Körper haben, so dass man ihre Bewegung in der Zeit, deren Dasein nicht weiter hinterfragt werden soll, mit einer Gleichung studieren kann, die lediglich Abstraktionen der beiden Körper sowie der Kraft zwischen ihnen enthält.</p>
+<p>Auf die Idee solch einer Abstraktion kann man zum Beispiel durch die Beobachtung von Lichtpunkten am Himmel kommen, oder auch durch die Beobachtung von Lichtpunkten auf der eigenen Netzhaut.</p>
+<p>Diese Vereinfachung funktioniert für manche Zwecke ganz gut! Damit lassen sich Planetenbewegungen vorhersagen und das Modell lässt sich auf mehr als 2 Planeten - was auch immer das sein soll - erweitern.</p>
+<h3>A. Die beobachtungs- oder vorstellungsnächste Formulierung des Problems</h3>
+<p>Für die 6 Ortskoordinaten der Massenpunkte benutzen wir hier die Abkürzungen<br />
+\begin{equation}<br />
+\vec{r_1} \equiv \begin{pmatrix} x_1 \\ y_1 \\ z_1 \end{pmatrix}  \quad \quad<br />
+\vec{r_2} \equiv \begin{pmatrix} x_2 \\ y_2 \\ z_2 \end{pmatrix}<br />
+\end{equation}<br />
+\(\vec{r_1}\) könnte für den Schwerpunkt der Erde und \(\vec{r_2}\) für den Schwerpunkt ihres Mondes stehen.<br />
+Die Lagrangefunktion mit einer Kraft, die nur vom Abstand der Schwerpunkte abhängt, lautet damit<br />
+\begin{equation}<br />
+L(\vec{r_1},\vec{r_2},\dot{\vec{r_1}},\dot{\vec{r_2}}) =<br />
+\frac{m_1}{2}(\dot{\vec{r_1}})^2 +  \frac{m_2}{2}(\dot{\vec{r_2}})^2<br />
+- V(\left| \vec{r_2} - \vec{r_1} \right|)<br />
+\end{equation}<br />
+Aus der Lagrangefunktion gewinnt man die kanonischen Impulse<br />
+\begin{equation}<br />
+\vec{p_1} \equiv  \begin{pmatrix} p_{1x} \\ p_{1y} \\ p_{1z} \end{pmatrix} = \nabla _{\dot{\vec{r_1}}} L  \quad \quad<br />
+\vec{p_2} \equiv  \begin{pmatrix} p_{2x} \\ p_{2y} \\ p_{2z} \end{pmatrix} = \nabla _{\dot{\vec{r_2}}} L<br />
+\end{equation}<br />
+Z.B. lautet der zur x-Koordinate des 2. Körpers kanonische Impuls \( p_{2x} = \frac{\partial L}{\partial \dot{x_2}} = m_2 \dot{x_2} \).<br />
+Die Hamiltonfunktion wird damit zu<br />
+\begin{equation}<br />
+H(\vec{r_1},\vec{r_2},\vec{p_1},\vec{p_2}) =<br />
+\frac{\vec{p_1}^2}{2m} +  \frac{\vec{p_2}^2}{2m}<br />
++ V(\left| \vec{r_2} - \vec{r_1} \right|)<br />
+\end{equation}<br />
+Zur Erinnerung: die Hamiltonschen Gleichungen in ihrer allgemeinen Form lauten<br />
+\begin{equation}<br />
+\dot{q}_{i}= \frac{\partial H}{\partial p_{i}}(q(t),p(t))\ \quad \quad<br />
+\dot{p}_{i}=-\frac{\partial H}{\partial q_{i}}(q(t),p(t))<br />
+\end{equation}<br />
+In unserem konkreten Fall mit \( \{q_i\} = \{ x_1, y_1, z_1, x_2, y_2, z_2 \} \) und \( \{p_i\} = \{ p_{1x}, p_{1y}, p_{1z}, p_{2x}, p_{2y}, p_{2z} \} \) werden sie zu<br />
+\begin{equation} \dot{\vec{r_1}} = \nabla_{\vec{p_1}} H = \frac{\vec{p_1}}{m_1} \quad \quad<br />
+\dot{\vec{r_2}} = \nabla_{\vec{p_2}} H = \frac{\vec{p_2}}{m_2} \end{equation}<br />
+\begin{equation} \dot{\vec{p_1}} = - \nabla_{\vec{r_1}} H = \frac{\vec{r_2} - \vec{r_1}}{\left|\vec{r_2} - \vec{r_1}\right|} \cdot V'(\left|\vec{r_2} - \vec{r_1}\right|) \quad \quad<br />
+\dot{\vec{p_2}} = - \nabla_{\vec{r_2}} H = -  \frac{\vec{r_2} - \vec{r_1}}{\left|\vec{r_2} - \vec{r_1}\right|} \cdot V'(\left|\vec{r_2} - \vec{r_1}\right|) \end{equation}<br />
+wobei die Ableitung \(V'(x) \equiv \frac{\partial V(x)}{\partial x} \) eingeführt worden ist.</p>
+<p>fehlt noch: Poissonklammern<br />
+\begin{equation}<br />
+\left\{f,g\right\}_{q,p}\equiv \left\{f,g\right\}_{Q,P}<br />
+\end{equation}</p>
+<h3>B. Punkt-Transformation auf Differenz- und Schwerpunkt-Koordinaten</h3>
+<p>Menschen sehen gekoppelten partiellen Differentialgleichungen gewöhnlich nicht sofort ihre Lösungen an. Der erste Schritt zur Lösung der obigen Gleichungen ist ein geschickter Trick: die Transformation auf Differenz- und Schwerpunkt-Koordinaten. Wir transformieren die 6 Ortskoordinaten auf 6 andere, wobei wir wieder immer 3 zusammenfassen. Als Folge transformieren sich die 6 Impulskomponenten ebenfalls:<br />
+\begin{equation}<br />
+\begin{pmatrix}<br />
+\vec{r_1} \\ \vec{r_2} \\ \vec{p_1} \\ \vec{p_2}<br />
+\end{pmatrix}<br />
+\mapsto<br />
+\begin{pmatrix}<br />
+\vec{r} \\ \vec{R} \\ \vec{p} \\ \vec{P}<br />
+\end{pmatrix}<br />
+\end{equation}<br />
+Die großen Buchstaben sollen für die Schwerpunktkoordinaten stehen, die kleinen für die Relativkoordinaten. Wir denken uns die neuen Koordinaten konkret als diese Funktionen der alten Koordinaten:<br />
+\begin{equation}<br />
+\vec{r}(\vec{r_1},\vec{r_2},\vec{p_1},\vec{p_2}) \equiv \begin{pmatrix} x \\ y \\ z \end{pmatrix} = \vec{r_2} - \vec{r_1} \quad \quad<br />
+\vec{R}(\vec{r_1},\vec{r_2},\vec{p_1},\vec{p_2}) \equiv \begin{pmatrix} X \\ Y \\ Z \end{pmatrix} = \frac {m_1\vec{r_1} + m_2\vec{r_2}} {m_1 + m_2}<br />
+\end{equation}<br />
+\begin{equation}<br />
+\vec{p}(\vec{r_1},\vec{r_2},\vec{p_1},\vec{p_2}) \equiv \begin{pmatrix} p_x \\ p_y \\ p_z \end{pmatrix} = \frac{ m_1\vec{p_2} - m_2\vec{p_1}}{m_1+m_2} \quad \quad<br />
+\vec{P}(\vec{r_1},\vec{r_2},\vec{p_1},\vec{p_2}) \equiv \begin{pmatrix} P_x \\ P_y \\ P_z \end{pmatrix} = \vec{p_1} + \vec{p_2}<br />
+\end{equation}</p>
+<p>Die Transformation ist umkehrbar, und die alten Koordinaten lassen sich als Funktionen der neuen schreiben (Rücktransformation):<br />
+\begin{equation}<br />
+\vec{r_1}(\vec{r},\vec{R},\vec{p},\vec{P}) = \vec{R} - \frac{m_2}{m_1 + m_2}\cdot \vec{r} \quad \quad<br />
+\vec{r_2}(\vec{r},\vec{R},\vec{p},\vec{P}) = \vec{R} + \frac{m_1}{m_1 + m_2} \cdot \vec{r}<br />
+\end{equation}<br />
+\begin{equation}<br />
+\vec{p_1}(\vec{r},\vec{R},\vec{p},\vec{P}) = \frac{m_1}{m_1 + m_2}\cdot \vec{P} - \vec{p} \quad \quad<br />
+\vec{p_2}(\vec{r},\vec{R},\vec{p},\vec{P}) = \frac{m_2}{m_1 + m_2}\cdot \vec{P} + \vec{p}<br />
+\end{equation}<br />
+An dieser Stelle führt man gerne die reduzierte Masse \( m \equiv \frac{m_1 m_2}{m_1 + m_2} \) und die Gesamtmasse \( M \equiv m_1 + m_2 \) ein.</p>
+<p>Die Lagrangefunktion in den neuen Koordinaten lautet dann<br />
+\begin{equation}<br />
+L(\vec{r},\vec{R},\dot{\vec{r}},\dot{\vec{R}}) =<br />
+\frac{m}{2}(\dot{\vec{r}})^2 +  \frac{M}{2}(\dot{\vec{R}})^2<br />
+- V(\left| \vec{r} \right|)<br />
+\end{equation}<br />
+Die kanonischen Impulse sind<br />
+\begin{equation} \vec{p} = \nabla _{\dot{\vec{r}}} L \quad \quad \vec{P} = \nabla _{\dot{\vec{R}}} L \end{equation}<br />
+Die Hamiltonfunktion wird zu<br />
+\begin{equation}<br />
+H(\vec{r},\vec{R},\vec{p},\vec{P}) =<br />
+\frac{\vec{p}^2}{2m} +  \frac{\vec{P}^2}{2M}<br />
++ V(\left| \vec{r} \right|)<br />
+\end{equation}<br />
+Die Hamiltonschen Gleichungen werden mit \( \{q_i\} = \{ x, y, z, X, Y, Z \} \) und \( \{p_i\} = \{ p_{x}, p_{y}, p_{z}, P_{x}, P_{y}, P_{z} \} \) zu<br />
+\begin{equation} \dot{\vec{r}} = \nabla_{\vec{p}} H = \frac{ \vec{p} }{m} \quad \quad<br />
+\dot{\vec{R}} = \nabla_{\vec{P}} H = \frac{ \vec{P} }{M} \end{equation}<br />
+\begin{equation} \dot{\vec{p}} = - \nabla_{\vec{r}} H = -V'( \left| \vec{r} \right| ) \cdot \frac{ \vec{r} }{ \left| \vec{r} \right| } \quad \quad<br />
+\dot{\vec{P}} = - \nabla_{\vec{R}} H = \vec{0} \end{equation}</p>
+<p>fehlt noch: Poisson-Klammern</p>
+<p>Durch den geschickten Trick ist man der Lösung ein Stück näher gekommen. Schwerpunkt- und Relativbewegung sind nicht mehr aneinander gekoppelt und die Gleichungen für die Schwerpunktbewegung lassen sich sofort integrieren:<br />
+\begin{equation}<br />
+\vec{P} = \vec{P}(t = 0) \quad \Rightarrow \quad \vec{R} = \frac{ \vec{P}(t = 0) }{M} \cdot t +  \vec{R}(t = 0)<br />
+\end{equation}</p>
+<p>Die Gleichungen für die Relativbewegung verkoppeln nur noch 3 Ortskoordinaten:<br />
+\begin{equation} m\cdot \ddot{\vec{r}} = -V'( \left| \vec{r} \right| ) \cdot \frac{\vec{r}}{\left| \vec{r} \right|} \end{equation}<br />
+Die rechte Seite oben ist übrigens der Spezialfall von \( -\nabla_{\vec{r}} \cdot V(\vec{r}) \) für ein Potential \(V\), das nur vom Betrag von \(\vec{r}\) abhängt.</p>
+<p>Man könnte einen weiteren Trick anwenden und auf Kugelkoordinaten für die Relativbewegung transformieren. Da die Gleichung für die Relativbewegung drehsymmetrisch ist, kann man dadurch weitere Entkopplungen gewinnen, wodurch sich das Problem noch mehr vereinfacht. Beispiele dazu finden sich in der physikalischen Literatur zuhauf. Wir wollen uns jedoch lieber noch eine etwas verrücktere Transformation ansehen.</p>
+<h3>C. Eine Kanonische Transformation, die Orte und Impulse vertauscht</h3>
+<p>Zur Erinnerung: durch eine erzeugende Funktion<br />
+\begin{equation} F_1 = \sum_iq_iQ_i \end{equation}<br />
+lassen sich neue kanonische Koordinaten gewinnen, die wiederum den Hamiltonschen Gleichungen genügen. Für den Fall einer Erzeugenden, die von alten und neuen Ortkoordinaten abhängt, ist der Zusammenhang<br />
+\begin{equation}p_i = \frac{\partial F_1}{\partial q_i} \quad \quad P_i = - \frac{\partial F_1}{\partial Q_i} \end{equation}</p>
+<p>Für unser Zweikörperproblem wollen wir mit Hilfe der Erzeugenden \begin{equation} F_1(\vec{r_1}, \vec{r_2},\vec{R_1},\vec{R_2}) = \vec{r_1}\vec{R_1} + \vec{r_2}\vec{R_2} \end{equation}</p>
+<p>eine Transformation<br />
+\begin{equation}<br />
+\begin{pmatrix}<br />
+\vec{r_1} \\ \vec{r_2} \\ \vec{p_1} \\ \vec{p_2}<br />
+\end{pmatrix}<br />
+\mapsto<br />
+\begin{pmatrix}<br />
+\vec{R_1} \\ \vec{R_2} \\ \vec{P_1} \\ \vec{P_2}<br />
+\end{pmatrix}<br />
+\end{equation}<br />
+definieren. Als Ergebnis erhalten wir den folgenden Zusammenhang zwischen alten und neuen Koordinaten<br />
+\begin{equation} \vec{p_1} = \vec{R_1} \quad \vec{p_2} = \vec{R_2} \quad \vec{P_1} = -\vec{r_1} \quad \vec{P_2} = -\vec{r_2} \end{equation}<br />
+womit schon gleich die Rücktransformation gegeben ist. Die Hamiltonfunktion lautet dann<br />
+\begin{equation}<br />
+H(\vec{R_1},\vec{R_2},\vec{P_1},\vec{P_2}) =<br />
+\frac{\vec{R_1}^2}{2m_1} +  \frac{\vec{R_2}^2}{2m_2}<br />
++ V(\left| \vec{P_2} - \vec{P_1} \right|)<br />
+\equiv \frac{1}{2}D_1\vec{R_1}^2 + \frac{1}{2}D_2\vec{R_2}^2 + V(\left| \vec{P_2} - \vec{P_1} \right|)<br />
+\end{equation}<br />
+wobei wir die „Federkonstanten“ \( D_1 \equiv \frac{1}{m_1} \) und \( D_2 \equiv \frac{1}{m_2} \) eingeführt haben.</p>
+<p>Mit \( \{q_i\} = \{ X_1, Y_1, Z_1, X_2, Y_2, Z_2 \} \) und \( \{p_i\} = \{ P_{1x}, P_{1y}, P_{1z}, P_{2x}, P_{2y}, P_{2z} \} \) erhalten wir als Hamiltonsche Gleichungen<br />
+\begin{equation} \dot{R_1} = \nabla_{\vec{P_1}} H = -V'( \left| \vec{P_2} - \vec{P_1} \right| ) \cdot \frac{ \vec{P_2} - \vec{P_1} }{\left| \vec{P_2} - \vec{P_1} \right|} \quad \quad<br />
+\dot{R_2} = \nabla_{\vec{P_2}} H = V'( \left| \vec{P_2} - \vec{P_1} \right| ) \cdot \frac{ \vec{P_2} - \vec{P_1} }{\left| \vec{P_2} - \vec{P_1} \right|} \end{equation}<br />
+\begin{equation} \dot{P_1} = - \nabla_{\vec{R_1}} H = D_1 \vec{R_1} \quad \quad<br />
+\dot{P_2} = - \nabla_{\vec{R_2}} H = D_2 \vec{R_2} \end{equation}</p>
+<p>fehlt noch: Poisson-Klammern</p>
+<h2>Und was lernen wir daraus?</h2>
+<p>Der Weg über die Transformation auf Schwerpunkt- und Relativkoordinaten mit anschließender Transformation auf Kugelkoordinaten ist eine Möglichkeit, das Problem in kleinere Einheiten zu zerteilen, um es leichter lösen zu können. Die Lösung mit den transformierten Koordinaten muss danach zurücktransformiert werden. Dazu sollte natürlich die Rücktransformation einfach möglich sein, sonst hätte man nichts gewonnen. Am Ende hat man eine Gleichung, die die Bewegung der Körper - sagen wir mal von Erde und Mond - in den ursprünglichen Koordinaten beschreibt, und zwar in einer Genauigkeit, wie sie für Lichtpunkte am Himmel notwendig ist. Nicht eingefangen wird durch diese äußerst grobe Beschreibung eine Formänderung der Körper, eine Farbänderung, oder irgend sonst eine Änderung.</p>
+<p>Was aber, wenn die Körper, die da beschrieben werden, so einfach sind, dass sie gar keine Farbe und keine Form haben? Wenn sie so einfach sind, dass ihr Verhalten durch die Formulierung A. schon <em>vollständig erfasst</em> wird? Dann sind die Formulierungen B. und C. und unendlich viele weitere Formulierungen vollkommen gleichwertig. Nun ist es aber so, das in B. ein schwerer Körper der Masse  \( M \equiv m_1 + m_2 \) und ein leichter Körper der Masse \( m \equiv \frac{m_1 m_2}{m_1 + m_2} \) die Welt bewohnen. In B. kann sich der schwere Körper frei bewegen, während der leichte Körper an den Koordinatenursprung gekettet ist. In C. gar sind beide Körper mit Federkräften an den Ursprung gekettet, während zwischen ihnen eine merkwürdige Kraft herrscht, die nur von ihren Relativimpulsen abhängt. </p>
+<p>Wir werden sehen, dass die <em>Umgebung</em> entscheidet, welche der Formulierungen <em>die richtige</em> ist. Wenn es keine Umgebung gibt, dann gibt es allerdings auch keine Entscheidung. Weder die Massen von A. noch die von B. noch die Federkonstanten von C. sind dann wesentlich für die von diesen Gleichungen beschriebene Welt. Wir werden dadurch geleitet auf ein...</p>
+<p><cite>Auf dem ganzen langen Weg vom Vorgang bis zur Fixierung im Bewusstsein müssen wir wissen wie die funktioniert ... wenn wir behaupten wollen, dass wir etwas beobachtet haben.</cite> Zitat von Einstein, soll in Der Teil und das Ganze zu finden sein S.92.</p>
+<h2>Variationsprinzip für physikalische Theorien</h2>
+</div></div></div></div>  </div>
+
+  <div class="clearfix">
+          <div class="links"></div>
+    
+      </div>
+
+</div>
+  </div>
+</div>
+  </div>
+          </div>
+                      <div class="region region-footer">
+    <div id="block-system-powered-by" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+</div>
+  </div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /#container -->
+  </div> <!-- /#wrapper -->
+  </body>
+</html>

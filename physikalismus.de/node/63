@@ -1,0 +1,308 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../sites/default/files/pyramid_power.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="63" />
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ['tex2jax.js'],
+  jax: ['input/TeX','output/HTML-CSS'],
+  tex2jax: {
+    inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+    processEscapes: true,
+    processClass: 'tex2jax',
+    ignoreClass: 'html'
+  },
+  showProcessingMessages: false,
+  messageStyle: 'none'
+});
+</script><meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="../Masse" />
+  <title>Wie sich die Masse in ein Geflecht auflöst | Physikalismus</title>
+  <style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/system/system.base.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.menus.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.messages.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.theme.css?obwofu");
+</style>
+<style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/comment/comment.css?obwofu");
+@import url("http://physikalismus.de/modules/field/theme/field.css?obwofu");
+@import url("http://physikalismus.de/modules/node/node.css?obwofu");
+@import url("http://physikalismus.de/modules/search/search.css?obwofu");
+@import url("http://physikalismus.de/modules/user/user.css?obwofu");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/default/files/color/garland-b0e715b8/style.css@obwofu");
+</style>
+<style type="text/css" media="print">
+@import url("http://physikalismus.de/themes/garland/print.css?obwofu");
+</style>
+
+<!--[if lt IE 7]>
+<link type="text/css" rel="stylesheet" href="http://physikalismus.de/themes/garland/fix-ie.css?obwofu" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?obwofu"></script>
+<script type="text/javascript" src="../sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@obwofu"></script>
+<script type="text/javascript" src="../sites/all/modules/mathjax/mathjax.js@obwofu"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"dZEGwtCaxjXM1P-TpJvZMipxAA55MVbJO1_0y8W9EbQ","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/node\/63":true,"\/Masse?destination=node\/63":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-63 node-type-page fluid-width" >
+  <div id="skip-link">
+    <a href="63#main-content" class="element-invisible element-focusable">Direkt zum Inhalt</a>
+  </div>
+      
+  <div id="wrapper">
+    <div id="container" class="clearfix">
+
+      <div id="header">
+        <div id="logo-floater">
+                              <div id="branding"><strong><a href="../index.html">
+                          <img src="../sites/default/files/pyramid_power.png" alt=" " title=" " id="logo" />
+                                    </a></strong></div>
+                          </div>
+
+        <h2 class="element-invisible">Hauptmenü</h2><ul class="links inline main-menu"><li class="menu-218 first"><a href="../index.html" title="">Start</a></li>
+<li class="menu-467"><a href="../tracker" title="">Neuester Inhalt</a></li>
+<li class="menu-310"><a href="../Quellen">Quellen</a></li>
+<li class="menu-311"><a href="../Zitate">Zitate</a></li>
+<li class="menu-410"><a href="../Bibliothek" title="Zum Verständnis Dienliches an diesem Ort Archiviertes">Bibliothek</a></li>
+<li class="menu-423 last"><a href="../Impressum">Impressum</a></li>
+</ul>              </div> <!-- /#header -->
+
+              <div id="sidebar-first" class="sidebar">
+            <div class="region region-sidebar-first">
+    <div id="block-search-form" class="block block-search clearfix">
+
+    
+  <div class="content">
+    <form action="63" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Suchformular</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
+ <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-8V0Kc-5y6QwJXN_LtXehpc8te4h5Qb3FaL_0ibgFzKw" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-system-navigation" class="block block-system block-menu clearfix">
+
+    <h2 class="title">Navigation</h2>
+  
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="../Dao" title="Der Weg zur Erkenntnis">Dao</a></li>
+<li class="leaf"><a href="../Bewusstsein" title="Gedanken über den Geist">Bewusstsein</a></li>
+<li class="leaf"><a href="../Energie" title="Ein Wort zur Energie">Energie</a></li>
+<li class="leaf"><a href="../Erloesung" title="Wie kann das Abgeteilte erlöst werden?">Erlösung</a></li>
+<li class="leaf"><a href="../Erwachsenwerden" title="Erwachsenwerden in der Begrifflichkeit des Schopenhauerschen Willens">Erwachsenwerden</a></li>
+<li class="leaf"><a href="../Freunde" title="Wie Freunde uns in die Irre führen">Freunde</a></li>
+<li class="leaf"><a href="../Geister" title="Wann ist ein Geist ein Geist?">Geister</a></li>
+<li class="leaf"><a href="../Geld" title="Preis als Energie und Geld als Software">Geld</a></li>
+<li class="collapsed"><a href="../Gleichnisse" title="Gleichnisse für Physiker von einem Physiker über Physik">Gleichnisse</a></li>
+<li class="leaf"><a href="../Ethik" title="Was sollen wir tun?">gut &amp; böse</a></li>
+<li class="leaf"><a href="../Ich" title="Was ist das Ich?">Ich</a></li>
+<li class="leaf"><a href="../Information" title="Baustelle">Information</a></li>
+<li class="leaf"><a href="../Jesus" title="Wie ich mir Jesus vorstelle">Jesus</a></li>
+<li class="leaf"><a href="../Juristerei" title="Kann richtig geurteilt werden?">Juristerei</a></li>
+<li class="leaf"><a href="../Kampf" title="Die falsche Idee vom totalen Frieden">Kampf</a></li>
+<li class="expanded active-trail"><a href="../Masse" title="Wie sich die Masse in ein Geflecht auflöst" class="active-trail active">Masse</a><ul class="menu"><li class="first leaf"><a href="../Waage" title="Was wird gewogen?">Waage</a></li>
+<li class="leaf"><a href="../Bewegung" title="Bewegung erscheint als Masse">Bewegung</a></li>
+<li class="last leaf"><a href="../WWalsMasse" title="Beziehungen erscheinen als Masse">Beziehung</a></li>
+</ul></li>
+<li class="collapsed"><a href="../Mechanik" title="Was man von der klassischen Mechanik noch lernen kann">Mechanik</a></li>
+<li class="leaf"><a href="../N" title="Was an den natürlichen Zahlen unnatürlich ist">N</a></li>
+<li class="collapsed"><a href="../Quantenmechanik" title="Die philosophischen Konsequenzen aus der Quantenmechanik">Quanten</a></li>
+<li class="leaf"><a href="../Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen">Reduktionismus</a></li>
+<li class="leaf"><a href="../Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
+<li class="leaf"><a href="../Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
+<li class="leaf"><a href="../Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+<li class="leaf"><a href="../Aufsauger" title="Feynmans Gedankenexperiment">Aufsauger</a></li>
+<li class="last leaf"><a href="../Statistik" title="Was hat die klassische Statistik in der Quantenmechanik verloren?">Statisitik</a></li>
+</ul>  </div>
+</div>
+<div id="block-user-login" class="block block-user clearfix">
+
+    <h2 class="title">Benutzeranmeldung</h2>
+  
+  <div class="content">
+    <form action="http://physikalismus.de/Masse?destination=node/63" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Benutzername <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">Passwort <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="first last"><a href="../user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
+</ul></div><input type="hidden" name="form_build_id" value="form-oRt0TWw4eBJghHvNR6K17PzGLv695u14iIl1UOkRY8k" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
+</div>
+  </div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <h2 class="element-invisible">Sie sind hier</h2><div class="breadcrumb"><a href="../index.html">Startseite</a></div>                    <a id="main-content"></a>
+          <div id="tabs-wrapper" class="clearfix">                                <h1 class="with-tabs">Wie sich die Masse in ein Geflecht auflöst</h1>
+                              </div>                                                  <div class="clearfix">
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <div id="node-63" class="node node-page" about="/Masse" typeof="foaf:Document">
+
+  
+      <span property="dc:title" content="Wie sich die Masse in ein Geflecht auflöst" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="tex2jax"><p><img src="../sites/default/files/pictures/GeiserTheMysteryOfMass.png" width="420" /><br />
+(aus der Vorlesung „Was bedeutet Masse?“ von Achim Geiser, 2009)</p>
+<p><strong>Alltagsvorstellung</strong><br />
+In unserem Alltag führt uns die Vorstellung, dass es Dinge gebe, denen eine Eigenschaft „Masse“ zugeschrieben werden könne, zu den Zielen unseres Willens. Oder anders ausgedrückt: es macht <em>Sinn</em>, sich vorzustellen, dass es <em>Dinge</em> gibt, die eine <em>Masse besitzen</em>. Oder: es ist eine <em>praktische</em> Vorstellung.</p>
+<p>Beispiel: Wenn ich 1000 g Nudeln kochen soll, aber nur 2 Packungen à 500 g habe, dann koche ich beide Packungen und habe hinterher 1000 g Nudeln gekocht. <em>Wirklich?</em></p>
+<p><strong>Experiment</strong></p>
+<!-- ====================================
+Wasserstoffisotop 1
+http://physics.nist.gov/cgi-bin/Compositions/stand_alone.pl?ele=&ascii=html&isotype=some
+1.00782503223 u
+
+Ionisierungsenergie 13,598 eV
+
+Proton
+
+1,007 276 466 812(90) u
+1,672 621 777(74) · 10−27 kg
+1836,152 672 45(75) · me
+938,272 046(21) MeV/c2
+
+Elektron
+
+5,485 799 090 70(16) · 10−4 [2] u
+9,109 383 56(11) · 10−31 [3] kg
+1 · me
+0,510 998 9461(31)[4] MeV/c2
+==================================== --><p>
+Die Physiker haben „Massendefekte“ gefunden. Das Beispiel aus der nächsten Tabelle sollte uns allen bekannt sein. Deuterium ist leichter als ein Wasserstoffatom und ein Neutron zusammen. Die Differenz dampft bei der Umwandlung Wasserstoffatom + Neutron -&gt; Deuterium irgendwie ab und ist hinterher <strong>fort</strong>. Die fortseiende Energiemasse heißt „Massendefekt“. </p>
+<table><tr><th>Ding</th>
+<th>Masse [u]</th>
+</tr><tr><td>Wasserstoffatom (Quelle: NIST)</td>
+<td>1,00782503223</td>
+</tr><tr><td>Neutron (Quelle: Wikipedia)</td>
+<td>1,00866491588</td>
+</tr><tr><td>Wasserstoffatom + Neutron</td>
+<td>2,01648994811</td>
+</tr><tr><td>Deuterium (Quelle: Wikipedia)</td>
+<td>2,01410175</td>
+</tr><tr><td>Defekt (Wasserstoffatom + Neutron - Deuterium)</td>
+<td>0,00238819</td>
+</tr></table><p>Die vorige Tabelle hat uns ein Beispiel unter Beteiligung der starken (Kern-) Kraft gezeigt. Weil diese Kraft so stark ist, ist der Defekt dort am Besten zu beobachten und wurde bei derartigen Umwandlungen als Erstes entdeckt. Er kann heute technisch ausgenutzt werden, wenn das Fortdampfende in einer unserer Wärmekraftmaschinen eingefangen werden kann. Dann haben wir ein Kernkraftwerk gebaut.</p>
+<p>Der Defekt ist aber inzwischen dank genauerer Messungen auch bei einer für unseren Alltag viel wichtigeren Kraft, nämlich der elektromagnetischen Kraft, sichtbar geworden. Ein Wasserstoffatom ist leichter als ein Elektron und ein Proton zusammen.  Die Differenz dampft bei der Umwandlung Elektron + Proton -&gt; Wasserstoffatom irgendwie ab und ist hinterher <strong>fort</strong>. Die fortseiende Energiemasse soll hier der Einheitlichkeit halber wieder „Massendefekt“ heißen. Man findet sie in der sonstigen Literatur aber gewöhnlich unter dem Begriff „Ionisierungsenergie“. Sehr interessant ist der Unterschied der Zahlenwerte zwischen Ionisierungsenergie und Massendefekt in der nächsten Tabelle. Die sollten doch gleich sein, oder nicht? Könnte eine unterschiedliche Konstruktion der Messapparate, die für die Bestimmung der einzelnen Werte verwendet worden sind, sich vielleicht in den hinteren Nachkommastellen als Unterschied niedergeschlagen haben?</p>
+<table><tr><th>Ding</th>
+<th>Masse [u]</th>
+<th>Energie [eV]</th>
+</tr><tr><td>Elektron</td>
+<td>0,00054857990907</td>
+<td></td>
+</tr><tr><td>Proton</td>
+<td>1,007276466812</td>
+<td></td>
+</tr><tr><td>Elektron + Proton</td>
+<td>1,0078250467</td>
+<td></td>
+</tr><tr><td>Wasserstoffatom (Quelle: NIST)</td>
+<td>1,00782503223</td>
+<td></td>
+</tr><tr><td>Defekt (Elektron + Proton - Wasserstoffatom)</td>
+<td>0,0000000144911</td>
+<td></td>
+</tr><tr><td>Ionisierung</td>
+<td>0,0000000145981</td>
+<td>13,598</td>
+</tr></table><p>Beim spontanen Zerfall des Neutrons soll die schwache (Kern-) Kraft die maßgebliche Rolle spielen. Ein Neutron ist schwerer als ein Proton, ein Elektron und ein Elektron-Antineutrino zusammen. Die Differenz dampft bei der Umwandlung Neutron -&gt; Elektron + Elektron-Antineutrino + Proton irgendwie ab und ist hinterher <strong>fort</strong>. Die fortseiende Energiemasse soll hier wieder „Massendefekt“ heißen. In der Tabelle unten ist der Zahlenwert negativ. In diesem Beispiel läuft nicht die Zusammensetzung, sondern der Zerfall mit hoher Wahrscheinlichkeit ab. Aber sind nicht Wahrscheinlichkeitsamplituden symmetrisch, sozusagen als Äußerung der Zeitumkehrinvarianz der darunterliegenden Gleichungen? Könnte es vielleicht sein, dass die unterschiedlichen Wahrscheinlichkeiten an der Art liegen, wie wir die Dinge beobachten?</p>
+<table><tr><th>Ding</th>
+<th>Masse [u]</th>
+<th>Energie [eV]</th>
+</tr><tr><td>Proton</td>
+<td>1,007276466812</td>
+<td></td>
+</tr><tr><td>Elektron</td>
+<td>0,00054857990907</td>
+<td></td>
+</tr><tr><td>Elektron-Antineutrino (Quelle: Wikipedia)</td>
+<td>&lt; 0,0000000024</td>
+<td>&lt; 2,2</td>
+</tr><tr><td>Proton + Elektron + Antineutrino</td>
+<td>1,00782504672 .. 1,00782504912</td>
+<td></td>
+</tr><tr><td>Neutron</td>
+<td>1,00866491588</td>
+<td></td>
+</tr><tr><td>Defekt (Proton + Elektron + Antineutrino - Neutron)</td>
+<td>-0,0008398691 .. -0,0008398667</td>
+<td></td>
+</tr></table><p>All die Massendefekte sind keine wirklichen Defekte. Die Wirklichkeit ist deswegen nicht kaputt. Was tatsächlich durch Zahlen wie die in den obigen Tabellen schwer beschädigt wird, ist unsere Vorstellung, dass es einzelne Dinge gibt, die Masse besitzen. Diese im Alltag praktische Vorstellung ist in Wirklichkeit streng genommen immer falsch. Wenn wir 2 Dinge nehmen, die wir einzeln auf einer eingebildeten wahnsinnig genauen Waage gewogen haben, und dabei die Werte m1 und m2 gemessen haben, dann können wir eines mit absoluter Sicherheit sagen: wenn wir beide zusammen auf die Waage legen werden, dann werden wir alles mögliche ablesen können, nur nicht den Wert m1 + m2. Die wahnsinnig genaue Waage wird uns noch etwas anderes zeigen: es wird gar nicht möglich sein, einen konstanten Wert für m1 oder m2 zu messen, da der angezeigte Wert sich ständig auf höchst lebendige Weise ändern wird. </p>
+<p>Es ist für den Philosophen hilfreich, sich mit Umwandlungen, wie sie oben beschrieben sind, näher zu befassen. </p>
+<ul><li>Die Betrachtung der Energiebilanz bei solchen Umwandlungen wird uns zur Erkenntnis geleiten, dass es von der Konstruktion unserer <a href="../Waage">Waage</a> abhängt, welche Energie wir als Masse sehen und welche außen vor (<strong>fort</strong>) bleibt. </li>
+<li>Mit Hilfe eines einfachen <a href="../Bewegung">Beispiels aus der speziellen Relativitätstheorie</a> werden wir sehen, wie sich Bewegung verstecken und als Masse erscheinen kann. </li>
+<li>Aus der Quantenelektrodynamik werden wir lernen, dass auch einer einfachen Massekonstante in einer höchstgenau funktionierenden Theorie nicht über den Weg zu trauen ist. </li>
+<li>Ein ganz einfaches Modell wird uns zeigen, wie Wechselwirkung so tun kann, als sei sie eine Teilchenmasse. </li>
+<li>Ein weiteres einfaches Modell wird uns zeigen, wie ein Erwartungswert von Energie nach außen als Masse erscheint. Die Mittelung läuft über versteckte Freiheitsgrade, von denen der Mensch noch nicht weiß, dass es sie gibt.</li>
+<li>Von dort werden wir die Kurve zum Higgs-Mechanismus kriegen, einem Mechanismus, der Masse aus Wechselwirkung und Erwartungswerten für Grundzustandsenergie heraus „erklärt“. Und wir wollen ein Bauchgefühl bekommen, das sagt, dass der Higgs-Mechanismus noch nicht das letzte Lied gewesen sein kann, dass die Physiker in diesem Zusammenhang gesungen haben.</li>
+<li>Wir wollen uns kurz ansehen, was uns die Theorie der Protyposis in diesem Zusammenhang sagen könnte.</li>
+</ul><p><cite>Ich glaub', dass des immer so weitergeht.</cite> [Seeger]</p>
+<!--
+\(test_2^3\).  
+\[test_2^3\].  
+
+\begin{equation}
+     y = ax^2 + bx + c
+  \end{equation}
+--></div></div></div></div>  </div>
+
+  <div class="clearfix">
+          <div class="links"></div>
+    
+      </div>
+
+</div>
+  </div>
+</div>
+  </div>
+          </div>
+                      <div class="region region-footer">
+    <div id="block-system-powered-by" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+</div>
+  </div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /#container -->
+  </div> <!-- /#wrapper -->
+  </body>
+</html>

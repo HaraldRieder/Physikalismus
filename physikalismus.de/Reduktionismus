@@ -15,39 +15,54 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="shortcut icon" href="sites/default/files/pyramid_power.ico" type="image/vnd.microsoft.icon" />
 <link rel="shortlink" href="node/12" />
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ['tex2jax.js'],
+  jax: ['input/TeX','output/HTML-CSS'],
+  tex2jax: {
+    inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+    processEscapes: true,
+    processClass: 'tex2jax',
+    ignoreClass: 'html'
+  },
+  showProcessingMessages: false,
+  messageStyle: 'none'
+});
+</script><meta name="Generator" content="Drupal 7 (http://drupal.org)" />
 <link rel="canonical" href="Reduktionismus" />
-<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
   <title>Reduktionismus | Physikalismus</title>
   <style type="text/css" media="all">
-@import url("http://physikalismus.de/modules/system/system.base.css?nwwcfu");
-@import url("http://physikalismus.de/modules/system/system.menus.css?nwwcfu");
-@import url("http://physikalismus.de/modules/system/system.messages.css?nwwcfu");
-@import url("http://physikalismus.de/modules/system/system.theme.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.base.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.menus.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.messages.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.theme.css?obwofu");
 </style>
 <style type="text/css" media="all">
-@import url("http://physikalismus.de/modules/comment/comment.css?nwwcfu");
-@import url("http://physikalismus.de/modules/field/theme/field.css?nwwcfu");
-@import url("http://physikalismus.de/modules/node/node.css?nwwcfu");
-@import url("http://physikalismus.de/modules/search/search.css?nwwcfu");
-@import url("http://physikalismus.de/modules/user/user.css?nwwcfu");
+@import url("http://physikalismus.de/modules/comment/comment.css?obwofu");
+@import url("http://physikalismus.de/modules/field/theme/field.css?obwofu");
+@import url("http://physikalismus.de/modules/node/node.css?obwofu");
+@import url("http://physikalismus.de/modules/search/search.css?obwofu");
+@import url("http://physikalismus.de/modules/user/user.css?obwofu");
 </style>
 <style type="text/css" media="all">
-@import url("sites/default/files/color/garland-b0e715b8/style.css@nwwcfu");
+@import url("sites/default/files/color/garland-b0e715b8/style.css@obwofu");
 </style>
 <style type="text/css" media="print">
-@import url("http://physikalismus.de/themes/garland/print.css?nwwcfu");
+@import url("http://physikalismus.de/themes/garland/print.css?obwofu");
 </style>
 
 <!--[if lt IE 7]>
-<link type="text/css" rel="stylesheet" href="http://physikalismus.de/themes/garland/fix-ie.css?nwwcfu" media="all" />
+<link type="text/css" rel="stylesheet" href="http://physikalismus.de/themes/garland/fix-ie.css?obwofu" media="all" />
 <![endif]-->
   <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
 <script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
-<script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?nwwcfu"></script>
-<script type="text/javascript" src="sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@nwwcfu"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?obwofu"></script>
+<script type="text/javascript" src="sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@obwofu"></script>
+<script type="text/javascript" src="sites/all/modules/mathjax/mathjax.js@obwofu"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"tiO0m4TftqIaTrjUF2Iz6iwMBgb2j-2XJ5zEdm-i8a0","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Reduktionismus":true,"\/Reduktionismus?destination=node\/12":true}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"S-CIq0IM57BvGC1a2VnyAw_T89Eb6jPz_1ISHz1mUS4","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Reduktionismus":true,"\/Reduktionismus?destination=node\/12":true}});
 //--><!]]>
 </script>
 </head>
@@ -67,6 +82,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                           </div>
 
         <h2 class="element-invisible">Hauptmenü</h2><ul class="links inline main-menu"><li class="menu-218 first"><a href="index.html" title="">Start</a></li>
+<li class="menu-467"><a href="tracker" title="">Neuester Inhalt</a></li>
 <li class="menu-310"><a href="Quellen">Quellen</a></li>
 <li class="menu-311"><a href="Zitate">Zitate</a></li>
 <li class="menu-410"><a href="Bibliothek" title="Zum Verständnis Dienliches an diesem Ort Archiviertes">Bibliothek</a></li>
@@ -85,7 +101,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
  <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-QrtEtOIpEna0ywMq7pgBgoQ7GcPGMfimSi6YAUnw24c" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-zVWDa_wVvIwHyGgpLXd5z5iuURgCIGVTVJ2QIsy7HmM" />
 <input type="hidden" name="form_id" value="search_block_form" />
 </div>
 </div></form>  </div>
@@ -106,15 +122,20 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 <li class="collapsed"><a href="Gleichnisse" title="Gleichnisse für Physiker von einem Physiker über Physik">Gleichnisse</a></li>
 <li class="leaf"><a href="Ethik" title="Was sollen wir tun?">gut &amp; böse</a></li>
 <li class="leaf"><a href="Ich" title="Was ist das Ich?">Ich</a></li>
+<li class="leaf"><a href="Information" title="Baustelle">Information</a></li>
 <li class="leaf"><a href="Jesus" title="Wie ich mir Jesus vorstelle">Jesus</a></li>
 <li class="leaf"><a href="Juristerei" title="Kann richtig geurteilt werden?">Juristerei</a></li>
 <li class="leaf"><a href="Kampf" title="Die falsche Idee vom totalen Frieden">Kampf</a></li>
+<li class="collapsed"><a href="Masse" title="Wie sich die Masse in ein Geflecht auflöst">Masse</a></li>
+<li class="collapsed"><a href="Mechanik" title="Was man von der klassischen Mechanik noch lernen kann">Mechanik</a></li>
 <li class="leaf"><a href="N" title="Was an den natürlichen Zahlen unnatürlich ist">N</a></li>
 <li class="collapsed"><a href="Quantenmechanik" title="Die philosophischen Konsequenzen aus der Quantenmechanik">Quanten</a></li>
 <li class="leaf active-trail"><a href="Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen" class="active-trail active">Reduktionismus</a></li>
 <li class="leaf"><a href="Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
 <li class="leaf"><a href="Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
-<li class="last leaf"><a href="Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+<li class="leaf"><a href="Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+<li class="leaf"><a href="Aufsauger" title="Feynmans Gedankenexperiment">Aufsauger</a></li>
+<li class="last leaf"><a href="Statistik" title="Was hat die klassische Statistik in der Quantenmechanik verloren?">Statisitik</a></li>
 </ul>  </div>
 </div>
 <div id="block-user-login" class="block block-user clearfix">
@@ -131,7 +152,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
  <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
 </div>
 <div class="item-list"><ul><li class="first last"><a href="user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
-</ul></div><input type="hidden" name="form_build_id" value="form-Gy-2LxOrE7wpqS6bWXwZEFoj97UVeutAzLImZVgW5Uc" />
+</ul></div><input type="hidden" name="form_build_id" value="form-p--bejgOBC2tgvhc-QAPc-aLWIIou4FxQmgmbfHy8M8" />
 <input type="hidden" name="form_id" value="user_login_block" />
 <div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
 </div>
@@ -153,7 +174,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
       <span property="dc:title" content="Reduktionismus" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
   
   <div class="content clearfix">
-    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><cite>Reduktionismus ist die philosophische Lehre, nach der ein System durch seine Einzelbestandteile (‚Elemente‘) vollständig bestimmt wird.</cite> [Wikipedia 2013]</p>
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="tex2jax"><p><cite>Reduktionismus ist die philosophische Lehre, nach der ein System durch seine Einzelbestandteile (‚Elemente‘) vollständig bestimmt wird.</cite> [Wikipedia 2013]</p>
 <p><strong>Was ist ein Teil?</strong></p>
 <p>Ein Teil ist zunächst etwas, was sich der Verstand als Vorstellung schafft. Wodurch kommt die Vorstellung zustande, dass etwas vom gesamten Strom der Erscheinungen abgetrennt werden kann?</p>
 <p>Wenn beim Billardspiel die schwarze Kugel am Spiel teilnimmt und als erste eingelocht wird, so erwartet man, dass man sie bald an der Kugelsammelstelle wieder entnehmen kann. Und nicht die rote Kugel, die ja noch nicht eingelocht ist. Die schwarze Kugel ist eine Summe von Eigenschaften, die längere Zeit immer wieder gemeinsam erscheinen, sei es als Sinneswahrnehmung oder als Messwert auf einem Instrument:</p>
@@ -168,6 +189,8 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 <p><strong>Es gibt keinen prinzipiellen Unterschied zwischen dem makroskopischen und dem mikroskopischen Teil. Die makroskopische Menge von Eigenschaften ist nur so sehr groß, dass es extrem unwahrscheinlich ist, nochmal eine ununterscheidbar ähnliche („genau gleiche“) Menge von Eigenschaften anzutreffen.</strong></p>
 <p>Das Teilchen an sich gibt es in der Quantenwelt nicht. Insofern ist der Begriff „Elementarteilchen“ irreführend. Es gibt Zustände und Gesetze. Die Zustände entwickeln sich zeitlich, die Erhaltungsgrößen bleiben dabei erhalten. Letztlich gibt es nur sehr wenige Erhaltungsgrößen wie zum Beispiel die Gesamtenergie oder die Gesamtladung. Die Verteilung dieser auf den Raum unterliegt einem ständigen Wandel nach raum- und zeitunabhängig gedachten Gesetzen. Die Kombinationen von Eigenschaften können nach diesen Gesetzen entstehen oder verlorengehen. Ein Elektron und ein Positron können sich in 2 Photonen wandeln, die Gesamtenergie, der Gesamtimpuls, die Gesamtladung sind vor und nach der Umwandlung gleich. Die Art, wie diese Zustände auf ihre Umgebung wirken können, ist verschieden.</p>
 <p>Somit gibt es ein Teil im Makrokosmos genau so wenig wie im Mikrokosmos. Ein Zustand mit einer großen Menge von Eigenschaften unterliegt dem ständigen Wandel nach den selben Gesetzen wie ein Zustand mit wenigen Eigenschaften. Die Vorstellung einer Welt von Dingen entsteht im menschlichen Gehirn, um die Komplexität der wirklichen Welt zu reduzieren. Diese menschengedachten Alltagswelten  entsprechen nicht dem wirklichen Wesen der Welt.</p>
+<p>Der Begriff „Eigenschaft“ ist ein gefährlicher. Denn er setzt bereits voraus, dass es Dinge gäbe, die etwas <em>zu eigen</em> hätten. „Merkmal“ dagegen handelt von einer Erscheinung, die abgespeichert und wieder vor dem Bewusstsein abgespielt werden kann. Zuerst nehmen wir Merkmale wahr, die Verwendung des Wortes „Eigenschaft“ bedeut dagegen bereits die Festlegung auf ein reduktionistisches Bild der Welt.</p>
+<p><cite>Das Ding, der Körper, die Materie ist nichts außer dem Zusammenhang der Elemente, der Farben, Töne u. s. w. ...</cite> [Mach I.3.]</p>
 <p><strong>Was ist ein System?</strong></p>
 <p>Nach der Aufteilung erfolgt das Wiederzusammenfügen in der Vorstellung des Verstandes. Ein System ist eine Summe aus Teilen plus gedachte Wechselwirkungen zwischen den Teilen, so dass wieder ein Ganzes entsteht.</p>
 <p>Reduktionismus erklärt Erscheinungen auf makroskopischer Ebene durch Systeme mikroskopischer Teile. Für den Reduktionismus sprechen 2 Dinge:</p>
@@ -181,7 +204,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 </ul><p>In diesem Rahmen hat der Reduktionismus seine Berechtigung. Der Makrokosmos verhält sich jedoch im Allgemeinen, besser gesagt im häufigsten Fall, deutlich anders. Zu seiner Beschreibung sind nichtlineare Modelle, Iterationen und Rückkopplungen angemessen. Wie die Linearität auf makroskopischer Ebene durch Linearität auf mikroskopischer Ebene erklärt werden kann, so wird der Nichtlinearität auf makroskopischer Ebene eine entsprechende Nichtlinearität im Kleinen entsprechen. </p>
 <p>Ausgehend von der Vorstellung von makroskopischen Dingen erfolgte die Reduktion zunächst auf solche im Kleinen. Zum Beispiel kann man sich eine Billardkugel aus kleinen Kügelchen - Atomen - aufgebaut denken. </p>
 <p>Inzwischen erfolgt die Reduktion anders. Annehmend, dass die Billardkugel eigentlich ein quantenmechanischer Zustand ist, denkt man sie sich aus Unterzuständen aufgebaut. Ein Unterzustand kann beispielsweise der eines Atoms sein. Die einzelnen Unterzustände in ihren jeweiligen Unterräumen multipliziert man einfachstenfalls zum Gesamtzustand im Produktraum. Der Operator der Gesamtenergie ist dann die Summe der Energieoperatoren der Atome, die nur in ihren jeweiligen Unterräumen operieren. Die möglichen Eigenwerte für die Gesamtenergie addieren sich als Konsequenz aus den Eigenwerten der Atomenergien zusammen (in allen erlaubten Kombinationen). Eine Wechselwirkung zwischen den Unterräumen bringt man hinterher in das Modell ein. Erst dabei kann die Gesamtenergie etwas anderes wie die Summe der Teilenergien werden. Der nichtreduzierende Ansatz müsste eine Gesamtdifferentialgleichung für die Billiardkugel mit Koordinaten „all ihrer Atome“ aufstellen und diese lösen. Der Papiervorrat der Erde dürfte nicht reichen, diese Gleichung aufzuschreiben.</p>
-</div></div></div>  </div>
+</div></div></div></div>  </div>
 
   <div class="clearfix">
           <div class="links"></div>

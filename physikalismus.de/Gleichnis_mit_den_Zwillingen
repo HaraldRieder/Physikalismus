@@ -15,39 +15,54 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="shortcut icon" href="sites/default/files/pyramid_power.ico" type="image/vnd.microsoft.icon" />
 <link rel="shortlink" href="node/37" />
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ['tex2jax.js'],
+  jax: ['input/TeX','output/HTML-CSS'],
+  tex2jax: {
+    inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+    processEscapes: true,
+    processClass: 'tex2jax',
+    ignoreClass: 'html'
+  },
+  showProcessingMessages: false,
+  messageStyle: 'none'
+});
+</script><meta name="Generator" content="Drupal 7 (http://drupal.org)" />
 <link rel="canonical" href="Gleichnis_mit_den_Zwillingen" />
-<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
   <title>Das Gleichnis mit den Zwillingen | Physikalismus</title>
   <style type="text/css" media="all">
-@import url("http://physikalismus.de/modules/system/system.base.css?nwwcfu");
-@import url("http://physikalismus.de/modules/system/system.menus.css?nwwcfu");
-@import url("http://physikalismus.de/modules/system/system.messages.css?nwwcfu");
-@import url("http://physikalismus.de/modules/system/system.theme.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.base.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.menus.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.messages.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.theme.css?obwofu");
 </style>
 <style type="text/css" media="all">
-@import url("http://physikalismus.de/modules/comment/comment.css?nwwcfu");
-@import url("http://physikalismus.de/modules/field/theme/field.css?nwwcfu");
-@import url("http://physikalismus.de/modules/node/node.css?nwwcfu");
-@import url("http://physikalismus.de/modules/search/search.css?nwwcfu");
-@import url("http://physikalismus.de/modules/user/user.css?nwwcfu");
+@import url("http://physikalismus.de/modules/comment/comment.css?obwofu");
+@import url("http://physikalismus.de/modules/field/theme/field.css?obwofu");
+@import url("http://physikalismus.de/modules/node/node.css?obwofu");
+@import url("http://physikalismus.de/modules/search/search.css?obwofu");
+@import url("http://physikalismus.de/modules/user/user.css?obwofu");
 </style>
 <style type="text/css" media="all">
-@import url("sites/default/files/color/garland-b0e715b8/style.css@nwwcfu");
+@import url("sites/default/files/color/garland-b0e715b8/style.css@obwofu");
 </style>
 <style type="text/css" media="print">
-@import url("http://physikalismus.de/themes/garland/print.css?nwwcfu");
+@import url("http://physikalismus.de/themes/garland/print.css?obwofu");
 </style>
 
 <!--[if lt IE 7]>
-<link type="text/css" rel="stylesheet" href="http://physikalismus.de/themes/garland/fix-ie.css?nwwcfu" media="all" />
+<link type="text/css" rel="stylesheet" href="http://physikalismus.de/themes/garland/fix-ie.css?obwofu" media="all" />
 <![endif]-->
   <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
 <script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
-<script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?nwwcfu"></script>
-<script type="text/javascript" src="sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@nwwcfu"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?obwofu"></script>
+<script type="text/javascript" src="sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@obwofu"></script>
+<script type="text/javascript" src="sites/all/modules/mathjax/mathjax.js@obwofu"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"TSGw-NtMeEVEOMdFQlwq2_b22_tzI-glT2dWkY68Mos","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Gleichnis_mit_den_Zwillingen":true,"\/Gleichnis_mit_den_Zwillingen?destination=node\/37":true}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"DBg41xA_W_yDEhShi6ILjZoOh1FVv4czn8zCLnj9Qrw","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Gleichnis_mit_den_Zwillingen":true,"\/Gleichnis_mit_den_Zwillingen?destination=node\/37":true}});
 //--><!]]>
 </script>
 </head>
@@ -67,6 +82,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                           </div>
 
         <h2 class="element-invisible">Hauptmenü</h2><ul class="links inline main-menu"><li class="menu-218 first"><a href="index.html" title="">Start</a></li>
+<li class="menu-467"><a href="tracker" title="">Neuester Inhalt</a></li>
 <li class="menu-310"><a href="Quellen">Quellen</a></li>
 <li class="menu-311"><a href="Zitate">Zitate</a></li>
 <li class="menu-410"><a href="Bibliothek" title="Zum Verständnis Dienliches an diesem Ort Archiviertes">Bibliothek</a></li>
@@ -85,7 +101,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
  <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-n1aPzkJKkEwXtA_X8pK1_Usgfr81zjibwv4o6A-dzpE" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-h122QFgtXLMGNrP68CG10LVCbgPEycc7lbYBzI-uR4g" />
 <input type="hidden" name="form_id" value="search_block_form" />
 </div>
 </div></form>  </div>
@@ -108,15 +124,20 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 </ul></li>
 <li class="leaf"><a href="Ethik" title="Was sollen wir tun?">gut &amp; böse</a></li>
 <li class="leaf"><a href="Ich" title="Was ist das Ich?">Ich</a></li>
+<li class="leaf"><a href="Information" title="Baustelle">Information</a></li>
 <li class="leaf"><a href="Jesus" title="Wie ich mir Jesus vorstelle">Jesus</a></li>
 <li class="leaf"><a href="Juristerei" title="Kann richtig geurteilt werden?">Juristerei</a></li>
 <li class="leaf"><a href="Kampf" title="Die falsche Idee vom totalen Frieden">Kampf</a></li>
+<li class="collapsed"><a href="Masse" title="Wie sich die Masse in ein Geflecht auflöst">Masse</a></li>
+<li class="collapsed"><a href="Mechanik" title="Was man von der klassischen Mechanik noch lernen kann">Mechanik</a></li>
 <li class="leaf"><a href="N" title="Was an den natürlichen Zahlen unnatürlich ist">N</a></li>
 <li class="collapsed"><a href="Quantenmechanik" title="Die philosophischen Konsequenzen aus der Quantenmechanik">Quanten</a></li>
 <li class="leaf"><a href="Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen">Reduktionismus</a></li>
 <li class="leaf"><a href="Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
 <li class="leaf"><a href="Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
-<li class="last leaf"><a href="Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+<li class="leaf"><a href="Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+<li class="leaf"><a href="Aufsauger" title="Feynmans Gedankenexperiment">Aufsauger</a></li>
+<li class="last leaf"><a href="Statistik" title="Was hat die klassische Statistik in der Quantenmechanik verloren?">Statisitik</a></li>
 </ul>  </div>
 </div>
 <div id="block-user-login" class="block block-user clearfix">
@@ -133,7 +154,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
  <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
 </div>
 <div class="item-list"><ul><li class="first last"><a href="user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
-</ul></div><input type="hidden" name="form_build_id" value="form-BTPUadrDdEs1fS2TtNXANNKr0NSEv_Irk_K9SDpoLJ0" />
+</ul></div><input type="hidden" name="form_build_id" value="form-l2GLK6dc_-HDK4I5Baq-oHZW_tJXr06PZeMlsNd1DvE" />
 <input type="hidden" name="form_id" value="user_login_block" />
 <div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
 </div>
@@ -155,7 +176,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
       <span property="dc:title" content="Das Gleichnis mit den Zwillingen" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
   
   <div class="content clearfix">
-    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Die Bewegungsgleichungen der Quantenmechanik enthalten Größen, die nicht beobachtbar sind. Erst durch eine mathematische Vorschrift, einen Zwischenschritt, werden aus den Lösungen der Differentialgleichungen Größen gewonnen, die beobachtbar sind. In diesem Zwischenschritt wird ein Skalarprodukt gebildet, eine Bilinearform, um auf die beobachtbare Größe zu kommen. In dieses Skalarprodukt gehen immer <strong>2</strong> Lösungen der Bewegungsgleichungen ein: Beobachtbare Größe = &lt;Lösung1 | Operator | Lösung2&gt;</p>
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="tex2jax"><p>Die Bewegungsgleichungen der Quantenmechanik enthalten Größen, die nicht beobachtbar sind. Erst durch eine mathematische Vorschrift, einen Zwischenschritt, werden aus den Lösungen der Differentialgleichungen Größen gewonnen, die beobachtbar sind. In diesem Zwischenschritt wird ein Skalarprodukt gebildet, eine Bilinearform, um auf die beobachtbare Größe zu kommen. In dieses Skalarprodukt gehen immer <strong>2</strong> Lösungen der Bewegungsgleichungen ein: Beobachtbare Größe = &lt;Lösung1 | Operator | Lösung2&gt;</p>
 <p>Die beobachtbaren Größen sind statistischer Natur: Aufenthaltswahrscheinlichkeiten, Übergangswahrscheinlichkeiten, Erwartungswerte. Sind die nicht beobachtbaren Lösungen der Differentialgleichungen nun wirklich oder nur ein mathematischer Trick?</p>
 <p>Durch den Formalismus mit dem Skalarprodukt hat man sich etwas Seltsames eingehandelt. In der klassischen Physik hatte man einige Glaubensvorstellungen gewonnen, die sich experimentell gut bewährt hatten: das mathematische Modell der Welt sollte gegenüber bestimmten Symmetrieoperationen, an die man glaubte, unverändert gültig sein. So sollte es vollkommen selbstverständlich sein, dass die Welt noch gleich aussieht, wenn sich etwa der Beobachter 360° um die eigene Achse dreht - oder der Beobachter stehenbleibt und die Welt sich um 360° dreht. Dies drückt sich mathematisch in einer Forderung an die Lösungen der Bewegungsgleichungen so aus: Lösung(360°) = Lösung(0°). Dies gilt für alle Lösungen, es müssen keine drehsymmetrischen sein. In der Quantenmechanik ist die Lösung keine beobachtbare Größe. Dort drückt sich die Erwartung dagegen so aus: Beobachtbare Größe(360°) = Beobachtbare Größe(0°). Minus mal Minus gibt Plus. Damit werden in der Quantenmechanik auch Lösungen zugelassen, die diese Bedingung erfüllen: Lösung(360°) = <strong>-</strong>Lösung(0°). Viele Symmetrien, an die wir glauben, gebären uns über den Formalisums der Quantenmechanik plötzlich Zwillinge. In der Tabelle sind einige Beispiele aufgeführt. Die „+1 Lösung“ behält ihr Vorzeichen bei der genannten Operation, die „-1 Lösung“ wechselt es. </p>
 <table><tr><td><strong>Operation</strong></td>
@@ -197,7 +218,7 @@ Im ersten Zitat wird den Teilchen Realität zugebilligt, sie sollen in den versc
 <p><cite>...Zweiteilung und Symmetrieverminderung, das ist des Pudels Kern. Zweiteilung ist ein sehr altes Attribut des Teufels (das Wort „Zweifel“ soll ursprünglich Zweiteilung bedeutet haben). Ein Bischof in einem Stück von Bernard Shaw sagt: "A fair play for the devil please". Darum soll er auch zum Weihnachtsfest nicht fehlen. Die beiden göttlichen Herren - Christus und Teufel - sollen nur merken, daß sie inzwischen viel symmetrischer geworden sind.<br /></cite> [Heisenberg-G Kap. 17, Zitat aus einem Brief Wolfgang Paulis an Werner Heisenberg]<br /><img src="sites/default/files/pictures/Zwilling.png" /></p>
 <hr />
 1) Kontinuierliche Symmetrien können dennoch zu getrennten Lösungsräumen führen (Multipletts, entartete Unterräume), zwischen denen die Übergangswahrscheinlichkeiten verschwinden, zwischen denen also bei exakter Symmetrie keine Zustandsübergänge stattfinden. Ist die Symmetrie nicht universell, sondern nur durch die betrachtete willkürliche Anordnung gegeben, so kann sie von außen gestört werden. Oder man könnte auch sagen: so kann sie bei erweitertem Betrachtungsgebiet nur noch näherungsweise verwirklicht erscheinen. Dann werden Übergänge zwischen den Lösungsräumen möglich. 
-</div></div></div>  </div>
+</div></div></div></div>  </div>
 
   <div class="clearfix">
           <div class="links"></div>

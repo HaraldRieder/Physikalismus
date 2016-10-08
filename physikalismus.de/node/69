@@ -15,39 +15,54 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="shortcut icon" href="../sites/default/files/pyramid_power.ico" type="image/vnd.microsoft.icon" />
 <link rel="shortlink" href="69" />
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ['tex2jax.js'],
+  jax: ['input/TeX','output/HTML-CSS'],
+  tex2jax: {
+    inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+    processEscapes: true,
+    processClass: 'tex2jax',
+    ignoreClass: 'html'
+  },
+  showProcessingMessages: false,
+  messageStyle: 'none'
+});
+</script><meta name="Generator" content="Drupal 7 (http://drupal.org)" />
 <link rel="canonical" href="../Geister" />
-<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
   <title>Geistererscheinungen: Wann ist ein Geist ein Geist? | Physikalismus</title>
   <style type="text/css" media="all">
-@import url("http://physikalismus.de/modules/system/system.base.css?nwwcfu");
-@import url("http://physikalismus.de/modules/system/system.menus.css?nwwcfu");
-@import url("http://physikalismus.de/modules/system/system.messages.css?nwwcfu");
-@import url("http://physikalismus.de/modules/system/system.theme.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.base.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.menus.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.messages.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.theme.css?obwofu");
 </style>
 <style type="text/css" media="all">
-@import url("http://physikalismus.de/modules/comment/comment.css?nwwcfu");
-@import url("http://physikalismus.de/modules/field/theme/field.css?nwwcfu");
-@import url("http://physikalismus.de/modules/node/node.css?nwwcfu");
-@import url("http://physikalismus.de/modules/search/search.css?nwwcfu");
-@import url("http://physikalismus.de/modules/user/user.css?nwwcfu");
+@import url("http://physikalismus.de/modules/comment/comment.css?obwofu");
+@import url("http://physikalismus.de/modules/field/theme/field.css?obwofu");
+@import url("http://physikalismus.de/modules/node/node.css?obwofu");
+@import url("http://physikalismus.de/modules/search/search.css?obwofu");
+@import url("http://physikalismus.de/modules/user/user.css?obwofu");
 </style>
 <style type="text/css" media="all">
-@import url("../sites/default/files/color/garland-b0e715b8/style.css@nwwcfu");
+@import url("../sites/default/files/color/garland-b0e715b8/style.css@obwofu");
 </style>
 <style type="text/css" media="print">
-@import url("http://physikalismus.de/themes/garland/print.css?nwwcfu");
+@import url("http://physikalismus.de/themes/garland/print.css?obwofu");
 </style>
 
 <!--[if lt IE 7]>
-<link type="text/css" rel="stylesheet" href="http://physikalismus.de/themes/garland/fix-ie.css?nwwcfu" media="all" />
+<link type="text/css" rel="stylesheet" href="http://physikalismus.de/themes/garland/fix-ie.css?obwofu" media="all" />
 <![endif]-->
   <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
 <script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
-<script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?nwwcfu"></script>
-<script type="text/javascript" src="../sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@nwwcfu"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?obwofu"></script>
+<script type="text/javascript" src="../sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@obwofu"></script>
+<script type="text/javascript" src="../sites/all/modules/mathjax/mathjax.js@obwofu"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"FKvBem6AO-oRSlbKJ1W7e_Hiq2zt3k0T-UpumLwQpW4","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/node\/69":true,"\/Geister?destination=node\/69":true}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"tafoTdhQm_3bUE6ugoC-LdF1pey-Enfv7T-zfY_SmOY","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/node\/69":true,"\/Geister?destination=node\/69":true}});
 //--><!]]>
 </script>
 </head>
@@ -67,6 +82,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                           </div>
 
         <h2 class="element-invisible">Hauptmenü</h2><ul class="links inline main-menu"><li class="menu-218 first"><a href="../index.html" title="">Start</a></li>
+<li class="menu-467"><a href="../tracker" title="">Neuester Inhalt</a></li>
 <li class="menu-310"><a href="../Quellen">Quellen</a></li>
 <li class="menu-311"><a href="../Zitate">Zitate</a></li>
 <li class="menu-410"><a href="../Bibliothek" title="Zum Verständnis Dienliches an diesem Ort Archiviertes">Bibliothek</a></li>
@@ -85,7 +101,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
  <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-BOpmyffScQmQwAS6BvDyJ-vnet-oZXYSTeabP8fBGko" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-P1T0tHJuI9I4jyP0LXbUnLDceJgCXUXd4cduuiq-74o" />
 <input type="hidden" name="form_id" value="search_block_form" />
 </div>
 </div></form>  </div>
@@ -106,15 +122,20 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 <li class="collapsed"><a href="../Gleichnisse" title="Gleichnisse für Physiker von einem Physiker über Physik">Gleichnisse</a></li>
 <li class="leaf"><a href="../Ethik" title="Was sollen wir tun?">gut &amp; böse</a></li>
 <li class="leaf"><a href="../Ich" title="Was ist das Ich?">Ich</a></li>
+<li class="leaf"><a href="../Information" title="Baustelle">Information</a></li>
 <li class="leaf"><a href="../Jesus" title="Wie ich mir Jesus vorstelle">Jesus</a></li>
 <li class="leaf"><a href="../Juristerei" title="Kann richtig geurteilt werden?">Juristerei</a></li>
 <li class="leaf"><a href="../Kampf" title="Die falsche Idee vom totalen Frieden">Kampf</a></li>
+<li class="collapsed"><a href="../Masse" title="Wie sich die Masse in ein Geflecht auflöst">Masse</a></li>
+<li class="collapsed"><a href="../Mechanik" title="Was man von der klassischen Mechanik noch lernen kann">Mechanik</a></li>
 <li class="leaf"><a href="../N" title="Was an den natürlichen Zahlen unnatürlich ist">N</a></li>
 <li class="collapsed"><a href="../Quantenmechanik" title="Die philosophischen Konsequenzen aus der Quantenmechanik">Quanten</a></li>
 <li class="leaf"><a href="../Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen">Reduktionismus</a></li>
 <li class="leaf"><a href="../Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
 <li class="leaf"><a href="../Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
-<li class="last leaf"><a href="../Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+<li class="leaf"><a href="../Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+<li class="leaf"><a href="../Aufsauger" title="Feynmans Gedankenexperiment">Aufsauger</a></li>
+<li class="last leaf"><a href="../Statistik" title="Was hat die klassische Statistik in der Quantenmechanik verloren?">Statisitik</a></li>
 </ul>  </div>
 </div>
 <div id="block-user-login" class="block block-user clearfix">
@@ -131,7 +152,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
  <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
 </div>
 <div class="item-list"><ul><li class="first last"><a href="../user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
-</ul></div><input type="hidden" name="form_build_id" value="form-VKadOGcab0DloVjJ6HqMKMxxG7Quue5wlifFbh1fdNM" />
+</ul></div><input type="hidden" name="form_build_id" value="form-SuiBilWH30_oTUOFBX63m8uG55T0KwJXXz5RSz4Dfn8" />
 <input type="hidden" name="form_id" value="user_login_block" />
 <div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
 </div>
@@ -153,7 +174,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
       <span property="dc:title" content="Geistererscheinungen: Wann ist ein Geist ein Geist?" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
   
   <div class="content clearfix">
-    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><strong>Was ist eigentlich ein Geist?</strong></p>
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="tex2jax"><p><strong>Was ist eigentlich ein Geist?</strong></p>
 <p>Kann man den Begriff so definieren, dass er sich in das moderne naturwissenschaftliche Weltbild einfügen lässt? Wer noch nicht selbst eine Geistererscheinung gesehen hat, muss sich auf die Berichte anderer stützen. Diese berichten von Erscheinungen, die von den Berichtsempfängern als übernatürlich oder unphysikalisch eingestuft werden. Manchmal wird der Geist nur von einem gesehen, manchmal von mehreren. Wenn eine solche Erscheinung wahrgenommen wurde, ist das zunächst einmal eine echte Tatsache, wenn man dem Berichtenden vertrauen will: es hat wirklich eine Erscheinung vor seinem Bewusstsein gegeben. Doch wo ist der Unterschied zu anderen Erscheinungen vor seinem Bewusstsein?</p>
 <p>Wir haben die Frage offensichtlich verlagert auf die Begriffe „übernatürlich“ und „unphysikalisch“. </p>
 <p><strong>Wann ist etwas übernatürlich oder unphysikalisch?</strong></p>
@@ -172,15 +193,16 @@ Bewusstsein von Heinz ⇐ Gehirn von Heinz ⇐ Nervenbahnen von Heinz ⇐ Sinnes
 <p>Unsere Sinnesorgane sind genau dazu da, solche makroskopischen „Dinge“ zu erfahren.</p>
 <p>Wenn unsere Physik eine Theorie ist, die die Änderung von Zuständen des Bewusstseins beschreibt, so müssen lokalisierte Zustandsänderungen nicht notwendigerweise von Dingen mit viel Energieinhalt ausgelöst werden. Ohne Sinnesorgane und Nervenbahnen sind die Gehirne von Heinz und Klara in der Quantenmechanik immer noch durch gemeinsame mathematische Funktionen beschrieben, die deren gemeinsame kohärente Entwicklung bestimmen. </p>
 <p>Bewusstsein von Heinz ⇔ Gehirn von Heinz ⇔ Gehirn von Klara ⇔ Bewusstsein von Klara </p>
-<p>Der Aufbau des Gehirns zur Verarbeitung von Nervensignalen ist allerdings immer noch makroskopisch und damit sehr schell dekohärierend [Schlosshauer Kap. 9]. Doch je weniger Kopplung an die Nervenbahnen vorhanden ist, desto mehr können prinzipiell andere Kopplungen hervortreten. Doch welcher Art sind diese und welche Art ist wie stark? Können Kopplungen an das Magnetfeld der Erde, an die Polarisierbarkeit der Umgebung bewusste Erscheinungen hervorrufen, die das Gehirn sich längere Zeit merkt? Können gar die kohärenten quantenmechanischen Kopplungen dies? Wir wissen es heute nicht! Und es gibt immer die Möglichkeit, dass eine Erscheinung auch ohne Kopplung an draußen hervorgerufen wird, nur aus dem Gehirn heraus. Dafür haben wir die Begriffe Halluzination oder Traum. Darum soll es aber an anderer Stelle gehen.</p>
+<p>Der Aufbau des Gehirns zur Verarbeitung von Nervensignalen ist allerdings immer noch makroskopisch und damit sehr schell dekohärierend [Schlosshauer Kap. 9]. Doch je weniger Kopplung an die Nervenbahnen vorhanden ist, desto mehr können prinzipiell andere Kopplungen hervortreten. Doch welcher Art sind diese und welche Art ist wie stark? Können Kopplungen an das Magnetfeld der Erde, an die Polarisierbarkeit der Umgebung bewusste Erscheinungen hervorrufen, die das Gehirn sich längere Zeit merkt? Welche Rolle spielen kohärente quantenmechanische Kopplungen? Wir wissen es heute nicht! Und es gibt immer die Möglichkeit, dass eine Erscheinung auch ohne Kopplung an draußen hervorgerufen wird, nur aus dem Gehirn heraus. Dafür haben wir die Begriffe Halluzination oder Traum. Darum soll es aber an anderer Stelle gehen.</p>
 <p>Ohne Gehirne wäre eine kohärente Kopplung von Bewusstseinszuständen dieser Art sofort verständlich:</p>
 <p>Bewusstsein von Heinz ⇔ Bewusstsein von Klara </p>
 <p>Die Sache hat nur einen Haken: wie sollte es ohne Gehirne noch lokalisierte Bewusstseinszustände geben, die sich mit Heinz und Klara betiteln ließen?</p>
 <p><strong>Wir fassen zusammen</strong></p>
 <p>Geister sind unwahrscheinliche Erscheinungen vor einem lokalisierten Bewusstsein. Sie sind vermutlich auch dadurch unwahrscheinlich, dass sie nicht über die üblichen stark dekohärierenden makroskopischen Kanäle ihren Weg vor das Bewusstsein finden, sondern auf anderen Wegen. Diese Wege sind in der heutigen Naturwissenschaft zwar denkbar, aber noch nicht quantifizierbar. In jedem Fall gehören alle Erscheinungen vor dem Bewusstsein zu unserer Natur, zu unserer Welt. Also auch Geistererscheinungen.</p>
+<p><cite>Man pflegt in der populären Denk- und Redeweise der <strong>Wirklichkeit</strong> den <strong>Schein</strong> gegenüber zu stellen. Einen Bleistift, den wir in der Luft vor uns halten, sehen wir gerade; tauchen wir denselben schief ins Wasser, so sehen wir ihn geknickt. Man sagt nun in letzterem Falle: Der Bleistift <strong>scheint</strong> geknickt, ist aber in <strong>Wirklichkeit</strong> gerade. Was berechtigt uns aber, eine Tatsache der andern gegenüber für Wirklichkeit zu erklären und die andere zum Schein herabzurücken? In beiden Fällen liegen doch Tatschen vor, welche eben verschieden bedingte, verschiedenartige Zusammenhängt der Elemente [Anmerkung: Merkmale] darstellen.</cite> [Mach I.5.]</p>
 <p><strong>Eigenes Erleben</strong></p>
 <p>Aus meinem Gehirnspeicher kann ich nur ein Erlebnis herauskramen, das in diese Richtung geht. Es dauerte vielleicht 1 Sekunde, ist mir aber bis heute dauerhaft im Gedächtnis geblieben. Ich war vom Laufen zurückgekehrt, saß in der Sonne auf der Gartenbank, ließ meinen Kopf hängen, die Augen auf den Rasen nach unten gerichtet. Ich dachte nichts und wollte nichts. Plötzlich veränderte sich das Gras. Ich konnte in eine unendliche Tiefe blicken, größtenteils in schwarze Leere, die aber irgendwie zum Gras und dem Darunter dazugehörte. Farbige leuchtende Erscheinungen bewegten sich auf grasartig geformten Bahnen. Es war, als würde ich tief hinunter und hindurch sehen können, hinein in's All aber gleichzeitig auch noch alles im Vordergrund und auf dem Weg in die Tiefe. Es war zugleich schön und erschreckend anzusehen. Dann verschwand das Bild wieder.</p>
-</div></div></div>  </div>
+</div></div></div></div>  </div>
 
   <div class="clearfix">
           <div class="links"></div>

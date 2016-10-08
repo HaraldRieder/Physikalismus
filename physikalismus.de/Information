@@ -1,0 +1,261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="sites/default/files/pyramid_power.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="node/49" />
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ['tex2jax.js'],
+  jax: ['input/TeX','output/HTML-CSS'],
+  tex2jax: {
+    inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+    processEscapes: true,
+    processClass: 'tex2jax',
+    ignoreClass: 'html'
+  },
+  showProcessingMessages: false,
+  messageStyle: 'none'
+});
+</script><meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="Information" />
+  <title>Gibt es absolute Information? | Physikalismus</title>
+  <style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/system/system.base.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.menus.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.messages.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.theme.css?obwofu");
+</style>
+<style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/comment/comment.css?obwofu");
+@import url("http://physikalismus.de/modules/field/theme/field.css?obwofu");
+@import url("http://physikalismus.de/modules/node/node.css?obwofu");
+@import url("http://physikalismus.de/modules/search/search.css?obwofu");
+@import url("http://physikalismus.de/modules/user/user.css?obwofu");
+</style>
+<style type="text/css" media="all">
+@import url("sites/default/files/color/garland-b0e715b8/style.css@obwofu");
+</style>
+<style type="text/css" media="print">
+@import url("http://physikalismus.de/themes/garland/print.css?obwofu");
+</style>
+
+<!--[if lt IE 7]>
+<link type="text/css" rel="stylesheet" href="http://physikalismus.de/themes/garland/fix-ie.css?obwofu" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?obwofu"></script>
+<script type="text/javascript" src="sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@obwofu"></script>
+<script type="text/javascript" src="sites/all/modules/mathjax/mathjax.js@obwofu"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"nO7HuTlhztLkxBpbcaiDgRhpMBfwvqmiTKVViYwfvNQ","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Information":true,"\/Information?destination=node\/49":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-49 node-type-page fluid-width" >
+  <div id="skip-link">
+    <a href="Information#main-content" class="element-invisible element-focusable">Direkt zum Inhalt</a>
+  </div>
+      
+  <div id="wrapper">
+    <div id="container" class="clearfix">
+
+      <div id="header">
+        <div id="logo-floater">
+                              <div id="branding"><strong><a href="index.html">
+                          <img src="sites/default/files/pyramid_power.png" alt=" " title=" " id="logo" />
+                                    </a></strong></div>
+                          </div>
+
+        <h2 class="element-invisible">Hauptmenü</h2><ul class="links inline main-menu"><li class="menu-218 first"><a href="index.html" title="">Start</a></li>
+<li class="menu-467"><a href="tracker" title="">Neuester Inhalt</a></li>
+<li class="menu-310"><a href="Quellen">Quellen</a></li>
+<li class="menu-311"><a href="Zitate">Zitate</a></li>
+<li class="menu-410"><a href="Bibliothek" title="Zum Verständnis Dienliches an diesem Ort Archiviertes">Bibliothek</a></li>
+<li class="menu-423 last"><a href="Impressum">Impressum</a></li>
+</ul>              </div> <!-- /#header -->
+
+              <div id="sidebar-first" class="sidebar">
+            <div class="region region-sidebar-first">
+    <div id="block-search-form" class="block block-search clearfix">
+
+    
+  <div class="content">
+    <form action="Information" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Suchformular</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
+ <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-QFbpZ84YqRmf92qH7NmUv8fKFOlJWMwEOyS10HWJCR0" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-system-navigation" class="block block-system block-menu clearfix">
+
+    <h2 class="title">Navigation</h2>
+  
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="Dao" title="Der Weg zur Erkenntnis">Dao</a></li>
+<li class="leaf"><a href="Bewusstsein" title="Gedanken über den Geist">Bewusstsein</a></li>
+<li class="leaf"><a href="Energie" title="Ein Wort zur Energie">Energie</a></li>
+<li class="leaf"><a href="Erloesung" title="Wie kann das Abgeteilte erlöst werden?">Erlösung</a></li>
+<li class="leaf"><a href="Erwachsenwerden" title="Erwachsenwerden in der Begrifflichkeit des Schopenhauerschen Willens">Erwachsenwerden</a></li>
+<li class="leaf"><a href="Freunde" title="Wie Freunde uns in die Irre führen">Freunde</a></li>
+<li class="leaf"><a href="Geister" title="Wann ist ein Geist ein Geist?">Geister</a></li>
+<li class="leaf"><a href="Geld" title="Preis als Energie und Geld als Software">Geld</a></li>
+<li class="collapsed"><a href="Gleichnisse" title="Gleichnisse für Physiker von einem Physiker über Physik">Gleichnisse</a></li>
+<li class="leaf"><a href="Ethik" title="Was sollen wir tun?">gut &amp; böse</a></li>
+<li class="leaf"><a href="Ich" title="Was ist das Ich?">Ich</a></li>
+<li class="leaf active-trail"><a href="Information" title="Baustelle" class="active-trail active">Information</a></li>
+<li class="leaf"><a href="Jesus" title="Wie ich mir Jesus vorstelle">Jesus</a></li>
+<li class="leaf"><a href="Juristerei" title="Kann richtig geurteilt werden?">Juristerei</a></li>
+<li class="leaf"><a href="Kampf" title="Die falsche Idee vom totalen Frieden">Kampf</a></li>
+<li class="collapsed"><a href="Masse" title="Wie sich die Masse in ein Geflecht auflöst">Masse</a></li>
+<li class="collapsed"><a href="Mechanik" title="Was man von der klassischen Mechanik noch lernen kann">Mechanik</a></li>
+<li class="leaf"><a href="N" title="Was an den natürlichen Zahlen unnatürlich ist">N</a></li>
+<li class="collapsed"><a href="Quantenmechanik" title="Die philosophischen Konsequenzen aus der Quantenmechanik">Quanten</a></li>
+<li class="leaf"><a href="Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen">Reduktionismus</a></li>
+<li class="leaf"><a href="Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
+<li class="leaf"><a href="Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
+<li class="leaf"><a href="Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+<li class="leaf"><a href="Aufsauger" title="Feynmans Gedankenexperiment">Aufsauger</a></li>
+<li class="last leaf"><a href="Statistik" title="Was hat die klassische Statistik in der Quantenmechanik verloren?">Statisitik</a></li>
+</ul>  </div>
+</div>
+<div id="block-user-login" class="block block-user clearfix">
+
+    <h2 class="title">Benutzeranmeldung</h2>
+  
+  <div class="content">
+    <form action="http://physikalismus.de/Information?destination=node/49" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Benutzername <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">Passwort <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="first last"><a href="user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
+</ul></div><input type="hidden" name="form_build_id" value="form-krwDPURNrsbHT5VXGQl6FjcdgO6js34K3g6UpZL3iOI" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
+</div>
+  </div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <h2 class="element-invisible">Sie sind hier</h2><div class="breadcrumb"><a href="index.html">Startseite</a></div>                    <a id="main-content"></a>
+          <div id="tabs-wrapper" class="clearfix">                                <h1 class="with-tabs">Gibt es absolute Information?</h1>
+                              </div>                                                  <div class="clearfix">
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <div id="node-49" class="node node-page" about="/Information" typeof="foaf:Document">
+
+  
+      <span property="dc:title" content="Gibt es absolute Information?" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="tex2jax"><h3>Was ist eigentlich Information?</h3>
+<p>Nach der Informationstheorie von C. E. Shannon ist der Informationsgehalt \(I\) einer Nachricht über das Eintreffen einer von \(N\) möglichen Alternativen<br />
+\begin{equation}<br />
+I = \log_2 N<br />
+\end{equation}<br /><strong>Beispiel:</strong> Wenn nur die Auswahl einer einzigen Farbe aus den Farben {rot, grün, gelb, blau} möglich ist, hat man 4 Alternativen. Um eine Mitteilung über die ausgewählte Farbe zu kodieren sind 2 Bit notwendig. Die Information \(I\) ist eine positive <strong>reelle</strong> Zahl, die Anzahl der Alternativen muss keine Zweierpotenz sein.</p>
+<p>Die Deutung der Alternativen als Ergebnis zufälliger Vorgänge führt auf die allgemeinere Shannon-Entropie. Wenn die Alternative \(i\) mit der Wahrscheinlichkeit \(p_i\) eintreten kann, dann bedeutet eine Mitteilung über ihr Eintreten die Information \(I_i = -\log_2 p_i\). Der mittlere Informationsgewinn \(H\), der Erwartungswert, ist<br />
+\begin{equation}<br />
+H = - \sum_{i=1}^{n} p_i \log_2 p_i<br />
+\end{equation}<br />
+Wenn ein Ereignis sicher ist, dann gewinnt man durch eine Mitteilung über sein Eintreten \(-1 \log_2 1 = 0\) Information. </p>
+<p>Bei \(N\) gleich wahrscheinlichen Ereignissen ist die Wahrscheinlichkeit des Einzelereignisses \(p_i = \frac{1}{N}\). Der Erwartungswert ist dann \(H = - N \frac{1}{N} \log_2 \frac{1}{N} = \log_2 N = I\).</p>
+<h3>Semantische Ebenen der Information</h3>
+<p>Die Kodierung der Nachricht „Das Haus ist gelb.“ in einem ISO-8859 Zeichensatz beansprucht, da sie aus 18 Zeichen besteht, 18 Byte = 144 Bit. Für einen Digitalrechner, der diese Nachricht übertragen soll, hat sie einen Informationsgehalt von 136. Wenn du diese Nachricht erhältst, hat sie für dich auch den Informationsgehalt 136? Natürlich nicht! Das sieht man schon daran, dass die Nachricht genauso gut in einem UTF-16 Zeichensatz hätte übertragen werden können, dann hätte sie für den Rechner einen Informationsgehalt von 18 * 2 Byte = 288 Bit. Welchen Informationsgehalt hat diese Nachricht für einen Menschen?</p>
+<p><strong>Beispiel:</strong> Um die Sache nicht allzu kompliziert zu machen stellen wir uns vor, ein Kleinkind mit asiatischen (gelben) Eltern wäre der Empfänger der Nachricht. Es hat bisher lediglich 4 Substantive gelernt: {Mama, Papa, Auto, Haus}. Daneben kennt es bereits die Farbwörter {rot, gelb, blau}. Aus seinem Dorf, bestehend aus 3 Häusern, ist es noch nie hinausgekommen. Dort gibt es nur 2 Autos. Wenn alle Kombinationen gleich wahrscheinlich sind, wenn also „Das Haus ist gelb.“ genauso wahrscheinlich ist wie „Der Papa ist blau.“, dann gibt es in der kleinkindlichen Sprachwelt \((1+1+3+2) \cdot 3\) gleich wahrscheinliche Nachrichten und jede Nachricht hat die Information \(I = \log_2 21 \approx 4,4\).</p>
+<p>Wir wissen, dass die Bedeutung von Nachrichten im Empfänger entsteht. Für einen Rechner, der eine Nachricht nur unverfälscht übermitteln soll, hat jedes Bit immer nur die Bedeutung „da ist etwas gesetzt“ oder „da ist etwas nicht gesetzt“. Für das Kleinkind hat die Nachricht „Das Haus ist gelb.“ eine ganz andere Bedeutung. Ein Buch enthält Sätze. Zuweilen werden im Alltag Fragen gestellt wie „was <em>bedeutet</em> dieser Satz?“ <strong>Die richtige Antwort ist immer: „nichts!“</strong> Die Frage ist falsch gestellt, sie müsste eigentlich lauten: „was bedeutet dieser Satz <em>für dich jetzt und hier</em>?“ Die Antwort des Gefragten ist wieder eine Nachricht ohne Bedeutung, gegeben in der Hoffnung, dass die Bedeutung im Empfänger ähnlich der Bedeutung im Absender wird. Wenn beide das Gefühl haben, die Bedeutungen in Sender und Empfänger seien gleich, dann projizieren sie diese Bedeutung in die Nachricht hinein und tun so, als ob eine Nachricht etwas bedeuten könnte. Dieser Text hier hat also keine Bedeutung und ist nichts weiter als der kunstvolle Versuch, mittels einer Nachricht in einem fremden Verstand bestimmte Wirkungen zu verursachen.</p>
+<p>Die sprachgestützte Vorstellungswelt eines Erwachsenen bietet natürlich viel mehr zur Auswahl als die eines Kleinkindes, und für ihn hat die gleiche Nachricht eine vielfach höhere Information. Der Informationsgewinn kann von der Tagesform des Erwachsenen abhängen. Eine Nachricht kann in verschiedenen Umgebungen für ihn ganz unterschiedliche Informationsgewinne bedeuten.</p>
+<p>Nach allem scheint Information eine sehr subjektive Sache zu sein.</p>
+<p><cite>Es folgt dann, daß die Maßzahl der Information relativ auf zwei semantische Ebenen, eben die der zugrundegelegten Makro- und Mikrozustände definiert ist. Ein „absoluter“ Begriff der Information hat keinen Sinn; Information gibt es stets nur „unter einem Begriff“, genauer „relativ auf zwei semantische Ebenen“.</cite> [Weizsäcker 5.4]</p>
+<p>Weizsäcker bezieht sich dabei offensichtlich auf die statistische Mechanik und die „Erklärung“ von Gesetzen der phänomenologischen Thermodynamik durch sie.</p>
+<h3>Information in der Natur?</h3>
+<p>Die Informationstheorie hat sich als gewinnbringend für menschliche Ziele erwiesen. Wenn sie so gewinnbringend ist, muss sie irgendetwas mit der Welt zu tun haben, oder nicht? Um diese Frage zu untersuchen, hinterfragen wir den Informationsbegriff zunächst weiter. Nützlich ist dabei dieser Hinweis:<br /><cite><br />
+Wenn wir irgendetwas in der Natur beschreiben wollen, müssen wir die Welt in zwei Teile separieren: in das System, das wir eigentlich beschreiben möchten, und seine Umgebung, d.h. den Rest der Welt.</cite> [Amann 2.1]</p>
+<table><tr><td>
+Die Frage, die uns beschäftigt, ist: <strong>ist in der Welt Information oder erfinden wir Information nur für unsere praktischen Zwecke?</strong> Wenn wir die Einteilung der Welt in Alternativen nicht postulieren wollen, dann bietet sich als schwächere Begrifflichkeit diese Herangehensweise an: wenn wir uns die Welt in 2 Teile A und B getrennt <em>denken</em>, dann bedeutet <cite>Information im Teil A</cite> die Vielfältigkeit, mit der Teil A den Zustand des Teils B verändern kann. Das ist der Informationsgehalt des Teils A.
+<p>Sollte es in A punktförmigen Teilchen geben, die sich in einem kontinuierlichen Raum mit kontinuierlichen Impulsen bewegen, dann enthielte A immer unendlich viel Information, denn durch das Kontinuum kann jedes Teilchen an unendlich vielen Orten in A sein und unendlich viele verschiedene Impulse haben. Jedes Teilchen könnte die Restwelt auf unendlich viele Arten verändern und stünde für unendlich viel Information.
+</p></td>
+<td>
+<img align="center" width="250" src="sites/default/files/pictures/Information.png" /></td>
+</tr><tr><td>
+Dennoch lässt sich solch ein kontinuierlicher Weltzustand <em>in der Vorstellung</em> rastern, so dass er nur noch endlich viele Kombinationen von Orts- und Impulswerten erlaubt. Über solch einen gerastert gedachten Zustand lassen sich Mitteilungen verschicken, die weniger als unendlich viele Bits zur Kodierung benötigen. Wenn wir solch eine Nachricht zum Beispiel durch den Abstand \(a\) zweier Teilchen kodieren wollten, dann könnten wir den kompletten Zustand von A, der ja in der Vorstellung nur abzählbar endlich viele Werte annehmen kann, mit nur 2 Teilchen <strong>in beliebiger Genauigkeit</strong> an B übertragen. Natürlich müssten wir unendliche Wertebereiche von Impulsen \([- \infty, \infty]\) zunächst auf endliche transformieren. Das ist mathematisch überhaupt kein Problem und könnte zum Beispiel von einem \(\arctan\) erledigt werden.
+</td>
+<td>
+<img align="center" width="250" src="sites/default/files/pictures/Information2.png" /></td>
+</tr></table><p>Schon vor mehr als 2000 Jahren Philosophen Bedenken über die unendlich feine Teilbarkeit:</p>
+<p><cite>Nur scheinbar hat ein Ding eine Farbe, nur scheinbar ist es süß oder bitter; in Wirklichkeit gibt es nur Atome und leeren Raum.</cite> [Wikipedia 2013: Demokrit]</p>
+<p><cite>Assume that the matter is not made of indivisible atoms, and that it is continuous. Take a stone. One can divide this up into infinitely many pieces (since matter is continuous). Now, the Himalayan mountain range also has infinitely many pieces, so one may build another Himalayan mountain range with the infinite number of pieces that one has. One begins with a stone and ends up with the Himalayas, which is a paradox - so the original assumption that matter is continuous must be wrong, and so all objects must be made up of a finite number of paramāṇus (atoms).</cite>  [Wikipedia 2013: Vaiśeṣika]</p>
+<p>Wir halten fest: eine kontinuierliche Raumzeit</p>
+<ul><li>lässt alle unsere Vorstellungen von Information in einem subjektiven, willkürlichen Licht erscheinen.
+</li>
+<li>erlaubt eine geradezu groteske Verdichtung von Information.
+</li>
+</ul><p>Beides könnte man schon fast <cite>paradox</cite> nennen.</p>
+<h3>Ein erster Fingerzeig aus der statistischen Mechanik</h3>
+<p>Die Entropie der phänomenologischen Thermodynamik ist eine kontinuierliche extensive Größe. „Extensiv“ heißt, dass sie mit wachsender Stoffmenge wächst. Die klassische statistische Mechanik erlaubt die Herleitung der phänomenologischen Markoentropie aus mirkomechanistischen Vorstellungen heraus. Diese statistische Theorie muss natürlich die richtigen Zahlenwerte für die thermodynamischen Makrogrößen liefern können. Eine wesentliche Rolle spielt dabei eine mit dem Volumen des 6n-dimensionalen kontinuierlichen Phasenraums (von n gleichen Teilchen) in Beziehung stehende Größe \(\Phi\). Die richtigen Ergebnisse liefert diese Formel [Becker (35.3)]:<br />
+\begin{equation}<br />
+S = k \ln{ \Phi } \quad \quad \Phi(E, V, N) = \frac{1}{ h^{3n} n! } \idotsint_{\mathscr{H} &lt; E} dp_1 dq_1 \dots dp_{3n} dq_{3n}<br />
+\end{equation}<br />
+Das Volumen des Phasenraums unterhalb einer Grenze \(E\) für die Gesamtenergie ist darin \(\idotsint_{\mathscr{H} &lt; E} dp_1 dq_1 \dots dp_{3n} dq_{3n}\).<br />
+Bemerkenswert ist das Auftauchen des Plankschen Wirkungsquantums im Nenner. Der Logarithmand entspricht einer Anzahl von Alternativen in der Informationstheorie. Es scheint so zu sein, als würde die Planksche Konstante uns diese Zahl für jedes Paar kanonischer Variablen \(p, q\) aus dem Kontinuum seiner Phasenraumfläche herausschälen, als müssten Phasenraumflächen aus Elementarflächen der Größe h aufgebaut werden, wobei die genaue Gestalt der Flächen unerheblich ist. Nur deren Zahl spielt eine Rolle.</p>
+<h3>Neumannsche Entropie</h3>
+<p>\begin{equation}<br />
+S=-\mathrm {tr} (\rho \ln \rho )<br />
+\end{equation}</p>
+<p>... hier gehts weiter ...</p>
+<p>Die Entropie des Neutrons</p>
+<p>als ideales klassisches Gas<br />
+als Fermi-Gas<br />
+als Bose-Gas?</p>
+</div></div></div></div>  </div>
+
+  <div class="clearfix">
+          <div class="links"></div>
+    
+      </div>
+
+</div>
+  </div>
+</div>
+  </div>
+          </div>
+                      <div class="region region-footer">
+    <div id="block-system-powered-by" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+</div>
+  </div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /#container -->
+  </div> <!-- /#wrapper -->
+  </body>
+</html>

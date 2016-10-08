@@ -15,39 +15,54 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="shortcut icon" href="sites/default/files/pyramid_power.ico" type="image/vnd.microsoft.icon" />
 <link rel="shortlink" href="node/62" />
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ['tex2jax.js'],
+  jax: ['input/TeX','output/HTML-CSS'],
+  tex2jax: {
+    inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+    processEscapes: true,
+    processClass: 'tex2jax',
+    ignoreClass: 'html'
+  },
+  showProcessingMessages: false,
+  messageStyle: 'none'
+});
+</script><meta name="Generator" content="Drupal 7 (http://drupal.org)" />
 <link rel="canonical" href="Quanten-Folgerungen" />
-<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
   <title>Die philosophischen Folgerungen aus der Quantenmechanik | Physikalismus</title>
   <style type="text/css" media="all">
-@import url("http://physikalismus.de/modules/system/system.base.css?nwwcfu");
-@import url("http://physikalismus.de/modules/system/system.menus.css?nwwcfu");
-@import url("http://physikalismus.de/modules/system/system.messages.css?nwwcfu");
-@import url("http://physikalismus.de/modules/system/system.theme.css?nwwcfu");
+@import url("http://physikalismus.de/modules/system/system.base.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.menus.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.messages.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.theme.css?obwofu");
 </style>
 <style type="text/css" media="all">
-@import url("http://physikalismus.de/modules/comment/comment.css?nwwcfu");
-@import url("http://physikalismus.de/modules/field/theme/field.css?nwwcfu");
-@import url("http://physikalismus.de/modules/node/node.css?nwwcfu");
-@import url("http://physikalismus.de/modules/search/search.css?nwwcfu");
-@import url("http://physikalismus.de/modules/user/user.css?nwwcfu");
+@import url("http://physikalismus.de/modules/comment/comment.css?obwofu");
+@import url("http://physikalismus.de/modules/field/theme/field.css?obwofu");
+@import url("http://physikalismus.de/modules/node/node.css?obwofu");
+@import url("http://physikalismus.de/modules/search/search.css?obwofu");
+@import url("http://physikalismus.de/modules/user/user.css?obwofu");
 </style>
 <style type="text/css" media="all">
-@import url("sites/default/files/color/garland-b0e715b8/style.css@nwwcfu");
+@import url("sites/default/files/color/garland-b0e715b8/style.css@obwofu");
 </style>
 <style type="text/css" media="print">
-@import url("http://physikalismus.de/themes/garland/print.css?nwwcfu");
+@import url("http://physikalismus.de/themes/garland/print.css?obwofu");
 </style>
 
 <!--[if lt IE 7]>
-<link type="text/css" rel="stylesheet" href="http://physikalismus.de/themes/garland/fix-ie.css?nwwcfu" media="all" />
+<link type="text/css" rel="stylesheet" href="http://physikalismus.de/themes/garland/fix-ie.css?obwofu" media="all" />
 <![endif]-->
   <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
 <script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
-<script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?nwwcfu"></script>
-<script type="text/javascript" src="sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@nwwcfu"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?obwofu"></script>
+<script type="text/javascript" src="sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@obwofu"></script>
+<script type="text/javascript" src="sites/all/modules/mathjax/mathjax.js@obwofu"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"R2OiYYd7wc5J7TIOtMUoIjNDjWMb5uBOBt9R1LfPLwY","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Quanten-Folgerungen":true,"\/Quanten-Folgerungen?destination=node\/62":true}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"G5zncr0AF5Whl0VZqV1gehrXwEUxbMsJP-OMDHqlbtw","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Quanten-Folgerungen":true,"\/Quanten-Folgerungen?destination=node\/62":true}});
 //--><!]]>
 </script>
 </head>
@@ -67,6 +82,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                           </div>
 
         <h2 class="element-invisible">Hauptmenü</h2><ul class="links inline main-menu"><li class="menu-218 first"><a href="index.html" title="">Start</a></li>
+<li class="menu-467"><a href="tracker" title="">Neuester Inhalt</a></li>
 <li class="menu-310"><a href="Quellen">Quellen</a></li>
 <li class="menu-311"><a href="Zitate">Zitate</a></li>
 <li class="menu-410"><a href="Bibliothek" title="Zum Verständnis Dienliches an diesem Ort Archiviertes">Bibliothek</a></li>
@@ -85,7 +101,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
  <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-qDs1xxyCJcRiLOkUvGe63JEIdO9sc8BeGh7kd2wlNuw" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-M9tWvm7NyfKmhWAbK8_8nAeFWIIqZAOs3r5m5xRWOSU" />
 <input type="hidden" name="form_id" value="search_block_form" />
 </div>
 </div></form>  </div>
@@ -106,16 +122,22 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 <li class="collapsed"><a href="Gleichnisse" title="Gleichnisse für Physiker von einem Physiker über Physik">Gleichnisse</a></li>
 <li class="leaf"><a href="Ethik" title="Was sollen wir tun?">gut &amp; böse</a></li>
 <li class="leaf"><a href="Ich" title="Was ist das Ich?">Ich</a></li>
+<li class="leaf"><a href="Information" title="Baustelle">Information</a></li>
 <li class="leaf"><a href="Jesus" title="Wie ich mir Jesus vorstelle">Jesus</a></li>
 <li class="leaf"><a href="Juristerei" title="Kann richtig geurteilt werden?">Juristerei</a></li>
 <li class="leaf"><a href="Kampf" title="Die falsche Idee vom totalen Frieden">Kampf</a></li>
+<li class="collapsed"><a href="Masse" title="Wie sich die Masse in ein Geflecht auflöst">Masse</a></li>
+<li class="collapsed"><a href="Mechanik" title="Was man von der klassischen Mechanik noch lernen kann">Mechanik</a></li>
 <li class="leaf"><a href="N" title="Was an den natürlichen Zahlen unnatürlich ist">N</a></li>
-<li class="expanded active-trail"><a href="Quantenmechanik" title="Die philosophischen Konsequenzen aus der Quantenmechanik" class="active-trail">Quanten</a><ul class="menu"><li class="first last leaf active-trail"><a href="Quanten-Folgerungen" title="Die philosophischen Folgerungen aus der Quantenmechanik" class="active-trail active">Folgerungen</a></li>
+<li class="expanded active-trail"><a href="Quantenmechanik" title="Die philosophischen Konsequenzen aus der Quantenmechanik" class="active-trail">Quanten</a><ul class="menu"><li class="first leaf"><a href="Brezel" title="Verschränkung">Brezel</a></li>
+<li class="last leaf active-trail"><a href="Quanten-Folgerungen" title="Die philosophischen Folgerungen aus der Quantenmechanik" class="active-trail active">Folgerungen</a></li>
 </ul></li>
 <li class="leaf"><a href="Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen">Reduktionismus</a></li>
 <li class="leaf"><a href="Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
 <li class="leaf"><a href="Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
-<li class="last leaf"><a href="Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+<li class="leaf"><a href="Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+<li class="leaf"><a href="Aufsauger" title="Feynmans Gedankenexperiment">Aufsauger</a></li>
+<li class="last leaf"><a href="Statistik" title="Was hat die klassische Statistik in der Quantenmechanik verloren?">Statisitik</a></li>
 </ul>  </div>
 </div>
 <div id="block-user-login" class="block block-user clearfix">
@@ -132,7 +154,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
  <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
 </div>
 <div class="item-list"><ul><li class="first last"><a href="user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
-</ul></div><input type="hidden" name="form_build_id" value="form-CtejZxcC8OqzmdtHXvaA5KIOVU2AvpGzPqo8w7dbwKU" />
+</ul></div><input type="hidden" name="form_build_id" value="form-Vt92Kb5jPdI6NuSA7JWrq2ZnO0irQKj2Nx9rmT06kDI" />
 <input type="hidden" name="form_id" value="user_login_block" />
 <div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
 </div>
@@ -154,7 +176,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
       <span property="dc:title" content="Die philosophischen Folgerungen aus der Quantenmechanik" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
   
   <div class="content clearfix">
-    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Werner Heisenberg als philosophisch Interessierter stellte sich diese Frage sofort nach der Entwicklung der Quantenmechanik: was sind die philosophischen Konsequenzen daraus?</p>
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="tex2jax"><p>Werner Heisenberg als philosophisch Interessierter stellte sich diese Frage sofort nach der Entwicklung der Quantenmechanik: was sind die philosophischen Konsequenzen daraus?</p>
 <p>Doch was ist das überhaupt für eine Frage? Wir erinnern uns an die Einleitung:</p>
 <ul><li>Philosophie, so wie wir sie hier verstehen, fragt nach dem, was ist. Sie begnügt sich nicht damit, menschliche Erfahrungen beschreiben zu können.</li>
 <li>Das Einzige, von dem wir sicher wissen, dass es ist, nannten wir in der Einleitung <em>Bewusstsein</em>.</li>
@@ -191,6 +213,7 @@ Den Begriff <em>Dekohärenztheorie</em> empfinde ich deswegen als unglücklich, 
 <p>Schaut man sich die Meldung allerdings genauer an...</p>
 <p><cite>Während der Stromimpulse verlangsamte sich die Atmung der Probandin. Sie starrte ins Leere, hörte auf zu sprechen und reagierte weder auf akustische noch auf visuelle Reize. Sobald die Forscher mit der Stimulation aufhörten, kehrte das Bewusstsein zurück und die Patientin konnte sich nicht mehr an ihren mentalen Aussetzer erinnern.</cite></p>
 <p>...stellt sich die Frage, woran die Forscher eigentlich erkannt haben, dass die Probandin kein Bewusstsein gehabt haben soll. Hätte sie eine Szenerie bewusst erlebt, wie hätte sie das den Forschern ohne Kommunikationskanal mitteilen können, denn sie <cite>hörte auf zu sprechen und reagierte weder auf akustische noch auf visuelle Reize</cite>? Und die Tatsache, dass die Probandin sich nicht an das erinnern kann, woran sich die Forscher erinnern, beweist gar nichts. Niemand würde auf die Idee kommen, einem Menschen mit fortgeschrittenem Alzheimer ein Bewusstsein abzusprechen, nur weil er sich nicht an das erinnern kann, was eben geschehen ist. <strong>Unser hier verwendeter Bewusstseinsbegriff gilt auch für Träume: Träume werden bewusst erlebt. Wieviel davon allerdings als Erinnerung gespeichert wird und wie stark die Motorik und Sensorik des menschlichen Leibes daran beteiligt sind unterliegt starken Schwankungen. Oder anders ausgedrückt: eine scharfe Trennung zwischen Traum- und Wachzustand wird durch Sprache künstlich erzeugt, in Wirklichkeit gibt es nur Träume verschiedener Qualität.</strong></p>
+<p><cite>Als einen weiteren Gewinn müssen wir ansehen, daß der Physiker von den herkömmlichen intellektuellen Mitteln der Physik sich nicht mehr imponieren läßt. Kann schon die gewöhnliche „Materie“ nur als ein sich unbewußt ergebendes, sehr natürliches Gedankensymbol für einen relativ stabilen Komplex sinnlicher Elemente betrachtet werden, so muß dies umso mehr von den künstlichen hypothetischen Atomen und Molekülen der Physik und Chemie gelten. Diesen Mitteln verbleibt ihre Wertschätzung für ihren besonderen beschränkten Zweck. Sie bleiben ökonomische Symbolisierungen der physikalisch-chemischen Erfahrung. Man wird aber von ihnen wie von den Symbolen der Algebra nicht mehr erwarten, als man in dieselben hineingelegt hat, namentlich nicht mehr Aufklärung und Offenbarung als von der Erfahrung selbst. Schon im Gebiete der Physik selbst bleiben wir vor Überschätzung unserer Symbole bewahrt. Noch weniger wird aber der ungeheuerliche Gedanke, die Atome zur Erklärung der psychischen Vorgänge verwenden zu wollen, sich unserer bemächtigen können. Sind doch die Atome nur Symbole jener eigenartigen Komplexe sinnlicher Elemente, die wir in den engeren Gebieten der Physik und Chemie antreffen.<br /> [Mach XIV.1.]</cite></p>
 <p>Die klassische Physik wird in Zukunft als Ausdünnung der darunterliegenden Quantenphysik dastehen, es werden darin sehr wesentliche Aspekte fehlen. Deswegen darf man heute nicht mehr erwarten, dass alle makroskopischen Erscheinungen mit der klassischen Physik erklärt werden können. Man kann nicht mehr erwarten, dass es für alle Erscheinungen eine „natürliche Erklärung“ gibt. Denn mit der  „natürlichen Erklärung“ meint man eine Erklärung aus der klassischen Physik heraus, eine Erklärung aus der ausgedünnten Theorie heraus. Das kann nicht funktionieren! Mag sein, dass es für alles eine Erklärung aus der Quantentheorie heraus gibt, jedoch nicht heute, denn dazu sind lediglich erste Fortschritte erzielt worden.
 </p></td>
 </tr><tr><td>
@@ -213,7 +236,7 @@ Ein anderer, eher idealistischer Ausweg wäre es, mögliches Entstehen von Bewus
 <li>Körperliche Zustände sind bestimmte relative Zustände. Sie können nicht ohne das Absolute, das man Geist nennen kann, existieren.
 </li></ul><p>Würde Platon heute auch diese Antworten geben?</p>
 <p>Der Ausweg 2 erscheint sehr verlockend. Der Materialismus steht immer noch vor dem Problem, das Zustandekommen des Geistigen aus der Materie heraus erklären zu müssen aber nicht zu können. Ein idealistischer Ansatz hätte freilich ein ähnliches Problem, wenn er das Zustandekommen von Materie aus dem Geistigen heraus erklären müsste. Für die Existenz von Materie gibt es allerdings keinen Beweis wie es ihn für die Existenz des Bewusstseins gibt, denn wir haben einfach das sich selbst als mit-Sicherheit-daseiend erkennende „Bewusstsein“ genannt. Materie kann als Erscheinung erklärt werden, die durch Zustandswechsel der geistigen Substanz bewusst wird. Dass ein Ding nur immer wieder gemeinsam erscheinende Eigenschaften sind, haben wir schon im Kapitel über den Reduktionismus gesehen. Es ist also <strong>nicht</strong> so, dass ein Ding verschiedene Eigenschaften hat. Die Sprache will zwar genau das ausdrücken: die Eigenschaften sind dem Ding zueigen. Es ist vielmehr <strong>andersherum</strong>: aus dem hinreichend konstanten Auftreten bestimmter Wahrnehmungen heraus definieren wir uns Dinge zusammen. Und diese Art von „Materie“ kann ein Idealismus erklären.</p>
-</div></div></div>  </div>
+</div></div></div></div>  </div>
 
   <div class="clearfix">
           <div class="links"></div>

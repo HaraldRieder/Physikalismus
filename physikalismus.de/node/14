@@ -45,7 +45,7 @@ MathJax.Hub.Config({
 @import url("http://physikalismus.de/modules/user/user.css?obwofu");
 </style>
 <style type="text/css" media="all">
-@import url("../sites/default/files/color/garland-b0e715b8/style.css@obwofu");
+@import url("../sites/default/files/color/garland-b0e715b8/style.css?obwofu");
 </style>
 <style type="text/css" media="print">
 @import url("http://physikalismus.de/themes/garland/print.css?obwofu");
@@ -57,12 +57,12 @@ MathJax.Hub.Config({
   <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
 <script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
 <script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?obwofu"></script>
-<script type="text/javascript" src="../sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@obwofu"></script>
-<script type="text/javascript" src="../sites/all/modules/mathjax/mathjax.js@obwofu"></script>
+<script type="text/javascript" src="../sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js?obwofu"></script>
+<script type="text/javascript" src="../sites/all/modules/mathjax/mathjax.js?obwofu"></script>
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"Ih-41IBtlNB5nasDI3a6X7RP6xnTsENaVMd4zrbhNWE","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/node\/14":true,"\/Zitate?destination=node\/14":true}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"MRSlRPBZcS6bMXDjyl491L3Q9v5d0e3hpLLcJM0nZP0","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/node\/14":true,"\/Zitate?destination=node\/14":true}});
 //--><!]]>
 </script>
 </head>
@@ -83,8 +83,11 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 
         <h2 class="element-invisible">Hauptmenü</h2><ul class="links inline main-menu"><li class="menu-218 first"><a href="../index.html" title="">Start</a></li>
 <li class="menu-467"><a href="../tracker" title="">Neuester Inhalt</a></li>
+<li class="menu-468"><a href="../Baustellen" title="Meine Hausaufgaben">Baustellen</a></li>
 <li class="menu-310"><a href="../Quellen">Quellen</a></li>
 <li class="menu-311 active-trail active"><a href="../Zitate" class="active-trail active">Zitate</a></li>
+<li class="menu-469"><a href="../Begriffe" title="Wie die Wörter an diesem Ort gemeint sind, 
+erklärt durch noch mehr Wörter.">Begriffe</a></li>
 <li class="menu-410"><a href="../Bibliothek" title="Zum Verständnis Dienliches an diesem Ort Archiviertes">Bibliothek</a></li>
 <li class="menu-423 last"><a href="../Impressum">Impressum</a></li>
 </ul>              </div> <!-- /#header -->
@@ -101,7 +104,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
  <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-BXcRcDuDyv9ci4FskF4KUA5Xz2wKFZmGpG1kJxKMIlI" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-A5PPh5oKNpUzkVr1oNc7j5_wptJCzdGkAVpxADjy6SM" />
 <input type="hidden" name="form_id" value="search_block_form" />
 </div>
 </div></form>  </div>
@@ -111,8 +114,9 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
     <h2 class="title">Navigation</h2>
   
   <div class="content">
-    <ul class="menu"><li class="first leaf"><a href="../Dao" title="Der Weg zur Erkenntnis">Dao</a></li>
-<li class="leaf"><a href="../Bewusstsein" title="Gedanken über den Geist">Bewusstsein</a></li>
+    <ul class="menu"><li class="first leaf"><a href="../Bewusstsein" title="Gedanken über den Geist">Bewusstsein</a></li>
+<li class="leaf"><a href="../Dao" title="Der Weg zur Erkenntnis">Dao</a></li>
+<li class="leaf"><a href="../Denken" title="Muss Denken immer in einem engen Raumgebiet stattfinden?">Denken</a></li>
 <li class="leaf"><a href="../Energie" title="Ein Wort zur Energie">Energie</a></li>
 <li class="leaf"><a href="../Erloesung" title="Wie kann das Abgeteilte erlöst werden?">Erlösung</a></li>
 <li class="leaf"><a href="../Erwachsenwerden" title="Erwachsenwerden in der Begrifflichkeit des Schopenhauerschen Willens">Erwachsenwerden</a></li>
@@ -133,9 +137,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 <li class="leaf"><a href="../Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen">Reduktionismus</a></li>
 <li class="leaf"><a href="../Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
 <li class="leaf"><a href="../Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
-<li class="leaf"><a href="../Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
-<li class="leaf"><a href="../Aufsauger" title="Feynmans Gedankenexperiment">Aufsauger</a></li>
-<li class="last leaf"><a href="../Statistik" title="Was hat die klassische Statistik in der Quantenmechanik verloren?">Statisitik</a></li>
+<li class="last leaf"><a href="../Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
 </ul>  </div>
 </div>
 <div id="block-user-login" class="block block-user clearfix">
@@ -152,7 +154,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
  <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
 </div>
 <div class="item-list"><ul><li class="first last"><a href="../user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
-</ul></div><input type="hidden" name="form_build_id" value="form-HiMZkjMT8k8DHgx9rUgcQP0NAvxHRThZm-XUlZw7OtI" />
+</ul></div><input type="hidden" name="form_build_id" value="form-ygYeshn6zpn_RvQ3uFARvq0MJAEOKUhsRpUI9nODVF8" />
 <input type="hidden" name="form_id" value="user_login_block" />
 <div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
 </div>
@@ -333,7 +335,6 @@ Das Ich ist unrettbar. Teils diese Einsicht, teils die Furcht vor derselben füh
 <p><cite>Gehört die eben aufgenommene Nahrung, die Luft, die eingeatmet wurde, mit zum Körper, oder nicht? Von welchem Zeitpunkt ab sollen sie als Teile des Körpers bezeichnet werden? Gehört das Schneckenhaus mit zum Organismus der Schnecke, das Netz mit zu dem der Spinne? Müsste nicht bis zu einem gewissen Grad auch das Erdreich, in dem die Pflanze wurzelt, mit zu ihrem lebendigen Zusammenhang gerechnet werden?<br /></cite> [Heisenberg-O]</p>
 <p><cite>Offenbar sind doch z.B. die folgenden biologischen Abläufe innerlich eng verwandt und gewissermaßen nur dem Grade nach verschieden: Der Aufbau eines Organs aus vielen gleichartigen Zellen; die Bildung eines nach bestimmten Gesetzen lebenden Ameisenstaates, der fast ebenso wie das Organ als etwas Ganzes reagiert; der Zusammenschluß von Menschen zu einer Gemeinschaft.<br /></cite> [Heisenberg-O]</p>
 <p><cite>Meine Herren, als Physiker, der sein ganzes Leben der nüchternen Wissenschaft, der Erforschung der Materie widmete, bin ich sicher von dem Verdacht frei, für einen Schwarmgeist gehalten zu werden. Und so sage ich nach meinen Erforschungen des Atoms dieses: Es gibt keine Materie an sich. Alle Materie entsteht und besteht nur durch eine Kraft, welche die Atomteilchen in Schwingung bringt und sie zum winzigsten Sonnensystem des Alls zusammenhält. Da es im ganzen Weltall aber weder eine intelligente Kraft noch eine ewige Kraft gibt - es ist der Menschheit nicht gelungen, das heißersehnte Perpetuum mobile zu erfinden - so müssen wir hinter dieser Kraft einen bewußten intelligenten Geist annehmen. Dieser Geist ist der Urgrund aller Materie. Nicht die sichtbare, aber vergängliche Materie ist das Reale, Wahre, Wirkliche - denn die Materie bestünde ohne den Geist überhaupt nicht - , sondern der unsichtbare, unsterbliche Geist ist das Wahre! Da es aber Geist an sich ebenfalls nicht geben kann, sondern jeder Geist einem Wesen zugehört, müssen wir zwingend Geistwesen annehmen. Da aber auch Geistwesen nicht aus sich selber sein können, sondern geschaffen werden müssen, so scheue ich mich nicht, diesen geheimnisvollen Schöpfer ebenso zu benennen, wie ihn alle Kulturvölker der Erde früherer Jahrtausende genannt haben: Gott! Damit kommt der Physiker, der sich mit der Materie zu befassen hat, vom Reiche des Stoffes in das Reich des Geistes. Und damit ist unsere Aufgabe zu Ende, und wir müssen unser Forschen weitergeben in die Hände der Philosophie.<br /></cite> [Planck]</p>
-<p><cite>Ich bin überzeugt, dass Information das fundamentale Konzept unserer Welt ist. Sie bestimmt, was gesagt werden kann, aber auch, was Wirklichkeit sein kann. In der üblichen Auffassung des Physikers und im täglichen Leben existiert die Wirklichkeit da draußen primär; durch diese Wirklichkeit spazieren wir wie über eine Bühne, und die Information, die wir darüber haben, ist ein sekundäres Konzept. In der Quantenphysik – zumindest in bestimmten Situationen – ist nach meiner Überzeugung die Information das Primäre: das, was gesagt werden kann.<br /></cite> [Zeilinger]</p>
 <p><cite>Eigentlich gibt es gar nichts Unlebendiges!<br /></cite> [Dürr-M II.]</p>
 <p><cite>Dass ein Tisch im Grunde auch lebendig ist, bemerken wir nicht, weil wir ihn nur vergröbert betrachten und damit vereinfacht sehen.<br /></cite> [Dürr-GKP S.108]</p>
 <p><cite>Habt ihr nicht mich, sondern den Sinn vernommen, so ist es weise, im gleichen Sinn zu sagen: Eins ist alles.<br /></cite> [Heraklit-F]</p>

@@ -45,7 +45,7 @@ MathJax.Hub.Config({
 @import url("http://physikalismus.de/modules/user/user.css?obwofu");
 </style>
 <style type="text/css" media="all">
-@import url("sites/default/files/color/garland-b0e715b8/style.css@obwofu");
+@import url("sites/default/files/color/garland-b0e715b8/style.css?obwofu");
 </style>
 <style type="text/css" media="print">
 @import url("http://physikalismus.de/themes/garland/print.css?obwofu");
@@ -57,12 +57,12 @@ MathJax.Hub.Config({
   <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
 <script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
 <script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?obwofu"></script>
-<script type="text/javascript" src="sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@obwofu"></script>
-<script type="text/javascript" src="sites/all/modules/mathjax/mathjax.js@obwofu"></script>
+<script type="text/javascript" src="sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js?obwofu"></script>
+<script type="text/javascript" src="sites/all/modules/mathjax/mathjax.js?obwofu"></script>
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"nO7HuTlhztLkxBpbcaiDgRhpMBfwvqmiTKVViYwfvNQ","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Information":true,"\/Information?destination=node\/49":true}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"YM1STDKVRyZFVSDlXG64zbl69qmvWQ1VFYLNO0mrV3Q","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Information":true,"\/Information?destination=node\/49":true}});
 //--><!]]>
 </script>
 </head>
@@ -83,8 +83,11 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 
         <h2 class="element-invisible">Hauptmenü</h2><ul class="links inline main-menu"><li class="menu-218 first"><a href="index.html" title="">Start</a></li>
 <li class="menu-467"><a href="tracker" title="">Neuester Inhalt</a></li>
+<li class="menu-468"><a href="Baustellen" title="Meine Hausaufgaben">Baustellen</a></li>
 <li class="menu-310"><a href="Quellen">Quellen</a></li>
 <li class="menu-311"><a href="Zitate">Zitate</a></li>
+<li class="menu-469"><a href="Begriffe" title="Wie die Wörter an diesem Ort gemeint sind, 
+erklärt durch noch mehr Wörter.">Begriffe</a></li>
 <li class="menu-410"><a href="Bibliothek" title="Zum Verständnis Dienliches an diesem Ort Archiviertes">Bibliothek</a></li>
 <li class="menu-423 last"><a href="Impressum">Impressum</a></li>
 </ul>              </div> <!-- /#header -->
@@ -101,7 +104,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
  <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-QFbpZ84YqRmf92qH7NmUv8fKFOlJWMwEOyS10HWJCR0" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-3eNqCZBMYoJbl1dhCMldf_b-SbGUC1MmprDjkrJFZ98" />
 <input type="hidden" name="form_id" value="search_block_form" />
 </div>
 </div></form>  </div>
@@ -111,8 +114,9 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
     <h2 class="title">Navigation</h2>
   
   <div class="content">
-    <ul class="menu"><li class="first leaf"><a href="Dao" title="Der Weg zur Erkenntnis">Dao</a></li>
-<li class="leaf"><a href="Bewusstsein" title="Gedanken über den Geist">Bewusstsein</a></li>
+    <ul class="menu"><li class="first leaf"><a href="Bewusstsein" title="Gedanken über den Geist">Bewusstsein</a></li>
+<li class="leaf"><a href="Dao" title="Der Weg zur Erkenntnis">Dao</a></li>
+<li class="leaf"><a href="Denken" title="Muss Denken immer in einem engen Raumgebiet stattfinden?">Denken</a></li>
 <li class="leaf"><a href="Energie" title="Ein Wort zur Energie">Energie</a></li>
 <li class="leaf"><a href="Erloesung" title="Wie kann das Abgeteilte erlöst werden?">Erlösung</a></li>
 <li class="leaf"><a href="Erwachsenwerden" title="Erwachsenwerden in der Begrifflichkeit des Schopenhauerschen Willens">Erwachsenwerden</a></li>
@@ -133,9 +137,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 <li class="leaf"><a href="Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen">Reduktionismus</a></li>
 <li class="leaf"><a href="Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
 <li class="leaf"><a href="Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
-<li class="leaf"><a href="Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
-<li class="leaf"><a href="Aufsauger" title="Feynmans Gedankenexperiment">Aufsauger</a></li>
-<li class="last leaf"><a href="Statistik" title="Was hat die klassische Statistik in der Quantenmechanik verloren?">Statisitik</a></li>
+<li class="last leaf"><a href="Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
 </ul>  </div>
 </div>
 <div id="block-user-login" class="block block-user clearfix">
@@ -152,7 +154,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
  <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
 </div>
 <div class="item-list"><ul><li class="first last"><a href="user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
-</ul></div><input type="hidden" name="form_build_id" value="form-krwDPURNrsbHT5VXGQl6FjcdgO6js34K3g6UpZL3iOI" />
+</ul></div><input type="hidden" name="form_build_id" value="form-mRsAbeoICD5aCzSjkYbsmVUyN6OefVZWpmIDBb91C_M" />
 <input type="hidden" name="form_id" value="user_login_block" />
 <div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
 </div>
@@ -174,7 +176,8 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
       <span property="dc:title" content="Gibt es absolute Information?" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
   
   <div class="content clearfix">
-    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="tex2jax"><h3>Was ist eigentlich Information?</h3>
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="tex2jax"><p><cite>Ich bin überzeugt, dass Information das fundamentale Konzept unserer Welt ist. Sie bestimmt, was gesagt werden kann, aber auch, was Wirklichkeit sein kann. In der üblichen Auffassung des Physikers und im täglichen Leben existiert die Wirklichkeit da draußen primär; durch diese Wirklichkeit spazieren wir wie über eine Bühne, und die Information, die wir darüber haben, ist ein sekundäres Konzept. In der Quantenphysik – zumindest in bestimmten Situationen – ist nach meiner Überzeugung die Information das Primäre: das, was gesagt werden kann.<br /></cite> [Zeilinger]</p>
+<h3>Was ist eigentlich Information?</h3>
 <p>Nach der Informationstheorie von C. E. Shannon ist der Informationsgehalt \(I\) einer Nachricht über das Eintreffen einer von \(N\) möglichen Alternativen<br />
 \begin{equation}<br />
 I = \log_2 N<br />
@@ -198,7 +201,7 @@ Wenn ein Ereignis sicher ist, dann gewinnt man durch eine Mitteilung über sein 
 Wenn wir irgendetwas in der Natur beschreiben wollen, müssen wir die Welt in zwei Teile separieren: in das System, das wir eigentlich beschreiben möchten, und seine Umgebung, d.h. den Rest der Welt.</cite> [Amann 2.1]</p>
 <table><tr><td>
 Die Frage, die uns beschäftigt, ist: <strong>ist in der Welt Information oder erfinden wir Information nur für unsere praktischen Zwecke?</strong> Wenn wir die Einteilung der Welt in Alternativen nicht postulieren wollen, dann bietet sich als schwächere Begrifflichkeit diese Herangehensweise an: wenn wir uns die Welt in 2 Teile A und B getrennt <em>denken</em>, dann bedeutet <cite>Information im Teil A</cite> die Vielfältigkeit, mit der Teil A den Zustand des Teils B verändern kann. Das ist der Informationsgehalt des Teils A.
-<p>Sollte es in A punktförmigen Teilchen geben, die sich in einem kontinuierlichen Raum mit kontinuierlichen Impulsen bewegen, dann enthielte A immer unendlich viel Information, denn durch das Kontinuum kann jedes Teilchen an unendlich vielen Orten in A sein und unendlich viele verschiedene Impulse haben. Jedes Teilchen könnte die Restwelt auf unendlich viele Arten verändern und stünde für unendlich viel Information.
+<p>Sollte es in A punktförmige Teilchen geben, die sich in einem kontinuierlichen Raum mit kontinuierlichen Impulsen bewegen, dann enthielte A immer unendlich viel Information, denn durch das Kontinuum kann jedes Teilchen an unendlich vielen Orten in A sein und unendlich viele verschiedene Impulse haben. Jedes Teilchen könnte die Restwelt auf unendlich viele Arten verändern und stünde für unendlich viel Information.
 </p></td>
 <td>
 <img align="center" width="250" src="sites/default/files/pictures/Information.png" /></td>
@@ -223,12 +226,84 @@ S = k \ln{ \Phi } \quad \quad \Phi(E, V, N) = \frac{1}{ h^{3n} n! } \idotsint_{\
 \end{equation}<br />
 Das Volumen des Phasenraums unterhalb einer Grenze \(E\) für die Gesamtenergie ist darin \(\idotsint_{\mathscr{H} &lt; E} dp_1 dq_1 \dots dp_{3n} dq_{3n}\).<br />
 Bemerkenswert ist das Auftauchen des Plankschen Wirkungsquantums im Nenner. Der Logarithmand entspricht einer Anzahl von Alternativen in der Informationstheorie. Es scheint so zu sein, als würde die Planksche Konstante uns diese Zahl für jedes Paar kanonischer Variablen \(p, q\) aus dem Kontinuum seiner Phasenraumfläche herausschälen, als müssten Phasenraumflächen aus Elementarflächen der Größe h aufgebaut werden, wobei die genaue Gestalt der Flächen unerheblich ist. Nur deren Zahl spielt eine Rolle.</p>
-<h3>Neumannsche Entropie</h3>
+<h3>Die Wahrscheinlichkeitsinterpretation der Quantenmechanik</h3>
+<p>Wenngleich nicht ausgemacht ist, ob wir uns am Ende auf die Seite der Wahrscheinlichkeitsinterpretation schlagen werden, muss man sie kennen. Im Praktischen funktioniert sie bestens in dem Sinn, dass die als Wahrscheinlichkeiten interpretierten Zahlen, die aus der Quantenmechanik herausfallen, hervorragend zu wahrgenommenen Häufigkeiten passen - wenn man sein Experiment entsprechend aufbaut.</p>
+<p>Ein quantenmechanischer Zustand lässt sich normalerweise auf unendlich viele Arten nach Basisvektoren \(\{u_i\}\) entwickeln: \( \psi = \sum_i a_i u_i \ = \sum_i b_i v_i = ...\) Der quantenmechanische Zustand beschreibt den Zustand „des Systems“ vollständig. Genau in diesem „System“ liegt aber schon das erste Problem: es fasst wenige Variablen und Vektorkomponenten zusammen und betrachtet sie als eine vom Rest als abtrennbare Welt. Weiter unten werden wir sehen, dass nur ein System dauerhaft einen Zustand haben kann: die Welt. Doch weiter im Text...</p>
+<p>Die Erfahrungen mit den Doppelspalt- und Stern-Gerlach Experimenten usw. haben dann diese Interpretation nahegelegt:</p>
+<ul><li>Nach der Messung befindet sich das System in einem Eigenzustand des Messoperators. Bei einer wiederholten Messung wird mit Sicherheit der Eigenwert gemessen, so lange bis ein mit dem Messoperator unverträglicher - nicht kommutierender - Operator auf das System angewendet wird.</li>
+<li>Befindet sich das System bei der Messung nicht in einem Eigenzustand des Messoperators, dann liefert eine Messung mit dem Messoperator eine zufällige Verteilung der Eigenwerte.</li>
+</ul><p>Die erste Frage, die sich stellt, ist: wann ist ein Operator \(\hat{O}\) ein Messoperator? Erstens muss er hermitesch sein, damit er reelle Messwerte liefern kann. Zweitens muss er linear sein. Und drittens muss er einer klassischen(!) Größe entsprechen - so jedenfalls in den Anfängen der Quantenmechanik.</p>
+<p>Für ein Wahrscheinlichkeitsmaß muss gelten, dass die Summe der Wahrscheinlichkeiten \(p_i\) für das Eintreten aller möglichen Alternativen 1 ist: \( \sum_i p_i = 1 \). Die Messwerte liefert in der Theorie ein Eigenvektor \(| o_i &gt;\) von \(\hat{O}\) genauso gut wie ein Eigenvektor \(4711 \cdot | o_i &gt;\). Doch damit diese Kette für den Erwartungswert einer Messung<br />
+\begin{equation}<br />
+&lt;\hat{O}&gt;_{\psi} = &lt;\psi |\hat{O} \psi&gt; = \sum_{i,j} a_i^* a_j o_j &lt; o_i | o_j &gt; = \sum_i |a_i|^2 o_i := \sum p_i o_i<br />
+\end{equation}<br />
+Bestand haben kann, müssen erstens normierte Vektoren verwendet werden, und \(\hat{O}\) muss ein linearer Operator sein (für das 2. Gleichheitszeichen). Eine Quantenmechanik mit nichtlinearen Operatoren gerät demnach als erstes in Konflikt mit der Wahrscheinlichkeitsinterpretation.</p>
+<p>Die Operatoren wurden zunächst über ein Korrespondenzprinzip erhalten. Ausgehend von der theoretischen Mechanik mit ihren kanonischen Koordinaten \(q_i\) und \(p_i\) sollten die Operatoren der Quantenmechanik aus den Größen der klassischen Mechanik durch folgende Vorschrift erhalten werden:<br />
+\begin{equation}<br />
+q_i \mapsto q_i \quad\quad p_i \mapsto -\mathrm i \hbar \frac{\partial}{\partial q_i}<br />
+\end{equation}<br />
+Eine entsprechende „kanonische Quantisierungsvorschrift“ gibt es natürlich auch für kanonische Feldvariable und über diesen Weg gelangte man zu den ersten Quantenfeldtheorien. </p>
+<p>In der ursprünglichen Wahrscheinlichkeitsinterpretation werden Vorstellungen über die Natur, die aus der klassischen Physik des 19. Jahrhunderts stammen, nicht in Frage gestellt. Die Quantenmechanik wird zu einem Lieferanten für Wahrscheinlichkeiten von klassischen Ereignisse heruntergestuft. Irgendwo in einem nebulösen Bereich, an einem heisenbergschen Schnitt allerspätestens kurz vor dem Bewusstsein, soll der Übergang von der Quantenwelt in die klassische Welt stattfinden. </p>
+<p>Die kanonische Quantisierung liefert uns heute keine neuen Theorien mehr. Bis heute ist es nicht gelungen, die allgemeine Relativitätstheorie einer kanonischen Feldquantisierung zu unterziehen. Wenn heute eine Theorie gebaut wird, geht man anders vor: ausgehend von Symmetrien, an die man glaubt, weil die Experimente sie nahelegen, bastelt man Gleichungen zusammen, die diese Symmetrien erfüllen. Und mit dem Prinzip der lokalen Symmetrien gelangt man zu den Eichbosonen dieser Symmetrien, die nichts weiter als weitere Feldvariable in den Gleichungen sind. Der jüngste Erfolg solchen Vorgehens ist der Higgsmechanismus. Dabei lokalisiert man Stand heute nur kontinuierliche Symmetrien wie die Translationsinvarianz und die U(1), SU(2) und SU(3) Gruppen des Standardmodells. Die Lokalität der Metrik in der allgemeinen Relativitätstheorie legt jedoch nahe, dass auch diskrete Symmetrien wie die Parität in zukünftigen Theorien einen lokalen Charakter bekommen müssen.</p>
+<h3>Dichteoperatoren</h3>
+<p>An <a href="Brezel">anderer Stelle</a> haben wir gesehen, dass es abtrennbare Systeme so nicht gibt, dass es immer viele Sichten gibt, in denen ein Zustand mit wenigen Variablen und Komponenten verschränkt mit dem Rest ist. Für unsere Welt heißt das, dass ihr Zustand nicht als \( | A &gt; \otimes | B &gt; \) geschrieben werden kann. Dennoch lassen sich Apparate bauen, die sich bestimmte Variablen aus A herauspicken und sich daran ankoppeln. A wird dann als „offenes Quantensystem“ bezeichnet.</p>
+<p>Für eine abgeschlossene Welt gibt es einen Zustand (wenigstens in der Theorie). Wenn die \( u_i \) keine Eigenvektoren von \(\hat{O}\) sind, dann lässt sich der Erwartungswert eines auf die Welt angewendeten Operators so ausdrücken<br />
+\begin{equation}<br />
+&lt;\hat{O}&gt;_{\psi} = \sum_{i,j} a_i^* a_j &lt; u_i | \hat{O} u_j &gt;<br />
+\end{equation}<br />
+Natürlich können wir keinen Operator auf die Welt von außerhalb der Welt anwenden. Aber dies ist der erste Schritt zur Definition einer Dichtematrix<br />
+\begin{equation}<br />
+\rho_{ij} := a_i^* a_j \quad\quad \rho = a^* \otimes a<br />
+\end{equation}<br />
+Sie ist das Tensorprodukt des konjugiert komplexen Vektors der Entwicklungskoeffizienten mit dem Vektor der Entwicklungskoeffizienten. Nicht jede Matrix lässt sich als ein solches Tensorprodukt schreiben<br />
+\begin{equation}<br />
+\frac{1}{\sqrt{2}} \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; 1 \end{pmatrix} \neq \begin{pmatrix} |a_1|^2 &amp; a_1^* a_2 \\ a_2^* a_1 &amp; |a_2|^2 \end{pmatrix}<br />
+\end{equation}<br />
+Nun haben wir also Operatoren, die wir nicht auf die Welt anwenden können, weil wir nicht aus ihr heraustreten können, und eine neue mathematische Darstellung ihrer Erwartungswerte mit einer Dichtematrix, die nicht wirklich etwas neues bringt. Was soll das?</p>
+<p>Ein Schlenker über die Geschichte der Quantenstatistik: in den Zeiten, als man an der klassischen Vorstellungswelt festhielt, war es naheliegend zu denken, dass auch Quantenexperimente mit klassischen Zufallsschwankungen präpariert werden, wie eben alle anderen Experimente auch. Um dies abzubilden, führte man „gemischte Zustände“ ein. Obigen Dichteoperator eines reinen Zustands kann man im Hilbertraumformalismus als \( | \psi &gt; &lt; \psi  | \) ausdrücken. Gemischte Zustände bilden sich durch die Gewichtung solcher quantenmechanischen Zustände mit klassischen Wahrscheinlichkeiten: \( \sum_i p_i | \psi_i &gt; &lt; \psi_i  | \). Dadurch erhält man Dichtematrizen, die nicht mehr als Tensorprodukt zerlegbar sein müssen. Und der Erfolg gibt Recht: mit den erhaltenen Formeln konnte man z.B. Spinstatistiken erklären. </p>
+<p>Ausgehend von der Vorstellung einer reinen Quantenwirklichkeit kann man nicht mehr einfach klassische Wahrscheinlichkeiten über den Formalismus der Quantentheorie stülpen, auch wenn es am Ende funktioniert. Vielmehr muss das Zustandekommen der klassischen Wahrscheinlichkeiten aus der Quantentheorie heraus erklärt werden.</p>
+<p>Den Erwartungswert eines Operators, der nur auf eine Teilwelt, auf ein „offenes Quantensystem“, wirkt, haben wir schon im <a href="WWalsMasse">Kapitel über die Masse</a> bemüht:<br />
+\begin{equation}<br />
+&lt;\hat{O}&gt; = &lt; \Xi | \hat{O} \otimes \hat{1} | \Xi &gt; = \sum_{n,m} \sum_{r,s} c_{nm}^* c_{rs} &lt;\psi_n | \hat{O} | \psi_r &gt; &lt; \phi_m | \phi_s &gt; = \sum_{n,m,r} c_{nm}^* c_{rm} &lt;\psi_n | \hat{O} | \psi_r &gt;<br />
+\end{equation}<br />
+In diesem Fall lässt sich eine Dichtematrix \( \rho_{ij} := \sum_m c_{im}^* c_{jm} \) definieren, die kein Tensorprodukt aus Entwicklungskoeffizienten mehr ist, aber das passende Mittel, um Erwartungswerte von Weltteilen zu bilden, die keinen Zustandsvektor für sich besitzen. Das ist ein Schritt hin zu Dichtematrizen, die zur Erklärung makroskopischer Beobachtungen notwendig sind. Ein weiterer Schritt kann die dynamische Entwicklung der Dichtematrizen sein, wie sie durch das Zusammenwirken von A mit B angetrieben wird. Dies ist Gegenstand aktueller Forschung (z.B. Dekohärenztheorie)! Statistische Physik ist nicht leicht, Quantenmechanik weit entfernt von unserer Alltagsvorstellungswelt und Quantenfeldtheorie noch mal so weit davon entfernt. So darf man sich nicht wundern, dass wir noch keine Begründung des Funktionierens der „alten“ Quantenstatistik aus einer statistischen Quantenfeldtheorie heraus haben.</p>
+<p><strong>Ein einfaches Beispiel</strong></p>
+<p>Ein Experimentator kann ein „Quantensytem“ in zwei verschiedenen Ausganszuständen präparieren. Die alte Sichtweise stülpt der Quantenmechanik eine klassische Statistik über: die Wahrscheinlichkeit für die Präparation in Zustand 1 sei \(p_1 = \frac{1}{2}\), für die in Zustand 2 folglich \(p_2 = 1 - p_1 = \frac{1}{2}\). Deswegen berechnet er den Erwartungswert für eine Messung gewichtet mit klassischen Wahrscheinlichkeiten:<br />
+\begin{equation}<br />
+&lt; \hat{O} &gt; = \sum_i p_i &lt; \psi_i | \hat{O} \psi_i &gt; =  \sum_i p_i &lt; \hat{O} &gt;_{\psi_i}<br />
+\end{equation}<br />
+Daraus kann er sich eine Dichtematrix definieren, die keinem Zustand entspricht:<br />
+\begin{equation}<br />
+\rho = \sum_i p_i \rho_i<br />
+\end{equation}<br />
+Wodurch sich der Erwartungswert so schreiben lässt:<br />
+\begin{equation}<br />
+&lt; \hat{O} &gt;  = \sum_{i,j,k} p_i (\rho_i)_{jk} O_{kj} = \mathrm {Spur} ( \hat{\rho} \hat{O} )<br />
+\end{equation}<br />
+Angenommen, die präparierten Zustände seien Eigenzustände von \(\hat{O}\), dann sind die einzelnen Dichtematrizen \( \begin{pmatrix} 1&amp;0 \\ 0&amp;0 \end{pmatrix}\) und \( \begin{pmatrix} 0&amp;0 \\ 0&amp;1 \end{pmatrix}\) und seine Gesamtdichtematrix ist \( \begin{pmatrix} \frac{1}{2} &amp; 0 \\ 0 &amp; \frac{1}{2} \end{pmatrix}\). </p>
+<p>Betrachtet er sein System aber als „offenes Quantensystem“, dann muss er seinen Erwartungswert durch Ausspuren der Freiheitsgrade der Restwelt berechnen. Das Ergebnis hängt natürlich vom Zustand der Restwelt ab. Wenn der Experimentator nur mit der Restwelt verschränkte Bell-Zustände präparieren kann<br />
+\begin{equation}<br />
+\Xi = \frac{1}{\sqrt{2}} ( \psi_1 \otimes \phi_1 + \psi_2 \otimes \phi_2 )<br />
+\end{equation}<br />
+dann sind die Entwicklungskoeffizienten \(c_{ij}\)<br />
+\begin{equation}<br />
+c_{11} = c_{22} = \frac{1}{\sqrt{2}} \quad\quad c_{12} = c_{21} = 0<br />
+\end{equation}<br />
+und sein Dichteoperator wird derselbe wie oben \( \begin{pmatrix} \frac{1}{2} &amp; 0 \\ 0 &amp; \frac{1}{2} \end{pmatrix}\), ohne dass dem Formalismus der Quantentheorie klassische Wahrscheinlichkeiten übergestülpt werden mussten.</p>
+<p>Die Dekohärenztheorie liefert Modelle, die eine Diagonalisierung der Dichtematrix in der zeitlichen Entwicklung voraussagen. Ein ursprünglich entschränkter Zustand der Teilwelt A wird durch Wechselwirkung mit der Umgebung B sehr schnell verschränkt. In welcher Basis die resultiertende Dichtematrix diagonalisiert wird, hängt von der Art der Wechselwirkung ab. Bei abstandsabhängigen Wechselwirkungen tritt in der Regel eine Diagonalisierung in der Ortsbasis ein, wodurch Dinge an Orten gewichtet mit klassischen Wahrscheinlichkeiten <em>erscheinen</em>.</p>
 <p>\begin{equation}<br />
-S=-\mathrm {tr} (\rho \ln \rho )<br />
+\begin{pmatrix} |a_1|^2 &amp; a_1^* a_2 \\ a_2^* a_1 &amp; |a_2|^2 \end{pmatrix} \xrightarrow[\Delta t]{Dekohärenz} \frac{1}{\sqrt{2}} \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; 1 \end{pmatrix}<br />
 \end{equation}</p>
-<p>... hier gehts weiter ...</p>
-<p>Die Entropie des Neutrons</p>
+<p>Die Wechselwirkung kann unerwünscht sein und einen dauerhaft entschränkt gewollten A-Zustand zerstören. Dies ist z.B. der Fall bei Quantencomputern. Die Wechselwirkung kann aber genauso erwünscht sein in einem Detektor wie einer Blasenkammer, die Teilchenspuren <em>erscheinen lässt</em>.</p>
+<h3>Neumannsche Entropie</h3>
+<p>Die Entropiedefinition der Quantenmechanik greift zurück auf den Dichteoperator \(\rho\) und ähnelt augenscheinlich der Shannon-Entropie.<br />
+\begin{equation}<br />
+S=-\mathrm {Spur} (\rho \ln \rho)<br />
+\end{equation}</p>
+<p>... hier geht's weiter ....</p>
+<p>Ein reiner Zustand hat die Entropie 0. Während dieser Wert in der klassischen Physik bedeutet, dass keine weitere Kenntnis über den Zustand erlangt werden kann, da eine bestimmte Konfiguration mit Sicherheit vorliegt, bedeutet er in der Quantenmechanik, dass ein Zustand \(\Psi\) mit Sicherheit vorliegt und wir die Wirkung weniger Operatoren mit Sicherheit voraussagen können (eben derer, die \(\Psi\) als Eigenzustand haben), für die meisten anderen mit Sicherheit nur die Wahrscheinlichkeitsverteilung für deren Eigenwerte voraussagen können.</p>
+<p>Bekenstein Hawking Entropie, Görnitz Entropie des Protons</p>
+<p>Die Entropie des Neutrons selber</p>
 <p>als ideales klassisches Gas<br />
 als Fermi-Gas<br />
 als Bose-Gas?</p>

@@ -45,7 +45,7 @@ MathJax.Hub.Config({
 @import url("http://physikalismus.de/modules/user/user.css?obwofu");
 </style>
 <style type="text/css" media="all">
-@import url("sites/default/files/color/garland-b0e715b8/style.css?obwofu");
+@import url("sites/default/files/color/garland-b0e715b8/style.css@obwofu");
 </style>
 <style type="text/css" media="print">
 @import url("http://physikalismus.de/themes/garland/print.css?obwofu");
@@ -57,12 +57,12 @@ MathJax.Hub.Config({
   <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
 <script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
 <script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?obwofu"></script>
-<script type="text/javascript" src="sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js?obwofu"></script>
-<script type="text/javascript" src="sites/all/modules/mathjax/mathjax.js?obwofu"></script>
+<script type="text/javascript" src="sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@obwofu"></script>
+<script type="text/javascript" src="sites/all/modules/mathjax/mathjax.js@obwofu"></script>
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"YM1STDKVRyZFVSDlXG64zbl69qmvWQ1VFYLNO0mrV3Q","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Information":true,"\/Information?destination=node\/49":true}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"tLxVWfkCoOKBTpOf3mxqmKPS_VM9qOxN_0SiC164fts","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Information":true,"\/Information?destination=node\/49":true}});
 //--><!]]>
 </script>
 </head>
@@ -104,7 +104,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
   <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
  <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-3eNqCZBMYoJbl1dhCMldf_b-SbGUC1MmprDjkrJFZ98" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-xu04gpThrikoJ5-mqn9BKlY45g2z9vC6wxFYX6VReL4" />
 <input type="hidden" name="form_id" value="search_block_form" />
 </div>
 </div></form>  </div>
@@ -154,7 +154,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
  <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
 </div>
 <div class="item-list"><ul><li class="first last"><a href="user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
-</ul></div><input type="hidden" name="form_build_id" value="form-mRsAbeoICD5aCzSjkYbsmVUyN6OefVZWpmIDBb91C_M" />
+</ul></div><input type="hidden" name="form_build_id" value="form-cmI5WZamHAXA0skl7W_DB5Mn05mlnMwX3_NR3GN40vA" />
 <input type="hidden" name="form_id" value="user_login_block" />
 <div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
 </div>
@@ -291,20 +291,37 @@ c_{11} = c_{22} = \frac{1}{\sqrt{2}} \quad\quad c_{12} = c_{21} = 0<br />
 \end{equation}<br />
 und sein Dichteoperator wird derselbe wie oben \( \begin{pmatrix} \frac{1}{2} &amp; 0 \\ 0 &amp; \frac{1}{2} \end{pmatrix}\), ohne dass dem Formalismus der Quantentheorie klassische Wahrscheinlichkeiten übergestülpt werden mussten.</p>
 <p>Die Dekohärenztheorie liefert Modelle, die eine Diagonalisierung der Dichtematrix in der zeitlichen Entwicklung voraussagen. Ein ursprünglich entschränkter Zustand der Teilwelt A wird durch Wechselwirkung mit der Umgebung B sehr schnell verschränkt. In welcher Basis die resultiertende Dichtematrix diagonalisiert wird, hängt von der Art der Wechselwirkung ab. Bei abstandsabhängigen Wechselwirkungen tritt in der Regel eine Diagonalisierung in der Ortsbasis ein, wodurch Dinge an Orten gewichtet mit klassischen Wahrscheinlichkeiten <em>erscheinen</em>.</p>
+<p>Anmerkung: eine Dichtematrix ist hermitesch und immer diagonalisierbar. Die Diagonalisierung einer Dichtematrix eines reinen Zustands liefert einen Pojektor auf den reinen Zustand \( | \psi &gt;&lt; \psi | \), in Matrixform also eine Matrix mit einer einzigen 1 in der Diagonale.</p>
 <p>\begin{equation}<br />
 \begin{pmatrix} |a_1|^2 &amp; a_1^* a_2 \\ a_2^* a_1 &amp; |a_2|^2 \end{pmatrix} \xrightarrow[\Delta t]{Dekohärenz} \frac{1}{\sqrt{2}} \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; 1 \end{pmatrix}<br />
 \end{equation}</p>
 <p>Die Wechselwirkung kann unerwünscht sein und einen dauerhaft entschränkt gewollten A-Zustand zerstören. Dies ist z.B. der Fall bei Quantencomputern. Die Wechselwirkung kann aber genauso erwünscht sein in einem Detektor wie einer Blasenkammer, die Teilchenspuren <em>erscheinen lässt</em>.</p>
+<h3>Qubits und Quanteninformation</h3>
+<p>Der Begriff „Qubit“ ist gar nicht so leicht zu fassen. Klar ist, dass es dabei um einen Zustand in einem zweidimensionalen Hilbertraum geht, oder um einen Zustand in einem mehrdimensionalen Hilbertraum, wobei unter Menschen ein Abkommen geschlossen wurde, nur 2 Dimensionen davon zu benutzen. Wenn man es genau genug betrachtet, liegt meistens der letzte Fall vor. Ein Beispiel dafür ist ein Ion in einer Ionenfalle, das so benutzt wird, dass nur der Grundzustand und der 1. optisch angeregte Elektronenzustand verwendet werden, aber keine Kernanregungszustände und keine höher angeregten Elektronenzustände. Ein Qubit ist die kleinste Quanteninformationeinheit.</p>
+<p>Sofort drängt sich die Frage auf, warum ein eindimensionaler Zustand keine Information darstellen können soll. Ein eindimensionaler Zustand könnte zum Beispiel der S<sub>0</sub>-Zustand eines Helium-Ions in einer Penning-Falle sein. Wenn Alice an Bob Information übertragen will und das nur mit eindimensionalen Hilbertraumvektoren tun kann, dann hat sie die Wahl zwischen genau einem Vektor, einem von vielen identischen Helium-Ionen im S<sub>0</sub>-Zustand. Damit weiß Bob sicher, was ankommen wird und gewinnt null Information: er sieht immer nur S<sub>0</sub>-Zustände ankommen, also eine reine Folge aus Nullen (oder Einsen, je nach getroffener Kodierungsvereinbarung). Doch ganz so einfach ist es nicht...</p>
+<p>Der eindimensionale Zustand ist in der Wahrscheinlichkeitsinterpretation auf 1 normiert. Damit ist die mathematische Funktion des S<sub>0</sub>-Zustands fast vollständig festgelegt bis auf eine Phase, d.h. den Teil \(e^{i\phi}\) der komplexen Zahl in der Polardarstellung. Insgesamt schickt Alice also \(e^{i\phi} \psi_{100}\) auf den Weg, wenn \(\psi_{100}\) nur den Realteil bezeichnet, und könnte in \(\phi\) unendlich viel Information unterbringen. Doch Bob kann sie nicht herausbekommen. Zuweilen liest man, auch noch in Schriften, die erst in diesem Jahrtausend entstanden sind, dass die Phase der Wellenfunktion keine physikalische Bedeutung hätte. <strong>Das ist falsch!</strong></p>
+<p>Ein Quantenrechner ist ein Teil der Welt, verschränkt mit dem Rest, der gezielt unitäre Transformationen auf die entschränkten Zustände anwendet und dabei tunlichst darauf achten soll, dass sie entschränkt bleiben, dass also nicht unabsichtlich Information in diese hineingelangt oder aus ihnen herausgenommen wird - die größte technische Herausforderung beim Bau von Quantencomputern. Die unitären Transformationen rechnen mit den Hilbertraumvektoren so wie sie sind, dadurch sind sie potentiell in der Lage dazu, unendlich viele Eingangswerte auf einmal zu verarbeiten. Das ist ihre überlegene Kraft gegenüber herkömmlichen Rechnern. Sie rechnen auch mit den Phasen. Würde man die Phasen aus der Quantentheorie herausnehmen, dann könnte man die Erscheinungen, die sie jetzt erklären kann, nicht mehr erklären können. </p>
+<p>Wieso stellt ein eindimensionaler Hilbertraumvektor trotzdem null Information für uns dar? Der Grund dafür ist die Zweischichtigkeit der Quantentheorie. In der unteren Schicht leben die Hilbertraumvektoren. Die obere Schicht der Quantentheorie lebt dagegen in der Welt der ausgedünnten Information. Wie wir bei der Wahrscheinlichkeitsinterpretation gesehen haben, gibt es irgendwo auf dem Weg in unser Bewusstsein einen Ausdünnungsschritt, sei es ein Kollaps der Wellenfunktion oder was auch immer für einen Prozess, der dafür sorgt, dass letztlich nur Absolutquadrate von Skalarprodukten vor dem Bewusstsein <em>erscheinen</em>. Dadurch verschwindet die Phase für diese Schicht. Und es verschwindet noch mehr...</p>
+<p>Alice braucht also mindestens 2 Vektoren zur Auswahl, die sie Bob schicken kann. Nehmen wir an, sie lauten \(\psi_1\) und \(\psi_2\). Selbstverständlich kann sie irgendeinen Vektor aus dem zweidimensionalen Hilbertraum auf den Weg schicken: \(\psi = a_1\psi_1\ + a_2\psi_2\). Der Vektor ist normiert. Die a-Koeffizienten sind komplexe Zahlen, damit könnte Alice noch 3 reelle Zahlen frei festlegen. Zwei davon sind Phasen, doch eine davon steht für das Mischverhältnis der beiden Vektoren. Wenn Bob in der  \(\{ \psi_1, \psi_2 \}\) Basis misst, dann erhält er nur entweder \(\psi_1\) oder \(\psi_2\) als Ergebnis einer „Messung“, mit den Wahrscheinlichkeiten \(|a_1|^2\) bzw. \(|a_2|^2\). Da die Qubit-zerstörende Messung nicht wiederholt werden kann, kann Bob keine Häufigkeiten ermitteln und damit nicht auf das Mischverhältnis zurückschließen, das Alice gewählt hat. Das Beste, was die beiden treiben können, ist, die gleiche Basis zu verwenden und nur \(\psi_1\) und \(\psi_2\) auf den Weg zu schicken. Dann kann Bob davon ausgehen, dass wenn er \(\psi_1\) sieht, Alice \(\psi_1\) mit Sicherheit auf den Weg geschickt hat. <strong>Damit bedeutet ein Qubit unendlich viel Information für die untere Schicht, doch genau 1 Bit klassische Information für die obere Schicht.</strong></p>
+<p>Ein Beispiel dafür, was geschieht, wenn Alice mit 3 Vektoren eines zweidimensionalen Hilbertraums arbeiten will, findet sich in der <a href="Bibliothek">Bibliothek</a> [Preskill 5.4.2].</p>
 <h3>Neumannsche Entropie</h3>
 <p>Die Entropiedefinition der Quantenmechanik greift zurück auf den Dichteoperator \(\rho\) und ähnelt augenscheinlich der Shannon-Entropie.<br />
 \begin{equation}<br />
 S=-\mathrm {Spur} (\rho \ln \rho)<br />
 \end{equation}</p>
-<p>... hier geht's weiter ....</p>
-<p>Ein reiner Zustand hat die Entropie 0. Während dieser Wert in der klassischen Physik bedeutet, dass keine weitere Kenntnis über den Zustand erlangt werden kann, da eine bestimmte Konfiguration mit Sicherheit vorliegt, bedeutet er in der Quantenmechanik, dass ein Zustand \(\Psi\) mit Sicherheit vorliegt und wir die Wirkung weniger Operatoren mit Sicherheit voraussagen können (eben derer, die \(\Psi\) als Eigenzustand haben), für die meisten anderen mit Sicherheit nur die Wahrscheinlichkeitsverteilung für deren Eigenwerte voraussagen können.</p>
-<p>Bekenstein Hawking Entropie, Görnitz Entropie des Protons</p>
-<p>Die Entropie des Neutrons selber</p>
-<p>als ideales klassisches Gas<br />
+<p>Die Neumannsche Entropie lebt in der unteren Schicht der Quantenmechanik, die Shannonsche in der oberen. An der Kontaktstelle entstehen zwischen beiden Beziehungen, die von Preskill „Messungsentropie“ und „Vorbereitungsentropie“ genannt werden [Preskill 5.2.1 (5) &amp; (6)]. Wichtig für unser Problem ist diese Ungleichung:<br />
+\begin{equation}<br />
+S \leqslant H<br />
+\end{equation}<br />
+Wenn man es geschickt anstellt, kann man klassische Bits quasi 1:1 an Qubits koppeln.</p>
+<p>Ein reiner Zustand hat die Neumannsche Entropie 0. Damit hätte der Weltzustand die Entropie 0 und würde sie durch unitäre Zeitentwicklung für immer behalten!</p>
+<p>An dieser Stelle muss eine Warnung ausgesprochen werden: die Quanteninformationstheorie und die Dekohärenztheorie werden heutzutage fast immer in der Sprache der nichtrelativistischen Quantenmechanik dargestellt. Der Grund dafür ist einfach, dass die Mathematik in der relativistischen Quantenfeldtheorie vielfach schwieriger wäre. Die Erkenntnisse aus diesen beiden Theorien auf den  gesamten Kosmos anzuwenden, ist deswegen natürlich sehr gefährlich. Es gibt in einer relativistischen Theorie keine unitäre Zeitentwicklung mehr für die Gesamtwelt. Weiterführend z.B. [<a href="Quellen#LeeChangYoung">Lee Chang-Young</a>].</p>
+<h3>Die Bekenstein-Hawking Entropie schwarzer Löcher</h3>
+<p>bla bla ... nicht-rotierend -&gt; Schwarzschild Grundzüge der Argumentation von Bekenstein wiederholen, Temperatur gibt es auch ...</p>
+<p>Die Bekenstein-Hawking Entropie ist eine klassische Shannon-Entropie. Aufgrund des <a href="Aufsauger">vereinnahmenden Wesens der Quantentheorie</a> müssen aber auch schwarze Löcher quantenmechanisch beschrieben werden. Stand heute gibt es noch keine widerlegbare Theorie, die das leisten kann. Im Sinne unserer obigen Betrachtung entspricht ein schwarzes Loch einem abgeteilt gedachten Bereich A mit einer „Grenze“, die man sich klassisch als Ereignishorizont vorstellen kann. Quantentheoretisch stellt das schwarze Loch mit dem Außenbereich zusammen einen reinen Zustand in einem Hilbertraum dar, der null Entropie hat. Durch die gedachte Teilung am Ereignishorizont und die gleichzeitig anhaltende Verschränkung mit der Außenwelt wird das schwarze Loch zu einem „offenen Quantensystem“ und sein Teilzustand muss durch eine Dichtematrix beschrieben werden, die keinem reinen Zustand entspricht und somit klassische Wahrscheinlichkeiten erscheinen lässt. Das ist die quantenmechanische Erklärung dafür, warum ein schwarzes Loch Entropie haben muss. Die Bekenstein-Hawking Entropie ... Ungleichung s.o. -&gt; Neumann-Entropie. </p>
+<p>Görnitz Entropie des Protons, Quelle nennen! Falls nicht online =&gt; In Bibliothek stellen!</p>
+<p>Die Entropie des Neutrons selber rechen?<br />
+als ideales klassisches Gas<br />
 als Fermi-Gas<br />
 als Bose-Gas?</p>
 </div></div></div></div>  </div>

@@ -45,11 +45,7 @@ MathJax.Hub.Config({
 @import url("http://physikalismus.de/modules/user/user.css?obwofu");
 </style>
 <style type="text/css" media="all">
-<<<<<<< HEAD
 @import url("sites/default/files/color/garland-b0e715b8/style.css@obwofu");
-=======
-@import url("sites/default/files/color/garland-b0e715b8/style.css?obwofu");
->>>>>>> 78d9e76f92dc572ee280d07fa37e1decf41dfa60
 </style>
 <style type="text/css" media="print">
 @import url("http://physikalismus.de/themes/garland/print.css?obwofu");
@@ -61,21 +57,12 @@ MathJax.Hub.Config({
   <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
 <script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
 <script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?obwofu"></script>
-<<<<<<< HEAD
 <script type="text/javascript" src="sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@obwofu"></script>
 <script type="text/javascript" src="sites/all/modules/mathjax/mathjax.js@obwofu"></script>
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"LujiPQJ2G4ropVSzI1pGrhNikEoQNoiI8UcqD9s3ePY","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Begriffe":true,"\/Begriffe?destination=node\/79":true}});
-=======
-<script type="text/javascript" src="sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js?obwofu"></script>
-<script type="text/javascript" src="sites/all/modules/mathjax/mathjax.js?obwofu"></script>
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script type="text/javascript">
-<!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"FaTZ3WwNRMhUk0qdwtKyhmMQhEWX5frS1N5g0h7Z3To","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Begriffe":true,"\/Begriffe?destination=node\/79":true}});
->>>>>>> 78d9e76f92dc572ee280d07fa37e1decf41dfa60
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"3k8WHMMTquOaWe5uinuOBMyyl_tRwdubBNFIRXegqi8","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Begriffe":true,"\/Begriffe?destination=node\/79":true}});
 //--><!]]>
 </script>
 </head>
@@ -99,11 +86,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 <li class="menu-468"><a href="Baustellen" title="Meine Hausaufgaben">Baustellen</a></li>
 <li class="menu-310"><a href="Quellen">Quellen</a></li>
 <li class="menu-311"><a href="Zitate">Zitate</a></li>
-<<<<<<< HEAD
 <li class="menu-469 active-trail active"><a href="Begriffe" title="Wie die Wörter an diesem Ort gemeint sind, 
-=======
-<li class="menu-469 active-trail active"><a href="Begriffe" title="Wie die Wörter an diesem Ort gemeint sind, 
->>>>>>> 78d9e76f92dc572ee280d07fa37e1decf41dfa60
 erklärt durch noch mehr Wörter." class="active-trail active">Begriffe</a></li>
 <li class="menu-410"><a href="Bibliothek" title="Zum Verständnis Dienliches an diesem Ort Archiviertes">Bibliothek</a></li>
 <li class="menu-423 last"><a href="Impressum">Impressum</a></li>
@@ -121,11 +104,7 @@ erklärt durch noch mehr Wörter." class="active-trail active">Begriffe</a></li>
   <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
  <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
 </div>
-<<<<<<< HEAD
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-xGS_YajTAXht4jkKrKMlsAeeGU_WcLS-RKdgmPe4HTc" />
-=======
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-2VQGPqSpZB0_5fL9YhuGxBNnZac2smylu8Uv11fhuyM" />
->>>>>>> 78d9e76f92dc572ee280d07fa37e1decf41dfa60
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-n0a3uZlgH8JVQ_o6PicZeV5rVNbb9lmF0iehG8xExmg" />
 <input type="hidden" name="form_id" value="search_block_form" />
 </div>
 </div></form>  </div>
@@ -142,10 +121,7 @@ erklärt durch noch mehr Wörter." class="active-trail active">Begriffe</a></li>
 <li class="leaf"><a href="Erloesung" title="Wie kann das Abgeteilte erlöst werden?">Erlösung</a></li>
 <li class="leaf"><a href="Erwachsenwerden" title="Erwachsenwerden in der Begrifflichkeit des Schopenhauerschen Willens">Erwachsenwerden</a></li>
 <li class="leaf"><a href="Freunde" title="Wie Freunde uns in die Irre führen">Freunde</a></li>
-<<<<<<< HEAD
 <li class="leaf"><a href="Ganzheit" title="Nichlinearität erzwingt Ganzheit">Ganzheit</a></li>
-=======
->>>>>>> 78d9e76f92dc572ee280d07fa37e1decf41dfa60
 <li class="leaf"><a href="Geister" title="Wann ist ein Geist ein Geist?">Geister</a></li>
 <li class="leaf"><a href="Geld" title="Preis als Energie und Geld als Software">Geld</a></li>
 <li class="collapsed"><a href="Gleichnisse" title="Gleichnisse für Physiker von einem Physiker über Physik">Gleichnisse</a></li>
@@ -179,11 +155,7 @@ erklärt durch noch mehr Wörter." class="active-trail active">Begriffe</a></li>
  <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
 </div>
 <div class="item-list"><ul><li class="first last"><a href="user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
-<<<<<<< HEAD
-</ul></div><input type="hidden" name="form_build_id" value="form-8B6zIjPSsB2O8FHERTMfiLkZYIpJFNZne-bu1tmlGsY" />
-=======
-</ul></div><input type="hidden" name="form_build_id" value="form-9ICXRyLy5CDsQvLRHQz62c8unzjRom0aIezOxINVo6w" />
->>>>>>> 78d9e76f92dc572ee280d07fa37e1decf41dfa60
+</ul></div><input type="hidden" name="form_build_id" value="form-zC3_mKHwbIr94ga-_xWHJ7qc77aTG_3vX9viT9RDStg" />
 <input type="hidden" name="form_id" value="user_login_block" />
 <div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
 </div>
@@ -205,7 +177,6 @@ erklärt durch noch mehr Wörter." class="active-trail active">Begriffe</a></li>
       <span property="dc:title" content="Begriffe" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
   
   <div class="content clearfix">
-<<<<<<< HEAD
     <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="tex2jax"><table><tr><td><strong>Allgemeine Relativitätstheorie (ART)</strong></td>
 <td>Das ist die Theorie der Schwere gemäß Einstein. Wenngleich sie in der Lage dazu ist, das Vorstellungsvermögen arg zu strapazieren, ist die ART eine klassische Theorie und bringt für das Naturverständnis kaum eine tiefere Einsicht, als man ohne sie hätte. Als nichtlineare Mechanik ist sie für Lösungen unendlicher Kompliziertheit gut, aber das ist ein Schock, den Poincaré bereits beim Dreikörperproblem der klassischen Mechanik zu verarbeiten hatte, nur in gesteigerter Form. Hinzu kommen Paradoxien, Lösungen die eigentlich nicht sein dürften. An dieser Stelle muss ich eingestehen, dass mein Wissen in der ART doch sehr begrenzt ist.</td>
 </tr><tr><td><strong>Bewusstsein</strong></td>
@@ -228,11 +199,6 @@ Nichtsdestotrotz werden auch an diesem Ort viele Beispiele aus der QM verwendet.
 Die SRT ist die erste moderne Theorie, die eine Art Subjektivismus in die Physik gebracht hat. Was gleichzeitig ist, welches Ereignis vor dem anderen stattfindet, wie lange ein Stab ist, was Zeit und was Ort ist, was ein elektrisches Feld und was ein magnetisches ist, all das hängt nun plötzlich von der gewählten Sicht auf das Geschehen ab. In den relativistischen QFTen pflanzt sich diese Eigenschaft der Theorie weiter fort: wie viele Teilchen du siehst, hängt davon ab, wie schnell du dich bewegst [hier werden wir noch ein Paper dazu liefern].
 </td>
 </tr><tr><td><strong></strong></td>
-=======
-    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="tex2jax"><table><tr><td><strong>Bewusstsein</strong></td>
-<td>...</td>
-</tr><tr><td><strong>bla...</strong></td>
->>>>>>> 78d9e76f92dc572ee280d07fa37e1decf41dfa60
 <td>...</td>
 </tr></table></div></div></div></div>  </div>
 

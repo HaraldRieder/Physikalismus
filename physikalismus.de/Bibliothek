@@ -62,7 +62,7 @@ MathJax.Hub.Config({
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"87_H6QvbwvJpUNMsEtsDfKxpq8cO5BUUa6A0mUqReBs","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Bibliothek":true,"\/Bibliothek?destination=node\/53":true}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"rmHKNbc1fM53hu4K3GP-vLs-fg3k-XBRdVxpIihgwTY","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Bibliothek":true,"\/Bibliothek?destination=node\/53":true}});
 //--><!]]>
 </script>
 </head>
@@ -104,7 +104,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
   <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
  <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-hoBmmKZhlm7SGM5kpvqkzJMPMtZE9-_7xb09upbZgQE" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-44H275OStZZ5mzuGMyWyBX0Trc9EQzAVZdhgaHojFHg" />
 <input type="hidden" name="form_id" value="search_block_form" />
 </div>
 </div></form>  </div>
@@ -121,6 +121,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
 <li class="leaf"><a href="Erloesung" title="Wie kann das Abgeteilte erlöst werden?">Erlösung</a></li>
 <li class="leaf"><a href="Erwachsenwerden" title="Erwachsenwerden in der Begrifflichkeit des Schopenhauerschen Willens">Erwachsenwerden</a></li>
 <li class="leaf"><a href="Freunde" title="Wie Freunde uns in die Irre führen">Freunde</a></li>
+<li class="leaf"><a href="Ganzheit" title="Nichlinearität erzwingt Ganzheit">Ganzheit</a></li>
 <li class="leaf"><a href="Geister" title="Wann ist ein Geist ein Geist?">Geister</a></li>
 <li class="leaf"><a href="Geld" title="Preis als Energie und Geld als Software">Geld</a></li>
 <li class="collapsed"><a href="Gleichnisse" title="Gleichnisse für Physiker von einem Physiker über Physik">Gleichnisse</a></li>
@@ -154,7 +155,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
  <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
 </div>
 <div class="item-list"><ul><li class="first last"><a href="user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
-</ul></div><input type="hidden" name="form_build_id" value="form-00-WNe9hkndJi4ZLtm6jYV3oM22lO8GXAZa2vclwWbo" />
+</ul></div><input type="hidden" name="form_build_id" value="form-E2zWYJolpLwTGCPl4Mhp5E7gd7fpyhr_Njf6x1QQwz0" />
 <input type="hidden" name="form_id" value="user_login_block" />
 <div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
 </div>
@@ -193,14 +194,14 @@ Von Weizsäckers Kritik am Begriff der Elementarteilchen.</p>
 <p><a href="sites/default/files/Bibliothek/Everett&#32;long&#32;thesis&#32;as&#32;published&#32;1973.pdf">The Many-Worlds Interpretation of Quantum Mechanics (PDF)</a><br />
 Hugh Everett</p>
 <p><a href="sites/default/files/Bibliothek/No_place_for_particles.pdf">No place for particles in relativistic quantum theories? (PDF)</a> <a href="http://arxiv.org/format/quant-ph/0103041v1">Andere Formate</a><br />
-Hans Halvorson und Rob Clifton versuchen, einige Schlupflöcher zu stopfen, die das Theorem von David Malament gelassen hat. In Abschnitt 5 gelangen sie mit Theorem 2 zu dieser Fassung für relativistische <strong>Quantenmechaniken</strong> (d.h. nicht Quantenfeldtheorien):<br />
+Hans Halvorson und Rob Clifton versuchen, einige Schlupflöcher zu stopfen, die das Theorem von David Malament gelassen hat. In Abschnitt 5 gelangen sie mit Theorem 2 zu dieser Fassung für relativistische <strong>Quantentheorien</strong> (d.h. nicht Quantenfeldtheorien):<br />
 Nimm ein unscharfes Lokalisierungssystem (Hilbertraum, Ausschnitt aus einer raumartigen Hyperfläche→ verallgemeinerter Projektionsoperator auf lokalisierte Zustände, Translation in der Mannigfaltigkeit→Unitärer Translationsoperator) welches dies gewährleistet:<br />
 1. Additivität (von Teilchenzahleigenwerten der verallgemeinterten Projektionsoperatoren, wenn diese zu verschiedenen Ausschnitten gehören)<br />
 2. Translationskovarianz (also „relativistisch“)<br />
 3. Es gibt eine untere Schranke für die Energieeigenwerte.<br />
 4. Mikrokausalität (Vertauschbarkeit raumartig getrennter Operatoren)<br />
 5. Keine absolute Geschwindigkeit („relativistisch“)<br />
-Dann liefern alle verallgemeinerten Projektionsoperatoren 0 als Teilchenzahl für alle möglichen Ausschnitte. Es kann also keine solche Quantenmechanik geben, die Teilchen beschreibt.<br />
+Dann liefern alle verallgemeinerten Projektionsoperatoren 0 als Teilchenzahl für alle möglichen Ausschnitte. Es kann also keine solche Quantentheorie geben, die Teilchen beschreibt.<br />
 In Abschnitt 6 steht das Theorem 3 für relativistische <strong>Quantenfeldtheorien</strong>: Nimm ein System (Hilbertraum, Ausschnitt aus einer raumartigen Hyperfläche→ Teilchenzahloperator für den Ausschnitt, Translation in der Mannigfaltigkeit→Unitärer Translationsoperator) welches dies gewährleistet:<br />
 1. Additivität<br />
 2. Translationskovarianz<br />

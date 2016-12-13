@@ -62,7 +62,7 @@ MathJax.Hub.Config({
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"SEicnX51BYFQpsP1HKnzos5m20eqSOzQB6Yty2tMIm4","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Ganzheit":true,"\/Ganzheit?destination=node\/81":true}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"bhyQCneJgBr31bsmnJKM2vdivf0KfdQYH_tLIGuZOxY","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Ganzheit":true,"\/Ganzheit?destination=node\/81":true}});
 //--><!]]>
 </script>
 </head>
@@ -104,7 +104,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
   <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
  <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-SDCu4xiQLn_o4wFUycsZ_9VDVMlxDyU9jgHXQh-rijU" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-pCo1hu2-96BOeN4ZP60gkKTj0b_cUdYiYIqlFPjKxYA" />
 <input type="hidden" name="form_id" value="search_block_form" />
 </div>
 </div></form>  </div>
@@ -155,7 +155,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
  <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
 </div>
 <div class="item-list"><ul><li class="first last"><a href="user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
-</ul></div><input type="hidden" name="form_build_id" value="form-KfRtloMqbWuUCv-eSse7cgNCajW_wnbfiYaeqbIs7hU" />
+</ul></div><input type="hidden" name="form_build_id" value="form-wJW65_loG1qLbkoO6Q1IFDbLK1eLtzYuKnzfY92LOK0" />
 <input type="hidden" name="form_id" value="user_login_block" />
 <div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
 </div>
@@ -178,40 +178,61 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
   
   <div class="content clearfix">
     <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="tex2jax"><h2>Nichtlinearität in der klassischen Mechanik</h2>
-<p>\begin{equation}<br />
-\frac{d}{dt} \frac{\partial L}{\partial \dot{q_i}} - \frac{\partial L}{\partial q_i} = 0 \quad \quad L = L(\{q_i\})<br />
+<p>Die Punktmechanik wird gerne auf ein Wirkungsprinzip zurückgeführt. Der Kern des Wirkungsprinzips ist ein Funktional der Koordinaten und deren Ableitungen von der Zeit. Das Funktional ordnet allen möglichen Funktionen  \(q(t)\) und deren Ableitungsfunktionen \( \dot{q(t)} \equiv \frac{\partial q}{\partial t} \) eine einzige reelle Zahl, genannt <em>Wirkung</em>, zu. Solche Skalare sind stabiler gegen Transformationen. Uns so lässt sich ein allgemeines Prinzip festlegen, wie aus dem Wirkungsfunktional die Bewegungsgleichungen entstehen, egal welche Koordinaten man dabei konkret wählt. Bei einem abgeschlossenen System, das durch einen Satz von N Koordinaten \(\{q_i\}\) beschrieben werden soll, sehen die N gekoppelten Bewegungsgleichungen so aus:<br />
+\begin{equation}<br />
+\frac{d}{dt} \frac{\partial L}{\partial \dot{q_i}} - \frac{\partial L}{\partial q_i} = 0 \quad mit \quad L = L(\{q_i\}, \{\dot{q_i}\})<br />
 \end{equation}<br />
-\( \{q_i\} = \{ r_{1x}, r_{1y}, r_{1z}, r_{2x}, r_{2y}, r_{2z} \} \)    \( \vec{r_i} = \begin{pmatrix} r_{ix} &amp; r_{iy} &amp; r_{iz} \end{pmatrix} \)<br />
+Wenn die Lagrangefunktion L eine beliebige Funktion der Koordinaten und Ableitungen wäre, könnte man sich vorstellen, dass eine schier unendliche Fülle von linearen und nichtlinearen Differentialgleichungssystemen dabei entstehen könnte. In der Praxis trifft man aber immer wieder ähnliche Gesellen. Diese enthalten die Ableitungen in der Regel linear und haben höchstens bei den Koordinatenfunktionen nichtlineare Verknüpfungen.</p>
+<p>Ein solcher Geselle beschreibt zum Beispiel die Bewegung von 2 Massenpunkten, also \( \{q_i\} = \{ r_{1x}, r_{1y}, r_{1z}, r_{2x}, r_{2y}, r_{2z} \} \), in Raum und Zeit. Die Kraft zwischen den 2 Massenpunkten soll nur von deren Abstand abhängen. Mit den 2 Abkürzungen \( \vec{r_i} = \begin{pmatrix} r_{ix} &amp; r_{iy} &amp; r_{iz} \end{pmatrix} \) sehen die Bewegungsgleichungen so aus:<br />
 \begin{equation}<br />
 m_1 \ddot{\vec{r_1}} - F(|\vec{r_1} -\vec{r_2}|) = 0<br />
 \end{equation}<br />
 \begin{equation}<br />
 m_1 \ddot{\vec{r_2}} - F(|\vec{r_1} -\vec{r_2}|) = 0<br />
 \end{equation}<br />
-1/r-Potential \( V = - \frac{G m_1 m_2}{|\vec{r_1} - \vec{r_2}|} \)</p>
+Wenn wir damit Planetenbewegungen modellieren wollen, dann müssen wir ein 1/r-Potential \( V = - \frac{G m_1 m_2}{|\vec{r_1} - \vec{r_2}|} \) in der Lagrangefunktion verwenden und erhalten in den Bewegungsgleichungen eine Kraft F, die ebenfalls mit dem Abstand r schnell kleiner wird und im Unendlichen verschwindet. Diese Sorte Potentiale bzw. Kräfte ist der Erfahrung geschuldet: eine räumliche Trennung führt dazu, dass ein Körper, im Modell ein System aus Massenpunkten, einen anderen Körper praktisch nicht mehr spürt. Erst diese spezielle Natur der Kräfte rechtfertigt es im Modell, solche Massenpunktsysteme als trennbare Körper anzusehen. </p>
+<p>Nehmen wir ein System aus 1 Planet + 1 Sonne und sorgen wir für einen großen Abstand zum Rest der Welt. Dann können wir die Bewegungsgleichungen analytisch lösen und erwarten, dass sich die Himmelskörper nach dieser Gleichung vorhersagbar bewegen werden. Eine kleine Störung aus den Weiten des Alls wird zu einer kleinen Abweichung der tatsächlichen Bahn von der berechneten Bahn führen. </p>
 <h3>Dreikörperproblem</h3>
-<table><tr><td><img width="300px" src="sites/default/files/pictures/3Koerper_Bumblebee.gif" /></td>
-<td><img width="300px" src="sites/default/files/pictures/3Koerper_Butterfly_IV.gif" /></td>
-<td><img width="300px" src="sites/default/files/pictures/3Koerper_Yin-Yang_2b.gif" /></td>
+<p>Nehmen wir ein System aus 2 Planeten + 1 Sonne, und sorgen wir für einen großen Abstand zum Rest der Welt. Dann können wir die Bewegungsgleichungen analytisch nicht mehr lösen aber immer noch numerisch und erwarten als Grünschnäbel vielleicht wieder, dass sich die Himmelskörper nach dieser Gleichung vorhersagbar bewegen werden. Eine kleine Störung aus den Weiten des Alls sollte wieder zu einer kleinen Abweichung der tatsächlichen Bahn von der berechneten Bahn führen. Das ist aber nun nicht mehr unbedingt so!</p>
+<p>Die nichtlinearen Kräfte sorgen dafür, dass eine überraschende Lebendigkeit entsteht. Die folgende Tabelle zeigt nur 3 Beispiele für mögliche Bewegungen von Dreikörpersystemen im Ortsraum.</p>
+<table><tr><td><img width="200px" src="sites/default/files/pictures/3Koerper_Bumblebee.gif" /></td>
+<td><img width="200px" src="sites/default/files/pictures/3Koerper_Butterfly_IV.gif" /></td>
+<td><img width="200px" src="sites/default/files/pictures/3Koerper_Yin-Yang_2b.gif" /></td>
 </tr></table><p>[<a href="Quellen#Science-3">Science-3</a>]</p>
+<p>Solche nichtlinearen Systeme können sehr empfindlich auf kleinste Störungen reagieren. In dem Fall kann man eine Trennung eines Systems der klassischen Mechanik vom Rest praktisch kaum noch durchführen. Die Natur der (makroskopischen) Kräfte unserer Alltagswelt ist <strong>immer nichtlinear</strong>. Selbst mit einer Spiralfeder können wir höchstens näherungsweise für ein lineares Kraft-Weg-Gesetz \( F = k |\vec{r_1} -\vec{r_2}| \) sorgen (mit einer Konstante k). Nichtlineare Anteile lassen sich prinzipiell nicht fernhalten. Und so können wir allein auf der Grundlage der klassischen Mechanik nachvollziehen, dass selbst mit den beschränkten menschlichen Sinnen und ohne technische Hilfsmittel frühe Naturbeobachter mit Hilfe ihres Verstandes und trotz mehrheitlich anderer Meinungen ihrer Mitmenschen zum Schluss gekommen sind, dass die Natur eine untrennbare Ganzheit sei. Im Film sehen wir einen späten Naturbeobachter, der versucht, diesen Weg für sein Publikum begehbar zu machen:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6xQwigIn05Q" frameborder="0" allowfullscreen=""></iframe><p>
+Mit nichtlinearen Modellen beschäftigt sich die <em>Chaostheorie</em>. In den 1980er Jahren gab es dafür ein breiteres öffentliches Interesse. Einige Forscher meinten, sie könnten die „Entstehung“ von Leben auf diese Weise „erklären“. Wenn Leben jedoch nicht entstehen muss, weil es immer überall ist, dann wird es früher oder später sehr schwierig, seine Entstehung erklären zu wollen.</p>
 <h3>Schwingungen</h3>
-<p>\( x = x(t) \)<br />
+<p>Oben auf dieser Seite steht: <cite>egal, welche Koordinaten man wählt</cite>. Die Trennung durch entfernte Orte mag am anschaulichsten sein, der theoretischen Mechanik ist die „Bedeutung“ der Koordinaten jedoch nicht bekannt. Ihr ist eine Trennung im Impulsraum gleich wie eine im Ortsraum oder sonst irgendeine.</p>
+<p>Betrachten wir eine eindimensionale Bewegung \( x = x(t) \), die einer Schwingungsgleichung mit einer Dämpfungskonstante d und einer Federkonstante k genügt:<br />
 \begin{equation}<br />
 m \ddot x + d \dot x + k x = 0<br />
 \end{equation}<br />
+Es gibt unendlich viele Lösungen dieser Gleichung. Sie lassen sich durch 2 Parameter „durchnummerieren“. Hier haben wir sie als \(x_0\) und \(\varphi_0\) eingebracht:<br />
 \begin{equation}<br />
 x(t)=x_0 e^{-\frac{d}{2m} t}\cos(\sqrt{ \frac{k}{m} - \frac{d^2}{4m} } t+ \varphi_0)<br />
 \end{equation}<br />
-\( x_0 \) und \( \varphi_0 \) durch Anfangsbedingungen festgelegt.<br />
+\( x_0 \) und \( \varphi_0 \) werden durch die Anfangsbedingungen festgelegt. Danach ist die Lösung, die Bewegung \( x = x(t) \), eindeutig. Im Unterschied zum Planetensystem ist unsere Differentialgleichung diesmal linear. Wenn wir eine Lösung \( x_1(t) \) gefunden haben und eine zweite Lösung \( x_2(t) \), dann sind auch alle Linearkombinationen \( c_1 x_1(t) + c_2 x_2(t) \) Lösungen.</p>
+<p>Diese Wirkung der Linearität entfaltet sich auch bei mehrdimensionalen linearen Gleichungssystemen. Hier haben wir ein System aus 2 Gleichungen, das über lineare Terme in den Koordinaten gekoppelt ist:<br />
 \begin{equation}<br />
 m_1 \ddot x_1 + d_1 \dot x_1 + k_1 x_1 + l_1 x_2 = 0 \quad \quad m_2 \ddot x_2 + d_2 \dot x_2 + k_2 x_2 + l_2 x_1 = 0<br />
 \end{equation}<br />
-\( \psi := \begin{pmatrix} x_1(t) \\ x_2(t) \end{pmatrix} \)<br />
-\( \hat{O} := \begin{pmatrix} m_1 \frac{\partial^2}{\partial t^2} + d_1 \frac{\partial}{\partial t} + k_1 &amp; l_1 \\ l_2 &amp; m_2 \frac{\partial^2}{\partial t^2} + d_2 \frac{\partial}{\partial t} + k_2 \end{pmatrix} \)<br />
+Wir können 2 Abkürzungen einführen<br />
+\begin{equation}<br />
+\psi := \begin{pmatrix} x_1(t) \\ x_2(t) \end{pmatrix} \quad \quad \hat{O} := \begin{pmatrix} m_1 \frac{\partial^2}{\partial t^2} + d_1 \frac{\partial}{\partial t} + k_1 &amp; l_1 \\ l_2 &amp; m_2 \frac{\partial^2}{\partial t^2} + d_2 \frac{\partial}{\partial t} + k_2 \end{pmatrix}<br />
+\end{equation}<br />
+Damit lässt sich das Gleichungssystem schreiben als<br />
 \begin{equation}<br />
 \hat{O} \psi = 0<br />
-\end{equation}</p>
-<p>John Scott Russell Solitonen Zitat aus Chaos-Buch hierher</p>
+\end{equation}<br />
+Physiker lieben kompakte Schreibweisen! \( \hat{O} \) ist ein <em>linearer Operator</em> mit der Eigenschaft<br />
+\begin{equation}<br />
+\hat{O} ( c_1 \psi_1 +  c_2 \psi_2 ) = c_1 \hat{O} \psi_1 + c_2 \hat{O} \psi_2<br />
+\end{equation}<br />
+Wir können das mit beliebig vielen Koordinaten weitertreiben. Schwingungen in Festkörpern könnten damit modelliert werden. So lange die Gleichungen linear sind, können wir beliebige Lösungen überlagern. </p>
+<p>Stellen wir uns vor, unser Verstand sein kein Verstand aus Massenpunkten wie eine Rechenmaschine, sondern er würde mit linearen Schwingungen arbeiten. Dann könnten wir in unserem Verstand mehrere Denkvorgänge überlagern. Die Denkvorgänge würden sich gegenseitig nicht beeinflussen, ja mehr noch, es wäre innerhalb eines Denkvorgangs gar nicht möglich festzustellen, dass parallel dazu noch weitere laufen! Wer wollte solch ein Gehirn haben?</p>
+<p>Gibt es aber nur kleine nichtlineare Anteile, dann sieht die Sache anders aus. Das Ganze wird zu etwas anderem als der Summe seiner Teile und kann ein vollkommen anderes Verhalten zeigen. Der schottische Ingenieur John Scott Russell ritt im August 1834 sein Pferd entlang dem Union Canal in der Nähe von Edinburgh, als Folgendes geschah [<a href="Quellen#Briggs-Peat">Briggs-Peat</a> Kap. 4]:</p>
+<p><cite>Ich beobachtete die Bewegung eines Bootes, das von einem Pferdegespann ziemlich rasch einen engen Kanal entlanggezogen wurde, als das Boot plötzlich anhielt - nicht jedoch die Wassermasse im Kanal, die vom Boot in Bewegung gesetzt worden war; sie sammelte sich rund um den Bug des Bootes in einem Zustand wilder Erregung, ließ das Boot dann plötzlich hinter sich, rollte mit hoher Geschwindigkeit vorwärts, nahm dabei die Form einer großen Erhöhung an, ein abgerundeter, glatter, wohldefinierter Haufen Wasser, der entlang dem Kanal anscheinend ohne Formveränderung oder Geschwindigkeitsabnahme seinen Lauf nahm. Ich begleitete diese Welle auf meinem Pferd und überholte sie, während sie sich immer noch mit einer Geschwindigkeit von etwas acht oder neun Meilen pro Stunde bewegte, wobei sie ihre ursprüngliche Gestalt von etwa 30 Fuß Länge und ein bis eineinhalb Fuß Höhe beibehielt. Die Höhe nahm allmählich ab, und nachdem ich das Ganze für etwa ein oder zwei Meilen beobachtet hatte, verlor ich es in den Windungen des Kanals au den Augen.</cite></p>
 <h2>Linearität der klassischen Elektrodynamik</h2>
 <p>erst Materieterme bringen NL herein</p>
 <p>genauso in der QED</p>

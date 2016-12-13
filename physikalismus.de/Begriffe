@@ -62,7 +62,7 @@ MathJax.Hub.Config({
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"3k8WHMMTquOaWe5uinuOBMyyl_tRwdubBNFIRXegqi8","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Begriffe":true,"\/Begriffe?destination=node\/79":true}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"vV0i285OYiXXLbvkV-WWBhMRYYxxD4h44zUZWKoHf54","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Begriffe":true,"\/Begriffe?destination=node\/79":true}});
 //--><!]]>
 </script>
 </head>
@@ -104,7 +104,7 @@ erklärt durch noch mehr Wörter." class="active-trail active">Begriffe</a></li>
   <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
  <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-n0a3uZlgH8JVQ_o6PicZeV5rVNbb9lmF0iehG8xExmg" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-bttVWYlWFsQhfYHSBmkS-MN0en8Bx-KwkTCxFFEkzfw" />
 <input type="hidden" name="form_id" value="search_block_form" />
 </div>
 </div></form>  </div>
@@ -155,7 +155,7 @@ erklärt durch noch mehr Wörter." class="active-trail active">Begriffe</a></li>
  <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
 </div>
 <div class="item-list"><ul><li class="first last"><a href="user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
-</ul></div><input type="hidden" name="form_build_id" value="form-zC3_mKHwbIr94ga-_xWHJ7qc77aTG_3vX9viT9RDStg" />
+</ul></div><input type="hidden" name="form_build_id" value="form-Bawkd6YOU_-BX8XlvvresIYKSfZGL9qp_JQjy5eDsv0" />
 <input type="hidden" name="form_id" value="user_login_block" />
 <div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
 </div>
@@ -179,6 +179,8 @@ erklärt durch noch mehr Wörter." class="active-trail active">Begriffe</a></li>
   <div class="content clearfix">
     <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="tex2jax"><table><tr><td><strong>Allgemeine Relativitätstheorie (ART)</strong></td>
 <td>Das ist die Theorie der Schwere gemäß Einstein. Wenngleich sie in der Lage dazu ist, das Vorstellungsvermögen arg zu strapazieren, ist die ART eine klassische Theorie und bringt für das Naturverständnis kaum eine tiefere Einsicht, als man ohne sie hätte. Als nichtlineare Mechanik ist sie für Lösungen unendlicher Kompliziertheit gut, aber das ist ein Schock, den Poincaré bereits beim Dreikörperproblem der klassischen Mechanik zu verarbeiten hatte, nur in gesteigerter Form. Hinzu kommen Paradoxien, Lösungen die eigentlich nicht sein dürften. An dieser Stelle muss ich eingestehen, dass mein Wissen in der ART doch sehr begrenzt ist.</td>
+</tr><tr><td><strong>Bedeutung</strong></td>
+<td>Bedeutung ist die Wirkung, die der Empfang einer Nachricht in einem bestimmten Empfänger auslöst. Eine Nachricht ist irgendein von der Welt abgeteilt Gedachtes, das als Ursache von Veränderungen der Zustände möglicher Empfänger angesehen wird. Empfänger sind ebenfalls von der Welt abgeteilt Gedachte. Im engeren Sinn ist eine Bedeutung die Empfindungen, die im Bewusstsein „des Empfängers“, oder anders ausgedrückt im abgeteilten Bewusstsein wahrgenommen werden, also der bewusstwerdende Teil der Veränderung. Die Bedeutung ensteht immer im Empfänger. Eine Nachricht hat keine Bedeutung.</td>
 </tr><tr><td><strong>Bewusstsein</strong></td>
 <td>Mit Bewusstsein ist an diesem Ort immer Bewusst<em>sein</em> gemeint. Insbesondere ist damit nicht bewusstes Denken gemeint: das würde einen Speicher voraussetzen. Es ist auch nicht das übliche Bei-Bewusstsein-Sein gemeint, welches außer bewusstem Denken noch eine Unterhaltung mit der Umgebung über die „normalen“ Sinneskanäle einschließt, so dass die Umgebung zur Meinung gelangt, dass im Augenblick bewusst gedacht wird. Hier ist mit Bewusst<em>sein</em> dasjenige gemeint, das erkennt, dass eine Welt vorhanden ist.</td>
 </tr><tr><td><strong>klassisch</strong></td>
@@ -194,12 +196,12 @@ Schon früh befiel Physiker die Ahnung, mit der Quantisierung des Kontinuums kö
 Obwohl die QM am Anfang des 20. Jahrhunderts eine grundlegende Umwälzung der Naturwissenschaft bedeutete, muss ihre enge Verbindung zur klassischen Physik heute als Hemmnis beim Versuch eines tieferen Naturverständnisses angesehen werden.<br />
 Nichtsdestotrotz werden auch an diesem Ort viele Beispiele aus der QM verwendet. Der Grund ist einfach der, dass ein gleichwertiges Beispiel aus der QFT in der mathematischen Darstellung viel schwieriger wäre. Darüber sollte man aber nie vergessen, dass die QM eine <cite>halbklassische</cite> Theorie ist.
 </td>
+</tr><tr><td><strong>Quantentheorie (QT)</strong></td>
+<td>Dies ist der Oberbegriff für alle Mehrschichttheorien mit einer unteren Schicht, die die Dynamik des Geschehens beschreibt, und mindestens einer weiteren nichtlinearen Schicht, die zwischen der unteren Schicht und den Erscheinungen vor dem Bewusstsein steht. Alle bedeutenden Vertreter dieser Gattung arbeiten mit linearen Operatoren in der unteren Schicht, die die Überlagerung von Prozessen ohne gegenseitige Beeinflussung zulassen, sowie einer quadratischen („bilinearen“), Ganzheit erzwingenden Mittelschicht, als da wären: die halbklassische Quantenmechanik, das Standardmodell, die String-Theorien.</td>
 </tr><tr><td><strong>Spezielle Relativitätstheorie (SRT)</strong></td>
 <td>Die Theorie (ja wovon eigentlich?), wie sie Einstein entwickelt hat. Einerseits handelt die SRT von der Elektrodynamik. Das ist insofern keine wesentliche Neuerung, dass die Maxwellsche Elektrodynamik bereits poincaré-invariant gewesen ist. Andererseits enthält sie nicht wirklich eine Mechanik, das leistet erst die ART. Vielleicht kann man sagen, dass sie außer einer vierdimensionalen Fassung der Elektrodynamik eine poincaré-invariante vierdimensionale Kinematik liefert. Diese Kinematik sagt uns, dass es prinzipiell keine starren Körper geben kann, wie sie in der klassischen Mechanik allgegenwärtig sind.<br />
 Die SRT ist die erste moderne Theorie, die eine Art Subjektivismus in die Physik gebracht hat. Was gleichzeitig ist, welches Ereignis vor dem anderen stattfindet, wie lange ein Stab ist, was Zeit und was Ort ist, was ein elektrisches Feld und was ein magnetisches ist, all das hängt nun plötzlich von der gewählten Sicht auf das Geschehen ab. In den relativistischen QFTen pflanzt sich diese Eigenschaft der Theorie weiter fort: wie viele Teilchen du siehst, hängt davon ab, wie schnell du dich bewegst [hier werden wir noch ein Paper dazu liefern].
 </td>
-</tr><tr><td><strong></strong></td>
-<td>...</td>
 </tr></table></div></div></div></div>  </div>
 
   <div class="clearfix">

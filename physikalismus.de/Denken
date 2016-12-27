@@ -62,7 +62,7 @@ MathJax.Hub.Config({
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"b95kXcrCsDMDAUypOB2o9wmTwAFw3II8ixBkNzJ8nf0","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Denken":true,"\/Denken?destination=node\/80":true}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"8sPltoWiHLe9kG-lmuQPUm8srBQjJ7_pQHlD6YJn1hM","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Denken":true,"\/Denken?destination=node\/80":true}});
 //--><!]]>
 </script>
 </head>
@@ -104,7 +104,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
   <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
  <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-B9NnNwwahK-D1bqmQCsBvSuMbJwBDsJM5gyUWXnHKrU" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-Y3CNc5vYzSQeeaFgslTSadmeUt_-egBU7fQUMAFCnYo" />
 <input type="hidden" name="form_id" value="search_block_form" />
 </div>
 </div></form>  </div>
@@ -155,7 +155,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
  <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
 </div>
 <div class="item-list"><ul><li class="first last"><a href="user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
-</ul></div><input type="hidden" name="form_build_id" value="form-rlzRzxLqoFfFaQ3oFmqB_a3T3-NWOV-v-8gUhvPcy28" />
+</ul></div><input type="hidden" name="form_build_id" value="form--t9pbOSi_Wbd8S5Zw2qMDhzkPxgGfkuhGN58_JrmwR8" />
 <input type="hidden" name="form_id" value="user_login_block" />
 <div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
 </div>
@@ -177,10 +177,16 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
       <span property="dc:title" content="Muss Denken immer in einem engen Raumgebiet stattfinden?" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
   
   <div class="content clearfix">
-    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="tex2jax"><p>Zielgerichtetes <em>Denken</em> ist die bewusst wahrgenommene Berechnung von Wahrscheinlichkeiten mit Hilfe eines Speichers für Erinnerungen. Die Erinnerungen können wiederum Ergebnis zielgerichteten Denkens sein, natürlich auch das Ergebnis zielloser Machscher Empfindungen.</p>
-<p>Wo gibt es Speicher? Als Speicher kann alles Mögliche dienen. Ein Speicher muss mit wenig Energieaufwand veränderlich sein. Doch „wenig Energieaufwand“ ist Ansichtssache. Die Veränderung des Speichers ist das, was als <a href="Information">Information</a> im Speicher angesehen wird. Die Information im Speicher, die uns bislang zugänglich ist, ist subjektiv. Was der veränderte Speicher letztlich vor dem Bewusstsein zur Erscheinung bringt, hängt davon ab, wie er daran angeschlossen ist, wie daraus gelesen wird.</p>
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="tex2jax"><p><em>Denken</em> ist die bewusst wahrgenommene Berechnung von Wahrscheinlichkeiten mit Hilfe eines Speichers für Erinnerungen. Die Erinnerungen können wiederum Ergebnis von Denken sein, natürlich auch das Ergebnis Machscher Empfindungen. Eine exakte Trennung in verschiedene Ursachen von Erinnerungen wird sich dabei nicht bewerkstelligen lassen, wodurch wir keine extra Begriffe einführen müssen. Ich wollte an dieser Stelle nur betonen, dass auch Denken mit abgeschalteten Sinneskanälen den Speicherinhalt verändern kann.</p>
+<p><em>Zielgerichtetes Denken</em> bewertet Erinnerungen mit Hilfe von gleichzeitig erfahrener Lust und erfahrenem Schmerz. Wahrscheinlichkeiten für zukünftige Ereignisse werden berechnet und mit Hilfe eines Ursache-Wirkungsmodells mit dem aktuell möglichen Handeln verknüpft. Und das Handeln wird so gewählt, dass aufgrund des Modells in Zukunft die Wahrscheinlichkeiten für Lust maximiert und für Schmerz minimiert werden sollten. Lust und Schmerz kann auch bei abgeschalteten Sinneskanälen empfunden werden, zum Beispiel wenn sich ein Mathematiker über einen gefundenen Beweis freut, oder wenn sich jemand ständig vor Ereignissen ängstigt, die niemals alle gleichzeitig so schlimm eintreten können. Jedoch macht uns unser Leib hin und wieder deutlich klar, dass er der eigentliche Herr über Lust und Schmerz ist. Und damit gibt er die Ziele vor.</p>
+<p>Wo gibt es Speicher? Als Speicher kann alles Mögliche dienen. Ein Speicher muss mit wenig Energieaufwand veränderlich sein. Doch „wenig Energieaufwand“ ist Ansichtssache. Die Veränderung des Speichers ist das, was als <a href="Information">Information</a> im Speicher angesehen wird. Die Information im Speicher ist subjektiv: was der veränderte Speicher letztlich vor dem Bewusstsein zur Erscheinung bringt, hängt davon ab, wie er daran angeschlossen ist, wie daraus gelesen wird.</p>
 <p><strong>Nach dieser Definition ist klar, dass Speicher nicht auf eine enges Raumgebiet beschränkt sein muss.</strong></p>
-<p>...weiter hier...</p>
+<p>Wenn wir von der Vorstellung ablassen, dass Bewusst<em>sein</em> von Neuronen erzeugt werden muss, damit es in unserer Welt sein kann, dann müssen wir genau so annehmen </p>
+<p><strong>dass Bewusstsein nicht auf eine enges Raumgebiet beschränkt sein muss.</strong></p>
+<p>In den verschiedenen Kapiteln, die sich an diesem Ort mit der Quantentheorie auseinandersetzen, haben wir gesehen, dass derzeit wohl kaum ein Physiker der Meinung sein wird, das menschliche Gehirn unterliege prinzipiell anderen physikalischen Gesetzen wie der Rest der Welt. Im Gegenteil werden viele Quantenphysiker die Meinung vertreten, dass ein Gehirn und der Rest der Welt eigentlich dasselbe Ding seien und die Teilung nur eine von vielen möglichen Sichten sei. Die Verarbeitung von Information erfolgt gesetzmäßig, immer und überall.</p>
+<p><strong>Verarbeitungslogik ist immer und überall.</strong></p>
+<p>Was eine Pflanze anstellt, um Wahrscheinlichkeiten zu optimieren, kann durchaus als Denken angesehen werden. Wieso nehmen wir an, dass dort kein Bewusstsein sei, nur weil die Pflanze uns nicht in Menschensprache antwortet, wenn wir sie fragen? Wo soll das Bewusstsein aufhören da zu sein? Beim Hund? Beim Regenwurm? Beim Einzeller?</p>
+<p>Wieso sollten sich nicht Speicherstrukturen über viele Galaxien erstrecken können? Oder über alle Galaxien? Oder der Speicher ist gar nicht im Ortsraum zu suchen, sondern im Frequenzraum? Aber das damit verbundene Denken reagiert nicht darauf, wenn wir auf Deutsch oder Englisch Fragen stellen. Vielleicht liegt es an unserer Art, zu fragen, dass wir es nicht erkennen können.</p>
 </div></div></div></div>  </div>
 
   <div class="clearfix">

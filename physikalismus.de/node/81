@@ -62,7 +62,7 @@ MathJax.Hub.Config({
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"eQJf7RYJ6Ks5BHpjgEy57mBFai6WwP_fZpCsczRv21U","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/node\/81":true,"\/Ganzheit?destination=node\/81":true}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"2cQ8Sn-9LLoUsENbKUCGYr_hOq91Ow5h6I0qw6i3KKA","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/node\/81":true,"\/Ganzheit?destination=node\/81":true}});
 //--><!]]>
 </script>
 </head>
@@ -104,7 +104,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
   <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
  <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-1T29YeSaU351B4zPkereYvWkEUWUKurK7mnuieeG9vo" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-JiJTHZ-xYX1n4LKLZnWuYnJ2RzcZ4AhEihDyNwkCsS4" />
 <input type="hidden" name="form_id" value="search_block_form" />
 </div>
 </div></form>  </div>
@@ -155,7 +155,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
  <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
 </div>
 <div class="item-list"><ul><li class="first last"><a href="../user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
-</ul></div><input type="hidden" name="form_build_id" value="form-IumEbalKJzSv8Cie9QNCYeXrdnWHQFHCdoZJmUGcTLM" />
+</ul></div><input type="hidden" name="form_build_id" value="form-3FZHi03dLJ5kK6Gko7RrS2krIcPhihRpWiawK3rTCEU" />
 <input type="hidden" name="form_id" value="user_login_block" />
 <div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
 </div>
@@ -178,7 +178,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
   
   <div class="content clearfix">
     <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="tex2jax"><h2>Nichtlinearität in der klassischen Mechanik</h2>
-<p>Die Punktmechanik wird gerne auf ein Wirkungsprinzip zurückgeführt. Der Kern des Wirkungsprinzips ist ein Funktional der Koordinaten und deren Ableitungen von der Zeit. Das Funktional ordnet allen möglichen Funktionen  \(q(t)\) und deren Ableitungsfunktionen \( \dot{q(t)} \equiv \frac{\partial q}{\partial t} \) eine einzige reelle Zahl, genannt <em>Wirkung</em>, zu. Solche Skalare sind stabiler gegen Transformationen. Uns so lässt sich ein allgemeines Prinzip festlegen, wie aus dem Wirkungsfunktional die Bewegungsgleichungen entstehen, egal welche Koordinaten man dabei konkret wählt. Bei einem abgeschlossenen System, das durch einen Satz von N Koordinaten \(\{q_i\}\) beschrieben werden soll, sehen die N gekoppelten Bewegungsgleichungen so aus:<br />
+<p>Die Punktmechanik wird gerne auf ein Wirkungsprinzip zurückgeführt. Der Kern des Wirkungsprinzips ist ein Funktional der Koordinaten und deren Ableitungen von der Zeit. Das Funktional ordnet allen möglichen Funktionen  \(q(t)\) und deren Ableitungsfunktionen \( \dot{q(t)} \equiv \frac{\partial q}{\partial t} \) eine einzige reelle Zahl, genannt <em>Wirkung</em>, zu. Solche Skalare sind stabiler gegen Transformationen. Und so lässt sich ein allgemeines Prinzip festlegen, wie aus dem Wirkungsfunktional die Bewegungsgleichungen entstehen, egal welche Koordinaten man dabei konkret wählt. Bei einem abgeschlossenen System, das durch einen Satz von N Koordinaten \(\{q_i\}\) beschrieben werden soll, sehen die N gekoppelten Bewegungsgleichungen so aus:<br />
 \begin{equation}<br />
 \frac{d}{dt} \frac{\partial L}{\partial \dot{q_i}} - \frac{\partial L}{\partial q_i} = 0 \quad mit \quad L = L(\{q_i\}, \{\dot{q_i}\})<br />
 \end{equation}<br />
@@ -191,7 +191,7 @@ m_1 \ddot{\vec{r_1}} - F(|\vec{r_1} -\vec{r_2}|) = 0<br />
 m_1 \ddot{\vec{r_2}} - F(|\vec{r_1} -\vec{r_2}|) = 0<br />
 \end{equation}<br />
 Wenn wir damit Planetenbewegungen modellieren wollen, dann müssen wir ein 1/r-Potential \( V = - \frac{G m_1 m_2}{|\vec{r_1} - \vec{r_2}|} \) in der Lagrangefunktion verwenden und erhalten in den Bewegungsgleichungen eine Kraft F, die ebenfalls mit dem Abstand r schnell kleiner wird und im Unendlichen verschwindet. Diese Sorte Potentiale bzw. Kräfte ist der Erfahrung geschuldet: eine räumliche Trennung führt dazu, dass ein Körper, im Modell ein System aus Massenpunkten, einen anderen Körper praktisch nicht mehr spürt. Erst diese spezielle Natur der Kräfte rechtfertigt es im Modell, solche Massenpunktsysteme als trennbare Körper anzusehen. </p>
-<p>Nehmen wir ein System aus 1 Planet + 1 Sonne und sorgen wir für einen großen Abstand zum Rest der Welt. Dann können wir die Bewegungsgleichungen analytisch lösen und erwarten, dass sich die Himmelskörper nach dieser Gleichung vorhersagbar bewegen werden. Eine kleine Störung aus den Weiten des Alls wird zu einer kleinen Abweichung der tatsächlichen Bahn von der berechneten Bahn führen. </p>
+<p>Nehmen wir ein System aus 1 Planet + 1 Sonne und sorgen wir für einen großen Abstand zum Rest der Welt. Dann können wir die Bewegungsgleichungen analytisch lösen und erwarten, dass sich die Himmelskörper nach dieser Gleichung vorhersagbar bewegen werden. Eine kleine in der Rechnung nicht berücksichtigte Störung aus den Weiten des Alls wird zu einer kleinen Abweichung der tatsächlichen Bahn von der berechneten Bahn führen. </p>
 <h3>Dreikörperproblem</h3>
 <p>Nehmen wir ein System aus 2 Planeten + 1 Sonne, und sorgen wir für einen großen Abstand zum Rest der Welt. Dann können wir die Bewegungsgleichungen analytisch nicht mehr lösen aber immer noch numerisch und erwarten als Grünschnäbel vielleicht wieder, dass sich die Himmelskörper nach dieser Gleichung vorhersagbar bewegen werden. Eine kleine Störung aus den Weiten des Alls sollte wieder zu einer kleinen Abweichung der tatsächlichen Bahn von der berechneten Bahn führen. Das ist aber nun nicht mehr unbedingt so!</p>
 <p>Die nichtlinearen Kräfte sorgen dafür, dass eine überraschende Lebendigkeit entsteht. Die folgende Tabelle zeigt nur 3 Beispiele für mögliche Bewegungen von Dreikörpersystemen im Ortsraum.</p>
@@ -200,9 +200,11 @@ Wenn wir damit Planetenbewegungen modellieren wollen, dann müssen wir ein 1/r-P
 <td><img width="200px" src="../sites/default/files/pictures/3Koerper_Yin-Yang_2b.gif" /></td>
 </tr></table><p>[<a href="http://physikalismus.de/node/Quellen#Science-3">Science-3</a>]</p>
 <p>Solche nichtlinearen Systeme können sehr empfindlich auf kleinste Störungen reagieren. In dem Fall kann man eine Trennung eines Systems der klassischen Mechanik vom Rest praktisch kaum noch durchführen. Die Natur der (makroskopischen) Kräfte unserer Alltagswelt ist <strong>immer nichtlinear</strong>. Selbst mit einer Spiralfeder können wir höchstens näherungsweise für ein lineares Kraft-Weg-Gesetz \( F = k |\vec{r_1} -\vec{r_2}| \) sorgen (mit einer Konstante k). Nichtlineare Anteile lassen sich prinzipiell nicht fernhalten. Und so können wir allein auf der Grundlage der klassischen Mechanik nachvollziehen, dass selbst mit den beschränkten menschlichen Sinnen und ohne technische Hilfsmittel frühe Naturbeobachter mit Hilfe ihres Verstandes und trotz mehrheitlich anderer Meinungen ihrer Mitmenschen zum Schluss gekommen sind, dass die Natur eine untrennbare Ganzheit sei. Im Film sehen wir einen späten Naturbeobachter, der versucht, diesen Weg für sein Publikum begehbar zu machen:</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6xQwigIn05Q" frameborder="0" allowfullscreen=""></iframe><p>
-Mit nichtlinearen Modellen beschäftigt sich die <em>Chaostheorie</em>. In den 1980er Jahren gab es dafür ein breiteres öffentliches Interesse. Einige Forscher meinten, sie könnten die „Entstehung“ von Leben auf diese Weise „erklären“. Wenn Leben jedoch nicht entstehen muss, weil es immer überall ist, dann wird es früher oder später sehr schwierig, seine Entstehung erklären zu wollen.</p>
-<h3>Schwingungen</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6xQwigIn05Q" frameborder="0" allowfullscreen=""></iframe><table><tr><td>Mit nichtlinearen Modellen beschäftigt sich die <em>Chaostheorie</em>. In den 1980er Jahren gab es dafür ein breiteres öffentliches Interesse. Einige Forscher meinten, sie könnten die „Entstehung“ von Leben auf diese Weise „erklären“. 
+<p>Wie man rechts sehen kann, können bereits einfache nichtlineare Differentialgleichungen mit wenigen Variablen zu erstaunlich komplexem Verhalten führen. Das Bild zeigt einen Attraktor, also die Bewegung im Phasenraum, die sich für \( t \rightarrow \infty \) zwangsläufig einstellt. Dieses Beispiel kommt mit 3 Koordinaten aus [<a href="http://www.chaoscope.org/doc/attractors.htm#pickover">Pickover auf www.chaoscope.org</a>].
+</p></td>
+<td><img width="300px" src="../sites/default/files/pictures/carbon.jpg" /></td>
+</tr></table><h3>Schwingungen</h3>
 <p>Oben auf dieser Seite steht: <cite>egal, welche Koordinaten man wählt</cite>. Die Trennung durch entfernte Orte mag am anschaulichsten sein, der theoretischen Mechanik ist die „Bedeutung“ der Koordinaten jedoch nicht bekannt. Ihr ist eine Trennung im Impulsraum gleich wie eine im Ortsraum oder sonst irgendeine.</p>
 <p>Betrachten wir eine eindimensionale Bewegung \( x = x(t) \), die einer Schwingungsgleichung mit einer Dämpfungskonstante d und einer Federkonstante k genügt:<br />
 \begin{equation}<br />
@@ -233,13 +235,62 @@ Wir können das mit beliebig vielen Koordinaten weitertreiben. Schwingungen in F
 <p>Stellen wir uns vor, unser Verstand sein kein Verstand aus Massenpunkten wie eine Rechenmaschine, sondern er würde mit linearen Schwingungen arbeiten. Dann könnten wir in unserem Verstand mehrere Denkvorgänge überlagern. Die Denkvorgänge würden sich gegenseitig nicht beeinflussen, ja mehr noch, es wäre innerhalb eines Denkvorgangs gar nicht möglich festzustellen, dass parallel dazu noch weitere laufen! Wer wollte solch ein Gehirn haben?</p>
 <p>Gibt es aber nur kleine nichtlineare Anteile, dann sieht die Sache anders aus. Das Ganze wird zu etwas anderem als der Summe seiner Teile und kann ein vollkommen anderes Verhalten zeigen. Der schottische Ingenieur John Scott Russell ritt im August 1834 sein Pferd entlang dem Union Canal in der Nähe von Edinburgh, als Folgendes geschah [<a href="http://physikalismus.de/node/Quellen#Briggs-Peat">Briggs-Peat</a> Kap. 4]:</p>
 <p><cite>Ich beobachtete die Bewegung eines Bootes, das von einem Pferdegespann ziemlich rasch einen engen Kanal entlanggezogen wurde, als das Boot plötzlich anhielt - nicht jedoch die Wassermasse im Kanal, die vom Boot in Bewegung gesetzt worden war; sie sammelte sich rund um den Bug des Bootes in einem Zustand wilder Erregung, ließ das Boot dann plötzlich hinter sich, rollte mit hoher Geschwindigkeit vorwärts, nahm dabei die Form einer großen Erhöhung an, ein abgerundeter, glatter, wohldefinierter Haufen Wasser, der entlang dem Kanal anscheinend ohne Formveränderung oder Geschwindigkeitsabnahme seinen Lauf nahm. Ich begleitete diese Welle auf meinem Pferd und überholte sie, während sie sich immer noch mit einer Geschwindigkeit von etwas acht oder neun Meilen pro Stunde bewegte, wobei sie ihre ursprüngliche Gestalt von etwa 30 Fuß Länge und ein bis eineinhalb Fuß Höhe beibehielt. Die Höhe nahm allmählich ab, und nachdem ich das Ganze für etwa ein oder zwei Meilen beobachtet hatte, verlor ich es in den Windungen des Kanals au den Augen.</cite></p>
+<p>Derartige Phänomene bekamen den Namen „Soliton“. Im Modell sind sie Lösungen nichtlinearer Differentialgleichungen, das Russellsche Soliton kann durch die Korteweg-de-Fries-Gleichung beschrieben werden.</p>
 <h2>Linearität der klassischen Elektrodynamik</h2>
-<p>erst Materieterme bringen NL herein</p>
-<p>genauso in der QED</p>
-<h2>Nichtlinearität der Quantentheorie</h2>
-<p>Quatsch = "ist eine lineare Theorie"</p>
-<p>Beispiel Helium Autoionisation</p>
-<p>nichtlineare Glg. =&gt; lineare Operatoren =&gt; quadratische Form</p>
+<p>Die 8 Bewegungsgleichungen der Felder E und B der klassischen Elektrodynamik sind linear. Materie wird durch Inhomogenitäten in's Spiel gebracht: als Ladungsdichte \( \rho \) und als Stromdichte \( \rho \).<br />
+\begin{equation}<br />
+\vec \nabla \cdot \vec {E}=\frac {\rho }{\varepsilon _0} \quad\quad \vec \nabla \cdot \vec B=0 \quad\quad \vec \nabla \times \vec {E}=-\frac {\partial \vec {B}}{\partial t} \quad\quad \vec {\nabla }\times \vec {B}=\mu _0 \vec {j}+\mu _0\varepsilon _0 \frac {\partial \vec {E}}{\partial t}<br />
+\end{equation}<br />
+Zum Beispiel mit diesen Definitionen<br />
+\begin{equation}<br />
+\hat{O} := \begin{pmatrix}<br />
+0 &amp;&amp; \frac{\partial}{\partial x} &amp;&amp; \frac{\partial}{\partial y} &amp;&amp; \frac{\partial}{\partial z} &amp;&amp; 0 &amp;&amp; 0 &amp;&amp; 0 &amp;&amp; 0 \\<br />
+0 &amp;&amp; -\mu _0\varepsilon _0\frac{\partial}{\partial t} &amp;&amp; 0 &amp;&amp; 0 &amp;&amp; 0 &amp;&amp; 0 &amp;&amp; -\frac{\partial}{\partial z} &amp;&amp; \frac{\partial}{\partial y} \\<br />
+0 &amp;&amp; 0 &amp;&amp; -\mu _0\varepsilon _0\frac{\partial}{\partial t} &amp;&amp; 0 &amp;&amp; 0 &amp;&amp; \frac{\partial}{\partial z} &amp;&amp; 0 &amp;&amp; -\frac{\partial}{\partial x} \\<br />
+0 &amp;&amp; 0 &amp;&amp; 0 &amp;&amp; -\mu _0\varepsilon _0\frac{\partial}{\partial t} &amp;&amp; 0 &amp;&amp; -\frac{\partial}{\partial y} &amp;&amp; \frac{\partial}{\partial x} &amp;&amp; 0 \\<br />
+0 &amp;&amp; 0 &amp;&amp; 0 &amp;&amp; 0 &amp;&amp; 0 &amp;&amp; \frac{\partial}{\partial x} &amp;&amp; \frac{\partial}{\partial y} &amp;&amp; \frac{\partial}{\partial z} \\<br />
+0 &amp;&amp; 0 &amp;&amp; -\frac{\partial}{\partial z} &amp;&amp; \frac{\partial}{\partial y} &amp;&amp; 0 &amp;&amp; \frac{\partial}{\partial t} &amp;&amp; 0 &amp;&amp; 0 \\<br />
+0 &amp;&amp; \frac{\partial}{\partial z} &amp;&amp; 0 &amp;&amp; -\frac{\partial}{\partial x} &amp;&amp; 0 &amp;&amp; 0 &amp;&amp; \frac{\partial}{\partial t} &amp;&amp; 0 \\<br />
+0 &amp;&amp; -\frac{\partial}{\partial y} &amp;&amp; \frac{\partial}{\partial x} &amp;&amp; 0 &amp;&amp; 0 &amp;&amp; 0 &amp;&amp; 0 &amp;&amp; \frac{\partial}{\partial t}<br />
+\end{pmatrix} \quad\quad<br />
+\psi := \begin{pmatrix}<br />
+0 \\ E_x(\vec{r},t) \\ E_y(\vec{r},t) \\ E_z(\vec{r},t)  \\ 0 \\ B_x(\vec{r},t) \\ B_y(\vec{r},t) \\ B_z(\vec{r},t)<br />
+\end{pmatrix} \quad\quad<br />
+j := \begin{pmatrix}<br />
+\frac {1}{\varepsilon _0}\rho(\vec{r},t) \\ \mu _0 j_x(\vec{r},t) \\ \mu _0 j_y(\vec{r},t) \\ \mu _0 j_z(\vec{r},t) \\ 0 \\ 0 \\ 0 \\ 0<br />
+\end{pmatrix} \quad\quad<br />
+\end{equation}<br />
+lassen sich die Maxwell-Gleichungen ganz schnell auf die Kurzform \( \hat{O} \psi = j \) bringen. In der Literatur findet man normalerweise andere Zusammenfassungen der Feldgrößen. E- und B-Felder transformieren sich bei Poincaré-Transformationen, als seien sie Teile eines asymmetrischen Vierertensor zweiter Stufe. Man definiert 2 Viererfeldstärketensoren und die Lichtgeschwindigkeit c<br />
+\begin{equation}<br />
+F := \left({\begin{matrix}0&amp;-E_{x}/c&amp;-E_{y}/c&amp;-E_{z}/c\\E_{x}/c&amp;0&amp;-B_{z}&amp;B_{y}\\E_{y}/c&amp;B_{z}&amp;0&amp;-B_{x}\\E_{z}/c&amp;-B_{y}&amp;B_{x}&amp;0\\\end{matrix}}\right)<br />
+\quad\quad<br />
+F^* := \left[{\begin{matrix}0&amp;-B_{x}&amp;-B_{y}&amp;-B_{z}\\B_{x}&amp;0&amp;E_{z}/c&amp;-E_{y}/c\\B_{y}&amp;-E_{z}/c&amp;0&amp;E_{x}/c\\B_{z}&amp;E_{y}/c&amp;-E_{x}/c&amp;0\\\end{matrix}}\right]<br />
+\quad\quad<br />
+c := \frac{1}{\sqrt{\mu _0\varepsilon _0}}<br />
+\end{equation}<br />
+und wir können durch die Definitionen<br />
+\begin{equation}<br />
+\hat{O} := \begin{pmatrix}<br />
+\frac{\partial}{\partial t} &amp;&amp; -\frac{\partial}{\partial x} &amp;&amp; -\frac{\partial}{\partial y} &amp;&amp; -\frac{\partial}{\partial z} &amp;&amp;<br />
+\frac{\partial}{\partial t} &amp;&amp; -\frac{\partial}{\partial x} &amp;&amp; -\frac{\partial}{\partial y} &amp;&amp; -\frac{\partial}{\partial z}<br />
+\end{pmatrix} \quad\quad<br />
+\psi := \begin{pmatrix} F &amp;&amp; 0 \\ 0 &amp;&amp; F^* \end{pmatrix} \quad\quad<br />
+\end{equation}<br />
+sowie einer passenden Definition für j die 8 Gleichungen wieder auf die Form \( \hat{O} \psi = j \) bringen. Doch was ist nun die Botschaft?</p>
+<p>So lange die Ladungs- und Stromdichten von außen aufgeprägt sind, überlagern sich die Lösungen unabhängig voneinander. Wenn ein Stern Licht in's All aussendet, dann kann man ihn als vorgegebene Ladungs- und Stromdichten auf dem Rand eines Gebietes, des Alls, modellieren: \( j_1 \). Bezeichnen wir die Lösung der Maxwell-Gleichungen, die sich daraus ergibt, mit \( \psi_1 \). Ein zweiter Stern  \( j_2 \) soll dagegen zur Lösung \( \psi_2 \) führen. Wenn wir das Licht in einem Teleskop auffangen, dann „sehen“ wir: 2 Sterne. Wir sehen \(  \hat{O} \psi = j = j_1 + j_2 = \hat{O} \psi_1 + \hat{O} \psi_2 =  \hat{O} (\psi_1 + \psi_2) \). Wären die Maxwell-Gleichungen nichtlinear, dann würden wir vielleicht 4 statt 2 Bildpunkte sehen. Wir könnten eventuell immer noch mit Hilfe unserer Mathematik darauf schließen, dass 2 Sterne da sein müssen. Eventuell hätte sich unser Leib im Lauf der Evolution darauf eingestellt, und wir würden wie selbstverständlich in 4 Bildpunkten sofort und ohne Umwege 2 Sterne erkennen. Bei hoher Intensität der Strahlung wird sich wahrscheinlich chaotisches Verhalten einstellen. Unsere Mathematik und unser Leib würden versagen beim Versuch, im empfangenen Licht etwas anderes zu erkennen als das empfangene Licht. Wäre das chaotische Verhalten das Normalverhalten, dann wären bislang nur ein paar Verrückte zur Ansicht gelangt, dass der Himmel mit einzelnen Sternen bevölkert sei.</p>
+<p>Wenn wir die Wirkung der Felder auf die Materie berücksichtigen wollen, so können wir das zum Beispiel durch die Lorentz-Kraft \( \vec F =  q \vec {E} + q \dot{\vec {r}} \times \vec {B} \) tun. Zusammen mit der Newtonschen Gleichung \( \vec F =  m \ddot{\vec {r}} \) bekommen wir ein nichtlineares Differentialgleichungssystem und die Teilbarkeit geht im Allgemeinen verloren. (Der nichtlineare Term ist \( \dot{\vec {r}} \times \vec {B} \)).</p>
+<h2>Linearität und Nichtlinearität der Quantentheorie</h2>
+<p>Ich habe schon Sätze gelesen wie "Die Quantentheorie ist eine lineare Theorie". Die Überschrift dieses Abschnitts lautet aber anders! </p>
+<table><tr><td>In der klassischen Theorie sind die Kräfte mal linear und mal nichtlinear. Lineare Kräfte sind oft eine Näherung für Systeme in einer Gleichgewichtslage, die eigentlich nichtlinearen Kräfte unterworfen sind. Im Beispiel rechts wird die Bewegung nahe der Gleichgewichtslage durch die rote Näherung zur Bewegung in einem harmonischen Potential mit seinem linearen Weg-Kraft-Gesetz vereinfacht. Zu meiner Studienzeit hieß es überspitzt: <cite>Das Einzige, was die Physiker rechnen können, sind harmonische Oszillatoren.</cite>
+</td>
+<td><img width="300px" src="../sites/default/files/pictures/Harmonische_Naeherung.png" /></td>
+</tr></table><p>Die Quantentheorie funktioniert grundsätzlich anders. Erstens ist sie eine lineare Theorie und zweitens eine nichtlineare. </p>
+<p>Die Bewegungsgleichungen der Quantentheorie (jedenfalls aller experimentell abgesicherten QTen) sind linear und von der Form \( \hat{O} \psi = 0 \). Die Operatoren sind keine linearen Näherungen von eigentlich nichtlinearen Operatoren, sondern sie sind <strong>100% exakt</strong> linear. Wie wir <a href="http://physikalismus.de/node/Information#Wahrsch">im Informationskapitel</a> gesehen haben, ermöglicht diese Eigenschaft die Wahrscheinlichkeitsinterpretation der Quantentheorie. </p>
+<p><strong>Alle</strong> Operatoren sind linear. Das heißt, dass wir die Koordinaten zur Beschreibung des Systems frei wählen dürfen - Ortskoordinaten, Schwerpunkt- und Relativkoordinaten, Impulskoordinaten, ... - und das System <strong>immer</strong> in unabhängige Teile geteilt werden kann. Das ist schon ganz erstaunlich! Abhängig von der jeweiligen Vorliebe dürfen wir uns vorstellen, dass die Welt aus solchen oder solchen Teilen bestehe. Aus welchen Teilen besteht sie denn nun „wirklich“?</p>
+<p>Bei Hugh Everett wäre an dieser Stelle Schluss. Die Welt wäre linear, langweilig und tot. Die linearen Bewegungsgleichungen liefern hochgenaue Vorhersagen für mögliche Messwerte. In der Praxis <em>erfahren wir aber</em>, dass dasselbe Experiment verschiedene mögliche Messwerte mit ganz bestimmten Häufigkeiten liefert. Wir kommen nicht umhin, Wahrscheinlichkeiten für die möglichen Messwerte einzuführen, die die beobachteten Häufigkeiten wiedergeben. Die Wahrscheinlichkeiten berechnen sich aus den Lösungen der linearen Differentialgleichungssysteme durch einen nichtlinearen Schritt. Dieser Schritt, das Skalarprodukt, wird manchmal als Bilinearform bezeichnet, was sein wahres Wesen verschleiert: er ist nichtlinear und am Ehesten als <em>quadratisch</em> zu bezeichnen. Seit 100 Jahren wissen die Physiker nicht, was sie von diesem Schritt halten sollen und palavern über dessen Interpretation. Eine Schwierigkeit dabei ist die Vorstellung, dass man nach dem nichtlinearen Schritt der QT zu einer Beschreibungsschicht kommen müsse, in der die klassische Physik mit ihren Bewegungsgleichungen zu finden sei, weil man das halt so gewohnt ist. Diese klassische Schicht soll dann am Ende vor dem Bewusstsein erscheinen, und das, obwohl man bis heute keinerlei Erklärung für die Bewusstwerdung dieser klassischen Schicht hat und die klassische Schicht durch Experimente immer mehr in die Enge gedrängt wird, wie <a href="http://physikalismus.de/node/Quanten-Folgerungen">an anderer Stelle</a> ausgeführt wird. Das Einzige, was wir sicher wissen, ist, dass wir irgendwo zwischen der linearen Beschreibungsebene der QT und dem Bewusstsein diesen nichtlinearen Schritt brauchen. Es muss keine eigene klassische Beschreibungsebene zwischen der linearen Schicht der QT und dem Bewusstsein geben. Es reicht völlig, wenn man quantentheoretisch erklären kann, wie klassische Dinge vor dem Bewusstsein <em>erscheinen</em>. </p>
+<p>Im Kapitel über die <a href="http://physikalismus.de/node/Brezel">Verschränkung</a> haben wir gesehen, wie alle gedachten Teilungen auf der linearen Ebene durch den nichtlinearen Schritt ihre Bedeutung verlieren (<cite>ein Teilsystem hat keinen Zustandsvektor</cite>). Der nichtlineare Schritt macht zu Einem, was auch immer zuvor als geteilt angesehen worden war, auch wenn die Teile als Lichtjahre voneinander entfernt gesehen worden waren.</p>
+<h2>In Summa</h2>
+<p>Über verschiedene Theorien hinweg haben wir erkennen können, wir Linearität und Teilbarkeit sowie Nichtlinearität und Unteilbarkeit miteinander verbunden sind. Die Quantentheorie ist eine Theorie, die durch ihre Mehrschichtigkeit beides zugleich in Vollkommenheit liefern kann. Dennoch muss man als Quantentheoretiker neidisch auf die nichtlinearen Bewegungsgleichungen der klassischen Theorie schielen, die Lebendigkeit doch so gut darstellen können, und fragt sich: <cite>fehlt noch etwas in meiner Theorie?</cite></p>
 </div></div></div></div>  </div>
 
   <div class="clearfix">

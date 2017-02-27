@@ -1,0 +1,1 @@
+Einheitlich 1 verwenden für Einheitsmatrix, Einheitsoperator (nicht mehr I).

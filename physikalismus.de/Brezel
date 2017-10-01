@@ -62,7 +62,7 @@ MathJax.Hub.Config({
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"uBSAW8HFeAigebLIVost_n5BcxUKU7ndwFN8esc0qKc","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Brezel":true,"\/Brezel?destination=node\/77":true}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"WPP4o2q0NLMuvqqpvqZC0yZReMuo6ev3ltVkPtfHXJc","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Brezel":true,"\/Brezel?destination=node\/77":true}});
 //--><!]]>
 </script>
 </head>
@@ -104,7 +104,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
   <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
  <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-ALs2z4-EVmJmhaW5QtaKOaiXukdrSSmRVYstHVgCfcc" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-19MORhMR268RvwnY_SWW0BBYzyAzft0eaGyZ_7TksU4" />
 <input type="hidden" name="form_id" value="search_block_form" />
 </div>
 </div></form>  </div>
@@ -127,7 +127,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
 <li class="collapsed"><a href="Gleichnisse" title="Gleichnisse für Physiker von einem Physiker über Physik">Gleichnisse</a></li>
 <li class="leaf"><a href="Ethik" title="Was sollen wir tun?">gut &amp; böse</a></li>
 <li class="leaf"><a href="Ich" title="Was ist das Ich?">Ich</a></li>
-<li class="leaf"><a href="Information" title="Baustelle">Information</a></li>
+<li class="collapsed"><a href="Information" title="Baustelle">Information</a></li>
 <li class="leaf"><a href="Jesus" title="Wie ich mir Jesus vorstelle">Jesus</a></li>
 <li class="leaf"><a href="Juristerei" title="Kann richtig geurteilt werden?">Juristerei</a></li>
 <li class="leaf"><a href="Kampf" title="Die falsche Idee vom totalen Frieden">Kampf</a></li>
@@ -136,12 +136,16 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
 <li class="leaf"><a href="N" title="Was an den natürlichen Zahlen unnatürlich ist">N</a></li>
 <li class="expanded active-trail"><a href="Quantenmechanik" title="Die philosophischen Konsequenzen aus der Quantenmechanik" class="active-trail">Quanten</a><ul class="menu"><li class="first leaf"><a href="Aufsauger" title="Feynmans Gedankenexperiment">Aufsauger</a></li>
 <li class="leaf active-trail"><a href="Brezel" title="Verschränkung" class="active-trail active">Brezel</a></li>
-<li class="last leaf"><a href="Quanten-Folgerungen" title="Die philosophischen Folgerungen aus der Quantentheorie">Folgerungen</a></li>
+<li class="leaf"><a href="Quanten-Folgerungen" title="Die philosophischen Folgerungen aus der Quantentheorie">Folgerungen</a></li>
+<li class="leaf"><a href="2016" title="Das Todesjahr des lokalen Realismus">2016</a></li>
+<li class="leaf"><a href="Schnitte" title="Die Heisenbergschen Schnitte">Schnitte</a></li>
+<li class="last leaf"><a href="Wigner" title="Wigners Freund">Wigner</a></li>
 </ul></li>
 <li class="leaf"><a href="Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen">Reduktionismus</a></li>
 <li class="leaf"><a href="Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
 <li class="leaf"><a href="Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
-<li class="last leaf"><a href="Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+<li class="leaf"><a href="Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+<li class="last leaf"><a href="Leben" title="Was ist Leben?">Leben</a></li>
 </ul>  </div>
 </div>
 <div id="block-user-login" class="block block-user clearfix">
@@ -158,7 +162,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
  <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
 </div>
 <div class="item-list"><ul><li class="first last"><a href="user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
-</ul></div><input type="hidden" name="form_build_id" value="form-OQMrZ_GWp-C0hV2kCEzaqEYeyLBT2oz_rKjE-8gXzLc" />
+</ul></div><input type="hidden" name="form_build_id" value="form-jxKqiGYrbx5XhXABpMku7vbm_tROGrWyF45ERSOu6_8" />
 <input type="hidden" name="form_id" value="user_login_block" />
 <div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
 </div>
@@ -181,7 +185,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
   
   <div class="content clearfix">
     <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="tex2jax"><p>Als Gott die Menschen erschaffen hatte, vergab er Sprachdialekte an die einzelnen Stämme. Nicht dass er sich verzählt hätte, was böse Zungen heute behaupten, aber es gab eine Zeit, als es einen Dialekt weniger als Stämme gab. Gott hatte also die Dialekte - badisch, walisisch, Swahili, und so weiter - auf die Stämme verteilt bis nur noch ein Stamm, den er <em>Schwaben</em> nannte und die er sehr gelungen fand, weil sie so sehr nach seinem Ebenbilde waren, keinen Dialekt hatte. In seiner Allmacht fällte er die freie Entscheidung, nicht noch einen weiteren Dialekt zu erschaffen, sondern Sparsamkeit walten zu lassen und sprach zu sich: „Na solled se halt so schwätze wie i.“ Die Ebenbildigkeit dieses Volksstammes sieht man heute noch an seiner Vorliebe für verschränkte Teigwaren, sogenannte „Brezeln“, verschränkte Dienstleistungsbeziehungen, sogenannte „Vedderleswirtschaft“, verschränkte Zugriffsversuche auf Schienennetzressourcen, sogenannt „Schduagadr S-Bahn-Chaos“, und an vielem mehr. Denn Gott liebt Verschränkungen.</p>
-<p>Ein Hilbertraum \(\mathbb{H_1}\) enthalte Vektoren, die wir mit \(|\phi_i&gt;\) nummerieren und bezeichnen wollen. Ein weiterer Hilbertraum \(\mathbb{H_2}\) enthalte die Vektoren \(|\chi_j&gt;\). Der Produktraum \(\mathbb{H_1} \otimes \mathbb{H_2}\) wird aus Linearkombinationen von Produktvektoren  \(|\phi_i&gt; \otimes |\chi_j&gt;\) aufgebaut. Ein Vektor aus dem Produktraum ist verschränkt, wenn er sich nicht als Produkt eines Vektors aus \(\mathbb{H_1}\) mit einem Vektor aus \(\mathbb{H_2}\) darstellen lässt. Dies klingt nicht nur abstrakt, sondern blendet tatsächlich einen wesentlichen Gesichtspunkt aus, den wir jetzt hinzunehmen müssen.</p>
+<p>Ein Hilbertraum \(\mathbb{H_1}\) enthalte Vektoren, die wir mit \(|\phi_i&gt;\) nummerieren und bezeichnen wollen. Ein weiterer Hilbertraum \(\mathbb{H_2}\) enthalte die Vektoren \(|\chi_j&gt;\). Der Produktraum \(\mathbb{H_1} \otimes \mathbb{H_2}\) wird aus Linearkombinationen von Produktvektoren  \(|\phi_i&gt; \otimes |\chi_j&gt;\) aufgebaut. Ein Vektor aus dem Produktraum ist verschränkt, wenn er sich nicht als Produkt eines Vektors aus \(\mathbb{H_1}\) mit einem Vektor aus \(\mathbb{H_2}\) darstellen lässt. Zunächst wollen wir uns jedoch mit Funktionen und Zahlentupeln befassen.</p>
 <h2>Verschränkte Funktionen</h2>
 <p>Am Ende wollen wir immer reelle Zahlen erhalten, vielleicht über den Umweg komplexer Zahlen, aber eben Zahlen, die sich mit Messergebnissen vergleichen lassen. Konkreter werden die Hilbertraumvektoren durch Funktionen dargestellt, die von Variablen abhängen, oder durch Matrizen oder durch Matrizen mit Funktionen als Elementen. Wir nehmen Variablen hinzu, wobei die Trennung der Räume eben dadurch geschieht, dass sich die x-Variablen in \(\mathbb{H_1}\) tummeln sollen und die y-Variablen in  \(\mathbb{H_2}\). Ein allgemeiner Zustand, der von allen Variablen abhängt, heiße \(\psi(x,y)\). Dieser Zustand ist dann verschränkt, wenn er sich nicht wie auf der rechten Seite des Ungleichheitszeichens schreiben lässt.</p>
 <p>\begin{equation}<br />
@@ -200,19 +204,19 @@ a_1 b_1 \phi_1(x) \otimes \chi_1(y) + a_1 b_2 \phi_1(x) \otimes \chi_2(y) + a_2 
 <p>Bei der Lösung des Wasserstoffproblems lässt sich der Funktionenraum in 2 Räume separieren, wenn man zu Schwerpunkt- und Relativkoordinaten, d.h. zu \(\vec{R}\) und \(\vec{r}\) übergeht. Die separierten Gleichungen lassen sich für beide Räume unabhängig voneinander lösen. Eine Gesamtlösung kann nach Linearkombinationen von Produkten aus Einzellösungen entwickelt werden. </p>
 <p>Die nächste Gleichung zeigt eine Gesamtlösung als Produkt aus einer Impulseigenfunktion für den Schwerpunkt und aus dem Grundzustand \(\psi_{100}\). \(N\) ist eine Normierungskonstante. Die Gesamtlösung ist in den Koordinaten \( \{ \vec{R}, \vec{r} \} \) also nicht verschränkt.</p>
 <p>\begin{equation}<br />
-\psi(r,R) = N e^{ i \vec{k}\vec{R} } \otimes e^{ -\frac{|r|}{a} } = N e^{ i \frac{m_1}{m_1+m_2} \vec{k}\vec{r_1} } \otimes e^{ i \frac{m_2}{m_1+m_2} \vec{k}\vec{r_2} } \otimes e^{-\frac{ \sqrt{ \vec{r_1}^2 + \vec{r_2}^2 } }{a}}<br />
+\psi(\vec{r},\vec{R}) = N e^{ i \vec{k}\vec{R} } \otimes e^{ -\frac{|\vec{r}|}{a} } = N e^{ i \frac{m_1}{m_1+m_2} \vec{k}\vec{r_1} } \otimes e^{ i \frac{m_2}{m_1+m_2} \vec{k}\vec{r_2} } \otimes e^{-\frac{ \sqrt{ \vec{r_1}^2 - 2\vec{r_1}\vec{r_2} + \vec{r_2}^2 } }{a}}<br />
 \end{equation}</p>
 <p>Anders sieht es aus, wenn wir wieder auf die ursprünglichen Koordinaten \( \{ \vec{r_1}, \vec{r_2} \} \) zurückgehen. Die e-Funktion mit der Wurzel sorgt dafür, dass Verschränkung vorliegt.</p>
 <p>Wir haben übrigens die Zeitvariable \(t\) großzügig ignoriert. In der nichtrelativistischen Quantenmechanik ist sie per definitionem abseparierbar und damit erscheinen die Lösungen der reinen Zeitgleichung immer entschränkt vom Rest.</p>
 <p><strong>Beispiel 3</strong></p>
 <p>Wie sieht es mit einer quantenmechanischen Überlagerung aus 2 verschiedenen Impulseigenfunktionen für den Schwerkpunkt aus? Die linke Seite ist wieder ein reines Produkt. Die rechte Seite entsteht wieder durch den Übergang auf die ursprünglichen Koordinaten \( \{ \vec{r_1}, \vec{r_2} \} \).</p>
 <p>\begin{equation}<br />
-\psi(r,R) = ( N_1 e^{ -i \vec{k_1}\vec{R} } + N_2 e^{ -i \vec{k_2}\vec{R} } ) \otimes \psi(\vec{r}) =<br />
+\psi(\vec{r},\vec{R}) = ( N_1 e^{ -i \vec{k_1}\vec{R} } + N_2 e^{ -i \vec{k_2}\vec{R} } ) \otimes \psi(\vec{r}) =<br />
 (N_1 e^{ -i \frac{m_1}{m_1+m_2} \vec{k_1}\vec{r_1} } \otimes e^{ -i \frac{m_2}{m_1+m_2} \vec{k_1}\vec{r_2} } +<br />
 N_2 e^{ -i \frac{m_1}{m_1+m_2} \vec{k_2}\vec{r_1} } \otimes e^{ -i \frac{m_2}{m_1+m_2} \vec{k_2}\vec{r_2} }) \otimes \psi(|\vec{r_2} - \vec{r_1}|)<br />
 \end{equation}</p>
 <p>Selbst wenn \(\psi(r_2 - r_1)\) in eine Produktfunktion zerfallen würde, dann würde die linke Klammer auf der rechten Seite der Gleichung uns diesen Gefallen nicht tun. Wieder ist Verschränkung dadurch entstanden, dass wir unsere Sicht auf das Geschehen gewechselt haben, während das Geschehen dasselbe geblieben ist. Umgekehrt bedeutet es, dass sich zu verschränkten Zuständen Koordinaten finden lassen können, in denen die Zustände entschränkt aussehen und sich unabhängig voneinander entwickeln.</p>
-<h2>Verschränkte Vektoren</h2>
+<h2>Verschränkte Zahlentupel</h2>
 <p>Eine mögliche Darstellung von Hilbertraum-Vektoren sind neben Funktionen Zahlentupel, die durch Indizes nummeriert werden. Wir nennen sie hier einfach mal <cite>Vektoren</cite>. Zwei solchen Vektoren kann man eine Matrix durch das Tensorprodukt zuordnen wie hier:<br />
 \begin{equation}<br />
 \begin{pmatrix} a \\ b \end{pmatrix} \otimes \begin{pmatrix} c \\ d \end{pmatrix} = \begin{pmatrix} ac &amp; ad \\ bc &amp; bd \end{pmatrix}<br />
@@ -228,7 +232,7 @@ Denn dazu müsste \( (a = 0 \lor d = 0) \land (b = 0 \lor c = 0) \), was gleichb
 \begin{pmatrix} 0 \\ 1 \end{pmatrix} \otimes \begin{pmatrix} 0 \\ 1 \end{pmatrix}<br />
 \end{equation}<br />
 Die Zerlegung ist nicht eindeutig. </p>
-<p>Eine Funktion ist nur ein Vektor mit unendlich dicht liegender Nummerierung seiner unendlich vielen Elemente, den Funktionswerten. Einer Transformation auf einen anderen Satz von Variablen bei Funktionen entspricht bei Vektoren der Übergang auf ein anderes Nummerierungsschema. Nur solche Koordinaten- oder Nummerierungstransformationen können zwischen Verschränkung und Nichtverschränkung wechseln, die mehrere Koordinaten oder Nummerierungen miteinander in Beziehung bringen. \( x \mapsto \tilde{x}(x) \) kann es nicht, \( x_1, x_2 \mapsto \tilde{x_1}(x_1,x_2), \tilde{x_2}(x_1,x_2) \) kann es potentiell. </p>
+<p>Eine Funktion ist nur ein Tupel mit unendlich dicht liegender Nummerierung seiner unendlich vielen Elemente, den Funktionswerten. Einer Transformation auf einen anderen Satz von Variablen bei Funktionen entspricht bei Vektoren der Übergang auf ein anderes Nummerierungsschema. Nur solche Koordinaten- oder Nummerierungstransformationen können zwischen Verschränkung und Nichtverschränkung wechseln, die mehrere Koordinaten oder Nummerierungen miteinander in Beziehung bringen. \( x \mapsto \tilde{x}(x) \) kann es nicht, \( x_1, x_2 \mapsto \tilde{x_1}(x_1,x_2), \tilde{x_2}(x_1,x_2) \) kann es potentiell. </p>
 <p><strong>Beispiel</strong></p>
 <p>\( \begin{pmatrix} 1 &amp; 0 \\ 0 &amp; 1 \end{pmatrix} \) haben wir als verschränkt kennengelernt. Eine Transformation der Nummerierung<br />
 \begin{equation}<br />
@@ -238,19 +242,42 @@ macht daraus eine Matrix, die sich als Tensorprodukt schreiben lässt.<br />
 \begin{equation}<br />
 \begin{pmatrix} 1 &amp; 1 \\ 0 &amp; 0 \end{pmatrix} = \begin{pmatrix} 1 \\ 0 \end{pmatrix} \otimes \begin{pmatrix} 1 \\ 1 \end{pmatrix}<br />
 \end{equation}<br />
-Die Transformation hat dabei mehrere Nummerierungen miteinander in Beziehung gebracht. Sie hat nicht einfach die Indizes des ersten Vektors getauscht \(1 \leftrightarrow 2\) oder die des zweiten Vektors. Sie hat die Indizes des ersten Vektors getauscht nur dort, wo der Index des zweiten Vektors 2 gewesen ist.</p>
-<h2>Vektoren aus Funktionen: die Kopplung zweier Spinoren</h2>
-<p>... (hier geht's weiter)...</p>
-<h2>Erwartungswerte</h2>
-<p>... hoffentlich bald...</p>
-<p><strong>Verschränkung ist nichts Absolutes. Sie beinhaltet immer die gerade gewählte Sicht.</strong></p>
+Die Transformation hat dabei mehrere Nummerierungen miteinander in Beziehung gebracht. Sie hat nicht einfach die Indizes des ersten Tupels getauscht \(1 \leftrightarrow 2\) oder die des zweiten Tupels. Sie hat die Indizes des ersten Tupels getauscht nur dort, wo der Index des zweiten Tupels 2 gewesen ist.</p>
+<h2>Verschränkte Vektoren</h2>
+<p>In der Quantentheorie stehen Zahlentupel oder Funktionen für die Entwicklung abstrakter Hilbertraum-Vektoren nach bestimmten Basissystemen. „abstrakt“ ist dabei höchstens im Sinne von „verallgemeinert“ zu lesen: eine verallgemeinerte Schreibweise im Gegensatz zu den vielen gleichwertigen Schreibweisen, die sich auf eine Basis festgelegt haben. Keinesfalls ist es im Sinne von „mit weniger Bezug zur Wirklichkeit“ zu lesen! Vielmehr ist es genau anders herum: der abstrakte Formalismus enthält alles, was wesentlich ist, enthält den Kern, der nah an der Wirklichkeit ist. Der Kern ist die Algebra, die Festlegung auf eine bestimmte Basis gehört eher in das Reich der Fantasie. Wir müssen somit zeigen, dass das oben Gesagte auch im abstrakten Formalismus Bestand hat.</p>
+<p>Ausgehend von einem höherdimensionalen Hilbertraum \(\mathbb{H}\) kann man sich diesen als aus weniger dimensionalen Hilberträumen zusammengesetzt denken \(\mathbb{H}\ = \mathbb{H_1}\ \otimes \mathbb{H_2}\). Zum Beispiel kann ein zwölfdimensionaler Hilbertraum aus dem Produkt eines dreidimensionalen mit einem vierdimensionalen entstehen. Die Aufteilung ist aber nicht eindeutig, wir könnten ihn zum Beispiel in einen zwei- und einen sechsdimensionalen Raum teilen. Die Entwicklung eines beliebigen Produktraum-Vektors \(|\psi &gt;\) (<em>hier kontinuierlich, d.h. in der Darstellung einer Funktion</em>) nach einer bestimmten Basis \(\{ u_{r_i} \}\) der Teilräume wäre<br />
+\begin{equation}<br />
+\psi(r_1,r_2) = \sum_{ij} c_{ij} \phi_i(r_1) \chi_j(r_2) =  \sum_{ij} c_{ij} &lt; u_{r_1} | \phi_i &gt;  &lt; u_{r_2} | \chi_j &gt; = \sum_{ij} c_{ij} &lt; u_{r_1} \otimes u_{r_2} | \phi_i \otimes \chi_j &gt; = &lt; u_{r_1,r_2} | \psi &gt;<br />
+\end{equation}<br />
+Eine andere Aufteilung wäre<br />
+\begin{equation}<br />
+\tilde{\psi}(r,R) = \sum_{ij} d_{ij} \tilde{\phi}_i(r) \tilde{\chi}_j(R) =  \sum_{ij} d_{ij} &lt; u_{r} | \tilde{\phi}_i &gt;  &lt; u_{R} | \tilde{\chi}_j &gt; = \sum_{ij} d_{ij} &lt; u_{r} \otimes u_{R} | \tilde{\phi}_i \otimes \tilde{\chi}_j &gt;  = &lt; u_{r,R} | \psi &gt;<br />
+\end{equation}<br />
+In der unteren Gleichung haben wir Tilde-Zeichen benutzt, um anzuzeigen, dass die funktionalen Abhängigkeiten und Vektoren andere sind als in der oberen. Diese Unterscheidung wird in der Literatur oft weggespart. <strong>Wichtig</strong>: ganz rechts steht <strong>derselbe </strong> abstrakte Hilbertraumvektor \(|\psi &gt;\). Unsere Koordinaten-Transformation auf Schwerpunkt- und Relativkoordinaten<br />
+\begin{equation}<br />
+\begin{Bmatrix} r_1 \\ r_2 \end{Bmatrix} \mapsto \begin{Bmatrix} r=r(r_1,r_2) \\ R=R(r_1,r_2) \end{Bmatrix}<br />
+\end{equation}<br />
+bedeutet für den Produktraum, dass wir ihn auf verschiedene Arten in 2 Teile teilen, wobei es kein Kriterium gibt, nach dem eine bestimmte Art zu bevorzugen wäre. Unsere Koordinaten-Transformation definiert einen abstrakten Transformationsoperator \(\hat{T}\) mit den Matrixelementen:<br />
+\begin{equation}<br />
+\tilde{\psi}(r,R) = \int \int dr_1 dr_2 T(r,R,r_1,r_2) \psi(r_1,r_2)<br />
+\end{equation}<br />
+Die Basisvektoren transformieren sich mit der inversen Matrix. Im Produktraum bedeutet unsere Transformation also nichts anderes als einen ganz gewöhnlichen Basiswechsel, während er gleichzeitig für eine andere gedachte Aufteilung des Produktraums in Teilräume steht, wobei wiederum bei einer Aufteilung Verschränkung der Teilvektoren vorliegen kann und gleichzeitig bei der anderen nicht. Das ist das Fazit dieses Abschnitts.</p>
+<p>Ein Beispiel mit 3 Qubits und deren Entropien im Hilbertraumformalismus findet sich in [<a href="Quellen#Rieder">Rieder</a> 9.3.1]. </p>
+<table><tr><td>
+Wenn wir uns so ein Beispiel verbildlichen, hier mit einem Hilbertraum, der das Produkt aus 12 Unterräumen sein soll, dann sieht es so aus wie im Bild rechts. Ein Vektor \(|\psi &gt;\) könnte bei der Aufteilung links verschränkt erscheinen, während er bei der Aufteilung rechts in Faktoren zerlegt werden kann. Für einen anderen Vektor könnte es genau umgekehrt sein.
+</td>
+<td>
+<img align="center" width="400" src="sites/default/files/pictures/Verschraenkung.png" /></td>
+</tr></table><p><strong>Verschränkung ist nichts Absolutes. Sie beinhaltet immer die gerade gewählte Sicht.</strong> In hochdimensionalen und unendlichdimensionalen Hilberträumen ist Verschränkung der Regelfall, denn es gibt immer viel mehr mögliche Aufteilungen, bei denen ein bestimmter Zustand nicht in Faktoren zerfällt. </p>
+<h2>Versteckte Verschränkung</h2>
+<p>... hoffentlich bald...<br />
+Verschränkung versteckt in Massenkonstanten, die Energieerwartungswerte gebildet in verschränkten Zuständen sind.</p>
 <p>Hier geht's weiter...</p>
 <p>Beleuchten:<br />
 - nicht-relat. QM so formuliert, dass Zeit immer entschränkt. Was bedeutet eine Verschränkung der Zeit mit dem Rest?<br />
 - Interferenzterme in den Zweiformen.<br />
 - "Verschränkung" Vielteilchen QM wegen Symmetrierung Produktraum auch ohne WW zwischen den Räumen</p>
-<p>Dekohärenz</p>
-<p>Schrödingerkatze mit Dekohärenz und Vielbewusstsein</p>
+<p>Dekohärenz hier?</p>
 </div></div></div></div>  </div>
 
   <div class="clearfix">

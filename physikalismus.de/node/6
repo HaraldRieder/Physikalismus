@@ -62,7 +62,7 @@ MathJax.Hub.Config({
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"rWhP_Sh07q_d12ZlMYtY7JfTxFHe2VPYS_Zhr-n7w7c","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/node\/6":true,"\/Ich?destination=node\/6":true}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"pLiztu08-uuyvNLxuSBE6WYNyKdO8ETdeKOndRO6LdM","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/node\/6":true,"\/Ich?destination=node\/6":true}});
 //--><!]]>
 </script>
 </head>
@@ -104,7 +104,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
   <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
  <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-QZCln-mnnSfvcuH8bMTgU2D1ISQltmvAgg7_GCjTASo" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-onUbvFtEFYCzMiV_y1GQj-DzSar-Bu_MxLrzNwFab6A" />
 <input type="hidden" name="form_id" value="search_block_form" />
 </div>
 </div></form>  </div>
@@ -127,7 +127,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
 <li class="collapsed"><a href="../Gleichnisse" title="Gleichnisse für Physiker von einem Physiker über Physik">Gleichnisse</a></li>
 <li class="leaf"><a href="../Ethik" title="Was sollen wir tun?">gut &amp; böse</a></li>
 <li class="leaf active-trail"><a href="../Ich" title="Was ist das Ich?" class="active-trail active">Ich</a></li>
-<li class="leaf"><a href="../Information" title="Baustelle">Information</a></li>
+<li class="collapsed"><a href="../Information" title="Baustelle">Information</a></li>
 <li class="leaf"><a href="../Jesus" title="Wie ich mir Jesus vorstelle">Jesus</a></li>
 <li class="leaf"><a href="../Juristerei" title="Kann richtig geurteilt werden?">Juristerei</a></li>
 <li class="leaf"><a href="../Kampf" title="Die falsche Idee vom totalen Frieden">Kampf</a></li>
@@ -138,7 +138,8 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
 <li class="leaf"><a href="../Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen">Reduktionismus</a></li>
 <li class="leaf"><a href="../Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
 <li class="leaf"><a href="../Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
-<li class="last leaf"><a href="../Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+<li class="leaf"><a href="../Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+<li class="last leaf"><a href="../Leben" title="Was ist Leben?">Leben</a></li>
 </ul>  </div>
 </div>
 <div id="block-user-login" class="block block-user clearfix">
@@ -155,7 +156,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
  <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
 </div>
 <div class="item-list"><ul><li class="first last"><a href="../user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
-</ul></div><input type="hidden" name="form_build_id" value="form-ZxNkP2DxLW5mJu9rkPIb_PayHYe7JJsNWMacnX6Sfz8" />
+</ul></div><input type="hidden" name="form_build_id" value="form-H24Puj3UVS-oSYEKE8kLvm3jZ_lzrKL05Mtg9UMJsMw" />
 <input type="hidden" name="form_id" value="user_login_block" />
 <div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
 </div>
@@ -184,8 +185,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
 <p>Das Gehirn darf nicht getauscht werden. Das Ich hängt nicht nur mit bestimmten augenblicklichen Vorstellungen zusammen, sondern zu einem viel größeren Teil mit Erinnerungen. Diese Erinnerungen müssen irgendwo gespeichert sein, zum Beispiel in einem Gehirn. Die Vorstellung vom Ich wird größtenteils aus Erinnerungen zusammengezimmert.</p>
 <p>Welchen Sinn hat die Vorstellung von einem Ich, zu dem nicht nur das Gehirn mit seinen Erinnerungen, sondern zudem ein tierischer Leib gehört? Das Ich, Schmerz und Angst schützen die komplexe Form, die menschliche Lebensform. Diese gilt es zu erhalten, das ist der „Selbsterhaltungstrieb“. Würde sich der Leib auflösen oder zu sehr verstümmelt werden, dann kann es mit der Fortpflanzung nicht mehr klappen, entweder weil der Körper für den Geschlechtsakt zu kaputt ist oder sich weniger verstümmelte Körper durchsetzen. Die Vorstellung vom Ich ist damit ein Diener der leiblichen Form.</p>
 <p><cite>Wie eine Spinne in der Mitte ihres Netzes spürt, sobald eine Fliege einen der Fäden zerreißt, und darum schnell herzueilt, als wäre sie besorgt um den zerrissenen Faden, so wandert die Seele des Menschen, falls ein Körperteil verletzt ist, eilends dorthin, gleichsam empört über die Verletzung des Körpers, mit dem sie fest und nach bestimmtem Sinn verbunden ist.<br /></cite> [Heraklit-F]</p>
-<p><cite>... sondern vom Strome der Guna's fortgerissen und besudelt, wird er haltlos, schwankend, gebrochen, begehrlich, ungesammelt, und in den Wahn [des Ichbewußtseins] verfallend wähnt er: 'ich<br />
-bin dieser, mein ist dieses'; und bindet sich selbst durch sich selbst wie ein Vogel durch das Netz;<br /></cite> [Maytrayana-Upanishad, Dritter Prapathaka]</p>
+<p><cite>... sondern vom Strome der Guna's fortgerissen und besudelt, wird er haltlos, schwankend, gebrochen, begehrlich, ungesammelt, und in den Wahn [des Ichbewußtseins] verfallend wähnt er: 'ich bin dieser, mein ist dieses'; und bindet sich selbst durch sich selbst wie ein Vogel durch das Netz;<br /></cite> [Maytrayana-Upanishad, Dritter Prapathaka]</p>
 <p>Das Gleiche gilt für den Verstand. Würde der nicht mehr nach seiner evolutionären Bestimmung funktionieren, so würde die Lebensform an ihrer eigenen Zerstörung arbeiten oder zumindest ihre Fortpflanzung verhindern. Der „gesunde“ Menschenverstand hat Angst vor Geisteskrankheiten und stellt sich in den Dienst der Evolution.</p>
 <p>Der Wille des Menschen ist die bewusst wahrgenommene Richtung der Naturkräfte. Es gibt eine Verbindung zwischen dem Willen und dem Ich: nicht nur stellt sich der Mensch vor, dass er einen Willen <em>hat</em>. Das Abgeteilte, das Ich endet vielmehr in der Regel dort, wo der Wille endet. Naturgegeben ist dies der tierische Leib, dessen Aktoren sehr unmittelbar den wahrgenommenen Willen in Wirkung umsetzen können und dessen Sensoren eine Rückmeldung über den Erfolg geben, als lustvolle oder schmerzvolle Empfindung. Wird erfahren, dass der Wille direkt genug über den eigenen Leib hinauswirkt, so kann die Vorstellung vom Ich Substanz außerhalb des tierischen Leibs beinhalten: zum Beispiel das Automobil, das man lenkt (<cite>er hat <strong>mich</strong> gerammt</cite>) oder bei einem König dessen Hofstaat, die Leibgarde, den gesamten Staat.</p>
 <p><cite>Und als Amazja vom Siege über die Edomiter wiederkam, brachte er die Götter der Leute von Seïr mit und stellte sie sich als Götter auf und betete sie an und opferte ihnen...<br />

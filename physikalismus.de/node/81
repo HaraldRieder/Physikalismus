@@ -62,7 +62,7 @@ MathJax.Hub.Config({
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"2cQ8Sn-9LLoUsENbKUCGYr_hOq91Ow5h6I0qw6i3KKA","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/node\/81":true,"\/Ganzheit?destination=node\/81":true}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"AibNDNBm44c5vezwUIA-IrAhgI-W3Q_XtZ66KJgQHX0","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/node\/81":true,"\/Ganzheit?destination=node\/81":true}});
 //--><!]]>
 </script>
 </head>
@@ -104,7 +104,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
   <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
  <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-JiJTHZ-xYX1n4LKLZnWuYnJ2RzcZ4AhEihDyNwkCsS4" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-9QDnfmEDkCUaj3gsnYlTz80VX4j9S3J_fNpJlXWeVAM" />
 <input type="hidden" name="form_id" value="search_block_form" />
 </div>
 </div></form>  </div>
@@ -127,7 +127,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
 <li class="collapsed"><a href="../Gleichnisse" title="Gleichnisse für Physiker von einem Physiker über Physik">Gleichnisse</a></li>
 <li class="leaf"><a href="../Ethik" title="Was sollen wir tun?">gut &amp; böse</a></li>
 <li class="leaf"><a href="../Ich" title="Was ist das Ich?">Ich</a></li>
-<li class="leaf"><a href="../Information" title="Baustelle">Information</a></li>
+<li class="collapsed"><a href="../Information" title="Baustelle">Information</a></li>
 <li class="leaf"><a href="../Jesus" title="Wie ich mir Jesus vorstelle">Jesus</a></li>
 <li class="leaf"><a href="../Juristerei" title="Kann richtig geurteilt werden?">Juristerei</a></li>
 <li class="leaf"><a href="../Kampf" title="Die falsche Idee vom totalen Frieden">Kampf</a></li>
@@ -138,7 +138,8 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
 <li class="leaf"><a href="../Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen">Reduktionismus</a></li>
 <li class="leaf"><a href="../Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
 <li class="leaf"><a href="../Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
-<li class="last leaf"><a href="../Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+<li class="leaf"><a href="../Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+<li class="last leaf"><a href="../Leben" title="Was ist Leben?">Leben</a></li>
 </ul>  </div>
 </div>
 <div id="block-user-login" class="block block-user clearfix">
@@ -155,7 +156,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
  <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
 </div>
 <div class="item-list"><ul><li class="first last"><a href="../user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
-</ul></div><input type="hidden" name="form_build_id" value="form-3FZHi03dLJ5kK6Gko7RrS2krIcPhihRpWiawK3rTCEU" />
+</ul></div><input type="hidden" name="form_build_id" value="form-bU6adDYDSkhm8ArO_yxcXAXxzdPyOUqP0o6a27dFLQI" />
 <input type="hidden" name="form_id" value="user_login_block" />
 <div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
 </div>
@@ -244,14 +245,14 @@ Wir können das mit beliebig vielen Koordinaten weitertreiben. Schwingungen in F
 Zum Beispiel mit diesen Definitionen<br />
 \begin{equation}<br />
 \hat{O} := \begin{pmatrix}<br />
-0 &amp;&amp; \frac{\partial}{\partial x} &amp;&amp; \frac{\partial}{\partial y} &amp;&amp; \frac{\partial}{\partial z} &amp;&amp; 0 &amp;&amp; 0 &amp;&amp; 0 &amp;&amp; 0 \\<br />
-0 &amp;&amp; -\mu _0\varepsilon _0\frac{\partial}{\partial t} &amp;&amp; 0 &amp;&amp; 0 &amp;&amp; 0 &amp;&amp; 0 &amp;&amp; -\frac{\partial}{\partial z} &amp;&amp; \frac{\partial}{\partial y} \\<br />
-0 &amp;&amp; 0 &amp;&amp; -\mu _0\varepsilon _0\frac{\partial}{\partial t} &amp;&amp; 0 &amp;&amp; 0 &amp;&amp; \frac{\partial}{\partial z} &amp;&amp; 0 &amp;&amp; -\frac{\partial}{\partial x} \\<br />
-0 &amp;&amp; 0 &amp;&amp; 0 &amp;&amp; -\mu _0\varepsilon _0\frac{\partial}{\partial t} &amp;&amp; 0 &amp;&amp; -\frac{\partial}{\partial y} &amp;&amp; \frac{\partial}{\partial x} &amp;&amp; 0 \\<br />
-0 &amp;&amp; 0 &amp;&amp; 0 &amp;&amp; 0 &amp;&amp; 0 &amp;&amp; \frac{\partial}{\partial x} &amp;&amp; \frac{\partial}{\partial y} &amp;&amp; \frac{\partial}{\partial z} \\<br />
-0 &amp;&amp; 0 &amp;&amp; -\frac{\partial}{\partial z} &amp;&amp; \frac{\partial}{\partial y} &amp;&amp; 0 &amp;&amp; \frac{\partial}{\partial t} &amp;&amp; 0 &amp;&amp; 0 \\<br />
-0 &amp;&amp; \frac{\partial}{\partial z} &amp;&amp; 0 &amp;&amp; -\frac{\partial}{\partial x} &amp;&amp; 0 &amp;&amp; 0 &amp;&amp; \frac{\partial}{\partial t} &amp;&amp; 0 \\<br />
-0 &amp;&amp; -\frac{\partial}{\partial y} &amp;&amp; \frac{\partial}{\partial x} &amp;&amp; 0 &amp;&amp; 0 &amp;&amp; 0 &amp;&amp; 0 &amp;&amp; \frac{\partial}{\partial t}<br />
+0 &amp; \frac{\partial}{\partial x} &amp; \frac{\partial}{\partial y} &amp; \frac{\partial}{\partial z} &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\<br />
+0 &amp; -\mu _0\varepsilon _0\frac{\partial}{\partial t} &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; -\frac{\partial}{\partial z} &amp; \frac{\partial}{\partial y} \\<br />
+0 &amp; 0 &amp; -\mu _0\varepsilon _0\frac{\partial}{\partial t} &amp; 0 &amp; 0 &amp; \frac{\partial}{\partial z} &amp; 0 &amp; -\frac{\partial}{\partial x} \\<br />
+0 &amp; 0 &amp; 0 &amp; -\mu _0\varepsilon _0\frac{\partial}{\partial t} &amp; 0 &amp; -\frac{\partial}{\partial y} &amp; \frac{\partial}{\partial x} &amp; 0 \\<br />
+0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; \frac{\partial}{\partial x} &amp; \frac{\partial}{\partial y} &amp; \frac{\partial}{\partial z} \\<br />
+0 &amp; 0 &amp; -\frac{\partial}{\partial z} &amp; \frac{\partial}{\partial y} &amp; 0 &amp; \frac{\partial}{\partial t} &amp; 0 &amp; 0 \\<br />
+0 &amp; \frac{\partial}{\partial z} &amp; 0 &amp; -\frac{\partial}{\partial x} &amp; 0 &amp; 0 &amp; \frac{\partial}{\partial t} &amp; 0 \\<br />
+0 &amp; -\frac{\partial}{\partial y} &amp; \frac{\partial}{\partial x} &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; \frac{\partial}{\partial t}<br />
 \end{pmatrix} \quad\quad<br />
 \psi := \begin{pmatrix}<br />
 0 \\ E_x(\vec{r},t) \\ E_y(\vec{r},t) \\ E_z(\vec{r},t)  \\ 0 \\ B_x(\vec{r},t) \\ B_y(\vec{r},t) \\ B_z(\vec{r},t)<br />
@@ -264,17 +265,17 @@ lassen sich die Maxwell-Gleichungen ganz schnell auf die Kurzform \( \hat{O} \ps
 \begin{equation}<br />
 F := \left({\begin{matrix}0&amp;-E_{x}/c&amp;-E_{y}/c&amp;-E_{z}/c\\E_{x}/c&amp;0&amp;-B_{z}&amp;B_{y}\\E_{y}/c&amp;B_{z}&amp;0&amp;-B_{x}\\E_{z}/c&amp;-B_{y}&amp;B_{x}&amp;0\\\end{matrix}}\right)<br />
 \quad\quad<br />
-F^* := \left[{\begin{matrix}0&amp;-B_{x}&amp;-B_{y}&amp;-B_{z}\\B_{x}&amp;0&amp;E_{z}/c&amp;-E_{y}/c\\B_{y}&amp;-E_{z}/c&amp;0&amp;E_{x}/c\\B_{z}&amp;E_{y}/c&amp;-E_{x}/c&amp;0\\\end{matrix}}\right]<br />
+F^* := \left({\begin{matrix}0&amp;-B_{x}&amp;-B_{y}&amp;-B_{z}\\B_{x}&amp;0&amp;E_{z}/c&amp;-E_{y}/c\\B_{y}&amp;-E_{z}/c&amp;0&amp;E_{x}/c\\B_{z}&amp;E_{y}/c&amp;-E_{x}/c&amp;0\\\end{matrix}}\right)<br />
 \quad\quad<br />
 c := \frac{1}{\sqrt{\mu _0\varepsilon _0}}<br />
 \end{equation}<br />
 und wir können durch die Definitionen<br />
 \begin{equation}<br />
 \hat{O} := \begin{pmatrix}<br />
-\frac{\partial}{\partial t} &amp;&amp; -\frac{\partial}{\partial x} &amp;&amp; -\frac{\partial}{\partial y} &amp;&amp; -\frac{\partial}{\partial z} &amp;&amp;<br />
-\frac{\partial}{\partial t} &amp;&amp; -\frac{\partial}{\partial x} &amp;&amp; -\frac{\partial}{\partial y} &amp;&amp; -\frac{\partial}{\partial z}<br />
+\frac{\partial}{\partial t} &amp; -\frac{\partial}{\partial x} &amp; -\frac{\partial}{\partial y} &amp; -\frac{\partial}{\partial z} &amp;<br />
+\frac{\partial}{\partial t} &amp; -\frac{\partial}{\partial x} &amp; -\frac{\partial}{\partial y} &amp; -\frac{\partial}{\partial z}<br />
 \end{pmatrix} \quad\quad<br />
-\psi := \begin{pmatrix} F &amp;&amp; 0 \\ 0 &amp;&amp; F^* \end{pmatrix} \quad\quad<br />
+\psi := \begin{pmatrix} F &amp; 0 \\ 0 &amp; F^* \end{pmatrix}<br />
 \end{equation}<br />
 sowie einer passenden Definition für j die 8 Gleichungen wieder auf die Form \( \hat{O} \psi = j \) bringen. Doch was ist nun die Botschaft?</p>
 <p>So lange die Ladungs- und Stromdichten von außen aufgeprägt sind, überlagern sich die Lösungen unabhängig voneinander. Wenn ein Stern Licht in's All aussendet, dann kann man ihn als vorgegebene Ladungs- und Stromdichten auf dem Rand eines Gebietes, des Alls, modellieren: \( j_1 \). Bezeichnen wir die Lösung der Maxwell-Gleichungen, die sich daraus ergibt, mit \( \psi_1 \). Ein zweiter Stern  \( j_2 \) soll dagegen zur Lösung \( \psi_2 \) führen. Wenn wir das Licht in einem Teleskop auffangen, dann „sehen“ wir: 2 Sterne. Wir sehen \(  \hat{O} \psi = j = j_1 + j_2 = \hat{O} \psi_1 + \hat{O} \psi_2 =  \hat{O} (\psi_1 + \psi_2) \). Wären die Maxwell-Gleichungen nichtlinear, dann würden wir vielleicht 4 statt 2 Bildpunkte sehen. Wir könnten eventuell immer noch mit Hilfe unserer Mathematik darauf schließen, dass 2 Sterne da sein müssen. Eventuell hätte sich unser Leib im Lauf der Evolution darauf eingestellt, und wir würden wie selbstverständlich in 4 Bildpunkten sofort und ohne Umwege 2 Sterne erkennen. Bei hoher Intensität der Strahlung wird sich wahrscheinlich chaotisches Verhalten einstellen. Unsere Mathematik und unser Leib würden versagen beim Versuch, im empfangenen Licht etwas anderes zu erkennen als das empfangene Licht. Wäre das chaotische Verhalten das Normalverhalten, dann wären bislang nur ein paar Verrückte zur Ansicht gelangt, dass der Himmel mit einzelnen Sternen bevölkert sei.</p>

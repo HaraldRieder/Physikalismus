@@ -1,0 +1,276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../sites/default/files/pyramid_power.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="89" />
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ['tex2jax.js'],
+  jax: ['input/TeX','output/HTML-CSS'],
+  tex2jax: {
+    inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+    processEscapes: true,
+    processClass: 'tex2jax',
+    ignoreClass: 'html'
+  },
+  showProcessingMessages: false,
+  messageStyle: 'none'
+});
+</script><meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="../Loecher" />
+  <title>Was sagt uns die Entropie schwarzer Löcher? | Physikalismus</title>
+  <style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/system/system.base.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.menus.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.messages.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.theme.css?obwofu");
+</style>
+<style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/comment/comment.css?obwofu");
+@import url("http://physikalismus.de/modules/field/theme/field.css?obwofu");
+@import url("http://physikalismus.de/modules/node/node.css?obwofu");
+@import url("http://physikalismus.de/modules/search/search.css?obwofu");
+@import url("http://physikalismus.de/modules/user/user.css?obwofu");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/default/files/color/garland-b0e715b8/style.css?obwofu");
+</style>
+<style type="text/css" media="print">
+@import url("http://physikalismus.de/themes/garland/print.css?obwofu");
+</style>
+
+<!--[if lt IE 7]>
+<link type="text/css" rel="stylesheet" href="http://physikalismus.de/themes/garland/fix-ie.css?obwofu" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?obwofu"></script>
+<script type="text/javascript" src="../sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js?obwofu"></script>
+<script type="text/javascript" src="../sites/all/modules/mathjax/mathjax.js?obwofu"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"oZV3zAA8687oGIiq2kAJ4SP6I2NCy3yrboZYmoWGNFY","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/node\/89":true,"\/Loecher?destination=node\/89":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-89 node-type-page fluid-width" >
+  <div id="skip-link">
+    <a href="89#main-content" class="element-invisible element-focusable">Direkt zum Inhalt</a>
+  </div>
+      
+  <div id="wrapper">
+    <div id="container" class="clearfix">
+
+      <div id="header">
+        <div id="logo-floater">
+                              <div id="branding"><strong><a href="../index.html">
+                          <img src="../sites/default/files/pyramid_power.png" alt=" " title=" " id="logo" />
+                                    </a></strong></div>
+                          </div>
+
+        <h2 class="element-invisible">Hauptmenü</h2><ul class="links inline main-menu"><li class="menu-218 first"><a href="../index.html" title="">Start</a></li>
+<li class="menu-467"><a href="../tracker" title="">Neuester Inhalt</a></li>
+<li class="menu-468"><a href="../Baustellen" title="Meine Hausaufgaben">Baustellen</a></li>
+<li class="menu-310"><a href="../Quellen">Quellen</a></li>
+<li class="menu-311"><a href="../Zitate">Zitate</a></li>
+<li class="menu-469"><a href="../Begriffe" title="Wie die Wörter an diesem Ort gemeint sind, 
+erklärt durch noch mehr Wörter.">Begriffe</a></li>
+<li class="menu-410"><a href="../Bibliothek" title="Zum Verständnis Dienliches an diesem Ort Archiviertes">Bibliothek</a></li>
+<li class="menu-423 last"><a href="../Impressum">Impressum</a></li>
+</ul>              </div> <!-- /#header -->
+
+              <div id="sidebar-first" class="sidebar">
+            <div class="region region-sidebar-first">
+    <div id="block-search-form" class="block block-search clearfix">
+
+    
+  <div class="content">
+    <form action="89" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Suchformular</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
+ <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-_khNuaaBr5LZKRH3nUe68MSc8EJHMX87rKThHpJBfZU" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-system-navigation" class="block block-system block-menu clearfix">
+
+    <h2 class="title">Navigation</h2>
+  
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="../Bewusstsein" title="Gedanken über den Geist">Bewusstsein</a></li>
+<li class="leaf"><a href="../Dao" title="Der Weg zur Erkenntnis">Dao</a></li>
+<li class="leaf"><a href="../Denken" title="Muss Denken immer in einem engen Raumgebiet stattfinden?">Denken</a></li>
+<li class="leaf"><a href="../Energie" title="Ein Wort zur Energie">Energie</a></li>
+<li class="leaf"><a href="../Erloesung" title="Wie kann das Abgeteilte erlöst werden?">Erlösung</a></li>
+<li class="leaf"><a href="../Erwachsenwerden" title="Erwachsenwerden in der Begrifflichkeit des Schopenhauerschen Willens">Erwachsenwerden</a></li>
+<li class="leaf"><a href="../Freunde" title="Wie Freunde uns in die Irre führen">Freunde</a></li>
+<li class="leaf"><a href="../Ganzheit" title="Nichlinearität erzwingt Ganzheit">Ganzheit</a></li>
+<li class="leaf"><a href="../Geister" title="Wann ist ein Geist ein Geist?">Geister</a></li>
+<li class="leaf"><a href="../Geld" title="Preis als Energie und Geld als Software">Geld</a></li>
+<li class="collapsed"><a href="../Gleichnisse" title="Gleichnisse für Physiker von einem Physiker über Physik">Gleichnisse</a></li>
+<li class="leaf"><a href="../Ethik" title="Was sollen wir tun?">gut &amp; böse</a></li>
+<li class="leaf"><a href="../Ich" title="Was ist das Ich?">Ich</a></li>
+<li class="expanded active-trail"><a href="../Information" title="Baustelle" class="active-trail">Information</a><ul class="menu"><li class="first leaf"><a href="../Kopieren" title="Kann Information kopiert werden?">Kopieren</a></li>
+<li class="leaf"><a href="../Entropie" title="Wächst die Entropie?">ΔS ≥ 0</a></li>
+<li class="last leaf active-trail"><a href="../Loecher" title="Was sagt uns die Entropie schwarzer Löcher?" class="active-trail active">Löcher</a></li>
+</ul></li>
+<li class="leaf"><a href="../Jesus" title="Wie ich mir Jesus vorstelle">Jesus</a></li>
+<li class="leaf"><a href="../Juristerei" title="Kann richtig geurteilt werden?">Juristerei</a></li>
+<li class="leaf"><a href="../Kampf" title="Die falsche Idee vom totalen Frieden">Kampf</a></li>
+<li class="leaf"><a href="../Leben" title="Was ist Leben?">Leben</a></li>
+<li class="collapsed"><a href="../Masse" title="Wie sich die Masse in ein Geflecht auflöst">Masse</a></li>
+<li class="collapsed"><a href="../Mechanik" title="Was man von der klassischen Mechanik noch lernen kann">Mechanik</a></li>
+<li class="leaf"><a href="../N" title="Was an den natürlichen Zahlen unnatürlich ist">N</a></li>
+<li class="collapsed"><a href="../Quantenmechanik" title="Die philosophischen Konsequenzen aus der Quantenmechanik">Quanten</a></li>
+<li class="leaf"><a href="../Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen">Reduktionismus</a></li>
+<li class="leaf"><a href="../Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
+<li class="leaf"><a href="../Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
+<li class="leaf"><a href="../Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+<li class="last leaf"><a href="../Koernung" title="Argumente für eine Körnung der Natur">Körnung</a></li>
+</ul>  </div>
+</div>
+<div id="block-user-login" class="block block-user clearfix">
+
+    <h2 class="title">Benutzeranmeldung</h2>
+  
+  <div class="content">
+    <form action="http://physikalismus.de/Loecher?destination=node/89" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Benutzername <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">Passwort <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="first last"><a href="../user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
+</ul></div><input type="hidden" name="form_build_id" value="form-uuykOUfp3mKVV4vLZJJhLG-jyksH0Vjr-oz8gr9kkAs" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
+</div>
+  </div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <h2 class="element-invisible">Sie sind hier</h2><div class="breadcrumb"><a href="../index.html">Startseite</a> › <a href="../Information" title="Baustelle" class="active-trail">Information</a></div>                    <a id="main-content"></a>
+          <div id="tabs-wrapper" class="clearfix">                                <h1 class="with-tabs">Was sagt uns die Entropie schwarzer Löcher?</h1>
+                              </div>                                                  <div class="clearfix">
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <div id="node-89" class="node node-page" about="/Loecher" typeof="foaf:Document">
+
+  
+      <span property="dc:title" content="Was sagt uns die Entropie schwarzer Löcher?" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="tex2jax"><p>Hier geht es um die verschiedenen Entropien und wir wollen versuchen, diese auf einen Nenner zu bringen:</p>
+<ul><li>Entropie der klassischen Thermodynamik</li>
+<li>Entropie der Quantenstatistik</li>
+<li>Verschränkungsentropie</li>
+<li>Shannon-Entropie</li>
+<li>Entropie schwarzer Löcher</li>
+</ul><h2>Klassische Thermodynamik</h2>
+<p>"nur als Differential definiert"<br />
+kann negativ werden widerspricht Informationsinterpretation</p>
+<h2>Kanonischer Dichteoperator</h2>
+<p>Der kanonische Dichteoperator der Quantenstatistik ist derjenige Dichteoperator, der die von Neumann Entropie \( S=-\mathrm {Spur} (\rho \ln \rho) \) unter der Nebenbedingung eines konstanten Erwartungswertes des Hamilton-Operators \( \mathrm {Spur} (\rho H) = U = const. \) maximiert [<a href="http://physikalismus.de/node/Quellen#Amann">Amann 2.6</a>]. Wir wollen uns auf endlich-dimensionale Hilberträume (Dimension \(N\)) beschränken. Dort ergibt sich<br />
+\begin{equation}<br />
+\hat{\rho} = \frac{1}{Z} e^{- \frac{\hat{H}}{kT}}<br />
+\end{equation}<br />
+Dabei haben wir als Abkürzung wie üblich die Zustandssumme \( Z \equiv \sum_{i=1}^N e^{- \frac{E_i}{kT}} \) eingeführt, in der die Eigenwerte \( E_i \) das Hamilton-Operators vertreten sind. Mit der Lösung des Extremalwertproblems wird auch der Lagrange-Parameter für die Nebenbedingung festgelegt, der üblicherweise mit \( \beta \) bezeichnet wird. Ein Vergleich mit der klassischen Thermodynamik und statistischen Physik legt die Interpretation \( \beta = 1 / kT \) nahe, die wir oben bereits verwendet haben. </p>
+<p>Mit dem kanonischen Dichteoperator lässt sich die innere Energie \( U \) (also der Erwartungswert des Hamilton-Operators im kanonischen Zustand) so ausdrücken:<br />
+\begin{equation}<br />
+U(T) = \frac{1}{Z} \mathrm {Spur} ( \hat{H} e^{ \frac{\hat{H}}{kT} } ) = \frac{\sum_i E_i e^{- \frac{E_i}{kT} }}{ \sum_i e^{- \frac{E_i}{kT} } }<br />
+\end{equation}<br />
+Am einfachsten berechnet sich die Spur in der Basis der Energieeigenvektoren \( \{ |u_i&gt; \} \), in der der Hamilton-Operator die Spektraldarstellung \( \hat{H} = \sum_i E_i | u_i &gt; &lt; u_i | \) annimmt.<br />
+Die Umkehrung der obigen Gleichung \( T = T(U) \) ist die <strong>Definition der Temperatur</strong> mit den Mitteln der Quantenstatistik.</p>
+<p>Da der kanonische Dichteoperator eine Funktion allein des Hamilton-Operators ist, wird auch er in der Energiebasis diagonal. Seine Matrixelemente in dieser Basis sind<br />
+\begin{equation}<br />
+\frac{1}{Z}<br />
+\begin{pmatrix} e^{- \frac{E_1}{kT}} &amp; ... &amp; 0 \\  &amp; ... &amp;  \\ 0 &amp; ... &amp; e^{- \frac{E_N}{kT}} \end{pmatrix}<br />
+\end{equation}<br />
+Entartete Energieeigenwerte treten darin mehrfach auf (z.B. \( E_j = E_k \)).</p>
+<p>Bei einem makroskopischen System mit sehr vielen Freiheitsgraden liegen die Energieeigenwerte bei hohen Energien oft sehr dicht. In der Näherung unabhängiger Teilsysteme ist die Entartung dieser Energieeigenwerte sehr hoch. Fast alle  Energieeigenwerte, mit oder ohne Wechselwirkung zwischen Teilsystemen, finden sich also typischerweise im hohen Bereich, während der Grundzustand \( E_1 \) nicht entartet zu sein braucht. Dies entspricht vollkommen dem Sachverhalt aus der klassischen statistischen Physik, wonach eine sehr dünne Schicht um die Energiehyperfläche \( E(p_i, q_i) = U \) in einem hochdimensionalen Phasenraum fast das komplette Volumen, also fast alle Zustände mit \( E(p_i, q_i) \leq U \), beinhaltet.</p>
+<p>Am absoluten Nullpunkt wächst der Term \( e^{- \frac{E_1}{kT}} \) über alle anderen hinaus. Bei hohen Temperaturen \( kT \gg E_i \) dagegen konvergieren die \( e^{- \frac{E_i}{kT}} \) alle gegen 1. Es ergeben sich diese Grenzwerte für die Dichtmatrix</p>
+<table><tr><td>Grenzwert niedriger Temperatur \( T \rightarrow 0 \) </td>
+<td> \begin{pmatrix} 1 &amp; ... &amp; 0 \\  &amp; ... &amp;  \\ 0 &amp; ... &amp; 0 \end{pmatrix} </td>
+</tr><tr><td>Grenzwert hoher Temperatur \( T \rightarrow \infty \) </td>
+<td> \begin{pmatrix} \frac{1}{Z} &amp; ... &amp; 0 \\  &amp; ... &amp;  \\ 0 &amp; ... &amp; \frac{1}{Z} \end{pmatrix} </td>
+</tr></table><p>Natürlich erinnern diese Matrizen den Quantentheoretiker an Verschränkung. Bei \( T \rightarrow 0 \) strebt der Zustand gegen einen Projektor, er wird also zu einem reinen Zustand. \( T = 0 \) stünde dafür, dass sich das System vollkommen von der Umgebung entkoppelt hätte, der Weltzustand wäre ein Produktzustand aus System- und Umgebungszuständen. <strong>Die Unerreichbarkeit des absoluten Temperaturnullpunkts würde in dieser Interpretation der Unerreichbarkeit vollkommener Entschränkung entsprechen.</strong></p>
+<p>Diagonale Dichtematrizen, die in der Diagonale immer dieselbe Zahl enthalten, stehen für maximale Entropie. <strong>Die Unerreichbarkeit unendlicher Temperatur würde in dieser Interpretation der Unerreichbarkeit maximaler Verschränkung entsprechen.</strong></p>
+<p>In der Vergangenheit war die Interpretation des Dichteoperators allerdings eine ganz andere: ein Scharmittel sollte dieselben Zahlenwerte liefern wie das Zeitmittel eines konkreten makrospopischen Einzelsystems. Durch diese Ergodenhypothese sollte es erlaubt sein, die thermodynamischen, makroskopischen Zustandsgrößen ersatzweise aus dem Scharmittel zu gewinnen. Dieses aus der klassischen statistischen Physik bewährte, da funktionierende Konzept, wurde genau so in die Quantentheorie übernommen. Der Dichteoperator der Quantenstatistik stand für ein statistisches „Gemisch“ aus makroskopischen Quantensystemen. Auch dieser Mechanismus funktionierte, gemessen an den experimentellen Resultaten. Ein Quantensystem verhält sich aber nicht klassisch statistisch, und wir müssen uns heute fragen, warum die Quantenstatistik überhaupt funktionieren konnte. </p>
+<p>Wenn der Dichteoperator in Wirklichkeit durch Dekohärenz entsteht und keine statistische Gesamtheit repräsentiert, stellt sich allerdings die Frage, warum er in der Energiebasis diagonal werden sollte. Im Grenzfall starker Wechselwirkungen mit der Umgebung sind die Zeigerzustände Eigenzustände des Wechselwirkungsoperators [<a href="http://physikalismus.de/node/Bibliothek#Schlosshauer">Schlosshauer</a> 2.8.1]. Viele Wechselwirkungsoperatoren (mit Matrixelementen wie \( V( | r_{System} - r_{Umgebung} | \)) müssten demnach zu in der Ortsdarstellung diagonalen Dichtematrizen führen. Sind die experimentell bestätigten Ergebnisse, wenn man mit Dichtematrizen rechnet, die in der Energiedarstellung diagonal sind, nur Zufall? Das Verhältnis zwischen thermodynamischer Entropie und Verschränkung ist Gegenstand aktueller Forschung im Jahr 2018, und theoretische und experimentelle Arbeiten lassen den Zusammenhang langsam hervortreten [<a href="http://physikalismus.de/node/Quellen#Alba-Calabrese">Alba-Calabrese</a>]. </p>
+<h3>Masse</h3>
+<p>Masse ist Energie, das wissen wir als Physiker. In der klassischen Thermodynamik und statistischen Physik ist die sehr große Massenenergie \( Mc^2 \) gar nicht in den Gleichungen vertreten. Dort treten primär kinetische Terme mit „Teilchenmassen“ und vielleicht noch Wechselwirkungsterme auf. Haben wir deswegen einen Fehler gemacht?</p>
+<p>Wenn wir die Massenenergie in nicht-relativistischer Quantenmechanik berücksichtigen wollen, müssen wir die Schrödingergleichung so ändern:<br />
+\begin{equation}<br />
+\hat{H} |\psi&gt; = E_i |\psi&gt; \quad \mapsto \quad  \hat{H'} |\psi&gt; = E_i' |\psi&gt; \quad \Leftrightarrow \quad (H + Mc^2) |\psi&gt; = (E_i + Mc^2) |\psi&gt;<br />
+\end{equation}<br />
+Damit ist klar, dass die Eigenvektoren unverändert bleiben. Was geschieht mit dem Rest?</p>
+<table><tr><td>Zustandssumme</td>
+<td>\( Z' = \sum e^{- \frac{E_i + Mc^2}{kT}} = e^{- \frac{Mc^2}{kT}} Z \)<br /></td></tr><tr><td>Dichteoperator</td>
+<td>\( \hat{\rho}' = \frac{1}{Z'} e^{- \frac{ \hat{H}' }{kT}} = e^{\frac{Mc^2}{kT}} \frac{1}{Z} e^{- \frac{ \hat{H} + Mc^2 }{kT}}  = \hat{\rho} \)<br /></td></tr><tr><td>Innere Energie</td>
+<td>\( U' = \mathrm{Spur} \hat{H}'\hat{\rho}' = \mathrm{Spur} (\hat{H} + Mc^2) \hat{\rho}  = U + Mc^2 \)<br /></td></tr><tr><td>Temperatur</td>
+<td>\( U' = \frac{\sum E_i' e^{- \frac{E_i'}{kT'} }}{ \sum e^{- \frac{E_i}{kT'} } } = ... =  \frac{\sum E_i e^{- \frac{E_i}{kT'} }}{ \sum e^{- \frac{E_i}{kT'} } } + Mc^2 = U + Mc^2 \)<br /></td></tr><table>
+Das letzte Gleichheitszeichen in der unteren Zeile kann nur durch \( T' = T \) befriedigt werden. Da der Dichteoperator unverändert bleibt, gilt \( S' = S \). Temperatur und Entropie bleiben gleich. So lange man sich auf Vorgänge beschränkt, bei denen sich die Gesamtmasse nicht ändert, bleibt das thermodynamische Modell gültig. Damit wäre also alles in Butter. Oder?
+<p>Zu einfach gedacht! Ein Quantensystem, das einmal mit seiner Umgebung wechselwirkte, ist mit seiner Umgebung stark verschränkt. Ein Hamilton-Operator, in dem konstante Atom- oder Teilchenmassen auftreten, ist immer bereits ein vergröbertes Modell. Heute kann vermutlich niemand genau sagen, wie viele Freiheitsgrade dadurch unter den Tisch gefallen sind. Es könnten aber sehr viele sein! Und diese Freiheitsgrade liefern uns über ihre Verschränkung einen zusätzlichen, möglicherweise sogar  dominanten, Anteil zur Verschränkungsentropie. Das thermodynamische Modell bleibt gültig, wenn sich dieser Hintergrundanteil an der Entropie <em>bei den betrachteten Vorgängen</em> nicht ändert. Doch ist zu erwarten, dass bei höheren Temperaturen die in den Teilchen versteckten Freiheitsgrade maßgeblich werden. In völliger Analogie wie beim Übergang von \( U = 3/2 kT \) nach \( U = 5/2 kT \) für die innere Energie zweiatomiger Gase, die durch die Anregung eingefrorener Rotationsfreiheitsgrade erklärt werden kann [<a href="http://physikalismus.de/node/Quellen#Becker">Becker</a> (24.9) u. (24.10)], müssen sich thermische Eigenschaften ändern, wenn durch hohe Temperaturen Strange-Quarkzustände angeregt werden.</p>
+<p>Wir müssen uns den Dichteoperator eines makroskopischen Systems also eher so vorstellen<br />
+\begin{equation}<br />
+\frac{1}{Z}<br />
+\begin{pmatrix}<br />
+\rho &amp; 0 \\<br />
+0 &amp; \rho_{versteckt}<br />
+\end{pmatrix}<br />
+\end{equation}<br />
+Links oben stehen die Elemente, die wir bereits kennen. Rechts unten stehen ein Haufen versteckte Elemente, die bei „gewöhnlichen“ Temperaturen nichts beitragen (auch nicht zur Zustandssumme), da für die entsprechenden Eigenwerte \( E_j \gg kT \) gilt. Außerdem gilt für Eigenwerte \(E_j\) rechts unten, dass sie groß gegenüber den Eigenwerten \(E_i\), die links oben auftreten, sind \(E_j \gg E_i\). Und wir erinnern uns an das oben Gesagte und erwarten: die Dimension von \( \rho_{versteckt} \) ist gigantisch größer als die von \( \rho \)!</p>
+<p><em>Man könnte auch sagen: Masse ist ein Modell dafür, dass sich weder Energie noch Verschränkung bei den betrachteten Vorgängen ändern.</em></p>
+<h2>Verschränkungsentropie als Information?</h2>
+<p>Kollaps (Teilkollaps) mit c*c Diagonalelementen als Wahrscheinlichkeiten. </p>
+<h2>Entropie schwarzer Löcher</h2>
+<p>Annahme: sie sei absolut, wieviele Freiheitsgrade haben wir dann?</p>
+</table></table></div></div></div></div>  </div>
+
+  <div class="clearfix">
+          <div class="links"></div>
+    
+      </div>
+
+</div>
+  </div>
+</div>
+  </div>
+          </div>
+                      <div class="region region-footer">
+    <div id="block-system-powered-by" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+</div>
+  </div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /#container -->
+  </div> <!-- /#wrapper -->
+  </body>
+</html>

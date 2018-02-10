@@ -57,12 +57,16 @@ M_bh = M_black_hole_Schwarzschild(T)
 S_bh = S_black_hole_Schwarzschild(M_bh)/k
 R_bh = R_black_hole_Schwarzschild(M_bh)
 r = R_bh:R_bh:R_bh*100; 
-V = 4/3*pi*r.^3;
 #plot(R_bh,S_bh, r,S_ideal_gas_classic(T,V,m_sun,m_proton)/k)
 #plot(R_bh,S_bh, r,S_ideal_gas_classic(T,V,m_sun,m_proton)/k);
-S_classic = S_ideal_gas_classic(T,V,m_sun,m_proton)/k
-semilogy(R_bh,S_bh, r,S_classic);
+T = 1.6e7
+r = 1:r_sun/100:r_sun;
+S_classic = S_ideal_gas_classic(T,4/3*pi*r.^3,m_sun,m_proton)/k;
+semilogy(r,S_classic);
+#semilogy(R_bh,S_bh, r,S_classic);
+#semilogy(r,S_classic);
 
 xlabel("Radius/m");
 ylabel("Entropie");
 title("Entropie schwarzes Loch vs. klassisch");
+

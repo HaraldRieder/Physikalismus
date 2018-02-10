@@ -1,0 +1,274 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../sites/default/files/pyramid_power.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="87" />
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ['tex2jax.js'],
+  jax: ['input/TeX','output/HTML-CSS'],
+  tex2jax: {
+    inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+    processEscapes: true,
+    processClass: 'tex2jax',
+    ignoreClass: 'html'
+  },
+  showProcessingMessages: false,
+  messageStyle: 'none'
+});
+</script><meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="../Entropie" />
+  <title>Wächst die Entropie? | Physikalismus</title>
+  <style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/system/system.base.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.menus.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.messages.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.theme.css?obwofu");
+</style>
+<style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/comment/comment.css?obwofu");
+@import url("http://physikalismus.de/modules/field/theme/field.css?obwofu");
+@import url("http://physikalismus.de/modules/node/node.css?obwofu");
+@import url("http://physikalismus.de/modules/search/search.css?obwofu");
+@import url("http://physikalismus.de/modules/user/user.css?obwofu");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/default/files/color/garland-b0e715b8/style.css?obwofu");
+</style>
+<style type="text/css" media="print">
+@import url("http://physikalismus.de/themes/garland/print.css?obwofu");
+</style>
+
+<!--[if lt IE 7]>
+<link type="text/css" rel="stylesheet" href="http://physikalismus.de/themes/garland/fix-ie.css?obwofu" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?obwofu"></script>
+<script type="text/javascript" src="../sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js?obwofu"></script>
+<script type="text/javascript" src="../sites/all/modules/mathjax/mathjax.js?obwofu"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"azFb7e0oFuYRhrPrIvw4w_SISKh7wIwAc71n3suCEXg","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/node\/87":true,"\/Entropie?destination=node\/87":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-87 node-type-page fluid-width" >
+  <div id="skip-link">
+    <a href="87#main-content" class="element-invisible element-focusable">Direkt zum Inhalt</a>
+  </div>
+      
+  <div id="wrapper">
+    <div id="container" class="clearfix">
+
+      <div id="header">
+        <div id="logo-floater">
+                              <div id="branding"><strong><a href="../index.html">
+                          <img src="../sites/default/files/pyramid_power.png" alt=" " title=" " id="logo" />
+                                    </a></strong></div>
+                          </div>
+
+        <h2 class="element-invisible">Hauptmenü</h2><ul class="links inline main-menu"><li class="menu-218 first"><a href="../index.html" title="">Start</a></li>
+<li class="menu-467"><a href="../tracker" title="">Neuester Inhalt</a></li>
+<li class="menu-468"><a href="../Baustellen" title="Meine Hausaufgaben">Baustellen</a></li>
+<li class="menu-310"><a href="../Quellen">Quellen</a></li>
+<li class="menu-311"><a href="../Zitate">Zitate</a></li>
+<li class="menu-469"><a href="../Begriffe" title="Wie die Wörter an diesem Ort gemeint sind, 
+erklärt durch noch mehr Wörter.">Begriffe</a></li>
+<li class="menu-410"><a href="../Bibliothek" title="Zum Verständnis Dienliches an diesem Ort Archiviertes">Bibliothek</a></li>
+<li class="menu-423 last"><a href="../Impressum">Impressum</a></li>
+</ul>              </div> <!-- /#header -->
+
+              <div id="sidebar-first" class="sidebar">
+            <div class="region region-sidebar-first">
+    <div id="block-search-form" class="block block-search clearfix">
+
+    
+  <div class="content">
+    <form action="87" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Suchformular</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
+ <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-lyCgoBVuj3-ow_NEDkmCiOVAEJh7YdecfmfAMULWo1I" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-system-navigation" class="block block-system block-menu clearfix">
+
+    <h2 class="title">Navigation</h2>
+  
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="../Bewusstsein" title="Gedanken über den Geist">Bewusstsein</a></li>
+<li class="leaf"><a href="../Dao" title="Der Weg zur Erkenntnis">Dao</a></li>
+<li class="leaf"><a href="../Denken" title="Muss Denken immer in einem engen Raumgebiet stattfinden?">Denken</a></li>
+<li class="leaf"><a href="../Energie" title="Ein Wort zur Energie">Energie</a></li>
+<li class="leaf"><a href="../Erloesung" title="Wie kann das Abgeteilte erlöst werden?">Erlösung</a></li>
+<li class="leaf"><a href="../Erwachsenwerden" title="Erwachsenwerden in der Begrifflichkeit des Schopenhauerschen Willens">Erwachsenwerden</a></li>
+<li class="leaf"><a href="../Freunde" title="Wie Freunde uns in die Irre führen">Freunde</a></li>
+<li class="leaf"><a href="../Ganzheit" title="Nichlinearität erzwingt Ganzheit">Ganzheit</a></li>
+<li class="leaf"><a href="../Geister" title="Wann ist ein Geist ein Geist?">Geister</a></li>
+<li class="leaf"><a href="../Geld" title="Preis als Energie und Geld als Software">Geld</a></li>
+<li class="collapsed"><a href="../Gleichnisse" title="Gleichnisse für Physiker von einem Physiker über Physik">Gleichnisse</a></li>
+<li class="leaf"><a href="../Ethik" title="Was sollen wir tun?">gut &amp; böse</a></li>
+<li class="leaf"><a href="../Ich" title="Was ist das Ich?">Ich</a></li>
+<li class="expanded active-trail"><a href="../Information" title="Baustelle" class="active-trail">Information</a><ul class="menu"><li class="first leaf"><a href="../Kopieren" title="Kann Information kopiert werden?">Kopieren</a></li>
+<li class="last leaf active-trail"><a href="../Entropie" title="Wächst die Entropie?" class="active-trail active">ΔS ≥ 0</a></li>
+</ul></li>
+<li class="leaf"><a href="../Jesus" title="Wie ich mir Jesus vorstelle">Jesus</a></li>
+<li class="leaf"><a href="../Juristerei" title="Kann richtig geurteilt werden?">Juristerei</a></li>
+<li class="leaf"><a href="../Kampf" title="Die falsche Idee vom totalen Frieden">Kampf</a></li>
+<li class="leaf"><a href="../Leben" title="Was ist Leben?">Leben</a></li>
+<li class="collapsed"><a href="../Masse" title="Wie sich die Masse in ein Geflecht auflöst">Masse</a></li>
+<li class="collapsed"><a href="../Mechanik" title="Was man von der klassischen Mechanik noch lernen kann">Mechanik</a></li>
+<li class="leaf"><a href="../N" title="Was an den natürlichen Zahlen unnatürlich ist">N</a></li>
+<li class="collapsed"><a href="../Quantenmechanik" title="Die philosophischen Konsequenzen aus der Quantenmechanik">Quanten</a></li>
+<li class="leaf"><a href="../Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen">Reduktionismus</a></li>
+<li class="leaf"><a href="../Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
+<li class="leaf"><a href="../Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
+<li class="leaf"><a href="../Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+<li class="last leaf"><a href="../Koernung" title="Argumente für eine Körnung der Natur">Körnung</a></li>
+</ul>  </div>
+</div>
+<div id="block-user-login" class="block block-user clearfix">
+
+    <h2 class="title">Benutzeranmeldung</h2>
+  
+  <div class="content">
+    <form action="http://physikalismus.de/Entropie?destination=node/87" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Benutzername <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">Passwort <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="first last"><a href="../user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
+</ul></div><input type="hidden" name="form_build_id" value="form-kaRqVo_vkvDU-ZczcvENIYW6LrMXExJNi8n6XUwtrqA" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
+</div>
+  </div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <h2 class="element-invisible">Sie sind hier</h2><div class="breadcrumb"><a href="../index.html">Startseite</a> › <a href="../Information" title="Baustelle" class="active-trail">Information</a></div>                    <a id="main-content"></a>
+          <div id="tabs-wrapper" class="clearfix">                                <h1 class="with-tabs">Wächst die Entropie?</h1>
+                              </div>                                                  <div class="clearfix">
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <div id="node-87" class="node node-page" about="/Entropie" typeof="foaf:Document">
+
+  
+      <span property="dc:title" content="Wächst die Entropie?" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="tex2jax"><p>Blabla klassisches delta S &gt;= 0 wiederholen: wie kam man dazu?</p>
+<h2>Wachsende Entropie in der nicht-relativistischen Quantenmechanik</h2>
+<h3>Möglichkeit 1: Unitäre Zeitentwicklung ausgehend von einem Zustand minimaler Entropie</h3>
+<p>Wir lehnen uns an an das Beispiel aus [<a href="http://physikalismus.de/node/Quellen#Rieder">Rieder</a> 9.1.1]. Dort wurden für <em>denselben</em> Zustandsvektor bei 2 verschiedenen <em>gedachten</em> Zweiteilungen seines Hilbertraums 2 verschiedene Entropiewerte berechnet.</p>
+<p>Auch hier wollen wir von einem Zustand \(|\psi&gt;\) in einem Produktraum \(\mathbb{H}\) aus 3 Qubits ausgehen. Anstatt die Zweiteilung zu ändern soll sich jedoch der Zustand zeitlich in einen anderen Zustand entwickeln. Dies wird von einem unitären Zeitentwicklungsoperator \(\hat{U} = e^{{-\frac{i}{\hbar} t \hat{H}}}\) bewerkstelligt. Der Zustand zur Zeit \(t=0\) soll sein<br />
+\begin{equation}<br />
+|\psi(t=0)&gt; = \frac{1}{\sqrt{2}} ( |0_{III}1_{II}1_{I}&gt; + |0_{III}0_{II}0_{I}&gt; ) =  \frac{1}{\sqrt{2}}|0_{III}&gt; \otimes \, ( |1_{II}1_{I}&gt; + |0_{II}0_{I}&gt; )<br />
+\end{equation}<br />
+Bei einer Teilung zwischen \(\mathbb{H}_{III}\) und \(\mathbb{H}_{I} \otimes \mathbb{H}_{II}\) handelt es sich um einen reinen Produktzustand, ohne Verschränkung, mit Entropie \(S_{III/I+II}=0\). Der Zielzustand<br />
+\begin{equation}<br />
+|\psi(t&gt;0)&gt; = \frac{1}{\sqrt{2}} ( |1_{III}1_{II}0_{I}&gt; + |0_{III}0_{II}0_{I}&gt; ) =  \frac{1}{\sqrt{2}} ( |1_{III}&gt; \otimes \, |1_{II}0_{I}&gt; +  |0_{III}&gt; \otimes \, |0_{II}0_{I}&gt; )<br />
+\end{equation}<br />
+ist bei einer Teilung zwischen \(\mathbb{H}_{III}\) und \(\mathbb{H}_{I} \otimes \mathbb{H}_{II}\) maximal verschränkt und hat die Entropie \(S_{III/I+II}=1\).</p>
+<p>Um nicht in spitzen Klammern und senkrechten Strichen zu ertrinken, wechseln wir auf die Darstellung in der Qubit-Basis. Darin ausgedrückt geht es um diese Zeitentwicklung (\(U\) und  \(H\) sind nun Matrizen)<br />
+\begin{equation}<br />
+\psi(t=0) =\frac{1}{\sqrt{2}} \begin{pmatrix} 1 \\ 0 \\ 0 \\ 1 \\ 0 \\ 0 \\ 0 \\ 0 \end{pmatrix}<br />
+\quad \mapsto \quad<br />
+\psi(t&gt;0) = U\psi(t=0) = e^{{-\frac{i}{\hbar} t H}} \psi(t=0) = \frac{1}{\sqrt{2}} \begin{pmatrix} 1 \\ 0 \\ 0 \\ 0 \\ 0 \\ 0 \\ 1 \\ 0 \end{pmatrix}<br />
+\end{equation}<br />
+Eine von vielen unitären Matrizen, die diese Abbildung bewerkstelligt, ist diese orthogonale Matrix<br />
+\begin{equation}<br />
+U_1 =<br />
+\begin{pmatrix}<br />
+1 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\<br />
+0 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\<br />
+0 &amp; 0 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\<br />
+0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 1 &amp; 0 \\<br />
+0 &amp; 0 &amp; 0 &amp; 0 &amp; 1 &amp; 0 &amp; 0 &amp; 0 \\<br />
+0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 1 &amp; 0 &amp; 0 \\<br />
+0 &amp; 0 &amp; 0 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\<br />
+0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 1<br />
+\end{pmatrix}<br />
+\end{equation}<br />
+Diese Matrix macht nichts weiter, als die Komponenten mit den Indizes 3 und 6 gegeneinander zu tauschen. Eine weitere Matrix, die dies bewerkstelligt ist<br />
+\begin{equation}<br />
+U_2 =<br />
+\begin{pmatrix}<br />
+1 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\<br />
+0 &amp; 0 &amp; 0 &amp; 0 &amp; 1 &amp; 0 &amp; 0 &amp; 0 \\<br />
+0 &amp; 0 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\<br />
+0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 1 &amp; 0 \\<br />
+0 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\<br />
+0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 1 &amp; 0 &amp; 0 \\<br />
+0 &amp; 0 &amp; 0 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\<br />
+0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 1<br />
+\end{pmatrix}<br />
+\end{equation}<br />
+\(U_2\) hat gegenüber \(U_1\) allerdings die Eigenschaft, dass sie generell die Zustände der Qubits \(I\) und \(III\) tauscht. Sie steht für diese Abbildung<br />
+\begin{equation}<br />
+\begin{matrix} |000&gt; \\ |001&gt; \\ |010&gt; \\ |011&gt; \\ |100&gt; \\ |101&gt; \\ |110&gt; \\ |111&gt; \end{matrix}<br />
+\quad \mapsto \quad<br />
+\begin{matrix} |000&gt; \\ |100&gt; \\ |010&gt; \\ |110&gt; \\ |001&gt; \\ |101&gt; \\ |011&gt; \\ |111&gt; \end{matrix}<br />
+\end{equation}</p>
+<table><tr><td>Die unitäre Operation \(\hat{U}_2\), die eine zeitliche Enwicklung repräsentiert, tauscht die Unterzustände der Räume (= Qubits) \(I\) und \(III\). Statt dessen könnten die Räume (die Basisvektoren) selbst getauscht werden. Ein Tauschen der Unterräume ist wiederum gleichwertig mit einer anderen gedachten Zweiteilung (siehe <a href="http://physikalismus.de/node/Brezel">Verschränkung</a>) des Hilbertraums (Sichtwechsel). 
+<p>Ein „Kollaps der Wellenfunktion“ bei der Messung, wenn er denn tatsächlich stattfindet, ist nichts anderes als ein Sprung des Zustandsvektors in eine andere Richtung, ist gleichwertig mit einer sprunghaft anderen Ausrichtung des Hilbertraums (in die inverse Richtung) bei festgehaltenem Zustandsvektor und entspricht damit einem Sprung seiner Zweiteilungen, wodurch sich die davon abhängigen Informationswerte sprunghaft ändern.</p>
+<p>Doch welche Zweiteilungen und Informationswerte sind die „Richtigen“? Die Auswahl könnte dadurch bestimmt sein, auf welcher Seite sich das Bewusstsein sieht und wie stark es an bestimmte Unterräume gekoppelt ist...
+</p></td>
+<td><img align="center" width="400" src="../sites/default/files/pictures/Entropie.png" /></td>
+</tr></table><p>Bei hochdimensionalen Räumen ist die Wahrscheinlichkeit, dass alle Qubits eines Faktors des anfänglichen Produktzustands während der zeitlichen Entwicklung entschränkt bleiben, verschwindend gering und dieses Verhalten entspricht damit dem höchstwahrscheinlichen Anwachsen der Entropie in der klassischen statistischen Physik, wenn von einem Zustand geringer Entropie aus gestartet wird. Genauso wie dort gibt es allerdings den Wiederkehreinwand und den Umkehreinwand, die eine strenge Gültigkeit von \(\Delta S &gt;= 0\) unglaubhaft erscheinen lassen.</p>
+<h3>Möglichkeit 2: Wachstum des Hilbertraums</h3>
+<p>Eine weitere Möglichkeit der Entropiezunahme ist natürlich das Wachstum des Hilbertraums selbst, das heißt das Wachsen seiner Dimension, was man sich als Auftauchen weiterer Qubits ausmalen kann. Wenn die bereits vorhandenen Qubits bei fast allen möglichen Zweiteilungen miteinander verschränkt sind, so sollte dies für die neu auftauchenden Qubits (bald) ebenso gelten, wodurch die Entropie ebenso wachsen wird. In diesem Zusammenhang von Interesse könnte die experimentell gesicherte kosmische Expansion, das heißt die Expansion der Raumzeit selbst, sein. </p>
+<p><img align="center" width="400" src="../sites/default/files/pictures/Entropie2.png" /></p>
+<p>Alternativ könnte lediglich die Dimension des Unterraums sich vergrößern, mit dem sich das Bewusstsein in Verbindung sieht. Bei Start von einem niedrigdimensionalen (verglichen mit dem Gesamtraum)  Unterraum würde sich das Bewusstsein quasi immer mehr Qubits einverleiben und die „Grenzfläche“ zwischen seinem und nichtseinem Teil des Hilbertraums dabei vergrößern, was einer Entropiezunahme gleichkäme. Wäre dieses Verhalten dem Bewusstseins innewohnend, so könnte dies helfen, den Pfeil der Zeit zu erklären, der sich in der physikalischen Dynamik sonst nicht finden lässt (doch siehe Maudlin).</p>
+<p>Fortsetzung folgt...</p>
+</div></div></div></div>  </div>
+
+  <div class="clearfix">
+          <div class="links"></div>
+    
+      </div>
+
+</div>
+  </div>
+</div>
+  </div>
+          </div>
+                      <div class="region region-footer">
+    <div id="block-system-powered-by" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+</div>
+  </div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /#container -->
+  </div> <!-- /#wrapper -->
+  </body>
+</html>

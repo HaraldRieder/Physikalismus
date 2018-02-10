@@ -45,7 +45,7 @@ MathJax.Hub.Config({
 @import url("http://physikalismus.de/modules/user/user.css?obwofu");
 </style>
 <style type="text/css" media="all">
-@import url("sites/default/files/color/garland-b0e715b8/style.css@obwofu");
+@import url("sites/default/files/color/garland-b0e715b8/style.css?obwofu");
 </style>
 <style type="text/css" media="print">
 @import url("http://physikalismus.de/themes/garland/print.css?obwofu");
@@ -57,12 +57,12 @@ MathJax.Hub.Config({
   <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
 <script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
 <script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?obwofu"></script>
-<script type="text/javascript" src="sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@obwofu"></script>
-<script type="text/javascript" src="sites/all/modules/mathjax/mathjax.js@obwofu"></script>
+<script type="text/javascript" src="sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js?obwofu"></script>
+<script type="text/javascript" src="sites/all/modules/mathjax/mathjax.js?obwofu"></script>
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"DJZjWRJlvLeEUN18sX3eyh2-AE-23J8oMRauOfIQ_Q4","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Quellen":true,"\/Quellen?destination=node\/13":true}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"e4yHk8HxBAgRfZkV7E6GzAlBWw2nqHBIxjZMfMgaDFs","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Quellen":true,"\/Quellen?destination=node\/13":true}});
 //--><!]]>
 </script>
 </head>
@@ -104,7 +104,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
   <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
  <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-3nEi540QTR4WU9v_LLd9YX5j8061PUUOTGwhzw4a7b8" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-E8LiJKQ5Z2LJW5ggp6mnCb3lDHx7JVWTClWmcI37KV0" />
 <input type="hidden" name="form_id" value="search_block_form" />
 </div>
 </div></form>  </div>
@@ -131,6 +131,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
 <li class="leaf"><a href="Jesus" title="Wie ich mir Jesus vorstelle">Jesus</a></li>
 <li class="leaf"><a href="Juristerei" title="Kann richtig geurteilt werden?">Juristerei</a></li>
 <li class="leaf"><a href="Kampf" title="Die falsche Idee vom totalen Frieden">Kampf</a></li>
+<li class="leaf"><a href="Leben" title="Was ist Leben?">Leben</a></li>
 <li class="collapsed"><a href="Masse" title="Wie sich die Masse in ein Geflecht auflöst">Masse</a></li>
 <li class="collapsed"><a href="Mechanik" title="Was man von der klassischen Mechanik noch lernen kann">Mechanik</a></li>
 <li class="leaf"><a href="N" title="Was an den natürlichen Zahlen unnatürlich ist">N</a></li>
@@ -139,7 +140,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
 <li class="leaf"><a href="Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
 <li class="leaf"><a href="Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
 <li class="leaf"><a href="Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
-<li class="last leaf"><a href="Leben" title="Was ist Leben?">Leben</a></li>
+<li class="last leaf"><a href="Koernung" title="Argumente für eine Körnung der Natur">Körnung</a></li>
 </ul>  </div>
 </div>
 <div id="block-user-login" class="block block-user clearfix">
@@ -156,7 +157,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
  <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
 </div>
 <div class="item-list"><ul><li class="first last"><a href="user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
-</ul></div><input type="hidden" name="form_build_id" value="form-JSep7Zl0knWklSkPKL5L1gp-sRw5FXbFqQ4nxa7hHG8" />
+</ul></div><input type="hidden" name="form_build_id" value="form-qQhLyDa_VV8mxi45mG9I9QJqMsmSXf0hVb_fX6bUw7o" />
 <input type="hidden" name="form_id" value="user_login_block" />
 <div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
 </div>
@@ -194,6 +195,8 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
 <td>John Briggs &amp; F. David Peat, Die Entdeckung des Chaos, Eine Reise durch die Chaos-Theorie, dtv 1990, ISBN 3-423-30349-2, ISBN 3-446-15966-5</td>
 </tr><tr><td>[Chang Tun-Sun]</td>
 <td>Chinesen denken anders</td>
+</tr><tr></tr><tr><td id="Conway-Kochen">[Conway-Kochen]</td>
+<td>The Free Will Theorem, John Conway &amp; Simon Kochen 2006, <a href="https://arxiv.org/abs/quant-ph/0604079">arXiv:quant-ph/0604079</a></td>
 </tr><tr><td>[Demian]</td>
 <td>Hermann Hesse, Demian - Die Geschichte von Emil Sinclairs Jugend</td>
 </tr><tr><td>[Dereziński]</td>
@@ -262,11 +265,11 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
 <td>Keine Posaunen vor Jericho, Israel Finkelstein und Neil A. Silberman, ISBN 978-3-423-34151-6<br /></td></tr><tr><td>[Prediger]</td>
 <td>Altes Testament - Buch Prediger / Kohelet</td>
 </tr><tr><td><a id="Rieder">[Rieder]</a></td>
-<td>Begleitdokument zum Kurs Quanteninformation 2017, auch in der <a href="sites/default/files/Bibliothek/Quanteninformation.pdf">Bibliothek</a></td>
+<td>Begleitdokument zum Kurs Quanteninformation 2017, auch in der <a href="http://physikalismus.de/sites/default/files/Bibliothek/Quanteninformation.pdf">Bibliothek</a></td>
 </tr><tr><td>[Saṃyutta-nikāya]</td>
 <td>Nach [Schumann] aus der Ausgabe der Pali Text Society zitiert.</td>
 </tr><tr><td>[Seiden]</td>
-<td>Partical Physics, A Comprensive Introduction, Abraham Seiden, 2004, ISBN: 0-8053-8736-6</td>
+<td>Particle Physics, A Comprensive Introduction, Abraham Seiden, 2004, ISBN: 0-8053-8736-6</td>
 </tr><tr><td>[Schlosshauer]</td>
 <td>Decoherence and the Quantum-to-Classical Transition (The Frontiers Collection), Maximilian Schlosshauer, 2007, ISBN-13: 978-3540357735 ISBN-10: 3540357734</td>
 </tr><tr><td>[Schopenhauer-D]</td>

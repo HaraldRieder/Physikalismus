@@ -45,7 +45,7 @@ MathJax.Hub.Config({
 @import url("http://physikalismus.de/modules/user/user.css?obwofu");
 </style>
 <style type="text/css" media="all">
-@import url("../sites/default/files/color/garland-b0e715b8/style.css@obwofu");
+@import url("../sites/default/files/color/garland-b0e715b8/style.css?obwofu");
 </style>
 <style type="text/css" media="print">
 @import url("http://physikalismus.de/themes/garland/print.css?obwofu");
@@ -57,12 +57,12 @@ MathJax.Hub.Config({
   <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
 <script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
 <script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?obwofu"></script>
-<script type="text/javascript" src="../sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@obwofu"></script>
-<script type="text/javascript" src="../sites/all/modules/mathjax/mathjax.js@obwofu"></script>
+<script type="text/javascript" src="../sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js?obwofu"></script>
+<script type="text/javascript" src="../sites/all/modules/mathjax/mathjax.js?obwofu"></script>
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"v0hLP_ccdRqZ2H9gg4K-uFwcEHbbjF0glylxGXwDwcA","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/node\/14":true,"\/Zitate?destination=node\/14":true}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"ulHfNQSy_lF3w4jHiPX77S4hVH6ryXwFpokb5jo64Ik","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/node\/14":true,"\/Zitate?destination=node\/14":true}});
 //--><!]]>
 </script>
 </head>
@@ -104,7 +104,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
   <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
  <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-B99ySEV58zINw3oy0ESes-ZnE3W60tWQfBwzC5xdErw" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-cLDRq4XHQ2uUDSlMYvGt6BWTc-QzfiKnURQDDdabeL4" />
 <input type="hidden" name="form_id" value="search_block_form" />
 </div>
 </div></form>  </div>
@@ -131,6 +131,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
 <li class="leaf"><a href="../Jesus" title="Wie ich mir Jesus vorstelle">Jesus</a></li>
 <li class="leaf"><a href="../Juristerei" title="Kann richtig geurteilt werden?">Juristerei</a></li>
 <li class="leaf"><a href="../Kampf" title="Die falsche Idee vom totalen Frieden">Kampf</a></li>
+<li class="leaf"><a href="../Leben" title="Was ist Leben?">Leben</a></li>
 <li class="collapsed"><a href="../Masse" title="Wie sich die Masse in ein Geflecht auflöst">Masse</a></li>
 <li class="collapsed"><a href="../Mechanik" title="Was man von der klassischen Mechanik noch lernen kann">Mechanik</a></li>
 <li class="leaf"><a href="../N" title="Was an den natürlichen Zahlen unnatürlich ist">N</a></li>
@@ -139,7 +140,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
 <li class="leaf"><a href="../Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
 <li class="leaf"><a href="../Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
 <li class="leaf"><a href="../Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
-<li class="last leaf"><a href="../Leben" title="Was ist Leben?">Leben</a></li>
+<li class="last leaf"><a href="../Koernung" title="Argumente für eine Körnung der Natur">Körnung</a></li>
 </ul>  </div>
 </div>
 <div id="block-user-login" class="block block-user clearfix">
@@ -156,7 +157,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
  <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
 </div>
 <div class="item-list"><ul><li class="first last"><a href="../user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
-</ul></div><input type="hidden" name="form_build_id" value="form-mqbxQcuhRBMe8jF8d7ybMjtPhXLYCEoFnl_hqzjetiU" />
+</ul></div><input type="hidden" name="form_build_id" value="form-Qq3-NXn1w7ASB10FiWqITtg4Q9GH-Js75f9D9QJ6oO0" />
 <input type="hidden" name="form_id" value="user_login_block" />
 <div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
 </div>
@@ -332,15 +333,9 @@ Das Ich ist unrettbar. Teils diese Einsicht, teils die Furcht vor derselben füh
 <p><cite>... weil ... ein großer Passagierdampfer an uns vorbeiglitt ... Was war der Dampfer wirklich? War er eine Masse Eisen mit einer Kraftzentrale, einem elektrischen Leitungssystem und Glühbirnen? Oder war er der Ausdruck einer menschlichen Absicht, eine Gestalt, die sich als Ergebnis der zwischenmenschlichen Beziehungen gebildet hat? Oder war er die Folge der biologischen Naturgesetze, die als Objekt für ihre Gestaltungskraft diesmal nicht nur Eiweißmoleküle, sondern Stahl und elektrische Ströme verwendet hatten? Stellt das Wort „Absicht“ also nur den Reflex dieser gestaltenden Kraft oder der Naturgesetze im menschlichen Bewußtsein dar?<br /></cite> [Heisenberg-G, Kap. 17]</p>
 <p><cite>Nach dem Abschluss dieser Entwicklung [der physikalischen Wissenschaft] scheinen die Wörter: „Materie“, „Kraft“, „Struktur von Raum und Zeit“ nur verschiedene Seiten des gleichen Geschehens zu bezeichnen. Die hierdurch erreichte Vereinheitlichung hat dabei zur Folge, dass keiner dieser Begriffe ohne Vorbehalt in dem einfachen ursprünglichen Sinne verwendet werden kann, sofern es sich nicht um Vorgänge im Bereich der täglichen Erfahrung handelt.<br /></cite> [Heisenberg-O]</p>
 <p><cite>Alle Elementarteilchen sind aus derselben Substanz, aus demselben Stoff gemacht, den wir nun Energie oder universelle Materie nennen können; sie sind nur verschiedene Formen, in denen Materie erscheinen kann.<br /></cite> [Heisenberg-P]</p>
-<p><cite>Im Gebiet der kleinsten Organismen kann ja auch die Frage, ob ein bestimmtes Gebilde ein „lebendes Wesen“ oder ein Stück „toter Materie“ sei, nur durch willkürliche Definitionen beantwortet werden.<br /></cite> [Heisenberg-O]</p>
-<p><cite>Bei diesen kleinsten Lebewesen aber wird die Frage, ob sie aus lebendiger oder toter Materie bestehen, unentscheidbar. Man kann dies so ausdrücken, daß es überhaupt nur lebendige Materie gebe; ...<br /></cite> [Heisenberg-O]</p>
-<p><cite>Gehört die eben aufgenommene Nahrung, die Luft, die eingeatmet wurde, mit zum Körper, oder nicht? Von welchem Zeitpunkt ab sollen sie als Teile des Körpers bezeichnet werden? Gehört das Schneckenhaus mit zum Organismus der Schnecke, das Netz mit zu dem der Spinne? Müsste nicht bis zu einem gewissen Grad auch das Erdreich, in dem die Pflanze wurzelt, mit zu ihrem lebendigen Zusammenhang gerechnet werden?<br /></cite> [Heisenberg-O]</p>
 <p><cite>Offenbar sind doch z.B. die folgenden biologischen Abläufe innerlich eng verwandt und gewissermaßen nur dem Grade nach verschieden: Der Aufbau eines Organs aus vielen gleichartigen Zellen; die Bildung eines nach bestimmten Gesetzen lebenden Ameisenstaates, der fast ebenso wie das Organ als etwas Ganzes reagiert; der Zusammenschluß von Menschen zu einer Gemeinschaft.<br /></cite> [Heisenberg-O]</p>
 <p><cite>Meine Herren, als Physiker, der sein ganzes Leben der nüchternen Wissenschaft, der Erforschung der Materie widmete, bin ich sicher von dem Verdacht frei, für einen Schwarmgeist gehalten zu werden. Und so sage ich nach meinen Erforschungen des Atoms dieses: Es gibt keine Materie an sich. Alle Materie entsteht und besteht nur durch eine Kraft, welche die Atomteilchen in Schwingung bringt und sie zum winzigsten Sonnensystem des Alls zusammenhält. Da es im ganzen Weltall aber weder eine intelligente Kraft noch eine ewige Kraft gibt - es ist der Menschheit nicht gelungen, das heißersehnte Perpetuum mobile zu erfinden - so müssen wir hinter dieser Kraft einen bewußten intelligenten Geist annehmen. Dieser Geist ist der Urgrund aller Materie. Nicht die sichtbare, aber vergängliche Materie ist das Reale, Wahre, Wirkliche - denn die Materie bestünde ohne den Geist überhaupt nicht - , sondern der unsichtbare, unsterbliche Geist ist das Wahre! Da es aber Geist an sich ebenfalls nicht geben kann, sondern jeder Geist einem Wesen zugehört, müssen wir zwingend Geistwesen annehmen. Da aber auch Geistwesen nicht aus sich selber sein können, sondern geschaffen werden müssen, so scheue ich mich nicht, diesen geheimnisvollen Schöpfer ebenso zu benennen, wie ihn alle Kulturvölker der Erde früherer Jahrtausende genannt haben: Gott! Damit kommt der Physiker, der sich mit der Materie zu befassen hat, vom Reiche des Stoffes in das Reich des Geistes. Und damit ist unsere Aufgabe zu Ende, und wir müssen unser Forschen weitergeben in die Hände der Philosophie.<br /></cite> [Planck]</p>
-<p><cite>Eigentlich gibt es gar nichts Unlebendiges!<br /></cite> [Dürr-M II.]</p>
-<p><cite>Dass ein Tisch im Grunde auch lebendig ist, bemerken wir nicht, weil wir ihn nur vergröbert betrachten und damit vereinfacht sehen.<br /></cite> [Dürr-GKP S.108]</p>
 <p><cite>Habt ihr nicht mich, sondern den Sinn vernommen, so ist es weise, im gleichen Sinn zu sagen: Eins ist alles.<br /></cite> [Heraklit-F]</p>
-<p><cite>Ein und dasselbe ist Lebendiges und Totes und Wachendes und Schlafendes und Junges und Altes; denn dies schlägt um und ist jenes, und jenes wieder schlägt um und ist dies.<br /></cite> [Heraklit-F]</p>
 <p><cite>Diese Weltordnung hier hat nicht der Götter noch der Menschen einer geschaffen, sondern sie war immer und ist und wird sein: immer-lebendes Feuer, aufflammend nach Maßen, und verlöschend nach Maßen.<br /></cite> [Heraklit-F]</p>
 <p><cite>Für Feuer ist Gegentausch alles und Feuer für alles wie Geld für Gold und Gold für Geld.<br /></cite> [Heraklit-F]</p>
 <p><cite>Kaltes erwärmt sich, Warmes kühlt sich ab, Feuchtes vertrocknet, Dürres wird benetzt.<br /></cite> [Heraklit-F]</p>
@@ -381,6 +376,7 @@ was sie das Vergangene, Gegenwärtige und Zukünftige nennen,<br />
 das ist eingewoben und verwoben in dem Raume (Äther)."<br /></cite> [Brihadaranyaka-Upanishad, Dritter Adhyaya, Achtes Brahmanam]</p>
 <p><cite>Der erste Vorläufer der Newtonschen Abstraktion [gemeint ist die Vorstellung eines absoluten Raumes] dürfte der Begriff des Leeren der griechischen Atomisten (Leukipp, Demokrit) sein. Dieser hat seinerseits eine philosophische Vorgeschichte. Parmenides von Elea hat den Begriff des Seienden (éon) als Grundbegriff eingeführt. Das Seiende kann nicht entstehen und nicht vergehen, denn es müßte aus dem Nichtseienden entstehen und in das Nichtseiende vergehen; das Nichtseiende aber ist nicht. Die Veränderung der Welt, die wir erfahren, ist dann bloße Erscheinung (doxa).<br /></cite> [Weizsäcker 6.2.d]</p>
 <p><cite>Die Vielheit der Dinge in Raum und Zeit, welche sämtliche seine [= des Willens] Objektität sind, trifft daher ihn nicht, und er bleibt ihrer ungeachtet untheilbar. Nicht ist etwan ein kleinerer Teil von ihm im Stein, ein größerer im Menschen: ...<br /></cite> [Schopenhauer-D 2. Buch §25]</p>
+<p><cite>Haben wir wirklich einen freien Willen, oder ist dieser eine reine Illusion, wie bestimmte Wenige  behaupten? Wir wissen es nicht, aber wir werden in diesem Artikel beweisen, dass wenn es tatsächlich Experimentatoren mit einem Minimum freien Willens gibt, Elementarteilchen ihren eigenen Anteil an diesem wertvollen Gut haben müssen.<br /></cite> [<a href="http://physikalismus.de/node/Quellen#Conway-Kochen">Conway-Kochen</a>]</p>
 <p><cite>Die Vielheit ist bloßer Schein; in Wahrheit gibt es nur EIN Bewußtsein. Das ist die Lehre der Upanischaden […] Nichts spiegelt sich! Die Welt ist nur einmal gegeben. Urbild und Spiegelbild sind eins. Die in Raum und Zeit ausgedehnte Welt existiert nur in unsrer Vorstellung.<br /></cite> [Schrödinger G&amp;M S.79,92]</p>
 <p><cite>Auch Erwin Schrödinger versteht die eigentliche Wirklichkeit als Geist. Sie ist für ihn das Ganze, das Eine, wie es uns in unserem Bewußtsein unmittelbar und ungebrochen entgegentritt. „Die Vielheit anschauender und denkender Individuen ist nur Schein, sie besteht in Wirklichkeit gar nicht.“ Die Vielheit sind verschiedene Reflektionen des Einen, ähnlich wie im Gleichnis der Philosophen des Vedanta die vielen Spiegelungen eines einzigen Gegenstands im Kristall.<br /></cite> [Dürr P&amp;E V.]</p>
 <h2>Erkenntnistheorie</h2>

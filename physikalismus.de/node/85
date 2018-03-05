@@ -29,8 +29,8 @@ MathJax.Hub.Config({
   messageStyle: 'none'
 });
 </script><meta name="Generator" content="Drupal 7 (http://drupal.org)" />
-<link rel="canonical" href="../Schnitte" />
-  <title>Die Heisenbergschen Schnitte | Physikalismus</title>
+<link rel="canonical" href="../Messung" />
+  <title>Messung und Bewusstsein | Physikalismus</title>
   <style type="text/css" media="all">
 @import url("http://physikalismus.de/modules/system/system.base.css?obwofu");
 @import url("http://physikalismus.de/modules/system/system.menus.css?obwofu");
@@ -45,7 +45,7 @@ MathJax.Hub.Config({
 @import url("http://physikalismus.de/modules/user/user.css?obwofu");
 </style>
 <style type="text/css" media="all">
-@import url("../sites/default/files/color/garland-b0e715b8/style.css?obwofu");
+@import url("../sites/default/files/color/garland-b0e715b8/style.css@obwofu");
 </style>
 <style type="text/css" media="print">
 @import url("http://physikalismus.de/themes/garland/print.css?obwofu");
@@ -57,12 +57,12 @@ MathJax.Hub.Config({
   <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
 <script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
 <script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?obwofu"></script>
-<script type="text/javascript" src="../sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js?obwofu"></script>
-<script type="text/javascript" src="../sites/all/modules/mathjax/mathjax.js?obwofu"></script>
+<script type="text/javascript" src="../sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@obwofu"></script>
+<script type="text/javascript" src="../sites/all/modules/mathjax/mathjax.js@obwofu"></script>
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"oW2k-2oiNNcgvUTkD_AQ8M5Xifw1hsGnmL0yuPenMqg","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/node\/85":true,"\/Schnitte?destination=node\/85":true}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"LRiHxWx7L6e0w6ZrhvARtdpiBe0z7R7u4Wo_J61ewVM","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/node\/85":true,"\/Messung?destination=node\/85":true}});
 //--><!]]>
 </script>
 </head>
@@ -86,11 +86,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 <li class="menu-468"><a href="../Baustellen" title="Meine Hausaufgaben">Baustellen</a></li>
 <li class="menu-310"><a href="../Quellen">Quellen</a></li>
 <li class="menu-311"><a href="../Zitate">Zitate</a></li>
-<<<<<<< HEAD
 <li class="menu-469"><a href="../Begriffe" title="Wie die Wörter an diesem Ort gemeint sind, 
-=======
-<li class="menu-469"><a href="../Begriffe" title="Wie die Wörter an diesem Ort gemeint sind, 
->>>>>>> 66a63af231afc8053429319227788fb7f3ecd0d3
 erklärt durch noch mehr Wörter.">Begriffe</a></li>
 <li class="menu-410"><a href="../Bibliothek" title="Zum Verständnis Dienliches an diesem Ort Archiviertes">Bibliothek</a></li>
 <li class="menu-423 last"><a href="../Impressum">Impressum</a></li>
@@ -108,7 +104,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
   <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
  <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-CgqpJ9jqqr_eRsL73hVGmAo6YqMSwZjqPgC-dsvC4WE" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-vEWbMFK96SSWFi_kwMsTVS41lkng_A-n4OOLlQSve9o" />
 <input type="hidden" name="form_id" value="search_block_form" />
 </div>
 </div></form>  </div>
@@ -143,7 +139,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
 <li class="leaf"><a href="../Brezel" title="Verschränkung">Brezel</a></li>
 <li class="leaf"><a href="../Quanten-Folgerungen" title="Die philosophischen Folgerungen aus der Quantentheorie">Folgerungen</a></li>
 <li class="leaf"><a href="../2016" title="Das Todesjahr des lokalen Realismus">2016</a></li>
-<li class="leaf active-trail"><a href="../Schnitte" title="Die Heisenbergschen Schnitte" class="active-trail active">Schnitte</a></li>
+<li class="leaf active-trail"><a href="../Messung" title="Die Heisenbergschen Schnitte" class="active-trail active">Messung</a></li>
 <li class="last leaf"><a href="../Wigner" title="Wigners Freund">Wigner</a></li>
 </ul></li>
 <li class="leaf"><a href="../Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen">Reduktionismus</a></li>
@@ -158,7 +154,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
     <h2 class="title">Benutzeranmeldung</h2>
   
   <div class="content">
-    <form action="http://physikalismus.de/Schnitte?destination=node/85" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+    <form action="http://physikalismus.de/Messung?destination=node/85" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
   <label for="edit-name">Benutzername <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
  <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
 </div>
@@ -167,7 +163,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
  <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
 </div>
 <div class="item-list"><ul><li class="first last"><a href="../user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
-</ul></div><input type="hidden" name="form_build_id" value="form-wDd08FMiimBLh5H98TrHqeAh9GPwycnnTCoRPlHpNtk" />
+</ul></div><input type="hidden" name="form_build_id" value="form-LGUtBUQOlt_JzsRrcmPwVsuVPx4DaKAAU2iegRJgn7s" />
 <input type="hidden" name="form_id" value="user_login_block" />
 <div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
 </div>
@@ -176,20 +172,77 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
       
       <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
           <h2 class="element-invisible">Sie sind hier</h2><div class="breadcrumb"><a href="../index.html">Startseite</a> › <a href="../Quantenmechanik" title="Die philosophischen Konsequenzen aus der Quantenmechanik" class="active-trail">Quanten</a></div>                    <a id="main-content"></a>
-          <div id="tabs-wrapper" class="clearfix">                                <h1 class="with-tabs">Die Heisenbergschen Schnitte</h1>
+          <div id="tabs-wrapper" class="clearfix">                                <h1 class="with-tabs">Messung und Bewusstsein</h1>
                               </div>                                                  <div class="clearfix">
               <div class="region region-content">
     <div id="block-system-main" class="block block-system clearfix">
 
     
   <div class="content">
-    <div id="node-85" class="node node-page" about="/Schnitte" typeof="foaf:Document">
+    <div id="node-85" class="node node-page" about="/Messung" typeof="foaf:Document">
 
   
-      <span property="dc:title" content="Die Heisenbergschen Schnitte" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <span property="dc:title" content="Messung und Bewusstsein" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
   
   <div class="content clearfix">
-      </div>
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="tex2jax"><h2>Alte Sichtweise</h2>
+<p><cite>Auch bei einem beliebigen Anfangszustand \( |\psi&gt; \) vor der Messung sind die überhaupt möglichen Meßwerte einer Observablen die (reellen) Eigenwerte \( a_i \) des (hermiteschen) Operators \( \hat{A} \). Der Zustandsvektor geht vermöge der Einwirkung der Meßapparatur in die Richtung des Eigenvektors \( |a_i&gt; \) von \( \hat{A} \) über, der zu dem gemessenen (diskreten, nichtentarteten) Eigenwert \( a_i \) gehört.<br /></cite>[<a href="http://physikalismus.de/node/Quellen#Fick">Fick</a> 3.3]</p>
+<p>Diese Sichtweise findet man auch heute noch an vielen Stellen. Ihr Kern ist die Trennung von Quantensystem und klassischer Welt, wobei die Messung ein nicht im Detail modellierter physikalischer Vorgang ist, der die Quantenwelt mit der Welt der klassischen Physik verbindet. Besonders Niels Bohr vertrat die Auffassung, dass die klassische Physik am Ende die Beobachtungen beschreiben muss.</p>
+<p><cite>Ein besonderes Kennzeichen von Bohrs Interpretation ist seine Betonung der Rolle der klassischen Physik bei der Beschreibung von Naturphänomenen. Demnach wird zur Beschreibung von Beobachtungsergebnissen – wie wenig der untersuchte Vorgang auch mit der klassischen Mechanik zu tun haben mag – notwendig die klassische Terminologie benutzt.<br /></cite> [Wikipedia 2018]</p>
+<table><tr><td>
+In mathematischer Sprache ausgedrückt stellen sich die 2 Zeitentwicklungsprozesse der (nicht-relativistischen) Quantenmechanik so dar.<br />
+\begin{equation}<br />
+|\psi_A(0)&gt; \xrightarrow{\hat{U}_A} |\psi_A(t)&gt; \xrightarrow[Kollaps]{Messung} |a_i&gt;<br />
+\end{equation}<br />
+Unbehelligt entwickelt sich das quantenmechanische Ding deterministisch durch die unitäre Transformation \( \hat{U}_A = e^{- \frac{i}{\hbar} \hat{H}_A t} \). Durch die Messung mit dem hermiteschen Operator  \( \hat{A} \) wird der Zustandsvektor \( |\psi&gt; \) zufällig auf einen der Eigenvektoren \( |a_i&gt; \) von \( \hat{A} \) projiziert. Die Wahrscheinlichkeiten dafür sind die Absolutquadrate \( |&lt; a_i | \psi &gt;|^2 \) der Entwicklungskoeffizienten nach der Basis des Messoperators.
+</td>
+<td>
+<img width="200px" src="../sites/default/files/pictures/Fick&#32;Fig.48.jpg" /> Aus [<a href="http://physikalismus.de/node/Quellen#Fick">Fick</a>]. \(| \Phi &gt;\) entspricht unserem \(| \psi &gt;\), \(\Lambda\) entspricht \(a_i\) und \(| u_\Lambda &gt;\) unserem \(| a_i &gt;\).
+</td>
+</tr></table><p>Wir haben den Buchstaben A hier zweifach belegt. Einmal kennzeichnet er einen Hilbertraum \( \mathbb{H}_A \), zum anderen den (ausschließlich) in \( \mathbb{H}_A \) wirkenden linearen Operator \( \hat{A} \).</p>
+<h2>Neue Sichtweise</h2>
+<p>Die Experimente, die man heute anstellen kann, zwingen uns zu der Sicht, dass die komplette Umgebung des quantenmechanischen Dings, also die Restwelt - und damit in Summe die gesamte Welt, nicht durch klassische Physik sondern durch Quantenmechanik beschrieben werden muss. Die unitäre Zeitentwicklung \( \hat{U}_A \) des quantenmechanischen Dings  wird abgelöst durch die unitäre Zeitentwicklung \( U \) der quantenmechanischen Gesamtwelt. Die Zeitentwicklung des Dings ist damit nicht mehr unitär, sondern insgesamt wird bei einer idealen von-Neumann-Messung jeder ursprüngliche Zustand verschränkt mit der Restwelt.<br />
+\begin{equation}<br />
+|\psi_A(0)&gt;|\psi_B(0)&gt; \xrightarrow{\hat{U}_A} |\psi_A(t)&gt;|\psi_B(0)&gt; \xrightarrow[Messung]{\hat{U}} \sum_i a_i |a_i&gt;|b_i&gt; \xrightarrow[Kollaps]{?} |a_i&gt;|b_i&gt;<br />
+\end{equation}<br />
+Diese Verschränkung kann durch unitäre Zeitentwicklung wieder zurückgenommen werden (Quantenradierer). Wird einer der Zustände \( |a_i&gt;|b_i&gt; \) aus dem „Gemisch“ \( \sum_i {|a_i|}^2 | a_i &gt; | b_i &gt; &lt; a_i | &lt; b_i | \) jedoch bewusst, so kann er nicht mehr zurückgenommen werden.</p>
+<p>Damit die Restwelt überhaupt etwas über das Quantending erfahren kann, muss sie sich mit diesem verbinden. Ohne Wechselwirkungsoperator - der in \(\hat{U}\) steckt - verbleibt das Quantending für alle Zeiten vollkommen verborgen in seiner eigenen Welt. Mit Wechselwirkungsoperator verschränkt es sich mit der Restwelt und wird genau dadurch für die Restwelt sichtbar, wird dadurch existent. Aber es verliert andererseits seinen unabhängigen Hilbertraum und damit seine eigene Existenz. <strong>Um über ein Quantending etwas in Erfahrung bringen zu können, muss man es vernichten! Zu dem Zeitpunkt, wo man etwas über das Quantending erfahren kann, ist es bereits im Rest aufgegangen.</strong> Die alltagssprachliche Formulierung klingt einigermaßen mystisch. Aber genau das sagt das mathematische Modell aus. In der alten Sichtweise gab es einen genauso mysteriösen Übergang zwischen Quantenphysik und klassischer Physik. Dieser Übergang ist in der neuen Sichtweise mathematisch ausformuliert worden. </p>
+<p>Vielfach wird angenommen, dass Bewusstsein aus Materie - einem Gehirn oder Nervensystem - ensteht. Zustände von Materie werden in der Quantenmechanik durch Zustandsvektoren modelliert. Damit sollen letztlich Bewusstseinszustände durch Hilberraum-Vektoren darstellbar sein. Mal sehen, ob's klappt...</p>
+<h2>Schrödingers Katze</h2>
+<p>In der neue Sichtweise entwickelt sich die Schrödinger-Katze also auf diese Art (\(\hat{U}_A\) bringt die Katze in den überlagerten Zustand aus lebendig und tot):<br />
+\begin{equation}<br />
+|Katze\ lebt&gt;|Ich\ weiß\ nichts\ über\ die\ Katze&gt; \xrightarrow{\hat{U}_A} \frac{1}{\sqrt{2}}(|Katze\ lebt&gt; + |Katze\ tot&gt;)|Ich\ weiß\ nichts\ über\ die\ Katze&gt;<br />
+\end{equation}<br />
+\begin{equation}<br />
+ \xrightarrow[Messung]{\hat{U}} \frac{1}{\sqrt{2}}(|Katze\ lebt&gt; |Sie\ lebt!&gt; + |Katze\ tot&gt; |Sie\ ist\ tot!&gt;)<br />
+\end{equation}<br />
+Demnach müsste sich das Bewusstsein jetzt in einem überlagerten Zustand aus den 2 Gewissheiten, dass die Katze lebendig und dass sie tot ist, befinden. So einen Zustand hat kaum jemand jemals erfahren, nicht mal im Vollrausch. Um aus dieser Misslichkeit herauszukommen, muss der überlagerte Zustand in einen der beiden Zustände „kollabieren“, z.B. in \( |Katze\ lebt&gt; |Sie\ lebt!&gt; \). Die Wahrscheinlichkeiten für die verschiedenen End- und damit Bewusstseinszustände sollen die  \( |&lt; a_i | \psi &gt;|^2 \) sein, also hier jeweils 0,5. Das ist die Kollapsinterpretation der Quantenmechanik. Nach dem Kollaps, dem <em>Prozess Typ 1</em>, soll sich wieder eine unitäre und damit deterministische Entwicklung anschließen, der <em>Prozess Typ 2</em>. Der Gesamtprozess in der Quantenmechanik stellt sich also als eine Abfolge der beiden Prozesstypen dar.<br />
+\begin{equation}<br />
+... \rightarrow Prozess\ Typ\ 2  \rightarrow Prozess\ Typ\ 1  \rightarrow Prozess\ Typ\ 2  \rightarrow Prozess\ Typ\ 1  \rightarrow ...<br />
+\end{equation}<br />
+Wann und warum der zufällige Typ 1 stattfindet, dafür gibt es keine Erklärung. Nun kommt es allerdings noch dicker: jeder Zustandsvektor kann nach unendlich vielen Basissystemen entwickelt werden. Ob er eine Überlagerung aus anderen (Basis-)Vektoren ist oder nicht, hängt von der willkürlich gewählten Koordinatenbasis ab. Damit hängt es von der willkürlichen Wahl der Basis für die Beschreibung des Vorgangs ab, ob ein bestimmter Vektor überhaupt „kollabieren“ kann oder nicht. Doch wer wählt die Basis? Diese Stelle der Theorie ist es, die Genies wie Albert Einstein und Roger Penrose zu Formulierungen bringen, die Quantenmechanik sei unvollständig beziehungsweise gar inkonsistent.</p>
+<p>An dieser Stelle entledigen wir uns als erstes des historischen Begriffs des „Kollaps“ (oder auch „Reduktion“). Der Kollaps bedeutet \( | \psi &gt; \rightarrow a_i | a_i &gt; \). An den Kollaps schließt sich wieder ein Prozess Typ 2 an, der mit auf 1 normierten Hilbertraumvektoren modelliert werden muss, wenn die Wahrscheinlichkeitsinterpretation angewendet werden können soll. Das heißt, dass wir nach dem Kollaps den einen verbliebenen Koeffizienten umnormieren müssen \( a_i \rightarrow e^{i\phi} \). Vor und nach dem Kollaps hat unser Weltvektor damit die Länge 1. Also haben wir:</p>
+<ol><li>Der Weltzustandsvektor hüpft auf einer hochdimensionalen Einheitskugel im Hilbertraum in eine andere Richtung. Die möglichen anderen Richtungen werden durch die Verschränkung festgelegt.</li>
+<li>Der Weltzustandsvektor bewegt sich stetig und differenzierbar auf der hochdimensionalen Einheitskugel im Hilbertraum.</li>
+</ol><h2>Viele Welten spielen keine Rolle</h2>
+<p>Wir werden uns mit Wigners Gedankenexperiment die Rolle des Bewusstseins genauer ansehen. An dieser Stelle muss jedoch zunächst auf die Viele-Welten-Interpretation der Quantenmechanik eingegangen werden. In der Viele-Welten-Interpretation wird wie üblich angenommen, dass Bewusstseinszustände - wie oben bereits gesagt wurde - in den Vektoren \(| b_i &gt;\) enthalten sind. Das Paradoxon der bewusstsen Erfahrung nur noch eines bestimmten Zustands der Überlagerung soll sich dadurch lösen, dass alle Zustände erfahren werden. Jeder Zweig soll aber nur eine Froschperspektive (das ist unsere Menschperspektive) besitzen, für ihn ist die Welt <em>entweder</em> im Zustand \( |Katze\ lebt&gt; |Sie\ lebt!&gt; \) <em>oder</em> \( |Katze\ tot&gt; |Sie\ ist\ tot!&gt; \). Aus der Vogelperspektive soll der Zustand \( \frac{1}{\sqrt{2}}(|Katze\ lebt&gt; |Sie\ lebt!&gt; + |Katze\ tot&gt; |Sie\ ist\ tot!&gt;) \) nach wie vor vorhanden sein.</p>
+<p>Dieser Sicht muss man zugute halten, dass sie die Frage, wann genau der Zustandsvektor hüpft, beantwortet: er hüpft niemals, sondern es gibt nur noch den Prozess Typ 2. Doch es gibt auch  <strong>Kritik</strong>:</p>
+<ul><li>
+Für die Froschperspektive sind alle anderen Welten \( | a_i &gt; | b_i &gt; \) mit \(  i \neq\ eigenes\ i \) aus der Welt. Wie wir im Kapitel über die <a href="http://physikalismus.de/node/Ganzheit">Ganzheit</a> gesehen haben, gibt es für den Frosch keine Möglichkeit festzustellen, ob es andere lineare Bestandteile neben seinem eigenen gibt. Damit ist es für ihn vollkommen egal, ob es viele Welten gibt oder nur eine, und er müsste Occams Rasiermesser anwenden. Manche Autoren reden aber von genau so einer ständigen Auffächerung der Welt, von genau so einer Auffächerung in Welten, deren Existenzen vollkommen egal sind.
+</li>
+<li>
+Gibt es nur den Prozess Typ 2, dann muss dessen Umkehrung ebenfalls gedeutet werden. Mir ist (Anfang 2018) nicht bekannt, dass jemand den Versuch dazu unternommen hätte. Wiederkehr- und Umkehreinwand treffen den Prozess Typ 2 genau so hart, wie sie es in der statistischen Mechanik mit Boltzmanns H-Theorem tun. Typ 2 kann rückwärts in der Zeit ablaufen, und auf einem endlichen Hilbertraum kann der ursprüngliche Zustand wiederkehren.  Was bedeutet<br />
+\( \sum_i a_i |a_i&gt;|b_i&gt; \xrightarrow[Anti-Messung]{\hat{U}^{-1}} |\psi_A(t_1 &gt; t)&gt;|\psi_B(0)&gt; \) für den Frosch? Für ihn wird eine tote Katze wieder lebendig! <strong>Soll das nicht möglich sein, so benötigt die VWI einen weiteren Prozesstyp, der dies verhindert.</strong> Andererseits muss die Vorbereitung eines Quantenexperiments durch den Experimentator in der VWI ebenfalls rein durch Prozess Typ 2 erklärt werden. Diese Entschränkung ist aber genau von der gleichen Art, wie das Lebendigwerden einer (aus der Vogelperspektive gesehenen) totlebendigen Schrödinger-Katze.
+</li>
+<li>
+Warum nur manche Vektoren sich auffächern und andere nicht, erklärt die VWI nicht. Die Dekohärenztheorie liefert uns ein gewisses Verständnis dafür, warum wir Dinge wahrnehmen, die an Orten sind. Die Gestalt des Wechselwirkungsoperators \( \hat{H}_{WW} \), der in \( \hat{U} \) steckt, ist mit ihren stark ortsabhängigen Matrixelementen dafür verantwortlich. Wenn unser Bewusstsein aber in einem kleinen Hilbertraum am Ende der von-Neumann-Kette leben soll, dann können wir uns am Anfang der Kette ganz verschiedene Trennungen der Teilräume denken. Die unitäre Gesamtdynamik bleibt dabei gleich. Andere Trennungen des Hilbertraums liefern uns aber andere Wechselwirkungsoperatoren zwischen den Teilräumen, die vielleicht ganz andere Matrixelemente haben. Wieso sorgen diese Operatoren nicht für eine andere Auffächerung? Kommt es am Ende nur darauf an, wie das Bewusstsein angekoppelt ist? Auch darauf liefert die VWI keine Antwort.
+</li>
+<li>
+Allein der Prozess Typ 2 reicht nicht aus, um das zu modellieren, was uns als Lebendigkeit erscheint. Die Schrödinger-Gleichung ist eine Mischung aus Poisson- und Wellengleichung und taugt höchstens für die Beschreibung auseinander- oder zusammenfließender Wellenpakete. Es gibt Ansätze zur nichtlinearen Erweiterung der Schrödinger-Gleichung, die mit der heutigen Technik nicht widerlegbar sind. Diese jedoch zielen auf eine Eine-Welt-Interpretation. (Andererseits brächte auch der Prozess Typ 1 eine nichtlineare Rückkopplung erst nach einer noch vorzunehmenden Erweiterung der Quantentheorie zustande.)
+</li>
+</ul><h2>Zum Schluss</h2>
+<p>Wir haben hier die ganze Zeit von Messungen geredet. Diese Prozesse finden in der Natur aber ständig statt. Das einzig besondere an einer Messung ist, dass wir uns für eine Messung einen Operator \( \hat{U} \) heraussuchen, der Eigenzustände des Operators \( \hat{A} \) mit der Umgebung maximal verschränkt. Suchen wir uns keinen Operator heraus, dann wählt sich die Natur einen und verschränkt andere Zustände mit der Umgebung (Dekohärenz). Der Prozess Typ 2 findet ständig statt. Die große Frage, die sich ohne Viele-Welten-Interpretation stellt, ist demnach: <strong>Findet der Prozess Typ 1 ebenfalls ständig statt? Und was bedeutet er?</strong></p>
+</div></div></div></div>  </div>
 
   <div class="clearfix">
           <div class="links"></div>

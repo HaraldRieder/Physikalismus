@@ -45,7 +45,7 @@ MathJax.Hub.Config({
 @import url("http://physikalismus.de/modules/user/user.css?obwofu");
 </style>
 <style type="text/css" media="all">
-@import url("../sites/default/files/color/garland-b0e715b8/style.css?obwofu");
+@import url("../sites/default/files/color/garland-b0e715b8/style.css@obwofu");
 </style>
 <style type="text/css" media="print">
 @import url("http://physikalismus.de/themes/garland/print.css?obwofu");
@@ -57,12 +57,12 @@ MathJax.Hub.Config({
   <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
 <script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
 <script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?obwofu"></script>
-<script type="text/javascript" src="../sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js?obwofu"></script>
-<script type="text/javascript" src="../sites/all/modules/mathjax/mathjax.js?obwofu"></script>
+<script type="text/javascript" src="../sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@obwofu"></script>
+<script type="text/javascript" src="../sites/all/modules/mathjax/mathjax.js@obwofu"></script>
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"EGb-ewX76kghc9xTNZTXY0-B7xkokfsurhdm33YS6a0","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/node\/13":true,"\/Quellen?destination=node\/13":true}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"SiB5CClICjiUwaOEjuf8gqDjzhJ6VRqsBAXV_S97MlM","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/node\/13":true,"\/Quellen?destination=node\/13":true}});
 //--><!]]>
 </script>
 </head>
@@ -104,7 +104,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
   <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
  <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-wSTDcLyujIIoKb4c1YQpHIcRvgf18VPScbtDF-vbAIo" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-Pr7tsA0HNs6I-mG6WcTOsBjr4vrPisvhvYVlwG0cB0M" />
 <input type="hidden" name="form_id" value="search_block_form" />
 </div>
 </div></form>  </div>
@@ -157,7 +157,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
  <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
 </div>
 <div class="item-list"><ul><li class="first last"><a href="../user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
-</ul></div><input type="hidden" name="form_build_id" value="form-K20OKmdXN95FrMlYUNKtz8S2h6aNulVU2Hp42cA-HYA" />
+</ul></div><input type="hidden" name="form_build_id" value="form-g-UT4TeXP4tiWDBakLzIVmL37fBkmCPkm1wCHY-fQO0" />
 <input type="hidden" name="form_id" value="user_login_block" />
 <div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
 </div>
@@ -183,91 +183,95 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
 <td>Vincenzo Alba, Pasquale Calabrese, Entanglement and thermodynamics after a quantum quench in integrable systems, <a href="https://arxiv.org/abs/1608.00614">arXiv:1608.00614 [cond-mat.str-el]</a></td>
 </tr><tr><td id="Amann">[Amann]</td>
 <td>Anton Amann und Ulrich Müller-Herold, Offene Quantensysteme, Die Primas Lectures, ISBN 978-3-642-05187-6</td>
-</tr><tr><td>[Anguttara Nikaya]</td>
+</tr><tr><td id="Anguttara Nikaya">[Anguttara Nikaya]</td>
 <td>Aus dem Pali-Kanon nach <a href="http://www.palikanon.com/">Der Pali Kanon des Theravāda-Buddhismus in Deutsch</a></td>
 </tr><tr><td id="Apostel">[Apostel]</td>
 <td>Apostelgeschichte des Lukas</td>
 </tr><tr><td id="Becker">[Becker]</td>
 <td>Richard Becker und Wolfgang Ludwig, Theorie der Wärme, 3. Auflage 1985, ISBN 3-540-15383-7, ISBN 0-387-15383-7</td>
+</tr><tr><td id="Bekenstein-1973">[Bekenstein-1973]</td>
+<td>Black Holes and Entropy, Bekenstein 1973, auch in der <a href="../sites/default/files/Bibliothek/Black&#32;Holes&#32;and&#32;Entropy&#32;Bekenstein&#32;1973.pdf">Bibliothek</a></td>
 </tr><tr><td id="Berkeley">[Berkeley]</td>
 <td>George Berkeley, A Treatise Concerning the Principles ov Human Knowledge, 1710</td>
 </tr><tr><td id="Bialynicki-Birula">[Bialynicki-Birula]</td>
 <td>Iwo Bialynicki-Birula, The Hamiltonian Of Quantum Electrodynamics, Institute for Theoretical Physics, Polish Academy of Sciences</td>
-</tr><tr><td><a name="Briggs-Peat" id="Briggs-Peat">[Briggs-Peat]</a></td>
+</tr><tr><td id="Briggs-Peat">[Briggs-Peat]</td>
 <td>John Briggs &amp; F. David Peat, Die Entdeckung des Chaos, Eine Reise durch die Chaos-Theorie, dtv 1990, ISBN 3-423-30349-2, ISBN 3-446-15966-5</td>
-</tr><tr><td>[Chang Tun-Sun]</td>
-<td>Chinesen denken anders</td>
+</tr><tr><td id="Chang Tun-Sun">[Chang Tun-Sun]</td>
+<td>Chinesen denken anders, bei <a href="http://www.vordenker.de/downloads/chang-tung-sun_chinesen-denken-anders.pdf">vordenker.de</a></td>
 </tr><tr></tr><tr><td id="Conway-Kochen">[Conway-Kochen]</td>
 <td>The Free Will Theorem, John Conway &amp; Simon Kochen 2006, <a href="https://arxiv.org/abs/quant-ph/0604079">arXiv:quant-ph/0604079</a></td>
-</tr><tr><td>[Demian]</td>
+</tr><tr><td id="Demian">[Demian]</td>
 <td>Hermann Hesse, Demian - Die Geschichte von Emil Sinclairs Jugend</td>
-</tr><tr><td>[Dereziński]</td>
+</tr><tr><td id="Derezinski">[Dereziński]</td>
 <td>Jan Dereziński, But there is no Hamiltonian, Department of Mathematical Methods in Physics, Faculty of Physics, University of Warsaw</td>
-</tr><tr><td>[d'Espagnat-Meas]</td>
+</tr><tr><td id="dEspagnat-Meas">[d'Espagnat-Meas]</td>
 <td>Bernard d’Espagnat, A note on Measurement, <a href="http://arxiv.org/abs/quant-ph/0101141v1">arXiv:quant-ph/0101141</a></td>
-</tr><tr><td>[Dürr-GKP]</td>
+</tr><tr><td id="Duerr-GKP">[Dürr-GKP]</td>
 <td>Hans-Peter Dürr, Geist, Kosmos und Physik: Gedanken über die Einheit des Lebens, Amerang 2010, ISBN-10: 3-86191-003-9; ISBN-13: 978-3-86191-003-9</td>
-</tr><tr><td>[Dürr-M]</td>
+</tr><tr><td id="Duerr-M">[Dürr-M]</td>
 <td>Hans-Peter Dürr, Es gibt keine Materie!, ISBN 978-3-86191-028-2</td>
-</tr><tr><td>[Dürr-P&amp;E]</td>
+</tr><tr id="Duerr-PE"><td>[Dürr-P&amp;E]</td>
 <td>Hans-Peter Dürr, Das Netz des Physikers, ISBN 3-446-14651-2, Erster Teil: Physik und Erkenntnis</td>
-</tr><tr><td>[Dürr-PM]</td>
+</tr><tr><td id="Duerr-PM">[Dürr-PM]</td>
 <td>Interview mit Hans-Peter Dürr im P.M. Magazin: <a href="http://www.pm-magazin.de/a/am-anfang-war-der-quantengeist">Am Anfang war der Quantengeist</a></td>
-</tr><tr><td>[Everett-Dr]</td>
-<td>Doktorarbeit: The Many-Worlds Interpretation of Quantum Mechanics, The Theory of the Universal Wave Function, Hugh Everett III</td>
+</tr><tr><td id="Everett-Dr">[Everett-Dr]</td>
+<td>Doktorarbeit: The Many-Worlds Interpretation of Quantum Mechanics, The Theory of the Universal Wave Function, Hugh Everett III, auch in der <a href="../sites/default/files/Bibliothek/Everett&#32;long&#32;thesis&#32;as&#32;published&#32;1973.pdf">Bibliothek</a></td>
 </tr><tr><td>[Everett-VW]</td>
 <td>Viele Welten, Hugh Everett III - ein Familiendrama zwischen kaltem Krieg und Quantenphysik, Peter Byrne, ISBN 978-3-642-25179-5</td>
-</tr><tr><td>[Fick]</td>
-<td>Einführung in die Grundlagen der Quantentheorie, 5. Auflage, ISBN 3-89104-131-4</td>
-</tr><tr><td>[Garbe]</td>
+</tr><tr><td id="Fick">[Fick]</td>
+<td>Einführung in die Grundlagen der Quantentheorie, 5. Auflage, ISBN 3-89104-131-4, teilweise auf <a href="http://physikalismus.de/node/vermaschung.de">vermaschung.de</a> zu finden</td>
+</tr><tr><td id="Garbe">[Garbe]</td>
 <td>Indien und das Christentum, Eine Untersuchung der religionsgeschichtlichen Zusammenhänge, Richard Garbe, Tübingen, Verlag von J. C. B. Mohr (Paul Siebeck), 1914</td>
-</tr><tr><td>[Goldstein]</td>
+</tr><tr><td id="Goldstein">[Goldstein]</td>
 <td>Klassische Mechanik, Herbert Goldstein, Charles P. Poole, Jr., John L. Safko, Sr., ISBN 978-3-527-66207-4</td>
-</tr><tr><td>[Greiner-Müller-S]</td>
+</tr><tr><td id="Greiner-Mueller-S">[Greiner-Müller-S]</td>
 <td>Quantenmechanik Symmetrien, 4. Auflage 2005, ISBN 3-8171-1616-0</td>
-</tr><tr><td>[Haken-Wolf]</td>
+</tr><tr><td id="Guehne">[Gühne]</td>
+<td>O. Gühne: Keine Ausreden mehr, <a href="https://de.wikipedia.org/wiki/Physik_Journal">Physik Journal</a> 15 (2), S. 18–19, 2016</td>
+</tr><tr><td id="Haken-Wolf">[Haken-Wolf]</td>
 <td>Atom- und Quantenphysik, 2. Auflage, ISBN 3-540-11897-7</td>
-</tr><tr><td>[Heine-M]</td>
+</tr><tr><td id="Heine-M">[Heine-M]</td>
 <td>Morphine - Ein Gedicht von Heinrich Heine</td>
-</tr><tr><td>[Heisenberg-E]</td>
+</tr><tr><td id="Heisenberg-E">[Heisenberg-E]</td>
 <td>Einführung in die einheitliche Feldtheorie der Elementarteilchen, S. Hirzel Verlag Stuttgart 1967</td>
-</tr><tr><td>[Heisenberg-G]</td>
+</tr><tr><td id="Heisenberg-G">[Heisenberg-G]</td>
 <td>Der Teil und das Ganze, Gespräche im Umkreis der Atomphysik, R. Piper &amp; Co. Verlag München 1969</td>
-</tr><tr><td>[Heisenberg-P]</td>
+</tr><tr><td id="Heisenberg-P">[Heisenberg-P]</td>
 <td>Physik und Philosophie, 7. Aufl. Stuttgart: Hirzel, 2006, ISBN 3777610240</td>
-</tr><tr><td>[Heisenberg-O]</td>
+</tr><tr><td id="Heisenberg-O">[Heisenberg-O]</td>
 <td>Ordnung der Wirklichkeit, Originalausgabe Februar 1989, ISBN 3-492-10945-4</td>
-</tr><tr><td>[Heraklit-F]</td>
+</tr><tr><td id="Heraklit-F">[Heraklit-F]</td>
 <td>Heraklit - Fragmente, griechisch und deutsch, Hrsg. Bruno Snell, Düsseldorf Artemis und Winkler 2000, 12. Aufl. ISBN 3-7608-1538-3</td>
-</tr><tr><td>[Hexenmeister]</td>
+</tr><tr><td id="Hexenmeister">[Hexenmeister]</td>
 <td>Hexenmeister am Regler, Der Spiegel Nr. 28 2014</td>
-</tr><tr><td>[Kant-D]</td>
-<td>Immanuel Kant in Will Durant, Kulturgeschichte der Menschheit, Das Vermächtnis des Ostens, 18. Das Paradies der Götter</td>
-</tr><tr><td>[Konrad]</td>
+</tr><tr><td id="Hoffman-T">[Hoffman-T]</td>
+<td>About the Origin of Time in Consious Agents, Donald Hoffman, auch in der <a href="../sites/default/files/Bibliothek/HoffmanTime.pdf">Bibliothek</a></td>
+</tr><tr><td id="Konrad">[Konrad]</td>
 <td>Kerstin Konrad, Christine Firk, Peter J. Uhlhaas: Hirnentwicklung in der Adoleszenz: Neurowissenschaftliche Befunde zum Verständnis dieser Entwicklungsphase. In: Deutsches Ärzteblatt International 2013; 110 (25), 425-31</td>
-</tr><tr><td>[Köpp/Krüger]</td>
+</tr><tr><td id="KoeppKrueger">[Köpp/Krüger]</td>
 <td>Einführung in die Quanten-Elektrodynamik, G.Köpp/F.Krüger, Stuttgart 1997, ISBN 978-3-519-03235-9</td>
-</tr><tr><td>[Küppers]</td>
+</tr><tr><td id="Kueppers">[Küppers]</td>
 <td>Ordnung aus dem Chaos, Prinzipien der Selbstorganisation und Evolution des Lebens, Bernd-Olaf Küppers (Hrsg.), ISBN 3-492-10743-5</td>
 </tr><tr><td>[Laṅkāvatāra-sūtra]</td>
 <td>Nach [Schumann] aus der Ausgabe von B. Nanjio, Kyoto 1956 zitiert</td>
-</tr><tr><td><a name="LeeChangYoung" id="LeeChangYoung">[Lee Chang-Young]</a></td>
+</tr><tr><td id="LeeChangYoung">[Lee Chang-Young]</td>
 <td><a href="http://iopscience.iop.org/article/10.1088/1367-2630/6/1/067/meta">Quantum entanglement under Lorentz boost, Daeho Lee and Ee Chang-Young, Published 28 June 2004</a></td>
-</tr><tr><td>[Mach]</td>
+</tr><tr><td id="Mach">[Mach]</td>
 <td>Ernst Mach, Die Analyse der Empfindungen und das Verhältnis des Physischen zum Psychischen, 9. Auflage Fischer Jena 1922, ISBN 3-534-09381-X</td>
 </tr><tr><td>[Majjhimanikaya]</td>
 <td>Die vier edlen Wahrheiten, Texte des ursprünglichen Buddhismus, ISBN 3-15-003420-5</td>
-</tr><tr><td>[Pauli]</td>
+</tr><tr><td id="Pauli">[Pauli]</td>
 <td>Wolfgang Pauli in einem Brief an M. Fierz (12. August 1948), zitiert in Audretsch, Jürgen: Die andere Hälfte der Wahrheit. Naturwissenschaft Philosophie Religion, S. 13. München (C.H. Beck) 1992</td>
-</tr><tr><td>[Planck]</td>
+</tr><tr><td id="Planck">[Planck]</td>
 <td>Archiv zur Geschichte der Max-Planck-Gesellschaft, Abt. Va, Rep. 11 Planck, Nr. 1797</td>
-</tr><tr><td>[Platon-H]</td>
+</tr><tr><td id="Platon-H">[Platon-H]</td>
 <td>Platon, Politeia (Übersetzer: Friedrich Schleiermacher), Siebentes Buch, Das Höhlengleichnis</td>
-</tr><tr><td>[Posaunen]</td>
-<td>Keine Posaunen vor Jericho, Israel Finkelstein und Neil A. Silberman, ISBN 978-3-423-34151-6<br /></td></tr><tr><td>[Prediger]</td>
+</tr><tr><td id="Posaunen">[Posaunen]</td>
+<td>Keine Posaunen vor Jericho, Israel Finkelstein und Neil A. Silberman, ISBN 978-3-423-34151-6<br /></td></tr><tr><td id="Prediger">[Prediger]</td>
 <td>Altes Testament - Buch Prediger / Kohelet</td>
-</tr><tr><td><a id="Rieder">[Rieder]</a></td>
-<td>Begleitdokument zum Kurs Quanteninformation 2017, auch in der <a href="http://physikalismus.de/sites/default/files/Bibliothek/Quanteninformation.pdf">Bibliothek</a></td>
+</tr><tr><td id="Rieder">[Rieder]</td>
+<td>Begleitdokument zum Kurs Quanteninformation 2017, auch in der <a href="../sites/default/files/Bibliothek/Quanteninformation.pdf">Bibliothek</a></td>
 </tr><tr><td>[Saṃyutta-nikāya]</td>
 <td>Nach [Schumann] aus der Ausgabe der Pali Text Society zitiert.</td>
 </tr><tr><td>[Seiden]</td>
@@ -294,6 +298,8 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
 <td>Spektrum der Wissenschaft April 2014, Anzeige der Firma McKinsey &amp; Company auf der Rückseite des Hefts</td>
 </tr><tr><td>[Tempel]</td>
 <td>Aufschrift am Tempel des Apoll in Delphi</td>
+</tr><tr><td id="Tegmark">[Tegmark]</td>
+<td>Consciousness as a State of Matter, Max Tegmark, <a href="https://arxiv.org/abs/1401.1219">arXiv:1401.1219</a> auch in der <a href="../sites/default/files/Bibliothek/Tegmark.pdf">Bibliothek</a></td>
 </tr><tr><td>[Theragata]</td>
 <td><a href="http://nbn-resolving.de/urn:nbn:de:bsz:352-opus-5718">Theragata und Therigata, Die Lieder der Mönche und Nonnen</a> aus dem Pali übersetzt von Ekkehard Saß, Universität Konstanz 2000, Fachbereich Geschichte und Soziologie, Forschungsprojekt „Buddhistischer Modernismus“
 </td>

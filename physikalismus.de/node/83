@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../sites/default/files/pyramid_power.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="83" />
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ['tex2jax.js'],
+  jax: ['input/TeX','output/HTML-CSS'],
+  tex2jax: {
+    inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+    processEscapes: true,
+    processClass: 'tex2jax',
+    ignoreClass: 'html'
+  },
+  showProcessingMessages: false,
+  messageStyle: 'none'
+});
+</script><meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="../Leben" />
+  <title>Was ist Leben? | Physikalismus</title>
+  <style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/system/system.base.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.menus.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.messages.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.theme.css?obwofu");
+</style>
+<style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/comment/comment.css?obwofu");
+@import url("http://physikalismus.de/modules/field/theme/field.css?obwofu");
+@import url("http://physikalismus.de/modules/node/node.css?obwofu");
+@import url("http://physikalismus.de/modules/search/search.css?obwofu");
+@import url("http://physikalismus.de/modules/user/user.css?obwofu");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/default/files/color/garland-b0e715b8/style.css?obwofu");
+</style>
+<style type="text/css" media="print">
+@import url("http://physikalismus.de/themes/garland/print.css?obwofu");
+</style>
+
+<!--[if lt IE 7]>
+<link type="text/css" rel="stylesheet" href="http://physikalismus.de/themes/garland/fix-ie.css?obwofu" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?obwofu"></script>
+<script type="text/javascript" src="../sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js?obwofu"></script>
+<script type="text/javascript" src="../sites/all/modules/mathjax/mathjax.js?obwofu"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"C3-l31TzQpz_eMuusBi3LTl25aXrhuP1jranFn71D4A","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/node\/83":true,"\/Leben?destination=node\/83":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-83 node-type-page fluid-width" >
+  <div id="skip-link">
+    <a href="83#main-content" class="element-invisible element-focusable">Direkt zum Inhalt</a>
+  </div>
+      
+  <div id="wrapper">
+    <div id="container" class="clearfix">
+
+      <div id="header">
+        <div id="logo-floater">
+                              <div id="branding"><strong><a href="../index.html">
+                          <img src="../sites/default/files/pyramid_power.png" alt=" " title=" " id="logo" />
+                                    </a></strong></div>
+                          </div>
+
+        <h2 class="element-invisible">Hauptmenü</h2><ul class="links inline main-menu"><li class="menu-218 first"><a href="../index.html" title="">Start</a></li>
+<li class="menu-467"><a href="../tracker" title="">Neuester Inhalt</a></li>
+<li class="menu-468"><a href="../Baustellen" title="Meine Hausaufgaben">Baustellen</a></li>
+<li class="menu-310"><a href="../Quellen">Quellen</a></li>
+<li class="menu-311"><a href="../Zitate">Zitate</a></li>
+<li class="menu-469"><a href="../Begriffe" title="Wie die Wörter an diesem Ort gemeint sind, 
+erklärt durch noch mehr Wörter.">Begriffe</a></li>
+<li class="menu-410"><a href="../Bibliothek" title="Zum Verständnis Dienliches an diesem Ort Archiviertes">Bibliothek</a></li>
+<li class="menu-423 last"><a href="../Impressum">Impressum</a></li>
+</ul>              </div> <!-- /#header -->
+
+              <div id="sidebar-first" class="sidebar">
+            <div class="region region-sidebar-first">
+    <div id="block-search-form" class="block block-search clearfix">
+
+    
+  <div class="content">
+    <form action="83" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Suchformular</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
+ <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-rKAzP0b6O_kXKF3P7rm1rcv6lG6oa40HQykA8PZtjjQ" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-system-navigation" class="block block-system block-menu clearfix">
+
+    <h2 class="title">Navigation</h2>
+  
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="../Bewusstsein" title="Gedanken über den Geist">Bewusstsein</a></li>
+<li class="leaf"><a href="../Dao" title="Der Weg zur Erkenntnis">Dao</a></li>
+<li class="leaf"><a href="../Denken" title="Muss Denken immer in einem engen Raumgebiet stattfinden?">Denken</a></li>
+<li class="leaf"><a href="../Energie" title="Ein Wort zur Energie">Energie</a></li>
+<li class="leaf"><a href="../Erloesung" title="Wie kann das Abgeteilte erlöst werden?">Erlösung</a></li>
+<li class="leaf"><a href="../Erwachsenwerden" title="Erwachsenwerden in der Begrifflichkeit des Schopenhauerschen Willens">Erwachsenwerden</a></li>
+<li class="leaf"><a href="../Freunde" title="Wie Freunde uns in die Irre führen">Freunde</a></li>
+<li class="leaf"><a href="../Ganzheit" title="Nichlinearität erzwingt Ganzheit">Ganzheit</a></li>
+<li class="leaf"><a href="../Geister" title="Wann ist ein Geist ein Geist?">Geister</a></li>
+<li class="leaf"><a href="../Geld" title="Preis als Energie und Geld als Software">Geld</a></li>
+<li class="collapsed"><a href="../Gleichnisse" title="Gleichnisse für Physiker von einem Physiker über Physik">Gleichnisse</a></li>
+<li class="leaf"><a href="../Ethik" title="Was sollen wir tun?">gut &amp; böse</a></li>
+<li class="leaf"><a href="../Ich" title="Was ist das Ich?">Ich</a></li>
+<li class="collapsed"><a href="../Information" title="Baustelle">Information</a></li>
+<li class="leaf"><a href="../Jesus" title="Wie ich mir Jesus vorstelle">Jesus</a></li>
+<li class="leaf"><a href="../Juristerei" title="Kann richtig geurteilt werden?">Juristerei</a></li>
+<li class="leaf"><a href="../Kampf" title="Die falsche Idee vom totalen Frieden">Kampf</a></li>
+<li class="leaf active-trail"><a href="../Leben" title="Was ist Leben?" class="active-trail active">Leben</a></li>
+<li class="collapsed"><a href="../Masse" title="Wie sich die Masse in ein Geflecht auflöst">Masse</a></li>
+<li class="collapsed"><a href="../Mechanik" title="Was man von der klassischen Mechanik noch lernen kann">Mechanik</a></li>
+<li class="leaf"><a href="../N" title="Was an den natürlichen Zahlen unnatürlich ist">N</a></li>
+<li class="collapsed"><a href="../Quantenmechanik" title="Die philosophischen Konsequenzen aus der Quantenmechanik">Quanten</a></li>
+<li class="leaf"><a href="../Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen">Reduktionismus</a></li>
+<li class="leaf"><a href="../Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
+<li class="leaf"><a href="../Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
+<li class="leaf"><a href="../Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+<li class="last leaf"><a href="../Koernung" title="Argumente für eine Körnung der Natur">Körnung</a></li>
+</ul>  </div>
+</div>
+<div id="block-user-login" class="block block-user clearfix">
+
+    <h2 class="title">Benutzeranmeldung</h2>
+  
+  <div class="content">
+    <form action="http://physikalismus.de/Leben?destination=node/83" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Benutzername <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">Passwort <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="first last"><a href="../user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
+</ul></div><input type="hidden" name="form_build_id" value="form-8eHd0qVmn30DBUnDzHyCSCcpHN2CoS8GAoVgEzbzVo8" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
+</div>
+  </div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <h2 class="element-invisible">Sie sind hier</h2><div class="breadcrumb"><a href="../index.html">Startseite</a></div>                    <a id="main-content"></a>
+          <div id="tabs-wrapper" class="clearfix">                                <h1 class="with-tabs">Was ist Leben?</h1>
+                              </div>                                                  <div class="clearfix">
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <div id="node-83" class="node node-page" about="/Leben" typeof="foaf:Document">
+
+  
+      <span property="dc:title" content="Was ist Leben?" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="tex2jax"><p><cite>Was Leben bzw. ein Lebewesen ist, wird - in der modernen Biologie wie schon bei Aristoteles - nicht über einzelne Eigenschaften, einen bestimmten Zustand oder eine spezifische Stofflichkeit definiert, sondern über eine Menge von Aktivitäten, die zusammengenommen für Leben bzw. Lebewesen charakteristisch und spezifisch sind. Als diese Aktivitäten werden üblicherweise genannt:</cite></p>
+<ul><li><cite>Energie- und Stoffwechsel und damit Wechselwirkung mit ihrer Umwelt.</cite></li>
+<li><cite>Organisiertheit und Selbstregulation (Homöostase).</cite></li>
+<li><cite>Reiz, das heißt sie sind fähig, auf chemische oder physikalische Änderungen in ihrer Umwelt zu reagieren.</cite></li>
+<li><cite>Fortpflanzung, das heißt, sie sind zur Reproduktion fähig.</cite></li>
+<li><cite>Vererbung, das heißt, sie können Informationen (Erbgut) an ihre Nachkommen übermitteln.</cite></li>
+<li><cite>Wachstum und damit die Fähigkeit zur Entwicklung.</cite></li>
+</ul><p> [Wikipedia 2017]</p>
+<p>Mit der Wikipedia-Definition von Leben dürften die meisten Menschen etwas anfangen können. Es gibt jedoch Kunde von einigen sehr intelligenten Herren, die ganz anderer Auffassung waren:</p>
+<p><cite>Ein und dasselbe ist Lebendiges und Totes und Wachendes und Schlafendes und Junges und Altes; denn dies schlägt um und ist jenes, und jenes wieder schlägt um und ist dies.<br /></cite> [Heraklit-F]</p>
+<p><cite>Im Gebiet der kleinsten Organismen kann ja auch die Frage, ob ein bestimmtes Gebilde ein „lebendes Wesen“ oder ein Stück „toter Materie“ sei, nur durch willkürliche Definitionen beantwortet werden.<br /></cite> [Heisenberg-O]</p>
+<p><cite>Bei diesen kleinsten Lebewesen aber wird die Frage, ob sie aus lebendiger oder toter Materie bestehen, unentscheidbar. Man kann dies so ausdrücken, daß es überhaupt nur lebendige Materie gebe; ...<br /></cite> [Heisenberg-O]</p>
+<p><cite>Gehört die eben aufgenommene Nahrung, die Luft, die eingeatmet wurde, mit zum Körper, oder nicht? Von welchem Zeitpunkt ab sollen sie als Teile des Körpers bezeichnet werden? Gehört das Schneckenhaus mit zum Organismus der Schnecke, das Netz mit zu dem der Spinne? Müsste nicht bis zu einem gewissen Grad auch das Erdreich, in dem die Pflanze wurzelt, mit zu ihrem lebendigen Zusammenhang gerechnet werden?<br /></cite> [Heisenberg-O]</p>
+<p><cite>Eigentlich gibt es gar nichts Unlebendiges!<br /></cite> [Dürr-M II.]</p>
+<p><cite>Dass ein Tisch im Grunde auch lebendig ist, bemerken wir nicht, weil wir ihn nur vergröbert betrachten und damit vereinfacht sehen.<br /></cite> [Dürr-GKP S.108]</p>
+<h2>Energie- und Stoffwechsel und damit Wechselwirkung mit ihrer Umwelt?</h2>
+<p>Erst mal muss man ein Lebenwesen abgrenzen können, sonst könnte man es schließlich nicht vom Nichtlebendigen außeinander halten. Kann man das? Ja: man nehme einen Unterraum des gesamten Hilbertraums! Wie verhält es sich mit den Energie- und Teilchenzahlerwartungswerten dieses Unterraums? Wenn es Wechselwirkungs-Hamiltonians zwischen diesem Unterraum und dem Rest gibt, dann werden diese nicht konstant sein. Bereits bei einer Verschränkung der Räume ohne Wechselwirkung werden die Erwartungswerte nicht konstant sein und es gibt "Energie- und Stoffwechsel". Gibt es keine Wechselwirkung, so ist der Unterraum vom Rest aus gesehen schlicht: nicht Bestandteil dieser Welt. Oder: <strong>dieses Kriterium wird von jedem Teil der Welt erfüllt.</strong></p>
+<h2>Organisiertheit und Selbstregulation (Homöostase)?</h2>
+<p>noch zu erledigen...</p>
+<h2>Reiz, das heißt sie sind fähig, auf chemische oder physikalische Änderungen in ihrer Umwelt zu reagieren?</h2>
+<p>Dahinter steckt eine Kausalmodell (actio &amp; reactio), das sich zwar im menschlichen Verstand, in der modernen Physik aber nicht finden lässt. Stets ist es eine gemeinsame Entwicklung (s.o. Energie- und Stoffwechsel) von Unterraum und Rest. Actio und Reactio sind ein vergröbertes Modell des Geschehens, wie es vom mikroskopischen Modell auf andere Weise genauer erfasst wird. Nur die Ausblendung der allermeisten Veränderung und die Beschränkung auf die aus menschlicher Sicht „interessanten“ Veränderungen lässt ein Ursache-Wirkungsmodell zu, wodurch letzteres beliebig wird. Wer entscheidet, was ausgeblendet wird und was nicht? Das mikroskopische Modell wird stets sagen: jeglicher Unterraum entwickelt sich gemeinsam mit dem Rest. Es kann keine Unterscheidung zwischen lebendigen und unlebendigen Unterräumen oder Dichteoperatoren vorgenommen werden. Oder: <strong>es entwickelt sich jeder Teil der Welt stets zusammen mit dem Rest.</strong></p>
+<h2>Fortpflanzung, das heißt, sie sind zur Reproduktion fähig?</h2>
+<p>Es gibt keine 2 gleichen Dichteoperatoren, die auf verschiedenen vieldimensionalen Hilberträumen wirken, sondern es ist bei vielen Dimensionen (im Kontinuum sogar mehrfach unendlich vielen Dimensionen) die Wahrscheinlichkeit für Gleichheit zweier \( |\psi&gt;&lt;\psi| \) praktisch 0. Ohne Gleichheit keine Reproduktion, das hieße <strong>dieses Kriterium wäre niemals erfüllt</strong>.</p>
+<p>Es ist möglich, die Forderung nach exakter Gleichheit abzuschwächen. Sofort stellt sich die Frage, wer entscheiden soll, wie stark diese Aufweichung sein darf, damit Reproduktion vorliegt. Wenn ein Pferd einen Esel gebiert, hat es sich dann reproduziert? Nach Aufweichung der Gleichheitsbedingung stellen sich weitere Fragen: ein Wassertropfen kann sich reproduzieren, indem er eine übersättigte Wolke findet und die Kondensation weiterer Tropfen auslöst. Ein Elektron kann sich in einem Sekundärelektronenverfielfacher reproduzieren. Zwei schwarze Löcher können sich reproduzieren, indem sie durch Aussenden von Gravitationswellen weitere Sternbildung auslösen. Eine Automobil kann sich parasitär reproduzieren, indem es durch seine Erscheinung in Menschen den Wunsch erzeugt, weitere ähnliche Automobile in die Welt zu setzen.  <strong>Wird dieses Kriterium durch Aufweichung der Gleichheitsbedingung erfüllbar gemacht, dann automatisch auch für das, was gemeinhin als tot angesehen wird.</strong></p>
+<h2>Vererbung, das heißt, sie können Informationen (Erbgut) an ihre Nachkommen übermitteln?</h2>
+<p>Der Information ist aufgrund ihrer überragenden Bedeutung in der Physik ein <a href="http://physikalismus.de/node/Information">eigenes Kapitel</a> gewidmet. Bedeutet jeder Dichteoperator für einen Unterraum für den Rest Information? Ja! Bedeutet jeder Dichteoperator für einen Unterraum (Vorfahre) für jeden beliebigen Unterraum des Rests (d.h. auch alle Nachkommen) Information? Ja! <strong>Dieses Kriterium ist immer erfüllt und kann nicht zur Unterscheidung tot/lebendig herangezogen werden.</strong></p>
+<h2>Wachstum und damit die Fähigkeit zur Entwicklung?</h2>
+<p>Die Dimension des Unterraums soll sich erhöhen. Ohne allgegenwärtiges Dimensionswachstum des Weltalls kann das nur dadurch geschehen, dass man willkürlich die Betrachtung von einem Unterraum auf einen größeren wechselt. Wieso sollte man irgendeinen Dichteoperator auf dem größeren Unterraum als dasselbe Ding ansehen wie einen Dichteoperator auf dem kleineren Unterraum? Was man hier tun will ist, eine vergröberte Sicht zu wählen, die nur bestimmte wenige makroskopische Aspekte des Dichteoperators enthält. Doch wer entscheidet, welche Aspekte zu betrachten und welche auszublenden sind? Angenommen es gäbe eine solche kulturelle Übereinkunft, die Aspekte könnten sein: Form, Farbe, usw. Damit stellt sich die Frage so: ist es möglich, von einem kleineren Unterraum auf einen größeren Unterraum überzugehen, so dass bestimmte makroskopische Größen, die sowohl aus dem Dichteoperator auf dem kleinen wie aus dem Dichteoperator auf dem großen Unterraum abgeleitet werden können, genügend ähnlich sind? Die Antwort lautet: <strong>ja, es hängt vom Zufall ab, unabhängig davon, ob man es mit Dingen zu tun hat, die gemeinhin als tot oder lebendig bezeichnet werden.</strong></p>
+<p>Warum fehlt bei Wikipedia eigentlich das Geistige in der Definition?</p>
+<p>Fortsetzzung folge...</p>
+<p>free will theorem</p>
+<p>Englisches Wikipedia Entropie als Def. Lebendigkeit diskutieren</p>
+<p>Heisenberg-Zitat hier versus Görnitz-Sicht (aus kreativem Kosmos zitieren)</p>
+<p><a href="http://www.nature.com/articles/srep38427">http://www.nature.com/articles/srep38427</a></p>
+<p>G. bleibt Definition schuldig. H. kein Problem, folgt logisch aus Dürr Es gibt keine Materie!</p>
+<p>Versuchte Definition. Problem Stoffwechsel (ist aber klassisch, qt wechselt sich weniger).<br />
+A la Thermodynamik. Gesucht Lebensvariablen, über die Verhaltenskomplexität a la Chaostheorie, Ljapunov, definiert werden kann. Vorher darf man als QT nicht von Leben sprechen. Klar: nur eine künstliche willkürliche Grenze möglich, wenn überhaupt.</p>
+</div></div></div></div>  </div>
+
+  <div class="clearfix">
+          <div class="links"></div>
+    
+      </div>
+
+</div>
+  </div>
+</div>
+  </div>
+          </div>
+                      <div class="region region-footer">
+    <div id="block-system-powered-by" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+</div>
+  </div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /#container -->
+  </div> <!-- /#wrapper -->
+  </body>
+</html>

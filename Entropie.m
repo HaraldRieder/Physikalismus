@@ -1,27 +1,57 @@
 m_proton = 1.672621898e-27 # kg
+m_neutrino_max = 4e-36 # kg
 m_sun = 1.9884e30 # kg
 r_sun = 6.96342e8 # m
-V_sun = 4/3*pi()*r_sun^3; # m^3
+A_sun = 4*pi*r_sun^2; # m^2
+V_sun = 4/3*pi*r_sun^3; # m^3
 T_sun_max = 1.6e7 # K
 T_sun_min = 5.778e3 # surface K
 
+# Boltzmann J/K
 function k = k()
-  k = 1.3806504e-23; # Boltzmann J/K
+  k = 1.3806504e-23; 
 endfunction 
 
+# Planck Js
 function h = h()
-  h = 6.6260755e-34; # Planck Js
+  h = 6.6260755e-34; 
+endfunction
+
+# gravitational constant
+function G = G()
+  G = 6.67408e-11;
+endfunction
+
+# speed of light
+function c = c()
+  c = 299792458;
+endfunction  
+
+# volume of a sphere
+function V = Volume(r)
+  V = 4/3*pi*r^3;
 endfunction
 
 # MKSA statistical mechanics ideal gas with Boltzmann constant
+# T temperature
+# V volume
 # M total mass
 # m particle mass
-# V volume
 function S = S_ideal_gas_classic(T,V,M,m)
-  S = log(T);
-  N = M/m;
-  S = k*3/2*N*log(2*pi()*m*k*T*V.^(2/3)/(h.^2 * N.^(2/3))) + k*5/2*N;
+  N = M./m;
+  S = k*3/2*N*log(2*pi*m*k*T*V.^(2/3)/(h.^2 * N.^(2/3))) + k*5/2*N;
 endfunction
+
+# MKSA statistical mechanics ideal gas with Boltzmann constant
+# T temperature
+# A surface area
+# M total mass
+# m particle mass
+function S = S_ideal_gas_classic_2(T,A,M,m)
+  N = M/m;
+  S = k*3/2*N*log(2*pi*m*k*T* A/(4*pi) * (4*pi/3)^(2/3) /(h.^2 * N.^(2/3))) + k*5/2*N;
+endfunction
+
 
 # MKSA Bekenstein-Hawking entropy with Boltzmann constant
 function S = S_black_hole_Schwarzschild(M)
@@ -44,29 +74,61 @@ function R = R_black_hole_Schwarzschild(M)
   R = 1.49e-27 * M;
 endfunction
 
+# MKSA area of Schwarzschild black hole with mass M
+function A = A_black_hole_Schwarzschild(M)
+  A = 16*pi*M^2*G^2/(c^4);
+endfunction
+
 graphics_toolkit('gnuplot');
-#T = T_sun_min:100000:T_sun_max
-#printf("N=%d", m_sun/m_proton)
-#plot(T, S_ideal_gas_classic(T,V_sun,m_sun,m_proton)/k)
-#xlabel("T / K");
-#ylabel("S");
-#title("S ideales Gas - klassisch");
 
-T = 1 # Kelvin
-M_bh = M_black_hole_Schwarzschild(T)
-S_bh = S_black_hole_Schwarzschild(M_bh)/k
-R_bh = R_black_hole_Schwarzschild(M_bh)
-r = R_bh:R_bh:R_bh*100; 
-#plot(R_bh,S_bh, r,S_ideal_gas_classic(T,V,m_sun,m_proton)/k)
-#plot(R_bh,S_bh, r,S_ideal_gas_classic(T,V,m_sun,m_proton)/k);
-T = 1.6e7
-r = 1:r_sun/100:r_sun;
-S_classic = S_ideal_gas_classic(T,4/3*pi*r.^3,m_sun,m_proton)/k;
-semilogy(r,S_classic);
-#semilogy(R_bh,S_bh, r,S_classic);
-#semilogy(r,S_classic);
+T_bh = T_black_hole_Schwarzschild(m_sun)
+S_bh = S_black_hole_Schwarzschild(m_sun) / k
+A_bh = A_black_hole_Schwarzschild(m_sun)
 
-xlabel("Radius/m");
-ylabel("Entropie");
-title("Entropie schwarzes Loch vs. klassisch");
+figure(1)
+T = logspace(1,log10(T_sun_max),500);
+S_classic = S_ideal_gas_classic(T,V_sun,m_sun,m_proton) / k;
+#S_classic_neutrino = S_ideal_gas_classic(T,V_sun,m_sun,m_neutrino_max) / k;
+#loglog(T,S_classic,T,S_classic_neutrino);
+loglog(T,S_classic,T_bh,S_bh);
+xlabel("Temperatur / K");
+ylabel("Entropie / k \n");
+legend("ideales Gas klassisch","schwarzes Loch");
+#title("Entropie einer Sonnenmasse");
+
+figure(2)
+T = T_sun_max;
+A = logspace(13,log10(4*pi*r_sun^2),500);
+S_classic = S_ideal_gas_classic_2(T,A,m_sun,m_proton) / k;
+loglog(A,S_classic,A_bh,S_bh);
+xlabel("Oberfläche / m^2");
+ylabel("Entropie / k \n");
+legend("ideales Gas klassisch","schwarzes Loch");
+#title("Entropie einer Sonnenmasse");
+
+
+figure(3)
+T = T_bh:T_sun_max/1000:T_sun_max;
+S_classic = S_ideal_gas_classic(T,V_sun,m_sun,m_proton) / k;
+semilogy(T,S_classic,T_bh,S_bh);
+xlabel("Temperatur / K");
+ylabel("Entropie / k \n");
+legend("ideales Gas klassisch","schwarzes Loch");
+#title("Entropie einer Sonnenmasse");
+
+figure(4)
+T = T_sun_max;
+A = A_bh:A_sun/1000:A_sun;
+S_classic = S_ideal_gas_classic_2(T,A,m_sun,m_proton) / k;
+semilogy(A,S_classic,A_bh,S_bh);
+xlabel("Oberfläche / m^2");
+ylabel("Entropie / k \n");
+legend("ideales Gas klassisch","schwarzes Loch");
+#title("Entropie einer Sonnenmasse");
+
+
+
+
+
+
 

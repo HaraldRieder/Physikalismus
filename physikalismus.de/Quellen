@@ -45,7 +45,7 @@ MathJax.Hub.Config({
 @import url("http://physikalismus.de/modules/user/user.css?obwofu");
 </style>
 <style type="text/css" media="all">
-@import url("sites/default/files/color/garland-b0e715b8/style.css@obwofu");
+@import url("sites/default/files/color/garland-b0e715b8/style.css?obwofu");
 </style>
 <style type="text/css" media="print">
 @import url("http://physikalismus.de/themes/garland/print.css?obwofu");
@@ -57,12 +57,12 @@ MathJax.Hub.Config({
   <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
 <script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
 <script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?obwofu"></script>
-<script type="text/javascript" src="sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@obwofu"></script>
-<script type="text/javascript" src="sites/all/modules/mathjax/mathjax.js@obwofu"></script>
+<script type="text/javascript" src="sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js?obwofu"></script>
+<script type="text/javascript" src="sites/all/modules/mathjax/mathjax.js?obwofu"></script>
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"5iJfnI-HUUW4aBupH3IFOaRHJxcNuwJfZADg4z1u8pY","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Quellen":true,"\/Quellen?destination=node\/13":true}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"XDPSxXlspgEh4_l5HdEDP-XWXsAfVpZiA-z7gTA5RRA","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Quellen":true,"\/Quellen?destination=node\/13":true}});
 //--><!]]>
 </script>
 </head>
@@ -89,6 +89,8 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 <li class="menu-469"><a href="Begriffe" title="Wie die Wörter an diesem Ort gemeint sind, 
 erklärt durch noch mehr Wörter.">Begriffe</a></li>
 <li class="menu-410"><a href="Bibliothek" title="Zum Verständnis Dienliches an diesem Ort Archiviertes">Bibliothek</a></li>
+<li class="menu-407"><a href="node/48" title="(hier gibt&#039;s nix für dich)">Baustellen</a></li>
+<li class="menu-347"><a href="Zusammenfassung" title="Was an diesem Ort gesagt werden sollte">Zusammenfassung</a></li>
 <li class="menu-423 last"><a href="Impressum">Impressum</a></li>
 </ul>              </div> <!-- /#header -->
 
@@ -104,7 +106,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
   <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
  <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-9OqpnU5lSIeTo7HrNdTysBIj8M_-x3g8Qv0FOVQCa0U" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-Ku7n3RkK7ela9EAJtoy3Z2Z5nT3OctF5ly_vxyHEW4U" />
 <input type="hidden" name="form_id" value="search_block_form" />
 </div>
 </div></form>  </div>
@@ -114,7 +116,8 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
     <h2 class="title">Navigation</h2>
   
   <div class="content">
-    <ul class="menu"><li class="first leaf"><a href="Bewusstsein" title="Gedanken über den Geist">Bewusstsein</a></li>
+    <ul class="menu"><li class="first leaf"><a href="Atome" title="Was ist unteilbar?">Atome</a></li>
+<li class="collapsed"><a href="Bewusstsein" title="Gedanken über den Geist">Bewusstsein</a></li>
 <li class="leaf"><a href="Dao" title="Der Weg zur Erkenntnis">Dao</a></li>
 <li class="leaf"><a href="Denken" title="Muss Denken immer in einem engen Raumgebiet stattfinden?">Denken</a></li>
 <li class="leaf"><a href="Energie" title="Ein Wort zur Energie">Energie</a></li>
@@ -129,17 +132,24 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
 <li class="leaf"><a href="Ich" title="Was ist das Ich?">Ich</a></li>
 <li class="collapsed"><a href="Information" title="Baustelle">Information</a></li>
 <li class="leaf"><a href="Jesus" title="Wie ich mir Jesus vorstelle">Jesus</a></li>
+<li class="leaf"><a href="Kausalitaet" title="Was bedeutet Kausalität?">Kausalität</a></li>
 <li class="leaf"><a href="Juristerei" title="Kann richtig geurteilt werden?">Juristerei</a></li>
+<li class="leaf"><a href="Komplexitaet" title="Wie kann Komplexität definiert werden?">Komplexität</a></li>
 <li class="leaf"><a href="Kampf" title="Die falsche Idee vom totalen Frieden">Kampf</a></li>
 <li class="leaf"><a href="Leben" title="Was ist Leben?">Leben</a></li>
+<li class="leaf"><a href="Newton" title="Hätte Newton weiterkommen können?">Newton</a></li>
 <li class="collapsed"><a href="Masse" title="Wie sich die Masse in ein Geflecht auflöst">Masse</a></li>
 <li class="collapsed"><a href="Mechanik" title="Was man von der klassischen Mechanik noch lernen kann">Mechanik</a></li>
+<li class="leaf"><a href="Raumzeit" title="Raumzeit">Raumzeit</a></li>
 <li class="leaf"><a href="N" title="Was an den natürlichen Zahlen unnatürlich ist">N</a></li>
 <li class="collapsed"><a href="Quantenmechanik" title="Die philosophischen Konsequenzen aus der Quantenmechanik">Quanten</a></li>
+<li class="leaf"><a href="Schopenhauer" title="Schopenhauer: das Genie">Schopenhauer</a></li>
 <li class="leaf"><a href="Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen">Reduktionismus</a></li>
 <li class="leaf"><a href="Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
 <li class="leaf"><a href="Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
+<li class="leaf"><a href="Symmetrien" title="Woran wir glauben">Symmetrien</a></li>
 <li class="leaf"><a href="Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+<li class="leaf"><a href="Zukunft" title="Was kommt auf uns zu?">Zukunft</a></li>
 <li class="last leaf"><a href="Koernung" title="Argumente für eine Körnung der Natur">Körnung</a></li>
 </ul>  </div>
 </div>
@@ -157,7 +167,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
  <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
 </div>
 <div class="item-list"><ul><li class="first last"><a href="user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
-</ul></div><input type="hidden" name="form_build_id" value="form-wKQL1bXMB5UjoqfTmaUusd4olcLTv6PbWesH5LGQTkM" />
+</ul></div><input type="hidden" name="form_build_id" value="form-nEdiuS7XY8UtDid5offFjYJnfoJVf9cDGqrTJiDVw5U" />
 <input type="hidden" name="form_id" value="user_login_block" />
 <div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
 </div>
@@ -245,6 +255,10 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
 <td>Heraklit - Fragmente, griechisch und deutsch, Hrsg. Bruno Snell, Düsseldorf Artemis und Winkler 2000, 12. Aufl. ISBN 3-7608-1538-3</td>
 </tr><tr><td id="Hexenmeister">[Hexenmeister]</td>
 <td>Hexenmeister am Regler, Der Spiegel Nr. 28 2014</td>
+</tr><tr><td id="Hoffman-F">[Hoffman-F]</td>
+<td>Objects of consciousness, Frontiers in Psychology, <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2014.00577/full">online</a></td>
+</tr><tr><td id="Hoffman-Q">[Hoffman-Q]</td>
+<td>The Evolutionary Argument Against Reality, Quanta Magazine, <a href="https://www.quantamagazine.org/the-evolutionary-argument-against-reality-20160421/">online</a></td>
 </tr><tr><td id="Hoffman-T">[Hoffman-T]</td>
 <td>About the Origin of Time in Consious Agents, Donald Hoffman, auch in der <a href="sites/default/files/Bibliothek/HoffmanTime.pdf">Bibliothek</a></td>
 </tr><tr><td id="Konrad">[Konrad]</td>
@@ -261,6 +275,8 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
 <td>Ernst Mach, Die Analyse der Empfindungen und das Verhältnis des Physischen zum Psychischen, 9. Auflage Fischer Jena 1922, ISBN 3-534-09381-X</td>
 </tr><tr><td>[Majjhimanikaya]</td>
 <td>Die vier edlen Wahrheiten, Texte des ursprünglichen Buddhismus, ISBN 3-15-003420-5</td>
+</tr><tr><td id="Offenhaeuser-Weidlich">[Offenhäuser-Weidlich]</td>
+<td>A. Offenhäuser, S. Weidlich: Netzwerke der Erkenntnis, <a href="https://de.wikipedia.org/wiki/Physik_Journal">Physik Journal</a> 17 (7), S. 41, 2018</td>
 </tr><tr><td id="Pauli">[Pauli]</td>
 <td>Wolfgang Pauli in einem Brief an M. Fierz (12. August 1948), zitiert in Audretsch, Jürgen: Die andere Hälfte der Wahrheit. Naturwissenschaft Philosophie Religion, S. 13. München (C.H. Beck) 1992</td>
 </tr><tr><td id="Planck">[Planck]</td>
@@ -272,6 +288,8 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
 <td>Altes Testament - Buch Prediger / Kohelet</td>
 </tr><tr><td id="Rieder">[Rieder]</td>
 <td>Begleitdokument zum Kurs Quanteninformation 2017, auch in der <a href="sites/default/files/Bibliothek/Quanteninformation.pdf">Bibliothek</a></td>
+</tr><tr><td id="Rieder-2">[Rieder-2]</td>
+<td>Ideas abouat a Quantum Theory without Process Type 2, <a href="https://docs.google.com/document/d/e/2PACX-1vQlTabs8ILIwb5GCNfpnbjjx8TTF5JgpA3sW7GX1qvaVoJgiF_55hFEWCJZD4GSRzNhotGwaTkgRX6Q/pub">online</a></td>
 </tr><tr><td>[Saṃyutta-nikāya]</td>
 <td>Nach [Schumann] aus der Ausgabe der Pali Text Society zitiert.</td>
 </tr><tr><td>[Seiden]</td>
@@ -296,23 +314,25 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
 <td>Spektrum der Wissenschaft April 2014, Machen Quanten Sprünge?, Essay von David Tong, Professor für theoretische Physik an der University of Cambridge</td>
 </tr><tr><td>[Spektrum-Anzeige]</td>
 <td>Spektrum der Wissenschaft April 2014, Anzeige der Firma McKinsey &amp; Company auf der Rückseite des Hefts</td>
-</tr><tr><td>[Tempel]</td>
+</tr><tr><td id="Tempel">[Tempel]</td>
 <td>Aufschrift am Tempel des Apoll in Delphi</td>
 </tr><tr><td id="Tegmark">[Tegmark]</td>
 <td>Consciousness as a State of Matter, Max Tegmark, <a href="https://arxiv.org/abs/1401.1219">arXiv:1401.1219</a> auch in der <a href="sites/default/files/Bibliothek/Tegmark.pdf">Bibliothek</a></td>
-</tr><tr><td>[Theragata]</td>
+</tr><tr><td id="Theragata">[Theragata]</td>
 <td><a href="http://nbn-resolving.de/urn:nbn:de:bsz:352-opus-5718">Theragata und Therigata, Die Lieder der Mönche und Nonnen</a> aus dem Pali übersetzt von Ekkehard Saß, Universität Konstanz 2000, Fachbereich Geschichte und Soziologie, Forschungsprojekt „Buddhistischer Modernismus“
 </td>
-</tr><tr><td>[Thomas]</td>
+</tr><tr><td id="Thomas">[Thomas]</td>
 <td>Das Evangelium nach Thomas, deutsche Übersetzung bei meyerbuch.de</td>
-</tr><tr><td>[*-Upanishad]</td>
+</tr><tr><td id="Upanishad">[*-Upanishad]</td>
 <td>Sechzig Upanishads des Veda, Paul Deussen, Leipzig 1921</td>
-</tr><tr><td>[Weizsäcker]</td>
+</tr><tr><td id="Weizsaecker">[Weizsäcker]</td>
 <td>Aufbau der Physik, Carl Friedrich von Weizsäcker, ISBN 3-446-14142-1, 1985 Carl Hanser Verlag</td>
-</tr><tr><td>[Yajnavalkya-D]</td>
-<td>Will Durant, Kulturgeschichte der Menschheit, Das Vermächtnis des Ostens, 14. Die Grundlagen Indiens, Die Philosophie der Upanishaden<br /></td></tr><tr><td>[Zeh]</td>
-<td>H. Dieter Zeh, Physik ohne Realität: Tiefsinn oder Wahnsinn? ISBN 978-3-642-21889-7, Springer-Verlag<br /></td></tr><tr><td>[Zeh-T]</td>
-<td>H. Dieter Zeh, The Physical Basis of The Direction of Time, The Frontiers Collection, Springer-Verlag 2007<br /></td></tr><tr><td>[Zeilinger]</td>
+</tr><tr><td id="Wigner">[Wigner]</td>
+<td><a href="http://www.informationphilosopher.com/solutions/scientists/wigner/Wigner_Remarks.pdf">Remarks on the mind-body question</a>,  E.P. Wigner (1961) in: I.J. Good, The Scientist Speculates, London, Heinemann</td>
+</tr><tr><td id="Yajnavalkya-D">[Yajnavalkya-D]</td>
+<td>Will Durant, Kulturgeschichte der Menschheit, Das Vermächtnis des Ostens, 14. Die Grundlagen Indiens, Die Philosophie der Upanishaden<br /></td></tr><tr><td id="Zeh">[Zeh]</td>
+<td>H. Dieter Zeh, Physik ohne Realität: Tiefsinn oder Wahnsinn? ISBN 978-3-642-21889-7, Springer-Verlag<br /></td></tr><tr><td id="Zeh-T">[Zeh-T]</td>
+<td>H. Dieter Zeh, The Physical Basis of The Direction of Time, The Frontiers Collection, Springer-Verlag 2007<br /></td></tr><tr><td id="Zeilinger">[Zeilinger]</td>
 <td>Spektrum der Wissenschaft März 2008, Ein Physiker mit Fernwirkung, Interview mit Anton Zeilinger</td>
 </tr></table></div></div></div></div>  </div>
 

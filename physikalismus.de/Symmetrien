@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="sites/default/files/pyramid_power.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="node/26" />
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ['tex2jax.js'],
+  jax: ['input/TeX','output/HTML-CSS'],
+  tex2jax: {
+    inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+    processEscapes: true,
+    processClass: 'tex2jax',
+    ignoreClass: 'html'
+  },
+  showProcessingMessages: false,
+  messageStyle: 'none'
+});
+</script><meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="Symmetrien" />
+  <title>Symmetrien | Physikalismus</title>
+  <style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/system/system.base.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.menus.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.messages.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.theme.css?obwofu");
+</style>
+<style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/comment/comment.css?obwofu");
+@import url("http://physikalismus.de/modules/field/theme/field.css?obwofu");
+@import url("http://physikalismus.de/modules/node/node.css?obwofu");
+@import url("http://physikalismus.de/modules/search/search.css?obwofu");
+@import url("http://physikalismus.de/modules/user/user.css?obwofu");
+</style>
+<style type="text/css" media="all">
+@import url("sites/default/files/color/garland-b0e715b8/style.css?obwofu");
+</style>
+<style type="text/css" media="print">
+@import url("http://physikalismus.de/themes/garland/print.css?obwofu");
+</style>
+
+<!--[if lt IE 7]>
+<link type="text/css" rel="stylesheet" href="http://physikalismus.de/themes/garland/fix-ie.css?obwofu" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?obwofu"></script>
+<script type="text/javascript" src="sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js?obwofu"></script>
+<script type="text/javascript" src="sites/all/modules/mathjax/mathjax.js?obwofu"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"pljf1jSCErt9IHHtWzHzQJ6JyIACCFFXj64AQX2AuFI","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Symmetrien":true,"\/Symmetrien?destination=node\/26":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-26 node-type-page fluid-width" >
+  <div id="skip-link">
+    <a href="Symmetrien#main-content" class="element-invisible element-focusable">Direkt zum Inhalt</a>
+  </div>
+      
+  <div id="wrapper">
+    <div id="container" class="clearfix">
+
+      <div id="header">
+        <div id="logo-floater">
+                              <div id="branding"><strong><a href="index.html">
+                          <img src="sites/default/files/pyramid_power.png" alt=" " title=" " id="logo" />
+                                    </a></strong></div>
+                          </div>
+
+        <h2 class="element-invisible">Hauptmenü</h2><ul class="links inline main-menu"><li class="menu-218 first"><a href="index.html" title="">Start</a></li>
+<li class="menu-467"><a href="tracker" title="">Neuester Inhalt</a></li>
+<li class="menu-468"><a href="Baustellen" title="Meine Hausaufgaben">Baustellen</a></li>
+<li class="menu-310"><a href="Quellen">Quellen</a></li>
+<li class="menu-311"><a href="Zitate">Zitate</a></li>
+<li class="menu-469"><a href="Begriffe" title="Wie die Wörter an diesem Ort gemeint sind, 
+erklärt durch noch mehr Wörter.">Begriffe</a></li>
+<li class="menu-410"><a href="Bibliothek" title="Zum Verständnis Dienliches an diesem Ort Archiviertes">Bibliothek</a></li>
+<li class="menu-407"><a href="node/48" title="(hier gibt&#039;s nix für dich)">Baustellen</a></li>
+<li class="menu-347"><a href="Zusammenfassung" title="Was an diesem Ort gesagt werden sollte">Zusammenfassung</a></li>
+<li class="menu-423 last"><a href="Impressum">Impressum</a></li>
+</ul>              </div> <!-- /#header -->
+
+              <div id="sidebar-first" class="sidebar">
+            <div class="region region-sidebar-first">
+    <div id="block-search-form" class="block block-search clearfix">
+
+    
+  <div class="content">
+    <form action="Symmetrien" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Suchformular</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
+ <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-21ejkuLlUZ0qlDBLbg380Omyrcj1J2UZclYam_8k8ek" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-system-navigation" class="block block-system block-menu clearfix">
+
+    <h2 class="title">Navigation</h2>
+  
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="Atome" title="Was ist unteilbar?">Atome</a></li>
+<li class="collapsed"><a href="Bewusstsein" title="Gedanken über den Geist">Bewusstsein</a></li>
+<li class="leaf"><a href="Dao" title="Der Weg zur Erkenntnis">Dao</a></li>
+<li class="leaf"><a href="Denken" title="Muss Denken immer in einem engen Raumgebiet stattfinden?">Denken</a></li>
+<li class="leaf"><a href="Energie" title="Ein Wort zur Energie">Energie</a></li>
+<li class="leaf"><a href="Erloesung" title="Wie kann das Abgeteilte erlöst werden?">Erlösung</a></li>
+<li class="leaf"><a href="Erwachsenwerden" title="Erwachsenwerden in der Begrifflichkeit des Schopenhauerschen Willens">Erwachsenwerden</a></li>
+<li class="leaf"><a href="Freunde" title="Wie Freunde uns in die Irre führen">Freunde</a></li>
+<li class="leaf"><a href="Ganzheit" title="Nichlinearität erzwingt Ganzheit">Ganzheit</a></li>
+<li class="leaf"><a href="Geister" title="Wann ist ein Geist ein Geist?">Geister</a></li>
+<li class="leaf"><a href="Geld" title="Preis als Energie und Geld als Software">Geld</a></li>
+<li class="collapsed"><a href="Gleichnisse" title="Gleichnisse für Physiker von einem Physiker über Physik">Gleichnisse</a></li>
+<li class="leaf"><a href="Ethik" title="Was sollen wir tun?">gut &amp; böse</a></li>
+<li class="leaf"><a href="Ich" title="Was ist das Ich?">Ich</a></li>
+<li class="collapsed"><a href="Information" title="Baustelle">Information</a></li>
+<li class="leaf"><a href="Jesus" title="Wie ich mir Jesus vorstelle">Jesus</a></li>
+<li class="leaf"><a href="Kausalitaet" title="Was bedeutet Kausalität?">Kausalität</a></li>
+<li class="leaf"><a href="Juristerei" title="Kann richtig geurteilt werden?">Juristerei</a></li>
+<li class="leaf"><a href="Komplexitaet" title="Wie kann Komplexität definiert werden?">Komplexität</a></li>
+<li class="leaf"><a href="Kampf" title="Die falsche Idee vom totalen Frieden">Kampf</a></li>
+<li class="leaf"><a href="Leben" title="Was ist Leben?">Leben</a></li>
+<li class="leaf"><a href="Newton" title="Hätte Newton weiterkommen können?">Newton</a></li>
+<li class="collapsed"><a href="Masse" title="Wie sich die Masse in ein Geflecht auflöst">Masse</a></li>
+<li class="collapsed"><a href="Mechanik" title="Was man von der klassischen Mechanik noch lernen kann">Mechanik</a></li>
+<li class="leaf"><a href="Raumzeit" title="Raumzeit">Raumzeit</a></li>
+<li class="leaf"><a href="N" title="Was an den natürlichen Zahlen unnatürlich ist">N</a></li>
+<li class="collapsed"><a href="Quantenmechanik" title="Die philosophischen Konsequenzen aus der Quantenmechanik">Quanten</a></li>
+<li class="leaf"><a href="Schopenhauer" title="Schopenhauer: das Genie">Schopenhauer</a></li>
+<li class="leaf"><a href="Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen">Reduktionismus</a></li>
+<li class="leaf"><a href="Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
+<li class="leaf"><a href="Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
+<li class="leaf active-trail"><a href="Symmetrien" title="Woran wir glauben" class="active-trail active">Symmetrien</a></li>
+<li class="leaf"><a href="Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+<li class="leaf"><a href="Zukunft" title="Was kommt auf uns zu?">Zukunft</a></li>
+<li class="last leaf"><a href="Koernung" title="Argumente für eine Körnung der Natur">Körnung</a></li>
+</ul>  </div>
+</div>
+<div id="block-user-login" class="block block-user clearfix">
+
+    <h2 class="title">Benutzeranmeldung</h2>
+  
+  <div class="content">
+    <form action="http://physikalismus.de/Symmetrien?destination=node/26" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Benutzername <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">Passwort <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="first last"><a href="user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
+</ul></div><input type="hidden" name="form_build_id" value="form-TSckgGJnyoVSzyhrhwLXgm3ACHh9QMqeJTc3BHd6zl4" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
+</div>
+  </div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <h2 class="element-invisible">Sie sind hier</h2><div class="breadcrumb"><a href="index.html">Startseite</a></div>                    <a id="main-content"></a>
+          <div id="tabs-wrapper" class="clearfix">                                <h1 class="with-tabs">Symmetrien</h1>
+                              </div>                                                  <div class="clearfix">
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <div id="node-26" class="node node-page" about="/Symmetrien" typeof="foaf:Document">
+
+  
+      <span property="dc:title" content="Symmetrien" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="tex2jax"><p>zu tun: ist eine symmetrie wesentlich, wenn sie nur gestört beobachtet wird?</p>
+<p>Die Welt ist alles andere als symmetrisch. Dennoch glauben wir, dass es Gesetze gibt, nach denen sie sich wandelt und dass diese Gesetze bestimmte Symmetrien erfüllen. Doch wie kommen wir überhaupt zu diesem Glauben, wenn die Welt nirgendwo und niemals symmetrisch ist? Es ist ein Konzept, das sich bewährt hat im Sinne des Pragmatismus. </p>
+<p>Fangen wir mit einigen Symmetrien an, an die wir glauben: die Translationsinvarianz des Geschehens in Raum und Zeit sowie bei Drehungen im Raum, wie sie von Heisenberg zu den Grundeigenschaften von Raum und Zeit gezählt werden.</p>
+<ol><li><cite>Es gibt im leeren Raum keinen ausgezeichneten Punkt; vielmehr hat der Raum von jedem Punkt aus gesehen die gleiche Struktur.</cite>
+</li>
+<li><cite>Das entsprechende gilt mutatis mutandis auch für die Zeit.</cite>
+</li>
+<li><cite>Es ist im leeren Raum keine Richtung ausgezeichnet, der Raum hat von jeder Stellung aus gesehen die gleiche Struktur; er ist, wie der Mathematiker sich ausdrückt, isotrop.</cite>
+</li>
+<li><cite>Im leeren Raum ist keine gleichförmige-geradlinige Bewegung von einer anderen derartigen Bewegung ausgezeichnet.</cite>
+</li>
+</ol><p><cite>Da der Raum drei Dimensionen hat, so enthalten diese vier Feststellungen, wenn man die Sätze für jede Raumdimension gesondert zählt, im Ganzen zehn Grundeigenschaften von Raum und Zeit. Diese zehn Grundeigenschaften bilden das eigentliche Funament der klassischen Physik, und die ganze Struktur der mathematischen Systeme, mit denen die klassische Physik formuliert wird, ist entscheidend bestimmt durch diese zehn „Invarianzeigenschaften“. Man kann sagen, daß diese zehn Grundeigenschaften nur eine nähere Präzisierung dessen bedeuten, was hier unter „leerem“ Raum zu verstehen ist. Denn wenn etwa bestimmte Punkte im Raum ausgezeichnet wären, dann könnten, vom Materiebegriff der Feldtheorie aus gesehen, diese Punkte folgerichtig als Orte von Materie gedeutet werden.<br />
+Diesen Grundeigenschaften werden noch zwei weitere entscheidende Annahmen in der klassischen Physik hinzugefügt: die Unabhängigkeit von Raum und Zeit und die Gültigkeit der euklidischen Geometrie. Erst durch die Gesamtheit dieser Voraussetzungen wird vollständig festgelegt, in welchen Formen von Raum und Zeit wir die Welt anschauen.<br /></cite> [Heisenberg-O]</p>
+<p>Der 4. Punkt der Liste ist das spezielle Relativitätsprinzip. Nach dem experimentellen Befund der Konstanz der Lichtgeschwindigkeit konnten der Glaube an die 10 Invarianzeigenschaften aufrechterhalten werden, derjenige an die Unabhängigkeit von Raum und Zeit und die Gültigkeit der euklidischen Geometrie musste aufgegeben werden.</p>
+<p>Konkret bedeuten die 4 Punkte etwa, dass es egal ist, wo und wann ein physikalisches Experiment durchgeführt wird. Die Ergebnisse werden immer die gleichen sein. Eine Forschergruppe in Amerika kann die Ergebnisse einer japanischen Gruppe bestätigen durch Wiederholung des Experiments. Jeder der schon einmal experimentiert hat weiß, dass es eben nicht ganz so einfach ist, ein experimentelles Ergebnis zu bestätigen. Ob das gleiche Ergebnis erzielt wird, hängt von der sorgfältigen Präparation ab. Die Anfangsbedingungen müssen sauber hergestellt werden. Störungen müssen ausgeschlossen werden. In den beiden letzten Sätzen offenbaren sich die Idealisierungen, die wir im Geiste vollziehen und in der Wirklichkeit nie vollständig erreichen:  </p>
+<ul><li>Dass es identische Dinge im Makrokosmos gibt (Anfangsbedingungen).
+</li>
+<li>Dass ein Experiment isoliert vom Rest der Welt durchgeführt werden kann.
+</li>
+</ul><p>Wenn der Raum leer wäre bis auf unser Experiment, dann könnte es immer gleich ablaufen. Je besser wir Störungen abschirmen können, desto reproduzierbarer werden tatsächlich die Ergebnisse. Die gedankliche Extrapolation dieser Erfahrung führt zum Glauben an die Translations- und Rotationsinvarianzen als Eigenschaften der <strong>leeren</strong> Raumzeit. In physikalischen Experimenten wird heute oft hoher Aufwand betrieben, um störende Einflüsse der Restwelt abzuschirmen. Viele Experimente erfolgen im Hochvakuum.</p>
+<p>Die Gleichungen der modernen Quantenfeldtheorien, welche einerseits die Wirklichkeit der elementaren Zustände der Materie gut beschreiben, haben andererseits den Nebenaspekt, dass niemals nichts da ist. Der Grundzustand der Welt, das heißt der niederenergetischste Zustand, den diese Gleichungen liefern, enthält bereits Energie - unangenehmerweise manchmal gleich unendlich viel Energie. Da Materie und Energie als <strong>experimenteller</strong> Befund der Hochenergiephysik ineinander wandelbar sind, quasi so äquivalent wie Energie und Masse in der allgemeinen Relativitätstheorie, enthält der Grundzustand damit Materie. In diesen Theorien ist die Raumzeit niemals und nirgends leer. Wir retten unseren bewährten Symmetrieglauben dadurch, dass wir nun eben vom Grundzustand der Welt die obigen Symmetrieeigenschaften annehmen. </p>
+<p>Aus dem Grundzustand werden angeregte Zustände erzeugt. Grundzustand und Kräfte müssen nicht unbedingt den selben Symmetrien gehorchen. Eine geringere Symmetrie der möglichen Weltzustände kann auch dadurch zustandekommen, dass der Grundzustand weniger symmetrisch ist, und aus ihm heraus wieder nur weniger symmetrische Zustände erzeugt werden können, obwohl die Kräfte höhere Symmetrien aufweisen. </p>
+<p>Die Formulierung der Gesetze in einem mathematischen Modell hängt ganz entscheidend davon ab, an welche Symmetrien man glaubt. Diese Aufgabe richtig zu lösen ist keineswegs leicht, wie an zwei einfachen Analogien zu sehen ist:</p>
+<p><cite>Jedes einfache Objekt, das exakt symmetrisch in bezug auf eine Gruppe g ist, wird mit einer erheblichen Wahrscheinlichkeit auch näherungsweise symmetrisch gegenüber größeren Gruppen G sein, die die Gruppe g als Untergruppe enthalten, wenn die Anzahl der Freiheitsgrade dafür ausreicht. Der Inhalt dieser Feststellung kann erklärt werden, indem man z.B. auf die Symmetrien der in einem Kaleidoskop sichtbaren Muster hinweist. Wir wollen annehmen, daß die Spiegel des Kaleidoskops eine exakte hexagonale Symmetrie des Musters garantieren. Davon abgesehen sind aber die Stücke zufällig verteilt. Trotzdem sieht man häufig angenäherte höhere Symmetrien, z.B. angenäherte Kreise in hübschen Farben oder zwölfeckige Muster. Die ursprüngliche Sechsecksymmetrie ist eine Untergruppe der Kreissymmetrie oder der Zwölfecksymmetrie. Wir erwähnen ein anderes Beispiel: Eine Vase, die als ein zylindrisches Gefäß konstruiert ist, bei dem die Höhe und Durchmesser ungefähr gleich sind, kann sehr leicht näherungsweise eine Kugelsymmetrie aufweisen. Dabei kann es große Abweichungen von dieser höheren Symmetrie geben, dennoch wird man die höhere Symmetrie trotz dieser Abweichung leicht erkennen.</cite> [Heisenberg-E] </p>
+<p>Wenn eine Symmetrie nur näherungsweise beobachtet wird, wie zum Beispiel die Gruppe SU3 in gewissen elementaren Zuständen der Materie, dann stellt sich die Frage, ob die mathematische Formulierung der Kräfte diese Symmetrie exakt enthalten soll. Dies kann zum Erfolg führen, wenn es weitere, schwächere Kräfte ohne diese Symmetrie gibt, die dazu führen, dass die starken Kräfte nur noch näherungsweise symmetrisch erscheinen.</p>
+<p>Die Symmetrien sind folglich nicht einfach da und wir brauchen sie nur zu erkennen. Es ist nirgends niemals Symmetrie in der Wirklichkeit vorhanden und wir müssen irgendwie extrapolieren, um die Symmetrien der Leere und der Naturkräfte finden zu können. </p>
+<p><cite>... Während die Existenz dieser Gruppen vielleicht die wichtigste Information ist, die wir über die Struktur des zugrunde liegenden Naturgesetzes besitzen, ist es etwas beunruhigend zu sehen, daß einige dieser Symmetrien in den Experimenten nur näherungsweise zu gelten scheinen. Tatsächlich zeigt schon die Existenz von Multipletts im Spektrum der Elementarteilchen, daß es schwächere Wechselwirkungen geben muß, die weniger symmetrisch sind. Im Falle der vollständigen Symmetrie würde irgendeine n-dimensionale Darstellung einer Gruppe zu n identischen Eigenwerten für die Masse führen müssen. Eine Aufspaltung dieser Eigenwerte könnte nur durch eine Wechselwirkung hervorgerufen werden, die weniger symmetrisch ist. Zum Beispiel ist aus der Quantenmechanik wohlbekannt, daß ein äußeres elektrisches Feld die Rotationssymmetrie des ursprünglichen Systems zerstören und damit zu einer Aufspaltung der optischen Linine (Stark-Effekt) führen kann. Die Symmetrie kann also durch Wirkung von außen eingeschränkt werden. Andererseits beruht die Multiplettstruktur der optischen Spektren auf der Tatsache, daß die Einführung der magnetischen Spin-Bahn-Wechselwirkung die Unabhängigkeit der Rotationssymmetrie des Spins und der Bahn stört. In diesem Falle ist es nicht eine Wirkung von außen, die die Symmetrie bricht; durch die Vernachlässigung der magnetischen Kräfte hatte man sozusagen künstlich eine höhere Symmetrie vorgetäuscht (die Unabhängigkeit der Rotation von Spin und Bahn), die hinterher wieder zerstört wird. Man lernt aus diesen Beispielen, daß man zwischen zwei verschiedenen Arten von Symmetrie oder Invarianz unterscheiden sollte. Symmetrien der ersten Art sind Eigenschaften des zugrunde liegenden Naturgesetzes (z.B. die Invarianz gegenüber Drehungen in der Quantenmechanik des einzelnen Atoms). Symmetrien der zweiten Art beruhen auf Approximationen, die mehr oder weniger gerechtfertigt sein mögen in den verschiedenen stationären Zuständen des betreffenden Systems ...<br /></cite> [Heisenberg-E]</p>
+<p>Die Eichgruppe des Standardmodells der elementaren Zustände der Materie ist die Produktgruppe SU(3) x SU(2) x U(1), das Produkt aus den Symmetriegruppen für die starke Wechselwirkung, die schwache Wechselwirkung und den Elektromagnetismus. Das Produkt impliziert, dass die zu den Teilgruppen symmetrischen Kräfte unabhängig voneinander existieren. Dabei bleibt ein etwas mulmiges Gefühl zurück, zeigen doch die Experimente, dass die Materie aus Zuständen, die an einer Kraft der Symmetrie SU(3) teilnehmen, in Zustände wechseln kann, die dies nicht mehr tun, sondern nur noch Kräfte der Symmetrie U(1) austauschen. Die Grand Unified Theory postuliert eine höhere Symmetriegruppe, die SU(5). Einen experimentellen Befund dazu gibt es bisher nicht. Die Supersymmetrie zielt in die gleiche Richtung.</p>
+<p>Selbst bei unseren Vorstellungen über Raum und Zeit befinden wir uns auf schwammigem Untergrund. Seit der allgemeinen Relativitätstheorie und den nachfolgenden Experimenten wissen wir, dass die Raumzeit ziemlich strukturiert vorliegt, wenngleich sie im kosmischen Maßstab annähernd flach zu sein scheint. Denken wir uns alle Energie weg, so stellen wir uns vor, dass der verbliebene Grundzustand isotrop und translationsinvariant gegenüber kontinuierlichen Operationen ist. Es gibt jedoch Indizien, dass dies nicht der Weisheit letzter Schluss sein könnte: die Singularitäten in Lösungen der Gleichungen der allgemeinen Relativitätstheorie, die Singularitäten in den Quantenfeldtheorien, die planck'sche Länge, und deswegen wird versucht, eine Theorie der Quantengravitation zu herauszuarbeiten. Welcher Symmetriegruppe wird darin die Raumzeit unterliegen? Einer diskreten?</p>
+<p>Damit sind unsere Vorstellungen über die in der Natur vorkommenden Symmetrien zwar nicht falsch, aber seither auch nie endgültig richtig gewesen. Ein praktischer Gewinn lässt sich aus gewissen Symmetrievorstellungen ziehen, wenngleich die Natur sich vielleicht niemals diesen Vorstellungen ganz unterordnen könnte.</p>
+<p>(Fortsetzung folgt)</p>
+<p><strong>Periodensystem der Elemente</strong></p>
+<p>Das Periodensystem der Elemente ist ein Ausdruck der Drehsymmetrie in 2 verschiedenen Räumen. Dies legt jedenfalls dessen äußerst erfolgreiche mathematische Beschreibung nahe. Was dort periodisch wiederkehrt, sind die Zahlen 2, 6, 10, 14, ... . Diese sind jeweils das doppelte der Dimensionen jener Matrixdarstellungen der Drehgruppe, die zu Drehimpuls-Quantenzahlen gehören. Die ganzzahligen Drehimpuls-Quantenzahlen l = 0, 1, 2, 3, ... gehören zu 1, 3, 5, 7, ... -dimensionalen Unterräumen im Hilbertraum. Die Darstellungsmatrizen der gleichdimensionalen Darstellung transformieren die Vektoren innerhalb dieser Unterräume, die Unterräume sind invariant gegenüber diesen Operationen. </p>
+<p>Der selbstadjungierte mathematische Operator, der der physikalischen Größe „Bahndrehimpuls“ entspricht, ist der Generator des unitären Drehoperators, der physikalisch einer Drehung im dreidimensionalen Raum entspricht.</p>
+<p>Die Verdopplung der Dimensionen in der Zahlenreihe erfolgt durch eine 2. Drehsymmetrie in einem Raum, der unserer Alltagserfahrung nicht zugänglich ist. Dort tritt nur die Dimension 2 der Matrizendarstellung dieser 2. Drehsymmetrie auf. Der selbstadjungierte mathematische Operator, der der physikalischen Größe „Elektronendrehimpuls“ (Spin) entspricht, ist der Generator des unitären Drehoperators, der physikalisch einer Drehung im Spin-Raum entspricht. Mag sein, dass Matrizendarstellungen der Dimensionen 0,4,6,8, ... in der Physik eine Rolle spielen, im Periodensystem der Chemie jedoch nicht. Dort spielt lediglich die zweidimensionale Darstellung eine Rolle, die zur halbzahligen Spin-Quantenzahl s = 1/2 gehört. </p>
+<p>Die genaue Abfolge der periodisch wiederkehrenden Zahlen hängt von der konkreten Stärke der physikalischen Kräfte ab. Dass die Bahndrehimpulszahlen als ihr Doppeltes auftauchen, liegt an der Schwäche der Spin-Bahnkopplung. Dass überhaupt Bahndrehimpulsquantenzahlen mehrfach vorkommen liegt an der Hauptkraft, über die wir bisher noch gar nicht geredet haben: die elektromagnetische Kraft zwischen den Ladungen im Atom. Sie hebt die Entartung von Unterräumen gleicher Dimension auf.</p>
+<p>Dass die möglichen drehinvarianten Atomzustände der Substanz so schön zu beobachten sind, erfordert allerdings noch eine weitere Symmetrie: die Zustände müssen antisymmetrisch gegen eine gleichzeitige Vertauschung zweier beliebiger (Elektronen-) Orts- und Spin-Koordinaten sein. Die Zustandsvektoren müssen dabei ihr Vorzeichen wechseln, ansonsten aber gleich bleiben. Da physikalisch beobachtbare Größen im Formalismus der Quantentheorie mittels Produkten von Zustandsvektoren gebildet werden, bleiben die beobachtbaren Größen gegenüber dieser Operation trotz Vorzeichenwechsel der Zustandsvektoren unverändert. Diese Antisymmetrie ist das Pauli-Prinzip. Sie sorgt für eine große Vielfalt der Grundzustände der Atome, um die es im Periodensystem ja zunächst geht.</p>
+<p>Würden Zustände in der Natur vorkommen, die bei einem Koordinatentausch unverändert blieben, so hätten wir es mit einem bosonischen, eher langweiligen Periodensystem der Elemente zu tun. [Vielleicht auch nicht, da wir dann gar nicht existieren würden.]</p>
+<p> <strong>Lokale Symmetrien</strong></p>
+<p>Die Grundgleichungen der Quantenelektrodynamik lassen sich auf verschiedene Arten gewinnen. Da ist einmal der steinige Weg über die Dirac-Gleichung, die mittels genauer Kenntnis der klassischen Elektrodynamik erweitert wird. Auf diesem Weg wird der kanonische Impuls mit dem elektromagnetischen Potential eingebaut und so weiter. Daneben gibt es einen eleganten Weg, den der lokalen Symmetrie. Die Dirac-Gleichung hat eine globale Symmetrie, sie ist invariant unter gleichzeitiger Phasentransformation aller 4 Spinorkomponenten. Die Symmetrie heißt global, da bei einer Transformation an jedem Ort zu jeder Zeit die Phase um den gleichen Betrag geändert wird und die aus den Lösungen der Gleichungen berechenbaren beobachtbaren Größen sich dabei nicht ändern. </p>
+<p>Geht man von der globalen Symmetrie zu einer lokalen über, das heißt in der Quantenelektrodynamik dass die Phasentransformation ortsabhängig wird, so treten in den Ableitungen weitere Terme auf. Beobachtbare Größen sind nicht mehr invariant. Dieses Dilemma kann man wieder kompensieren, indem man statt der gewöhnlichen Ableitung zu einer sogenannten kovarianten Ableitung übergeht (entsprechend dem Einbau des elektromagnetischen Potentials in den kanonischen Impuls oben). Damit entstehen die selben Gleichungen wie oben. </p>
+<p>Das Prinzip der lokalen Symmetrie ist sehr erfolgreich: die Gleichungen des Standardmodells der Materie und die allgemeine Relativitätstheorie kann man aus der Annahme lokaler Symmetrien entwickeln. Damit stellt sich die Frage, ob nicht eine tiefere Wahrheit hinter dem Prinzip der lokalen Symmetrie steckt, ob es mehr als nur ein mathematischer Kniff ist. Eine globale Symmetrieoperation ist zwar denkbar, ist sie aber auch durchführbar? Die Endlichkeit der Lichtgeschwindigkeit wird jeden solchen Versuch scheitern lassen. Die Veränderungen werden eine eigene Dynamik entfalten und nicht überall gleichzeitig sein. Eine Symmetrie in der Wirklichkeit bezieht sich auf einen Raumzeitpunkt - oder ein kleines Gebiet. Diese Lokalität von Symmetrien könnte damit eine wesentliche Eigenschaft von dem sein, was ist.</p>
+</div></div></div></div>  </div>
+
+  <div class="clearfix">
+          <div class="links"></div>
+    
+      </div>
+
+</div>
+  </div>
+</div>
+  </div>
+          </div>
+                      <div class="region region-footer">
+    <div id="block-system-powered-by" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+</div>
+  </div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /#container -->
+  </div> <!-- /#wrapper -->
+  </body>
+</html>

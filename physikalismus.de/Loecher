@@ -45,7 +45,7 @@ MathJax.Hub.Config({
 @import url("http://physikalismus.de/modules/user/user.css?obwofu");
 </style>
 <style type="text/css" media="all">
-@import url("sites/default/files/color/garland-b0e715b8/style.css@obwofu");
+@import url("sites/default/files/color/garland-b0e715b8/style.css?obwofu");
 </style>
 <style type="text/css" media="print">
 @import url("http://physikalismus.de/themes/garland/print.css?obwofu");
@@ -57,12 +57,12 @@ MathJax.Hub.Config({
   <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
 <script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
 <script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?obwofu"></script>
-<script type="text/javascript" src="sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js@obwofu"></script>
-<script type="text/javascript" src="sites/all/modules/mathjax/mathjax.js@obwofu"></script>
+<script type="text/javascript" src="sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js?obwofu"></script>
+<script type="text/javascript" src="sites/all/modules/mathjax/mathjax.js?obwofu"></script>
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"riK5iy-IMTYJAJH_ExFo2L0T9aU6QhZASKBaqNjIyPQ","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Loecher":true,"\/Loecher?destination=node\/89":true}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"pIiaFRktSxjAAGcUEXFHOtFWSUcSmqwYmQvQ_v8pxbw","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/Loecher":true,"\/Loecher?destination=node\/89":true}});
 //--><!]]>
 </script>
 </head>
@@ -89,6 +89,8 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 <li class="menu-469"><a href="Begriffe" title="Wie die Wörter an diesem Ort gemeint sind, 
 erklärt durch noch mehr Wörter.">Begriffe</a></li>
 <li class="menu-410"><a href="Bibliothek" title="Zum Verständnis Dienliches an diesem Ort Archiviertes">Bibliothek</a></li>
+<li class="menu-407"><a href="node/48" title="(hier gibt&#039;s nix für dich)">Baustellen</a></li>
+<li class="menu-347"><a href="Zusammenfassung" title="Was an diesem Ort gesagt werden sollte">Zusammenfassung</a></li>
 <li class="menu-423 last"><a href="Impressum">Impressum</a></li>
 </ul>              </div> <!-- /#header -->
 
@@ -104,7 +106,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
   <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
  <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-sdcAmSh--XFK7j64sdP3CkjFImTzs56OCIsEFq7PIt4" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-l9w7lYCkt0_oJj5DEv75oBzxyzoByb8NgejL0Sw-9BI" />
 <input type="hidden" name="form_id" value="search_block_form" />
 </div>
 </div></form>  </div>
@@ -114,7 +116,8 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
     <h2 class="title">Navigation</h2>
   
   <div class="content">
-    <ul class="menu"><li class="first leaf"><a href="Bewusstsein" title="Gedanken über den Geist">Bewusstsein</a></li>
+    <ul class="menu"><li class="first leaf"><a href="Atome" title="Was ist unteilbar?">Atome</a></li>
+<li class="collapsed"><a href="Bewusstsein" title="Gedanken über den Geist">Bewusstsein</a></li>
 <li class="leaf"><a href="Dao" title="Der Weg zur Erkenntnis">Dao</a></li>
 <li class="leaf"><a href="Denken" title="Muss Denken immer in einem engen Raumgebiet stattfinden?">Denken</a></li>
 <li class="leaf"><a href="Energie" title="Ein Wort zur Energie">Energie</a></li>
@@ -132,17 +135,24 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
 <li class="last leaf active-trail"><a href="Loecher" title="Was sagt uns die Entropie schwarzer Löcher?" class="active-trail active">Löcher</a></li>
 </ul></li>
 <li class="leaf"><a href="Jesus" title="Wie ich mir Jesus vorstelle">Jesus</a></li>
+<li class="leaf"><a href="Kausalitaet" title="Was bedeutet Kausalität?">Kausalität</a></li>
 <li class="leaf"><a href="Juristerei" title="Kann richtig geurteilt werden?">Juristerei</a></li>
+<li class="leaf"><a href="Komplexitaet" title="Wie kann Komplexität definiert werden?">Komplexität</a></li>
 <li class="leaf"><a href="Kampf" title="Die falsche Idee vom totalen Frieden">Kampf</a></li>
 <li class="leaf"><a href="Leben" title="Was ist Leben?">Leben</a></li>
+<li class="leaf"><a href="Newton" title="Hätte Newton weiterkommen können?">Newton</a></li>
 <li class="collapsed"><a href="Masse" title="Wie sich die Masse in ein Geflecht auflöst">Masse</a></li>
 <li class="collapsed"><a href="Mechanik" title="Was man von der klassischen Mechanik noch lernen kann">Mechanik</a></li>
+<li class="leaf"><a href="Raumzeit" title="Raumzeit">Raumzeit</a></li>
 <li class="leaf"><a href="N" title="Was an den natürlichen Zahlen unnatürlich ist">N</a></li>
 <li class="collapsed"><a href="Quantenmechanik" title="Die philosophischen Konsequenzen aus der Quantenmechanik">Quanten</a></li>
+<li class="leaf"><a href="Schopenhauer" title="Schopenhauer: das Genie">Schopenhauer</a></li>
 <li class="leaf"><a href="Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen">Reduktionismus</a></li>
 <li class="leaf"><a href="Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
 <li class="leaf"><a href="Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
+<li class="leaf"><a href="Symmetrien" title="Woran wir glauben">Symmetrien</a></li>
 <li class="leaf"><a href="Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+<li class="leaf"><a href="Zukunft" title="Was kommt auf uns zu?">Zukunft</a></li>
 <li class="last leaf"><a href="Koernung" title="Argumente für eine Körnung der Natur">Körnung</a></li>
 </ul>  </div>
 </div>
@@ -160,7 +170,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
  <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
 </div>
 <div class="item-list"><ul><li class="first last"><a href="user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
-</ul></div><input type="hidden" name="form_build_id" value="form-fcPJinIThBv1W1LK3EXiokGlHrq4jWN8tMgHCCYUl60" />
+</ul></div><input type="hidden" name="form_build_id" value="form-8KGPO6FU2wUxTNgjyKEw9BPyTHvmzYnW3BT8ZV760L0" />
 <input type="hidden" name="form_id" value="user_login_block" />
 <div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
 </div>
@@ -191,7 +201,7 @@ erklärt durch noch mehr Wörter.">Begriffe</a></li>
 </ul><h2>Klassische Thermodynamik</h2>
 <p>"nur als Differential definiert"<br />
 kann negativ werden widerspricht Informationsinterpretation</p>
-<h2>Kanonischer Dichteoperator</h2>
+<h2 id="KanonischerDichteoperator">Kanonischer Dichteoperator</h2>
 <p>Der kanonische Dichteoperator der Quantenstatistik ist derjenige Dichteoperator, der die von Neumann Entropie \( S=-\mathrm {Spur} (\rho \ln \rho) \) unter der Nebenbedingung eines konstanten Erwartungswertes des Hamilton-Operators \( \mathrm {Spur} (\rho H) = U = const. \) maximiert [<a href="Quellen#Amann">Amann 2.6</a>]. Wir wollen uns auf endlich-dimensionale Hilberträume (Dimension \(N\)) beschränken. Dort ergibt sich<br />
 \begin{equation}<br />
 \hat{\rho} = \frac{1}{Z} e^{- \frac{\hat{H}}{kT}}<br />
@@ -218,7 +228,8 @@ Entartete Energieeigenwerte treten darin mehrfach auf (z.B. \( E_j = E_k \)).</p
 </tr></table><p>Natürlich erinnern diese Matrizen den Quantentheoretiker an Verschränkung. Bei \( T \rightarrow 0 \) strebt der Zustand gegen einen Projektor, er wird also zu einem reinen Zustand. \( T = 0 \) stünde dafür, dass sich das System vollkommen von der Umgebung entkoppelt hätte, der Weltzustand wäre ein Produktzustand aus System- und Umgebungszuständen. <strong>Die Unerreichbarkeit des absoluten Temperaturnullpunkts würde in dieser Interpretation der Unerreichbarkeit vollkommener Entschränkung entsprechen.</strong></p>
 <p>Diagonale Dichtematrizen, die in der Diagonale immer dieselbe Zahl enthalten, stehen für maximale Entropie. <strong>Die Unerreichbarkeit unendlicher Temperatur würde in dieser Interpretation der Unerreichbarkeit maximaler Verschränkung entsprechen.</strong></p>
 <p>In der Vergangenheit war die Interpretation des Dichteoperators allerdings eine ganz andere: ein Scharmittel sollte dieselben Zahlenwerte liefern wie das Zeitmittel eines konkreten makrospopischen Einzelsystems. Durch diese Ergodenhypothese sollte es erlaubt sein, die thermodynamischen, makroskopischen Zustandsgrößen ersatzweise aus dem Scharmittel zu gewinnen. Dieses aus der klassischen statistischen Physik bewährte, da funktionierende Konzept, wurde genau so in die Quantentheorie übernommen. Der Dichteoperator der Quantenstatistik stand für ein statistisches „Gemisch“ aus makroskopischen Quantensystemen. Auch dieser Mechanismus funktionierte, gemessen an den experimentellen Resultaten. Ein Quantensystem verhält sich aber nicht klassisch statistisch, und wir müssen uns heute fragen, warum die Quantenstatistik überhaupt funktionieren konnte. </p>
-<p>Wenn der Dichteoperator in Wirklichkeit durch Dekohärenz entsteht und keine statistische Gesamtheit repräsentiert, stellt sich allerdings die Frage, warum er in der Energiebasis diagonal werden sollte. Im Grenzfall starker Wechselwirkungen mit der Umgebung sind die Zeigerzustände Eigenzustände des Wechselwirkungsoperators [<a href="Bibliothek#Schlosshauer">Schlosshauer</a> 2.8.1]. Viele Wechselwirkungsoperatoren (mit Matrixelementen wie \( V( | r_{System} - r_{Umgebung} | \)) müssten demnach zu in der Ortsdarstellung diagonalen Dichtematrizen führen. Sind die experimentell bestätigten Ergebnisse, wenn man mit Dichtematrizen rechnet, die in der Energiedarstellung diagonal sind, nur Zufall? Das Verhältnis zwischen thermodynamischer Entropie und Verschränkung ist Gegenstand aktueller Forschung im Jahr 2018, und theoretische und experimentelle Arbeiten lassen den Zusammenhang langsam hervortreten [<a href="Quellen#Alba-Calabrese">Alba-Calabrese</a>]. </p>
+<p>Wenn der Dichteoperator in Wirklichkeit durch Dekohärenz entsteht und keine statistische Gesamtheit repräsentiert, stellt sich allerdings die Frage, warum er in der Energiebasis diagonal werden sollte. Im Grenzfall starker Wechselwirkungen mit der Umgebung („Messung“) sind die Zeigerzustände Eigenzustände des Wechselwirkungsoperators. Viele Wechselwirkungsoperatoren (mit Matrixelementen wie \( V( | r_{System} - r_{Umgebung} | \)) müssten demnach zu in der Ortsdarstellung diagonalen Dichtematrizen führen. Die Diagonalität des kanonischen Dichteoperators in der Energiebasis entspricht dagegen dem „Quantengrenzfall“ der Dekohärenz [<a href="Bibliothek#Schlosshauer">Schlosshauer</a> 2.8.2].</p>
+<p>Das Verhältnis zwischen thermodynamischer Entropie und Verschränkung ist Gegenstand aktueller Forschung im Jahr 2018, und theoretische und experimentelle Arbeiten lassen den Zusammenhang langsam hervortreten [<a href="Quellen#Alba-Calabrese">Alba-Calabrese</a>]. </p>
 <h3>Masse</h3>
 <p>Masse ist Energie, das wissen wir als Physiker. In der klassischen Thermodynamik und statistischen Physik ist die sehr große Massenenergie \( Mc^2 \) gar nicht in den Gleichungen vertreten. Dort treten primär kinetische Terme mit „Teilchenmassen“ und vielleicht noch Wechselwirkungsterme auf. Haben wir deswegen einen Fehler gemacht?</p>
 <p>Wenn wir die Massenenergie in nicht-relativistischer Quantenmechanik berücksichtigen wollen, müssen wir die Schrödingergleichung so ändern:<br />
@@ -246,7 +257,13 @@ Links oben stehen die Elemente, die wir bereits kennen. Rechts unten stehen ein 
 <h2>Verschränkungsentropie als Information?</h2>
 <p>Kollaps (Teilkollaps) mit c*c Diagonalelementen als Wahrscheinlichkeiten. </p>
 <h2>Entropie schwarzer Löcher</h2>
-<p>Annahme: sie sei absolut, wieviele Freiheitsgrade haben wir dann?</p>
+<table><tr><th>doppelt logarithmisch</th>
+<th>logarithmisch</th>
+</tr><tr><td><img width="450px" src="sites/default/files/pictures/Loecher/S_von_T_loglog.png" /></td>
+<td><img width="450px" src="sites/default/files/pictures/Loecher/S_von_T_log.png" /></td>
+</tr><tr><td><img width="450px" src="sites/default/files/pictures/Loecher/S_von_A_loglog.png" /></td>
+<td><img width="450px" src="sites/default/files/pictures/Loecher/S_von_A_log.png" /></td>
+</tr></table><p>Annahme: sie sei absolut, wieviele Freiheitsgrade haben wir dann?</p>
 </table></table></div></div></div></div>  </div>
 
   <div class="clearfix">

@@ -1,0 +1,246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../sites/default/files/pyramid_power.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="15" />
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ['tex2jax.js'],
+  jax: ['input/TeX','output/HTML-CSS'],
+  tex2jax: {
+    inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+    processEscapes: true,
+    processClass: 'tex2jax',
+    ignoreClass: 'html'
+  },
+  showProcessingMessages: false,
+  messageStyle: 'none'
+});
+</script><meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="../Messproblem" />
+  <title>Das quantenmechanische Messproblem | Physikalismus</title>
+  <style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/system/system.base.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.menus.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.messages.css?obwofu");
+@import url("http://physikalismus.de/modules/system/system.theme.css?obwofu");
+</style>
+<style type="text/css" media="all">
+@import url("http://physikalismus.de/modules/comment/comment.css?obwofu");
+@import url("http://physikalismus.de/modules/field/theme/field.css?obwofu");
+@import url("http://physikalismus.de/modules/node/node.css?obwofu");
+@import url("http://physikalismus.de/modules/search/search.css?obwofu");
+@import url("http://physikalismus.de/modules/user/user.css?obwofu");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/default/files/color/garland-b0e715b8/style.css?obwofu");
+</style>
+<style type="text/css" media="print">
+@import url("http://physikalismus.de/themes/garland/print.css?obwofu");
+</style>
+
+<!--[if lt IE 7]>
+<link type="text/css" rel="stylesheet" href="http://physikalismus.de/themes/garland/fix-ie.css?obwofu" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://physikalismus.de/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://physikalismus.de/misc/drupal.js?obwofu"></script>
+<script type="text/javascript" src="../sites/default/files/languages/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js?obwofu"></script>
+<script type="text/javascript" src="../sites/all/modules/mathjax/mathjax.js?obwofu"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"r_kcVLu6WvKV4JfH932plhULfscttS8C0ajp8aiwDOk","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_L3A0p8NG9dQHPrjlyj5epkqO6Fc2XppKBdkY5dYV9DA.js":1,"sites\/all\/modules\/mathjax\/mathjax.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/latest\/MathJax.js?config=TeX-AMS-MML_HTMLorMML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}},"urlIsAjaxTrusted":{"\/node\/15":true,"\/Messproblem?destination=node\/15":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-15 node-type-page fluid-width" >
+  <div id="skip-link">
+    <a href="15#main-content" class="element-invisible element-focusable">Direkt zum Inhalt</a>
+  </div>
+      
+  <div id="wrapper">
+    <div id="container" class="clearfix">
+
+      <div id="header">
+        <div id="logo-floater">
+                              <div id="branding"><strong><a href="../index.html">
+                          <img src="../sites/default/files/pyramid_power.png" alt=" " title=" " id="logo" />
+                                    </a></strong></div>
+                          </div>
+
+        <h2 class="element-invisible">Hauptmenü</h2><ul class="links inline main-menu"><li class="menu-218 first"><a href="../index.html" title="">Start</a></li>
+<li class="menu-467"><a href="../tracker" title="">Neuester Inhalt</a></li>
+<li class="menu-468"><a href="../Baustellen" title="Meine Hausaufgaben">Baustellen</a></li>
+<li class="menu-310"><a href="../Quellen">Quellen</a></li>
+<li class="menu-311"><a href="../Zitate">Zitate</a></li>
+<li class="menu-469"><a href="../Begriffe" title="Wie die Wörter an diesem Ort gemeint sind, 
+erklärt durch noch mehr Wörter.">Begriffe</a></li>
+<li class="menu-410"><a href="../Bibliothek" title="Zum Verständnis Dienliches an diesem Ort Archiviertes">Bibliothek</a></li>
+<li class="menu-407"><a href="48" title="(hier gibt&#039;s nix für dich)">Baustellen</a></li>
+<li class="menu-347"><a href="../Zusammenfassung" title="Was an diesem Ort gesagt werden sollte">Zusammenfassung</a></li>
+<li class="menu-423 last"><a href="../Impressum">Impressum</a></li>
+</ul>              </div> <!-- /#header -->
+
+              <div id="sidebar-first" class="sidebar">
+            <div class="region region-sidebar-first">
+    <div id="block-search-form" class="block block-search clearfix">
+
+    
+  <div class="content">
+    <form action="15" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Suchformular</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Suche </label>
+ <input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Suche" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-iR8mZeMBr4m8MLXacaijnLAcoN4mfXOUzIUviX6kvNY" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-system-navigation" class="block block-system block-menu clearfix">
+
+    <h2 class="title">Navigation</h2>
+  
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="../Atome" title="Was ist unteilbar?">Atome</a></li>
+<li class="collapsed"><a href="../Bewusstsein" title="Gedanken über den Geist">Bewusstsein</a></li>
+<li class="leaf"><a href="../Dao" title="Der Weg zur Erkenntnis">Dao</a></li>
+<li class="leaf"><a href="../Denken" title="Muss Denken immer in einem engen Raumgebiet stattfinden?">Denken</a></li>
+<li class="leaf"><a href="../Energie" title="Ein Wort zur Energie">Energie</a></li>
+<li class="leaf"><a href="../Erloesung" title="Wie kann das Abgeteilte erlöst werden?">Erlösung</a></li>
+<li class="leaf"><a href="../Erwachsenwerden" title="Erwachsenwerden in der Begrifflichkeit des Schopenhauerschen Willens">Erwachsenwerden</a></li>
+<li class="leaf"><a href="../Freunde" title="Wie Freunde uns in die Irre führen">Freunde</a></li>
+<li class="leaf"><a href="../Ganzheit" title="Nichlinearität erzwingt Ganzheit">Ganzheit</a></li>
+<li class="leaf"><a href="../Geister" title="Wann ist ein Geist ein Geist?">Geister</a></li>
+<li class="leaf"><a href="../Geld" title="Preis als Energie und Geld als Software">Geld</a></li>
+<li class="collapsed"><a href="../Gleichnisse" title="Gleichnisse für Physiker von einem Physiker über Physik">Gleichnisse</a></li>
+<li class="leaf"><a href="../Ethik" title="Was sollen wir tun?">gut &amp; böse</a></li>
+<li class="leaf"><a href="../Ich" title="Was ist das Ich?">Ich</a></li>
+<li class="collapsed"><a href="../Information" title="Baustelle">Information</a></li>
+<li class="leaf"><a href="../Jesus" title="Wie ich mir Jesus vorstelle">Jesus</a></li>
+<li class="leaf"><a href="../Kausalitaet" title="Was bedeutet Kausalität?">Kausalität</a></li>
+<li class="leaf"><a href="../Juristerei" title="Kann richtig geurteilt werden?">Juristerei</a></li>
+<li class="leaf"><a href="../Komplexitaet" title="Wie kann Komplexität definiert werden?">Komplexität</a></li>
+<li class="leaf"><a href="../Kampf" title="Die falsche Idee vom totalen Frieden">Kampf</a></li>
+<li class="leaf"><a href="../Leben" title="Was ist Leben?">Leben</a></li>
+<li class="leaf"><a href="../Newton" title="Hätte Newton weiterkommen können?">Newton</a></li>
+<li class="collapsed"><a href="../Masse" title="Wie sich die Masse in ein Geflecht auflöst">Masse</a></li>
+<li class="collapsed"><a href="../Mechanik" title="Was man von der klassischen Mechanik noch lernen kann">Mechanik</a></li>
+<li class="leaf"><a href="../Raumzeit" title="Raumzeit">Raumzeit</a></li>
+<li class="leaf"><a href="../N" title="Was an den natürlichen Zahlen unnatürlich ist">N</a></li>
+<li class="expanded active-trail"><a href="../Quantenmechanik" title="Die philosophischen Konsequenzen aus der Quantenmechanik" class="active-trail">Quanten</a><ul class="menu"><li class="first leaf"><a href="../Aufsauger" title="Feynmans Gedankenexperiment">Aufsauger</a></li>
+<li class="leaf"><a href="../Brezel" title="Verschränkung">Brezel</a></li>
+<li class="leaf"><a href="../Quanten-Folgerungen" title="Die philosophischen Folgerungen aus der Quantentheorie">Folgerungen</a></li>
+<li class="leaf"><a href="../2016" title="Das Todesjahr des lokalen Realismus">2016</a></li>
+<li class="leaf active-trail"><a href="../Messproblem" title="Das quantenmechanische Messproblem" class="active-trail active">Messproblem</a></li>
+<li class="leaf"><a href="../Messung" title="Die Heisenbergschen Schnitte">Messung</a></li>
+<li class="last leaf"><a href="../Wigner" title="Wigners Freund">Wigner</a></li>
+</ul></li>
+<li class="leaf"><a href="../Schopenhauer" title="Schopenhauer: das Genie">Schopenhauer</a></li>
+<li class="leaf"><a href="../Reduktionismus" title="Die Erklärung des Großen aus dem Kleinen und deren Grenzen">Reduktionismus</a></li>
+<li class="leaf"><a href="../Software" title="Die Welt als Vorstellung oder Software">Software</a></li>
+<li class="leaf"><a href="../Sprache" title="Wie die Sprache uns in die Irre führt">Sprache</a></li>
+<li class="leaf"><a href="../Symmetrien" title="Woran wir glauben">Symmetrien</a></li>
+<li class="leaf"><a href="../Wachstum" title="Das Märchen von der Seligwerdung durch Wirtschaftswachstum">Wachstum</a></li>
+<li class="leaf"><a href="../Zukunft" title="Was kommt auf uns zu?">Zukunft</a></li>
+<li class="last leaf"><a href="../Koernung" title="Argumente für eine Körnung der Natur">Körnung</a></li>
+</ul>  </div>
+</div>
+<div id="block-user-login" class="block block-user clearfix">
+
+    <h2 class="title">Benutzeranmeldung</h2>
+  
+  <div class="content">
+    <form action="http://physikalismus.de/Messproblem?destination=node/15" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Benutzername <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">Passwort <span class="form-required" title="Diese Angabe wird benötigt.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="first last"><a href="../user/password" title="Ein neues Passwort per E-Mail anfordern.">Neues Passwort anfordern</a></li>
+</ul></div><input type="hidden" name="form_build_id" value="form-FsstreHO0wlspe6JgvWBnN6pzMy2R1bBs5YJLYJXPNQ" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Anmelden" class="form-submit" /></div></div></form>  </div>
+</div>
+  </div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <h2 class="element-invisible">Sie sind hier</h2><div class="breadcrumb"><a href="../index.html">Startseite</a> › <a href="../Quantenmechanik" title="Die philosophischen Konsequenzen aus der Quantenmechanik" class="active-trail">Quanten</a></div>                    <a id="main-content"></a>
+          <div id="tabs-wrapper" class="clearfix">                                <h1 class="with-tabs">Das quantenmechanische Messproblem</h1>
+                              </div>                                                  <div class="clearfix">
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <div id="node-15" class="node node-page" about="/Messproblem" typeof="foaf:Document">
+
+  
+      <span property="dc:title" content="Das quantenmechanische Messproblem" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="tex2jax"><p>Wir folgen hier der Darstellung des Problems, wie sie uns Everett in den 1970er Jahren als mathematisch sehr begabter junger Doktorand hinterlassen hat [Everett-Dr].</p>
+<p>Bis zu Everetts Doktorarbeit sah man in der damaligen Quantentheorie, wie er schreibt, zwei ganz verschiedene Arten des Werdens.<br /><strong>Prozess 1:</strong> Der plötzliche zufällige Wechsel eines allgemeinen Zustands eines physikalischen Systems (eines unter Beobachtung stehenden Welt-„Teils“) in einen Eigenzustand eines Operators, verursacht durch die Messung (oder Beobachtung) der Größe, für die der Operator steht, wobei sich die Übergangswahrscheinlichkeit in einen bestimmten Eigenzustand aus dem Absolutquadrat des Skalarprodukts &lt;Zustand | Eigenzustand&gt; berechnen lässt.<br /><strong>Prozess 2:</strong> Die kontinuierliche Entwicklung eines allgemeinen Zustands eines physikalischen Systems, wie sie durch die Schrödingergleichung bestimmt ist, getrieben durch einen unitären Zeitentwicklungsoperator und nicht zufällig.</p>
+<p>Everett beginnt mit dem als <em>Wigners Freund</em> bekannten Paradoxon: Er betrachtet ein System S und einen Beobachter A, der das System S beobachtet (Messungen daran vornimmt). Ein weiterer Beobachter B beobachtet wiederum das System A+S, also das aus dem 1. Beobachter und dem System S zusammengesetzte System. Für A findet Prozess 1 statt, sobald er seine Messung an S macht. Ab da, zum Zeitpunkt t1, befindet sich S in einem Eigenzustand E und A in dem Bewusstseinszustand, dass S sich in dem Eigenzustand E befinden müsse. Für B soll Prozess 1 erst später stattfinden, nämlich wenn er sich den Ausgang des Experiments von A mitteilen lässt. Bis dahin entwickeln sich für B die Zustände von A und S nach dem Prozess 2. Obwohl für A der Eigenzustand E und sein entsprechender Bewusstseinszustand bereits zu einer Zeit t1 eingetreten sind (was B ihn ja hinterher fragen kann), sind sie für B bis zu seiner Messung zum Zeitpunkt t2 &gt; t1 noch in einem überlagerten Zustand, der sich gemäß Prozess 2 aus dem Zustand zur Zeit t1 entwickelt hat. Das ist paradox! </p>
+<p>Zur Vermeidung des Paradoxons zählt Everett 5 Auswege auf.</p>
+<p><strong>Alternative 1:</strong> Es gibt nur einen Beobachter. Jeder von uns müsste die Ansicht vertreten, dass er der einzige Beobachter auf der Welt sei, während der Rest der Welt sich nach Prozess 2 entwickelt, so lange er ihn nicht bewusst wahrnimmt.</p>
+<p><strong>Alternative 2:</strong> Die Quantenmechanik soll nicht mehr auf Beobachter oder Messapparate anwendbar sein, sobald sie makroskopische Größe erlangen. </p>
+<p><strong>Alternative 3:</strong> B soll niemals in der Lage sein können, die Zustandsfunktion des Systems A+S zu wissen. Eine Bestimmung des Zustands des makroskopischen A soll einen dermaßen drastischen Eingriff darstellen, dass A nicht mehr als Beobachter funktionieren kann. </p>
+<p><strong>Alternative 4:</strong> Die Position, dass die Zustandsfunktion ein System vollständig beschreibt, wird aufgegeben. Sie soll vielmehr ein klassisches Ensemble bei unvollständiger Information beschreiben.</p>
+<p><strong>Alternative 5:</strong> Annahme der universellen Gültigkeit einer quantenmechanischen Beschreibung alleine durch den Prozess 2.</p>
+<p>Bei Alternative 1 hat Everett allerdings eine kleine Schlampigkeit begangen. Verträgt sich denn die Annahme nur eines Beobachters mit mehreren „von uns“, die von sich annehmen sollen, dass sie dieser seien? </p>
+<p>Alternative 2 wird immer mehr durch den Ausgang von Experimenten in die Enge gedrängt, wie bereits oben gesagt.</p>
+<p>Die Alternative 3 vernichtet Everett selbst schon überzeugend.</p>
+<p>Alternative 4 ist die Annahme verborgener Parameter. Eine Entscheidung darüber können Experimente zur Bell'schen Ungleichung bringen, und im Moment zeichnet sich aus Sicht der Alternative 4 ein eher ungünstiger Ausgang dieser Experimente ab. </p>
+<p>Alternative 5 schließlich führt zur Viele-Welten-Interpretation.</p>
+<p>(Fortsetzung folgt)</p>
+<p>Der dramatische Wandel, der sich gerade im Denken der Physiker vollzieht, lässt sich ungefähr so darstellen:</p>
+<p>Unbestritten sagt die Quantentheorie den Ausgang von Experimenten richtig voraus, wenn man sie „richtig“ anwenden kann. Sie lässt sich damit nicht wegdiskutieren, in ihr muss irgendwie Wahrheit liegen. Anfang des 20. Jahrhunderts waren den führenden Physikern die philosophischen Herausforderungen durchaus bewusst, vor die sie von der neuen Theorie gestellt worden waren. Sie kämpften um Deutungen, allerdings verloren sie den Kampf mehr oder weniger. </p>
+<p>Die Kopenhagener Deutung und ihre Verwandten bewahren die klassischen physikalischen Begriffe wie Ladung, Ort, Impuls, Teilchen (mechanischer “Körper„), Feld usw. unverändert. Die Betrachtung solcher Größen als wesentlich führt zur Reduktion der Wellenfunktion auf eine Wahrscheinlichkeitsamplitude für klassische Größen. Sie soll Wahrscheinlichkeiten für Orte von Teilchen, für Impulse usw. liefern. Diese Betrachtung führt auf Unschärferelationen für klassische Größen. Die Quantenmechanik sollte nicht für den Makrokosmos gelten. Von je her war der Übergang vom Mikrokosmos zu Makrokosmos für diese Interpretationen ein Problem.</p>
+<p>Unterstützt durch immer trickreichere Experimente kristallisiert sich heute allerdings heraus: die Gültigkeit der Quantenmechanik verliert sich nicht ab einer bestimmten Größenskala (Heisenbergscher Schnitt). <strong>Das ist die Aufgabe, vor der wir nun stehen: nimm die Wellenfunktion als wesentlich an! Die Wellenfunktion im vieldimensionalen Konfigurationsraum ist wesentlich! Aus ihrer Dynamik heraus müsst ihr eure ganze „wahrgenommene“ Welt erklären und dabei erkennen, wie eure gewohnten Größen als Erscheinungen des Wandels der seltsamen darunterliegenden Quantenwelt zustandekommen!</strong> Die Dekohärenztheorie hat sich genau dieser Aufgabe gestellt. Wobei die Dekohärenz immer nur lokal auftritt, im Gebiet des Interesses. Die Kohärenz bleibt durchaus immer bewahrt, die Schrödingergleichung beschreibt kein Verschwinden von Gesamtkohärenz. Insofern ist der Begriff „Dekohärenztheorie“ nicht ungefährlich.</p>
+<p>Freilich stellt sich sofort die Frage, wie viele Dimensionen der Konfigurationsraum einer universellen Wellenfunktion eigentlich hat. Ich denke, dass hier die Gesamtenergie und das Plancksche Wirkungsquantum vorkommen werden. Nur mit welcher Zeitgröße zusammen? Wenn die Gesamtenergie die Anzahl der Dimensionen bestimmt, so ist es nur logisch, dass die Energie eines abgeschlossenen Universums erhalten bleibt. Ein normale Schrödingergleichung ändert die Dimension ihres Konfigurationsraums zeitlich nicht. Ein quantisiertes Feld kann weitere Variablen durch Erzeugungsoperatoren bekommen, was aber immer auch die Energie vergrößert.</p>
+<p>Versus von Neumanns Modell: die Aufspaltung ist dort von Anfang an angelegt durch die unzulässige Faktorisierung.</p>
+</div></div></div></div>  </div>
+
+  <div class="clearfix">
+          <div class="links"></div>
+    
+      </div>
+
+</div>
+  </div>
+</div>
+  </div>
+          </div>
+                      <div class="region region-footer">
+    <div id="block-system-powered-by" class="block block-system clearfix">
+
+    
+  <div class="content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+</div>
+  </div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /#container -->
+  </div> <!-- /#wrapper -->
+  </body>
+</html>

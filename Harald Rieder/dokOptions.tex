@@ -1,0 +1,189 @@
+% -------------------- Einstellungen Seitenaufbau ------------------------------
+% Seiteneinstellungen laden
+\usepackage[nouppercase]{scrpage2}
+% Keine Kopf/Fußzeile auf leeren Seiten
+\usepackage{emptypage}
+% Zeilenabstände einstellen auf standardmäßig 1,5fachen Zeilenabstand
+\usepackage[singlespacing]{setspace}
+% Seitenränder einstellen
+\setlength{\topskip}{10.5pt} % Verhindern einer Fehlermeldung
+
+% Seitengröße auf a4paper oder a5paper einstellbar (1. oder 2. usepackage wählen)
+\usepackage[a5paper,headheight=1.5\baselineskip,top=25mm,lines=38,heightrounded=true,bindingoffset=12mm,textwidth=109mm,footnotesep=7mm]{geometry}
+%\usepackage[a4paper,headheight=1.5\baselineskip,top=25mm,lines=46,heightrounded=true,bindingoffset=15mm,textwidth=160mm]{geometry}
+% Zeilen auf der Seite verteilen ( Es wird kein Ausgleich des unteren Seitenrandes durch Dehnung der Absatzabstände durchgeführt.) 
+\raggedbottom     
+% Abstand zwischen Textkörper und Linie in der Kopfzeile
+\setlength{\headsep}{8mm}
+% Abstand zwischen Textkörper und Unterkante Fußzeile (Seitenzahlen)
+\setlength{\footskip}{10mm}
+% Verhindert  Erstzeileneinzüge
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2.5mm}
+% Schusterjungen (einzelne Zeile unten auf der Seite) unterdrücken
+\clubpenalty = 10000 
+% Hurenkinder (einzelne Zeile oben auf der Seite) unterdrücken
+\widowpenalty = 10000
+\displaywidowpenalty = 10000
+% Linie in der Kopfzeile definieren
+\setheadsepline{0.5pt}
+% Position und Größe der Fußnoten
+\deffootnote[1.0em]{1.0em}{0em}{\textsuperscript{\thefootnotemark\ }}
+% Mindestfüllgrad einer Seite mit einem Gleitobjekt
+\renewcommand{\floatpagefraction}{0.7}
+% Maximale Größe eines Gleitobjekts am unteren Seitenrand
+\renewcommand{\topfraction}{0.8}
+% Maximale Größe eines Gleitobjekts am oberen Seitenrand
+\renewcommand{\bottomfraction}{0.8}
+% mögliche Abstandsvergrößerung innerhalb einer Zeile bei unschönem Zeilenumbruch
+\setlength{\emergencystretch}{4pt}
+% Mindestanteil an Text auf einer Seite mit Gleitobjekt
+\renewcommand{\textfraction}{0.1}
+% Seitenbegrenzungen anzeigen, zum Überprüfen der Seitendarstellung
+%\usepackage{showframe}
+
+% -------------------- Einstellungen Zeichensatz ------------------------------
+% Erscheinungsbild auf Deutsch umstellen
+\usepackage{babel}
+% Umlaute zulassen
+\usepackage[T1]{fontenc}
+% ß als Zeichen zulassen
+\usepackage[latin1]{inputenc}
+% Inhaltsverzeichnis richtig darstellen
+\usepackage[titles]{tocloft}
+% Auch bei den Kapiteln Punkte darstellen
+\renewcommand{\cftchapdotsep}{\cftdotsep}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftchapdotsep}}
+% Seitenzahlen bei Kapitel in Serifenloser Schriftart darstellen
+\renewcommand{\cftchappagefont}{\fontfamily{phv}\normalsize\bfseries}
+% Verzeichnisse aktualisieren
+
+%Fonts im Inhaltsvz.
+\renewcommand\cftchapfont{\fontfamily{phv}\normalsize\bfseries}
+\renewcommand\cftsecfont{\fontfamily{phv}\fontsize{11}{11}}
+%Fonts in Kapiteln und sections...
+%\renewcommand\cftchappagefont{\fontfamily{phv}\normalsize\bfseries}
+\renewcommand\cftsecpagefont{\fontfamily{phv}\fontsize{11}{11}}
+
+\usepackage{makeidx}
+% Adobe Times als Standardschriftart einstellen
+\usepackage{newtxtext}
+\usepackage{newtxmath}
+% Schriftarten und -größen für die Überschriften vorgeben
+%\addtokomafont{chapter}{\fontfamily{phv}\fontsize{17}{17}\bfseries}
+
+%\addtokomafont{chapter}{\fontfamily{phv}\fontsize{17}{17}\bfseries}
+%\addtokomafont{section}{\fontfamily{phv}\fontsize{13}{13}\bfseries}
+%\addtokomafont{subsection}{\fontfamily{phv}\fontsize{11}{11}\bfseries}
+%\addtokomafont{subsubsection}{\fontfamily{phv}\fontsize{9}{9}\bfseries}
+
+\addtokomafont{chapter}{\fontfamily{phv}\fontsize{17}{19}\bfseries}
+\addtokomafont{section}{\fontfamily{phv}\fontsize{13}{16}\bfseries}
+\addtokomafont{subsection}{\fontfamily{phv}\fontsize{11}{14}\bfseries}
+\addtokomafont{subsubsection}{\fontfamily{phv}\fontsize{9}{12}\bfseries}
+
+% Größen der Beschriftungen vorgeben
+\addtokomafont{caption}{\footnotesize}
+\setkomafont{captionlabel}{\footnotesize}
+% Größe der Kopf- und Fußzeile vorgeben
+\setkomafont{pageheadfoot}{\footnotesize} 
+% Größe der Seitenzahl
+\setkomafont{pagenumber}{\normalsize}
+
+% Farben im Dokument zulassen
+\usepackage{color}
+% Textfarbe schwarz definieren
+\color[cmyk]{0,0,0,1}
+% Bezeichnung für Überschriften 1cm vom linken Rand beginnen
+\renewcommand*{\chapterformat}{\makebox[1.1cm][l]{\thechapter\autodot}}
+\renewcommand*{\sectionformat}{\makebox[1.1cm][l]{\thesection\autodot}}
+\renewcommand*{\subsectionformat}{\makebox[1.1cm][l]{\thesubsection\autodot}}
+% Bezeichnungsnamen angeben
+\addto\captionsngerman{\renewcommand{\figurename}{Abbildung}}
+\addto\captionsngerman{\renewcommand{\tablename}{Tabelle}}
+
+% Ansicht Literaturverzeichnis
+%\bibliographystyle{plaindin}
+
+% -------------------- Einstellungen weiterer Pakete ------------------------------
+% Einbinden von Bildern ermöglichen
+\usepackage{graphicx}	
+% Gedrehte Objekte ermöglichen
+\usepackage{rotating}
+% Erweiterte Tabellenumgebung
+\usepackage{tabularx}
+% Erweiterte Flatersatz-Kommandos
+\usepackage{ragged2e}
+% Linksbündiger Flattersatz in den Bezeichnungen
+%\usepackage[justification=RaggedRight]{caption}
+\usepackage[justification=justified]{caption}
+\captionsetup[subfigure]{justification=RaggedRight}
+% Neuer Spaltentyp "L" mit Breitenangabe für linksbündigen Flattersatz
+\newcolumntype{L}[1]{>{\RaggedRight\arraybackslash}p{#1}}
+% Mathematische Symbole
+\usepackage{amsmath,amssymb}
+% Zeilen in Tabellen können verbunden werden
+\usepackage{multirow}
+% Zusätzliche Textsymbole zur Verfügung stellen
+\usepackage{textcomp}
+% Operatorensymbole definieren
+\newcommand{\real}{\operatorname{Re}}				% Realteil
+\newcommand{\opdiv}{\operatorname{div}}			% Divergenzoperator
+\newcommand{\rot}{\operatorname{rot}}				% Rotationsoperator
+\newcommand{\grad}{\operatorname{grad}}			% Gradientenoperator
+\newcommand{\imag}{\operatorname{Im}}				% Imaginärteil
+\newcommand{\imein}{\operatorname{j}}				% imaginäre Einheit j
+% Darstellung urls mit Zeilenumbruch
+\usepackage[hyphens]{url}
+% Erweiterte Listenanweisungen
+\usepackage{etoolbox}
+% Zeilenumbrüche in urls nach folgenden Zeichen
+\appto\UrlBreaks{\do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j\do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t\do\u\do\v\do\w\do\x\do\y\do\z\do\/\do\.}
+% Einzug im Abbildungsverzeichnis zu Null setzen
+\renewcommand{\cftfigindent}{0cm}
+% Einzug im Tabellenverzeichnis zu Null setzen
+\renewcommand{\cfttabindent}{0cm}
+% Darstellung und Verlinkungen im pdf-Dokument einstellen
+\usepackage[hidelinks,								% Links als normaler Text darstellen
+	pdfpagemode = UseNone,							% Lesezeichen im pdf-Reader nicht anzeigen
+	pdfpagelayout = TwoColumnRight,			% Seitenanzeige des pdf-Dokuments angeben
+	pdfauthor = {\autor},								% Autor des pdf-Dokuments
+	pdftitle = {\pdftitle}]							% Titel des pdf-Dokuments
+	{hyperref}
+% deutsches Abkürzungsverzeichnis erstellen
+\usepackage[german]{nomencl}
+% Befehl für einen Eintrag im Abkürzungsverzeichnis in "\sym" umbennen
+\let\sym\nomenclature
+% Name des Abkürzungsverzeichnis ändern
+\renewcommand{\nomname}{Abkürzungs- und Symbolverzeichnis}
+% Spaltenbreite der Formelzeichen auf "20 %" der Textbreite setzen
+\setlength{\nomlabelwidth}{.2\textwidth}
+% Einheiten in die Bezeichnung mit aufnehmen und rechtsbündig setzen
+\newcommand{\nomunit}[1]{\renewcommand{\nomentryend}{\hspace*{\fill}#1}}
+% Zeilenabstände verkleineren auf normalen Textabstand
+\setlength\nomitemsep{-\parsep}
+% Abkürzungsverzeichnis erzeugen
+\makenomenclature
+% Weitere Verzeichnisse erzeugen
+\makeindex
+% Blindtext zur Textdarstellung in der Vorlage ermöglichen
+\usepackage{blindtext}
+
+
+\AtBeginDocument{% 
+  \newcaptionname{ngerman}\equationname{Formel}% 
+  \newcaptionname{ngerman}\listequationname{Formelverzeichnis}% 
+}
+
+\DeclareNewTOC[ 
+  indent=0pt,
+  hang=2em,
+  type=equation,
+  name={Gl.}, 
+  types=equations, 
+  listname={Formelverzeichnis}, 
+]{equ} 
+\newcommand{\equationentry}[2][\theequation]{% 
+  \addxcontentsline{equ}{equation}[{#1}]{\kern 1em #2}% 
+} 
+\BeforeStartingTOC[equ]{\def\autodot{:}} 

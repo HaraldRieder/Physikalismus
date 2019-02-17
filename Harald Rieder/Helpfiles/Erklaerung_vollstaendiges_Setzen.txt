@@ -1,0 +1,7 @@
+1.) PDFLatex KSP_A5_Diss.tex
+2.) BiBTex   KSP_A5_Diss.aux
+3.) BiBTex   journal.aux
+4.) BiBTex   conference.aux
+5.) PDFLatex KSP_A5_Diss.tex
+6.) PDFLatex KSP_A5_Diss.tex
+7.) PDFLatex KSP_A5_Diss.tex

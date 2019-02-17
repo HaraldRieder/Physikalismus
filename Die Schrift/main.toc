@@ -3,7 +3,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{\@mypartnumtocformat {I}{Part One}}{5}{part.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Text Chapter}{7}{chapter.1}
+\contentsline {chapter}{\numberline {1}Wozu diese Schrift?}{7}{chapter.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Paragraphs of Text}{7}{section.1.1}
 \defcounter {refsection}{0}\relax 

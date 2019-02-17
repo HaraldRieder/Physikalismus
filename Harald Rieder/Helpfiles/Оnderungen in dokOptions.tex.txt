@@ -1,0 +1,49 @@
+--- Änderungen in dokOptions.tex ---
+
+- "\usepackage{mathptmx}" auskommentieren (sieht nicht gut aus und kann nicht alle math. Symbole darstellen)
+
+- "\addto\captionsngerman{\renewcommand{\figurename}{Bild}}" ändern in
+  "\addto\captionsngerman{\renewcommand{\figurename}{Abbildung}}" (Abbildungen heißen Abbildungen)
+
+- "\usepackage[onehalfspacing]{setspace}" ändern in
+  "\usepackage[singlespacing]{setspace}" (Zeilenabstand 1 anstelle 1,5)
+
+- "\usepackage[a5paper,headheight=1.5\baselineskip,top=25mm,lines=31,heightrounded=true,bindingoffset=15mm,textwidth=106mm]{geometry}" ändern in
+  "\usepackage[a5paper,headheight=1.5\baselineskip,top=25mm,lines=38,heightrounded=true,bindingoffset=12mm,textwidth=109mm,footnotesep=7mm]{geometry}" (38 anstelle 31 Zeilen pro Seite)
+
+- "\setlength{\headsep}{5mm}" ändern in
+  "\setlength{\headsep}{8mm}" (Abstand zwischen Kopfzeile und Text)
+
+- "\deffootnote[0.6em]{0.6em}{0em}{\textsuperscript{\thefootnotemark\ }}" ändern in
+  "\deffootnote[1.0em]{1.0em}{0em}{\textsuperscript{\thefootnotemark\ }}" (Fußnoten innerhalb des Textspiegels)
+
+- "\bibliographystyle{plaindin}" auskommentieren (verträgt sich nicht mit dem Literaturverzeichnis)
+
+
+
+- \renewcommand*{\chapterformat}{\makebox[1cm][l]{\thechapter\autodot}}
+
+  \renewcommand*{\sectionformat}{\makebox[1cm][l]{\thesection\autodot}}
+
+  \renewcommand*{\subsectionformat}{\makebox[1cm][l]{\thesubsection\autodot}}
+
+	ändern in
+
+  \renewcommand*{\chapterformat}{\makebox[1.1cm][l]{\thechapter\autodot}}
+  \renewcommand*{\sectionformat}{\makebox[1.1cm][l]{\thesection\autodot}}
+  \renewcommand*{\subsectionformat}{\makebox[1.1cm][l]{\thesubsection\autodot}}
+	sonst ist ab der Überschrift zu Anhang A.10 nicht genug Platz zwischen Nummerierung und Überschrift
+
+- "\usepackage[justification=RaggedRight]{caption}" ändern in
+  "\usepackage[justification=justified]{caption}"
+  "\captionsetup[subfigure]{justification=RaggedRight}" (Textfluss in Captions allgemein und in Subfigures)
+
+- "\addtokomafont{chapter}{\fontfamily{phv}\fontsize{17}{17}\bfseries}
+   \addtokomafont{section}{\fontfamily{phv}\fontsize{13}{13}\bfseries}
+   \addtokomafont{subsection}{\fontfamily{phv}\fontsize{11}{11}\bfseries}
+   \addtokomafont{subsubsection}{\fontfamily{phv}\fontsize{9}{9}\bfseries}"
+		ändern in
+  "\addtokomafont{chapter}{\fontfamily{phv}\fontsize{17}{19}\bfseries}
+   \addtokomafont{section}{\fontfamily{phv}\fontsize{13}{16}\bfseries}
+   \addtokomafont{subsection}{\fontfamily{phv}\fontsize{11}{14}\bfseries}
+   \addtokomafont{subsubsection}{\fontfamily{phv}\fontsize{9}{12}\bfseries}" (größere Zeilenabstände in Überschriften)

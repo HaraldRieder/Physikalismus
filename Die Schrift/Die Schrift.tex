@@ -1,9 +1,20 @@
-\documentclass{book}
+\documentclass[12pt]{book}
+\usepackage[margin=2cm, bindingoffset=0cm]{geometry}
 \usepackage[german]{babel} 
 %\usepackage[ngerman]{babel}
+\usepackage[parfill]{parskip}
 \usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{helvet} 
+\usepackage{framed}
+\definecolor{quotecolor}{rgb}{0.97,0.95,1}
+\renewcommand{\familydefault}{\sfdefault} 
+\setlength\parindent{0pt}
+\tcbset{width=0.9\textwidth,boxrule=0pt,colback=quotecolor,arc=0pt,auto outer arc,left=0pt,right=0pt,boxsep=5pt}
+
 \begin{document}
-\title{Die Schrift}
+\title{\Huge Die Schrift}
 \date{\today}
 \maketitle
 
@@ -46,20 +57,28 @@ Dies ist eine philosophische Schrift. Es geht um Erkenntnis. Wenn du als naiver 
 dein Denken dramatisch umdrehen. Niemals würdest du dich als naiv bezeichnen?
 
 Wenn du diese Sätze verstehst, dann bist du kein naiver Realist mehr, und diese Schrift kann dir nicht viel Neues geben:
-
+\begin{quote}\begin{tcolorbox}
 Jedes Elementarteilchen enthält alle anderen Elementarteilchen.
-
+\end{tcolorbox}\end{quote}
+\begin{quote}\begin{tcolorbox}
 There are no particles!
-
+\end{tcolorbox}\end{quote}
+\begin{quote}\begin{tcolorbox}
 Die Summe zweier Teile ist ihr Produkt. Im Produkt sind die Teile enthalten und nicht enthalten. 
 Auch unendlich viele andere 2 Teile sind im Produkt enthalten und nicht enthalten.
-
+\end{tcolorbox}\end{quote}
+\begin{quote}\begin{tcolorbox}
 Keine Nachricht enthält eine Bedeutung. Auch diese Schrift enthält keine Bedeutung.
-
+\end{tcolorbox}\end{quote}
+\begin{quote}\begin{tcolorbox}
 Bei diesen kleinsten Lebewesen aber wird die Frage, ob sie aus lebendiger oder toter Materie bestehen, unentscheidbar. Man kann dies so ausdrücken, daß es überhaupt nur lebendige Materie gebe; ...
-
+\end{tcolorbox}\end{quote}
+\begin{quote}\begin{tcolorbox}
 Eigentlich gibt es gar nichts Unlebendiges! ...
+\end{tcolorbox}\end{quote}
+\begin{quote}\begin{tcolorbox}
 Dass ein Tisch im Grunde auch lebendig ist, bemerken wir nicht, weil wir ihn nur vergröbert betrachten und damit vereinfacht sehen.
+\end{tcolorbox}\end{quote}
 
 Wenn du als Materialist hier aufschlägst, sollst du als Idealist wieder herausgehen.
 

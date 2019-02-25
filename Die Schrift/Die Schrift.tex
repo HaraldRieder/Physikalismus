@@ -1,20 +1,21 @@
 \documentclass[12pt]{book}
 \usepackage[margin=2cm, bindingoffset=0cm]{geometry}
-\usepackage[german]{babel} 
-%\usepackage[ngerman]{babel}
+%\usepackage[german]{babel} 
+\usepackage[ngerman]{babel} %sudo apt-get install texlive-lang-german
 \usepackage[parfill]{parskip}
 \usepackage[utf8]{inputenc}
-\usepackage{xcolor}
+\usepackage[dvipsnames]{xcolor}
 \usepackage{tcolorbox}
 \usepackage{helvet} 
 \usepackage{framed}
-\definecolor{quotecolor}{rgb}{0.97,0.95,1}
+\usepackage{anyfontsize}
+\definecolor{quotecolor}{rgb}{0.8,0.9,1}
 \renewcommand{\familydefault}{\sfdefault} 
 \setlength\parindent{0pt}
 \tcbset{width=0.9\textwidth,boxrule=0pt,colback=quotecolor,arc=0pt,auto outer arc,left=0pt,right=0pt,boxsep=5pt}
 
 \begin{document}
-\title{\Huge Die Schrift}
+\title{\fontsize{40}{40}\selectfont \textbf{Die Schrift}}
 \date{\today}
 \maketitle
 

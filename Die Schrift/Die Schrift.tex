@@ -2,6 +2,7 @@
 \usepackage[margin=2cm, bindingoffset=0cm]{geometry}
 %\usepackage[german]{babel} 
 \usepackage[ngerman]{babel} %sudo apt-get install texlive-lang-german
+\usepackage{hyperref} % web links etc.
 \usepackage[parfill]{parskip}
 \usepackage[utf8]{inputenc}
 \usepackage[dvipsnames]{xcolor}
@@ -144,7 +145,7 @@ Wenn es dir geht wir mir, dann musst du noch mehr als real anerkennen. Wenn Scho
 Ungefähr das wird auch dir schon widerfahren sein:
 \begin{itemize}
 \item Schmerz, Leiden
-\item Lust, Freude
+\	item Lust, Freude
 \item Angst
 \item Stolz
 \item Liebe
@@ -168,7 +169,7 @@ Diese Schrift wird noch behaupten, dass die Welt ganz anders ist, als du sie dir
 
 Natürlich wirst auch du zugeben, dass die Vorstellungen der Menschen über die Welt sich in der Vergangenheit dramatisch gewandelt haben. Daraus folgt automatisch, dass die meisten der seitherigen Vorstellungen irgendwie falsch gewesen sein müssen. Wieso sollten wir also gerade mit unserem heutigen Bild von der Welt richtig liegen?
 
-Selbstverständlich kann man jetzt immer noch den Entwicklungsgedanken spinnen, demzufolge die Menschen zu Urzeiten in ziemlich falschen Vorstellungswelten lebten, diese aber immer mehr korrigiert wurden, so dass wir heute unsere Leben in den wirklichkeitsnächsten jemals dagewesenen Vorstellungswelten verbringen dürfen. Doch eben das ist nicht der Fall, und dafür sorgen systematisch bestimmte Schleier. Die Existenz solcher Schleier wurde in der ältesten überlieferten menschlichen Philosophie bereits erkannt und mit "maya" bezeichnet.
+Selbstverständlich kann man jetzt immer noch den Entwicklungsgedanken spinnen, demzufolge die Menschen zu Urzeiten in ziemlich falschen Vorstellungswelten lebten, diese aber immer mehr korrigiert wurden, so dass wir heute unsere Leben in den wirklichkeitsnächsten jemals dagewesenen Vorstellungswelten verbringen dürfen. Doch eben das ist nicht der Fall, und dafür sorgen systematisch bestimmte Schleier. Die Existenz solcher Schleier wurde in der ältesten überlieferten menschlichen Philosophie bereits erkannt und mit "may				a" bezeichnet.
 % "māyā"
 
 \subsection{Der physikalische Kanal}
@@ -257,13 +258,28 @@ Ich könnte mich auf die Position zurückziehen, dass ich keine Beweise zu liefe
 % https://www.frontiersin.org/articles/10.3389/fpsyg.2014.00577/full
 
 \begin{quote}\begin{tcolorbox}
-Palmer, for instance, in the quote above, makes the plausible claim that “vision is useful precisely because it is so accurate” (Palmer, 1999). Geisler and Diehl agree, taking it as obvious that “In general, (perceptual) estimates that are nearer the truth have greater utility than those that are wide of the mark” (Geisler and Diehl, 2002). Feldman also takes it as obvious that “it is clearly desirable (say from an evolutionary point of view) for an organism to achieve veridical percepts of the world” (Feldman, 2013). Knill and Richards concur that vision “… involves the evolution of an organism's visual system to match the structure of the world … ” (Knill and Richards, 1996).
+Palmer zum Beispiel behauptet im obigen Zitat plausibel, dass "das Sehen gerade deshalb nützlich ist, weil es so genau ist". (Palmer, 1999). Geisler und Diehl sind sich einig und nehmen als offensichtlich hin, dass "im Allgemeinen (wahrnehmungsbezogene) Einschätzungen, die der Wahrheit näher kommen, nützlicher sind als solche, die weitab vom Ziel sind" (Geisler und Diehl, 2002). Feldman hält es auch für offensichtlich, dass "es für einen Organismus eindeutig wünschenswert ist (z.B. aus evolutionärer Sicht), wahrheitsgetreue Wahrnehmungen der Welt zu erreichen" (Feldman, 2013). Knill und Richards stimmen dieser Ansicht zu "... beinhaltet die Evolution des visuellen Systems eines Organismus, der Struktur der Welt zu entsprechen " (Knill und Richards, 1996).
 \end{tcolorbox}\end{quote}
 
-Es gibt natürlich keine Beweise dafür, dass es genau anders herum ist. Aber es Simulationen, die es nahelegen.
+Der ursprüngliche Text ist englisch. Bezeichnend ist, dass \textit{perception} mit \textit{\textbf{Wahr}nehmung} übersetzt wird. Die Empfindung soll laut der deutschen Sprache direkt die Wahrheit über die Außenwelt liefern.
 
-% http://cogsci.uci.edu/~ddhoff/PerceptualEvolution.pdf 
-...
+Es gibt natürlich keine Beweise dafür, dass es genau anders herum ist. Aber es gibt Simulationen, die es nahelegen. Ein wichtiger Meilenstein auf diesem Weg zur Erkenntnis ist der Artikel \href{http://cogsci.uci.edu/~ddhoff/PerceptualEvolution.pdf}{\textit{Natural selection and veridical perceptions}} von Mark, Marion und Hoffman aus dem Jahr 2010. In den Simulationen treten bewusste Agenten, die die Außenwelt durch eine Zwischenschicht erfahren, gegeneinander im Kampf um's Überleben an. Die Agenten sind verschiedener Art. Die einen nehmen es nicht so genau mit der Wahrheit, die anderen entscheiden erst, wenn sie ein genaues Bild von der Außenwelt haben.
+
+\begin{figure}[!h]\begin{center}
+  \includegraphics[width=13cm]{Bilder/Single_Resource_Game.png}
+  \caption{Genau wahrnehmende Agenten gegen ungenau wahrnehmende}
+  \label{fig:srgame}
+\end{center}\end{figure}
+
+Die genauere Wahrnehmung gibt es nicht umsonst. Jedes zusätzliche Bit an Information kostet Energie und Zeit. Die genau wahrnehmenden Agenten entscheiden sich erst für ein Territorium, wenn sie genau wissen, wieviel Futter 0..100 darin ist. Die ungenauen Agenten entscheiden aufgrund eines Schwellwerts (boundary) zunächst, ob das Territorium eines mit viel oder wenig Futter ist, und dann für das Territorium mit dem vielen Futter. Die grauen Parameterbereiche bedeuten eine Koexistenz beider Arten. In den schwarzen Bereichen überleben nur die genau wahrnehmenden Agenten, im weißen nur die ungenau wahrnehmenden. Haben die ungenau wahrnehmenden Agenten nur einen halbwegs vernünftigen Schwellwert, dann verdrängen sie die genauen Agenten sogar unabhängig von den Informationskosten.
+
+Ein anderes interessantes Ergebnis, das zeigt, wie wir ticken, wird durch Agenten mit mehr und mehr Kategorien, also nicht nur zweien, erhalten. 
+\begin{figure}[!h]\begin{center}
+  \includegraphics[width=13cm]{Bilder/nCat_Agenten.png}
+  \caption{Optimale Postition der Schwellwerte bei verschiedener Anzahl an Kategorien}
+  \label{fig:srgame}
+\end{center}\end{figure}
+Es ist günstig, die Dinge dort genauer zu wissen, wo es etwas zu holen gibt. Wo es nichts zu holen gibt, da haben wir weniger Kategorien. Man könnte es überspitzt auch so sagen: wir haben keine Wörter für Dinge, die es vielleicht geben mag, die uns aber im Hinblick auf unser Überleben nicht interessieren.
 
 \section{Information}
 \section{Bedeutung}

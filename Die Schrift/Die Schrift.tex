@@ -739,6 +739,42 @@ Ist der Operator $\hat{O}$ nichtlinear, dann können wir nicht mehr aus 2 bekann
 
 Mit nichtlinearen Modellen beschäftigt sich die Chaostheorie. In den 1980er Jahren gab es dafür ein breiteres öffentliches Interesse. Einige Forscher meinten, sie könnten die "Entstehung" von Leben auf diese Weise "erklären". 
 
+\subsection{Maße für Chaos}
+
+Für bestimmte mathematische Modelle sind Maße definiert, mit deren Hilfe man eine Grenze zwischen chaotischem und langweiligen Verhalten ziehen kann. Zum Beispiel für Modelle der Form
+\begin{equation} 
+\hat{O}\psi(t) = (\hat{H} - \hat{E}) \psi(t) = 0
+\label{eq:nonlinear_equality}
+\end{equation}
+in denen $\hat{H}$ ein nichtlinearer Operator ist und $\hat{E}$ der lineare Differentialoperator $d/dt$. $\psi$ ist eine Funktion von $t$ oder eine $n \cdot 1$ Matrix aus Funktionen von $t$. Mit $0$ ist also die Zahl Null gemeint beziehungsweise eine $n \cdot 1$ Matrix aus lauter Nullen.
+
+Hinter dem Parameter $t$ steckt die Vorstellung einer objektivierbaren Zeit. In der ganzen vorrelativistischen Physik tut man so, als würden alle psychischen Zeiten immer synchron gehen, wodurch es überhaupt nur eine einzige Zeit gebe, eben \emph{die Zeit}. Dadurch ist sie im Modell objektiv geworden, unabhängig vom Subjekt. Dieses Modell ist fast immer ausreichend zur Bewältigung des menschlichen Alltags. Der eine Parameter $t$ parametrisiert alle Komponenten von $\psi$ und \emph{bestimmt} sozusagen ein Geschehen in der Zeit.
+
+\subsubsection{Ljapunov-Exponenten}
+
+Der Weg zur Definition von Ljapunov-Exponenten führt über die lineare Variationsgleichung. Sei $\hat{J} = \partial \hat{H} / \partial \psi$ die Funktionalmatrix (Jacobi-Matrix) von $\hat{H}$ an der Stelle $\psi(t)$. Dann ist die Variationsgleichung
+\begin{equation} 
+(\hat{J} - \hat{E}) \phi(t) = 0
+\label{eq:variation_equality}
+\end{equation}
+linear. Die Lösung der Variationsgleichung kann formal geschrieben werden als 
+\begin{equation} 
+\phi(t) = \hat{T}(t,0) \phi(0)
+\label{eq:variation_equality}
+\end{equation}
+wodurch wir den Zeitentwicklungsoperator $\hat{T}$ eingeführt haben, der uns einen Lösungsvektor zur Zeit $0$ weitertransportiert zur Zeit $t$. 
+
+Eindimensionale Ljapunov-Exponenten sind definiert durch 
+\begin{equation} 
+\lambda = 
+\label{eq:ljapunov_exponent}
+\end{equation}
+
+ 
+
+\subsubsection{Autokorrelationsfunktionen}
+
+
 \subsection{Beispiel 3-Körperproblem}
 
 Das 2-Körperproblem (denke zum Beispiel an Erde und Sonne) der Himmelsmechanik enthält im Modell der Newtonschen Mechanik ein 1/r-Potential.

@@ -753,27 +753,42 @@ Hinter dem Parameter $t$ steckt die Vorstellung einer objektivierbaren Zeit. In 
 \subsubsection{Ljapunov-Exponenten}
 
 Der Weg zur Definition von Ljapunov-Exponenten führt über die lineare Variationsgleichung. Sei $\hat{J} = \partial \hat{H} / \partial \psi$ die Funktionalmatrix (Jacobi-Matrix) von $\hat{H}$ an der Stelle $\psi(t)$. Dann ist die Variationsgleichung
-\begin{equation} 
+\begin{equation*} 
 (\hat{J} - \hat{E}) \phi(t) = 0
-\label{eq:variation_equality}
-\end{equation}
-linear. Die Lösung der Variationsgleichung kann formal geschrieben werden als 
-\begin{equation} 
-\phi(t) = \hat{T}(t,0) \phi(0)
-\label{eq:variation_equality}
-\end{equation}
-wodurch wir den Zeitentwicklungsoperator $\hat{T}$ eingeführt haben, der uns einen Lösungsvektor zur Zeit $0$ weitertransportiert zur Zeit $t$. 
+\end{equation*}
+linear und $\phi(t)$ ein Vektor im Tangentialraum am Punkt $\psi(t)$. Die Lösung der Variationsgleichung kann formal geschrieben werden als 
+\begin{equation*} 
+\phi(t_1) = \hat{T}(t_1,t) \phi(t)
+\end{equation*}
+wodurch wir den Zeitentwicklungsoperator $\hat{T}$ eingeführt haben, der uns einen Lösungsvektor der Variationsgleichung zur Zeit $t$ weitertransportiert zur Zeit $t_1$. 
 
-Eindimensionale Ljapunov-Exponenten sind definiert durch 
+Der eindimensionale Ljapunov-Exponent ist definiert durch 
 \begin{equation} 
-\lambda = 
+\lambda(e) := \lim_{t_1 \to \infty} \frac{1}{t_1-t} \ln {|\hat{T}(t_1,t) e}| 
 \label{eq:ljapunov_exponent}
 \end{equation}
+wobei $e$ ein Einheitsvektor aus dem Tangentialaraum ist. Der Ljapunow-Exponent ist also abhängig von der Richtung im Tangentialraum. Er drückt aus, "wie exponentiell" benachbarte Punkte mit der Zeit in einer bestimmten Richtung auseinanderstreben. \textbf{Das Verhalten am Punkt $\psi(t)$ heißt \emph{chaotisch}, wenn dort in wenigstens einer Richtung $\lambda > 0$ ist.}
 
- 
+In der Verallgemeinerung lassen sich j-dimensionale ($n \geq j > 1$) Ljapunow-Exponenten definieren, die ausdrücken, wie stark ein j-dimensionales Volumenelement "explodiert". 
 
 \subsubsection{Autokorrelationsfunktionen}
 
+Für chaotische Systeme zerfallen die Autokorrelationsfunktionen. Aufgrund dieses Wissens kann man auch Autokorrelationsfunktionen statt Ljapunow-Exponenten berechnen, um zu entscheiden, ob Chaos vorliegt oder nicht. 
+
+Die symmetrische Autokorrelationsfunktion einer zeitabhängigen Funktion $\psi(t)$ ist definiert durch
+\begin{equation} 
+C_{{\psi\psi}}(\tau )=\lim_{t_1 \to \infty}{\frac  {1}{2t_1}}\int _{-t_1}^{t_1}\psi(t)\psi(t+\tau)dt
+\label{eq:auto_correlation}
+\end{equation}
+Im Gegensatz zu unserer Definition von Ljapunow-Exponenten haben wir hier nur eine für $\psi$ als $1\cdot$ Matrix, doch das soll uns im weiteren Verlauf genügen.
+
+Für chaotisches Verhalten gilt nun
+\begin{equation} 
+\lim_{\tau \to \infty} C_{{\psi\psi}}(\tau ) = 0
+\end{equation}
+d.h. die Funktion hat mit zunehmender Zeitdistanz "nichts mehr mit sich selbst zu tun".
+
+Ist $\psi(t)$ eine periodische Funktion, dann ist die Autokorrelationsfunktion ebenfalls periodisch und damit liegt per Definition kein Chaos vor.
 
 \subsection{Beispiel 3-Körperproblem}
 

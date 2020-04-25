@@ -843,14 +843,61 @@ Andererseits müssen wir in unserem Denken immer teilen und dramatisch vereinfac
 
 \section{Quantenmechanik}
 
-Diese Schrift ist kein Lehrbuch der Quantenmechanik. Wenn du hier etwas nicht verstehst, dann musst du dein Wissen von woanders beziehen. Das Internet ist voll mit Einführungen in die Quantenmechanik, und es gibt Lehrbücher zuhauf. Entsprechendes Wissen muss hier vorausgesetzt werden, um in endlicher Zeit an's Ziel kommen zu können, nämlich die philosophischen Konsequenzen zu erfassen. Um dies tun zu können, werden wir uns einer zunächst ungewohnten Begrifflichkeit bedienen, einer die in Lehrbüchern und auch wissenschaftlichen Veröffentlichungen eher selten zu finden ist. Wir werden das Pferd quasi vom Schwanz her aufzäumen in der Hoffnung, dass du dies am Ende als die richtige Art ansiehst, das Pferd aufzuzäumen, nämlich vom Kopf her, während die meisten anderen es in Wahrheit vom Schwanz her nehmen.
+Diese Schrift ist kein Lehrbuch der Quantenmechanik. Wenn du hier etwas nicht verstehst, dann musst du dein Wissen von woanders beziehen. Das Internet ist voll mit Einführungen in die Quantenmechanik, und es gibt Lehrbücher zuhauf. 
+
+Wir müssen allerdings mit einigen falschen Vorstellungen über diese Theorie aufräumen, die von Halbverstehern verbreitet werden.
 
 \subsection{Zur Statik der Quantenmechanik}
 
-Wovon handelt die Quantenmechanik? Die Quantenmechanik handelt zunächst von mathematischen Dingen! Die Quantenmechanik handelt erst einmal \emph{nicht} von Teilchen, Wellen, Orten, Zeiten, Energien, Impulsen, Kühen oder Häusern.
+Wovon handelt die Quantenmechanik? Die Quantenmechanik handelt von mathematischen Dingen. Die Quantenmechanik handelt \emph{nicht} von Teilchen, Wellen, Orten, Impulsen, Zeiten oder Energien. 
 
+Die Quantenmechanik handelt von Vektoren in einem Hilbert-Raum. \emph{Diese mathematischen Objekte haben zunächst keine Bedeutung}, man spricht von "abstrakten" Hilbert-Raum-Vektoren.
+Diese Bedeutungslosigkeit der Mathematik, so lange ein Empfänger noch fehlt, ist \emph{keine spezifische Eigenschaft der Quantenmechanik}. Vielmehr zieht sie sich durch die gesamte Physik (im Anhang findet sich ein Beispiel aus der theoretischen Mechanik).
 
-TODO Basisambivalenz, Produktraum, Verschränkung, von-Neumann-Entropie
+Die Anzahl der linear unabhängigen Vektoren, die man braucht, um jeden anderen Vektor als Linearkombination der ersteren darstellen können, ist die Mächtigkeit des Hilbert-Raums. Außer in ganz einfachen Modellen ist diese Anzahl immer von der Mächtigkeit $|\mathbb{R}|$, 
+also der des Kontinuums. Eine solche Menge linear unabhängiger Vektoren heißt \emph{Basis}. Die Anzahl der verschiedenen Basen ist auch in ganz einfachen Modellen immer von der Mächtigkeit $|\mathbb{R}|$. Alle diese Basen sind \emph{vollkommen gleichwertig}, unser Hilbert-Raum ist vollkommen strukturlos, die Auswahl einer Basis erfolgt rein subjektiv.
+
+In diesem Raum wirken \emph{ausschließlich lineare} Operatoren, die Vektoren auf andere Vektoren abbilden. Ist eine Basis $\{\ket{\phi_i}\}$ gewählt, so lässt sich jeder dieser Operatoren in der Form
+\begin{equation*} 
+\hat{O} = \sum_{ij} c_{ij} \ket{\phi_i}\bra{\phi_j} \quad c \in \mathbb{C}.
+\end{equation*}
+ausdrücken. Außer in ganz einfachen Modellen liegen die Indizes i,j immer unendlich dicht.
+
+Der Zustand der gesamten physikalischen Welt wird durch einen einzigen Zustandsvektor $\ket{W}$ beschrieben, der die Länge 1 hat. Wenn der Zustandsvektor seine Richtung ändert, dann geschieht etwas. Die ganze Reichhaltigkeit der Welt entsteht durch die unendliche Mächtigkeit des Raumes, in dem der Zustandsvektor seine Richtung ändern kann. 
+
+Die Welt, in der du lebst, sieht quasi immer so aus, nur mir unendlich mehr Dimensionen, in die der Zustandsvektor zeigen kann:
+\begin{center}
+\includegraphics[width=0.7\textwidth]{Bilder/Weltzustand.png}
+\end{center}
+
+Eine Klarstellung muss hier noch erfolgen.
+
+Die Gesamtwelt kann \textbf{nicht durch einen Dichteoperator} beschrieben werden, sondern immer nur durch einen Vektor, der im Bereich der Quantenstatistik auch "reiner Zustand" genannt wird. Wäre sie  jemals in einem "gemischten Zustand", also würde sie durch einen Dichteoperator beschrieben werden müssen, so würde die erste Messung eines nicht-entarteten Eigenwertes mittels eines Prozesses des Typs 1 - worum es gleich noch gehen wird - den Dichteoperator in einen Vektor verwandeln, der fortan ein Vektor bleiben müsste.
+
+\subsubsection{Basis-Ambivalenz und Superposition}
+
+Man kann leicht populären Quatsch wie diesen finden:
+
+"Trotz der Herausforderungen gelingt es Physikern immer größere physikalische Systeme zu kontrollieren. So fangen sie beispielsweise einzelne Atome oder kleine Moleküle in einer Falle aus Lichtstrahlen ein und bringen diese in einen Überlagerungszustand."
+
+Wir wissen ja bereits, dass die Quantenphysik nicht von Atomen oder Molekülen handelt. Was aber ganz wichtig ist, ist die Basis-Ambivalenz zu verinnerlichen. Wikipedia hilft diesmal weiter und stellt klar:
+
+\begin{quote}\begin{tcolorbox}
+Es gibt keinen prinzipiellen Unterschied zwischen den Eigenschaften, Superpositionszustand oder Basis- oder Eigenzustand zu sein: Jeder Zustand eines Systems kann als Basiszustand einer geeignet gewählten Basis betrachtet werden, aber auch als Superpositionszustand von den Basisvektoren einer anderen Basis. Jeder Zustand kann mit jedem anderen Zustand desselben Systems überlagert werden, und jeder Zustand kann als Überlagerung anderer Zustände dargestellt werden. Zustände, die als Superposition definiert wurden, sind also auch reine Zustände im obigen Sinn.
+\end{tcolorbox}\end{quote}
+Erst \textbf{nachdem} wir uns willkürlich für eine Basis entschieden haben, dürfen wir die Vektoren in überlagerte und nicht überlagerte scheiden, und dieser Scheid existiert nur im Zusammenhang mit einer gewählten Basis.
+
+Wenn wir über eine Wellenfunktion
+\begin{equation*} 
+\psi(x,t) = \braket{x,t}{\psi}
+\end{equation*} 
+reden, so reden wir über die Komponenten eines abstrakten Vektors $\psi$ in einer willkürlich gewählten Basis, deren Basisvektoren wir mit Hilfe von x und t durchnummeriert haben. Diese Komponenten können also für sich keine "Existenz" haben, da sie erst durch unsere willkürliche Wahl bestimmt wurden. 
+
+\subsubsection{Der Produktraum}
+
+\emph{Die Summe zweier Teile ist ihr Produkt}, so könnte man es überspitzt formulieren. Die Vereinigung zweier vormals unabhängiger Weltteile zu einem Gesamten läuft in der Quantenmechanik vollkommen anders, als wir es vom Alltag her gewohnt sind, und ist einer der wichtigsten Schlüssel zum Verständnis des physikalischen Kanals.
+
+TODO Produktraum, Verschränkung, von-Neumann-Entropie
 
 \subsection{Zur Dynamik der Quantenmechanik}
 

@@ -861,7 +861,7 @@ In diesem Raum wirken \emph{ausschließlich lineare} Operatoren, die Vektoren au
 \begin{equation*} 
 \hat{O} = \sum_{ij} c_{ij} \ket{\phi_i}\bra{\phi_j} \quad c \in \mathbb{C}.
 \end{equation*}
-ausdrücken. Außer in ganz einfachen Modellen liegen die Indizes i,j immer unendlich dicht.
+ausdrücken. Außer in ganz einfachen Modellen gibt es immer auch kontinuierliche Indizes, und statt der Summe bekommen wir ein Integral.
 
 Der Zustand der gesamten physikalischen Welt wird durch einen einzigen Zustandsvektor $\ket{W}$ beschrieben, der die Länge 1 hat. Wenn der Zustandsvektor seine Richtung ändert, dann geschieht etwas. Die ganze Reichhaltigkeit der Welt entsteht durch die unendliche Mächtigkeit des Raumes, in dem der Zustandsvektor seine Richtung ändern kann. 
 
@@ -915,23 +915,49 @@ Es ist überhaupt nichts Aufregendes geschehen. Die beiden Federpendel bewegen s
 
 Diese Art, Teile zusammenzusetzen, funktioniert in unserem Alltagsleben hervorragend und bestimmt unser ganzes Denken.
 
-Um etwas möglichst Vergleichbares aus der Quantenmechanik zu haben, denken wir uns unsere Teilsysteme durch 3-komponentige Spinoren der nicht-relativistischen Quantenmechanik beschrieben, das heißt es gibt wieder eine als objektiv betrachtete Zeit t. Die Zustände der beiden Systeme können beschrieben werden durch ihre Komponenten in einer jeweil willkürlich gewählten Basis
+Um etwas möglichst Vergleichbares aus der Quantenmechanik zu haben, denken wir uns unsere Teilsysteme durch 3-komponentige Spinoren der nicht-relativistischen Quantenmechanik beschrieben, das heißt es gibt wieder eine als objektiv betrachtete Zeit t. Die Zustände der beiden Systeme können beschrieben werden durch ihre Komponenten in einer jeweils willkürlich gewählten Basis
 \begin{equation*}
 \psi^{(1)}(t) = \begin{pmatrix} c^{(1)}_1(t) \\ c^{(1)}_2(t) \\ c^{(1)}_3(t) \end{pmatrix}
 \quad\quad
 \psi^{(2)}(t) = \begin{pmatrix} c^{(2)}_1(t) \\ c^{(2)}_2(t) \\ c^{(2)}_3(t) \end{pmatrix}
 \end{equation*} 
 Wieder wollen wir die beiden Teile zu einem Ganzen zusammenfügen. Wieder soll dies \emph{wechselwirkungsfrei} geschehen, das heißt, dass die Teile \emph{eigentlich} nichts voneinander wissen sollen. Der Zustand des Ganzen kann beschrieben werden durch 
-\begin{equation*}
+\begin{equation}
 \psi(t) = \begin{pmatrix} 
 c_{11}(t) && c_{12}(t) && c_{13}(t) \\
 c_{21}(t) && c_{22}(t) && c_{23}(t) \\
 c_{31}(t) && c_{32}(t) && c_{33}(t) 
 \end{pmatrix}
+\label{eq:product_vector}
+\end{equation} 
+und wir brauchen nun 9 Funktionen, nicht 6. Damit ist klar, dass beim Zusammenfügen der Teile etwas entstanden sein muss, das mehr ist als die Summe der Teile. Um dies deutlich einzusehen, gehen wir zurück in die abstrakte Schreibweise. Seien $\{{\varphi^{(1)}_i}\}$ und $\{{\varphi^{(2)}_i}\}$ Basen der beiden Teilräume mit der Mächtigkeit $n_1$ bzw. $n_2$. Dann lässt sich jeder Vektor des Gesamtraums darstellen als
+\begin{equation*}
+\ket{\psi} = \sum_{i=1}^{n_1} \sum_{j=1}^{n_2} c_{ij} \ket{\varphi^{(1)}_i} \ket{\varphi^{(2)}_j}
 \end{equation*} 
-und wir brauchen nun 9 Funktionen, nicht 6. 
+Wir können nun eine neue Basis $\{{\chi_i}\}$ der Mächtigkeit $n = n_1 n_2$ durch Umindexieren definieren 
+\begin{equation*}
+\begin{matrix}
+\ket{\varphi^{(1)}_1} \ket{\varphi^{(2)}_1} := \ket{\chi_1} && c_{11} := d_1 \\
+\ket{\varphi^{(1)}_1} \ket{\varphi^{(2)}_2} := \ket{\chi_2} && c_{12} := d_2 \\
+\vdots && \vdots  \\
+\ket{\varphi^{(1)}_{n_1}} \ket{\varphi^{(2)}_{n_2}} := \ket{\chi_n} && c_{n_1 n_2}  := d_n
+\end{matrix}
+\end{equation*} 
+wodurch sich ein Vektor im Produktraum wieder "ganz normal" schreiben lässt als
+\begin{equation*}
+\ket{\psi} = \sum_{i=1}^{n} d_i \ket{\chi_i} 
+\end{equation*} 
+Aber statt ihn nach einer Basis zu entwickeln, der man noch die ursprünglichen Teile ansehen kann, können wir eine ganz andere Basis wählen, aus denen die ursprünglichen Teile nicht mehr hervorgehen, \emph{statt dessen aber andere Teile}. Das ist jetzt wiederum nichts speziell Quantenmechanisches. Das verbreitetste Beispiel aus der klassischen Physik ist das Zweikörperproblem, bei dem man zur Lösung üblicherweise auf eine andere Basis wechselt, nämlich auf Schwerpunkt- und Relativkoordinaten.
 
-TODO Mächtigkeit n1 x n2 = n, jedoch im Kontinuum keine Änderung, Rätsel!
+Wir sind hier jedenfalls zum zweiten Mal an einem Punkt angekommen, der uns zeigen will, dass \textbf{die Natur als Ganzes aufzufassen sei, das bedeutende Qualitäten verlieren würde, wenn wir es in Teile teilen würden.}
+
+Das Umindexieren ist eine bijektive unstetige Abbildung in dem Sinn, dass es nicht möglich ist, so umzuindexieren, dass benachbarte Produktraumindizes immer zu benachbarten Elementen der Matrix \ref{eq:product_vector} gehören. 
+
+Bei kontinuierlichen Indizes, stellen wir uns x und y in der Bedeutung als Koordinaten im zweidimensionalen Raum vor und abstrakt gleichzeitig als kontinuierliche Indizes von Basisvektoren der beiden Teilräume, ist es genauso möglich auf einen einzigen Index umzuindexieren (zum Beispiel über eine Hilbert-Kurve). Nennen wir den Index im Produktraum $\xi$. Die Abbildung kann bijektiv sein, ist dann aber wie im diskreten Fall nicht stetig. Im Gegensatz zum diskreten Fall ändert sich die Mächtigkeit der Räume aber nicht, es bleibt immer bei der Mächtigkeit des Kontinuums. Das ist wenigstens als \textbf{merk}würdig zu bezeichnen! Fast könnte man meinen, die Natur winkt uns hier bereits von der Planck-Skala her zu, um uns zu warnen: "Seid ihr euch sicher mit eurem Raumzeit-Kontinuum?"
+
+Durch die Unstetigkeit der Abbildung entspricht einer kontinuierlichen Bewegung in der Fläche ein wildes Gehüpfe im Produktindex $\xi$. Oder anders ausgedrückt kann mit einem wilden Gehüpfe in einem Index wahrscheinlich der Eindruck einer kontinuierlichen Bewegung in einer Raumzeit simuliert werden. Auch das ist \textbf{merk}würdig im Wortsinn, dass du es dir merken solltest.
+
+\subsubsection{Teilungs-Ambivalenz und Verschränkung}
 
 TODO Verschränkung, von-Neumann-Entropie
 

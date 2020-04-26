@@ -897,7 +897,43 @@ reden, so reden wir über die Komponenten eines abstrakten Vektors $\psi$ in ein
 
 \emph{Die Summe zweier Teile ist ihr Produkt}, so könnte man es überspitzt formulieren. Die Vereinigung zweier vormals unabhängiger Weltteile zu einem Gesamten läuft in der Quantenmechanik vollkommen anders, als wir es vom Alltag her gewohnt sind, und ist einer der wichtigsten Schlüssel zum Verständnis des physikalischen Kanals.
 
-TODO Produktraum, Verschränkung, von-Neumann-Entropie
+Wir stellen uns zwei Hamilton-Systeme (1) und (2) aus der klassischen Mechanik vor. Das könnten zum Beispiel 2 Federpendel sein, die beide in der x-y-Ebene schwingen können, aber nicht in z-Richtung. Hamilton-System heißt, dass wir es mit einer Differentialgleichung 2. Ordnung in einer gemeinsamen, als objektiv betrachteten Zeit t zu tun haben. Um den Zustand eines solchen Dings festzulegen, müssen außer den Größen in der Differentialgleichung auch noch ihre Ableitungen bekannt sein. Der Zustand des ersten Systems kann beschrieben werden durch
+\begin{equation*}\psi^{(1)}(t) = \begin{pmatrix}
+x^{(1)}(t) \\ \dot{x}^{(1)}(t) \\ y^{(1)}(t) \\ \dot{y}^{(1)}(t)
+\end{pmatrix}\end{equation*} 
+und der des zweiten Systems durch
+\begin{equation*}\psi^{(2)}(t) = \begin{pmatrix}
+x^{(2)}(t) \\ \dot{x}^{(2)}(t) \\ y^{(2)}(t) \\ \dot{y}^{(2)}(t)
+\end{pmatrix}\end{equation*} 
+Der Punkt bedeutet die Ableitung nach der Zeit $\frac{d}{dt}$. Diese beiden Teile wollen wir zu einem Ganzen zusammenfügen, ohne dass es eine Wechselwirkung zwischen den Teilen geben soll. Der Zustand des Ganzen wird durch die Einzelzustände festgelegt und kann beschrieben werden durch 
+\begin{equation}\psi(t) = \begin{pmatrix}
+x^{(1)}(t) \\ \dot{x}^{(1)}(t) \\ y^{(1)}(t) \\ \dot{y}^{(1)}(t) \\
+x^{(2)}(t) \\ \dot{x}^{(2)}(t) \\ y^{(2)}(t) \\ \dot{y}^{(2)}(t)
+\label{eq:classical_sum}
+\end{pmatrix}\end{equation} 
+Es ist überhaupt nichts Aufregendes geschehen. Die beiden Federpendel bewegen sich so wie vorher, da wir noch keine Kraft zwischen ihnen zugelassen haben. Wenn wir eine Kraft zulassen würden, zum Beispiel durch eine Feder, mit der wir sie koppeln, dann würden sie sich zwar anders bewegen. Aber der Gesamtzustand wäre nach wie vor durch eine Größe der Art \ref{eq:classical_sum} festgelegt.
+
+Diese Art, Teile zusammenzusetzen, funktioniert in unserem Alltagsleben hervorragend und bestimmt unser ganzes Denken.
+
+Um etwas möglichst Vergleichbares aus der Quantenmechanik zu haben, denken wir uns unsere Teilsysteme durch 3-komponentige Spinoren der nicht-relativistischen Quantenmechanik beschrieben, das heißt es gibt wieder eine als objektiv betrachtete Zeit t. Die Zustände der beiden Systeme können beschrieben werden durch ihre Komponenten in einer jeweil willkürlich gewählten Basis
+\begin{equation*}
+\psi^{(1)}(t) = \begin{pmatrix} c^{(1)}_1(t) \\ c^{(1)}_2(t) \\ c^{(1)}_3(t) \end{pmatrix}
+\quad\quad
+\psi^{(2)}(t) = \begin{pmatrix} c^{(2)}_1(t) \\ c^{(2)}_2(t) \\ c^{(2)}_3(t) \end{pmatrix}
+\end{equation*} 
+Wieder wollen wir die beiden Teile zu einem Ganzen zusammenfügen. Wieder soll dies \emph{wechselwirkungsfrei} geschehen, das heißt, dass die Teile \emph{eigentlich} nichts voneinander wissen sollen. Der Zustand des Ganzen kann beschrieben werden durch 
+\begin{equation*}
+\psi(t) = \begin{pmatrix} 
+c_{11}(t) && c_{12}(t) && c_{13}(t) \\
+c_{21}(t) && c_{22}(t) && c_{23}(t) \\
+c_{31}(t) && c_{32}(t) && c_{33}(t) 
+\end{pmatrix}
+\end{equation*} 
+und wir brauchen nun 9 Funktionen, nicht 6. 
+
+TODO Mächtigkeit n1 x n2 = n, jedoch im Kontinuum keine Änderung, Rätsel!
+
+TODO Verschränkung, von-Neumann-Entropie
 
 \subsection{Zur Dynamik der Quantenmechanik}
 

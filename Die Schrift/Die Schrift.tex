@@ -959,7 +959,73 @@ Durch die Unstetigkeit der Abbildung entspricht einer kontinuierlichen Bewegung 
 
 \subsubsection{Teilungs-Ambivalenz und Verschränkung}
 
-TODO Verschränkung, von-Neumann-Entropie
+Man kann leicht populären Quatsch wie diesen finden:
+
+"Von Verschränkung spricht man in der Quantenphysik, wenn ein zusammengesetztes physikalisches System, z. B. ein System mit mehreren Teilchen, als Ganzes betrachtet einen wohldefinierten Zustand einnimmt, ohne dass man auch jedem der Teilsysteme einen eigenen wohldefinierten Zustand zuordnen kann."
+
+Wir wissen ja bereits, dass die Quantenphysik nicht von Teilchen handelt. Was aber ganz wichtig ist, ist die Teilungs-Ambivalenz und damit die Subjektivität von Verschränkung zu verinnerlichen. Wikipedia hilft diesmal nicht weiter, denn der oben zitierte Quatsch wurde Wikipedia im Jahr 2020 entnommen. Was wir dort viel lieber lesen würden, wäre in etwa:
+
+\begin{quote}\begin{tcolorbox}
+Es gibt keinen prinzipiellen Unterschied zwischen den Eigenschaften, verschränkter oder Produktzustand zu sein: Jeder Zustand eines Systems kann als Produktzustand einer geeignet gewählten Zweiteilung des Produktraums betrachtet werden, aber auch als verschränkter Zustand bei einer anderen Zweiteilung. \end{tcolorbox}\end{quote}
+Erst \textbf{nachdem} wir uns willkürlich für eine Zweiteilung entschieden haben, dürfen wir die Vektoren in verschränkte und nicht verschränkte scheiden, und dieser Scheid existiert nur im Zusammenhang mit einer gewählten Zweiteilung. Dies haben wir im vorigen Abschnitt bereits gesehen. 
+
+Man könnte nun glauben, es könne eine sich natürlich aufdrängende Teilung eines Produktraums geben. Schließlich fängt man normalerweise so an, aus kleineren Gleichungen (für die Komponenten in einer bestimmten Basis) eine größere Gleichung (für die Komponenten in der Produktbasis, gebildet aus eben diesen beiden Teilbasen) aufzustellen. Wieso sollte die größere Gleichung nicht wieder in genau die kleineren Gleichungen aufgeteilt werden, die man ursprünglich hatte? Aus philosophischer, erkenntnistheoretischer Sicht ist das ein höchst gefährliches Unterfangen! Denn es postuliert quasi, dass die neuen Qualitäten, die durch die Zusammensetzung entstanden sind, nicht erkannt werden können. Man tut so, als sei Verschränkung nur in der ursprünglich vorhandenen Zweiteilung relevant und nur diese spiele für das, was empfunden werden kann, eine Rolle. 
+
+\textbf{von-Neumann-Entropie}
+
+Das natürliche Maß für die Verschränkung eines Zustands $\ket{\psi}$ bei gegebener Aufteilung in A + B ist die von-Neumann-Entropie.
+\begin{equation}
+\label{eq:von_Neumann}
+\begin{matrix}
+S = - \operatorname{Spur}_A (\rho_B \ln \rho_B ) = - \operatorname{Spur}_B (\rho_A \ln \rho_A ) \\
+:= - \operatorname{Spur}_A [\operatorname{Spur}_B(\ket{\psi}\bra{\psi}) \ln{\operatorname{Spur}_B(\ket{\psi}\bra{\psi})} ] \\
+= - \operatorname{Spur}_B[\operatorname{Spur}_A(\ket{\psi}\bra{\psi}) \ln{\operatorname{Spur}_A(\ket{\psi}\bra{\psi})}] \\
+\end{matrix}
+\end{equation}
+Die Ähnlichkeit mit der Shannon-Entropie aus der Informationstheorie ist \textbf{kein} Zufall. Bei der Betrachtung der quantenmechanischen Dynamik werden wir sehen, dass beide über Wahrscheinlichkeiten für das Eintreten von Ereignissen reden.
+
+\textbf{Quanteninformation bleibt nicht erhalten}
+
+Die schludrige Behauptung, Quanteninformation bleibe erhalten, findet man häufig im Zusammenhang mit dem Informationsparadoxon schwarzer Löcher. Wenn dort von Information geredet wird, ist eigentlich von-Neumann-Entropie gemeint, also ein \emph{Erwartungswert} für Information. Die von-Neumann-Entropie soll sich angeblich bei unitären Transformationen nicht ändern, während sich die Entropie schwarzer Löcher dramatisch ändern soll, was einem paradox vorkommen soll.
+
+Tatsächlich ändert sich $S$ nicht, wenn unitäre Transformationen nur im Teilraum A oder nur im Teilraum B erfolgen. Aber eine unitäre Transformation von $\ket{\psi}$ im Produktraum von A und B ändert dessen Orientierung relativ zur Zweiteilung und damit seine Verschränkung und Entropie sehr wohl.
+
+Das Informationsparadoxon schwarzer Löcher dürfte sich auflösen lassen, indem man die Entropie schwarzer Löcher begreift als aus der Zweiteilung in der Ortsbasis am Ereignishorizont entstandene Verschränkungsentropie, während sich der Gesamtzustand der Welt innerhalb und außerhalb des Ereignishorzionts keineswegs unabhängig voneinander unitär verändert.
+
+\textbf{Weitere Aufräumarbeit}
+
+Ein falsche Behauptung wie "Verschränkung ist absolut, also eine \emph{Eigenschaft} eines Zustands" lässt sich einfach durch Gegenbeispiele wiederlegen. 
+
+\textbf{Gegenbeispiel mit 2 verschiedenen Ortsbasen}
+
+Denke an die Lösungsfunktionen des Wasserstoffproblems. $\vec{r}=\vec{r_2}-\vec{r_1}$ sind die Relativkoordinaten und $\vec{R}$ die Schwerpunktkoordinate. In Relativ- und Schwerpunkt-Basen ist zum Beispiel diese Lösungsfunktion ein Produkt
+\begin{equation*}
+\psi(\vec{r},\vec{R}) = N e^{ -\frac{|\vec{r}|}{a} } e^{ i \vec{k}\vec{R} } = \psi(\vec{r})\psi(\vec{R})
+\end{equation*}
+während sie in der r1,r2-Basis verschränkt ist.
+\begin{equation*}
+\psi(\vec{r_1},\vec{r_2}) = N e^{ i \frac{m_1}{m_1+m_2} \vec{k}\vec{r_1} }  e^{ i \frac{m_2}{m_1+m_2} \vec{k}\vec{r_2} }  e^{-\frac{ \sqrt{ \vec{r_1}^2 - 2\vec{r_1}\vec{r_2} + \vec{r_2}^2 } }{a}} \neq \psi(\vec{r_1})\psi(\vec{r_2})
+\end{equation*}
+
+\textbf{Gegenbeispiel mit 2 Qubits A und B}
+
+Betrachte den Bell-Zustand $\ket{\psi} = \frac{1}{\sqrt{2}}(\ket{00}+\ket{11})$. 
+Die von Neumann Entropie $\ref{eq:von_Neumann}$ ist 1. Nun transformiere von dieser Basis
+\begin{equation*}
+\{\ket{00},\ket{01},\ket{10},\ket{11}\} := \{\ket{u_0},\ket{u_1},\ket{u_2},\ket{u_3}\}
+\end{equation*}
+zur gleichwertigen Basis
+\begin{equation*}
+\{ \frac{1}{\sqrt{2}}(\ket{u_0}+\ket{u_3}),\frac{1}{\sqrt{2}}(\ket{u_0}-\ket{u_3}),\ket{u_1},\ket{u_2} \} := \{\ket{v_0},\ket{v_1},\ket{v_2},\ket{v_3}\}
+\end{equation*}
+so dass $|\psi> \equiv |v_0>$. Nun wähle eine andere Zweiteilung des Hilbertraums durch 
+\begin{equation*}
+\ket{v_0} := \ket{\tilde{0}\tilde{0}} \quad 
+\ket{v_1} := \ket{\tilde{0}\tilde{1}} \quad
+\ket{v_2} := \ket{\tilde{1}\tilde{0}} \quad
+\ket{v_3} := \ket{\tilde{1}\tilde{1}}
+\end{equation*}
+und du siehst, dass $\ket{\psi}$ nicht mehr verschränkt ist und die Entropie 0 hat.
 
 \subsection{Zur Dynamik der Quantenmechanik}
 

@@ -13,6 +13,7 @@
 \usepackage{csquotes}
 \usepackage{physics}
 \usepackage{amssymb}
+\usepackage{MnSymbol}
 \MakeOuterQuote{"}
 \definecolor{quotecolor}{rgb}{0.8,0.9,1}
 \renewcommand{\familydefault}{\sfdefault} 
@@ -463,6 +464,52 @@ Wir halten also fest:
 \textbf{Nach dem bisher Gesagten müssen wir annehmen, dass ein Gehirn genau gleich komplex ist wie ein Stein, und das vollkommen unabhängig von beider Größen. Auch ihr Verhalten müssen wir als gleich komplex ansehen.} 
 
 Die ungleiche Komplexität entsteht durch reduktionistische Schritte, nach denen wir ein komplexeres Modell des Gehirns, wie wir es uns vorstellen, mit einem einfacheren Modell eines Steines, wie wir ihn uns vorstellen, vergleichen. Die unterschiedlichen Komplexitäten in der Vorstellung entstehen durch unterschiedliche Reduktionsschritte, die wir auf beides anwenden. Der Grund, warum wir das unterschiedlich tun, findet sich im Kapitel über die Schleier. 
+
+\subsection{Umindexierung}
+
+Weil wir es noch benötigen werden, kümmern wir uns etwas, das du in dieser Form anderweitig schwer finden dürftest. Eine Funktion $\psi$ ordnet jedem Element $\displaystyle x$ einer Definitionsmenge $\displaystyle D$ genau ein Element $\displaystyle y$ einer Zielmenge $\displaystyle Z$ zu. 
+
+\begin{equation*}
+f \colon \,{\begin{cases}D\to Z\\ x \mapsto y(x)\end{cases}}
+\end{equation*}
+
+Eine \emph{Umindexierung} wollen wir in dieser Schrift eine \emph{raumfüllende Kurve} basierend auf einer \emph{umkehrbaren} Abbildung
+
+\begin{equation*}
+f \colon \,{
+\begin{cases}
+D \subseteq \mathbb{R}\to Z \subseteq \mathbb{R}^N \\ 
+\xi \mapsto (x_1(\xi),\, x_2(\xi),\, \dots,\, x_N(\xi))
+\end{cases}
+}
+\end{equation*}
+nennen, die ein zusammenhängendes Interval in $\mathbb{R}$ auf ein zusammenhängendes Gebiet in $\mathbb{R}^N$ abbildet.
+
+Das Kurvenintegral einer stetigen (skalaren) Funktion $\psi$ ist definiert als
+\begin{equation*}
+\int \limits _{\mathcal {C}}\psi\,\mathrm{d} s := 
+\int \limits _{a}^{b}\psi\left(x_1(\xi), \dots, x_N(\xi)\right)
+\sqrt{ \left(\frac{\mathrm{d} x_1(\xi)}{\mathrm{d}\xi}\right)^2 + \dots + \left(\frac{\mathrm{d} x_N(\xi)}{\mathrm{d}\xi}\right)^2}
+\,\mathrm {d} \xi
+\end{equation*}
+Wenn $\left(x_1(\xi), \dots, x_N(\xi)\right)$ eine Umindexierung ist, dann ist das Kurvenintegral nicht definiert, da die $x_i(\xi)$ im umkehrbaren Fall nicht differenzierbar gewählt werden können. 
+
+Im Fall $N=1$ finden wir 
+\begin{equation*}
+\int\limits _{a}^{b} \psi(\xi) \,\mathrm {d} \xi =
+\int \limits _{a}^{b}\psi\left(x(\xi)\right)
+\frac{\mathrm{d} x(\xi)}{\mathrm{d}\xi}
+\,\mathrm {d} \xi = 
+\int\limits _{x(a)}^{x(b)} \psi(x) \,\mathrm {d} x
+\end{equation*}
+Nun wollen wir den Ausdruck 
+\begin{equation}
+\sumint \limits _{a}^{b} \psi(\xi) \,\mathrm {d} \xi 
+\end{equation}
+als definiert betrachten, wenn es möglich ist, eine Umindexierung $\xi \mapsto (x_1(\xi),\, \dots,\, x_N(\xi))$ zu finden, so dass das Intervall $[a,b]$ auf ein integrierbares Gebiet $\mathcal {G}$ abgebildet wird. Sein Wert soll sein
+\begin{equation*}
+\int \limits _{\mathcal {G}}\psi(x_1, \dots, x_N) \,\mathrm{d} x_1 \dots \mathrm{d} x_N
+\end{equation*}
 
 \section{Gut und Böse}
 

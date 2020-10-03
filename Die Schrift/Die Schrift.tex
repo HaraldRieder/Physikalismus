@@ -467,13 +467,13 @@ Die ungleiche Komplexität entsteht durch reduktionistische Schritte, nach denen
 
 \subsection{Umindexierung}
 
-Weil wir es noch benötigen werden, kümmern wir uns etwas, das du in dieser Form anderweitig schwer finden dürftest. Eine Funktion $\psi$ ordnet jedem Element $\displaystyle x$ einer Definitionsmenge $\displaystyle D$ genau ein Element $\displaystyle y$ einer Zielmenge $\displaystyle Z$ zu. 
+Weil wir es noch benötigen werden, kümmern wir uns etwas, das du in dieser Form anderweitig schwer finden dürftest. Eine Funktion $f$ ordnet jedem Element $\displaystyle x$ einer Definitionsmenge $\displaystyle D$ genau ein Element $\displaystyle y$ einer Zielmenge $\displaystyle Z$ zu. 
 
 \begin{equation*}
 f \colon \,{\begin{cases}D\to Z\\ x \mapsto y(x)\end{cases}}
 \end{equation*}
 
-Eine \emph{Umindexierung} wollen wir in dieser Schrift eine \emph{raumfüllende Kurve} basierend auf einer \emph{umkehrbaren} Abbildung
+Eine \emph{Umindexierung} wollen wir in dieser Schrift eine \emph{umkehrbare} Abbildung
 
 \begin{equation*}
 f \colon \,{
@@ -483,11 +483,12 @@ D \subseteq \mathbb{R}\to Z \subseteq \mathbb{R}^N \\
 \end{cases}
 }
 \end{equation*}
-nennen, die ein zusammenhängendes Interval in $\mathbb{R}$ auf ein zusammenhängendes Gebiet in $\mathbb{R}^N$ abbildet.
+nennen, die ein zusammenhängendes Interval in $\mathbb{R}$ auf ein zusammenhängendes Gebiet $\mathcal {G}$ in $\mathbb{R}^N$ abbildet. Eine raumfüllende Kurve kann keine Umindexierung sein, da die Umkehrabbildung $Z \to D$ nicht existiert. Solch eine Umindexierung muss man sich eher wie ein wildes Gehüpfe zwischen Definitions- und Zielmenge vorstellen. Bewegt man sich stetig in der Definitionsmenge, so ist das Bild ein wildes Gehüpfe in der Zielmenge und umgekehrt. Nichtsdestotrotz lassen sich relativ einfach Beispiele für solche Abbildungen formulieren.
+%https://math.stackexchange.com/questions/183361/examples-of-bijective-map-from-mathbbr3-rightarrow-mathbbr/183383#183383
 
-Das Kurvenintegral einer stetigen (skalaren) Funktion $\psi$ ist definiert als
+Das Kurvenintegral einer stetigen (skalaren) Funktion $\psi$ entlang einer Kurve $\mathcal {K}$ ist definiert als
 \begin{equation*}
-\int \limits _{\mathcal {C}}\psi\,\mathrm{d} s := 
+\int \limits _{\mathcal {K}}\psi\,\mathrm{d} s := 
 \int \limits _{a}^{b}\psi\left(x_1(\xi), \dots, x_N(\xi)\right)
 \sqrt{ \left(\frac{\mathrm{d} x_1(\xi)}{\mathrm{d}\xi}\right)^2 + \dots + \left(\frac{\mathrm{d} x_N(\xi)}{\mathrm{d}\xi}\right)^2}
 \,\mathrm {d} \xi
@@ -502,6 +503,8 @@ Im Fall $N=1$ finden wir
 \,\mathrm {d} \xi = 
 \int\limits _{x(a)}^{x(b)} \psi(x) \,\mathrm {d} x
 \end{equation*}
+$\xi$ ist also eine andere Methode, die Punkte auf der x-Achse durchzunummerieren, oder zu \emph{indexieren}.
+
 Nun wollen wir den Ausdruck 
 \begin{equation}
 \sumint \limits _{a}^{b} \psi(\xi) \,\mathrm {d} \xi 

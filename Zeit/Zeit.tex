@@ -1,0 +1,98 @@
+\documentclass[12pt]{article}
+\usepackage[margin=2cm, bindingoffset=0cm]{geometry}
+%\usepackage[german]{babel} 
+\usepackage[ngerman]{babel} %sudo apt-get install texlive-lang-german
+\usepackage{hyperref} % web links etc.
+\usepackage[parfill]{parskip}
+\usepackage[utf8]{inputenc}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tcolorbox}
+\usepackage{helvet} 
+\usepackage{framed}
+\usepackage{anyfontsize}
+\usepackage{csquotes}
+\usepackage{physics}
+\usepackage{amssymb}
+\usepackage{MnSymbol}
+\MakeOuterQuote{"}
+\definecolor{quotecolor}{rgb}{0.8,0.9,1}
+\renewcommand{\familydefault}{\sfdefault} 
+\setlength\parindent{0pt}
+\tcbset{boxrule=0pt,colback=quotecolor,arc=5pt,auto outer arc,left=5pt,right=5pt,boxsep=5pt}
+%  width=0.9\textwidth,
+
+\begin{document}
+\title{\fontsize{40}{40}\selectfont \textbf{Über Zeit}}
+\date{\today}
+\maketitle
+
+%\begin{abstract}
+
+%\end{abstract}
+
+\section{Motivation}
+
+Der Erfolg der relativistischen Physik lehrt uns, dass die Zeit irgendwie gleichrangig neben dem Ort zu stehen hat. Wechselt ein Beobachter seine Perspektive auf bestimmte Art, sehen  Koordinaten, die zuvor wie reine Ortskoordinaten ausgesehen haben, plötzlich ein wenig wie Zeitkoordinaten aus, und umgekehrt. Ein solcher Perspektiv-Wechsel heißt \emph{Lorentz-Transformation}. 
+
+Der Alltag lehrt uns, dass die Zeit kontinuierlich vergeht, und zwar in eine bestimmte Richtung. Denn das Alltagsgeschehen scheint sich meistens nicht umkehren zu lassen. Eine zerschellte Tasse setzt sich nicht mit der Zeit wieder zu einer heilen Tasse zusammen und kehrt unter Abkühlung auf den Tisch zurück. Solches Alltagsgeschehen wird durch den 2. Hauptsatz der Thermodynamik erfolgreich modelliert.
+
+Der Erfolg der Physik insgesamt lehrt uns, dass Ortsraum keine eingebaute Richtung hat. Es gibt keinen Satz der behauptet, dass wenn man in eine bestimmte Richtung geht, die Tassen immer kaputter werden müssen.
+
+Somit haben wir 3 erfolgreich anwendbare Konzepte, die im Widerspruch zu stehen scheinen. Raum und Zeit sind sich so ähnlich, dass man sie miteinander vermischen kann. Die Zeit hat aber eine eingebaute Richtung. Der Raum nicht. Und nun?
+
+Deswegen schauen wir uns an, wozu uns ein paar unkonventionelle Annahmen führen können:
+
+\begin{itemize}
+\item In der Physik vergeht keine Zeit. Die Natur der physikalischen Zeit ist wie die Natur des physikalischen Ortsraums.
+\item In der Psyche vergeht Zeit. Sie ist integraler Bestandteil des Bewusstwerdens, des Geistes. 
+\item Es muss einen Mechanismus geben, der die psychische Zeit mit einem Bestandteil der physikalischen Welt so koppelt, dass es wenigstens für die menschliche Psyche den Anschein hat, die physikalische Zeit würde objektiv vergehen.
+\end{itemize}
+
+\section{Eine Quantenuhr}
+
+In der Quantenmechanik spielt sich das Geschehen in einem vieldimensionalen Konfigurationsraum ab, dem Hilbert-Raum. Ein Ort existiert in diesem Raum zunächst nicht. Erst durch Festlegung auf eine Basis lassen sich komplexwertige Funktionen erstellen. Diese Funktionen stehen für unendlich viele Koeffizienten, die durch einen kontinuierlichen reellwertigen Index $x$ durchnummeriert werden.
+
+Durch Beobachtung von außen, sowie durch Symmetrien, die wir aus der Erfahrung her einem dreidimensionalen Ortsraum zuschreiben, gelingt uns der Anschluss. Es sind unendlich viele Basen wählbar, doch nur bestimmte Wahlen führen zu einer Indexierung, bei der wir den Index als Ortskoordinate interpretieren können. Die Amplitude eines abstrakten Zustandsvektors $\ket{\psi}$ an einem bestimmten Ort liefert uns das Skalarprodukt mit dem abstrakten Vektor einer "Ortsbasis"
+\begin{equation} 
+\psi(x) \equiv \bra{x}\ket{\psi} 
+\end{equation}
+Wenn wir die physikalische Zeit ähnlich wie den Ort behandeln wollen, dann muss die Zeitkoordinate $t$ ebenso ein reellwertiger kontinuierlicher Index sein. Das heißt
+\begin{equation} 
+\label{eq:psi_xt}
+\psi(x,t) \equiv \bra{x,t}\ket{\psi} 
+\end{equation}
+Die Indizes $x$ und $t$ nummerieren nun zusammen eine Produktbasis aus Orts- und Zeiteigenvektoren. Wir könnten aufgrund der Gleichmächtigkeit von $\mathbb{R}$ mit $\mathbb{R}^2$ diesen Index durch einen gemeinsamen reellwertigen Index $i = i(x,t)$ ersetzen und kämen damit wieder auf die Form
+\begin{equation}
+\psi(i) \equiv \bra{i}\ket{\psi} 
+\end{equation}
+wobei $\ket{\psi}$ wie in (\ref{eq:psi_xt}) der abstrakte Zustandsvektor im Produktraum ist.
+
+Wir nehmen an, dass der Beobachter nicht in der Lage dazu ist, Zeit "direkt" in Erfahrung zu bringen. Diese Annahme drückt sich in der Quantenmechanik so aus, dass in Matrixelementen von Wechselwirkungs-Hamiltonians die Zeit nicht auftritt. Ein Beobachter muss eine Zeigerstellung, einen Ort, ablesen, um von dort auf die Zeit im Uhrenzustand zu schließen. Eine gute Uhr kann also ein Zustandsvektor sein, der Orts- und Zeitunterräume maximal verschränkt. Wenn $\delta(x-\xi)$ die Amplituden von Ortseigenvektoren im Ortsunterraum in der Ortsdarstellung sind, und $\delta(t-\tau)$ die Amplituden von Zeiteigenvektoren im Zeitunterraum in der Zeitdarstellung, dann sind\footnote{Fortan lassen wir die Integralgrenzen weg, wenn sie im Unendlichen liegen.}
+\begin{equation} 
+\label{eq:psi_clock}
+\psi(x,t) \sim \int_{-\infty}^{\infty} d\chi \delta(x-\chi) \delta(t-\chi) = \delta(x-t)
+\end{equation}
+die Amplituden eines maximal verschränkten Zustands, der aus der Beobachtung von $\xi$ sicher auf die Zeit $\tau$ schließen lässt. Durch die Beobachtung (oder Messung) "kollabiert die Überlagerung"
+\begin{equation} 
+\label{eq:psi_clock}
+\int d\chi \delta(x-\chi) \delta(t-\chi) \quad \longmapsto \quad \delta(x-\xi)\delta(t-\tau)
+\end{equation}
+Dadurch ist die Uhr zunächst kaputtgegangen. Denn durch verträgliche Messungen, also wiederholte Ortsmessungen, werden wir immer wieder nur diesen Zustand und damit die Zeit $\tau$ antreffen. Es fehlt also ein Mechanismus, der die Uhr wieder scharfschaltet, sie in ihren verschränkten Zustand zurückbringt.
+
+Im Artikel \emph{\href{https://docs.google.com/document/d/1OrmVETmnBSe5c0CpTbKH8Vq5pWFuB8QUez-KqHTaarQ/edit?usp=sharing}{Ideas about a Quantum Theory without Process Type 2}} wird so ein Mechanismus vorgestellt. Dort wird postuliert, dass jeder bewusste Beobachter einerseits eine Teilung des Hilbertraums vornimmt, andererseits die Änderung der Verschränkungen, wie sie erst durch die jeweilige Teilung aus den jeweils vorliegenden Zustandsvektoren entstehen, erlebt, ja sie sogar willentlich herbeiführen kann, wodurch dann \emph{aus Sicht des jeweiligen Beobachters} die quantenmechanische Überlagerung kollabiert und am Ende ein reiner Produktzustand vorliegt. Mindestens 2 solcherart an den physikalischen Kanal angeschlossene Beobachter (\emph{conscious splits}) sind notwendig, um ein Geschehen am Laufen zu halten. Unsere Uhr wird von außen bereits hin und wieder abgelesen. Wir benötigen also noch einen weiteren "internen" Beobachter, der den x,t-Produktraum auf andere Weise teilen muss als der externe Beobachter. Der interne Beobachter teilt den Produktraum dazu nicht in x- und t-Basen, sondern in eine Basis aus komplett x,t-verschränkten Zuständen und eine Basis, die den ganzen Rest enthält.
+
+Um zu sehen, wie es läuft, betrachten wir \textbf{ein einfaches Beispiel:}
+
+Unsere einfache Quantenuhr soll nur 3 diskrete Zeigerstellungen haben: $\ket{x=0}, \ket{x=1}, \ket{x=2}$. Sie soll auch nur 3 Zeitpunkte messen können: $\ket{t=0}, \ket{t=1}, \ket{t=2}$. Wir lassen jetzt der Übersichtlichkeit halber x und t weg, x soll links stehen, t rechts. Das heißt zum Beispiel $\ket{00}$ soll für $\ket{x=0}\ket{t=0}$ stehen. Wir haben es mit einem Produktraum aus 2 Qutrits zu tun.
+
+Der Unterraum aus maximal x,t-verschränkten Zuständen kann zum Beispiel durch diese 3 Basisvektoren aufgespannt werden
+\begin{equation}
+\begin{matrix}
+\ket{v_1} = {1}/{\sqrt{3}} \, \left(\, \ket{00} + \ket{11} + \ket{22} \,\right) \\
+\ket{v_2} = {1}/{\sqrt{3}} \, \left(\, \ket{00} + \ket{11} - \ket{22} \,\right) \\
+\ket{v_3} = {1}/{\sqrt{3}} \, \left(\, \ket{00} - \ket{11} + \ket{22} \,\right) 
+\end{matrix}
+\end{equation}
+Übrig bleibt ein Unterraum 
+
+\end{document}

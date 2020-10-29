@@ -12,6 +12,7 @@
 \usepackage{anyfontsize}
 \usepackage{csquotes}
 \usepackage{physics}
+\setcounter{MaxMatrixCols}{16}
 \usepackage{amssymb}
 \usepackage{MnSymbol}
 \MakeOuterQuote{"}
@@ -74,7 +75,7 @@ Wir nehmen an, dass der Beobachter nicht in der Lage dazu ist, Zeit "direkt" in 
 \end{equation}
 die Amplituden eines maximal verschränkten Zustands, der aus der Beobachtung von $\xi$ sicher auf die Zeit $\tau$ schließen lässt. Durch die Beobachtung (oder Messung) "kollabiert die Überlagerung"
 \begin{equation} 
-\label{eq:psi_clock}
+\label{eq:collapse}
 \int d\chi \delta(x-\chi) \delta(t-\chi) \quad \longmapsto \quad \delta(x-\xi)\delta(t-\tau)
 \end{equation}
 Dadurch ist die Uhr zunächst kaputtgegangen. Denn durch verträgliche Messungen, also wiederholte Ortsmessungen, werden wir immer wieder nur diesen Zustand und damit die Zeit $\tau$ antreffen. Es fehlt also ein Mechanismus, der die Uhr wieder scharfschaltet, sie in ihren verschränkten Zustand zurückbringt.
@@ -83,16 +84,51 @@ Im Artikel \emph{\href{https://docs.google.com/document/d/1OrmVETmnBSe5c0CpTbKH8
 
 Um zu sehen, wie es läuft, betrachten wir \textbf{ein einfaches Beispiel:}
 
-Unsere einfache Quantenuhr soll nur 3 diskrete Zeigerstellungen haben: $\ket{x=0}, \ket{x=1}, \ket{x=2}$. Sie soll auch nur 3 Zeitpunkte messen können: $\ket{t=0}, \ket{t=1}, \ket{t=2}$. Wir lassen jetzt der Übersichtlichkeit halber x und t weg, x soll links stehen, t rechts. Das heißt zum Beispiel $\ket{00}$ soll für $\ket{x=0}\ket{t=0}$ stehen. Wir haben es mit einem Produktraum aus 2 Qutrits zu tun.
+Unsere einfache Quantenuhr soll nur 4 diskrete Zeigerstellungen haben: $\ket{x=0}, \ket{x=1}, \ket{x=2}, \ket{x=3}$. Sie soll auch nur 4 Zeitpunkte messen können: $\ket{t=0}, \ket{t=1}, \ket{t=2}, \ket{t=3}$. Wir lassen jetzt der Übersichtlichkeit halber x und t weg, x soll links stehen, t rechts. Das heißt zum Beispiel $\ket{00}$ soll für $\ket{x=0}\ket{t=0}$ stehen. Wir haben es mit einem Produktraum aus 4 Qubits, 2 Raum- und 2 Zeit-Qubits zu tun. Für eine Orthogonalbasis der sind 16 Basisvektoren notwendig.
 
-Der Unterraum aus maximal x,t-verschränkten Zuständen kann zum Beispiel durch diese 3 Basisvektoren aufgespannt werden
+Der Unterraum aus maximal x,t-verschränkten Zuständen kann zum Beispiel durch diese 4 Basisvektoren aufgespannt werden
 \begin{equation}
 \begin{matrix}
-\ket{v_1} = {1}/{\sqrt{3}} \, \left(\, \ket{00} + \ket{11} + \ket{22} \,\right) \\
-\ket{v_2} = {1}/{\sqrt{3}} \, \left(\, \ket{00} + \ket{11} - \ket{22} \,\right) \\
-\ket{v_3} = {1}/{\sqrt{3}} \, \left(\, \ket{00} - \ket{11} + \ket{22} \,\right) 
+??? evtl. nicht so
+\ket{v_1} = {1}/{2} \, \left(\, \ket{00} + \ket{11} + \ket{22} \,\right) \\
+\ket{v_2} = {1}/{2} \, \left(\, \ket{00} + \ket{11} - \ket{22} \,\right) \\
+\ket{v_3} = {1}/{2} \, \left(\, \ket{00} - \ket{11} + \ket{22} \,\right) \\
+\ket{v_4} = {1}/{2} \, \left(\, \ket{00} - \ket{11} + \ket{22} \,\right) ???
 \end{matrix}
 \end{equation}
-Übrig bleibt ein Unterraum 
+
+\begin{equation}
+\frac{1}{\sqrt{2}} \left(\, \ket{00} + \ket{11} \,\right)
+\quad\quad\hat{=}\quad\quad
+\frac{1}{\sqrt{2}}
+\begin{pmatrix}
+1 \\ 0 \\ 0 \\ 0 \\ 0 \\ 1 \\ 0 \\ 0 \\ 0 \\ 0 \\ 0 \\ 0 \\ 0 \\ 0 \\ 0 \\ 0
+\end{pmatrix}
+\quad
+\begin{matrix}
+00 \\ 01 \\ 02 \\ 03 \\ 10 \\ 11 \\ 12 \\ 13 \\ 20 \\ 21 \\ 22 \\ 23 \\ 30 \\ 31 \\ 32 \\ 33 
+\end{matrix}
+\end{equation}
+
+\begin{equation}
+\begin{pmatrix}
+\pmb{\frac{1}{2}} &   &   &   &   &   &   &   &   &   & \pmb{-\frac{1}{2}} &   &   &   &   & \pmb{\frac{\sqrt{2}}{2}} \\
+  & 1 &   &   &   &   &   &   &   &   &   &   &   &   &   &   \\
+  &   & 1 &   &   &   &   &   &   &   &   &   &   &   &   &   \\
+  &   &   & 1 &   &   &   &   &   &   &   &   &   &   &   &   \\
+  &   &   &   & 1 &   &   &   &   &   &   &   &   &   &   &   \\
+\pmb{\frac{\sqrt{2}}{2}} &   &   &   &   & \pmb{\frac{1}{2}} &   &   &   &   &   &   &   &   &   & \pmb{-\frac{1}{2}} \\
+  &   &   &   &   &   & 1 &   &   &   &   &   &   &   &   &   \\
+  &   &   &   &   &   &   & 1 &   &   &   &   &   &   &   &   \\
+  &   &   &   &   &   &   &   & 1 &   &   &   &   &   &   &   \\
+  &   &   &   &   &   &   &   &   & 1 &   &   &   &   &   &   \\
+\pmb{-\frac{1}{2}} &   &   &   &   & \pmb{\frac{\sqrt{2}}{2}} &   &   &   &   & \pmb{\frac{1}{2}} &   &   &   &   &   \\
+  &   &   &   &   &   &   &   &   &   &   & 1 &   &   &   &   \\
+  &   &   &   &   &   &   &   &   &   &   &   & 1 &   &   &   \\
+  &   &   &   &   &   &   &   &   &   &   &   &   & 1 &   &   \\
+  &   &   &   &   &   &   &   &   &   &   &   &   &   & 1 &   \\
+  &   &   &   &   & \pmb{-\frac{1}{2}} &   &   &   &   & \pmb{\frac{\sqrt{2}}{2}} &   &   &   &   & \pmb{\frac{1}{2}} \\
+\end{pmatrix}
+\end{equation}
 
 \end{document}

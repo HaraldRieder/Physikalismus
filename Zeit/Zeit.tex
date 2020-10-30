@@ -111,24 +111,105 @@ Der Unterraum aus maximal x,t-verschränkten Zuständen kann zum Beispiel durch 
 \end{equation}
 
 \begin{equation}
+U\ =\ 
 \begin{pmatrix}
-\pmb{\frac{1}{2}} &   &   &   &   &   &   &   &   &   & \pmb{-\frac{1}{2}} &   &   &   &   & \pmb{\frac{\sqrt{2}}{2}} \\
+\pmb{\frac{1}{2}} &&&&& \pmb{0} &&&&& \pmb{\frac{1}{2}} &&&&& \pmb{\frac{\sqrt{2}}{2}} \\
   & 1 &   &   &   &   &   &   &   &   &   &   &   &   &   &   \\
   &   & 1 &   &   &   &   &   &   &   &   &   &   &   &   &   \\
   &   &   & 1 &   &   &   &   &   &   &   &   &   &   &   &   \\
   &   &   &   & 1 &   &   &   &   &   &   &   &   &   &   &   \\
-\pmb{\frac{\sqrt{2}}{2}} &   &   &   &   & \pmb{\frac{1}{2}} &   &   &   &   &   &   &   &   &   & \pmb{-\frac{1}{2}} \\
+\pmb{\frac{\sqrt{2}}{2}} &&&&& \pmb{\frac{1}{2}} &&&&& \pmb{0} &&&&& \pmb{-\frac{1}{2}} \\
   &   &   &   &   &   & 1 &   &   &   &   &   &   &   &   &   \\
   &   &   &   &   &   &   & 1 &   &   &   &   &   &   &   &   \\
   &   &   &   &   &   &   &   & 1 &   &   &   &   &   &   &   \\
   &   &   &   &   &   &   &   &   & 1 &   &   &   &   &   &   \\
-\pmb{-\frac{1}{2}} &   &   &   &   & \pmb{\frac{\sqrt{2}}{2}} &   &   &   &   & \pmb{\frac{1}{2}} &   &   &   &   &   \\
+\pmb{-\frac{1}{2}} &&&&& \pmb{\frac{\sqrt{2}}{2}} &&&&& \pmb{\frac{1}{2}} &&&&& \pmb{0} \\
   &   &   &   &   &   &   &   &   &   &   & 1 &   &   &   &   \\
   &   &   &   &   &   &   &   &   &   &   &   & 1 &   &   &   \\
   &   &   &   &   &   &   &   &   &   &   &   &   & 1 &   &   \\
   &   &   &   &   &   &   &   &   &   &   &   &   &   & 1 &   \\
-  &   &   &   &   & \pmb{-\frac{1}{2}} &   &   &   &   & \pmb{\frac{\sqrt{2}}{2}} &   &   &   &   & \pmb{\frac{1}{2}} \\
+\pmb{0} &&&&& \pmb{-\frac{1}{2}} &&&&& \pmb{\frac{\sqrt{2}}{2}} &&&&& \pmb{-\frac{1}{2}} 
 \end{pmatrix}
+\quad
+\begin{matrix}
+00 \\ 01 \\ 02 \\ 03 \\ 10 \\ 11 \\ 12 \\ 13 \\ 20 \\ 21 \\ 22 \\ 23 \\ 30 \\ 31 \\ 32 \\ 33 
+\end{matrix}
 \end{equation}
+
+
+
+\begin{equation}
+\begin{matrix}
+\ket{00}_{ext} \ \xrightarrow{U} \ \frac{1}{2}\ket{00}_{int} + \frac{\sqrt{2}}{2}\ket{11}_{int} + \frac{1}{2}\ket{22}_{int} 
+& \xrightarrow{p = 0.25} & \ket{00}_{int} \\ \\
+& \xrightarrow{p = 0.5} & \ket{11}_{int} \\ \\
+& \xrightarrow{p = 0.25} & \ket{22}_{int}
+\end{matrix}
+\end{equation}
+
+
+
+\begin{equation}
+U^{-1}\ =\ 
+\begin{pmatrix}
+\pmb{\frac{1}{2}} &&&&& \pmb{\frac{\sqrt{2}}{2}} &&&&& \pmb{-\frac{1}{2}} &&&&& \pmb{0} \\
+  & 1 &   &   &   &   &   &   &   &   &   &   &   &   &   &   \\
+  &   & 1 &   &   &   &   &   &   &   &   &   &   &   &   &   \\
+  &   &   & 1 &   &   &   &   &   &   &   &   &   &   &   &   \\
+  &   &   &   & 1 &   &   &   &   &   &   &   &   &   &   &   \\
+\pmb{0} &&&&& \pmb{\frac{1}{2}} &&&&& \pmb{\frac{\sqrt{2}}{2}} &&&&& \pmb{-\frac{1}{2}} \\
+  &   &   &   &   &   & 1 &   &   &   &   &   &   &   &   &   \\
+  &   &   &   &   &   &   & 1 &   &   &   &   &   &   &   &   \\
+  &   &   &   &   &   &   &   & 1 &   &   &   &   &   &   &   \\
+  &   &   &   &   &   &   &   &   & 1 &   &   &   &   &   &   \\
+\pmb{\frac{1}{2}} &&&&& \pmb{0} &&&&& \pmb{\frac{1}{2}} &&&&& \pmb{\frac{\sqrt{2}}{2}} \\
+  &   &   &   &   &   &   &   &   &   &   & 1 &   &   &   &   \\
+  &   &   &   &   &   &   &   &   &   &   &   & 1 &   &   &   \\
+  &   &   &   &   &   &   &   &   &   &   &   &   & 1 &   &   \\
+  &   &   &   &   &   &   &   &   &   &   &   &   &   & 1 &   \\
+\pmb{\frac{\sqrt{2}}{2}} &&&&& \pmb{-\frac{1}{2}} &&&&& \pmb{0} &&&&& \pmb{-\frac{1}{2}} 
+\end{pmatrix}
+\quad
+\begin{matrix}
+00 \\ 01 \\ 02 \\ 03 \\ 10 \\ 11 \\ 12 \\ 13 \\ 20 \\ 21 \\ 22 \\ 23 \\ 30 \\ 31 \\ 32 \\ 33 
+\end{matrix}
+\end{equation}
+
+\begin{equation}
+\begin{matrix}
+\ket{00}_{int} \ \xrightarrow{U^{-1}} \ \frac{1}{2}\ket{00}_{ext} + \frac{1}{2}\ket{22}_{ext} + \frac{\sqrt{2}}{2}\ket{33}_{ext} 
+& \xrightarrow{p = 0.25} & \ket{00}_{ext} \\ \\
+& \xrightarrow{p = 0.25} & \ket{22}_{ext} \\ \\
+& \xrightarrow{p = 0.5} & \ket{33}_{ext}
+\end{matrix}
+\end{equation}
+\begin{equation}
+<t>_{\ket{00}_{int}} \ = \  0.25 \cdot 0 + 0.25 \cdot 2 + 0.5 \cdot 3 = 2
+\end{equation}
+
+\begin{equation}
+\begin{matrix}
+\ket{11}_{int} \ \xrightarrow{U^{-1}} \ \frac{\sqrt{2}}{2}\ket{00}_{ext} + \frac{1}{2}\ket{11}_{ext} - \frac{1}{2}\ket{33}_{ext} 
+& \xrightarrow{p = 0.5} & \ket{00}_{ext} \\ \\
+& \xrightarrow{p = 0.25} & \ket{11}_{ext} \\ \\
+& \xrightarrow{p = 0.25} & \ket{33}_{ext}
+\end{matrix}
+\end{equation}
+\begin{equation}
+<t>_{\ket{11}_{int}} \ = \  0.5 \cdot 0 + 0.25 \cdot 1 + 0.25 \cdot 3 = 0.\overline{3}
+\end{equation}
+
+\begin{equation}
+\begin{matrix}
+\ket{22}_{int} \ \xrightarrow{U^{-1}} \ -\frac{1}{2}\ket{00}_{ext} + \frac{\sqrt{2}}{2}\ket{11}_{ext} + \frac{1}{2}\ket{22}_{ext} 
+& \xrightarrow{p = 0.25} & \ket{00}_{ext} \\ \\
+& \xrightarrow{p = 0.5} & \ket{11}_{ext} \\ \\
+& \xrightarrow{p = 0.25} & \ket{22}_{ext}
+\end{matrix}
+\end{equation}
+\begin{equation}
+<t>_{\ket{22}_{int}} \ = \  0.25 \cdot 0 + 0.5 \cdot 1 + 0.25 \cdot 2 = 1.50
+\end{equation}
+
 
 \end{document}

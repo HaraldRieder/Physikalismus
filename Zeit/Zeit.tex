@@ -11,6 +11,7 @@
 \usepackage{framed}
 \usepackage{anyfontsize}
 \usepackage{csquotes}
+\usepackage{mathrsfs}
 \usepackage{physics}
 \setcounter{MaxMatrixCols}{16}
 \usepackage{amssymb}
@@ -22,14 +23,18 @@
 \tcbset{boxrule=0pt,colback=quotecolor,arc=5pt,auto outer arc,left=5pt,right=5pt,boxsep=5pt}
 %  width=0.9\textwidth,
 
+\setcounter{secnumdepth}{-1}
 \begin{document}
-\title{\fontsize{40}{40}\selectfont \textbf{Über Zeit}}
+\title{\fontsize{25}{25}\selectfont \textbf{Über psychische und physikalische Zeit}}
+\author{Harald Rieder}
 \date{\today}
 \maketitle
 
 %\begin{abstract}
 
 %\end{abstract}
+
+\tableofcontents
 
 \section{Motivation}
 
@@ -39,9 +44,9 @@ Der Alltag lehrt uns, dass die Zeit kontinuierlich vergeht, und zwar in eine bes
 
 Der Erfolg der Physik insgesamt lehrt uns, dass Ortsraum keine eingebaute Richtung hat. Es gibt keinen Satz der behauptet, dass wenn man in eine bestimmte Richtung geht, die Tassen immer kaputter werden müssen.
 
-Somit haben wir 3 erfolgreich anwendbare Konzepte, die im Widerspruch zu stehen scheinen. Raum und Zeit sind sich so ähnlich, dass man sie miteinander vermischen kann. Die Zeit hat aber eine eingebaute Richtung. Der Raum nicht. Und nun?
+Somit haben wir 3 erfolgreich anwendbare Konzepte, die im Widerspruch zu stehen scheinen. Raum und Zeit sind wie Bruder und Schwester. Die Zeit hat aber eine eingebaute Richtung. Der Raum nicht. Und nun?
 
-Deswegen schauen wir uns an, wozu uns ein paar unkonventionelle Annahmen führen können:
+Darum schauen wir uns an, wozu uns ein paar unkonventionelle Annahmen führen können:
 
 \begin{itemize}
 \item In der Physik vergeht keine Zeit. Die Natur der physikalischen Zeit ist wie die Natur des physikalischen Ortsraums.
@@ -68,7 +73,15 @@ Die Indizes $x$ und $t$ nummerieren nun zusammen eine Produktbasis aus Orts- und
 \end{equation}
 wobei $\ket{\psi}$ wie in (\ref{eq:psi_xt}) der abstrakte Zustandsvektor im Produktraum ist.
 
-Wir nehmen an, dass der Beobachter nicht in der Lage dazu ist, Zeit "direkt" in Erfahrung zu bringen. Diese Annahme drückt sich in der Quantenmechanik so aus, dass in Matrixelementen von Wechselwirkungs-Hamiltonians die Zeit nicht auftritt. Ein Beobachter muss eine Zeigerstellung, einen Ort, ablesen, um von dort auf die Zeit im Uhrenzustand zu schließen. Eine gute Uhr kann also ein Zustandsvektor sein, der Orts- und Zeitunterräume maximal verschränkt. Wenn $\delta(x-\xi)$ die Amplituden von Ortseigenvektoren im Ortsunterraum in der Ortsdarstellung sind, und $\delta(t-\tau)$ die Amplituden von Zeiteigenvektoren im Zeitunterraum in der Zeitdarstellung, dann sind\footnote{Fortan lassen wir die Integralgrenzen weg, wenn sie im Unendlichen liegen.}
+Wir nehmen an, dass der Beobachter aus seinem Hilbert-Raum $\mathscr{H}_X$ heraus nicht in der Lage dazu ist, Zeit "direkt" in Erfahrung zu bringen. Diese Annahme drückt sich in der Quantenmechanik so aus, dass in Matrixelementen $H(X,x)$ von Wechselwirkungs-Hamiltonians die Zeit nicht auftritt. Ein Beobachter muss eine Zeigerstellung, einen Ort, ablesen, um von dort auf die Zeit im Uhrenzustand zu schließen. 
+
+\begin{figure}[!h]\begin{center}
+  \includegraphics[width=6cm]{Quantenuhr.png}
+  \caption{Indirektes Ablesen der Uhrzeit}
+  \label{fig:sr_game}
+\end{center}\end{figure}
+
+Ein guter Uhrenzustand kann also ein Zustandsvektor im Produktraum $\mathscr{H}_x \otimes \mathscr{H}_t$ sein, der Orts- und Zeitunterräume maximal verschränkt. Wenn $\delta(x-\xi)$ die Amplituden von Ortseigenvektoren im Ortsunterraum in der Ortsdarstellung sind, und $\delta(t-\tau)$ die Amplituden von Zeiteigenvektoren im Zeitunterraum in der Zeitdarstellung, dann sind\footnote{Fortan lassen wir die Integralgrenzen weg, wenn sie im Unendlichen liegen.}
 \begin{equation} 
 \label{eq:psi_clock}
 \psi(x,t) \sim \int_{-\infty}^{\infty} d\chi \delta(x-\chi) \delta(t-\chi) = \delta(x-t)
@@ -76,11 +89,11 @@ Wir nehmen an, dass der Beobachter nicht in der Lage dazu ist, Zeit "direkt" in 
 die Amplituden eines maximal verschränkten Zustands, der aus der Beobachtung von $\xi$ sicher auf die Zeit $\tau$ schließen lässt. Durch die Beobachtung (oder Messung) "kollabiert die Überlagerung"
 \begin{equation} 
 \label{eq:collapse}
-\int d\chi \delta(x-\chi) \delta(t-\chi) \quad \longmapsto \quad \delta(x-\xi)\delta(t-\tau)
+\int d\chi \delta(x-\chi) \delta(t-\chi) \quad \rightarrow \quad \delta(x-\chi)\delta(t-\chi)
 \end{equation}
-Dadurch ist die Uhr zunächst kaputtgegangen. Denn durch verträgliche Messungen, also wiederholte Ortsmessungen, werden wir immer wieder nur diesen Zustand und damit die Zeit $\tau$ antreffen. Es fehlt also ein Mechanismus, der die Uhr wieder scharfschaltet, sie in ihren verschränkten Zustand zurückbringt.
+Dadurch ist die Uhr zunächst kaputtgegangen. Denn durch verträgliche Messungen, also wiederholte Ortsmessungen, werden wir immer wieder nur diesen Zustand und damit die Zeit $\chi$ antreffen. Es fehlt also ein Mechanismus, der die Uhr wieder scharfschaltet, sie in ihren verschränkten Zustand zurückbringt.
 
-Im Artikel \emph{\href{https://docs.google.com/document/d/1OrmVETmnBSe5c0CpTbKH8Vq5pWFuB8QUez-KqHTaarQ/edit?usp=sharing}{Ideas about a Quantum Theory without Process Type 2}} wird so ein Mechanismus vorgestellt. Dort wird postuliert, dass jeder bewusste Beobachter einerseits eine Teilung des Hilbertraums vornimmt, andererseits die Änderung der Verschränkungen, wie sie erst durch die jeweilige Teilung aus den jeweils vorliegenden Zustandsvektoren entstehen, erlebt, ja sie sogar willentlich herbeiführen kann, wodurch dann \emph{aus Sicht des jeweiligen Beobachters} die quantenmechanische Überlagerung kollabiert und am Ende ein reiner Produktzustand vorliegt. Mindestens 2 solcherart an den physikalischen Kanal angeschlossene Beobachter (\emph{conscious splits}) sind notwendig, um ein Geschehen am Laufen zu halten. Unsere Uhr soll von einem äußeren Beobachter hin und wieder abgelesen werden. Wir benötigen also noch einen weiteren "internen" Beobachter, der den x,t-Produktraum auf andere Weise teilen muss als der externe Beobachter. Der interne Beobachter teilt den Produktraum dazu nicht in x- und t-Basen, sondern in eine Basis aus komplett x,t-verschränkten Zuständen und eine Basis, die den ganzen Rest enthält.
+Im Artikel \emph{\href{https://docs.google.com/document/d/1OrmVETmnBSe5c0CpTbKH8Vq5pWFuB8QUez-KqHTaarQ/edit?usp=sharing}{Ideas about a Quantum Theory without Process Type 2}} wird so ein Mechanismus vorgestellt. Dort wird postuliert, dass jeder bewusste Beobachter einerseits eine Teilung des Hilbertraums vornimmt, andererseits die Änderung der Verschränkungen, wie sie erst durch die jeweilige Teilung aus den jeweils vorliegenden Zustandsvektoren entstehen, erlebt, ja sie sogar willentlich herbeiführen kann, wodurch dann \emph{aus Sicht des jeweiligen Beobachters} die quantenmechanische Überlagerung kollabiert und am Ende ein reiner Produktzustand vorliegt. Mindestens 2 solcherart an den physikalischen Kanal angeschlossene Beobachter (\emph{conscious splits}) sind notwendig, um ein Geschehen am Laufen zu halten. Unsere Uhr soll von einem äußeren Beobachter wie gezeigt hin und wieder abgelesen werden. Wir benötigen also noch einen weiteren "internen" Beobachter, der den x,t-Produktraum auf andere Weise teilen muss als der externe Beobachter. Der interne Beobachter teilt den Produktraum dazu nicht in x- und t-Basen, sondern in eine Basis aus x,t-verschränkten Zuständen und eine Basis, die den ganzen Rest enthält.
 
 Um zu sehen, wie es läuft, betrachten wir ein einfaches Beispiel...
 
@@ -213,12 +226,24 @@ U^{-1}\ =\
 <t>_{\ket{22}_{int}} \ = \  0.25 \cdot 0 + 0.5 \cdot 1 + 0.25 \cdot 2 = 1.50
 \end{equation}
 
+
+
+
 \section{Das Anwachsen der Entropie in der psychischen Zeit}
 
 
 \section{Eine relativbewegte Quantenuhr}
 
+Wir fragen nun danach, wie eine bewegte Uhr gesehen wird. Wenn der externe Beobachter die Zeigerstellung $\chi$ erkennt, dann schließt er daraus, dass in der bewegten Uhr die Zeit $\chi$ vergangen ist. Daran ändert eine Relativbewegung der Uhr nichts. Das heißt, eine Relativbewegung soll nichts daran ändern, welche Ortseigenvektoren mit welchen Zeiteigenvektoren verschränkt sind. Im diskreten Fall kann sich also an der Verschränkung gar nichts ändern. Im Raumzeitkontinuum gibt es dagegen mehr Freiheit. Wir greifen zurück auf den kontinuierlichen Uhrenzustand (\ref{eq:psi_clock}). 
 
-
-
+Eine Koordinatentransformation der internen Uhrkoordinaten $x,t$ auf die Koordinaten $x',t'$ aus Sicht des externen Beobachters soll also bewirken
+\begin{equation} 
+\psi(x,t) \sim \delta(x-t)\ \longmapsto \ \psi(x',t') \sim \delta(x'-t')
+\end{equation} 
+Bemerkenswerterweise ist ein Lorentz-Boost in x-Richtung solch eine verschränkungserhaltende Transformation, denn
+\begin{equation} 
+\delta(x'-t') =\, \delta(\gamma (x + \beta t) - \gamma (t + \beta x)) 
+= \frac{\delta(x-t)}{\gamma (1-\beta)} \sim \delta(x-t)
+\end{equation}
+wenn wir t in Metern messen, was wir schon von Anfang an getan haben. Allerdings trifft das für Uhrenzeigerkoordinaten in y- oder z-Richtung nicht zu, da bei einem Boost in x-Richtung $y'=y$ und $z'=z$ gilt.
 \end{document}

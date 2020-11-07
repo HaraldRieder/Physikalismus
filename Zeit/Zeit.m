@@ -37,7 +37,7 @@ Null=U-U
 
 % unistochastic matrix
 P=[
-[Null,U.*conj(U)];
+[Null,U'.*conj(U')];
 [U.*conj(U),Null];
 ]
 

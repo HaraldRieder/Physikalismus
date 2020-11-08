@@ -78,7 +78,7 @@ Wir nehmen an, dass der Beobachter aus seinem Hilbert-Raum $\mathscr{H}_X$ herau
 \begin{figure}[!h]\begin{center}
   \includegraphics[width=6cm]{Quantenuhr.png}
   \caption{Indirektes Ablesen der Uhrzeit}
-  \label{fig:sr_game}
+  \label{fig:clock}
 \end{center}\end{figure}
 
 Ein guter Uhrenzustand kann also ein Zustandsvektor im Produktraum $\mathscr{H}_x \otimes \mathscr{H}_t$ sein, der Orts- und Zeitunterräume maximal verschränkt. Wenn $\delta(x-\xi)$ die Amplituden von Ortseigenvektoren im Ortsunterraum in der Ortsdarstellung sind, und $\delta(t-\tau)$ die Amplituden von Zeiteigenvektoren im Zeitunterraum in der Zeitdarstellung, dann sind\footnote{Fortan lassen wir die Integralgrenzen weg, wenn sie im Unendlichen liegen.}
@@ -208,7 +208,7 @@ p_2 & p_1 & p_0 &&&
 00_{ext} \\ 11_{ext} \\ 22_{ext} \\ 00_{int} \\ 11_{int} \\ 22_{int}
 \end{matrix}
 \end{equation}
-Die Matrix $P^2$ bedeutet einen Wechsel auf die interne Sicht und wieder zurück. Sie steht quasi für einen Tick der Zeit und liefert die Wahrscheinlichkeiten, mit denen der externe Beobachter einen bestimmten x,t-verschränkten Zustand nach dem Tick beobachtet in Abhängigkeit des Zustands vor dem Tick.
+Das Quadrat der Matrix $P$, also $Q:=P^2$, bedeutet einen Wechsel auf die interne Sicht und wieder zurück. Sie steht quasi für einen Tick der Zeit und liefert die Wahrscheinlichkeiten, mit denen der externe Beobachter einen bestimmten x,t-verschränkten Zustand nach dem Tick beobachtet in Abhängigkeit des Zustands vor dem Tick.
 
 Wir wählen nun konkrete Zahlenwerte für die Uhr. Im Anhang wird gezeigt, wie man auf geeignete Werte kommt.
 \begin{equation*}
@@ -244,7 +244,7 @@ P\, \approx\,
 \end{equation*}
 und
 \begin{equation*}
-P^2\, \approx\,
+Q=P^2\, \approx\,
 \begin{pmatrix}
    0.47841 & 0.26079 & 0.26079 &&& \\
    0.26079 & 0.47841 & 0.26079 &&& \\
@@ -281,12 +281,73 @@ Ausgehend von t=0 liefe die gemessene Zeit also vorwärts, bei t=1 bliebe sie st
 
 Größere doppelt-stochastische Matrizen mögen sich zu diesem Zweck noch leicht zurechtlegen lassen. Allerdings ist die Frage, ob sie auch unistochastisch sind, ab einer Zeilenzahl von 5 und dem heutigen Stand der Forschung leider kaum beantwortbar. Unistochastisch müssen sie aber sein, wenn sie mit der Quantenmechanik verträglich sein sollen.
 
-\section{Das Anwachsen der Entropie in der psychischen Zeit}
+\section{Wachsen der Entropie mit der psychischen Zeit}
 
-Doppelt-stochastische Übergangsmatrizen führen im Limes zu einer Gleichverteilung der Wahrscheinlichkeiten.
+Doppelt-stochastische Übergangsmatrizen in Markov-Prozessen führen im Limes zu einer Gleichverteilung der Wahrscheinlichkeiten. Doch was bedeutet das in unserem Zusammenhang?
 
 %The stationary distribution of an irreducible aperiodic finite Markov chain is uniform if and only if its transition matrix is doubly stochastic.
 
+Wir nehmen an, dass eine Beobachterin A im Hilbert-Raum $\mathscr{H}_Y$ das System der Abbildung \ref{fig:clock} sozusagen von ganz außen beobachtet. 
+\begin{figure}[!h]\begin{center}
+  \includegraphics[width=6cm]{Entropie.png}
+  \caption{Ganz äußere Beobachterin}
+  \label{fig:entropy}
+\end{center}\end{figure}
+Die Beobachterin wechselwirkt mit ihren eigenen Uhren und erlebt dadurch ein Fortschreiten ihrer Zeit. Von Zeit zu Zeit koppelt sie sich mit einem Wechselwirkungs-Hamiltonian $H(Y,X)$ an den Beobachter B, um ihn nach seiner Zeit zu fragen. Wenn B antwortet, dass er $\chi$ gemessen habe, dann weiß sie, dass das System im Zustand 
+\begin{equation}
+\ket{X=\chi}\ket{\chi\chi}
+\end{equation}
+ist - oder gerade noch gewesen ist. Die Abfrage der Zeit von B durch A ist natürlich auch ein Quantenprozess. Wir können ihn uns als Dekohärenz-Prozess im Grenzfall einer Quantenmessung vorstellen. Das heißt, wenn B "das Wissen $\chi$" erlangt hat, soll im Idealfall der Gesamtzustand
+\begin{equation}
+\ket{\Theta}\ =\ \ket{Y=\chi}\ket{X=\chi}\ket{\chi\chi}
+\end{equation}
+vorliegen.\footnote{Bei makroskopischen Beobachtern müssen wir uns die Unterräume von $\mathscr{H}_Y$ und $\mathscr{H}_X$ zum Messwert $\chi$ stark entartet denken.}  Dieser reine Zustand hat die Entropie 0. Formal können wir den Dichteoperator $\hat{\rho}$ des Systems durch Ausspuren der Freiheitsgrade von Y bilden
+\begin{equation}
+\hat{\rho}_{\chi,\chi\chi}\ =\ \operatorname{Spur}_Y \ket{\Theta}\bra{\Theta}\ =\ 
+\ket{X=\chi}\ket{\chi\chi} \bra{\chi\chi}\bra{X=\chi} 
+\end{equation}
+und erhalten für dessen von-Neumann-Entropie
+\begin{equation}
+S\ =\ -\operatorname{Spur} \hat{\rho}_{\chi,\chi\chi} \ln \hat{\rho}_{\chi,\chi\chi}\ = \ 0
+\end{equation}
+Bis zur nächsten Abfrage sollen $\tau$ Ticks im System vergehen. Die Matrix $Q$ wirkt bei jedem Tick, so dass nach $\tau$ Ticks die Wahrscheinlichkeiten für die Endzustände
+\begin{equation}
+p_i=\sum_j \{Q^\tau\}_{ij}\, \delta_{j\chi}
+\end{equation}
+sind. Nun haben wir aus Sicht von B ein Gemisch im System vorliegen
+\begin{equation}
+\hat{\rho}_{X,xt}\ = \ \sum_{i=0}^{n-1} p_i \ket{X=i}\ket{ii} \bra{ii}\bra{X=i} 
+\end{equation}
+$n$ soll für die endliche Mächtigkeit des Hilbertraums des Systems stehen. Im Limes $\tau\rightarrow\infty$ streben die $p_i$ nach demselben Wert $p_\infty=n^{-1}$, was die Maximierung der von-Neumann-Entropie des Systems bedeutet. Mit den Matrixelementen von $\hat{\rho}_{X,xt}$ ausgedrückt
+\begin{equation}
+S_\infty\ =\ -\operatorname{Spur} \left(
+\begin{pmatrix}
+p_\infty&0&\cdots &0\\
+0&p_\infty&\cdots &0\\
+\vdots &\vdots &\ddots &\vdots \\
+0&0&\cdots &p_\infty
+\end{pmatrix}
+\ln
+\begin{pmatrix}
+p_\infty&0&\cdots &0\\
+0&p_\infty&\cdots &0\\
+\vdots &\vdots &\ddots &\vdots \\
+0&0&\cdots &p_\infty
+\end{pmatrix} \right)
+\ =\ - n \cdot n^{-1} \ln{n^{-1}} = \ln{n}
+\end{equation}
+Nun kommen wir zurück auf unser einfaches Beispiel und sehen nach, wie sich dort die Wahrscheinlichkeiten für die Endzustände nach einem Anfangszustand $\ket{00}$ entwickeln.\footnote{Programm-Code findet sich im Anhang.}
+\begin{center}
+\begin{tabular}{ |c|c|c|c|c|c| } 
+ \hline
+ $\tau$ & 1 & 2 & 3 & $\cdots$ & $\infty$ \\ 
+ $p_0$ & 0.47841 & 0.36491 & 0.34020 & $\cdots$ & 1/3 \\
+ $p_1$ & 0.26079 & 0.31755 & 0.32990 & $\cdots$ & 1/3 \\
+ $p_2$ & 0.26079 & 0.31755 & 0.32990 & $\cdots$ & 1/3 \\
+ \hline
+\end{tabular}
+\end{center}
+Durch den Verzicht auf quantenmechanische Prozesse des Typs 2, das heißt durch die Beschränkung auf unistochastische Prozesse des Typs 1, erhalten wir mit dem Anwachsen der Zeit zunehmend gemischtere Zustände. Wir bekommen eine Richtung in der psychischen Zeit, in der die Entropie wächst, ohne dass die physikalische Koordinate t dafür eine Richtung bekommen musste. Bei Prozessen des Typs 2, der Schrödinger-Dynamik, gälte im Gegensatz dazu Entropie-Erhaltung.
 \section{Eine relativbewegte Quantenuhr}
 
 Wir fragen nun danach, wie eine bewegte Uhr gesehen wird. Wenn der externe Beobachter die Zeigerstellung $\chi$ erkennt, dann schließt er daraus, dass in der bewegten Uhr die Zeit $\chi$ vergangen ist. Daran ändert eine Relativbewegung der Uhr nichts. Das heißt, eine Relativbewegung soll nichts daran ändern, welche Ortseigenvektoren mit welchen Zeiteigenvektoren verschränkt sind. Im diskreten Fall kann sich also an der Verschränkung gar nichts ändern. Im Raumzeitkontinuum gibt es dagegen mehr Freiheit. Wir greifen zurück auf den kontinuierlichen Uhrenzustand (\ref{eq:psi_clock}). 
@@ -302,7 +363,7 @@ Bemerkenswerterweise ist ein Lorentz-Boost in x-Richtung solch eine verschränku
 \end{equation}
 wenn wir t in Metern messen, was wir schon von Anfang an getan haben. Allerdings trifft das für Uhrenzeigerkoordinaten in y- oder z-Richtung nicht zu, da bei einem Boost in x-Richtung $y'=y$ und $z'=z$ gilt.
 
-\section{Anhang: Berechnung der Matrixelemente von U}
+\section{Anhang A: Berechnung der Matrixelemente von U}
 
 Wir kümmern uns hier nur um die $a_i$ und stauchen U auf eine 3x3-Matrix zusammen. Ohne Beschränkung der Allgemeinheit kann eines der Elemente reell gewählt werden. Wir machen den Ansatz
 \begin{equation*}
@@ -340,4 +401,73 @@ N\, = \, \left( 1 +
 \frac{sin^2(\alpha_0+\alpha_1)}{sin^2(\alpha_1-2\alpha_0)} +
 \frac{sin^2(\alpha_0+\alpha_1)}{sin^2(\alpha_0-2\alpha_1)} \right)^{-\frac{1}{2}}
 \end{equation*}
+
+\section{Anhang B: Gnu Octave Programm}
+Mit diesem Programm wurden die Zahlenbeispiele für diesen Artikel berechnet.
+\begin{verbatim}
+alpha_0=pi/6;
+alpha_1=pi/5;
+
+a_0_abs=sin(alpha_0+alpha_1)/sin(alpha_1-2*alpha_0)
+a_1_abs=sin(alpha_0+alpha_1)/sin(alpha_0-2*alpha_1)
+a_2_abs=1
+
+a_0=a_0_abs*e^(i*alpha_0);
+a_1=a_1_abs*e^(i*alpha_1);
+a_2=a_2_abs;
+
+% normalization
+N=1/sqrt(a_0_abs^2+a_1_abs^2+a_2_abs^2);
+
+% normalized orthogonal row vectors
+u_0=[a_0,a_2,a_1]*N;
+u_1=[a_1,a_0,a_2]*N;
+u_2=[a_2,a_1,a_0]*N;
+
+% check normalization
+u_abs_square=u_0*u_0'
+
+% check orthogonality
+u_0_u_1=u_0*u_1'
+u_1_u_2=u_1*u_2'
+u_2_u_3=u_2*u_0'
+
+% unitary matrix
+U=[
+u_0;
+u_1;
+u_2;
+]
+
+% null matrix
+Null=U-U
+
+% unistochastic matrix
+P=[
+[Null,U'.*conj(U')];
+[U.*conj(U),Null];
+]
+
+% one clock tick
+P_square=P*P
+
+% external initial states
+psi_0=[1,0,0,0,0,0]';
+psi_1=[0,1,0,0,0,0]';
+psi_2=[0,0,1,0,0,0]';
+
+% time eigenvalues
+t=[0,1,2,0,0,0];
+
+% expectation values
+exp_t_0 = t*P_square*psi_0
+exp_t_1 = t*P_square*psi_1
+exp_t_2 = t*P_square*psi_2
+
+% entropy increase with clock ticks
+p_1_tick=P_square*psi_0
+p_2_ticks=P_square^2*psi_0
+p_3_ticks=P_square^3*psi_0
+\end{verbatim}
+
 \end{document}

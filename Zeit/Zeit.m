@@ -52,20 +52,12 @@ psi_2=[0,0,1,0,0,0]';
 % time eigenvalues
 t=[0,1,2,0,0,0];
 
+% expectation values
 exp_t_0 = t*P_square*psi_0
 exp_t_1 = t*P_square*psi_1
 exp_t_2 = t*P_square*psi_2
 
 % entropy increase with clock ticks
-exp_t_0_2_ticks = t*P_square^2*psi_0
-exp_t_1_2_ticks = t*P_square^2*psi_1
-exp_t_2_2_ticks = t*P_square^2*psi_2
-
-exp_t_0_3_ticks = t*P_square^3*psi_0
-exp_t_1_3_ticks = t*P_square^3*psi_1
-exp_t_2_3_ticks = t*P_square^3*psi_2
-
-exp_t_0_4_ticks = t*P_square^4*psi_0
-exp_t_1_4_ticks = t*P_square^4*psi_1
-exp_t_2_4_ticks = t*P_square^4*psi_2
-
+p_1_tick=P_square*psi_0
+p_2_ticks=P_square^2*psi_0
+p_3_ticks=P_square^3*psi_0

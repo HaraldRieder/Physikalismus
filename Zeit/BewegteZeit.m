@@ -9,6 +9,7 @@ endfunction
 # clock state
 # approximation of the delta distribution in a limited area
 function retval = psi_clock (t,x, beta)
+  # TODO length und width müssen auch transformiert werden
   length = 500; # extension on the light cone
   width = length/10; # extension orthogonal to the light cone
   t_ = boost(t,x,beta);

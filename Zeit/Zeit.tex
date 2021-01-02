@@ -67,9 +67,10 @@ Wenn wir die physikalische Zeit ähnlich wie den Ort behandeln wollen, dann muss
 \label{eq:psi_xt}
 \psi(x,t) \equiv \bra{x,t}\ket{\psi} 
 \end{equation}
-Die Indizes $x$ und $t$ nummerieren nun zusammen eine Produktbasis aus Orts- und Zeiteigenvektoren. Wir könnten aufgrund der Gleichmächtigkeit von $\mathbb{R}$ mit $\mathbb{R}^2$ diesen Index durch einen gemeinsamen reellwertigen Index $i = i(x,t)$ ersetzen und kämen damit wieder auf die Form
+Die Indizes $x$ und $t$ nummerieren nun zusammen eine Produktbasis aus Orts- und Zeiteigenvektoren. Wir könnten aufgrund der Gleichmächtigkeit von $\mathbb{R}$ mit $\mathbb{R}^2$ diesen Index durch einen gemeinsamen reellwertigen Index $s = s(x,t)$ ersetzen und kämen damit wieder auf die Form
 \begin{equation}
-\psi(i) \equiv \bra{i}\ket{\psi} 
+\label{eq:psi_s}
+\psi(s) \equiv \bra{s}\ket{\psi} 
 \end{equation}
 wobei $\ket{\psi}$ wie in (\ref{eq:psi_xt}) der abstrakte Zustandsvektor im Produktraum wäre.
 
@@ -276,8 +277,7 @@ In unserem Beispiel ergeben sich in Abhängigkeit des Ausgangszustands die Erwar
  \hline
 \end{tabular}
 \end{center}
-Eine makroskopische Uhr, die über viele Quantenuhren mittelt, würde uns diese Zeitwerte liefern.
-Ausgehend von t=0 liefe die gemessene Zeit also vorwärts, bei t=1 bliebe sie stehen, ausgehend von t=2 liefe sie rückwärts. Könnten wir mit sehr großen Matrizen $U$ hantieren, dann könnten wir womöglich große Bereiche schaffen, in denen die Zeit vorwärts liefe und solche, in denen sie rückwärts liefe. In jedem solchen Bereich erführe der externe Beobachter aber \emph{im Mittel eine in eine bestimmte Richtung laufende Zeit}.
+Eine makroskopische Uhr, die über viele Quantenuhren mittelt, würde uns diese Zeitwerte liefern. Ausgehend von t=0 liefe die gemessene Zeit also vorwärts, bei t=1 bliebe sie stehen, ausgehend von t=2 liefe sie rückwärts. Könnten wir mit sehr großen Matrizen $U$ hantieren, dann könnten wir womöglich große Bereiche schaffen, in denen die Zeit vorwärts liefe und solche, in denen sie rückwärts liefe. In jedem solchen Bereich erführe der externe Beobachter aber \emph{im Mittel eine in eine bestimmte Richtung laufende Zeit}.
 
 Größere doppelt-stochastische Matrizen mögen sich zu diesem Zweck noch leicht zurechtlegen lassen. Allerdings ist die Frage, ob sie auch unistochastisch sind, ab einer Zeilenzahl von 5 und dem heutigen Stand der Forschung leider kaum beantwortbar. Unistochastisch müssen sie aber sein, wenn sie mit der Quantenmechanik verträglich sein sollen.
 
@@ -348,6 +348,15 @@ Nun kommen wir zurück auf unser einfaches Beispiel und sehen nach, wie sich dor
 \end{tabular}
 \end{center}
 Durch den Verzicht auf quantenmechanische Prozesse des Typs 2, das heißt durch die Beschränkung auf unistochastische Prozesse des Typs 1, erhalten wir mit dem Anwachsen der Zeit zunehmend gemischtere Zustände. Wir bekommen eine Richtung in der psychischen Zeit, in der die Entropie wächst, ohne dass die physikalische Koordinate t dafür eine Richtung bekommen musste. Bei Prozessen des Typs 2, der Schrödinger-Dynamik, kann die Entropie bestenfalls quasiperiodisch von der (physikalischen) Zeit abhängen.\footnote{Siehe Anhang.}
+
+\section{Mehr Raumdimensionen}
+
+Es stellt sich die Frage, wie ein x,t-verschränkter Zustand der Art (\ref{eq:psi_clock}) auf mehr kontinuierliche Raumdimensionen erweitert werden muss. Die Antwort findet sich ausgehend von einem diskreten Hilbertraum leicht.
+
+Tabelle mit x y z und s 
+
+Die Verallgemeinerung von (\ref{eq:psi_clock}) ist also ein Zustand der Art (\ref{eq:psi_s}) $\delta(t-s)$, bei der $s$ einen Bahnparameter darstellt.
+
 \section{Eine relativbewegte Quantenuhr}
 
 Wir fragen nun danach, wie eine bewegte Uhr gesehen wird. Wenn der externe Beobachter die Zeigerstellung $\chi$ erkennt, dann schließt er daraus, dass in der bewegten Uhr die Zeit $\chi$ vergangen ist. Daran ändert eine Relativbewegung der Uhr nichts. Das heißt, eine Relativbewegung soll nichts daran ändern, welche Ortseigenvektoren mit welchen Zeiteigenvektoren verschränkt sind. Im diskreten Fall kann sich also an der Verschränkung gar nichts ändern. Im Raumzeitkontinuum gibt es dagegen mehr Freiheit. Wir greifen zurück auf den kontinuierlichen Uhrenzustand (\ref{eq:psi_clock}). 
@@ -403,6 +412,76 @@ N\, = \, \left( 1 +
 \end{equation*}
 
 \section{Anhang B: Quasiperiodizität der Entropie nach der Schrödinger-Dynamik}
+
+Gesamt-Hamiltonoperator $\hat{H}$. Dann unitärer Zeitentwicklungsoperator $\hat{T}$
+\begin{equation*}
+\hat{T}=e^{-\frac{i}{\hbar}(t-t_0)\hat{H}}
+\end{equation*}
+(keine explizite Zeitabh. weil Gesamtwelt) 
+
+Reiner Gesamtzustand $\hat{\rho}=\ket{\psi}\bra{\psi}$ mit Unterteilung in X und Y $\mathscr{H} = \mathscr{H}_X\otimes\mathscr{H}_Y$.
+
+$\{\ket{\phi_i}\}$ Basis in $\mathscr{H}_X$.
+$\{\ket{\chi_i}\}$ Basis in $\mathscr{H}_Y$.
+
+\begin{equation*}
+\ket{\psi}=\sum_{ij}c_{ij}\ket{\phi_i}\ket{\chi_j} \quad\quad
+\hat{\rho}=\sum_{ijkl}c_{ij}c_{kl}^*\ket{\phi_i}\ket{\chi_j}\bra{\phi_k}\bra{\chi_l}
+\end{equation*}
+
+$\{\ket{E_i}\}$ Basis der Eigenvektoren von $\hat{H}$ zu den Eigenwerten $E_i$. 
+
+\begin{equation*}
+\ket{\psi}(t_0)=\sum_{i}d_{i}\ket{E_i} \quad\quad
+\hat{\rho}(t_0)=\sum_{ij}d_{i}d_{j}^*\ket{E_i}\bra{E_j}
+\end{equation*}
+zur Zeit $t_0$.
+
+Energieeigenvektoren nach Produktbasis $\{\ket{\phi_i}\ket{\phi_j}\}$ entwickelt
+\begin{equation*}
+\ket{E_i(t_0)}=\sum_{jk}e_{ijk}\ket{\phi_j}\ket{\chi_k}
+\end{equation*}
+
+Zeitentwicklung Gesamtzustand
+\begin{equation*}
+\hat{\rho}(\Delta t)=\sum_{ij}d_{i}d_{j}^*\hat{T}\ket{E_i}\bra{E_j}{\hat{T}}^\dagger
+= \sum_{ij}d_{i}d_{j}^* e^{-\Delta\omega_{ij}\Delta t} \ket{E_i}\bra{E_j}
+\end{equation*}
+Abkürzungen $\Delta t := t-t_0$ und $\Delta \omega_{ij} := \frac{i}{\hbar}(E_i - E_j)$
+
+Gesamtzustand unterteilt in X und Y
+\begin{equation*}
+\hat{\rho}(\Delta t)=
+= \sum_{ijklmn}d_{i}d_{j}^* e^{-\Delta\omega_{ij}\Delta t} 
+e_{ikl}e_{jmn}\ket{\phi_k}\ket{\chi_l}\bra{\phi_m}\bra{\chi_n}
+\ket{E_i}\bra{E_j}
+\end{equation*}
+
+
+
+Gemischter Zustand z.B. in X, Spur über Y gebildet mit den $\ket{\chi_p}\}$
+\begin{equation*}
+\hat{\rho}_X(\Delta t)
+= \sum_{ijklmnp}d_{i}d_{j}^* e^{-\Delta\omega_{ij}\Delta t} 
+e_{ikl}e_{jmn}^* \ket{\phi_k}\bra{\chi_p}\ket{\chi_l}\bra{\phi_m}\bra{\chi_n}\ket{\chi_p}
+\end{equation*}
+
+\begin{equation*}
+\hat{\rho}_X(\Delta t)
+= \sum_{ijkmp}d_{i}d_{j}^* e_{ikl}e_{jmn}^* e^{-\Delta\omega_{ij}\Delta t} 
+ \ket{\phi_k}\bra{\phi_m}
+\end{equation*}
+ist quasiperiodisch mit den Frequenzen $\delta \omega_{ij}$.
+
+Entropie gebildet durch Spur über Operator $\hat{\rho}_X \ln \hat{\rho}_X$ mit den $\{\ket{\phi_q}\}$
+
+\begin{equation*}
+S = -\sum_q \bra{\phi_q} \left( \hat{\rho}_X(\Delta t) \ln \hat{\rho}_X(\Delta t) \right) \ket{\phi_q}
+\end{equation*}
+auch quasiperiodisch in diskreten Hilberträumen. 
+
+Kontinuierlicher Fall: beliebige Zeitentwicklungen denkbar. 
+
 
 \section{Anhang C: Gnu Octave Programm}
 Mit diesem Programm wurden die Zahlenbeispiele für diesen Artikel berechnet.

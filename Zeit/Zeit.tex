@@ -209,7 +209,7 @@ p_2 & p_1 & p_0 &&&
 00_{ext} \\ 11_{ext} \\ 22_{ext} \\ 00_{int} \\ 11_{int} \\ 22_{int}
 \end{matrix}
 \end{equation}
-Das Quadrat der Matrix $P$, also $Q:=P^2$, bedeutet einen Wechsel auf die interne Sicht und wieder zurück. Sie steht quasi für einen Tick der Zeit und liefert die Wahrscheinlichkeiten, mit denen der externe Beobachter einen bestimmten x,t-verschränkten Zustand nach dem Tick beobachtet in Abhängigkeit des Zustands vor dem Tick.
+Das Quadrat der Matrix $P$, also $Q:=P^2$, bedeutet einen Wechsel auf die interne Sicht und wieder zurück. Es steht sozusagen für einen Tick der Zeit und liefert die Wahrscheinlichkeiten, mit denen der externe Beobachter einen bestimmten x,t-verschränkten Zustand nach dem Tick beobachtet in Abhängigkeit des Zustands vor dem Tick.
 
 Wir wählen nun konkrete Zahlenwerte für die Uhr. Im Anhang wird gezeigt, wie man auf geeignete Werte kommt.
 \begin{equation*}
@@ -413,75 +413,75 @@ N\, = \, \left( 1 +
 
 \section{Anhang B: Quasiperiodizität der Entropie nach der Schrödinger-Dynamik}
 
-Gesamt-Hamiltonoperator $\hat{H}$. Dann unitärer Zeitentwicklungsoperator $\hat{T}$
-\begin{equation*}
+% https://de.wikipedia.org/wiki/Zeitentwicklungsoperator
+Es sei $\hat{H}$ der Gesamt-Hamiltonoperator der Quantenwelt. Dann ist ihr \href{https://de.wikipedia.org/wiki/Zeitentwicklungsoperator}{unitärer Zeitentwicklungsoperator}, der Zustände und Operatoren von der Zeit $t_0$ zur Zeit $t$ transportiert
+\begin{equation}
+\label{eq:propagator}
 \hat{T}=e^{-\frac{i}{\hbar}(t-t_0)\hat{H}}
-\end{equation*}
-(keine explizite Zeitabh. weil Gesamtwelt) 
+\end{equation}
+In unserer Quanten-Gesamtwelt sollte es keine explizite, also klassisch von außen aufgeprägte Abhängigkeit des Hamilton-Operators geben. Würde man in der Gesamtwelt auf so eine Abhängigkeit stoßen, so müsste man die Theorie modifizieren, um diese Dynamik einzuschließen.
 
-Reiner Gesamtzustand $\hat{\rho}=\ket{\psi}\bra{\psi}$ mit Unterteilung in X und Y $\mathscr{H} = \mathscr{H}_X\otimes\mathscr{H}_Y$.
+Ein Gemisch für die Gesamtwelt sollte ebenfalls nicht vorliegen. Eine Verschränkung nach außerhalb kann es per Definition nicht geben, denn wir wollen die Gesamtwelt betrachten. Gäbe es anfangs ein Gemisch, wobei eine Entstehung durch klassisches "Würfeln" wieder auszuschließen wäre, so würde nach irgendeiner vollständigen "Messung" sofort ein reiner Zustand vorliegen und nach der Schrödinger-Dynamik für immer rein bleiben. 
 
-$\{\ket{\phi_i}\}$ Basis in $\mathscr{H}_X$.
-$\{\ket{\chi_i}\}$ Basis in $\mathscr{H}_Y$.
+Wir betrachten also die Zeitentwicklung der \href{https://de.wikipedia.org/wiki/Entropie#Von-Neumann-Entropie}{von-Neumann-Entropie} eines reinen Gesamtzustands $\hat{\rho}=\ket{\psi}\bra{\psi}$. Dieser Zustand lässt sich nach einer beliebigen Orthonormalbasis entwicklen. Wir nehmen dazu die Basis $\{\ket{E_i}\}$ der Eigenvektoren von $\hat{H}$ zu den Eigenwerten $E_i$.
+\begin{equation}
+\label{eq:psi_energy}
+\ket{\psi}=\sum_{i}d_{i}\ket{E_i} \quad\quad
+\hat{\rho}=\sum_{ij}d_{i}d_{j}^*\ket{E_i}\bra{E_j}
+\end{equation}
+Dieser reine Zustand bekommt Entropie und Verschränkung durch eine gedachte Zweiteilung des Gesamtraums in die mit X und Y bezeichneten Teilräume $\mathscr{H} = \mathscr{H}_X\otimes\mathscr{H}_Y$.
 
-\begin{equation*}
+Sei $\{\ket{\phi_i}\}$ eine Basis in $\mathscr{H}_X$ und $\{\ket{\chi_i}\}$ eine Basis in $\mathscr{H}_Y$. Der Gesamtweltzustand lässt sich nach der Produktbasis $\{\ket{\phi_i}\ket{\phi_j}\}$ entwickeln.
+\begin{equation}
+\label{eq:psi_product}
 \ket{\psi}=\sum_{ij}c_{ij}\ket{\phi_i}\ket{\chi_j} \quad\quad
 \hat{\rho}=\sum_{ijkl}c_{ij}c_{kl}^*\ket{\phi_i}\ket{\chi_j}\bra{\phi_k}\bra{\chi_l}
-\end{equation*}
+\end{equation}
+Auch jeder Energieeigenvektor lässt sich nach dieser (oder jeder anderen) Produktbasis entwickeln
+\begin{equation}
+\label{eq:energy_eigenvector}
+\ket{E_i}=\sum_{jk}e_{ijk}\ket{\phi_j}\ket{\chi_k}
+\end{equation}
 
-$\{\ket{E_i}\}$ Basis der Eigenvektoren von $\hat{H}$ zu den Eigenwerten $E_i$. 
-
-\begin{equation*}
-\ket{\psi}(t_0)=\sum_{i}d_{i}\ket{E_i} \quad\quad
-\hat{\rho}(t_0)=\sum_{ij}d_{i}d_{j}^*\ket{E_i}\bra{E_j}
-\end{equation*}
-zur Zeit $t_0$.
-
-Energieeigenvektoren nach Produktbasis $\{\ket{\phi_i}\ket{\phi_j}\}$ entwickelt
-\begin{equation*}
-\ket{E_i(t_0)}=\sum_{jk}e_{ijk}\ket{\phi_j}\ket{\chi_k}
-\end{equation*}
-
-Zeitentwicklung Gesamtzustand
-\begin{equation*}
+Der Gesamtzustand (\ref{eq:psi_energy})/(\ref{eq:psi_product}) soll sich nach der Schrödinger-Dynamik (\ref{eq:propagator}) entwickeln
+\begin{equation}
+\label{eq:total_dynamic}
 \hat{\rho}(\Delta t)=\sum_{ij}d_{i}d_{j}^*\hat{T}\ket{E_i}\bra{E_j}{\hat{T}}^\dagger
 = \sum_{ij}d_{i}d_{j}^* e^{-\Delta\omega_{ij}\Delta t} \ket{E_i}\bra{E_j}
-\end{equation*}
-Abkürzungen $\Delta t := t-t_0$ und $\Delta \omega_{ij} := \frac{i}{\hbar}(E_i - E_j)$
-
-Gesamtzustand unterteilt in X und Y
+\end{equation}
+wobei wir die Abkürzungen $\Delta t := t-t_0$ und $\Delta \omega_{ij} := \frac{i}{\hbar}(E_i - E_j)$ eingeführt haben. Setzen wir die Entwicklung (\ref{eq:energy_eigenvector}) nach der Produktbasis ein, dann wird  (\ref{eq:total_dynamic}) zu 
 \begin{equation*}
-\hat{\rho}(\Delta t)=
-= \sum_{ijklmn}d_{i}d_{j}^* e^{-\Delta\omega_{ij}\Delta t} 
+\hat{\rho}(\Delta t) = \sum_{ijklmn}d_{i}d_{j}^* e^{-\Delta\omega_{ij}\Delta t} 
 e_{ikl}e_{jmn}\ket{\phi_k}\ket{\chi_l}\bra{\phi_m}\bra{\chi_n}
-\ket{E_i}\bra{E_j}
 \end{equation*}
+Zur Berechnung der von-Neumann-Entropie brauchen wir zunächst den Dichteoperator eines Teilsystems und berechnen die Entropie danach durch Spurbildung über das andere Teilsystem. Für welches Teilsystem wir uns dabei zuerst entscheiden ist egal\footnote{was sich leicht beweisen lässt}. 
 
+Dieser Punkt ist ontologisch durchaus wichtig. Die Verschränkungs-Entropie ist eine Eigenschaft der Beziehung zwischen Teilen und kann keinem Teil alleine zugeschrieben werden, während man die Entropie der klassischen Thermodynamik einem Teil, einem "abgeschlossenen System" zuschreibt und sie als \href{https://de.wikipedia.org/wiki/Extensive_Gr%C3%B6%C3%9Fe}{extensive, mit dem Volumen wachsende Größe} ansieht. Auch die Entropie schwarzer Löcher sieht man Stand 2021 überwiegend als Eigenschaft eines Teils, des schwarzen Lochs, an und nicht als Eigenschaft der Beziehung zwischen schwarzem Loch und Restwelt, und das obwohl das Anwachsen der Entropie mit der Fläche am Ereignishorizont ein deutlicher Hinweis auf eine Beziehungsentropie ist. Bei sehr ungleicher Teilung in einen kleinen Raum X und einen sehr großen Raum Y ist bei diskreten Räumen eben die Mächtigkeit des kleinen Raums bestimmend für die Informationsmenge, die maximal zwischen X und Y ausgetauscht werden kann. Diese Maximum ist flapsig gesprochen die "Anzahl der Qubits von X".
 
-
-Gemischter Zustand z.B. in X, Spur über Y gebildet mit den $\ket{\chi_p}\}$
+Wir entscheiden uns für das Teil X und bilden dessen Dichteoperator durch Ausspuren über Y mit den $\{\ket{\chi_p}\}$
 \begin{equation*}
+\begin{split}
 \hat{\rho}_X(\Delta t)
 = \sum_{ijklmnp}d_{i}d_{j}^* e^{-\Delta\omega_{ij}\Delta t} 
 e_{ikl}e_{jmn}^* \ket{\phi_k}\bra{\chi_p}\ket{\chi_l}\bra{\phi_m}\bra{\chi_n}\ket{\chi_p}
-\end{equation*}
-
-\begin{equation*}
-\hat{\rho}_X(\Delta t)
+\hat{\rho}_X(\Delta t) 
+\\
 = \sum_{ijkmp}d_{i}d_{j}^* e_{ikl}e_{jmn}^* e^{-\Delta\omega_{ij}\Delta t} 
  \ket{\phi_k}\bra{\phi_m}
+\end{split}
 \end{equation*}
-ist quasiperiodisch mit den Frequenzen $\delta \omega_{ij}$.
-
-Entropie gebildet durch Spur über Operator $\hat{\rho}_X \ln \hat{\rho}_X$ mit den $\{\ket{\phi_q}\}$
-
+Dieser Dichteoperator ist quasiperiodisch mit den Frequenzen $\Delta \omega_{ij}$. Die Entropie erhalten wir durch Spurbildung über den Operator $\hat{\rho}_X \ln \hat{\rho}_X$ mit den $\{\ket{\phi_q}\}$
 \begin{equation*}
 S = -\sum_q \bra{\phi_q} \left( \hat{\rho}_X(\Delta t) \ln \hat{\rho}_X(\Delta t) \right) \ket{\phi_q}
 \end{equation*}
-auch quasiperiodisch in diskreten Hilberträumen. 
+Damit können in $S$ auch nur endlich viele diskrete Frequenzen zur Zeitentwicklung beitragen. Die von-Neumann-Entropie entwickelt sich in diskreten Hilberträumen quasiperiodisch in der Zeit. 
 
-Kontinuierlicher Fall: beliebige Zeitentwicklungen denkbar. 
-
+Im kontinuierlichen Fall geschieht Analoges wie beim Übergang von einer Fourier-Reihe zur Fourier-Transformation: es lassen sich auch aperiodische Funktionen darstellen. Die Frage, ob die Natur eher mit einem diskreten oder kontinuierlichen Hilbertraum modelliert werden sollte, könnte noch sehr wichtig werden.
+\begin{center}
+\textit{Real numbers can’t exist, because you can’t hide them inside black holes.} \\
+\href{
+https://www.quantamagazine.org/does-time-really-flow-new-clues-come-from-a-century-old-approach-to-math-20200407/}{Ahmed Almheiri}
+\end{center}
 
 \section{Anhang C: Gnu Octave Programm}
 Mit diesem Programm wurden die Zahlenbeispiele für diesen Artikel berechnet.

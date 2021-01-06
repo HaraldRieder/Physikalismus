@@ -65,7 +65,7 @@ Durch Beobachtung von außen, sowie durch Symmetrien, die wir aus der Erfahrung 
 Wenn wir die physikalische Zeit ähnlich wie den Ort behandeln wollen, dann muss die Zeitkoordinate $t$ ebenso ein reellwertiger kontinuierlicher Index sein. Das heißt
 \begin{equation} 
 \label{eq:psi_xt}
-\psi(x,t) \equiv \bra{x,t}\ket{\psi} 
+\psi(t,x) \equiv \bra{t,x}\ket{\psi} 
 \end{equation}
 Die Indizes $x$ und $t$ nummerieren nun zusammen eine Produktbasis aus Orts- und Zeiteigenvektoren. Wir könnten aufgrund der Gleichmächtigkeit von $\mathbb{R}$ mit $\mathbb{R}^2$ diesen Index durch einen gemeinsamen reellwertigen Index $s = s(x,t)$ ersetzen und kämen damit wieder auf die Form
 \begin{equation}
@@ -85,12 +85,12 @@ Wir nehmen an, dass der Beobachter aus seinem Hilbert-Raum $\mathscr{H}_X$ herau
 Ein guter Uhrenzustand kann also ein Zustandsvektor im Produktraum $\mathscr{H}_x \otimes \mathscr{H}_t$ sein, der Orts- und Zeitunterräume maximal verschränkt. Wenn $\delta(x-\xi)$ die Amplituden von Ortseigenvektoren im Ortsunterraum in der Ortsdarstellung sind, und $\delta(t-\tau)$ die Amplituden von Zeiteigenvektoren im Zeitunterraum in der Zeitdarstellung, dann sind\footnote{Fortan lassen wir die Integralgrenzen weg, wenn sie im Unendlichen liegen.}
 \begin{equation} 
 \label{eq:psi_clock}
-\psi(x,t) \sim \int_{-\infty}^{\infty} d\chi \delta(x-\chi) \delta(t-\chi) = \delta(x-t)
+\psi(t,x) \sim \int_{-\infty}^{\infty} \mathrm d\chi \, \delta(t-\chi) \delta(x-\chi) = \delta(t-x)
 \end{equation}
 die Amplituden eines maximal verschränkten Zustands, der aus der Beobachtung von $\xi$ sicher auf die Zeit $\tau$ schließen lässt. Durch die Beobachtung (oder Messung) "kollabiert die Überlagerung"
 \begin{equation} 
 \label{eq:collapse}
-\int d\chi \delta(x-\chi) \delta(t-\chi) \quad \rightarrow \quad \delta(x-\chi)\delta(t-\chi)
+\int \mathrm d\chi \, \delta(t-\chi) \delta(x-\chi) \quad \rightarrow \quad \delta(t-\chi)\delta(x-\chi)
 \end{equation}
 Dadurch ist die Uhr zunächst kaputtgegangen. Denn durch verträgliche Messungen, also wiederholte Ortsmessungen, werden wir immer wieder nur diesen Zustand und damit die Zeit $\chi$ antreffen. Es fehlt also ein Mechanismus, der die Uhr wieder scharfschaltet, sie in ihren verschränkten Zustand zurückbringt.
 
@@ -295,11 +295,11 @@ Wir nehmen an, dass eine Beobachterin A im Hilbert-Raum $\mathscr{H}_Y$ das Syst
 \end{center}\end{figure}
 Die Beobachterin wechselwirkt mit ihren eigenen Uhren und erlebt dadurch ein Fortschreiten ihrer Zeit. Von Zeit zu Zeit koppelt sie sich mit einem Wechselwirkungs-Hamiltonian $H(Y,X)$ an den Beobachter B, um ihn nach seiner Zeit zu fragen. Wenn B antwortet, dass er $\chi$ gemessen habe, dann weiß sie, dass das System im Zustand 
 \begin{equation}
-\ket{X=\chi}\ket{\chi\chi}
+\ket{X=\chi}\,\ket{\chi\chi}
 \end{equation}
 ist - oder gerade noch gewesen ist. Die Abfrage der Zeit von B durch A ist natürlich auch ein Quantenprozess. Wir können ihn uns als Dekohärenz-Prozess im Grenzfall einer Quantenmessung vorstellen. Das heißt, wenn B "das Wissen $\chi$" erlangt hat, soll im Idealfall der Gesamtzustand
 \begin{equation}
-\ket{\Theta}\ =\ \ket{Y=\chi}\ket{X=\chi}\ket{\chi\chi}
+\ket{\Theta}\ =\ \ket{Y=\chi}\,\ket{X=\chi}\,\ket{\chi\chi}
 \end{equation}
 vorliegen.\footnote{Bei makroskopischen Beobachtern müssen wir uns die Unterräume von $\mathscr{H}_Y$ und $\mathscr{H}_X$ zum Messwert $\chi$ stark entartet denken.}  Dieser reine Zustand hat die Entropie 0. Formal können wir den Dichteoperator $\hat{\rho}$ des Systems durch Ausspuren der Freiheitsgrade von Y bilden
 \begin{equation}
@@ -347,15 +347,31 @@ Nun kommen wir zurück auf unser einfaches Beispiel und sehen nach, wie sich dor
  \hline
 \end{tabular}
 \end{center}
-Durch den Verzicht auf quantenmechanische Prozesse des Typs 2, das heißt durch die Beschränkung auf unistochastische Prozesse des Typs 1, erhalten wir mit dem Anwachsen der Zeit zunehmend gemischtere Zustände. Wir bekommen eine Richtung in der psychischen Zeit, in der die Entropie wächst, ohne dass die physikalische Koordinate t dafür eine Richtung bekommen musste. Bei Prozessen des Typs 2, der Schrödinger-Dynamik, kann die Entropie bestenfalls quasiperiodisch von der (physikalischen) Zeit abhängen.\footnote{Siehe Anhang.}
+Durch den Verzicht auf quantenmechanische Prozesse des Typs 2, das heißt durch die Beschränkung auf unistochastische Prozesse des Typs 1, erhalten wir mit dem Anwachsen der Zeit zunehmend gemischtere Zustände. Wir bekommen eine Richtung in der psychischen Zeit, in der die Entropie wächst, ohne dass die physikalische Koordinate t dafür eine Richtung bekommen musste. Bei Prozessen des Typs 2, der Schrödinger-Dynamik, hängt die Entropie eher quasiperiodisch von der (physikalischen) Zeit ab.\footnote{Siehe Anhang.}
 
 \section{Mehr Raumdimensionen}
 
-Es stellt sich die Frage, wie ein x,t-verschränkter Zustand der Art (\ref{eq:psi_clock}) auf mehr kontinuierliche Raumdimensionen erweitert werden muss. Die Antwort findet sich ausgehend von einem diskreten Hilbertraum leicht.
+Es stellt sich die Frage, wie ein x,t-verschränkter Zustand der Art (\ref{eq:psi_clock}) auf mehr kontinuierliche Raumdimensionen erweitert werden muss. Die Antwort findet sich ausgehend von einem Beispiel im diskreten Hilbertraum.
+\begin{center}
+\begin{tabular}{ |c|c|c|c|c| } 
+ \hline
+ t & x & y & z & s \\ 
+ $\ket{t=0}$ & $\ket{x=0}$ & $\ket{y=0}$ & $\ket{z=2}$ & $\ket{s=0}$  \\
+ $\ket{t=1}$ & $\ket{x=0}$ & $\ket{y=1}$ & $\ket{z=3}$ & $\ket{s=1}$  \\
+ $\ket{t=2}$ & $\ket{x=1}$ & $\ket{y=2}$ & $\ket{z=4}$ & $\ket{s=2}$  \\
+ $\vdots$ & $\vdots$ & $\vdots$ & $\vdots$ & $\vdots$ \\
+ \hline
+\end{tabular}
+\end{center}
+Nach einer Umindexierung $u: \mathbb{R}^3 \rightarrow \mathbb{R}, (x,y,z) \mapsto s$ entspricht $s$ einem Bahnparameter. Die Verallgemeinerung von (\ref{eq:psi_clock}) ist also ein Zustand der Art (\ref{eq:psi_s}) $\delta(t-s)$, bei der $s$ einen Bahnparameter darstellt.
 
-Tabelle mit x y z und s 
+Formal lässt sich mit der Wahl $t(s) = s$ schreiben
+\begin{equation} 
+\label{eq:psi_clock_3d_space}
+\psi(t,x,y,z) \sim \int \mathrm ds \, \mathrm dt \, \mathrm dx \, \mathrm dy \, \mathrm dz \, \delta(t-s) \, \delta(x-x(s)) \, \delta(y-y(s)) \, \delta(z-z(s)) = \delta(s-t) \sim \psi(s,t)
+\end{equation}
+Jede Weltlinie, die sich bei Projektion auf den dreidimensionalen Ortsraum nicht selbst schneidet, ist ein guter Uhrenzustand. 
 
-Die Verallgemeinerung von (\ref{eq:psi_clock}) ist also ein Zustand der Art (\ref{eq:psi_s}) $\delta(t-s)$, bei der $s$ einen Bahnparameter darstellt.
 
 \section{Eine relativbewegte Quantenuhr}
 
@@ -378,23 +394,23 @@ Wir kümmern uns hier nur um die $a_i$ und stauchen U auf eine 3x3-Matrix zusamm
 \begin{equation*}
 U\, =\, N \, 
 \begin{pmatrix}
-r_0 e^{i\alpha_0} & 1 & r_1 e^{i\alpha_1} \\
-r_1 e^{i\alpha_1} & r_0 e^{i\alpha_0} & 1 \\
-1 & r_1 e^{i\alpha_1} & r_0 e^{i\alpha_0}
+r_0 e^{\mathrm i\alpha_0} & 1 & r_1 e^{\mathrm i\alpha_1} \\
+r_1 e^{\mathrm i\alpha_1} & r_0 e^{\mathrm i\alpha_0} & 1 \\
+1 & r_1 e^{\mathrm i\alpha_1} & r_0 e^{\mathrm i\alpha_0}
 \end{pmatrix}
 \quad N, r_i, \alpha_i \in \mathbb{R}
 \end{equation*}
 $N$ ist eine noch zu bestimmende Normierungskonstante. Damit die Spaltenvektoren paarweise orthogonal sind, muss gelten
 \begin{equation*}
-r_0 e^{i\alpha_0} + r_0 r_1 e^{i(\alpha_1 - \alpha_0)} + r_1 e^{-i\alpha_1} = 0
+r_0 e^{\mathrm  i\alpha_0} + r_0 r_1 e^{\mathrm i(\alpha_1 - \alpha_0)} + r_1 e^{- \mathrm  i\alpha_1} = 0
 \end{equation*}
 und damit 
 \begin{equation*}
-r_0 = - \frac{r_1 e^{-i\alpha_1}}{ e^{i\alpha_0} + r_1 e^{i(\alpha_1 - \alpha_0)} }
+r_0 = - \frac{r_1 e^{-\mathrm i\alpha_1}}{ e^{\mathrm i\alpha_0} + r_1 e^{\mathrm i(\alpha_1 - \alpha_0)} }
 \end{equation*}
 Gemäß Voraussetzung muss diese Größe reell sein. Wenn wir mit dem konjungiert komplexen Nenner erweitern wird der Nenner reell und der Zähler wird zu
 \begin{equation*}
--r_1 \left( e^{-i(\alpha_0+\alpha_1)} + r_1 e^{i(\alpha_0-2\alpha_1)} \right)
+-r_1 \left( e^{-\mathrm i(\alpha_0+\alpha_1)} + r_1 e^{\mathrm i(\alpha_0-2\alpha_1)} \right)
 \end{equation*}
 Damit dieser Term reell wird, muss sein
 \begin{equation*}
@@ -411,13 +427,13 @@ N\, = \, \left( 1 +
 \frac{sin^2(\alpha_0+\alpha_1)}{sin^2(\alpha_0-2\alpha_1)} \right)^{-\frac{1}{2}}
 \end{equation*}
 
-\section{Anhang B: Quasiperiodizität der Entropie nach der Schrödinger-Dynamik}
+\section{Anhang B: Zeitentwicklung der Entropie nach der Schrödinger-Dynamik}
 
 % https://de.wikipedia.org/wiki/Zeitentwicklungsoperator
 Es sei $\hat{H}$ der Gesamt-Hamiltonoperator der Quantenwelt. Dann ist ihr \href{https://de.wikipedia.org/wiki/Zeitentwicklungsoperator}{unitärer Zeitentwicklungsoperator}, der Zustände und Operatoren von der Zeit $t_0$ zur Zeit $t$ transportiert
 \begin{equation}
 \label{eq:propagator}
-\hat{T}=e^{-\frac{i}{\hbar}(t-t_0)\hat{H}}
+\hat{T}=e^{-\frac{\mathrm i}{\hbar}(t-t_0)\hat{H}}
 \end{equation}
 In unserer Quanten-Gesamtwelt sollte es keine explizite, also klassisch von außen aufgeprägte Abhängigkeit des Hamilton-Operators geben. Würde man in der Gesamtwelt auf so eine Abhängigkeit stoßen, so müsste man die Theorie modifizieren, um diese Dynamik einzuschließen.
 
@@ -440,43 +456,48 @@ Sei $\{\ket{\phi_i}\}$ eine Basis in $\mathscr{H}_X$ und $\{\ket{\chi_i}\}$ eine
 Auch jeder Energieeigenvektor lässt sich nach dieser (oder jeder anderen) Produktbasis entwickeln
 \begin{equation}
 \label{eq:energy_eigenvector}
-\ket{E_i}=\sum_{jk}e_{ijk}\ket{\phi_j}\ket{\chi_k}
+\ket{E_i}=\sum_{jk}f_{ijk}\ket{\phi_j}\ket{\chi_k}
 \end{equation}
 
 Der Gesamtzustand (\ref{eq:psi_energy})/(\ref{eq:psi_product}) soll sich nach der Schrödinger-Dynamik (\ref{eq:propagator}) entwickeln
 \begin{equation}
 \label{eq:total_dynamic}
 \hat{\rho}(\Delta t)=\sum_{ij}d_{i}d_{j}^*\hat{T}\ket{E_i}\bra{E_j}{\hat{T}}^\dagger
-= \sum_{ij}d_{i}d_{j}^* e^{-\Delta\omega_{ij}\Delta t} \ket{E_i}\bra{E_j}
+= \sum_{ij}d_{i}d_{j}^* e^{-\mathrm i \Delta\omega_{ij}\Delta t} \ket{E_i}\bra{E_j}
 \end{equation}
-wobei wir die Abkürzungen $\Delta t := t-t_0$ und $\Delta \omega_{ij} := \frac{i}{\hbar}(E_i - E_j)$ eingeführt haben. Setzen wir die Entwicklung (\ref{eq:energy_eigenvector}) nach der Produktbasis ein, dann wird  (\ref{eq:total_dynamic}) zu 
+wobei wir die Abkürzungen $\Delta t := t-t_0$ und $\Delta \omega_{ij} := \frac{E_i - E_j}{\hbar}$ eingeführt haben. Setzen wir die Entwicklung (\ref{eq:energy_eigenvector}) nach der Produktbasis ein, dann wird  (\ref{eq:total_dynamic}) zu 
 \begin{equation*}
-\hat{\rho}(\Delta t) = \sum_{ijklmn}d_{i}d_{j}^* e^{-\Delta\omega_{ij}\Delta t} 
-e_{ikl}e_{jmn}\ket{\phi_k}\ket{\chi_l}\bra{\phi_m}\bra{\chi_n}
+\hat{\rho}(\Delta t) = \sum_{ijklmn}d_{i}d_{j}^* e^{-\mathrm i \Delta\omega_{ij}\Delta t} 
+f_{ikl}f_{jmn}^*\ket{\phi_k}\ket{\chi_l}\bra{\phi_m}\bra{\chi_n}
 \end{equation*}
 Zur Berechnung der von-Neumann-Entropie brauchen wir zunächst den Dichteoperator eines Teilsystems und berechnen die Entropie danach durch Spurbildung über das andere Teilsystem. Für welches Teilsystem wir uns dabei zuerst entscheiden ist egal\footnote{was sich leicht beweisen lässt}. 
 
 Dieser Punkt ist ontologisch durchaus wichtig. Die Verschränkungs-Entropie ist eine Eigenschaft der Beziehung zwischen Teilen und kann keinem Teil alleine zugeschrieben werden, während man die Entropie der klassischen Thermodynamik einem Teil, einem "abgeschlossenen System" zuschreibt und sie als \href{https://de.wikipedia.org/wiki/Extensive_Gr%C3%B6%C3%9Fe}{extensive, mit dem Volumen wachsende Größe} ansieht. Auch die Entropie schwarzer Löcher sieht man Stand 2021 überwiegend als Eigenschaft eines Teils, des schwarzen Lochs, an und nicht als Eigenschaft der Beziehung zwischen schwarzem Loch und Restwelt, und das obwohl das Anwachsen der Entropie mit der Fläche am Ereignishorizont ein deutlicher Hinweis auf eine Beziehungsentropie ist. Bei sehr ungleicher Teilung in einen kleinen Raum X und einen sehr großen Raum Y ist bei diskreten Räumen eben die Mächtigkeit des kleinen Raums bestimmend für die Informationsmenge, die maximal zwischen X und Y ausgetauscht werden kann. Diese Maximum ist flapsig gesprochen die "Anzahl der Qubits von X".
 
 Wir entscheiden uns für das Teil X und bilden dessen Dichteoperator durch Ausspuren über Y mit den $\{\ket{\chi_p}\}$
-\begin{equation*}
+\begin{equation}
+\label{eq:rho_quasiperiodic}
 \begin{split}
 \hat{\rho}_X(\Delta t)
-= \sum_{ijklmnp}d_{i}d_{j}^* e^{-\Delta\omega_{ij}\Delta t} 
-e_{ikl}e_{jmn}^* \ket{\phi_k}\bra{\chi_p}\ket{\chi_l}\bra{\phi_m}\bra{\chi_n}\ket{\chi_p}
+= \sum_{ijklmnp}d_{i}d_{j}^* e^{-\mathrm i \Delta\omega_{ij}\Delta t} 
+f_{ikl}f_{jmn}^* \ket{\phi_k}\bra{\chi_p}\ket{\chi_l}\bra{\phi_m}\bra{\chi_n}\ket{\chi_p}
 \hat{\rho}_X(\Delta t) 
 \\
-= \sum_{ijkmp}d_{i}d_{j}^* e_{ikl}e_{jmn}^* e^{-\Delta\omega_{ij}\Delta t} 
- \ket{\phi_k}\bra{\phi_m}
+= \sum_{ijkmp}d_{i}d_{j}^* f_{ikp}f_{jmp}^* e^{-\mathrm i \Delta\omega_{ij}\Delta t} 
+ \ket{\phi_k}\bra{\phi_m} 
+\ := \sum_{rkm}g_{rkm} e^{-\mathrm i \omega_{r}\Delta t} \hat{P}_{km}
 \end{split}
-\end{equation*}
-Dieser Dichteoperator ist quasiperiodisch mit den Frequenzen $\Delta \omega_{ij}$. Die Entropie erhalten wir durch Spurbildung über den Operator $\hat{\rho}_X \ln \hat{\rho}_X$ mit den $\{\ket{\phi_q}\}$
-\begin{equation*}
+\end{equation}
+Dieser Dichteoperator ist quasiperiodisch mit den Frequenzen $\omega_r := \Delta \omega_{ij}$. Die Entropie erhalten wir durch Spurbildung über den Operator $\hat{\rho}_X \ln \hat{\rho}_X$ mit den $\{\ket{\phi_q}\}$
+\begin{equation}
+\label{eq:S_quasiperiodic}
 S = -\sum_q \bra{\phi_q} \left( \hat{\rho}_X(\Delta t) \ln \hat{\rho}_X(\Delta t) \right) \ket{\phi_q}
-\end{equation*}
-Damit können in $S$ auch nur endlich viele diskrete Frequenzen zur Zeitentwicklung beitragen. Die von-Neumann-Entropie entwickelt sich in diskreten Hilberträumen quasiperiodisch in der Zeit. 
+\end{equation}
+Die Reihenentwicklung des Logarithmus\footnote{über die der Operator-Logarithmus ja definiert ist} sorgt nun dafür, dass von der Summe (\ref{eq:rho_quasiperiodic}) beliebig hohe $n$-te Potenzen auftreten und damit beliebig viele weitere Summenfrequenzen $\sum n_i\omega_{r_i}$. (\ref{eq:S_quasiperiodic}) erscheint dadurch potentiell unberechenbarer als (\ref{eq:rho_quasiperiodic}). Dennoch kann vermutet werden, dass wenn ähnliche "Werte" von $\hat{\rho}_X$ "wiederkehren", aufgrund der Glattheit der Funktionen in (\ref{eq:S_quasiperiodic}) auch ähnliche Entropiewerte wiederkehren.
 
-Im kontinuierlichen Fall geschieht Analoges wie beim Übergang von einer Fourier-Reihe zur Fourier-Transformation: es lassen sich auch aperiodische Funktionen darstellen. Die Frage, ob die Natur eher mit einem diskreten oder kontinuierlichen Hilbertraum modelliert werden sollte, könnte noch sehr wichtig werden.
+Nun können wir sehen, dass wir am Anfang auch einen gemischten Weltzustand hätten zulassen können: an der prinzipiellen Art, wie die Differenzfrequenzen den Dichteoperator treiben, hätte sich nichts geändert.
+
+Im kontinuierlichen Fall geschieht Analoges wie beim Übergang von einer Fourier-Reihe zur Fourier-Transformation: es lassen sich auch aperiodische Funktionen darstellen. Die Frage, ob die Natur eher mit einem diskreten oder kontinuierlichen Vektorraum modelliert werden sollte, könnte im Hinblick auf den 2. Hauptsatz der Thermodynamik durchaus noch entscheidend werden.
 \begin{center}
 \textit{Real numbers can’t exist, because you can’t hide them inside black holes.} \\
 \href{https://www.quantamagazine.org/does-time-really-flow-new-clues-come-from-a-century-old-approach-to-math-20200407/}{Ahmed Almheiri}

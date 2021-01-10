@@ -295,16 +295,16 @@ Wir nehmen an, dass eine Beobachterin A im Hilbert-Raum $\mathscr{H}_Y$ das Syst
 \end{center}\end{figure}
 Die Beobachterin wechselwirkt mit ihren eigenen Uhren und erlebt dadurch ein Fortschreiten ihrer Zeit. Von Zeit zu Zeit koppelt sie sich mit einem Wechselwirkungs-Hamiltonian $H(Y,X)$ an den Beobachter B, um ihn nach seiner Zeit zu fragen. Wenn B antwortet, dass er $\chi$ gemessen habe, dann weiß sie, dass das System im Zustand 
 \begin{equation}
-\ket{X=\chi}\,\ket{\chi\chi}
+\ket{X=\chi}\otimes\ket{\chi\chi}
 \end{equation}
 ist - oder gerade noch gewesen ist. Die Abfrage der Zeit von B durch A ist natürlich auch ein Quantenprozess. Wir können ihn uns als Dekohärenz-Prozess im Grenzfall einer Quantenmessung vorstellen. Das heißt, wenn B "das Wissen $\chi$" erlangt hat, soll im Idealfall der Gesamtzustand
 \begin{equation}
-\ket{\Theta}\ =\ \ket{Y=\chi}\,\ket{X=\chi}\,\ket{\chi\chi}
+\ket{\Theta}\ \ =\ \ \ket{Y=\chi}\otimes\ket{X=\chi}\otimes\ket{\chi\chi}
 \end{equation}
 vorliegen.\footnote{Bei makroskopischen Beobachtern müssen wir uns die Unterräume von $\mathscr{H}_Y$ und $\mathscr{H}_X$ zum Messwert $\chi$ stark entartet denken.}  Dieser reine Zustand hat die Entropie 0. Formal können wir den Dichteoperator $\hat{\rho}$ des Systems durch Ausspuren der Freiheitsgrade von Y bilden
 \begin{equation}
 \hat{\rho}_{\chi,\chi\chi}\ =\ \operatorname{Spur}_Y \ket{\Theta}\bra{\Theta}\ =\ 
-\ket{X=\chi}\ket{\chi\chi} \bra{\chi\chi}\bra{X=\chi} 
+\ket{X=\chi}\otimes\ket{\chi\chi}\ \bra{\chi\chi}\otimes\bra{X=\chi} 
 \end{equation}
 und erhalten für dessen von-Neumann-Entropie
 \begin{equation}
@@ -316,7 +316,7 @@ p_i=\sum_j \{Q^\tau\}_{ij}\, \delta_{j\chi}
 \end{equation}
 sind. Nun haben wir aus Sicht von B ein Gemisch im System vorliegen
 \begin{equation}
-\hat{\rho}_{X,xt}\ = \ \sum_{i=0}^{n-1} p_i \ket{X=i}\ket{ii} \bra{ii}\bra{X=i} 
+\hat{\rho}_{X,xt}\ = \ \sum_{i=0}^{n-1} p_i \ket{X=i}\otimes\ket{ii}\ \bra{ii}\otimes\bra{X=i} 
 \end{equation}
 $n$ soll für die endliche Mächtigkeit des Hilbertraums des Systems stehen. Im Limes $\tau\rightarrow\infty$ streben die $p_i$ nach demselben Wert $p_\infty=n^{-1}$, was die Maximierung der von-Neumann-Entropie des Systems bedeutet. Mit den Matrixelementen von $\hat{\rho}_{X,xt}$ ausgedrückt
 \begin{equation}
@@ -447,7 +447,7 @@ Wir betrachten also die Zeitentwicklung der \href{https://de.wikipedia.org/wiki/
 \end{equation}
 Dieser reine Zustand bekommt Entropie und Verschränkung durch eine gedachte Zweiteilung des Gesamtraums in die mit X und Y bezeichneten Teilräume $\mathscr{H} = \mathscr{H}_X\otimes\mathscr{H}_Y$.
 
-Sei $\{\ket{\phi_i}\}$ eine Basis in $\mathscr{H}_X$ und $\{\ket{\chi_i}\}$ eine Basis in $\mathscr{H}_Y$. Der Gesamtweltzustand lässt sich nach der Produktbasis $\{\ket{\phi_i}\ket{\phi_j}\}$ entwickeln.
+Sei $\{\ket{\phi_i}\}$ eine Basis in $\mathscr{H}_X$ und $\{\ket{\chi_j}\}$ eine Basis in $\mathscr{H}_Y$. Der Gesamtweltzustand lässt sich nach der Produktbasis $\{\ket{\phi_i}\ket{\chi_j}\}$ entwickeln.
 \begin{equation}
 \label{eq:psi_product}
 \ket{\psi}=\sum_{ij}c_{ij}\ket{\phi_i}\ket{\chi_j} \quad\quad
@@ -470,7 +470,7 @@ wobei wir die Abkürzungen $\Delta t := t-t_0$ und $\Delta \omega_{ij} := \frac{
 \hat{\rho}(\Delta t) = \sum_{ijklmn}d_{i}d_{j}^* e^{-\mathrm i \Delta\omega_{ij}\Delta t} 
 f_{ikl}f_{jmn}^*\ket{\phi_k}\ket{\chi_l}\bra{\phi_m}\bra{\chi_n}
 \end{equation*}
-Zur Berechnung der von-Neumann-Entropie brauchen wir zunächst den Dichteoperator eines Teilsystems und berechnen die Entropie danach durch Spurbildung über das andere Teilsystem. Für welches Teilsystem wir uns dabei zuerst entscheiden ist egal\footnote{was sich leicht beweisen lässt}. 
+Zur Berechnung der von-Neumann-Entropie brauchen wir zunächst den Dichteoperator eines Teils und berechnen die Entropie danach durch Spurbildung über das andere Teil.\footnote{Für welches Teil wir uns dabei zuerst entscheiden ist egal, was sich leicht zeigen lässt.}
 
 Dieser Punkt ist ontologisch durchaus wichtig. Die Verschränkungs-Entropie ist eine Eigenschaft der Beziehung zwischen Teilen und kann keinem Teil alleine zugeschrieben werden, während man die Entropie der klassischen Thermodynamik einem Teil, einem "abgeschlossenen System" zuschreibt und sie als \href{https://de.wikipedia.org/wiki/Extensive_Gr%C3%B6%C3%9Fe}{extensive, mit dem Volumen wachsende Größe} ansieht. Auch die Entropie schwarzer Löcher sieht man Stand 2021 überwiegend als Eigenschaft eines Teils, des schwarzen Lochs, an und nicht als Eigenschaft der Beziehung zwischen schwarzem Loch und Restwelt, und das obwohl das Anwachsen der Entropie mit der Fläche am Ereignishorizont ein deutlicher Hinweis auf eine Beziehungsentropie ist. Bei sehr ungleicher Teilung in einen kleinen Raum X und einen sehr großen Raum Y ist bei diskreten Räumen eben die Mächtigkeit des kleinen Raums bestimmend für die Informationsmenge, die maximal zwischen X und Y ausgetauscht werden kann. Diese Maximum ist flapsig gesprochen die "Anzahl der Qubits von X".
 
@@ -479,19 +479,30 @@ Wir entscheiden uns für das Teil X und bilden dessen Dichteoperator durch Aussp
 \label{eq:rho_quasiperiodic}
 \begin{split}
 \hat{\rho}_X(\Delta t)
-= \sum_{ijklmnp}d_{i}d_{j}^* e^{-\mathrm i \Delta\omega_{ij}\Delta t} 
+\ = \sum_{ijklmnp}d_{i}d_{j}^* e^{-\mathrm i \Delta\omega_{ij}\Delta t} 
 f_{ikl}f_{jmn}^* \ket{\phi_k}\bra{\chi_p}\ket{\chi_l}\bra{\phi_m}\bra{\chi_n}\ket{\chi_p}
 \hat{\rho}_X(\Delta t) 
 \\
 = \sum_{ijkmp}d_{i}d_{j}^* f_{ikp}f_{jmp}^* e^{-\mathrm i \Delta\omega_{ij}\Delta t} 
  \ket{\phi_k}\bra{\phi_m} 
-\ := \sum_{rkm}g_{rkm} e^{-\mathrm i \omega_{r}\Delta t} \hat{P}_{km}
 \end{split}
 \end{equation}
-Dieser Dichteoperator ist quasiperiodisch mit den Frequenzen $\omega_r := \Delta \omega_{ij}$. Die Entropie erhalten wir durch Spurbildung über den Operator $\hat{\rho}_X \ln \hat{\rho}_X$ mit den $\{\ket{\phi_q}\}$
+%\ := \sum_{rkm}g_{rkm} e^{-\mathrm i \omega_{r}\Delta t} \hat{P}_{km}
+also mit den Matrixelementen
+\begin{equation}
+\label{eq:rho_matrix_quasiperiodic}
+\rho_{km}\ = \sum_{ijp}d_{i}d_{j}^* f_{ikp}f_{jmp}^* e^{-\mathrm i \Delta\omega_{ij}\Delta t} 
+\end{equation}
+Dieser Dichteoperator ist quasiperiodisch mit den Frequenzen $\Delta \omega_{ij}$. Die Entropie erhalten wir durch Spurbildung über den Operator $-\hat{\rho}_X \ln \hat{\rho}_X$ mit den $\{\ket{\phi_q}\}$
 \begin{equation}
 \label{eq:S_quasiperiodic}
 S = -\sum_q \bra{\phi_q} \left( \hat{\rho}_X(\Delta t) \ln \hat{\rho}_X(\Delta t) \right) \ket{\phi_q}
+\end{equation}
+oder gebildet mit den Matrixelementen als
+\begin{equation}
+\label{eq:S_matrix_quasiperiodic}
+S = -\sum_{km}\left(\sum_{ijp}d_{i}d_{j}^* f_{ikp}f_{jmp}^* e^{-\mathrm i \Delta\omega_{ij}\Delta t}\right)
+\ln \left(\sum_{ijp}d_{i}d_{j}^* f_{imp}f_{jkp}^* e^{-\mathrm i \Delta\omega_{ij}\Delta t}\right)
 \end{equation}
 Die Reihenentwicklung des Logarithmus\footnote{über die der Operator-Logarithmus ja definiert ist} sorgt nun dafür, dass von der Summe (\ref{eq:rho_quasiperiodic}) beliebig hohe $n$-te Potenzen auftreten und damit beliebig viele weitere Summenfrequenzen $\sum n_i\omega_{r_i}$. (\ref{eq:S_quasiperiodic}) erscheint dadurch potentiell unberechenbarer als (\ref{eq:rho_quasiperiodic}). Dennoch kann vermutet werden, dass wenn ähnliche "Werte" von $\hat{\rho}_X$ "wiederkehren", aufgrund der Glattheit der Funktionen in (\ref{eq:S_quasiperiodic}) auch ähnliche Entropiewerte wiederkehren.
 
@@ -503,7 +514,57 @@ Im kontinuierlichen Fall geschieht Analoges wie beim Übergang von einer Fourier
 \href{https://www.quantamagazine.org/does-time-really-flow-new-clues-come-from-a-century-old-approach-to-math-20200407/}{Ahmed Almheiri}
 \end{center}
 
-\section{Anhang C: Gnu Octave Programm}
+\section{Anhang C: Beispiel zur Schrödingerdynamik der Entropie}
+Für das einfachstmögliche Beispiel brauchen wir ein Produkt aus 2 Qubits. (\ref{eq:psi_energy}) stellt sich dann dar als 
+\begin{equation*}
+\ket{\psi}\ =\ \begin{pmatrix}
+\ket{E_0} & \ket{E_1} & \ket{E_2} & \ket{E_3}
+\end{pmatrix}
+\cdot
+\begin{pmatrix}
+d_0 \\ d_1 \\ d_2 \\ d_3 
+\end{pmatrix}
+\end{equation*}
+Dieses Produkt wollen wir nun gemäß (\ref{eq:psi_product}) in 2 Qubits teilen.
+\begin{equation*}
+\ket{\psi}\ =\ \begin{pmatrix}
+\ket{\phi_0}\ket{\chi_0} & \ket{\phi_0}\ket{\chi_1} & \ket{\phi_1}\ket{\chi_0} & \ket{\phi_1}\ket{\chi_1}
+\end{pmatrix}
+\cdot
+\begin{pmatrix}
+c_{00} \\ c_{01} \\ c_{10} \\ c_{11}
+\end{pmatrix}
+\end{equation*}
+Durch Einschieben einer Einheitsmatrix $ f^\dagger f$ erhalten wir
+\begin{equation*}
+\ket{\psi}\ =\ \sum_i d_i \ket{E_i} = \sum_{i\,jk} d_i f_{jk\,i}^* f_{i\,jk} \ket{\phi_j}\ket{\chi_k}
+\end{equation*}
+Für das Beispiel nehmen wir diese unitäre 4x(2x2) Matrix
+\begin{equation*}
+\begin{matrix}
+(jk) & = & 00\quad \ 01\quad \ 10\quad \ 11 & i \\
+f & = & \frac{1}{2}
+\begin{pmatrix}
+\label{eq:f}
+1 & 0 & 1 & \sqrt{2} \\
+\sqrt{2} & 1 & 0 & -1 \\
+-1 & \sqrt{2} & 1 & 0 \\
+0 & -1 & \sqrt{2} & -1
+\end{pmatrix} 
+& \begin{matrix}0\\1\\2\\3\end{matrix}
+\end{matrix}
+\end{equation*}
+Als Energieeigenwerte $E_0$ bis $E_3$ nehmen wir 1, 2, 5 und 7 eV, um 6 verschiedene Differenzfrequenzen zu bekommen. Die relativen Stärken wählen wir genauso, so dass
+\begin{equation*}
+\ket{\psi}\ =\ \begin{pmatrix}
+\ket{1\textrm{eV}} & \ket{2\textrm{eV}} & \ket{5\textrm{eV}} & \ket{7\textrm{eV}}
+\end{pmatrix}
+\cdot \frac{1}{\sqrt{79}\,\textrm{eV}}
+\begin{pmatrix}
+1 \\ 2 \\ 5 \\ 7
+\end{pmatrix}
+\end{equation*}
+\section{Anhang D: Gnu Octave Programm}
 Mit diesem Programm wurden die Zahlenbeispiele für diesen Artikel berechnet.
 \begin{verbatim}
 alpha_0=pi/6;

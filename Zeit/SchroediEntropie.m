@@ -1,5 +1,5 @@
 energies=[1,2;5,7]; # eV
-amplitudes=[1,2;5,7];
+amplitudes=[1,2;5,7]/sqrt(79);
 f=0.5*[
   1,0,1,sqrt(2);
   sqrt(2),1,0,-1;
@@ -7,7 +7,7 @@ f=0.5*[
   0,-1,sqrt(2),-1
 ];
 # check unitarity of f
-f*f'
+unity=f*f'
 
 # Planck's constant over 2 pi in eVs units.
 function retval = hbar()
@@ -24,18 +24,18 @@ endfunction
 # f_4_4 4x4 transformation matrix to 2x2 split view
 # t time scalar value
 function ret = rho_4_4(E_4, d_4, f_4_4, t)
-  ret = [0+0i,0+0i;0+0i,0+0i];
+  ret = [0,0;0,0];
   f_adjugate = f_4_4';
-  for k = 1:2
-    for m = 1:2
-      for i = 1:4
-        for j = 1:4
-          omega_ij = (E_4(i)-E_4(j))/hbar;
-          exp_ij = exp(-i*omega_ij*t)
-          for p = 1:2
-            index_f = (k-1)*2+(p-1)+1;
-            index_f_adj = (m-1)*2+(p-1)+1;
-            ret(k,m) += d_4(i)*d_4(j)'*f_4_4(i,index_f)*f_adjugate(index_f_adj,j)*exp_ij;
+  for k_ = 1:2
+    for m_ = 1:2
+      for i_ = 1:4
+        for j_ = 1:4
+          omega_ij = (E_4(i_)-E_4(j_))/hbar;
+          exp_ij = exp(-i*omega_ij*t);
+          for p_ = 1:2
+            index_f = (k_-1)*2+(p_-1)+1;
+            index_f_adj = (m_-1)*2+(p_-1)+1;
+            ret(k_,m_) += d_4(i_)*d_4(j_)'*f_4_4(i_,index_f)*f_adjugate(index_f_adj,j_)*exp_ij;
           endfor
         endfor
       endfor
@@ -43,6 +43,18 @@ function ret = rho_4_4(E_4, d_4, f_4_4, t)
   endfor
 endfunction
 
-for t = 0:1
-  rho = rho_4_4(energies, amplitudes, f, t)  
+N_points=80;
+t=linspace(0,1,N_points);
+S1=linspace(0,0,N_points);
+S2=linspace(0,0,N_points);
+for t_ = 1:N_points
+  rho = rho_4_4(energies, amplitudes, f, t_*1e-17);
+  S = -trace(rho*log2(rho))
+  S1(t_) = real(S); # suppress very small imaginary part (numeric errors < 1e-15)
+  rho = rho_4_4(energies, amplitudes, unity, t_*1e-17);
+  S = -trace(rho*log2(rho));
+  S2(t_) = real(S); # suppress very small imaginary part (numeric errors < 1e-15)
 endfor
+plot(t,S1,"-;f;",t,S2,"-;unity matrix;");
+xlabel("t");
+ylabel("S");

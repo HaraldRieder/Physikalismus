@@ -24,14 +24,14 @@ endfunction
 # f_4_4 4x4 transformation matrix to 2x2 split view
 # t time scalar value
 function ret = rho_4_4(E_4, d_4, f_4_4, t)
-  ret = [0,0;0,0];
+  ret = [0+0i,0+0i;0+0i,0+0i];
   f_adjugate = f_4_4';
   for k = 1:2
     for m = 1:2
       for i = 1:4
         for j = 1:4
           omega_ij = (E_4(i)-E_4(j))/hbar;
-          exp_ij = exp(-i*omega_ij*t);
+          exp_ij = exp(-i*omega_ij*t)
           for p = 1:2
             index_f = (k-1)*2+(p-1)+1;
             index_f_adj = (m-1)*2+(p-1)+1;
@@ -43,6 +43,6 @@ function ret = rho_4_4(E_4, d_4, f_4_4, t)
   endfor
 endfunction
 
-for t = 0:10
+for t = 0:1
   rho = rho_4_4(energies, amplitudes, f, t)  
 endfor

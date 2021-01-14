@@ -443,32 +443,32 @@ Wir betrachten also die Zeitentwicklung der \href{https://de.wikipedia.org/wiki/
 \begin{equation}
 \label{eq:psi_energy}
 \ket{\psi}=\sum_{i}d_{i}\ket{E_i} \quad\quad
-\hat{\rho}=\sum_{ij}d_{i}d_{j}^*\ket{E_i}\bra{E_j}
+\hat{\rho}=\sum_{ij}d_{i}d_{j}^*\, \ket{E_i}\bra{E_j}
 \end{equation}
 Dieser reine Zustand bekommt Entropie und Verschränkung durch eine gedachte Zweiteilung des Gesamtraums in die mit X und Y bezeichneten Teilräume $\mathscr{H} = \mathscr{H}_X\otimes\mathscr{H}_Y$.
 
 Sei $\{\ket{\phi_i}\}$ eine Basis in $\mathscr{H}_X$ und $\{\ket{\chi_j}\}$ eine Basis in $\mathscr{H}_Y$. Der Gesamtweltzustand lässt sich nach der Produktbasis $\{\ket{\phi_i}\ket{\chi_j}\}$ entwickeln.
 \begin{equation}
 \label{eq:psi_product}
-\ket{\psi}=\sum_{ij}c_{ij}\ket{\phi_i}\ket{\chi_j} \quad\quad
-\hat{\rho}=\sum_{ijkl}c_{ij}c_{kl}^*\ket{\phi_i}\ket{\chi_j}\bra{\phi_k}\bra{\chi_l}
+\ket{\psi}=\sum_{ij}c_{ij}\, \ket{\phi_i}\ket{\chi_j} \quad\quad
+\hat{\rho}=\sum_{ijkl}c_{ij}c_{kl}^*\, \ket{\phi_i}\ket{\chi_j}\bra{\phi_k}\bra{\chi_l}
 \end{equation}
 Auch jeder Energieeigenvektor lässt sich nach dieser (oder jeder anderen) Produktbasis entwickeln
 \begin{equation}
 \label{eq:energy_eigenvector}
-\ket{E_i}=\sum_{jk}f_{ijk}\ket{\phi_j}\ket{\chi_k}
+\ket{E_i}=\sum_{jk}f_{i\,jk}\, \ket{\phi_j}\ket{\chi_k}
 \end{equation}
 
 Der Gesamtzustand (\ref{eq:psi_energy})/(\ref{eq:psi_product}) soll sich nach der Schrödinger-Dynamik (\ref{eq:propagator}) entwickeln
 \begin{equation}
 \label{eq:total_dynamic}
-\hat{\rho}(\Delta t)=\sum_{ij}d_{i}d_{j}^*\hat{T}\ket{E_i}\bra{E_j}{\hat{T}}^\dagger
-= \sum_{ij}d_{i}d_{j}^* e^{-\mathrm i \Delta\omega_{ij}\Delta t} \ket{E_i}\bra{E_j}
+\hat{\rho}(\Delta t)=\sum_{ij}d_{i}d_{j}^*\, \hat{T}\, \ket{E_i}\bra{E_j}\, {\hat{T}}^\dagger
+= \sum_{ij}d_{i}d_{j}^*\, e^{-\mathrm i \Delta\omega_{ij}\Delta t}\, \ket{E_i}\bra{E_j}
 \end{equation}
 wobei wir die Abkürzungen $\Delta t := t-t_0$ und $\Delta \omega_{ij} := \frac{E_i - E_j}{\hbar}$ eingeführt haben. Setzen wir die Entwicklung (\ref{eq:energy_eigenvector}) nach der Produktbasis ein, dann wird  (\ref{eq:total_dynamic}) zu 
 \begin{equation*}
-\hat{\rho}(\Delta t) = \sum_{ijklmn}d_{i}d_{j}^* e^{-\mathrm i \Delta\omega_{ij}\Delta t} 
-f_{ikl}f_{jmn}^*\ket{\phi_k}\ket{\chi_l}\bra{\phi_m}\bra{\chi_n}
+\hat{\rho}(\Delta t) = \sum_{ijklmn}d_{i}d_{j}^*\, e^{-\mathrm i \Delta\omega_{ij}\Delta t}\, 
+f_{i\,kl}f_{mn\,j}^*\, \ket{\phi_k}\ket{\chi_l}\bra{\phi_m}\bra{\chi_n}
 \end{equation*}
 Zur Berechnung der von-Neumann-Entropie brauchen wir zunächst den Dichteoperator eines Teils und berechnen die Entropie danach durch Spurbildung über das andere Teil.\footnote{Für welches Teil wir uns dabei zuerst entscheiden ist egal, was sich leicht zeigen lässt.}
 
@@ -479,19 +479,19 @@ Wir entscheiden uns für das Teil X und bilden dessen Dichteoperator durch Aussp
 \label{eq:rho_quasiperiodic}
 \begin{split}
 \hat{\rho}_X(\Delta t)
-\ = \sum_{ijklmnp}d_{i}d_{j}^* e^{-\mathrm i \Delta\omega_{ij}\Delta t} 
-f_{ikl}f_{jmn}^* \ket{\phi_k}\bra{\chi_p}\ket{\chi_l}\bra{\phi_m}\bra{\chi_n}\ket{\chi_p}
+\ = \sum_{ijklmnp}d_{i}d_{j}^*\, e^{-\mathrm i \Delta\omega_{ij}\Delta t} 
+f_{i\,kl}f_{mn\,j}^*\, \ket{\phi_k}\bra{\chi_p}\ket{\chi_l}\bra{\phi_m}\bra{\chi_n}\ket{\chi_p}
 \hat{\rho}_X(\Delta t) 
 \\
-= \sum_{ijkmp}d_{i}d_{j}^* f_{ikp}f_{jmp}^* e^{-\mathrm i \Delta\omega_{ij}\Delta t} 
- \ket{\phi_k}\bra{\phi_m} 
+= \sum_{ijkmp}d_{i}d_{j}^* f_{i\,kp}f_{mp\,j}^*\, e^{-\mathrm i \Delta\omega_{ij}\Delta t} 
+\, \ket{\phi_k}\bra{\phi_m} 
 \end{split}
 \end{equation}
 %\ := \sum_{rkm}g_{rkm} e^{-\mathrm i \omega_{r}\Delta t} \hat{P}_{km}
 also mit den Matrixelementen
 \begin{equation}
 \label{eq:rho_matrix_quasiperiodic}
-\rho_{km}\ = \sum_{ijp}d_{i}d_{j}^* f_{ikp}f_{jmp}^* e^{-\mathrm i \Delta\omega_{ij}\Delta t} 
+\rho_{km}\ = \sum_{ijp}d_{i}d_{j}^* f_{i\,kp}f_{mp\,j}^*\, e^{-\mathrm i \Delta\omega_{ij}\Delta t} 
 \end{equation}
 Dieser Dichteoperator ist quasiperiodisch mit den Frequenzen $\Delta \omega_{ij}$. Die Entropie erhalten wir durch Spurbildung über den Operator $-\hat{\rho}_X \ln \hat{\rho}_X$ mit den $\{\ket{\phi_q}\}$
 \begin{equation}
@@ -554,12 +554,12 @@ f & = & \frac{1}{2}
 & \begin{matrix}0\\1\\2\\3\end{matrix}
 \end{matrix}
 \end{equation*}
-Als Energieeigenwerte $E_0$ bis $E_3$ nehmen wir 1, 2, 5 und 7 eV, um 6 verschiedene Differenzfrequenzen zu bekommen. Die relativen Stärken wählen wir genauso, so dass
+Als Energieeigenwerte $E_0$ bis $E_3$ nehmen wir 1, 2, 5 und 7, um 6 verschiedene Differenzfrequenzen zu bekommen. Die relativen Stärken wählen wir genauso, so dass
 \begin{equation*}
 \ket{\psi}\ =\ \begin{pmatrix}
-\ket{1\textrm{eV}} & \ket{2\textrm{eV}} & \ket{5\textrm{eV}} & \ket{7\textrm{eV}}
+\ket{1} & \ket{2} & \ket{5} & \ket{7}
 \end{pmatrix}
-\cdot \frac{1}{\sqrt{79}\,\textrm{eV}}
+\cdot \frac{1}{\sqrt{79}}
 \begin{pmatrix}
 1 \\ 2 \\ 5 \\ 7
 \end{pmatrix}

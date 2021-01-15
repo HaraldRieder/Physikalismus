@@ -35,7 +35,8 @@ function ret = rho_4_4(E_4, d_4, f_4_4, t)
           for p_ = 1:2
             index_f = (k_-1)*2+(p_-1)+1;
             index_f_adj = (m_-1)*2+(p_-1)+1;
-            ret(k_,m_) += d_4(i_)*d_4(j_)'*f_4_4(i_,index_f)*f_adjugate(index_f_adj,j_)*exp_ij;
+            ret(k_,m_) += d_4(i_)*d_4(j_)'*f_4_4(i_,index_f)
+                          *f_adjugate(index_f_adj,j_)*exp_ij;
           endfor
         endfor
       endfor
@@ -43,18 +44,19 @@ function ret = rho_4_4(E_4, d_4, f_4_4, t)
   endfor
 endfunction
 
-N_points=80;
-t=linspace(0,1,N_points);
+N_points=3;
+t=linspace(0,0.8e-15,N_points); # femto seconds 1e-15
 S1=linspace(0,0,N_points);
 S2=linspace(0,0,N_points);
 for t_ = 1:N_points
-  rho = rho_4_4(energies, amplitudes, f, t_*1e-17);
+  rho = rho_4_4(energies, amplitudes, f, t(t_));
   S = -trace(rho*log2(rho))
-  S1(t_) = real(S); # suppress very small imaginary part (numeric errors < 1e-15)
-  rho = rho_4_4(energies, amplitudes, unity, t_*1e-17);
+  S1(t_) = real(S); # suppress imaginary part (numeric errors < 1e-15)
+  rho = rho_4_4(energies, amplitudes, unity, t(t_))
+  log2(rho)
   S = -trace(rho*log2(rho));
-  S2(t_) = real(S); # suppress very small imaginary part (numeric errors < 1e-15)
+  S2(t_) = real(S);
 endfor
-plot(t,S1,"-;f;",t,S2,"-;unity matrix;");
+plot(t,S1,"*;f;",t,S2,"*;unity matrix;");
 xlabel("t");
 ylabel("S");

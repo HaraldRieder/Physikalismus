@@ -308,7 +308,7 @@ vorliegen.\footnote{Bei makroskopischen Beobachtern müssen wir uns die Unterrä
 \end{equation}
 und erhalten für dessen von-Neumann-Entropie
 \begin{equation}
-S\ =\ -\operatorname{Spur} \hat{\rho}_{\chi,\chi\chi} \ln \hat{\rho}_{\chi,\chi\chi}\ = \ 0
+S\ =\ -\operatorname{Spur} \hat{\rho}_{\chi,\chi\chi} \log_2\ \hat{\rho}_{\chi,\chi\chi}\ = \ 0
 \end{equation}
 Bis zur nächsten Abfrage sollen $\tau$ Ticks im System vergehen. Die Matrix $Q$ wirkt bei jedem Tick, so dass nach $\tau$ Ticks die Wahrscheinlichkeiten für die Endzustände
 \begin{equation}
@@ -327,14 +327,14 @@ p_\infty&0&\cdots &0\\
 \vdots &\vdots &\ddots &\vdots \\
 0&0&\cdots &p_\infty
 \end{pmatrix}
-\ln
+\log_2
 \begin{pmatrix}
 p_\infty&0&\cdots &0\\
 0&p_\infty&\cdots &0\\
 \vdots &\vdots &\ddots &\vdots \\
 0&0&\cdots &p_\infty
 \end{pmatrix} \right)
-\ =\ - n \cdot n^{-1} \ln{n^{-1}} = \ln{n}
+\ =\ - n \cdot n^{-1} \log_2{n^{-1}} = \log_2{n}
 \end{equation}
 Nun kommen wir zurück auf unser einfaches Beispiel und sehen nach, wie sich dort die Wahrscheinlichkeiten für die Endzustände nach einem Anfangszustand $\ket{00}$ entwickeln.\footnote{Programm-Code findet sich im Anhang.}
 \begin{center}
@@ -347,7 +347,7 @@ Nun kommen wir zurück auf unser einfaches Beispiel und sehen nach, wie sich dor
  \hline
 \end{tabular}
 \end{center}
-Durch den Verzicht auf quantenmechanische Prozesse des Typs 2, das heißt durch die Beschränkung auf unistochastische Prozesse des Typs 1, erhalten wir mit dem Anwachsen der Zeit zunehmend gemischtere Zustände. Wir bekommen eine Richtung in der psychischen Zeit, in der die Entropie wächst, ohne dass die physikalische Koordinate t dafür eine Richtung bekommen musste. Bei Prozessen des Typs 2, der Schrödinger-Dynamik, hängt die Entropie eher quasiperiodisch von der (physikalischen) Zeit ab.\footnote{Siehe Anhang.}
+Durch den Verzicht auf quantenmechanische Prozesse des Typs 2, das heißt durch die Beschränkung auf unistochastische Prozesse des Typs 1, erhalten wir mit dem Anwachsen der Zeit zunehmend gemischtere Zustände. Wir bekommen eine Richtung in der psychischen Zeit, in der die Entropie wächst, ohne dass die physikalische Koordinate t dafür eine Richtung bekommen musste. Bei Prozessen des Typs 2, der Schrödinger-Dynamik, hängt die Entropie quasiperiodisch von der (physikalischen) Zeit ab.\footnote{Siehe Anhang.}
 
 \section{Mehr Raumdimensionen}
 
@@ -427,7 +427,7 @@ N\, = \, \left( 1 +
 \frac{sin^2(\alpha_0+\alpha_1)}{sin^2(\alpha_0-2\alpha_1)} \right)^{-\frac{1}{2}}
 \end{equation*}
 
-\section{Anhang B: Zeitentwicklung der Entropie nach der Schrödinger-Dynamik}
+\section{Anhang B: Schrödinger-Dynamik der Entropie}
 
 % https://de.wikipedia.org/wiki/Zeitentwicklungsoperator
 Es sei $\hat{H}$ der Gesamt-Hamiltonoperator der Quantenwelt. Dann ist ihr \href{https://de.wikipedia.org/wiki/Zeitentwicklungsoperator}{unitärer Zeitentwicklungsoperator}, der Zustände und Operatoren von der Zeit $t_0$ zur Zeit $t$ transportiert
@@ -493,26 +493,20 @@ also mit den Matrixelementen
 \label{eq:rho_matrix_quasiperiodic}
 \rho_{km}\ = \sum_{ijp}d_{i}d_{j}^* f_{i\,kp}f_{mp\,j}^*\, e^{-\mathrm i \Delta\omega_{ij}\Delta t} 
 \end{equation}
-Dieser Dichteoperator ist quasiperiodisch mit den Frequenzen $\Delta \omega_{ij}$. Die Entropie erhalten wir durch Spurbildung über den Operator $-\hat{\rho}_X \ln \hat{\rho}_X$ mit den $\{\ket{\phi_q}\}$
+Dieser Dichteoperator ist quasiperiodisch mit den Frequenzen $\Delta \omega_{ij}$. Die Entropie erhalten wir durch Spurbildung über den Operator $-\hat{\rho}_X \log_2 \hat{\rho}_X$ mit den $\{\ket{\phi_q}\}$
 \begin{equation}
 \label{eq:S_quasiperiodic}
-S = -\sum_q \bra{\phi_q} \left( \hat{\rho}_X(\Delta t) \ln \hat{\rho}_X(\Delta t) \right) \ket{\phi_q}
+S = -\sum_q \bra{\phi_q} \hat{\rho}_X(\Delta t) \log_2 \hat{\rho}_X(\Delta t)  \ket{\phi_q}
 \end{equation}
 oder gebildet mit den Matrixelementen als
 \begin{equation}
 \label{eq:S_matrix_quasiperiodic}
 S = -\sum_{km}\left(\sum_{ijp}d_{i}d_{j}^* f_{ikp}f_{jmp}^* e^{-\mathrm i \Delta\omega_{ij}\Delta t}\right)
-\ln \left(\sum_{ijp}d_{i}d_{j}^* f_{imp}f_{jkp}^* e^{-\mathrm i \Delta\omega_{ij}\Delta t}\right)
+\log_2 \left(\sum_{ijp}d_{i}d_{j}^* f_{imp}f_{jkp}^* e^{-\mathrm i \Delta\omega_{ij}\Delta t}\right)
 \end{equation}
-Die Reihenentwicklung des Logarithmus\footnote{über die der Operator-Logarithmus ja definiert ist} sorgt nun dafür, dass von der Summe (\ref{eq:rho_quasiperiodic}) beliebig hohe $n$-te Potenzen auftreten und damit beliebig viele weitere Summenfrequenzen $\sum n_i\omega_{r_i}$. (\ref{eq:S_quasiperiodic}) erscheint dadurch potentiell unberechenbarer als (\ref{eq:rho_quasiperiodic}). Dennoch kann vermutet werden, dass wenn ähnliche "Werte" von $\hat{\rho}_X$ "wiederkehren", aufgrund der Glattheit der Funktionen in (\ref{eq:S_quasiperiodic}) auch ähnliche Entropiewerte wiederkehren.
-
 Nun können wir sehen, dass wir am Anfang auch einen gemischten Weltzustand hätten zulassen können: an der prinzipiellen Art, wie die Differenzfrequenzen den Dichteoperator treiben, hätte sich nichts geändert.
 
-Im kontinuierlichen Fall geschieht Analoges wie beim Übergang von einer Fourier-Reihe zur Fourier-Transformation: es lassen sich auch aperiodische Funktionen darstellen. Die Frage, ob die Natur eher mit einem diskreten oder kontinuierlichen Vektorraum modelliert werden sollte, könnte im Hinblick auf den 2. Hauptsatz der Thermodynamik durchaus noch entscheidend werden.
-\begin{center}
-\textit{Real numbers can’t exist, because you can’t hide them inside black holes.} \\
-\href{https://www.quantamagazine.org/does-time-really-flow-new-clues-come-from-a-century-old-approach-to-math-20200407/}{Ahmed Almheiri}
-\end{center}
+Im kontinuierlichen Fall geschieht Analoges wie beim Übergang von einer Fourier-Reihe zur Fourier-Transformation: es lassen sich auch aperiodische Funktionen darstellen. 
 
 \section{Anhang C: Beispiel zur Schrödingerdynamik der Entropie}
 Für das einfachstmögliche Beispiel brauchen wir ein Produkt aus 2 Qubits. (\ref{eq:psi_energy}) stellt sich dann dar als 
@@ -525,7 +519,7 @@ Für das einfachstmögliche Beispiel brauchen wir ein Produkt aus 2 Qubits. (\re
 d_0 \\ d_1 \\ d_2 \\ d_3 
 \end{pmatrix}
 \end{equation*}
-Dieses Produkt wollen wir nun gemäß (\ref{eq:psi_product}) in 2 Qubits teilen.
+Diesen Vektor wollen wir nun gemäß (\ref{eq:psi_product}) in 2 Qubits teilen.
 \begin{equation*}
 \ket{\psi}\ =\ \begin{pmatrix}
 \ket{\phi_0}\ket{\chi_0} & \ket{\phi_0}\ket{\chi_1} & \ket{\phi_1}\ket{\chi_0} & \ket{\phi_1}\ket{\chi_1}
@@ -537,12 +531,12 @@ c_{00} \\ c_{01} \\ c_{10} \\ c_{11}
 \end{equation*}
 Durch Einschieben einer Einheitsmatrix $ f^\dagger f$ erhalten wir
 \begin{equation*}
-\ket{\psi}\ =\ \sum_i d_i \ket{E_i} = \sum_{i\,jk} d_i f_{jk\,i}^* f_{i\,jk} \ket{\phi_j}\ket{\chi_k}
+\ket{\psi}\ =\ \sum_{i=0}^{3} d_i \ket{E_i} = \sum_{\substack{i=0\\jk=00}}^{\substack{3\\11}} d_i f_{jk\,i}^* f_{i\,jk} \ket{\phi_j}\ket{\chi_k}
 \end{equation*}
 Für das Beispiel nehmen wir diese unitäre 4x(2x2) Matrix
 \begin{equation*}
 \begin{matrix}
-(jk) & = & 00\quad \ 01\quad \ 10\quad \ 11 & i \\
+ & jk & 00\quad \ 01\quad \ 10\quad \ 11 & i \\
 f & = & \frac{1}{2}
 \begin{pmatrix}
 \label{eq:f}
@@ -554,7 +548,9 @@ f & = & \frac{1}{2}
 & \begin{matrix}0\\1\\2\\3\end{matrix}
 \end{matrix}
 \end{equation*}
-Als Energieeigenwerte $E_0$ bis $E_3$ nehmen wir 1, 2, 5 und 7, um 6 verschiedene Differenzfrequenzen zu bekommen. Die relativen Stärken wählen wir genauso, so dass
+Die Dichtematrix (\ref{eq:rho_matrix_quasiperiodic}) ist dann eine 2x2 Matrix.
+
+Als Energieeigenwerte $E_0$ bis $E_3$ nehmen wir 1, 2, 5 und 7 eV, um 6 verschiedene Differenzfrequenzen zu bekommen. Die Amplituden wählen wir genauso, so dass
 \begin{equation*}
 \ket{\psi}\ =\ \begin{pmatrix}
 \ket{1} & \ket{2} & \ket{5} & \ket{7}
@@ -564,6 +560,23 @@ Als Energieeigenwerte $E_0$ bis $E_3$ nehmen wir 1, 2, 5 und 7, um 6 verschieden
 1 \\ 2 \\ 5 \\ 7
 \end{pmatrix}
 \end{equation*}
+\begin{figure}[!h]\begin{center}
+  \includegraphics[width=20cm]{periodic_entropy.png}
+  \caption{Periodische Entropie}
+  \label{fig:periodic_entropy}
+\end{center}\end{figure}
+
+Abbildung \ref{fig:periodic_entropy} zeigt den Zeitverlauf der Entropie in der Teilung $f$. Er ist streng periodisch, da die Verhältnisse der Differenzfrequenzen rationale Zahlen sind. Die Periodendauer beträgt ca. 4,1 Femtosekunden.
+Als Referenz wurde der Verlauf der Entropie in Originalsicht, d.h. mit der Einheitsmatrix als $f$, in die Grafik mit aufgenommen (blau).
+\begin{figure}[!h]\begin{center}
+  \includegraphics[width=20cm]{quasi_periodic_entropy.png}
+  \caption{Quasiperiodische Entropie}
+  \label{fig:quasi_periodic_entropy}
+\end{center}\end{figure}
+
+Wenn die Verhältnisse der Differenzfrequenzen nicht mehr alle rationale Zahlen sind, dann wird der Zeitverlauf quasiperiodisch. Für Abbildung \ref{fig:quasi_periodic_entropy} wurde der Energieeigenwert $2$ durch $e$ ersetzt.
+
+\newpage
 \section{Anhang D: Gnu Octave Programm}
 Mit diesem Programm wurden die Zahlenbeispiele für diesen Artikel berechnet.
 \begin{verbatim}

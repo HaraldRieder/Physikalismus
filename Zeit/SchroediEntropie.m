@@ -5,7 +5,7 @@
 energies=[1,2,5,7]; # eV
 
 # example two: irrational energy ratios -> quasi periodic entropy
-energies2=[1,e,5,7]; # eV, 1 non-rational number
+energies2=[1,2,5,2.6*e]; # eV, 1 non-rational number
 
 # example amplitudes of our state vector in energy representation
 amplitudes=[1,2,5,7];
@@ -68,7 +68,7 @@ function ret = rho_4_4(E_4, d_4, f_4_4, t)
 endfunction
 
 N_points=500;
-t=linspace(0,17.0e-15,N_points); # femto seconds 1e-15
+t=linspace(0,10.0e-15,N_points); # femto seconds 1e-15
 S1=S2=S3=S4=linspace(0,0,N_points);
 for t_ = 1:N_points
   rho = rho_4_4(energies, amplitudes, identity, t(t_));
@@ -86,13 +86,13 @@ for t_ = 1:N_points
   S = entropy(rho);
   S4(t_) = real(S);
 endfor
-hf=figure(1, 'position', [110 400 1200 200]);
-plot(t,S1,"-;identity matrix;",t,S2,"-;f;");
+hf=figure(1, 'position', [110 400 1200 400]);
+h=plot(t,S1,"-;identity matrix;",t,S2,"-;f;");
 xlabel("t/s");
 ylabel("S");
-print (hf, "periodic_entropy.png", "-dpng","-S1200,300");
-hf=figure(2, 'position', [110 40 1200 200]);
-plot(t,S3,"-;identity matrix;",t,S4,"-;f;");
+print (hf, "periodic_entropy.png", "-dpng","-S1200,400");
+hf=figure(2, 'position', [110 40 1200 400]);
+h=plot(t,S3,"-;identity matrix;",t,S4,"-;f;");
 xlabel("t/s");
 ylabel("S");
-print (hf, "quasi_periodic_entropy.png", "-dpng","-S1200,300");
+print (hf, "quasi_periodic_entropy.png", "-dpng","-S1200,400");

@@ -1,3 +1,9 @@
+# Dies ist ein Beispiel dafür, wie es nicht funktionieren kann.
+# Die differentielle Entropie nach Shannon ist die naive Übertragung
+# der Shannon-Entropie (Summe) auf den kontinuierlichen Fall.
+# Abhängig von den Parametern a und b der 2D Glockenfläche
+# ergeben sich auch negative Entropiewerte. 
+
 graphics_toolkit "gnuplot"
 
 a=10
@@ -23,11 +29,11 @@ title ({"\\psi";sprintf("a/b=%d",a/b)});
 axis("off","tight","square");
 grid off
 
+# differential (= wrong) entropy of 2D Gauss surface
 function retval = entropy(a,b)
   retval = (1 .- log(8*a.*b./(pi*(a+b))))/2;
 endfunction
 
-# TODO leider haben wir hier negative Entropiewerte dabei
 figure (2);
 a = b = linspace (0.001, 100, 50)';
 [aa,bb] = meshgrid(a,b);

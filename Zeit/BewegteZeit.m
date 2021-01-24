@@ -1,14 +1,15 @@
 pkg load symbolic
 
 # Lorentz boost in x direction with beta=v/c
+# Returns the transformed (t,x) as row vector
 function retval = boost(t,x,beta)
   gamma=1/sqrt((1-beta^2));
-  retval = gamma * (t + beta * x);
+  retval = [gamma * (t + beta * x),gamma * (x + beta * t)];
 endfunction
 
 # clock state
-# approximation of the delta distribution in a limited area
-function retval = psi_clock (t,x, beta)
+# approximation of the delta distribution by rectangular funcctions
+function retval = psi_rect (t,x, beta)
   # TODO length und width müssen auch transformiert werden
   length = 500; # extension on the light cone
   width = length/10; # extension orthogonal to the light cone
@@ -21,28 +22,82 @@ function retval = psi_clock (t,x, beta)
 endfunction
 
 
-#t = x = linspace(-1000, 1000, 200)';
-#[tt, xx] = meshgrid(t,x);
-#psi = psi_clock(tt,xx,0.99); # 0, 0.7, 0.9, 0.99
-#hidden off
-##mesh(t,x,psi);
-#surf(t,x,psi);
-#xlabel ("t");
-#ylabel ("x");
-#title ("\\psi_{clock}");
-#view(-10, 50);
+function retval = boost_a(a, beta)
+  gamma=1/sqrt((1-beta^2));
+  retval=a/(gamma^2*(1+beta)^2);  
+endfunction
 
-# TODO Normierung von psi_clock
-# TODO plus oder minus, das ist hier die Frage! Im boost und im psi_clock!
+function retval = boost_b(b, beta)
+  gamma=1/sqrt((1-beta^2));
+  retval=b/(gamma^2*(1-beta)^2);  
+endfunction
+
+function retval = psi_gauss(t,x,a,b)
+  # normalization 
+  N = 2*sqrt(sqrt(a*b)/pi);
+  retval = N * exp(-a*(x-t).^2 - b*(x+t).^2);
+endfunction
+
+a=0.1
+b=0.001
+beta1=0;
+beta2=0.9;
+beta3=0.999;
+
+graphics_toolkit "gnuplot"
+
+t = x = linspace(-20, 20, 50)';
+
+figure(1);
+boosted = boost(t,x,beta1);
+boosted_t = boosted(:,1);
+boosted_x = boosted(:,2);
+[tt,xx] = meshgrid(boosted_t,boosted_x);
+psi = psi_gauss(tt,xx,a,b);
+mesh(t,x,psi);
+view (-35, 25);
+xlabel ("t");
+ylabel ("x");
+zlabel ("");
+title ({"\\psi";sprintf("a/b=%d, \\beta=%d",a/b,beta1)});
+colormap("winter");
+figure(2);
+boosted = boost(t,x,beta2);
+boosted_t = boosted(:,1);
+boosted_x = boosted(:,2);
+[tt,xx] = meshgrid(boosted_t,boosted_x);
+psi = psi_gauss(tt,xx,a,b);
+#psi = psi_gauss(tt,xx,boost_a(a,beta2),boost_b(b,beta2));
+mesh(t,x,psi);
+view (-35, 25);
+xlabel ("t");
+ylabel ("x");
+zlabel ("");
+title ({"\\psi";sprintf("a/b=%d, \\beta=%d",a/b,beta2)});
+colormap("winter");
+figure(3);
+boosted = boost(t,x,beta3);
+boosted_t = boosted(:,1);
+boosted_x = boosted(:,2);
+[tt,xx] = meshgrid(boosted_t,boosted_x);
+psi = psi_gauss(tt,xx,a,b);
+#psi = psi_gauss(tt,xx,boost_a(a,beta3),boost_b(b,beta3));
+mesh(t,x,psi);
+view (-35, 25);
+xlabel ("t");
+ylabel ("x");
+zlabel ("");
+title ({"\\psi";sprintf("a/b=%d, \\beta=%d",a/b,beta3)});
+colormap("winter");
+#axis("off","tight","square");
+grid off
+
 
 # 4 lines in the x,t plane
 # enclose the area where the clock state is not zero
 
-graphics_toolkit "gnuplot"
-
-beta=0.999;
 length=2000;
-width=length/1000;
+width=length/8;
 slope=1;
 
 function retval = boost_slope(slope, beta)
@@ -52,25 +107,48 @@ function retval = boost_intercept(intercept, beta)
   retval = intercept*sqrt(1-beta^2);
 endfunction
 
-slope_1 = 1#boost_slope(1,beta);
-slope_2 = -1#boost_slope(-1,beta);
-intercept_1 = boost_intercept(width/2*sqrt(2),beta);
-intercept_2 = boost_intercept(length/2*sqrt(2),beta);
 
+figure(4);
 set(gca, 'xaxislocation', 'origin');
 set(gca, 'yaxislocation', 'origin');
 x=-1000:1:1000;
+slope_1 = boost_slope(1,beta1);
+slope_2 = boost_slope(-1,beta1);
+intercept_1 = boost_intercept(width/2*sqrt(2),beta1);
+intercept_2 = boost_intercept(length/2*sqrt(2),beta1);
 grid off
-plot (x, slope_1 * x + intercept_1, "b");
+h = plot (
+  x, slope_1 * x + intercept_1, sprintf("b;\\beta=%d ;",beta1), 
+  x, slope_1 * x - intercept_1, "b",
+  x, slope_2 * x + intercept_2, "b",
+  x, slope_2 * x - intercept_2, "b");
+set (h, "linewidth", 1);  
 hold on
-plot (x, slope_1 * x - intercept_1, "b");
-plot (x, slope_2 * x + intercept_2, "b");
-plot (x, slope_2 * x - intercept_2, "b");
+slope_1 = boost_slope(1,beta2);
+slope_2 = boost_slope(-1,beta2);
+intercept_1 = boost_intercept(width/2*sqrt(2),beta2);
+intercept_2 = boost_intercept(length/2*sqrt(2),beta2);
+h = plot (
+  x, slope_1 * x + intercept_1, sprintf("g;\\beta=%d ;",beta2), 
+  x, slope_1 * x - intercept_1, "g",
+  x, slope_2 * x + intercept_2, "g",
+  x, slope_2 * x - intercept_2, "g");
+set (h, "linewidth", 1);  
+slope_1 = boost_slope(1,beta3);
+slope_2 = boost_slope(-1,beta3);
+intercept_1 = boost_intercept(width/2*sqrt(2),beta3);
+intercept_2 = boost_intercept(length/2*sqrt(2),beta3);
+h = plot (
+  x, slope_1 * x + intercept_1, sprintf("r;\\beta=%d ;",beta3),
+  x, slope_1 * x - intercept_1, "r",
+  x, slope_2 * x + intercept_2, "r",
+  x, slope_2 * x - intercept_2, "r");
+set (h, "linewidth", 1);  
 hold off
 xlabel ("x");
 ylabel ("t");
 axis ([-1000,1000,-1000,1000]);
 #axis("equal", "nolabel");
 axis("equal");
-title(sprintf("|\\beta| = %f", beta));
+title("boosts of a rectangle");
 

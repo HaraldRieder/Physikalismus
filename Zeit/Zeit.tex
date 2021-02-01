@@ -293,7 +293,7 @@ Wir nehmen an, dass eine Beobachterin A im Hilbert-Raum $\mathscr{H}_Y$ das Syst
   \caption{Ganz äußere Beobachterin}
   \label{fig:entropy}
 \end{center}\end{figure}
-Die Beobachterin wechselwirkt mit ihren eigenen Uhren und erlebt dadurch ein Fortschreiten ihrer Zeit. Von Zeit zu Zeit koppelt sie sich mit einem Wechselwirkungs-Hamiltonian $H(Y,X)$ an den Beobachter B, um ihn nach seiner Zeit zu fragen. Wenn B antwortet, dass er $\chi$ gemessen habe, dann weiß sie, dass das System im Zustand 
+Die Beobachterin wechselwirkt mit ihren eigenen Uhren und erlebt dadurch ein Fortschreiten ihrer Zeit. Von Zeit zu Zeit koppelt sie sich mit einem Wechselwirkungs-Hamiltonian $H(Y,X)$ an den Beobachter B, um ihn nach seiner Zeit zu fragen. Wenn B antwortet, dass er $\chi$ gemessen habe, dann weiß sie, dass das System im Zustand \footnote{Hier verwenden wir ab und zu $\otimes$ zur Kennzeichnung des dyadischen Produkts, damit klarer wird, was gemeint ist.}
 \begin{equation}
 \ket{X=\chi}\otimes\ket{\chi\chi}
 \end{equation}
@@ -367,8 +367,12 @@ Nach einer Umindexierung $u: \mathbb{R}^3 \rightarrow \mathbb{R}, (x,y,z) \mapst
 
 Formal lässt sich mit der Wahl $t(s) = s$ schreiben
 \begin{equation} 
+\begin{split}
 \label{eq:psi_clock_3d_space}
-\psi(t,x,y,z) \sim \int \mathrm ds \, \mathrm dt \, \mathrm dx \, \mathrm dy \, \mathrm dz \, \delta(t-s) \, \delta(x-x(s)) \, \delta(y-y(s)) \, \delta(z-z(s)) = \delta(s-t) \sim \psi(s,t)
+\psi(t,x,y,z) \sim \int \mathrm ds \, \delta(t-s) \, \delta(x-x(s)) \, \delta(y-y(s)) \, \delta(z-z(s)) = 
+\\
+\delta(x-x(t)) \, \delta(y-y(t)) \, \delta(z-z(t)) \ \hat{=}\ \delta(t-s(x,y,z))
+\end{split}
 \end{equation}
 Jede Weltlinie, die sich bei Projektion auf den dreidimensionalen Ortsraum nicht selbst schneidet, ist ein guter Uhrenzustand. 
 
@@ -430,7 +434,7 @@ N\, = \, \left( 1 +
 \section{Anhang B: Schrödinger-Dynamik der Entropie}
 
 % https://de.wikipedia.org/wiki/Zeitentwicklungsoperator
-Es sei $\hat{H}$ der Gesamt-Hamiltonoperator der Quantenwelt. Dann ist ihr \href{https://de.wikipedia.org/wiki/Zeitentwicklungsoperator}{unitärer Zeitentwicklungsoperator}, der Zustände und Operatoren von der Zeit $t_0$ zur Zeit $t$ transportiert
+Es sei $\hat{H}$ der Gesamt-Hamiltonoperator der Quantenwelt. Dann ist ihr \href{https://de.wikipedia.org/wiki/Zeitentwicklungsoperator}{unitärer Zeitentwicklungsoperator}, der Zustände von der Zeit $t_0$ zur Zeit $t$ transportiert
 \begin{equation}
 \label{eq:propagator}
 \hat{T}=e^{-\frac{\mathrm i}{\hbar}(t-t_0)\hat{H}}
@@ -472,7 +476,7 @@ f_{i\,kl}f_{mn\,j}^*\, \ket{\phi_k}\ket{\chi_l}\bra{\phi_m}\bra{\chi_n}
 \end{equation*}
 Zur Berechnung der von-Neumann-Entropie brauchen wir zunächst den Dichteoperator eines Teils und berechnen die Entropie danach durch Spurbildung über das andere Teil.\footnote{Für welches Teil wir uns dabei zuerst entscheiden ist egal, was sich leicht zeigen lässt.}
 
-Dieser Punkt ist ontologisch durchaus wichtig. Die Verschränkungs-Entropie ist eine Eigenschaft der Beziehung zwischen Teilen und kann keinem Teil alleine zugeschrieben werden, während man die Entropie der klassischen Thermodynamik einem Teil, einem "abgeschlossenen System" zuschreibt und sie als \href{https://de.wikipedia.org/wiki/Extensive_Gr%C3%B6%C3%9Fe}{extensive, mit dem Volumen wachsende Größe} ansieht. Auch die Entropie schwarzer Löcher sieht man Stand 2021 überwiegend als Eigenschaft eines Teils, des schwarzen Lochs, an und nicht als Eigenschaft der Beziehung zwischen schwarzem Loch und Restwelt, und das obwohl das Anwachsen der Entropie mit der Fläche am Ereignishorizont ein deutlicher Hinweis auf eine Beziehungsentropie ist. Bei sehr ungleicher Teilung in einen kleinen Raum X und einen sehr großen Raum Y ist bei diskreten Räumen eben die Mächtigkeit des kleinen Raums bestimmend für die Informationsmenge, die maximal zwischen X und Y ausgetauscht werden kann. Diese Maximum ist flapsig gesprochen die "Anzahl der Qubits von X".
+Dieser Punkt ist ontologisch durchaus wichtig. Die Verschränkungs-Entropie ist eine Eigenschaft der Beziehung zwischen Teilen und kann keinem Teil alleine zugeschrieben werden, während man die Entropie der klassischen Thermodynamik einem Teil, einem "abgeschlossenen System" zuschreibt und sie als \href{https://de.wikipedia.org/wiki/Extensive_Gr%C3%B6%C3%9Fe}{extensive, mit dem Volumen wachsende Größe} ansieht. Auch die Entropie schwarzer Löcher sieht man Stand 2021 überwiegend als Eigenschaft eines Teils, des schwarzen Lochs, an und nicht als Eigenschaft der Beziehung zwischen schwarzem Loch und Restwelt, und das obwohl das Anwachsen der Entropie mit der Fläche am Ereignishorizont ein deutlicher Hinweis auf eine Beziehungsentropie ist. Bei sehr ungleicher Teilung in einen kleinen Raum X und einen sehr großen Raum Y ist bei diskreten Räumen eben die Mächtigkeit des kleinen Raums bestimmend für die Informationsmenge, die maximal zwischen X und Y ausgetauscht werden kann. Dieses Maximum ist flapsig gesprochen die "Anzahl der Qubits von X".
 
 Wir entscheiden uns für das Teil X und bilden dessen Dichteoperator durch Ausspuren über Y mit den $\{\ket{\chi_p}\}$
 \begin{equation}

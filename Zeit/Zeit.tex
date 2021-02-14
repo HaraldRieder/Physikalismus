@@ -213,8 +213,8 @@ Das Quadrat der Matrix $P$, also $Q:=P^2$, bedeutet einen Wechsel auf die intern
 
 Wir wählen nun konkrete Zahlenwerte für die Uhr. Im Anhang wird gezeigt, wie man auf geeignete Werte kommt.
 \begin{equation*}
-a_0=N\frac{sin(\alpha_0+\alpha_1)}{sin(\alpha_1-2\alpha_0)}e^{i\alpha_0} \quad
-a_1=N\frac{sin(\alpha_0+\alpha_1)}{sin(\alpha_0-2\alpha_1)}e^{i\alpha_1} \quad
+a_0=N\frac{sin(\alpha_0+\alpha_1)}{sin(\alpha_1-2\alpha_0)}e^{\mathrm{i}\alpha_0} \quad
+a_1=N\frac{sin(\alpha_0+\alpha_1)}{sin(\alpha_0-2\alpha_1)}e^{\mathrm{i}\alpha_1} \quad
 a_2=N
 \end{equation*}
 mit 
@@ -379,18 +379,78 @@ Jede Weltlinie, die sich bei Projektion auf den dreidimensionalen Ortsraum nicht
 
 \section{Eine relativbewegte Quantenuhr}
 
-Wir fragen nun danach, wie eine bewegte Uhr gesehen wird. Wenn der externe Beobachter die Zeigerstellung $\chi$ erkennt, dann schließt er daraus, dass in der bewegten Uhr die Zeit $\chi$ vergangen ist. Daran ändert eine Relativbewegung der Uhr nichts. Das heißt, eine Relativbewegung soll nichts daran ändern, welche Ortseigenvektoren mit welchen Zeiteigenvektoren verschränkt sind. Im diskreten Fall kann sich also an der Verschränkung gar nichts ändern. Im Raumzeitkontinuum gibt es dagegen mehr Freiheit. Wir greifen zurück auf den kontinuierlichen Uhrenzustand (\ref{eq:psi_clock}). 
+Wir fragen nun danach, wie eine bewegte Uhr gesehen wird, oder gleichwertig, wie eine Uhr von einem bewegten Beobachter aus gesehen wird. 
 
-Eine Koordinatentransformation der internen Uhrkoordinaten $x,t$ auf die Koordinaten $x',t'$ aus Sicht des externen Beobachters soll also bewirken
-\begin{equation} 
-\psi(x,t) \sim \delta(x-t)\ \longmapsto \ \psi(x',t') \sim \delta(x'-t')
-\end{equation} 
-Bemerkenswerterweise ist ein Lorentz-Boost in x-Richtung solch eine verschränkungserhaltende Transformation, denn
-\begin{equation} 
-\delta(x'-t') =\, \delta(\gamma (x + \beta t) - \gamma (t + \beta x)) 
-= \frac{\delta(x-t)}{\gamma (1-\beta)} \sim \delta(x-t)
+Der Operator $\hat{U}$ transformiert von der Sicht des externen Beobachters auf die Sicht des internen Beobachters. Der Operator $\hat{U}^{-1}$ transformiert wieder zurück.
+
+\begin{figure}[!h]\begin{center}
+  \includegraphics[width=10cm]{Bewegte_Uhr.png}
+  \caption{Vier verschiedene Sichten auf einen Zustand}
+  \label{fig:moved_clock}
+\end{center}\end{figure}
+
+Ein Lorentz-Boost in x-Richtung $\hat{\Lambda}_\beta$, parametrisiert mit der Geschwindigkeit $\beta=v/c$ transformiert Zustände\footnote{Wir beschränken uns hier auf skalare $\psi$.} auf die Sicht eines bewegten Beobachters. Die Umkehrtransformation ist $\hat{\Lambda}_{-\beta} \equiv \hat{\Lambda}_{\beta}^{-1}$.
+
+Aus der Abbildung \ref{fig:moved_clock} lesen wir ab, wie der bewegte Beobachter die Beziehung zwischen externem und internem Beobachter sieht: sie wird durch den linearen Operator $\hat{V} = \hat{\Lambda} \hat{U} \hat{\Lambda}^{-1}$ bestimmt. Der bewegte Beobachter sieht im Allgemeinen also die Beziehung zwischen internem und externem Beobachter anders als ein ruhender Beobachter. Nur wenn $\hat{\Lambda}$ und $\hat{U}$ vertauschen würden, erschiene die Beziehung gleich. Wie wir oben gesehen haben, bestimmt diese Beziehung das Fortschreiten der physikalischen Zeit mit den psychischen Zeit-Ticks. Der bewegte Beobachter sieht also subjektiv im Allgemeinen ein anderes Fortschreiten von physikalischer Zeit mit den psychischen, objektiven Zeit-Ticks des ruhenden externen Beobachters.
+
+Ein Lorentz-Boost in x-Richtung transformiert die Koordinaten gemäß
+\begin{equation*}
+\begin{pmatrix} t' \\ x' \end{pmatrix}\ =\ 
+\gamma \begin{pmatrix} 1 && -\beta \\ -\beta && 1 \end{pmatrix}
+\begin{pmatrix} t \\ x \end{pmatrix}
+\end{equation*}
+Aus der Forderung 
+\begin{equation*}
+\ket{\psi'}=\hat{\Lambda}\ket{\psi}
+\end{equation*}
+ausgedrückt in Komponenten
+\begin{equation*}
+\psi'(t',x')\ =\ \psi'(\gamma(t-\beta x),\gamma(x-\beta t))\ = \int \mathrm{d}t\,\mathrm{d}x\, \Lambda(t',x',t,x) \psi(t,x)
+\end{equation*}
+lesen wir die Matrixelemente der Lorentztransformation ab zu
+\begin{equation}\label{eq:matrix_elements_Lambda}
+\Lambda_\beta(t',x',t,x)\ =\ \delta(t-\gamma(t'+\beta x'))\ \delta(x-\gamma(x'+\beta t'))
 \end{equation}
-wenn wir t in Metern messen, was wir schon von Anfang an getan haben. Allerdings trifft das für Uhrenzeigerkoordinaten in y- oder z-Richtung nicht zu, da bei einem Boost in x-Richtung $y'=y$ und $z'=z$ gilt.
+Diese Matrixelemente haben die Eigenschaft, dass die Verkettung von Boosts
+\begin{equation*}
+\gamma_3 \begin{pmatrix} 1 && -\beta_3 \\ -\beta_3 && 1 \end{pmatrix} =
+\gamma_2 \begin{pmatrix} 1 && -\beta_2 \\ -\beta_2 && 1 \end{pmatrix}
+\gamma_1 \begin{pmatrix} 1 && -\beta_1 \\ -\beta_1 && 1 \end{pmatrix}
+\end{equation*}
+richtig wiedergegeben wird. Es ist tatsächlich\footnote{Im Anhang.}
+\begin{equation*}
+\Lambda_{\beta_3}(t',x',t,x)\ =\ \int \mathrm{d}t''\,\mathrm{d}x''\, \Lambda_{\beta_2}(t',x',t'',x'')\, \Lambda_{\beta_1}(t'',x'',t,x)
+\end{equation*}
+Mit Hilfe von (\ref{eq:matrix_elements_Lambda}) können wir die Matrixelemente von $\hat{U}$ aus Sicht des bewegten Beobachters angeben.
+\begin{equation}
+\begin{split}
+V(t_{int}',x_{int}',t_{ext}',x_{ext}')\ =\ 
+\int \mathrm{d}t_{int}''\,\mathrm{d}x_{int}''\, \mathrm{d}t_{ext}''\,\mathrm{d}x_{ext}''\, \cdot
+\\
+\Lambda_\beta(t_{int}',x_{int}',t_{int}'',x_{int}'') 
+U(t_{int}'',x_{int}'',t_{ext}'',x_{ext}'') 
+\Lambda_{-\beta}(t_{ext}'',x_{ext}'',t_{ext},x_{ext})
+\end{split}
+\end{equation}
+Wie zu erwarten war, ergibt sich nach Einsetzen von (\ref{eq:matrix_elements_Lambda})
+\begin{equation}
+V(t_{int}',x_{int}',t_{ext}',x_{ext}')\ =\ 
+U(\gamma(t_{int}'-\beta x_{int}'),
+\gamma(x_{int}'-\beta t_{int}'),
+\gamma(t_{ext}'-\beta x_{ext}'),
+\gamma(x_{ext}'-\beta t_{ext}')) 
+\end{equation}
+Die Matrixelemente von U wären dann invariant unter Lorentz-Boosts, wenn sie nur von den invarianten Skalaren $\sqrt{t_{int}^2-x_{int}^2}$ und $\sqrt{t_{ext}^2-x_{ext}^2}$ abhängig wären. Die Matrizen (\ref{eq:U}), die uns ein Anwachsen der Entropie mit der Zeit erklären konnten, sehen danach nicht aus\footnote{einmal abgesehen davon, dass sie diskret und nicht kontinuierlich sind}. An dieser Stelle kann man also die Hoffnung hegen, Lorentz-variante U zu finden, die sowohl ein Anwachsen der Entropie mit der Zeit als auch ein Zusammenbrechen des Uhrenprozesses bei $\beta=1$ erklären könnten.
+
+\section{Relativistische Ontologie}
+
+Wenn wir eine verdrehte Sicht einnehmen, erscheint uns die Welt anders, verdreht. Dennoch glauben wir, dass die Welt nach wie vor die gleiche geblieben ist, uns nur anders erscheint. Im mathematischen Modell drückt sich dies so aus, dass bei einer Rotation Koordinaten transformiert werden. Die rotierten Koordinaten (x',y',z') sollen aber dieselben Punkte P im Raum bezeichnen wie die ursprünglichen (x,y,z). Das heißt, wir glauben an eine dauerhafte gleichbleibende Existenz des Raumes und an die dauerhafte gleichbleibende Existenz von Punkten P im Raum. 
+
+Wenn wir eine gleichförmig relativbewegte Sicht einnehmen, erscheint uns die Welt anders, hyperbolisch verformt. Um konsistent zu bleiben, sollten wir nun auch glauben, dass die Welt die gleiche geblieben ist. Im mathematischen Modell drückt sich dies so aus, dass bei einem Lorentz-Boost Koordinaten transformiert werden. Die transformierten Koordinaten (t',x',y',z') sollen aber dieselben Ereignisse E der Raumzeit bezeichnen wie die ursprünglichen (t,x,y,z). Das heißt, wir müssen dann auch an eine dauerhafte gleichbleibende Existenz der Raumzeit und an die gleichbleibende dauerthafte Existenz aller Ereignisse E glauben. Das hieße also: Ereignisse ereignen sich nicht in der physikalischen Zeit. Ereignisse sind immer schon zu allen erdenklichen Zeiten da.
+
+Die andere Möglichkeit, konsistent zu bleiben, hieße, den Glauben an die absolute Existenz von Punkten und damit von Raum aufzugeben. 
+
+Wird weiter ausgeführt...
 
 \section{Anhang A: Berechnung der Matrixelemente von U}
 

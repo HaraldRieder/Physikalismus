@@ -56,7 +56,7 @@ Darum schauen wir uns an, wozu uns ein paar unkonventionelle Annahmen führen k�
 
 \section{Idee zu einer Quantenuhr}
 
-In der Quantenmechanik spielt sich das Geschehen in einem vieldimensionalen Konfigurationsraum ab, dem Hilbert-Raum. Ein Ort existiert in diesem Raum zunächst nicht. Erst durch Festlegung auf eine Basis lassen sich komplexwertige Funktionen erstellen. Diese Funktionen stehen für unendlich viele Amplituden, die durch einen kontinuierlichen reellwertigen Index $x$ durchnummeriert werden.
+In der Quantenmechanik spielt sich das Geschehen in einem vieldimensionalen Konfigurationsraum ab, dem Hilbert-Raum\footnote{Feinheiten wie Rigged Hilbert Space oder Fock-Raum interessieren an dieser Stelle nicht.}. Ein Ort existiert in diesem Raum zunächst nicht. Erst durch Festlegung auf eine Basis lassen sich komplexwertige Funktionen erstellen. Diese Funktionen stehen für unendlich viele Amplituden, die durch einen kontinuierlichen reellwertigen Index $x$ durchnummeriert werden.
 
 Durch Beobachtung von außen, sowie durch Symmetrien, die wir aus der Erfahrung her einem dreidimensionalen Ortsraum zuschreiben, gelingt uns der Anschluss. Es sind unendlich viele Basen wählbar, doch nur bestimmte Wahlen führen zu einer Indexierung, bei der wir den Index als Ortskoordinate interpretieren können. Die Amplitude eines abstrakten Zustandsvektors $\ket{\psi}$ an einem bestimmten Ort liefert uns das Skalarprodukt mit dem abstrakten Vektor einer "Ortsbasis"
 \begin{equation} 
@@ -67,14 +67,14 @@ Wenn wir die physikalische Zeit ähnlich wie den Ort behandeln wollen, dann muss
 \label{eq:psi_xt}
 \psi(t,x) \equiv \bra{t,x}\ket{\psi} 
 \end{equation}
-Die Indizes $x$ und $t$ nummerieren nun zusammen eine Produktbasis aus Orts- und Zeiteigenvektoren. Wir könnten aufgrund der Gleichmächtigkeit von $\mathbb{R}$ mit $\mathbb{R}^2$ diesen Index durch einen gemeinsamen reellwertigen Index $s = s(x,t)$ ersetzen und kämen damit wieder auf die Form
+Die Indizes $x$ und $t$ nummerieren nun zusammen eine Produktbasis aus Orts- und Zeiteigenvektoren. Wir könnten aufgrund der Gleichmächtigkeit\footnote{Das ist die Mächtigkeit des Kontinuums.} von $\mathbb{R}$ mit $\mathbb{R}^2$ diesen Index durch einen gemeinsamen reellwertigen Index $s = s(x,t)$ ersetzen und kämen damit wieder auf die Form
 \begin{equation}
 \label{eq:psi_s}
 \psi(s) \equiv \bra{s}\ket{\psi} 
 \end{equation}
 wobei $\ket{\psi}$ wie in (\ref{eq:psi_xt}) der abstrakte Zustandsvektor im Produktraum wäre.
 
-Wir nehmen an, dass der Beobachter aus seinem Hilbert-Raum $\mathscr{H}_X$ heraus nicht in der Lage dazu ist, Zeit "direkt" in Erfahrung zu bringen. Diese Annahme drückt sich in der Quantenmechanik so aus, dass in Matrixelementen $H(X,x)$ von Wechselwirkungs-Hamiltonians die Zeit nicht auftritt. Ein Beobachter muss eine Zeigerstellung, einen Ort, ablesen, um von dort auf die Zeit im Uhrenzustand zu schließen. 
+Wir nehmen an, dass der Beobachter aus seinem Hilbert-Raum $\mathscr{H}_X$ heraus nicht in der Lage dazu ist, physikalische Zeit "direkt" in Erfahrung zu bringen. Diese Annahme drückt sich in der Quantenmechanik so aus, dass in Matrixelementen $H(X,x)$ von Wechselwirkungs-Hamiltonians die Zeit nicht auftritt. Ein Beobachter muss eine Zeigerstellung, einen Ort, ablesen, um von dort auf die Zeit im Uhrenzustand zu schließen. 
 
 \begin{figure}[!h]\begin{center}
   \includegraphics[width=6cm]{Quantenuhr.png}
@@ -94,7 +94,7 @@ die Amplituden eines maximal verschränkten Zustands, der aus der Beobachtung vo
 \end{equation}
 Dadurch ist die Uhr zunächst kaputtgegangen. Denn durch verträgliche Messungen, also wiederholte Ortsmessungen, werden wir immer wieder nur diesen Zustand und damit die Zeit $\chi$ antreffen. Es fehlt also ein Mechanismus, der die Uhr wieder scharfschaltet, sie in ihren verschränkten Zustand zurückbringt.
 
-Im Artikel \emph{\href{https://docs.google.com/document/d/1OrmVETmnBSe5c0CpTbKH8Vq5pWFuB8QUez-KqHTaarQ/edit?usp=sharing}{Ideas about a Quantum Theory without Process Type 2}} wird so ein Mechanismus vorgestellt. Dort wird postuliert, dass jeder bewusste Beobachter einerseits eine Teilung des Hilbertraums vornimmt, andererseits die Änderung der Verschränkungen, wie sie erst durch die jeweilige Teilung aus den jeweils vorliegenden Zustandsvektoren entstehen, erlebt, ja sie womöglich willentlich herbeiführen kann, wodurch dann \emph{aus Sicht des jeweiligen Beobachters} die quantenmechanische Überlagerung kollabiert und am Ende ein reiner Produktzustand vorliegt. Mindestens 2 solcherart an den physikalischen Kanal angeschlossene Beobachter (\emph{conscious splits}) sind notwendig, um ein Geschehen am Laufen zu halten. Unsere Uhr soll von einem äußeren Beobachter wie gezeigt hin und wieder abgelesen werden. Wir benötigen also noch einen weiteren "internen" Beobachter, der den x,t-Produktraum auf andere Weise teilen muss als der externe Beobachter. Der interne Beobachter teilt den Produktraum dazu nicht in x- und t-Basen, sondern in eine Basis aus x,t-verschränkten Zuständen und eine Basis, die den ganzen Rest enthält.
+Im Artikel \emph{\href{https://docs.google.com/document/d/1OrmVETmnBSe5c0CpTbKH8Vq5pWFuB8QUez-KqHTaarQ/edit?usp=sharing}{Ideas about a Quantum Theory without Process Type 2}} wird so ein Mechanismus vorgestellt. Dort wird postuliert, dass jeder bewusste Beobachter einerseits eine Teilung des Hilbertraums vornimmt, andererseits die Änderung der Verschränkungen, wie sie erst durch die jeweilige Teilung aus den jeweils vorliegenden Zustandsvektoren entstehen, bewusst erlebt, ja sie womöglich willentlich herbeiführen kann, wodurch dann \emph{aus Sicht des jeweiligen Beobachters} die quantenmechanische Überlagerung kollabiert und am Ende ein reiner Produktzustand vorliegt. Mindestens 2 solcherart an den physikalischen Kanal angeschlossene Beobachter (\emph{conscious splits}) sind notwendig, um ein Geschehen am Laufen zu halten. Unsere Uhr soll von einem äußeren Beobachter wie gezeigt hin und wieder abgelesen werden. Wir benötigen also noch einen weiteren "internen" Beobachter, der den x,t-Produktraum auf andere Weise teilen muss als der externe Beobachter. Der interne Beobachter teilt den Produktraum dazu nicht in x- und t-Basen, sondern in eine Basis aus x,t-verschränkten Zuständen und eine Basis, die den ganzen Rest enthält.
 
 Um zu sehen, wie es läuft, betrachten wir ein einfaches Beispiel...
 
@@ -418,9 +418,9 @@ Diese Matrixelemente haben die Eigenschaft, dass die Verkettung von Boosts
 \gamma_1 \begin{pmatrix} 1 && -\beta_1 \\ -\beta_1 && 1 \end{pmatrix}
 \end{equation*}
 richtig wiedergegeben wird. Es ist tatsächlich\footnote{Im Anhang.}
-\begin{equation*}
+\begin{equation} \label{eq:chained_boosts}
 \Lambda_{\beta_3}(t',x',t,x)\ =\ \int \mathrm{d}t''\,\mathrm{d}x''\, \Lambda_{\beta_2}(t',x',t'',x'')\, \Lambda_{\beta_1}(t'',x'',t,x)
-\end{equation*}
+\end{equation}
 Mit Hilfe von (\ref{eq:matrix_elements_Lambda}) können wir die Matrixelemente von $\hat{U}$ aus Sicht des bewegten Beobachters angeben.
 \begin{equation}
 \begin{split}
@@ -440,21 +440,23 @@ U(\gamma(t_{int}'-\beta x_{int}'),
 \gamma(t_{ext}'-\beta x_{ext}'),
 \gamma(x_{ext}'-\beta t_{ext}')) 
 \end{equation}
-Die Matrixelemente von U wären dann invariant unter Lorentz-Boosts, wenn sie nur von den invarianten Skalaren $\sqrt{t_{int}^2-x_{int}^2}$ und $\sqrt{t_{ext}^2-x_{ext}^2}$ abhängig wären. Die Matrizen (\ref{eq:U}), die uns ein Anwachsen der Entropie mit der Zeit erklären konnten, sehen danach nicht aus\footnote{einmal abgesehen davon, dass sie diskret und nicht kontinuierlich sind}. An dieser Stelle kann man also die Hoffnung hegen, Lorentz-variante U zu finden, die sowohl ein Anwachsen der Entropie mit der Zeit als auch ein Zusammenbrechen des Uhrenprozesses bei $\beta=1$ erklären könnten.
+Die Matrixelemente von $\hat{U}$ wären dann invariant unter Lorentz-Boosts, wenn sie nur von den invarianten Skalaren $\sqrt{t_{int}^2-x_{int}^2}$ und $\sqrt{t_{ext}^2-x_{ext}^2}$ abhängig wären. Die Matrizen (\ref{eq:U}), die uns ein Anwachsen der Entropie mit der Zeit erklären konnten, sehen danach nicht aus\footnote{einmal abgesehen davon, dass sie diskret und nicht kontinuierlich sind}. An dieser Stelle kann man also die Hoffnung hegen, Lorentz-\emph{variante} $\hat{U}$ zu finden, die sowohl ein Anwachsen der Entropie mit der Zeit als auch ein Zusammenbrechen des Uhrenprozesses bei $\beta=1$ erklären könnten.
 
 \section{Relativistische Ontologie}
 
 Wenn wir eine verdrehte Sicht einnehmen, erscheint uns die Welt anders, verdreht. Dennoch glauben wir, dass die Welt nach wie vor die gleiche geblieben ist, uns nur anders erscheint. Im mathematischen Modell drückt sich dies so aus, dass bei einer Rotation Koordinaten transformiert werden. Die rotierten Koordinaten (x',y',z') sollen aber dieselben Punkte P im Raum bezeichnen wie die ursprünglichen (x,y,z). Das heißt, wir glauben an eine dauerhafte gleichbleibende Existenz des Raumes und an die dauerhafte gleichbleibende Existenz von Punkten P im Raum. 
 
-Wenn wir eine gleichförmig relativbewegte Sicht einnehmen, erscheint uns die Welt anders, hyperbolisch verformt. Um konsistent zu bleiben, sollten wir nun auch glauben, dass die Welt die gleiche geblieben ist. Im mathematischen Modell drückt sich dies so aus, dass bei einem Lorentz-Boost Koordinaten transformiert werden. Die transformierten Koordinaten (t',x',y',z') sollen aber dieselben Ereignisse E der Raumzeit bezeichnen wie die ursprünglichen (t,x,y,z). Das heißt, wir müssen dann auch an eine dauerhafte gleichbleibende Existenz der Raumzeit und an die gleichbleibende dauerthafte Existenz aller Ereignisse E glauben. Das hieße also: Ereignisse ereignen sich nicht in der physikalischen Zeit. Ereignisse sind immer schon zu allen erdenklichen Zeiten da.
+Wenn wir eine gleichförmig relativbewegte Sicht einnehmen, erscheint uns die Welt anders, hyperbolisch verformt. Um konsistent zu bleiben, sollten wir nun auch glauben, dass die Welt die gleiche geblieben ist. Im mathematischen Modell drückt sich dies so aus, dass bei einem Lorentz-Boost Koordinaten transformiert werden. Die transformierten Koordinaten (t',x',y',z') sollen aber dieselben Ereignisse E der Raumzeit bezeichnen wie die ursprünglichen (t,x,y,z). Das heißt, wir müssen dann auch an eine dauerhafte gleichbleibende Existenz der Raumzeit und an die gleichbleibende dauerthafte Existenz aller Ereignisse E glauben. Das hieße also: Ereignisse ereignen sich nicht in der physikalischen Zeit. Ereignisse sind immer schon zu allen erdenklichen Raumzeitpunkten da.
 
-Die andere Möglichkeit, konsistent zu bleiben, hieße, den Glauben an die absolute Existenz von Punkten und damit von Raum aufzugeben. 
+Die andere Möglichkeit konsistent zu bleiben hieße, den Glauben an die absolute Existenz von Punkten und damit von Raum aufzugeben. Also müssten Punkte im Raum wie Raumzeitpunkte in der Raumzeit erst durch ihr Auftreten in Erscheinung treten. 
 
 Wird weiter ausgeführt...
 
+S-Matrix enthält Prozess 1 (außen) und Prozess 2 (mittendrin/Propagator)
+
 \section{Anhang A: Berechnung der Matrixelemente von U}
 
-Wir kümmern uns hier nur um die $a_i$ und stauchen U auf eine 3x3-Matrix zusammen. Ohne Beschränkung der Allgemeinheit kann eines der Elemente reell gewählt werden. Wir machen den Ansatz
+Wir kümmern uns hier nur um die $a_i$ und stauchen $U$ auf eine 3x3-Matrix zusammen. Ohne Beschränkung der Allgemeinheit kann eines der Elemente reell gewählt werden. Wir machen den Ansatz
 \begin{equation*}
 U\, =\, N \, 
 \begin{pmatrix}
@@ -640,8 +642,40 @@ Als Referenz wurde der Verlauf der Entropie in Originalsicht, d.h. mit der Einhe
 
 Wenn die Verhältnisse der Differenzfrequenzen nicht mehr alle rationale Zahlen sind, dann wird der Zeitverlauf quasiperiodisch. Für Abbildung \ref{fig:quasi_periodic_entropy} wurde der Energieeigenwert $7$ durch $2,6 \cdot e$ ersetzt.
 
+\section{Anhang D: Matrixelemente eines Lorentz-Boost}
+
+(\ref{eq:matrix_elements_Lambda}) eingesetzt in (\ref{eq:chained_boosts}) ergibt
+\begin{equation*}
+\begin{gathered}
+\Lambda_{\beta_3}(t',x',t,x)\ = 
+\\ \\
+\int \mathrm{d}t''\,\mathrm{d}x''\,
+\delta(t''-\gamma_2(t'+\beta_2 x'))\ \delta(x''-\gamma_2(x'+\beta_2 t'))
+\delta(t-\gamma_1(t''+\beta_1 x''))\ \delta(x-\gamma_1(x''+\beta_1 t''))\ =
+\\ \\
+\int \mathrm{d}x''\,
+\delta(x''-\gamma_2(x'+\beta_2 t'))
+\delta(t-\gamma_1(\gamma_2(t'+\beta_2 x')+\beta_1 x''))\ \delta(x-\gamma_1(x''+\beta_1 \gamma_2(t'+\beta_2 x')))\ =
+\\ \\
+\delta(t-\gamma_1(\gamma_2(t'+\beta_2 x')+\beta_1 \gamma_2(x'+\beta_2 t')))\ \delta(x-\gamma_1(\gamma_2(x'+\beta_2 t')+\beta_1 \gamma_2(t'+\beta_2 x')))\ =
+\\ \\
+\delta(t-\gamma_1\gamma_2((1+\beta_1\beta_2)t'+(\beta_1+\beta_2)x'))\ 
+\delta(x-\gamma_1\gamma_2((1+\beta_1\beta_2)x'+(\beta_1+\beta_2)t'))
+=
+\\ \\
+\delta\left(t-\gamma_1\gamma_2(1+\beta_1\beta_2)(t'+\frac{(\beta_1+\beta_2)}{(1+\beta_1\beta_2)}x')\right)\ 
+\delta\left(x-\gamma_1\gamma_2(1+\beta_1\beta_2)(x'+\frac{(\beta_1+\beta_2)}{(1+\beta_1\beta_2)}t')\right)
+\end{gathered}
+\end{equation*}
+was wieder von der Form (\ref{eq:matrix_elements_Lambda}) ist mit
+\begin{equation*}
+\beta_3 = \frac{(\beta_1+\beta_2)}{(1+\beta_1\beta_2)} \quad \quad
+\gamma_3 = \gamma_1 \gamma_2(1+\beta_1\beta_2) 
+\end{equation*}
+also genau der relativistischen Addition von Relativgeschwindigkeiten.
+
 \newpage
-\section{Anhang D: Gnu Octave Programm}
+\section{Anhang E: Gnu Octave Programm}
 Mit diesem Programm wurden die Zahlenbeispiele für diesen Artikel berechnet.
 \begin{verbatim}
 alpha_0=pi/6;

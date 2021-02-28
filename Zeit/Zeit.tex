@@ -38,6 +38,10 @@
 
 \section{Motivation}
 
+Mit der Vorstellung davon, was man sich hinter dem Begriff \emph{Zeit} eigentlich vorzustellen habe, hat die Menschheit im Jahr 2021 ein gewaltiges Problem. Die, die meinen, die Sache sei klar, haben jedenfalls nichts verstanden, dafür aber kein Problem mit ihrem ganz persönlichen Zeitbegriff. Die, die darüber tiefer nachgedacht haben, sind sich uneins, nachzulesen zum Beispiel im Quanta Magazine in \emph{\href{https://www.quantamagazine.org/a-debate-over-the-physics-of-time-20160719/}{A Debate Over the Physics of Time}}. Einen kurzen historischen Abriss enthält der Artikel \emph{\href{http://cogsci.uci.edu/~ddhoff/HoffmanTime.pdf}{The Origin Of Time in Conscious Agents}} von Donald D. Hoffman in der Einleitung. Dass Zeit in Bezug auf die Physik etwas mit Quantenverschränkung zu tun haben könnte, wird zumindest erahnt, zum Beispiel im Artikel \emph{\href{https://arxiv.org/abs/1310.4691}{Time from Quantum Entanglement}}. Gerade die Physik aber stellt uns heute vor das sogenannte \emph{\href{https://en.wikipedia.org/wiki/Problem_of_time}{Problem of Time}}.
+
+Dieser Artikel stellt sich auf den Standpunkt, dass Zeit nicht unter Ausblendung des Geistes verstanden werden kann. Ausgehend von bekanntem physikalischen Terrain tastet er sich hinaus in's Unbekannte mit Hilfe einer postulierten Quantendynamik, die die Schnittstelle zum Geist beinhalten soll. Diese Dynamik ist eben eine Quantendynamik ohne Schrödingerdynamik, eine reine "Kollaps"-Dynamik, und damit gewissermaßen das Gegenteil der \href{https://de.wikipedia.org/wiki/Viele-Welten-Interpretation}{Viele-Welten-Interpretation}.
+
 Der Erfolg der relativistischen Physik lehrt uns, dass die Zeit irgendwie gleichrangig neben dem Ort zu stehen hat. Wechselt ein Beobachter seine Perspektive auf bestimmte Art, sehen  Koordinaten, die zuvor wie reine Ortskoordinaten ausgesehen haben, plötzlich ein wenig wie Zeitkoordinaten aus, und umgekehrt. Ein solcher Perspektiv-Wechsel heißt in der speziellen Relativitätstheorie \emph{Lorentz-Transformation}.\footnote{Ein Beispiel aus der allgemeinen Relativitätstheorie: Beim Passieren des Ereignishorizontes der Schwarzschild-Metrik tauschen Radialterm und Zeitterm ihre Vorzeichen aus. Nach dem starken Äquivalenzprinzip ist so ein Standortwechsel lokal äquivalent zu einem Wechsel der Perspektive.} 
 
 Der Alltag lehrt uns, dass die Zeit kontinuierlich vergeht, und zwar in eine bestimmte Richtung. Denn das Alltagsgeschehen scheint sich meistens nicht umkehren zu lassen. Eine zerschellte Tasse setzt sich nicht mit der Zeit wieder zu einer heilen Tasse zusammen und kehrt unter Abkühlung auf den Tisch zurück. Solches Alltagsgeschehen wird durch den 2. Hauptsatz der Thermodynamik erfolgreich modelliert.
@@ -411,26 +415,25 @@ lesen wir die Matrixelemente der Lorentztransformation ab zu
 \begin{equation}\label{eq:matrix_elements_Lambda}
 \Lambda_\beta(t',x',t,x)\ =\ \delta(t-\gamma(t'+\beta x'))\ \delta(x-\gamma(x'+\beta t'))
 \end{equation}
-Diese Matrixelemente haben die Eigenschaft, dass die Verkettung von Boosts
+Diese Matrixelemente geben auch die Verkettung von Boosts 
 \begin{equation*}
 \gamma_3 \begin{pmatrix} 1 && -\beta_3 \\ -\beta_3 && 1 \end{pmatrix} =
 \gamma_2 \begin{pmatrix} 1 && -\beta_2 \\ -\beta_2 && 1 \end{pmatrix}
 \gamma_1 \begin{pmatrix} 1 && -\beta_1 \\ -\beta_1 && 1 \end{pmatrix}
 \end{equation*}
-richtig wiedergegeben wird. Es ist tatsächlich\footnote{Im Anhang.}
+richtig wieder. Es ist \footnote{Im Anhang.}
 \begin{equation} \label{eq:chained_boosts}
 \Lambda_{\beta_3}(t',x',t,x)\ =\ \int \mathrm{d}t''\,\mathrm{d}x''\, \Lambda_{\beta_2}(t',x',t'',x'')\, \Lambda_{\beta_1}(t'',x'',t,x)
 \end{equation}
 Mit Hilfe von (\ref{eq:matrix_elements_Lambda}) können wir die Matrixelemente von $\hat{U}$ aus Sicht des bewegten Beobachters angeben.
 \begin{equation}
-\begin{split}
-V(t_{int}',x_{int}',t_{ext}',x_{ext}')\ =\ 
-\int \mathrm{d}t_{int}''\,\mathrm{d}x_{int}''\, \mathrm{d}t_{ext}''\,\mathrm{d}x_{ext}''\, \cdot
-\\
+\begin{gathered}
+V(t_{int}',x_{int}',t_{ext}',x_{ext}')\ =\ \\
+\int \mathrm{d}t_{int}''\,\mathrm{d}x_{int}''\, \mathrm{d}t_{ext}''\,\mathrm{d}x_{ext}''\, 
 \Lambda_\beta(t_{int}',x_{int}',t_{int}'',x_{int}'') 
 U(t_{int}'',x_{int}'',t_{ext}'',x_{ext}'') 
 \Lambda_{-\beta}(t_{ext}'',x_{ext}'',t_{ext},x_{ext})
-\end{split}
+\end{gathered}
 \end{equation}
 Wie zu erwarten war, ergibt sich nach Einsetzen von (\ref{eq:matrix_elements_Lambda})
 \begin{equation}
@@ -442,17 +445,23 @@ U(\gamma(t_{int}'-\beta x_{int}'),
 \end{equation}
 Die Matrixelemente von $\hat{U}$ wären dann invariant unter Lorentz-Boosts, wenn sie nur von den invarianten Skalaren $\sqrt{t_{int}^2-x_{int}^2}$ und $\sqrt{t_{ext}^2-x_{ext}^2}$ abhängig wären. Die Matrizen (\ref{eq:U}), die uns ein Anwachsen der Entropie mit der Zeit erklären konnten, sehen danach nicht aus\footnote{einmal abgesehen davon, dass sie diskret und nicht kontinuierlich sind}. An dieser Stelle kann man also die Hoffnung hegen, Lorentz-\emph{variante} $\hat{U}$ zu finden, die sowohl ein Anwachsen der Entropie mit der Zeit als auch ein Zusammenbrechen des Uhrenprozesses bei $\beta=1$ erklären könnten.
 
-\section{Relativistische Ontologie}
+%\section{Relativistische Ontologie}
 
-Wenn wir eine verdrehte Sicht einnehmen, erscheint uns die Welt anders, verdreht. Dennoch glauben wir, dass die Welt nach wie vor die gleiche geblieben ist, uns nur anders erscheint. Im mathematischen Modell drückt sich dies so aus, dass bei einer Rotation Koordinaten transformiert werden. Die rotierten Koordinaten (x',y',z') sollen aber dieselben Punkte P im Raum bezeichnen wie die ursprünglichen (x,y,z). Das heißt, wir glauben an eine dauerhafte gleichbleibende Existenz des Raumes und an die dauerhafte gleichbleibende Existenz von Punkten P im Raum. 
+%Wenn wir eine verdrehte Sicht einnehmen, erscheint uns die Welt anders, verdreht. Dennoch glauben wir, dass die Welt nach wie vor die gleiche geblieben ist, uns nur anders erscheint. Im mathematischen Modell drückt sich dies so aus, dass bei einer Rotation Koordinaten transformiert werden. Die rotierten Koordinaten (x',y',z') sollen aber dieselben Punkte P im Raum bezeichnen wie die ursprünglichen (x,y,z). Das heißt, wir glauben an eine dauerhafte gleichbleibende Existenz des Raumes und an die dauerhafte gleichbleibende Existenz von Punkten P im Raum. 
 
-Wenn wir eine gleichförmig relativbewegte Sicht einnehmen, erscheint uns die Welt anders, hyperbolisch verformt. Um konsistent zu bleiben, sollten wir nun auch glauben, dass die Welt die gleiche geblieben ist. Im mathematischen Modell drückt sich dies so aus, dass bei einem Lorentz-Boost Koordinaten transformiert werden. Die transformierten Koordinaten (t',x',y',z') sollen aber dieselben Ereignisse E der Raumzeit bezeichnen wie die ursprünglichen (t,x,y,z). Das heißt, wir müssen dann auch an eine dauerhafte gleichbleibende Existenz der Raumzeit und an die gleichbleibende dauerthafte Existenz aller Ereignisse E glauben. Das hieße also: Ereignisse ereignen sich nicht in der physikalischen Zeit. Ereignisse sind immer schon zu allen erdenklichen Raumzeitpunkten da.
+%Wenn wir eine gleichförmig relativbewegte Sicht einnehmen, erscheint uns die Welt anders, hyperbolisch verformt. Um konsistent zu bleiben, sollten wir nun auch glauben, dass die Welt die gleiche geblieben ist. Im mathematischen Modell drückt sich dies so aus, dass bei einem Lorentz-Boost Koordinaten transformiert werden. Die transformierten Koordinaten (t',x',y',z') sollen aber dieselben Ereignisse E der Raumzeit bezeichnen wie die ursprünglichen (t,x,y,z). Das heißt, wir müssen dann auch an eine dauerhafte gleichbleibende Existenz der Raumzeit und an die gleichbleibende dauerthafte Existenz aller Ereignisse E glauben. Das hieße also: Ereignisse ereignen sich nicht in der physikalischen Zeit. Ereignisse sind immer schon zu allen erdenklichen Raumzeitpunkten da.
 
-Die andere Möglichkeit konsistent zu bleiben hieße, den Glauben an die absolute Existenz von Punkten und damit von Raum aufzugeben. Also müssten Punkte im Raum wie Raumzeitpunkte in der Raumzeit erst durch ihr Auftreten in Erscheinung treten. 
+%Die andere Möglichkeit konsistent zu bleiben hieße, den Glauben an die absolute Existenz von Punkten und damit von Raum aufzugeben. Also müssten Punkte im Raum wie Raumzeitpunkte in der Raumzeit erst durch ihr Auftreten in Erscheinung treten. 
 
-Wird weiter ausgeführt...
+%Wird weiter ausgeführt...
 
-S-Matrix enthält Prozess 1 (außen) und Prozess 2 (mittendrin/Propagator)
+%S-Matrix enthält Prozess 1 (außen) und Prozess 2 (mittendrin/Propagator)
+
+\section{Fazit}
+
+Während \emph{\href{https://docs.google.com/document/d/1OrmVETmnBSe5c0CpTbKH8Vq5pWFuB8QUez-KqHTaarQ/edit?usp=sharing}{Ideas about a Quantum Theory without Process Type 2}} den Weg aufgezeigt hat, wie aus einer "Kollaps"-Dynamik eine Schrödingerdynamik entstehen kann, hat dieser Artikel gezeigt, wie bei anderem \emph{relativen} Arrangement der geistigen Akteure  eine stochastische Dynamik entstehen kann, bei der wachsende Zeitwerte in Korrelation zu einem Anwachsen der Entropie vorkommen. Während sonst versucht wird\footnote{Siehe z.B. \emph{Classical dynamical coarse-grained entropy and comparison with the quantum version.} von 2020.}, mit Hilfe einer subjektiven Grobkörnung ein Anwachsen von Entropie zu erklären, erklärt der hiesige Ansatz das Anwachsen der Entropie auf elementarer Ebene, sozusagen auf Ebene einer Feinkörnung, die wir vermutlich auf der Planck-Skala antreffen werden.
+
+Ein Ausblick wurde gegeben, wie man vielleicht ohne die allgemeine Relativitätstheorie bemühen zu müssen, einen Zusammenhang zwischen einer Feinkörnung und der Grenzgeschwindigkeit $\beta$ für die Informationsausbreitung finden könnte.
 
 \section{Anhang A: Berechnung der Matrixelemente von U}
 
@@ -642,7 +651,10 @@ Als Referenz wurde der Verlauf der Entropie in Originalsicht, d.h. mit der Einhe
 
 Wenn die Verhältnisse der Differenzfrequenzen nicht mehr alle rationale Zahlen sind, dann wird der Zeitverlauf quasiperiodisch. Für Abbildung \ref{fig:quasi_periodic_entropy} wurde der Energieeigenwert $7$ durch $2,6 \cdot e$ ersetzt.
 
-\section{Anhang D: Matrixelemente eines Lorentz-Boost}
+\newpage
+\section{Anhang D: Matrixelemente zweier Lorentz-Boosts}
+
+Eigentlich ist es klar, was bei der Verkettung der beiden Transformationen herauskommen muss. Es sei für dieses Beispiel dennoch einmal explizit aufgeschrieben.
 
 (\ref{eq:matrix_elements_Lambda}) eingesetzt in (\ref{eq:chained_boosts}) ergibt
 \begin{equation*}
@@ -667,16 +679,16 @@ Wenn die Verhältnisse der Differenzfrequenzen nicht mehr alle rationale Zahlen 
 \delta\left(x-\gamma_1\gamma_2(1+\beta_1\beta_2)(x'+\frac{(\beta_1+\beta_2)}{(1+\beta_1\beta_2)}t')\right)
 \end{gathered}
 \end{equation*}
-was wieder von der Form (\ref{eq:matrix_elements_Lambda}) ist mit
+was wieder von der Form (\ref{eq:matrix_elements_Lambda}) ist mit  der relativistischen Addition von Relativgeschwindigkeiten.
 \begin{equation*}
 \beta_3 = \frac{(\beta_1+\beta_2)}{(1+\beta_1\beta_2)} \quad \quad
 \gamma_3 = \gamma_1 \gamma_2(1+\beta_1\beta_2) 
 \end{equation*}
-also genau der relativistischen Addition von Relativgeschwindigkeiten.
 
 \newpage
 \section{Anhang E: Gnu Octave Programm}
-Mit diesem Programm wurden die Zahlenbeispiele für diesen Artikel berechnet.
+
+\subsection{Quantenuhr aus 2 Qutrits}
 \begin{verbatim}
 alpha_0=pi/6;
 alpha_1=pi/5;
@@ -741,6 +753,111 @@ exp_t_2 = t*P_square*psi_2
 p_1_tick=P_square*psi_0
 p_2_ticks=P_square^2*psi_0
 p_3_ticks=P_square^3*psi_0
+\end{verbatim}
+
+\subsection{Schrödingerdynamik Entropie}
+
+\begin{verbatim}
+# Time evolution of the von Neumann entropy of a 1 qubit density matrix
+# according to Schrödinger dynamics.
+
+# example one: energy ratios are rational numbers -> periodic entropy
+energies=[1,2,5,7]; # eV
+
+# example two: irrational energy ratios -> quasi periodic entropy
+energies2=[1,2,5,2.6*e]; # eV, 1 non-rational number
+
+# example amplitudes of our state vector in energy representation
+amplitudes=[1,2,5,7];
+# normalize |psi>
+amplitudes*=1/sqrt(amplitudes*amplitudes');
+
+# example unitary matrix f, defines the split of the 2 qubit space
+f=0.5*[
+  1,0,1,sqrt(2);
+  sqrt(2),1,0,-1;
+  -1,sqrt(2),1,0;
+  0,-1,sqrt(2),-1
+];
+# check unitarity of f
+identity=f*f'
+
+# Planck's constant over 2 pi in eV*s units.
+function retval = hbar()
+  retval = 6.582119569e-16; 
+endfunction
+
+# period length of periodic example one
+# 1/1, 1/2, 1/3, 1/4, 1/5, 1/6 -> 1/1 common period
+printf("period is %10.3e seconds\n",2*pi*hbar); 
+
+# von Neumann entropy of a density matrix with base 2 logarithm
+function retval = entropy(matrix)
+  retval = -trace(matrix*logm(matrix))*log2(e);
+endfunction
+
+#pure_state_density_matrix=amplitudes'*amplitudes
+#S=entropy(pure_state_density_matrix)
+
+# Calculates 2x2 density matrix of state |psi> in a 2 qubit space
+# depending on the view defined by unitary matrix f and the time.
+# f is meant relative to the energy representation.
+#
+# E_4 vector with 4 energy eigenvalues
+# d_4 amplitudes of energy eigenvectors
+# (|psi> = sum of d_i * |E_i>)
+# f_4_4 4x4 transformation matrix to 2x2 split view
+# t time scalar value
+function ret = rho_4_4(E_4, d_4, f_4_4, t)
+  ret = [0,0;0,0];
+  f_adjugate = f_4_4';
+  for k_ = 1:2
+    for m_ = 1:2
+      for i_ = 1:4
+        for j_ = 1:4
+          omega_ij = (E_4(i_)-E_4(j_))/hbar;
+          exp_ij = exp(-i*omega_ij*t);
+          for p_ = 1:2
+            index_f = (k_-1)*2+(p_-1)+1;
+            index_f_adj = (m_-1)*2+(p_-1)+1;
+            ret(k_,m_) +=
+             d_4(i_)*d_4(j_)'*f_4_4(i_,index_f)*f_adjugate(index_f_adj,j_)*exp_ij;
+          endfor
+        endfor
+      endfor
+    endfor
+  endfor
+endfunction
+
+N_points=500;
+t=linspace(0,10.0e-15,N_points); # femto seconds 1e-15
+S1=S2=S3=S4=linspace(0,0,N_points);
+for t_ = 1:N_points
+  rho = rho_4_4(energies, amplitudes, identity, t(t_));
+  S = entropy(rho);
+  S1(t_) = real(S);
+  rho = rho_4_4(energies, amplitudes, f, t(t_));
+  #trc=trace(rho) # must be 1
+  #trc_square=trace(rho*rho); # must be less or equal 1
+  S = entropy(rho);
+  S2(t_) = real(S); # suppress imaginary part (numeric errors < 1e-15)
+  rho = rho_4_4(energies2, amplitudes, identity, t(t_));
+  S = entropy(rho);
+  S3(t_) = real(S);
+  rho = rho_4_4(energies2, amplitudes, f, t(t_));
+  S = entropy(rho);
+  S4(t_) = real(S);
+endfor
+hf=figure(1, 'position', [110 400 1200 400]);
+h=plot(t,S1,"-;identity matrix;",t,S2,"-;f;");
+xlabel("t/s");
+ylabel("S");
+print (hf, "periodic_entropy.png", "-dpng","-S1200,400");
+hf=figure(2, 'position', [110 40 1200 400]);
+h=plot(t,S3,"-;identity matrix;",t,S4,"-;f;");
+xlabel("t/s");
+ylabel("S");
+print (hf, "quasi_periodic_entropy.png", "-dpng","-S1200,400");
 \end{verbatim}
 
 \end{document}

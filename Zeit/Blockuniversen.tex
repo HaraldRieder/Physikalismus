@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+\usepackage[margin=2cm, bindingoffset=0cm]{geometry}
+%\usepackage[german]{babel} 
+\usepackage[ngerman]{babel} %sudo apt-get install texlive-lang-german
+\usepackage{hyperref} % web links etc.
+\usepackage[parfill]{parskip}
+\usepackage[utf8]{inputenc}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tcolorbox}
+\usepackage{helvet} 
+\usepackage{framed}
+\usepackage{anyfontsize}
+\usepackage{csquotes}
+\usepackage{mathrsfs}
+\usepackage{physics}
+\setcounter{MaxMatrixCols}{16}
+\usepackage{amssymb}
+\usepackage{MnSymbol}
+\MakeOuterQuote{"}
+\definecolor{quotecolor}{rgb}{0.8,0.9,1}
+\renewcommand{\familydefault}{\sfdefault} 
+\setlength\parindent{0pt}
+\tcbset{boxrule=0pt,colback=quotecolor,arc=5pt,auto outer arc,left=5pt,right=5pt,boxsep=5pt}
+%  width=0.9\textwidth,
+
+\setcounter{secnumdepth}{-1}
+\begin{document}
+\title{\fontsize{25}{25}\selectfont \textbf{Eine Abfolge von Blockuniversen}}
+\author{Harald Rieder}
+\date{\today}
+\maketitle
+
+%\begin{abstract}
+
+%\end{abstract}
+
+\tableofcontents
+
+\section{Blockuniversen ersetzen absolute Zeit}
+Sei $x$ ein vollständiger Satz von Quantenzahlen zur eindeutigen Kennzeichnung eines Zustandsvektors einer Quantenwelt und $\ket{x}$ der dadurch gekennzeichnete Zustandsvektor. Dann berechnet sich in der nichtrelativistischen Quantenmechanik die bedingte Wahrscheinlichkeit dafür, die Quantenwelt zur Zeit $t_1$ im Zustand $\ket{x_1}$ anzutreffen unter der Bedingung, dass sie zur Zeit $t_0$ im Zustand  $\ket{x_0}$ war, zu
+\begin{equation} 
+\label{eq:conditional_probability}
+p(x_1,t_1)\Biggl|_{x_0,t_0} =\ \Bigl| \bra{x_1}\ket{\hat{U}(t_1-t_0)\,x_0} \Bigl|^2
+\end{equation}
+Dabei ist $\hat{U}$ der unitäre Zeitentwicklungsoperator, der parametrisch von einem als absolut angesehenen Zeitparameter $t$ abhängt. 
+
+Wenn die Quantenzahlen kontinuierlich sind, dann drückt sich (\ref{eq:conditional_probability}) in den Komponenten zu einer weiteren Basis $f$ so aus\footnote{Es ist $x(f) \equiv \bra{f}\ket{x}$ und $U(t,f,f') \equiv \bra{f}\ket{\hat{U}(t)f'}$.}
+\begin{equation} 
+\label{eq:conditional_probability_components}
+p(x_1,t_1) \Biggl|_{x_0,t_0}
+=\ \Bigl| \iint \mathrm{d}f\mathrm{d}f'\, x_1^*(f)\, U(t_1-t_0,f,f')\, x_0(f')\, \Bigl|^2
+\end{equation}
+Wenn wir von der parametrischen absoluten Zeit wegkommen wollen, dann wünschen wir uns so etwas wie
+\begin{equation} 
+\label{eq:conditional_probability_relat}
+p(x_1,t_1)\Biggl|_{x_0,t_0} =\ \Bigl| \bra{x_1,t_1}\ket{x_0,t_0} \Bigl|^2
+\end{equation}
+womit die bedingte Wahrscheinlichkeit gemeint ist, die Quantenwelt in den Zustand $\ket{x_1,t_1}$ zu bringen unter der Vorraussetzung, dass sie im Zustand $\ket{x_0,t_0}$ ist.  $x$ und $t$ nummerieren nun gemeinsam die Zustandsvektoren so wie in relativistischen Quantenfeldtheorien. Jeder Zustandsvektor stellt ein bestimmtes \href{https://de.wikipedia.org/wiki/Blockuniversum}{Blockuniversum} dar.
+
+Jeder unstetige Übergang von einem Zustandsvektor zum nächsten wird in der Physik traditionell als \emph{Messung} bezeichnet. 
+
+\section{Die Rolle des Subjekts}
+
+Subjektiv erleben wir Ereignisse in der (psychischen) Zeit. $\ket{x,t}$ steht nun aber nicht für ein Ereignis der Erfahrung eines Zustands $\ket{x}$ in der Zeit $t$, sondern im Allgemeinen für einen x,t-verschränkten Zustand\footnote{Irgendeine Funktion zweier Veränderlicher $f(x,t)\equiv\bra{x,t}\ket{f}$ zerfällt im Allgemeinen nicht in ein Produkt $g(x)h(t)$ und ist damit im Allgemeinen x,t-verschränkt.}. Da das Subjekt keine Zustände erfährt, die in der Zeit verschränkt sind, muss es an der Messung in einer Weise beteiligt sein, so dass auf entschränkte Produktzustände projiziert wird. Das Subjekt muss also dafür sorgen, dass auf Produktzustände $\ket{x_i}\otimes\ket{t_i}$ projiziert wird, wobei $\ket{t_i}$ eine Zeiteigenfunktion\footnote{in Komponenten also eine Delta-Distribution $\delta(t-t_i)$} zum Zeiteigenwert $t_i$ ist. Dadurch erfährt das Subjekt die physikalische Zeit $t_i$ zusammen mit dem neuen Weltzustand $\ket{x_i}$. Wiederholt sich dies, dann erfährt das Subjekt eine Folge von Weltzuständen $\ket{x_i}$, die durch die \href{https://de.wikipedia.org/wiki/Zeitdilatation}{Eigenzeiten} $t_i$ nummeriert sind, also bei genügender Feinheit des Prozesses vermeintlich eine quasikontinuierliche Abfolge $\ket{x(t)}$.
+
+Sei $\ket{y_0}$ ein Blockuniversum vor der Messung, oder in Komponenten zur Produktbasis $f,t$ ausgedrückt $y_0(f,t)$. Dann ist die Übergangswahrscheinlichkeit (\ref{eq:conditional_probability_relat}) in einen subjektiv erfahrbaren Zustand $\ket{y_1} = \ket{x_1}\otimes\ket{t_1}$
+\begin{equation} 
+\label{eq:conditional_probability_subject}
+p(x_1,t_1)\Biggl|_{y_0}\ =\ \Bigl| \iint \mathrm{d}f\mathrm{d}t\  x_1^*(f)\delta(t-t_1)\, y_0(f,t)\, \Bigl|^2
+\ =\ \Bigl| \int \mathrm{d}f\, x_1^*(f)\, y_0(f,t_1)\, \Bigl|^2
+\end{equation}
+Vergleichen wir dies nun mit (\ref{eq:conditional_probability_components}), dann lesen wir ab
+\begin{equation} 
+y_0(f,t_1)\ =\ \int \mathrm{d}f'\, U(t_1-t_0,f,f')\, x_0(f')
+\end{equation}
+
+
+\end{document}

@@ -25,7 +25,7 @@
 
 \setcounter{secnumdepth}{-1}
 \begin{document}
-\title{\fontsize{25}{25}\selectfont \textbf{Eine Abfolge von Blockuniversen}}
+\title{\fontsize{25}{25}\selectfont \textbf{Eine Abfolge von Blockuniversen?}}
 \author{Harald Rieder}
 \date{\today}
 \maketitle
@@ -36,13 +36,38 @@
 
 \tableofcontents
 
+\section{Motivation}
+
+Das Messproblem der Quantenmechanik entsteht aus der Vorstellung einer stetigen Entwicklung von mathematischen Größen in der als absolut angesehen gemeinsamen Zeit in Verbindung mit der Erfahrung, dass Kenntnis über das durch die mathematischen Größen beschriebene Quantending nur dann erlangt werden kann, wenn sich dabei dessen Zustand unstetig ändert. Dadurch sind zu jedem Zeitpunkt 2 verschiedene sich daran anschließende Arten von Zukünften möglich und niemand kann sagen, wann oder warum die eine oder die andere gewählt wird. 
+
+Dieses Paradoxon hat schon die besten Köpfe herausgefordert und der ein oder andere dachte sich, eine Lösung zu haben. Mitunter taucht die Denke auf, dass verschiedene Sichten auf die Quantenmechanik möglich seien, so genannte "Interpretationen der Quantenmechanik", die am Ende doch nur eine Frage des Geschmacks seien. Wir werden hier diesen Weg nicht gehen. Statt dessen soll das Paradoxon dadurch aufgelöst werden, dass zu jedem Zeitpunkt nur eine Art von Zukunft möglich ist. Anstatt an der Vorstellung eines Zeitparameters, von dem Geschehen stetig abhängt, festzuhalten, werfen wir diese Vorstellung komplett über Bord. Es gibt einige gute Gründe, es auf diese Art zu versuchen:
+
+\begin{enumerate}
+    \item Unterhalb der Planck-Zeit kann es keine stetige Zeitentwicklung mehr geben.
+    \item Eine Propagation des Geschehens durch lineare Operatoren, wie sie für die sich stetig anschließende Zukunft im Modell geschieht, treibt das Weltgeschehen eben \emph{linear} weiter. Man kann schwerlich glauben, dass dadurch irgend etwas wie Lebendigkeit erfolgreich modelliert werden kann. Aus der klassischen Chaos-Theorie haben wir gelernt, dass nur eine nichtlineare Dynamik zu etwas führt, dass uns an Leben erinnert. Die unstetig sich anschließende Zukunft liefert uns dagegen eine nichtlineare Dynamik.
+    \item Um Kenntnis über ein Quantending zu erlangen ist ein Verlassen der stetigen Entwicklung notwendig. Die Dekohärenztheorie kann erklären, wie Information aus einem Quantending in seine Umgebung fließt unter der Annahme einer gemeinsamen stetigen Entwicklung. Doch wenn Kenntnis über Quantending und/oder Umgebung erlangt werden soll, ist ein unstetiger Schritt notwendig. Das \emph{problem of outcomes} wird durch die Dekoränztheorie nicht gelöst, und das ist das eigentliche Paradoxon.
+    \item Eine komplett neue Dynamik könnte erfunden werden. Das erscheint aber schwieriger, als einfach die Hälfte der Dynamik wegzuwerfen.
+\end{enumerate}
+Die Quantenmechanik liefert uns statistische Größen: Wahrscheinlichkeiten für Ereignisse. Wir haben gelernt, wie man Empfindungen mit den Ereignissen zu verknüpfen hat, die das mathematische Modell hergibt. Dabei hat sich herausgestellt, dass diese Theorie Häufigkeiten und Mittelwerte teilweise erschreckend genau liefern kann. Wenn die Hälfte der Dynamik über Bord geworfen werden soll, dann müssen dennoch die statistischen Aussagen der Theorie im experimentell gesteckten Rahmen erhalten bleiben. Ob dies überhaupt möglich ist, soll hier untersucht werden. 
+
+Die unstetige Dynamik hat die Eigenart, dass das Geschehen zum Erliegen kommt, wenn man immer nach derselben Information fragt. In traditioneller technischer Ausdrucksweise führt die Anwendung eines projektiven Messoperators zum "Kollaps" des Zustandsvektors auf einen Eigenraum des Messoperators. Danach führt die Wiederholung der projektiven Messung zu keinem Verlassen des Eigenraums mehr. Um ein Geschehen allein mit der unstetigen Dynamik am Laufen zu halten benötigen wird deswegen wengistens 2 unverträgliche Messoperatoren.
+
+Während in gewöhnlicher Quantentheorie mit der Beobachtung üblicherweise Schluss ist, denn dann können die subjektiven Empfindungen gegen die Zahlen des mathematischen Modells verglichen werden, fordern wir ständige Beobachtungen, damit ein Geschehen überhaupt stattfinden kann. Da das menschliche Subjekt aber nur mit einer Seite der projektiven Messungen in Verbindung steht, sind ihm die anderen verborgen. Natürlich wäre es ontologisch das Einfachste anzunehmen, dass die anderen Messungen genauso wie die einen stattfinden, dass sie am Ende mit Empfindungen in Zusammenhang stehen, nur eben für andere Subjekte. 
+
 \section{Blockuniversen ersetzen absolute Zeit}
-Sei $x$ ein vollständiger Satz von Quantenzahlen zur eindeutigen Kennzeichnung eines Zustandsvektors einer Quantenwelt und $\ket{x}$ der dadurch gekennzeichnete Zustandsvektor. Dann berechnet sich in der nichtrelativistischen Quantenmechanik die bedingte Wahrscheinlichkeit dafür, die Quantenwelt zur Zeit $t_1$ im Zustand $\ket{x_1}$ anzutreffen unter der Bedingung, dass sie zur Zeit $t_0$ im Zustand  $\ket{x_0}$ war, zu
+Sei $x$ ein vollständiger Satz von Quantenzahlen zur eindeutigen Kennzeichnung eines normierten Zustandsvektors einer Quantenwelt und $\ket{x}$ der dadurch gekennzeichnete Zustandsvektor. Dann berechnet sich in der nichtrelativistischen Quantenmechanik die bedingte Wahrscheinlichkeit dafür, die Quantenwelt zur Zeit $t_1$ im Zustand $\ket{x_1}$ anzutreffen unter der Bedingung, dass sie zur Zeit $t_0$ im Zustand  $\ket{x_0}$ war, zu
 \begin{equation} 
 \label{eq:conditional_probability}
-p(x_1,t_1)\Biggl|_{x_0,t_0} =\ \Bigl| \bra{x_1}\ket{\hat{U}(t_1-t_0)\,x_0} \Bigl|^2
+p(x_1,t_1,x_0,t_0) =\ \Bigl| \bra{x_1}\ket{\hat{U}(t_1-t_0)\,x_0} \Bigl|^2
 \end{equation}
-Dabei ist $\hat{U}$ der unitäre Zeitentwicklungsoperator, der parametrisch von einem als absolut angesehenen Zeitparameter $t$ abhängt. 
+Dabei ist $\hat{U}$ der unitäre Zeitentwicklungsoperator, der parametrisch von einem als absolut angesehenen Zeitparameter $t$ abhängt. Wir beschränken uns hier auf nicht explizit zeitabhängige Welten, d.h. $\hat{U}$ kann mit einem hermiteschen Operator $\hat{H}$ in der Form
+\begin{equation} 
+\hat{U}(t,t_0)=\exp \left(-\tfrac {\mathrm {i} }{\hbar}\hat{H}\cdot (t-t_0)\right)
+\end{equation}
+geschrieben werden. 
+
+-----------------
+ab hier überarbeiten
 
 Wenn die Quantenzahlen kontinuierlich sind, dann drückt sich (\ref{eq:conditional_probability}) in den Komponenten zu einer weiteren Basis $f$ so aus\footnote{Es ist $x(f) \equiv \bra{f}\ket{x}$ und $U(t,f,f') \equiv \bra{f}\ket{\hat{U}(t)f'}$.}
 \begin{equation} 

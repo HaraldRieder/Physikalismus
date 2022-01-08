@@ -58,13 +58,78 @@ Während in gewöhnlicher Quantentheorie mit der Beobachtung üblicherweise Schl
 Sei $x$ ein vollständiger Satz von Quantenzahlen zur eindeutigen Kennzeichnung eines normierten Zustandsvektors einer Quantenwelt und $\ket{x}$ der dadurch gekennzeichnete Zustandsvektor. Dann berechnet sich in der nichtrelativistischen Quantenmechanik die bedingte Wahrscheinlichkeit dafür, die Quantenwelt zur Zeit $t_1$ im Zustand $\ket{x_1}$ anzutreffen unter der Bedingung, dass sie zur Zeit $t_0$ im Zustand  $\ket{x_0}$ war, zu
 \begin{equation} 
 \label{eq:conditional_probability}
-p(x_1,t_1,x_0,t_0) =\ \Bigl| \bra{x_1}\ket{\hat{U}(t_1-t_0)\,x_0} \Bigl|^2
+p^{(0)\rightarrow(1)} =\ \Bigl| \bra{x_1}\ket{\hat{U}(t_1-t_0)\,x_0} \Bigl|^2
 \end{equation}
 Dabei ist $\hat{U}$ der unitäre Zeitentwicklungsoperator, der parametrisch von einem als absolut angesehenen Zeitparameter $t$ abhängt. Wir beschränken uns hier auf nicht explizit zeitabhängige Welten, d.h. $\hat{U}$ kann mit einem hermiteschen Operator $\hat{H}$ in der Form
 \begin{equation} 
-\hat{U}(t,t_0)=\exp \left(-\tfrac {\mathrm {i} }{\hbar}\hat{H}\cdot (t-t_0)\right)
+\hat{U}(t_1,t_0)=\exp \left(-\tfrac {\mathrm {i} }{\hbar}\hat{H}\cdot (t_1-t_0)\right)
 \end{equation}
 geschrieben werden. 
+
+-----------------
+diskret
+
+Schrödi + 1 Kollaps
+\begin{equation} 
+p^{(0)\rightarrow(1)} =\ \Bigl| \sum_{x'x} \psi^{(1)}_{x'}\ U(\Delta t)_{x'x}\ \psi^{(0)}_x \Bigl|^2
+\end{equation}
+Elementares $\Delta t$ Planck-Zeit $\hat{U} = \hat{u}^{t/t_{Planck}}$
+\begin{equation} 
+p^{(0)\rightarrow(1)} =\ \Bigl| \sum_{x'x} \psi^{(1)}_{x'}\ u_{x'x}\ \psi^{(0)}_x \Bigl|^2
+\end{equation}
+1 Zwischenbasis, 2 Kollapse
+\begin{equation} 
+\ket{\psi}^{(0)} =  \sum_{x} \psi^{(0)}_x \ket{x} \otimes \ket{t_0} \quad\quad
+\ket{\psi}^{(1)} =  \sum_{x} \psi^{(1)}_x \ket{x} \otimes \ket{t_1}
+\end{equation}
+Zwischenbasis $\{\ket{z}\}$ $N \cdot M$ Elemente
+\begin{equation} 
+\ket{x} \otimes \ket{t} = \sum_z V_{xt\, z}\ \ket{z} \quad\quad
+\ket{z} = \sum_{xt} V^*_{z\, xt}\ \ket{x} \otimes \ket{t}
+\end{equation}
+\begin{equation} 
+p^{(0)\rightarrow(z)} =\ \Bigl| \bra{z} \hat{V} \left(\ket{x}\otimes\ket{t_0}\right)\Bigl|^2
+= \Bigl|\sum_{x'xt} \psi^{(0)*}_{x'} \bra{x'} \otimes \bra{t_0} V^*_{z\, xt}\ \ket{x} \otimes \ket{t}\Bigl|^2 
+\end{equation}
+\begin{equation} 
+p^{(0)\rightarrow(z)} =\ \Bigl|\sum_{x} \psi^{(0)}_{x} V_{z\, xt_0}\ \Bigl|^2 
+\end{equation}
+analog
+\begin{equation} 
+p^{(z)\rightarrow(1)} =\ \Bigl|\sum_{x} \psi^{(1)}_{x} V_{z\, xt_1}\ \Bigl|^2 
+\end{equation}
+Gesamtübergangswahrscheinlichkeit
+\begin{equation} 
+p^{(0)\rightarrow(1)} =\ \sum_z\ p^{(0)\rightarrow(z)}\ p^{(z)\rightarrow(1)}
+= \ \sum_{z}\ \Bigl(\ \Bigl|\sum_{x} \psi^{(1)}_{x} V_{z\, xt_1}\ \Bigl|^2\ \Bigl|\sum_{x} \psi^{(0)}_{x} V_{z\, xt_0}\ \Bigl|^2\ \Bigr)
+\end{equation}
+\begin{equation} 
+p^{(0)\rightarrow(1)} 
+= \ \sum_{z}\ \Bigl|\sum_{x'x} \psi^{(1)}_{x'} V_{z\, x't_1}\ V_{z\, xt_0}\ \psi^{(0)}_{x} \Bigl|^2  
+\end{equation}
+
+\begin{equation} 
+p^{(0)\rightarrow(1)} 
+= \ \sum_{z}\ \Bigl|\sum_{x'x} \psi^{(1)}_{x'} v_{z\, x'}\ w_{z\, x}\ \psi^{(0)}_{x} \Bigl|^2  
+\end{equation}
+Also 
+\begin{equation} 
+\boxed{
+\quad\Bigl| \sum_{x'x} \psi^{(1)}_{x'}\ u_{x'x}\ \psi^{(0)}_x \Bigl|^2 
+\ =\ \sum_{z}\ \Bigl|\sum_{x'x} \psi^{(1)}_{x'} v_{z\, x'}\ w_{z\, x}\ \psi^{(0)}_{x} \Bigl|^2 \quad
+}
+\end{equation}
+
+Unitarität von $u$ und $V$ sind zusätzlich zu fordern!
+\begin{equation} 
+\sum_{x''} u_{x'x''}\, u^*_{xx''} = \delta_{x'x} \quad\quad 
+\sum_{z} V_{x't'\, z} V^*_{xt\, z} = \delta_{x'x}\ \delta_{t't} \quad\quad
+\sum_{xt} V_{xt\, z'} V^*_{xt\, z} = \delta_{z'z}
+\end{equation}
+
+
+
+
 
 -----------------
 ab hier überarbeiten

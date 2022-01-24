@@ -71,11 +71,11 @@ diskret
 
 Schrödi + 1 Kollaps
 \begin{equation} 
-p^{(0)\rightarrow(1)} =\ \Bigl| \sum_{x'x} \psi^{(1)}_{x'}\ U(\Delta t)_{x'x}\ \psi^{(0)}_x \Bigl|^2
+p^{(0)\rightarrow(1)} =\ \Bigl| \sum_{x'x} \psi^{(1)*}_{x'}\ U(\Delta t)_{x'x}\ \psi^{(0)}_x \Bigl|^2
 \end{equation}
 Elementares $\Delta t$ Planck-Zeit $\hat{U} = \hat{u}^{t/t_{Planck}}$
 \begin{equation} 
-p^{(0)\rightarrow(1)} =\ \Bigl| \sum_{x'x} \psi^{(1)}_{x'}\ u_{x'x}\ \psi^{(0)}_x \Bigl|^2
+p^{(0)\rightarrow(1)} =\ \Bigl| \sum_{x'x} \psi^{(1)*}_{x'}\ u_{x'x}\ \psi^{(0)}_x \Bigl|^2
 \end{equation}
 1 Zwischenbasis, 2 Kollapse
 \begin{equation} 
@@ -84,39 +84,44 @@ p^{(0)\rightarrow(1)} =\ \Bigl| \sum_{x'x} \psi^{(1)}_{x'}\ u_{x'x}\ \psi^{(0)}_
 \end{equation}
 Zwischenbasis $\{\ket{z}\}$ $N \cdot M$ Elemente
 \begin{equation} 
-\ket{x} \otimes \ket{t} = \sum_z V_{xt\, z}\ \ket{z} \quad\quad
-\ket{z} = \sum_{xt} V^*_{z\, xt}\ \ket{x} \otimes \ket{t}
+\begin{matrix}
+\ket{x} \otimes \ket{t} = \sum_z V_{xt\, z}\ \ket{z} &&
+\ket{z} = \sum_{xt} V^*_{z\, xt}\ \ket{x} \otimes \ket{t} 
+\\
+\bra{x} \otimes \bra{t} = \sum_z V^*_{z\, xt}\ \bra{z} &&
+\bra{z} = \sum_{xt} V_{xt\, z}\ \bra{x} \otimes \bra{t} 
+\end{matrix}
 \end{equation}
 \begin{equation} 
 p^{(0)\rightarrow(z)} =\ \Bigl| \bra{z} \hat{V} \left(\ket{x}\otimes\ket{t_0}\right)\Bigl|^2
-= \Bigl|\sum_{x'xt} \psi^{(0)*}_{x'} \bra{x'} \otimes \bra{t_0} V^*_{z\, xt}\ \ket{x} \otimes \ket{t}\Bigl|^2 
+= \Bigl|\sum_{xt\, x'} \psi^{(0)}_{x'} \bra{x'} \otimes \bra{t} V_{xt\, z}\ \ket{x} \otimes \ket{t_0}\Bigl|^2 
 \end{equation}
 \begin{equation} 
-p^{(0)\rightarrow(z)} =\ \Bigl|\sum_{x} \psi^{(0)}_{x} V_{z\, xt_0}\ \Bigl|^2 
+p^{(0)\rightarrow(z)} =\ \Bigl|\sum_{x} \psi^{(0)}_{x} V_{xt_0\, z}\ \Bigl|^2 
 \end{equation}
 analog
 \begin{equation} 
-p^{(z)\rightarrow(1)} =\ \Bigl|\sum_{x} \psi^{(1)}_{x} V_{z\, xt_1}\ \Bigl|^2 
+p^{(z)\rightarrow(1)} =\ \Bigl|\sum_{x} \psi^{(1)}_{x} V_{xt_1\, z}\ \Bigl|^2 
 \end{equation}
 Gesamtübergangswahrscheinlichkeit
 \begin{equation} 
 p^{(0)\rightarrow(1)} =\ \sum_z\ p^{(0)\rightarrow(z)}\ p^{(z)\rightarrow(1)}
-= \ \sum_{z}\ \Bigl(\ \Bigl|\sum_{x} \psi^{(1)}_{x} V_{z\, xt_1}\ \Bigl|^2\ \Bigl|\sum_{x} \psi^{(0)}_{x} V_{z\, xt_0}\ \Bigl|^2\ \Bigr)
+= \ \sum_{z}\ \Bigl(\ \Bigl|\sum_{x} \psi^{(1)}_{x} V_{xt_1\, z}\ \Bigl|^2\ \Bigl|\sum_{x} \psi^{(0)}_{x} V_{xt_0\, z}\ \Bigl|^2\ \Bigr)
 \end{equation}
 \begin{equation} 
 p^{(0)\rightarrow(1)} 
-= \ \sum_{z}\ \Bigl|\sum_{x'x} \psi^{(1)}_{x'} V_{z\, x't_1}\ V_{z\, xt_0}\ \psi^{(0)}_{x} \Bigl|^2  
+= \ \sum_{z}\ \Bigl|\sum_{x'x} \psi^{(1)}_{x'} V_{x't_1\, z}\ V_{xt_0\, z}\ \psi^{(0)}_{x} \Bigl|^2  
 \end{equation}
 
-\begin{equation} 
-p^{(0)\rightarrow(1)} 
-= \ \sum_{z}\ \Bigl|\sum_{x'x} \psi^{(1)}_{x'} v_{z\, x'}\ w_{z\, x}\ \psi^{(0)}_{x} \Bigl|^2  
-\end{equation}
+%\begin{equation} 
+%p^{(0)\rightarrow(1)} 
+%= \ \sum_{z}\ \Bigl|\sum_{x'x} \psi^{(1)}_{x'} v_{z\, x'}\ w_{z\, x}\ \psi^{(0)}_{x} %\Bigl|^2  
+%\end{equation}
 Also 
 \begin{equation} 
 \boxed{
-\quad\Bigl| \sum_{x'x} \psi^{(1)}_{x'}\ u_{x'x}\ \psi^{(0)}_x \Bigl|^2 
-\ =\ \sum_{z}\ \Bigl|\sum_{x'x} \psi^{(1)}_{x'} v_{z\, x'}\ w_{z\, x}\ \psi^{(0)}_{x} \Bigl|^2 \quad
+\quad\Bigl| \sum_{x'x} \psi^{(1)*}_{x'}\ u_{x'x}\ \psi^{(0)}_x \Bigl|^2 
+\ =\ \sum_{z}\ \Bigl|\sum_{x'x} \psi^{(1)}_{x'} V_{x't_1\, z}\ V_{xt_0\, z}\ \psi^{(0)}_{x} \Bigl|^2 \quad
 }
 \end{equation}
 
@@ -127,9 +132,9 @@ Unitarität von $u$ und $V$ sind zusätzlich zu fordern!
 \sum_{xt} V_{xt\, z'} V^*_{xt\, z} = \delta_{z'z}
 \end{equation}
 
+Ausmultipliziert
 
-
-
+...
 
 -----------------
 ab hier überarbeiten

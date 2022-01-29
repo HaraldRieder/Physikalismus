@@ -55,10 +55,10 @@ Die unstetige Dynamik hat die Eigenart, dass das Geschehen zum Erliegen kommt, w
 Während in gewöhnlicher Quantentheorie mit der Beobachtung üblicherweise Schluss ist, denn dann können die subjektiven Empfindungen gegen die Zahlen des mathematischen Modells verglichen werden, fordern wir ständige Beobachtungen, damit ein Geschehen überhaupt stattfinden kann. Da das menschliche Subjekt aber nur mit einer Seite der projektiven Messungen in Verbindung steht, sind ihm die anderen verborgen. Natürlich wäre es ontologisch das Einfachste anzunehmen, dass die anderen Messungen genauso wie die einen stattfinden, dass sie am Ende mit Empfindungen in Zusammenhang stehen, nur eben für andere Subjekte. 
 
 \section{Blockuniversen ersetzen absolute Zeit}
-Sei $x$ ein vollständiger Satz von Quantenzahlen zur eindeutigen Kennzeichnung eines normierten Zustandsvektors einer Quantenwelt und $\ket{x}$ der dadurch gekennzeichnete Zustandsvektor. Dann berechnet sich in der nichtrelativistischen Quantenmechanik die bedingte Wahrscheinlichkeit dafür, die Quantenwelt zur Zeit $t_1$ im Zustand $\ket{x_1}$ anzutreffen unter der Bedingung, dass sie zur Zeit $t_0$ im Zustand  $\ket{x_0}$ war, zu
+Sei $\ket{\psi}$ der Zustandsvektor einer Quantenwelt. Dann berechnet sich in der nichtrelativistischen Quantenmechanik die bedingte Wahrscheinlichkeit dafür, die Quantenwelt zur Zeit $t_1$ im Zustand $\ket{\psi^{(1)}}$ anzutreffen unter der Bedingung, dass sie zur Zeit $t_0$ im Zustand  $\ket{\psi{(0)}}$ war, zu
 \begin{equation} 
 \label{eq:conditional_probability}
-p^{(0)\rightarrow(1)} =\ \Bigl| \bra{x_1}\ket{\hat{U}(t_1-t_0)\,x_0} \Bigl|^2
+p^{(0)\rightarrow(1)} =\ \Bigl| \bra{\psi^{(1)}}\ket{\hat{U}(t_1-t_0)\,\psi^{(0)}} \Bigl|^2
 \end{equation}
 Dabei ist $\hat{U}$ der unitäre Zeitentwicklungsoperator, der parametrisch von einem als absolut angesehenen Zeitparameter $t$ abhängt. Wir beschränken uns hier auf nicht explizit zeitabhängige Welten, d.h. $\hat{U}$ kann mit einem hermiteschen Operator $\hat{H}$ in der Form
 \begin{equation}
@@ -87,9 +87,9 @@ p^{(0)\rightarrow(1)} =\ \Bigl| \sum_{x'x} \psi^{(1)*}_{x'}\ u_{x'x}\ \psi^{(0)}
 Zwischenbasis $\{\ket{z}\}$ $N \cdot M$ Elemente
 \begin{equation} 
 \begin{matrix}
-\ket{x} \otimes \ket{t} = \sum_z V_{xt\, z}\ \ket{z} &&
+\ket{x} \otimes \ket{t} = \sum_z V_{xt\, z}\ \ket{z} && 
 \ket{z} = \sum_{xt} V^*_{z\, xt}\ \ket{x} \otimes \ket{t} 
-\\
+\\ \\
 \bra{x} \otimes \bra{t} = \sum_z V^*_{z\, xt}\ \bra{z} &&
 \bra{z} = \sum_{xt} V_{xt\, z}\ \bra{x} \otimes \bra{t} 
 \end{matrix}
@@ -152,11 +152,17 @@ Unitarität von $u$ und $V$ sind zusätzlich zu fordern!
 \end{equation}
 
 -----------------
-\ref{eq:time_evolution} diagnonalisiert durch unitäre Matrix $W$ im x-Unterraum. D.h. auf $V$ wirkt $W \otimes \mathrm{1}$.
-\begin{equation}
-U_{x'x\,t't} = e^\mathrm{i\varphi_x(t'-t)}\delta_{x'x}
-\end{equation}
 
+(\ref{eq:time_evolution}) diagnonalisiert durch unitäre Matrix $W$ im x-Unterraum. D.h. auf $V$ wirkt $W \otimes \mathrm{1}$.
+\begin{equation}
+\begin{split}
+\boxed{
+U_{x'x\,t't} = e^\mathrm{i\varphi_x(t'-t)}\,\delta_{x'x}\ =\ \sum_z \, V_{x'''t'\, z}\, V^*_{x''t\, z}\, V^*_{x't'\, z}\, V_{xt\, z} 
+} \\
+\varphi_x \in \mathbb{R} \\ V_{xt\, z} \in \mathbb{C} \\
+x \in \{1,2,...,N_x\}\\ t \in \{1,2,...,N_t\}\\ z \in \{1,2,...,N_x \cdot N_t\} 
+\end{split}
+\end{equation}
 
 
 Nur noch Unitarität von $V$ ist zusätzlich zu fordern!

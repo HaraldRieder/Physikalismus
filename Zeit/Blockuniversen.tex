@@ -54,6 +54,15 @@ Die unstetige Dynamik hat die Eigenart, dass das Geschehen zum Erliegen kommt, w
 
 Während in gewöhnlicher Quantentheorie mit der Beobachtung üblicherweise Schluss ist, denn dann können die subjektiven Empfindungen gegen die Zahlen des mathematischen Modells verglichen werden, fordern wir ständige Beobachtungen, damit ein Geschehen überhaupt stattfinden kann. Da das menschliche Subjekt aber nur mit einer Seite der projektiven Messungen in Verbindung steht, sind ihm die anderen verborgen. Natürlich wäre es ontologisch das Einfachste anzunehmen, dass die anderen Messungen genauso wie die einen stattfinden, dass sie am Ende mit Empfindungen in Zusammenhang stehen, nur eben für andere Subjekte. 
 
+\section{Die Bornsche Regel}
+
+\begin{equation} 
+p^{(0)\rightarrow(1)} =\ \Bigl| \bra{\psi^{(1)}}\ket{\psi^{(0)}} \Bigr| ^2
+\end{equation}
+
+
+%https://en.wikipedia.org/wiki/Born_rule
+
 \section{Die Zeit in der Quantenmechanik}
 
 \begin{equation} 
@@ -78,6 +87,9 @@ Produktansatz für $\ket{\psi}$
 \ket{\psi}^{\mathscr{H}} \otimes \hat{E}\ket{\psi}^{\mathscr{E}} =\ 0
 \end{equation}
 
+Funktioniert für Schrödinger- und Dirac-Gleichung. Bsp. liefern...
+
+
 Gleichungssystem nur noch gekoppelt über die Eigenwerte $E$
 \begin{equation}
 \begin{split}
@@ -86,13 +98,64 @@ Gleichungssystem nur noch gekoppelt über die Eigenwerte $E$
 \end{split}
 \end{equation}
 
+Aufgrund der Linearität sind alle Linearkombinantionen von Produkten zum selben Eigenwert $E$ ebenfalls Lösungen.
+\begin{equation}
+\ket{\psi} = \sum_j\ \psi_j \ket{\psi_{E_j}}^{\mathscr{H}} \otimes\ \ket{\psi_{E_j}}^{\mathscr{E}}
+\end{equation}
 
+
+Damit Bornsche Regel
+
+\begin{equation} 
+p^{(0)\rightarrow(1)} =\ \sum_{jk} \psi_j^{(1)*}\psi_k^{(0)}\psi_j^{(1)}\psi_k^{(0)*}
+=\  \sum_{j} |\psi_j^{(1)}|^2 \cdot \sum_{k} |\psi_k^{(0)}|^2
+\end{equation}
+
+Damit von der Betrachtung ausgeschlossen alle mit $j \neq k$.
+
+\begin{equation}
+\ket{\psi} = \sum_{jk}\ \psi_{jk} \ket{\psi_{E_j}}^{\mathscr{H}} \otimes\ \ket{\psi_{E_k}}^{\mathscr{E}}
+\end{equation}
+
+Bornsche Regel allg. ? überprüfen!
+
+\begin{equation} 
+p^{(0)\rightarrow(1)} =\ \sum_{jklm} \psi_{jk}^{(1)*}\psi_{lm}^{(0)}\psi_{jk}^{(1)}\psi_{lm}^{(0)*}
+=\  \sum_{jk} |\psi_{jk}^{(1)}|^2 \cdot \sum_{lm} |\psi_{lm}^{(0)}|^2
+\end{equation}
+
+
+---------------------------
+
+\begin{equation} 
+\label{eq:conditional_probability}
+p^{(0)\rightarrow(1)} =\ \Bigl| \bra{\psi^{(1)}}\ket{\hat{U}(t_1-t_0)\,\psi^{(0)}} \Bigr|^2
+\end{equation}
+
+In der Energiebasis ist $\hat{U}$ bei einem nicht explizit zeitabhängigen Hamilton-Operator diagonal.
+
+Matrixelemente in der Energiebasis
+\begin{equation} 
+U_{jk} = \delta_{jk} e^{-\mathrm{i}\omega_j(t_1-t_0)}
+= 
+\delta_{jk}(e^{\mathrm{i}\omega_j t_1})^* e^{\mathrm{i}\omega_j t_0}
+\end{equation}
+
+\begin{equation} 
+p^{(0)\rightarrow(1)} =\ 
+\Bigl| \sum_j
+(\psi_j^{(1)\mathscr{H}})^* (e^{\mathrm{i}\omega_j t_1})^*
+\psi_j^{(0)\mathscr{H}} e^{\mathrm{i}\omega_j t_0}
+ \Bigr|^2
+\end{equation}
+
+$e^{\mathrm{i}\omega_j t_0}$
 
 \section{Blockuniversen ersetzen absolute Zeit}
 Sei $\ket{\psi}$ der Zustandsvektor einer Quantenwelt. Dann berechnet sich in der nichtrelativistischen Quantenmechanik die bedingte Wahrscheinlichkeit dafür, die Quantenwelt zur Zeit $t_1$ im Zustand $\ket{\psi^{(1)}}$ anzutreffen unter der Bedingung, dass sie zur Zeit $t_0$ im Zustand  $\ket{\psi{(0)}}$ war, zu
 \begin{equation} 
 \label{eq:conditional_probability}
-p^{(0)\rightarrow(1)} =\ \Bigl| \bra{\psi^{(1)}}\ket{\hat{U}(t_1-t_0)\,\psi^{(0)}} \Bigl|^2
+p^{(0)\rightarrow(1)} =\ \Bigl| \bra{\psi^{(1)}}\ket{\hat{U}(t_1-t_0)\,\psi^{(0)}} \Bigr|^2
 \end{equation}
 Dabei ist $\hat{U}$ der unitäre Zeitentwicklungsoperator, der parametrisch von einem als absolut angesehenen Zeitparameter $t$ abhängt. Wir beschränken uns hier auf nicht explizit zeitabhängige Welten, d.h. $\hat{U}$ kann mit einem hermiteschen Operator $\hat{H}$ in der Form
 \begin{equation}
@@ -107,11 +170,11 @@ diskret
 
 Schrödi + 1 Kollaps
 \begin{equation} 
-p^{(0)\rightarrow(1)} =\ \Bigl| \sum_{x'x} \psi^{(1)*}_{x'}\ U(\Delta t)_{x'x}\ \psi^{(0)}_x \Bigl|^2
+p^{(0)\rightarrow(1)} =\ \Bigl| \sum_{x'x} \psi^{(1)*}_{x'}\ U(\Delta t)_{x'x}\ \psi^{(0)}_x \Bigr|^2
 \end{equation}
 Elementares $\Delta t$ Planck-Zeit $\hat{U} = \hat{u}^{t/t_{Planck}}$
 \begin{equation} 
-p^{(0)\rightarrow(1)} =\ \Bigl| \sum_{x'x} \psi^{(1)*}_{x'}\ u_{x'x}\ \psi^{(0)}_x \Bigl|^2
+p^{(0)\rightarrow(1)} =\ \Bigl| \sum_{x'x} \psi^{(1)*}_{x'}\ u_{x'x}\ \psi^{(0)}_x \Bigr|^2
 \end{equation}
 1 Zwischenbasis, 2 Kollapse
 \begin{equation} 
@@ -129,35 +192,35 @@ Zwischenbasis $\{\ket{z}\}$ $N \cdot M$ Elemente
 \end{matrix}
 \end{equation}
 \begin{equation} 
-p^{(0)\rightarrow(z)} =\ \Bigl| \bra{z} \hat{V} \left(\ket{x}\otimes\ket{t_0}\right)\Bigl|^2
-= \Bigl|\sum_{xt\, x'} \psi^{(0)}_{x'} \bra{x'} \otimes \bra{t} V_{xt\, z}\ \ket{x} \otimes \ket{t_0}\Bigl|^2 
+p^{(0)\rightarrow(z)} =\ \Bigl| \bra{z} \hat{V} \left(\ket{x}\otimes\ket{t_0}\right)\Bigr|^2
+= \Bigl|\sum_{xt\, x'} \psi^{(0)}_{x'} \bra{x'} \otimes \bra{t} V_{xt\, z}\ \ket{x} \otimes \ket{t_0}\Bigr|^2 
 \end{equation}
 \begin{equation} 
-p^{(0)\rightarrow(z)} =\ \Bigl|\sum_{x} \psi^{(0)}_{x} V_{xt_0\, z}\ \Bigl|^2 
+p^{(0)\rightarrow(z)} =\ \Bigl|\sum_{x} \psi^{(0)}_{x} V_{xt_0\, z}\ \Bigr|^2 
 \end{equation}
 analog
 \begin{equation} 
-p^{(z)\rightarrow(1)} =\ \Bigl|\sum_{x} \psi^{(1)}_{x} V_{xt_1\, z}\ \Bigl|^2 
+p^{(z)\rightarrow(1)} =\ \Bigl|\sum_{x} \psi^{(1)}_{x} V_{xt_1\, z}\ \Bigr|^2 
 \end{equation}
 Gesamtübergangswahrscheinlichkeit
 \begin{equation} 
 p^{(0)\rightarrow(1)} =\ \sum_z\ p^{(0)\rightarrow(z)}\ p^{(z)\rightarrow(1)}
-= \ \sum_{z}\ \Bigl(\ \Bigl|\sum_{x} \psi^{(1)}_{x} V_{xt_1\, z}\ \Bigl|^2\ \Bigl|\sum_{x} \psi^{(0)}_{x} V_{xt_0\, z}\ \Bigl|^2\ \Bigr)
+= \ \sum_{z}\ \Bigl(\ \Bigl|\sum_{x} \psi^{(1)}_{x} V_{xt_1\, z}\ \Bigr|^2\ \Bigl|\sum_{x} \psi^{(0)}_{x} V_{xt_0\, z}\ \Bigr|^2\ \Bigr)
 \end{equation}
 \begin{equation} 
 p^{(0)\rightarrow(1)} 
-= \ \sum_{z}\ \Bigl|\sum_{x'x} \psi^{(1)}_{x'} V_{x't_1\, z}\ V_{xt_0\, z}\ \psi^{(0)}_{x} \Bigl|^2  
+= \ \sum_{z}\ \Bigl|\sum_{x'x} \psi^{(1)}_{x'} V_{x't_1\, z}\ V_{xt_0\, z}\ \psi^{(0)}_{x} \Bigr|^2  
 \end{equation}
 
 %\begin{equation} 
 %p^{(0)\rightarrow(1)} 
-%= \ \sum_{z}\ \Bigl|\sum_{x'x} \psi^{(1)}_{x'} v_{z\, x'}\ w_{z\, x}\ \psi^{(0)}_{x} %\Bigl|^2  
+%= \ \sum_{z}\ \Bigl|\sum_{x'x} \psi^{(1)}_{x'} v_{z\, x'}\ w_{z\, x}\ \psi^{(0)}_{x} %\Bigr|^2  
 %\end{equation}
 Also 
 \begin{equation} 
 \boxed{
-\quad\Bigl| \sum_{x'x} \psi^{(1)*}_{x'}\ u_{x'x}\ \psi^{(0)}_x \Bigl|^2 
-\ =\ \sum_{z}\ \Bigl|\sum_{x'x} \psi^{(1)}_{x'} V_{x't_1\, z}\, V_{xt_0\, z}\ \psi^{(0)}_{x} \Bigl|^2 \quad
+\quad\Bigl| \sum_{x'x} \psi^{(1)*}_{x'}\ u_{x'x}\ \psi^{(0)}_x \Bigr|^2 
+\ =\ \sum_{z}\ \Bigl|\sum_{x'x} \psi^{(1)}_{x'} V_{x't_1\, z}\, V_{xt_0\, z}\ \psi^{(0)}_{x} \Bigr|^2 \quad
 }
 \end{equation}
 
@@ -215,12 +278,12 @@ Wenn die Quantenzahlen kontinuierlich sind, dann drückt sich (\ref{eq:condition
 \begin{equation} 
 \label{eq:conditional_probability_components}
 p(x_1,t_1) \Biggl|_{x_0,t_0}
-=\ \Bigl| \iint \mathrm{d}f\mathrm{d}f'\, x_1^*(f)\, U(t_1-t_0,f,f')\, x_0(f')\, \Bigl|^2
+=\ \Bigl| \iint \mathrm{d}f\mathrm{d}f'\, x_1^*(f)\, U(t_1-t_0,f,f')\, x_0(f')\, \Bigr|^2
 \end{equation}
 Wenn wir von der parametrischen absoluten Zeit wegkommen wollen, dann wünschen wir uns so etwas wie
 \begin{equation} 
 \label{eq:conditional_probability_relat}
-p(x_1,t_1)\Biggl|_{x_0,t_0} =\ \Bigl| \bra{x_1,t_1}\ket{x_0,t_0} \Bigl|^2
+p(x_1,t_1)\Biggl|_{x_0,t_0} =\ \Bigl| \bra{x_1,t_1}\ket{x_0,t_0} \Bigr|^2
 \end{equation}
 womit die bedingte Wahrscheinlichkeit gemeint ist, die Quantenwelt in den Zustand $\ket{x_1,t_1}$ zu bringen unter der Vorraussetzung, dass sie im Zustand $\ket{x_0,t_0}$ ist.  $x$ und $t$ nummerieren nun gemeinsam die Zustandsvektoren so wie in relativistischen Quantenfeldtheorien. Jeder Zustandsvektor stellt ein bestimmtes \href{https://de.wikipedia.org/wiki/Blockuniversum}{Blockuniversum} dar.
 
@@ -233,8 +296,8 @@ Subjektiv erleben wir Ereignisse in der (psychischen) Zeit. $\ket{x,t}$ steht nu
 Sei $\ket{y_0}$ ein Blockuniversum vor der Messung, oder in Komponenten zur Produktbasis $f,t$ ausgedrückt $y_0(f,t)$. Dann ist die Übergangswahrscheinlichkeit (\ref{eq:conditional_probability_relat}) in einen subjektiv erfahrbaren Zustand $\ket{y_1} = \ket{x_1}\otimes\ket{t_1}$
 \begin{equation} 
 \label{eq:conditional_probability_subject}
-p(x_1,t_1)\Biggl|_{y_0}\ =\ \Bigl| \iint \mathrm{d}f\mathrm{d}t\  x_1^*(f)\delta(t-t_1)\, y_0(f,t)\, \Bigl|^2
-\ =\ \Bigl| \int \mathrm{d}f\, x_1^*(f)\, y_0(f,t_1)\, \Bigl|^2
+p(x_1,t_1)\Biggl|_{y_0}\ =\ \Bigl| \iint \mathrm{d}f\mathrm{d}t\  x_1^*(f)\delta(t-t_1)\, y_0(f,t)\, \Bigr|^2
+\ =\ \Bigl| \int \mathrm{d}f\, x_1^*(f)\, y_0(f,t_1)\, \Bigr|^2
 \end{equation}
 Vergleichen wir dies nun mit (\ref{eq:conditional_probability_components}), dann lesen wir ab
 \begin{equation} 

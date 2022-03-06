@@ -104,24 +104,22 @@ Aufgrund der Linearität sind alle Linearkombinantionen von Produkten zum selben
 \end{equation}
 
 
-Damit Bornsche Regel
+Damit Bornsche Regel zwischen solchen Lösungen
 
 \begin{equation} 
-p^{(0)\rightarrow(1)} =\ \sum_{jk} \psi_j^{(1)*}\psi_k^{(0)}\psi_j^{(1)}\psi_k^{(0)*}
-=\  \sum_{j} |\psi_j^{(1)}|^2 \cdot \sum_{k} |\psi_k^{(0)}|^2
+p^{(0)\rightarrow(1)} =\ \sum_{jk} \psi_j^{(1)*}\psi_k^{(1)}\psi_j^{(0)}\psi_k^{(0)*}
 \end{equation}
 
-Damit von der Betrachtung ausgeschlossen alle mit $j \neq k$.
+Damit von der Betrachtung ausgeschlossen alle, die $j \neq k$ Bestandteile haben.
 
 \begin{equation}
 \ket{\psi} = \sum_{jk}\ \psi_{jk} \ket{\psi_{E_j}}^{\mathscr{H}} \otimes\ \ket{\psi_{E_k}}^{\mathscr{E}}
 \end{equation}
 
-Bornsche Regel allg. ? überprüfen!
+Bornsche Regel allg.
 
 \begin{equation} 
-p^{(0)\rightarrow(1)} =\ \sum_{jklm} \psi_{jk}^{(1)*}\psi_{lm}^{(0)}\psi_{jk}^{(1)}\psi_{lm}^{(0)*}
-=\  \sum_{jk} |\psi_{jk}^{(1)}|^2 \cdot \sum_{lm} |\psi_{lm}^{(0)}|^2
+p^{(0)\rightarrow(1)} =\ \sum_{jklm} \psi_{jk}^{(1)*}\psi_{lm}^{(1)}\psi_{jk}^{(0)}\psi_{lm}^{(0)*}
 \end{equation}
 
 
@@ -140,16 +138,30 @@ U_{jk} = \delta_{jk} e^{-\mathrm{i}\omega_j(t_1-t_0)}
 = 
 \delta_{jk}(e^{\mathrm{i}\omega_j t_1})^* e^{\mathrm{i}\omega_j t_0}
 \end{equation}
-
+In Komponenten
 \begin{equation} 
 p^{(0)\rightarrow(1)} =\ 
 \Bigl| \sum_j
-(\psi_j^{(1)\mathscr{H}})^* (e^{\mathrm{i}\omega_j t_1})^*
+(\psi_j^{(1)\mathscr{H}} e^{\mathrm{i}\omega_j t_1})^*
 \psi_j^{(0)\mathscr{H}} e^{\mathrm{i}\omega_j t_0}
  \Bigr|^2
 \end{equation}
 
-$e^{\mathrm{i}\omega_j t_0}$
+Matrixelemente des Ortsoperators in der Impulsdarstellung im Kontinuum $x(p-p') = \mathrm{i}\hbar \delta(p-p')\frac{\partial}{\partial p}$. Komponenten des Ortseigenvektors zum Eigenwert $x_i$ in der Impulsdarstellung $e^{\mathrm{i}k x_i}$ mit kontinuierlichem Index $k = p/\hbar$.
+
+Analog sind $e^{\mathrm{i}\omega t_i}$ Komponenten des Zeiteigenvektors zum Eigenwert $t_i$ in der Zeitimpuls- oder Energiedarstellung mit kontinuierlichem Index $\omega=E/\hbar$. Matrixelemente des Zeitoperators in der Zeitimpulsdarstellung im Kontinuum $t(E-E') = -\mathrm{i}\hbar \delta(E-E')\frac{\partial}{\partial E}$.
+
+$\psi_j = \psi_j^\mathscr{H} \psi_j^\mathscr{E}$
+
+Deswegen wird (\ref{eq:conditional_probability}) zu 
+\begin{equation} 
+p^{(0)\rightarrow(1)} =\ \Bigl| 
+\bra{\psi^{(1)\mathscr{H}}\otimes\psi^{(1)\mathscr{E}}}
+\ket{\psi^{(0)\mathscr{H}}\otimes\psi^{(0)\mathscr{E}}} \Bigr|^2
+\end{equation}
+mit Komponenten $\psi_j^{(i)\mathscr{E}}=e^{\mathrm{i}\omega_j t_i}$. 
+\textbf{Deswegen muss $\psi^{(i)\mathscr{E}}$ als Zeiteigenvektor zum Zeiteigenwert $t_i$ aufgefasst werden.}
+
 
 \section{Blockuniversen ersetzen absolute Zeit}
 Sei $\ket{\psi}$ der Zustandsvektor einer Quantenwelt. Dann berechnet sich in der nichtrelativistischen Quantenmechanik die bedingte Wahrscheinlichkeit dafür, die Quantenwelt zur Zeit $t_1$ im Zustand $\ket{\psi^{(1)}}$ anzutreffen unter der Bedingung, dass sie zur Zeit $t_0$ im Zustand  $\ket{\psi{(0)}}$ war, zu

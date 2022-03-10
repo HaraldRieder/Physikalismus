@@ -68,26 +68,39 @@ Transformationen, die über Teilräume hinüberreichen, ändern i.A. deren Versc
 
 \subsection{Orts-, Impuls-, Zeit- und Energieoperatoren}
 
-Weil wir ihnen später begegnen werden, rufen wir uns die Matrixelemente spezieller Operatoren und die Komponenten ihrer Eigenvektoren in speziellen Vektorbasen in Erinnerung. Wir unterscheiden nicht zwischen abzählbaren und kontinuierlichen Dirac-Vektoren und verwenden durchgängig die Indexschreibweise.
+Weil wir ihnen später begegnen werden, rufen wir uns die Matrixelemente spezieller Operatoren und die Komponenten ihrer Eigenvektoren in speziellen Vektorbasen in Erinnerung. Wir unterscheiden nicht zwischen abzählbaren und kontinuierlichen Dirac-Vektoren und verwenden durchgängig die Indexschreibweise, d.h. $f_{x_j} \equiv f(x)$.
 
-Die Matrixelemente des Ortsoperator $\hat{x}$ und die Komponenten seiner Eigenvektoren $\ket{\psi_x}$ in der Ortsbasis $\{\ket{\psi_x}\}$
+Die Matrixelemente des Ortsoperator $\hat{x}$ und die Komponenten seiner Eigenvektoren $\ket{\psi_{x_j}}$ zu den Eigenwerten $x_j$ sind in der Ortsbasis $\{\,\ket{\psi_{x_j}}\,\}$
 \begin{equation}
-\bra{\psi_{x'}}\ket{\,\hat{x}\,\psi_x}\ =\ x_{x'x}\ =\ \delta_{x'x}\,x
-\quad\quad \bra{\psi_{x}}\ket{\psi_{x'}}\ =\ \psi_{x'x}\ =\ \delta_{x'x}
+\bra{\psi_{x_j}}\ket{\,\hat{x}\,\psi_{x_k}}\ =\ x_{x_j x_k}\ =\ \delta_{x_j x_k}\,x_j
+\quad\quad 
+\bra{\psi_{x_k}}\ket{\psi_{x_j}}\ =\ \psi_{x_j x_k}\ =\ \delta_{x_j x_k}
 \end{equation}
 
-Die Matrixelemente des Ortsoperator $\hat{x}$ und die Komponenten seiner Eigenvektoren $\ket{x}$ in der Impulsbasis $\{\ket{\psi_p}\}$
+und in der (Orts-)Impulsbasis $\{\,\ket{\psi_{p_j}}\,\}$
 \begin{equation}
-...
+\bra{\psi_{p_j}}\ket{\,\hat{x}\,\psi_{p_k}}\ =\ x_{p_j p_k}\ =\ 
+\mathrm{i}\hbar\,\delta_{p_j p_k}\,\frac{\partial}{\partial p_k}
+\quad\quad 
+\bra{\psi_{p_k}}\ket{\psi_{x_j}}\ =\ \psi_{x_j p_k}\ =\ 
+\frac{1}{\sqrt{2\pi}} e^{-\frac{i}{\hbar}x_j p_k}
 \end{equation}
 
-usw.......
+Analog sind die Matrixelemente des Zeitoperators $\hat{t}$ und die Komponenten seiner Eigenvektoren $\ket{\psi_{t_j}}$ zu den Eigenwerten $t_j$ in der Zeitbasis $\{\,\ket{\psi_{t_j}}\,\}$
+\begin{equation}
+\bra{\psi_{t_j}}\ket{\,\hat{t}\,\psi_{t_k}}\ =\ t_{t_j t_k}\ =\ \delta_{t_j t_k}\,t_j
+\quad\quad 
+\bra{\psi_{t_k}}\ket{\psi_{t_j}}\ =\ \psi_{t_j t_k}\ =\ \delta_{t_j t_k}
+\end{equation}
 
-Matrixelemente des Ortsoperators in der Impulsdarstellung im Kontinuum $x(p-p') = \mathrm{i}\hbar \delta(p-p')\frac{\partial}{\partial p}$. Komponenten des Ortseigenvektors zum Eigenwert $x_i$ in der Impulsdarstellung $e^{\mathrm{i}k x_i}$ mit kontinuierlichem Index $k = p/\hbar$.
-
-Analog sind $e^{\mathrm{i}\omega t_i}$ Komponenten des Zeiteigenvektors zum Eigenwert $t_i$ in der Zeitimpuls- oder Energiedarstellung mit kontinuierlichem Index $\omega=E/\hbar$. Matrixelemente des Zeitoperators in der Zeitimpulsdarstellung im Kontinuum $t(E-E') = -\mathrm{i}\hbar \delta(E-E')\frac{\partial}{\partial E}$.
-
-$\psi_j = \psi_j^\mathscr{H} \psi_j^\mathscr{E}$
+und in der (Zeit-)Impuls- oder Energiebasis $\{\,\ket{\psi_{E_j}}\,\}$
+\begin{equation}
+\bra{\psi_{E_j}}\ket{\,\hat{t}\,\psi_{E_k}}\ =\ t_{E_j E_k}\ =\ 
+\mathrm{i}\hbar\,\delta_{E_j E_k}\,\frac{\partial}{\partial E_k}
+\quad\quad 
+\bra{\psi_{E_k}}\ket{\psi_{t_j}}\ =\ \psi_{t_j E_k}\ =\ 
+\frac{1}{\sqrt{2\pi}} e^{-\frac{i}{\hbar}t_j E_k}
+\end{equation}
 
 \subsection{Die Bornsche Regel}
 %https://en.wikipedia.org/wiki/Born_rule

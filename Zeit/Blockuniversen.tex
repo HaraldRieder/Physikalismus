@@ -96,10 +96,10 @@ Analog sind die Matrixelemente des Zeitoperators $\hat{t}$ und die Komponenten s
 und in der (Zeit-)Impuls- oder Energiebasis $\{\,\ket{\psi_{E_j}}\,\}$
 \begin{equation}
 \bra{\psi_{E_j}}\ket{\,\hat{t}\,\psi_{E_k}}\ =\ t_{E_j E_k}\ =\ 
-\mathrm{i}\hbar\,\delta_{E_j E_k}\,\frac{\partial}{\partial E_k}
+-\mathrm{i}\hbar\,\delta_{E_j E_k}\,\frac{\partial}{\partial E_k}
 \quad\quad 
 \bra{\psi_{E_k}}\ket{\psi_{t_j}}\ =\ \psi_{t_j E_k}\ =\ 
-\frac{1}{\sqrt{2\pi}} e^{-\frac{i}{\hbar}t_j E_k}
+\frac{1}{\sqrt{2\pi}} e^{\frac{i}{\hbar}t_j E_k}
 \end{equation}
 
 \subsection{Die Bornsche Regel}
@@ -182,29 +182,46 @@ In der Energiebasis ist $\hat{U}$ bei einem nicht explizit zeitabhängigen Hamil
 
 Matrixelemente in der Energiebasis
 \begin{equation} 
-U_{jk} = \delta_{jk} e^{-\mathrm{i}\omega_j(t_1-t_0)}
+U_{E_j E_k} = \delta_{E_j E_k} e^{-\frac{\mathrm{i}}{\hbar}E_j(t_1-t_0)}
 = 
-\delta_{jk}(e^{\mathrm{i}\omega_j t_1})^* e^{\mathrm{i}\omega_j t_0}
+\delta_{E_j E_k}(e^{\frac{\mathrm{i}}{\hbar}E_j t_1})^* e^{\frac{\mathrm{i}}{\hbar}E_j t_0}
 \end{equation}
 In Komponenten
 \begin{equation} 
 p^{(0)\rightarrow(1)} =\ 
 \Bigl| \sum_j
-(\psi_j^{(1)\mathscr{H}} e^{\mathrm{i}\omega_j t_1})^*
-\psi_j^{(0)\mathscr{H}} e^{\mathrm{i}\omega_j t_0}
- \Bigr|^2
+(\psi_{E_j}^{(1)\mathscr{H}} e^{\frac{\mathrm{i}}{\hbar}E_j t_1})^*
+\psi_{E_j}^{(0)\mathscr{H}} e^{\frac{\mathrm{i}}{\hbar}E_j t_0}
+\Bigr|^2
+\ = \ 
+\Bigl| \sum_j
+(\psi_{E_j}^{(1)\mathscr{H}} \psi_{t_1 E_j}^{\mathscr{E}})^*
+\psi_{E_j}^{(0)\mathscr{H}} \psi_{t_0 E_j}^{\mathscr{E}}
+\Bigr|^2
 \end{equation}
 
+Das sind Born'sche Übergangswahrscheinlichkeiten für Vektoren aus dem $\mathrm{H}\otimes\mathrm{E}$ Raum. 
 
-Deswegen wird (\ref{eq:conditional_probability}) zu 
-\begin{equation} 
-p^{(0)\rightarrow(1)} =\ \Bigl| 
-\bra{\psi^{(1)\mathscr{H}}\otimes\psi^{(1)\mathscr{E}}}
-\ket{\psi^{(0)\mathscr{H}}\otimes\psi^{(0)\mathscr{E}}} \Bigr|^2
+\begin{equation}
+\ket{\psi} = \sum_j \psi_{E_j} \ket{\psi_{E_j}} \otimes  \psi_{t_0 E_j} \ket{\psi_{E_j}}
 \end{equation}
-mit Komponenten $\psi_j^{(i)\mathscr{E}}=e^{\mathrm{i}\omega_j t_i}$. 
-\textbf{Deswegen muss $\psi^{(i)\mathscr{E}}$ als Zeiteigenvektor zum Zeiteigenwert $t_i$ aufgefasst werden.}
 
+\begin{equation}
+\ket{\psi^\mathscr{H}} = \sum_j \psi_{E_j} \ket{\psi_{E_j}}
+\quad\quad
+\ket{\psi^\mathscr{E}} = \sum_j \psi_{E_j} \ket{\psi_{E_j}}
+\end{equation}
+
+\begin{equation}
+\ket{\psi^{\mathscr{H}\otimes\mathscr{E}}} = \sum_{jk} \psi_{jk} \ket{\psi_{E_j}^\mathscr{H}} \otimes
+\ket{\psi_{E_k}^{\mathscr{E}}}
+\end{equation}
+QM handelt also nur von Wahrscheinlichkeiten für einen Unterraum.
+Kann nicht richtig sein, da wegen spez. Relat. sich das Weltgeschehen für einen relativ bewegeten Beobachter in einem anderen Unterraum von $\mathrm{H}\otimes\mathrm{E}$ abspielt.
+
+Sollen die QM beider Beobachter gültige Theorien sein, dann muss sich für einen Beobachter seine QM in seinem Unterraum abspielen, während sich für den anderen Beobachter seine QM in einem anderen Unterraum abspielt. 
+
+Sollen beide Beobachter dasselbe Weltgeschehen beobachten, dann muss es einen Filter geben, so dass jeder Beobachter nur seinen Unterraum des beobachten kann. Der Beobachter ist dieser Filter.
 
 \section{Blockuniversen ersetzen absolute Zeit}
 Sei $\ket{\psi}$ der Zustandsvektor einer Quantenwelt. Dann berechnet sich in der nichtrelativistischen Quantenmechanik die bedingte Wahrscheinlichkeit dafür, die Quantenwelt zur Zeit $t_1$ im Zustand $\ket{\psi^{(1)}}$ anzutreffen unter der Bedingung, dass sie zur Zeit $t_0$ im Zustand  $\ket{\psi{(0)}}$ war, zu

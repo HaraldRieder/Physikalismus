@@ -70,35 +70,35 @@ Transformationen, die über Teilräume hinüberreichen, ändern i.A. deren Versc
 
 Weil wir ihnen später begegnen werden, rufen wir uns die Matrixelemente spezieller Operatoren und die Komponenten ihrer Eigenvektoren in speziellen Vektorbasen in Erinnerung. Wir unterscheiden nicht zwischen abzählbaren und kontinuierlichen Dirac-Vektoren und verwenden durchgängig die Indexschreibweise, d.h. $f_{x_j} \equiv f(x)$.
 
-Die Matrixelemente des Ortsoperator $\hat{x}$ und die Komponenten seiner Eigenvektoren $\ket{\psi_{x_j}}$ zu den Eigenwerten $x_j$ sind in der Ortsbasis $\{\,\ket{\psi_{x_j}}\,\}$
+Die Matrixelemente des Ortsoperator $\hat{x}$ und die Komponenten seiner Eigenvektoren $\ket{x_j}$ zu den Eigenwerten $x_j$ sind in der Ortsbasis $\{\,\ket{x_j}\,\}$
 \begin{equation}
-\bra{\psi_{x_j}}\ket{\,\hat{x}\,\psi_{x_k}}\ =\ x_{x_j x_k}\ =\ \delta_{x_j x_k}\,x_j
+\bra{x_j}\ket{\,\hat{x}\,x_k}\ =\ x_{x_j x_k}\ =\ \delta_{jk}\,x_j
 \quad\quad 
-\bra{\psi_{x_k}}\ket{\psi_{x_j}}\ =\ \psi_{x_j x_k}\ =\ \delta_{x_j x_k}
+\bra{x_k}\ket{x_j}\ =\ \psi_{x_j x_k}\ =\ \delta_{jk}
 \end{equation}
 
-und in der (Orts-)Impulsbasis $\{\,\ket{\psi_{p_j}}\,\}$
+und in der (Orts-)Impulsbasis $\{\,\ket{p_j}\,\}$
 \begin{equation}
-\bra{\psi_{p_j}}\ket{\,\hat{x}\,\psi_{p_k}}\ =\ x_{p_j p_k}\ =\ 
-\mathrm{i}\hbar\,\delta_{p_j p_k}\,\frac{\partial}{\partial p_k}
+\bra{p_j}\ket{\,\hat{x}\,p_k}\ =\ x_{p_j p_k}\ =\ 
+\mathrm{i}\hbar\,\delta_{jk}\,\frac{\partial}{\partial p_k}
 \quad\quad 
-\bra{\psi_{p_k}}\ket{\psi_{x_j}}\ =\ \psi_{x_j p_k}\ =\ 
+\bra{p_k}\ket{x_j}\ =\ \psi_{x_j p_k}\ =\ 
 \frac{1}{\sqrt{2\pi}} e^{-\frac{i}{\hbar}x_j p_k}
 \end{equation}
 
-Analog sind die Matrixelemente des Zeitoperators $\hat{t}$ und die Komponenten seiner Eigenvektoren $\ket{\psi_{t_j}}$ zu den Eigenwerten $t_j$ in der Zeitbasis $\{\,\ket{\psi_{t_j}}\,\}$
+Analog sind die Matrixelemente des Zeitoperators $\hat{t}$ und die Komponenten seiner Eigenvektoren $\ket{t_j}$ zu den Eigenwerten $t_j$ in der Zeitbasis $\{\,\ket{t_j}\,\}$
 \begin{equation}
-\bra{\psi_{t_j}}\ket{\,\hat{t}\,\psi_{t_k}}\ =\ t_{t_j t_k}\ =\ \delta_{t_j t_k}\,t_j
+\bra{t_j}\ket{\,\hat{t}\,t_k}\ =\ t_{t_j t_k}\ =\ \delta_{jk}\,t_j
 \quad\quad 
-\bra{\psi_{t_k}}\ket{\psi_{t_j}}\ =\ \psi_{t_j t_k}\ =\ \delta_{t_j t_k}
+\bra{t_k}\ket{t_j}\ =\ \psi_{t_j t_k}\ =\ \delta_{jk}
 \end{equation}
 
-und in der (Zeit-)Impuls- oder Energiebasis $\{\,\ket{\psi_{E_j}}\,\}$
+und in der (Zeit-)Impuls- oder Energiebasis $\{\,\ket{E_j}\,\}$
 \begin{equation}
-\bra{\psi_{E_j}}\ket{\,\hat{t}\,\psi_{E_k}}\ =\ t_{E_j E_k}\ =\ 
--\mathrm{i}\hbar\,\delta_{E_j E_k}\,\frac{\partial}{\partial E_k}
+\bra{E_j}\ket{\,\hat{t}\,E_k}\ =\ t_{E_j E_k}\ =\ 
+-\mathrm{i}\hbar\,\delta_{jk}\,\frac{\partial}{\partial E_k}
 \quad\quad 
-\bra{\psi_{E_k}}\ket{\psi_{t_j}}\ =\ \psi_{t_j E_k}\ =\ 
+\bra{E_k}\ket{t_j}\ =\ \psi_{t_j E_k}\ =\ 
 \frac{1}{\sqrt{2\pi}} e^{\frac{i}{\hbar}t_j E_k}
 \end{equation}
 
@@ -203,18 +203,19 @@ p^{(0)\rightarrow(1)} =\
 Das sind Born'sche Übergangswahrscheinlichkeiten für Vektoren aus dem $\mathrm{H}\otimes\mathrm{E}$ Raum. 
 
 \begin{equation}
-\ket{\psi} = \sum_j \psi_{E_j} \ket{\psi_{E_j}} \otimes  \psi_{t_0 E_j} \ket{\psi_{E_j}}
+\ket{\psi} = \sum_j \psi_{E_j}^\mathscr{H} \ket{E_j^\mathscr{H}} 
+\otimes \psi_{t_0 E_j}^\mathscr{E} \ket{E_j^\mathscr{E}}
+= \sum_j \psi_{E_j} \ket{E_j^{\mathscr{H}}} \otimes \ket{E_j^{\mathscr{E}}} \bra{E_j^{\mathscr{E}}}\ket{t_0}
 \end{equation}
-
+Allgemein wäre
 \begin{equation}
-\ket{\psi^\mathscr{H}} = \sum_j \psi_{E_j} \ket{\psi_{E_j}}
+\ket{\psi^\mathscr{H}} = \sum_j \psi_{E_j}^\mathscr{H} \ket{E_j^\mathscr{H}}
 \quad\quad
-\ket{\psi^\mathscr{E}} = \sum_j \psi_{E_j} \ket{\psi_{E_j}}
+\ket{\psi^\mathscr{E}} = \sum_j \psi_{E_j}^\mathscr{E} \ket{E_j^\mathscr{E}}
 \end{equation}
 
 \begin{equation}
-\ket{\psi^{\mathscr{H}\otimes\mathscr{E}}} = \sum_{jk} \psi_{jk} \ket{\psi_{E_j}^\mathscr{H}} \otimes
-\ket{\psi_{E_k}^{\mathscr{E}}}
+\ket{\psi} = \sum_{jk} \psi_{jk} \ket{E_j^\mathscr{H}} \otimes \ket{E_k^{\mathscr{E}}}
 \end{equation}
 QM handelt also nur von Wahrscheinlichkeiten für einen Unterraum.
 Kann nicht richtig sein, da wegen spez. Relat. sich das Weltgeschehen für einen relativ bewegeten Beobachter in einem anderen Unterraum von $\mathrm{H}\otimes\mathrm{E}$ abspielt.

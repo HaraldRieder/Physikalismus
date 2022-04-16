@@ -103,73 +103,98 @@ und in der (Zeit-)Impuls- oder Energiebasis $\{\,\ket{E_j}\,\}$
 \end{equation}
 
 \subsection{Die Bornsche Regel}
-%https://en.wikipedia.org/wiki/Born_rule
 
+In der ursprünglichen (1926) Formulierung besagte die \href{https://en.wikipedia.org/wiki/Born_rule}{Bornsche Regel}, dass 
+\begin{itemize}
+\item bei einer Messung einer Observable einer der Eigenwerte $\{\lambda_j\}$ des zugehörigen Messoperators $\hat{L}$ beobachtet wird.
+\item die Wahrscheinlichkeit für die Messung des Eigenwerts $\lambda_j$ sich aus dem Absolutquadrat des Skalarprodukts zwischen Anfangszustand $\ket{\psi^{(0)}}$ und Eigenvektor $\ket{\lambda_j}$ bestimmt.
+\end{itemize}
+Nach der Messung liegt der Eigenzustand $\ket{\psi^{(1)}} = \ket{\lambda_j}$ vor und bei wiederholter Messung von $\hat{L}$ ändert sich daran nichts mehr. 
+
+Offen bleiben musste zunächst, was genau eigentlich eine Messung ist. Das Messexperiment wurde in der Sprache der klassischen Physik beschrieben. Man hatte ein paar mechanische Größen wie Ort und Impuls, die sich in die Sprache der Quantenmechanik übertragen ließen. Irgendwo musste es einen Übergang zwischen Quantenmechanik und klassischer Physik geben, doch wo und wie war unklar.
+
+An dieser Lage haben sich ein paar Dinge in 100 Jahren geändert:
+\begin{itemize}
+\item In den Gleichunge der Quantentheorien gibt es Größen, die kein klassisches Analogon haben, z.B. der Spin. 
+\item Die meisten Physiker dürften daran glauben, dass die Natur vollständig quantenmechanisch zu beschreiben ist, und dass die klassische Physik irgendwie daraus abzuleiten ist.
+\item Mit der Dekoährenztheorie ist es mit quantenmechanischen Mitteln gelungen, mehr von dem zu beschreiben, was bei einer Messung geschieht.
+\end{itemize}
+
+Heute müssen wir uns die Messung vorstellen als einen Prozess, der ein zu beobachtendes Quantenteil zunächst quantendynamisch an die Umgebung koppelt. 
+Dabei entsteht bei einer idealen Messung ein Zustand, der einerseits immer noch eine Überlagerung mit den ursprünglichen Amplituden $\psi^{(0)}_{\lambda_j}$ bezogen auf die Messbasis $\{\ket{\lambda_j}\}$ darstellt, andererseits die Messbasis maximal verschränkt mit einer entsprechenden Umgebungsbasis $\{\ket{E_j}\}$. 
+\begin{equation}
+\label{eq:decoherence}
+\ket{E_0}\otimes\ket{\psi^{(0)}} = \ket{E_0}\otimes\sum_j \psi^{(0)}_{\lambda_j} \ket{\lambda_j}
+\longrightarrow \sum_j \psi^{(0)}_{\lambda_j} \left( \ket{E_j} \otimes \ket{\lambda_j} \right)
+\end{equation}
+Dadurch ist Information über $\ket{\psi^{(0)}}$ in der Umgebung verfügbar geworden und kann abgefragt werden. Dieser finale Abfrageschritt ist Stand heute nicht verstanden. Es ist aber gewiss, dass der Endzustand von (\ref{eq:decoherence}) nicht bewusst erfahren werden kann, sondern nur der Zustand nach dem finalen Schritt. Eventuell ist es auch nur der Abfrageschritt selbst, der erfahren wird. Der Abfrageschritt bewirkt einen Kollaps der Überlagerung in einen der Endzustände mit der Bornschen Wahrscheinlichkeit.
+\begin{equation} 
+\label{eq:collapse}
+\sum_j \psi^{(0)}_{\lambda_j} \left( \ket{E_j} \otimes \ket{\lambda_j} \right)
+\ \xrightarrow{p^{(0)\rightarrow(1)}\ =\ \left|\psi^{(0)}_{\lambda_j}\right|^2}\ 
+\ket{E_j} \otimes \ket{\lambda_j} = \ket{E_j} \otimes \ket{\psi^{(1)}}
+\end{equation}
+Etwas klarer können wir, wenn wir uns vom Operator $\hat{L}$ lösen, einfach
 \begin{equation} 
 p^{(0)\rightarrow(1)} =\ \Bigl| \bra{\psi^{(1)}}\ket{\psi^{(0)}} \Bigr| ^2
 \end{equation}
-Zu tun: Erläutern wie man sich den Prozess ursprünglich vorgestellt hat und wie man ihn sich mit Dekohärenztheorie vorstellt.
-
-
+schreiben und sagen, dass dies die Wahrscheinlichkeit dafür ist, bei einem Ausgangszustand $\ket{\psi^{(0)}}$ auf die Frage $\ket{\psi^{(1)}}?$ die Antwort $ja$ zu bekommen.
 \section{Die Zeit in der Quantenmechanik}
-
-\begin{equation} 
+Gleichungen der Quantenmechanik sind vom Prinzip her eigentlich einfach. Ein linearer Operator $\hat{O}$ wird angewendet auf einen Zustandsvektor $\ket{\psi}$ und das Ergebnis soll $0$ ergeben.
+\begin{equation*} 
 \hat{O}\ket{\psi} = 0 
-\end{equation}
-
-$\hat{O}$ soll in einem Produktraum $\mathscr{H} \otimes \mathscr{E}$ wirken. Hat die Gestalt 
-
-\begin{equation} 
+\end{equation*}
+Beim Blick auf Schrödinger-, Dirac- und Klein-Gordon-Gleichungen fällt eine Gemeinsamkeit in's Auge. Der Operator $\hat{O}$ wirkt immer in einem Produktraum $\mathscr{H} \otimes \mathscr{E}$. Er hat die Gestalt 
+\begin{equation*} 
 \hat{O} = \hat{H} \otimes \hat{1}^{\mathscr{E}} - \hat{1}^{\mathscr{H}} \otimes \hat{E}
-\end{equation}
-
-Produktansatz für $\ket{\psi}$
-
-\begin{equation} 
+\end{equation*}
+und ist damit die Summe aus einem Operator $\hat{H}$, der nur im Teilraum $\mathscr{H}$ wirkt und einem Operator $\hat{E}$, der nur im Teilraum $\mathscr{E}$ wirkt. Dadurch bietet sich ein Produktansatz zur Lösung dieser Gleichungen an. Mit
+\begin{equation*} 
 \ket{\psi} = \ket{\psi}^{\mathscr{H}} \otimes \ket{\psi}^{\mathscr{E}}
-\end{equation}
-
+\end{equation*}
+bekommen wir
 \begin{equation} 
+\label{eq:productspace}
 \hat{H}\ket{\psi}^{\mathscr{H}} \otimes \ket{\psi}^{\mathscr{E}} 
 \ - \ 
 \ket{\psi}^{\mathscr{H}} \otimes \hat{E}\ket{\psi}^{\mathscr{E}} =\ 0
 \end{equation}
-
-Funktioniert für Schrödinger- und Dirac-Gleichung. Bsp. liefern...
-
-
-Gleichungssystem nur noch gekoppelt über die Eigenwerte $E$
+%Funktioniert für Schrödinger- und Dirac-Gleichung. Bsp. liefern...
+und die Gleichung zerfällt in 2 Eigenwertgleichungen für die Operatoren $\hat{H}$ und $\hat{E}$.
 \begin{equation}
+\label{eq:system}
 \begin{split}
 \hat{H}\ket{\psi}^{\mathscr{H}} = E\ket{\psi}^{\mathscr{H}}\\
 \hat{E}\ket{\psi}^{\mathscr{E}} = E\ket{\psi}^{\mathscr{E}}\ \ 
 \end{split}
 \end{equation}
+Dieses Gleichungssystem ist noch gekoppelt über die Eigenwerte $E$. 
 
-Aufgrund der Linearität sind alle Linearkombinantionen von Produkten zum selben Eigenwert $E$ ebenfalls Lösungen.
+Aufgrund der Linearität von $\hat{H}$ und $\hat{E}$ sind alle Linearkombinationen von Produkten zum selben Eigenwert $E$ ebenfalls Lösungen. Die allgemeine Lösung
 \begin{equation}
 \ket{\psi} = \sum_j\ \psi_j \ket{\psi_{E_j}}^{\mathscr{H}} \otimes\ \ket{\psi_{E_j}}^{\mathscr{E}}
 \end{equation}
+mit mehr als einer Komponente steht für eine Verschränkung der Teilräume $\mathscr{H}$ und $\mathscr{E}$. Die unverschränkten Lösungen $\ket{\psi_{E_j}}^{\mathscr{H}} \otimes\ \ket{\psi_{E_j}}^{\mathscr{E}}$ werden üblicherweise als \emph{stationäre Zustände} oder \emph{Energieeigenzustände} bezeichnet. Denn der Differentialoperator $\mathrm{i}\hbar\,\frac{\partial}{\partial t}$, der in diesen Gleichungen auftritt, muss aufgefasst werden als Matrixelemente $E(t-t')$ des kontinuierlichen Energieoperators $\hat{E}$ in der Zeitdarstellung. Nähme man es genauer, müsste man immer noch die Delta-Distribution dazuschreiben: $\mathrm{i}\hbar\,\delta(t-t')\,\frac{\partial}{\partial t}$.
 
-
-Damit Bornsche Regel zwischen solchen Lösungen
-
-\begin{equation} 
-p^{(0)\rightarrow(1)} =\ \sum_{jk} \psi_j^{(1)*}\psi_k^{(1)}\psi_j^{(0)}\psi_k^{(0)*}
+Der gesamte Produktraum $\mathscr{H} \otimes \mathscr{E}$ kann aus den allgemeinen Produkten der Eigenvektoren von $\hat{H}$ und $\hat{E}$ aufgespannt werden:
+\begin{equation}
+\ket{\psi} = \sum_{jk}\ \psi_{jk} \ket{\psi_{E_j}}^{\mathscr{H}} \otimes\ \ket{\psi_{E_k}}^{\mathscr{E}}
 \end{equation}
-
-Damit von der Betrachtung ausgeschlossen alle, die $j \neq k$ Bestandteile haben.
+Doch alle Zustände, die Terme mit $j \neq k$ haben, sollen "in der Natur nicht vorkommen". Etwas geringer könnte man auch fordern, dass sie durch die uns zur Verfügung stehenden Messprozesse nicht beobachtbar sind.
 
 \begin{equation}
 \ket{\psi} = \sum_{jk}\ \psi_{jk} \ket{\psi_{E_j}}^{\mathscr{H}} \otimes\ \ket{\psi_{E_k}}^{\mathscr{E}}
 \end{equation}
 
-Bornsche Regel allg.
+Die Bornschen Übergangswahrscheinlichkeiten zwischen Lösungen sind
+\begin{equation} 
+p^{(0)\rightarrow(1)} =\ \sum_{jk} \psi_j^{(1)*}\psi_k^{(1)}\psi_j^{(0)}\psi_k^{(0)*}
+\end{equation}
 
+Die Bornschen Übergangswahrscheinlichkeiten zwischen allgemeinen Zuständen, also auch den nicht beobachtbaren, sind
 \begin{equation} 
 p^{(0)\rightarrow(1)} =\ \sum_{jklm} \psi_{jk}^{(1)*}\psi_{lm}^{(1)}\psi_{jk}^{(0)}\psi_{lm}^{(0)*}
 \end{equation}
-
 
 ---------------------------
 

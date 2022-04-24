@@ -115,30 +115,32 @@ Offen bleiben musste zunächst, was genau eigentlich eine Messung ist. Das Messe
 
 An dieser Lage haben sich ein paar Dinge in 100 Jahren geändert:
 \begin{itemize}
-\item In den Gleichunge der Quantentheorien gibt es Größen, die kein klassisches Analogon haben, z.B. der Spin. 
+\item In den Gleichunge der Quantentheorien gibt es Größen, die kein klassisches Analogon haben, z.B. den Spin. 
 \item Die meisten Physiker dürften daran glauben, dass die Natur vollständig quantenmechanisch zu beschreiben ist, und dass die klassische Physik irgendwie daraus abzuleiten ist.
 \item Mit der Dekoährenztheorie ist es mit quantenmechanischen Mitteln gelungen, mehr von dem zu beschreiben, was bei einer Messung geschieht.
 \end{itemize}
 
 Heute müssen wir uns die Messung vorstellen als einen Prozess, der ein zu beobachtendes Quantenteil zunächst quantendynamisch an die Umgebung koppelt. 
-Dabei entsteht bei einer idealen Messung ein Zustand, der einerseits immer noch eine Überlagerung mit den ursprünglichen Amplituden $\psi^{(0)}_{\lambda_j}$ bezogen auf die Messbasis $\{\ket{\lambda_j}\}$ darstellt, andererseits die Messbasis maximal verschränkt mit einer entsprechenden Umgebungsbasis $\{\ket{E_j}\}$. 
+Dabei entsteht bei einer idealen Messung ein Zustand, der einerseits immer noch eine Überlagerung mit den ursprünglichen Amplituden $\psi^{(0)}_{\lambda_j}$ bezogen auf die Messbasis $\{\ket{\lambda_j}\}$ darstellt, andererseits die Messbasis maximal verschränkt mit einer entsprechenden Umgebungsbasis $\{\ket{E_j}\}$. Die Verschränkung soll nach der Dekohärenztheorie mittels eines stetigen deterministischen Prozesses $\hat{U}$ erfolgen. Dabei kann $\hat{U}$ zunächst Quantenteil und Umgebung unabhängig entwickeln, aber zu einem späteren Zeitpunkt soll $\hat{U}$ durch den Wechselwirkungsoperator $\hat{H}_{int}$ zwischen Quantenteil und Umgebung dominiert sein.
 \begin{equation}
 \label{eq:decoherence}
 \ket{E_0}\otimes\ket{\psi^{(0)}} = \ket{E_0}\otimes\sum_j \psi^{(0)}_{\lambda_j} \ket{\lambda_j}
-\longrightarrow \sum_j \psi^{(0)}_{\lambda_j} \left( \ket{E_j} \otimes \ket{\lambda_j} \right)
+\ \xrightarrow{\hat{U}}\ \sum_j \psi^{(0)}_{\lambda_j} \left( \ket{E_j} \otimes \ket{\lambda_j} \right)
 \end{equation}
-Dadurch ist Information über $\ket{\psi^{(0)}}$ in der Umgebung verfügbar geworden und kann abgefragt werden. Dieser finale Abfrageschritt ist Stand heute nicht verstanden. Es ist aber gewiss, dass der Endzustand von (\ref{eq:decoherence}) nicht bewusst erfahren werden kann, sondern nur der Zustand nach dem finalen Schritt. Eventuell ist es auch nur der Abfrageschritt selbst, der erfahren wird. Der Abfrageschritt bewirkt einen Kollaps der Überlagerung in einen der Endzustände mit der Bornschen Wahrscheinlichkeit.
+Dadurch ist Information über $\ket{\psi^{(0)}}$ in der Umgebung verfügbar geworden und kann abgefragt werden. Dieser finale Abfrageschritt ist Stand heute nicht verstanden. Es ist aber gewiss, dass der Endzustand von (\ref{eq:decoherence}) im Allgemeinen nicht bewusst erfahren werden kann, sondern nur Zustände nach bestimmten finalen Schritten, zum Beispiel Projektionen auf die Ortsbasis. Eventuell ist es auch nur der Abfrageschritt selbst, der bewusst erfahren wird. Der Abfrageschritt ist verbunden mit einem Kollaps der Überlagerung in einen der Endzustände mit der Bornschen Wahrscheinlichkeit.
 \begin{equation} 
 \label{eq:collapse}
 \sum_j \psi^{(0)}_{\lambda_j} \left( \ket{E_j} \otimes \ket{\lambda_j} \right)
 \ \xrightarrow{p^{(0)\rightarrow(1)}\ =\ \left|\psi^{(0)}_{\lambda_j}\right|^2}\ 
 \ket{E_j} \otimes \ket{\lambda_j} = \ket{E_j} \otimes \ket{\psi^{(1)}}
 \end{equation}
-Etwas klarer können wir, wenn wir uns vom Operator $\hat{L}$ lösen, einfach
+$\left|\psi^{(0)}_{\lambda_j}\right|^2$ ist nichts anderes als die Übergangswahrscheinlichkeit 
 \begin{equation} 
-p^{(0)\rightarrow(1)} =\ \Bigl| \bra{\psi^{(1)}}\ket{\psi^{(0)}} \Bigr| ^2
+p^{(0)\rightarrow(1)} 
+= \Bigl| \bra{\lambda_j}\ket{\psi^{(0)}} \Bigr| ^2
+=\ \Bigl| \bra{\psi^{(1)}}\ket{\psi^{(0)}} \Bigr| ^2
 \end{equation}
-schreiben und sagen, dass dies die Wahrscheinlichkeit dafür ist, bei einem Ausgangszustand $\ket{\psi^{(0)}}$ auf die Frage $\ket{\psi^{(1)}}?$ die Antwort $ja$ zu bekommen.
+in der ursprünglichen Formulierung der Bornschen Regel.
 \section{Die Zeit in der Quantenmechanik}
 Gleichungen der Quantenmechanik sind vom Prinzip her eigentlich einfach. Ein linearer Operator $\hat{O}$ wird angewendet auf einen Zustandsvektor $\ket{\psi}$ und das Ergebnis soll $0$ ergeben.
 \begin{equation*} 
@@ -172,19 +174,18 @@ Dieses Gleichungssystem ist noch gekoppelt über die Eigenwerte $E$.
 
 Aufgrund der Linearität von $\hat{H}$ und $\hat{E}$ sind alle Linearkombinationen von Produkten zum selben Eigenwert $E$ ebenfalls Lösungen. Die allgemeine Lösung
 \begin{equation}
+\label{eq:general_solution}
 \ket{\psi} = \sum_j\ \psi_j \ket{\psi_{E_j}}^{\mathscr{H}} \otimes\ \ket{\psi_{E_j}}^{\mathscr{E}}
 \end{equation}
-mit mehr als einer Komponente steht für eine Verschränkung der Teilräume $\mathscr{H}$ und $\mathscr{E}$. Die unverschränkten Lösungen $\ket{\psi_{E_j}}^{\mathscr{H}} \otimes\ \ket{\psi_{E_j}}^{\mathscr{E}}$ werden üblicherweise als \emph{stationäre Zustände} oder \emph{Energieeigenzustände} bezeichnet. Denn der Differentialoperator $\mathrm{i}\hbar\,\frac{\partial}{\partial t}$, der in diesen Gleichungen auftritt, muss aufgefasst werden als Matrixelemente $E(t-t')$ des kontinuierlichen Energieoperators $\hat{E}$ in der Zeitdarstellung. Nähme man es genauer, müsste man immer noch die Delta-Distribution dazuschreiben: $\mathrm{i}\hbar\,\delta(t-t')\,\frac{\partial}{\partial t}$.
+mit mehr als einer Komponente steht für eine Verschränkung der Teilräume $\mathscr{H}$ und $\mathscr{E}$. Die Darstellung (\ref{eq:general_solution}) von $\ket{\psi}$ ist eine \href{https://en.wikipedia.org/wiki/Schmidt_decomposition}{Schmidt-Zerlegung}.
+
+Die unverschränkten Lösungen $\ket{\psi_{E_j}}^{\mathscr{H}} \otimes\ \ket{\psi_{E_j}}^{\mathscr{E}}$ werden üblicherweise als \emph{stationäre Zustände} oder \emph{Energieeigenzustände} bezeichnet. Denn der Differentialoperator $\mathrm{i}\hbar\,\frac{\partial}{\partial t}$, der in den Gleichungen auftritt, muss aufgefasst werden als Matrixelemente $E(t-t')$ des kontinuierlichen Energieoperators $\hat{E}$ in der Zeitdarstellung. Nähme man es genauer, müsste man immer noch die Delta-Distribution dazuschreiben: $E(t-t')\ =\ \mathrm{i}\hbar\,\delta(t-t')\,\frac{\partial}{\partial t}$
 
 Der gesamte Produktraum $\mathscr{H} \otimes \mathscr{E}$ kann aus den allgemeinen Produkten der Eigenvektoren von $\hat{H}$ und $\hat{E}$ aufgespannt werden:
 \begin{equation}
 \ket{\psi} = \sum_{jk}\ \psi_{jk} \ket{\psi_{E_j}}^{\mathscr{H}} \otimes\ \ket{\psi_{E_k}}^{\mathscr{E}}
 \end{equation}
 Doch alle Zustände, die Terme mit $j \neq k$ haben, sollen "in der Natur nicht vorkommen". Etwas geringer könnte man auch fordern, dass sie durch die uns zur Verfügung stehenden Messprozesse nicht beobachtbar sind.
-
-\begin{equation}
-\ket{\psi} = \sum_{jk}\ \psi_{jk} \ket{\psi_{E_j}}^{\mathscr{H}} \otimes\ \ket{\psi_{E_k}}^{\mathscr{E}}
-\end{equation}
 
 Die Bornschen Übergangswahrscheinlichkeiten zwischen Lösungen sind
 \begin{equation} 

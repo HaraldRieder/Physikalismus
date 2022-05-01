@@ -128,7 +128,7 @@ Dabei entsteht bei einer idealen Messung ein Zustand, der einerseits immer noch 
 \ket{e_0}\otimes\ket{\psi^{(0)}}\ =\ \ket{e_0}\otimes\sum_j \psi^{(0)}_{\lambda_j} \ket{\lambda_j}
 \ \xrightarrow{\hat{U}}\ \sum_j \psi^{(0)}_{\lambda_j} \left(\, \ket{e_j} \otimes \ket{\lambda_j}\, \right)
 \end{equation}
-Dadurch ist Information über $\ket{\psi^{(0)}}$ in der Umgebung verfügbar geworden und kann abgefragt werden. Dieser finale Abfrageschritt ist Stand heute nicht verstanden. Es ist aber gewiss, dass der Endzustand von (\ref{eq:decoherence}) im Allgemeinen nicht bewusst erfahren werden kann, sondern nur Zustände nach bestimmten finalen Schritten, zum Beispiel Projektionen auf die Ortsbasis. Eventuell ist es auch nur der Abfrageschritt selbst, der bewusst erfahren wird. Der Abfrageschritt ist verbunden mit einem Kollaps der Überlagerung in einen der Endzustände mit der Bornschen Wahrscheinlichkeit.
+Dadurch ist Information über $\ket{\psi^{(0)}}$ in der Umgebung verfügbar geworden und kann abgefragt werden. Dieser finale Abfrageschritt ist Stand heute nicht verstanden. Es ist aber gewiss, dass der Endzustand von \eqref{eq:decoherence} im Allgemeinen nicht bewusst erfahren werden kann, sondern nur Zustände nach bestimmten finalen Schritten, zum Beispiel Projektionen auf die Ortsbasis. Eventuell ist es auch nur der Abfrageschritt selbst, der bewusst erfahren wird. Der Abfrageschritt ist verbunden mit einem Kollaps der Überlagerung in einen der Endzustände mit der Bornschen Wahrscheinlichkeit.
 \begin{equation} 
 \label{eq:collapse}
 \sum_j \psi^{(0)}_{\lambda_j} \left( \ket{e_j} \otimes \ket{\lambda_j} \right)
@@ -182,7 +182,7 @@ Aufgrund der Linearität von $\hat{H}$ und $\hat{E}$ sind alle Linearkombination
 \label{eq:general_solution}
 \ket{\psi}\ =\ \sum_j\ \psi_j\ \ket{{E_j}}^{\mathscr{H}} \otimes\ \ket{{E_j}}^{\mathscr{E}}
 \end{equation}
-mit mehr als einem Summand steht für eine Verschränkung der Teilräume $\mathscr{H}$ und $\mathscr{E}$. Die Darstellung (\ref{eq:general_solution}) von $\ket{\psi}$ ist eine \href{https://en.wikipedia.org/wiki/Schmidt_decomposition}{Schmidt-Zerlegung}.
+mit mehr als einem Summand steht für eine Verschränkung der Teilräume $\mathscr{H}$ und $\mathscr{E}$. Die Darstellung \eqref{eq:general_solution} von $\ket{\psi}$ ist eine \href{https://en.wikipedia.org/wiki/Schmidt_decomposition}{Schmidt-Zerlegung}.
 
 Die unverschränkten Lösungen $\ket{{E_j}}^{\mathscr{H}} \otimes\ \ket{{E_j}}^{\mathscr{E}}$ werden üblicherweise als \emph{stationäre Zustände} oder \emph{Energieeigenzustände} bezeichnet. Denn der Differentialoperator $\mathrm{i}\hbar\,\frac{\partial}{\partial t}$, der in den Gleichungen auftritt, muss aufgefasst werden als Matrixelemente $E(t-t')$ des kontinuierlichen Energieoperators $\hat{E}$ in der Zeitdarstellung. Nähme man es genauer, müsste man immer noch die Delta-Distribution dazuschreiben: 
 \begin{equation*}
@@ -215,10 +215,10 @@ p^{(0)\rightarrow(1)} =\ \Bigl| \bra{\psi^{(1)}}\ket{\hat{U}(t_1-t_0)\,\psi^{(0)
 Dazu muss bemerkt werden:
 \begin{itemize}
 \item Ein zeitabhängiger Hamiltonoperator modelliert üblicherweise einen zeitabhängigen Einfluss der Umgebung. Betrachten wir das All als Quantenwelt, dann gibt es davon keine Umgebung. Dort stünde ein zeitabhängiger Operator $\hat{H}$ für zeitabhängige Naturgesetze. Diese Möglichkeit mag es geben, wir betrachten sie hier aber nicht.
-\item Was genau sich in \eqref{eq:conditional_probability} zeitlich entwickelt, ist ontologisch nicht klar. So lange die Wahrscheinlichkeit sich dabei nicht ändert, kann die Zeitentwicklung beliebig zwischen Operator und Vektoren hin- und hergeschoben werden, was in den verschiedenen "Bildern", also Schrödinger-, Heisenberg- und Wechselwirkungsbild, ausgenutzt wird.
-\item $\psi^{(0)}$ und $\psi^{(1)}$ sind Vektoren aus dem $\mathscr{H}$ Unterraum. Auch in der relativistischen Quantenmechanik wird das \href{http://www.itp.uni-bremen.de/~noack/dirac.pdf}{invariante Skalarprodukt} definiert als \emph{drei}dimensionales Integral proportional zu 
-$\int \frac{\mathrm{d}^3 \vec{k}}{k_0}\ \psi^*(k)\phi(k)$. Diese Integration "auf der Massenschale" entspricht der Vermeidung der Zustände (\ref{eq:general_state}) mit $j \neq k$.
-\item Es handelt sich um die ursprüngliche Formulierung (\ref{eq:orig_Born}) der Bornschen Wahrscheinlichkeit. Der Verschränkungsprozess mit der Umgebung ist nicht ausmodelliert.
+\item Was genau sich in \eqref{eq:conditional_probability} zeitlich entwickelt, ist ontologisch nicht klar. So lange die Wahrscheinlichkeit sich dabei nicht ändert, kann die Zeitentwicklung beliebig zwischen Operator und Vektoren hin- und hergeschoben werden, was in den gebräuchlichen "Bildern", also Schrödinger-, Heisenberg- und Wechselwirkungsbild, ausgenutzt wird.
+\item $\ket{\psi^{(0)}}$ und $\ket{\psi^{(1)}}$ sind Vektoren aus dem $\mathscr{H}$ Unterraum. Statt abstrakter Vektoren aus dem $\mathscr{E}$ Unterraum treten in der Formel nur Zeiteigenwerte $t_0$, $t_1$ als Parameter auf. Auch in der relativistischen Quantenmechanik wird das \href{http://www.itp.uni-bremen.de/~noack/dirac.pdf}{invariante Skalarprodukt} definiert als \emph{drei}dimensionales Integral proportional zu 
+$\int \frac{\mathrm{d}^3 \vec{p}}{p_0}\ \psi^*(p)\, \phi(p)$. Diese Integration "auf der Massenschale" entspricht der Vermeidung der Zustände \eqref{eq:general_state}, bei denen $j \neq k$ ist. $p_0$ gehört zwar zum $\mathscr{E}$ Raum, ist aber in dieser Formel nicht unabhängig sondern eine Funktion von $\vec{p}$ aus dem $\mathscr{H}$ Raum. Diese Ungleichbehandlungen wirken verstörend, wenn man sie mit der zugrunde liegenden symmetrischen Aufgabenstellung \eqref{eq:system} vergleicht.
+\item Es handelt sich bei \eqref{eq:conditional_probability} um die ursprüngliche Formulierung \eqref{eq:orig_Born} der Bornschen Wahrscheinlichkeit. Der Verschränkungsprozess mit der Umgebung ist nicht ausmodelliert.
 \end{itemize}
 
 In der Energiebasis des $\mathscr{H}$ Raumes ist $\hat{U}$ bei einem nicht explizit zeitabhängigen Hamilton-Operator diagonal. Die Matrixelemente in der Energiebasis sind 
@@ -249,26 +249,41 @@ Wir haben es also eigentlich mit Skalarprodukten von Vektoren aus dem $\mathscr{
 \end{equation*}
 also mit Vektoren der Form \eqref{eq:general_solution}.
 
-----------
+%QM handelt also nur von Wahrscheinlichkeiten für einen Unterraum.
+%Kann nicht richtig sein, da wegen spez. Relat. sich das Weltgeschehen für einen relativ bewegeten Beobachter in einem anderen Unterraum von $\mathrm{H}\otimes\mathrm{E}$ abspielt.
 
-Allgemein wäre
-\begin{equation}
-\ket{\psi^\mathscr{H}} = \sum_j \psi_{E_j}^\mathscr{H} \ket{E_j^\mathscr{H}}
-\quad\quad
-\ket{\psi^\mathscr{E}} = \sum_j \psi_{E_j}^\mathscr{E} \ket{E_j^\mathscr{E}}
+%Sollen die QM beider Beobachter gültige Theorien sein, dann muss sich für einen Beobachter seine QM in seinem Unterraum abspielen, während sich für den anderen Beobachter seine QM in einem anderen Unterraum abspielt. 
+
+%Sollen beide Beobachter dasselbe Weltgeschehen beobachten, dann muss es einen Filter geben, so dass jeder Beobachter nur seinen Unterraum des beobachten kann. Der Beobachter ist dieser Filter.
+
+\section{Folgen von Blockuniversen statt von selbst vergehender physikalischer Zeit}
+
+Wir wollen nun die deterministische Zeitentwicklung durch einen stochastischen Prozess ersetzen. Der Ausgangspunkt dazu ist \eqref{eq:collapse}. Das heißt: ein Beobachter nimmt einen "Kollaps" wahr, bei dem ein zwischen $\mathscr{H}$ und $\mathscr{E}$ verschränkter Zustand entschränkt wird. Dieser Prozessschritt soll sein
+\begin{equation} 
+\label{eq:collapse}
+\sum_j a_j \left( \ket{t_j} \otimes \ket{\lambda_j} \right)
+\ \xrightarrow{p^{(0)\rightarrow(k)}\ =\ \left|a_j\right|^2}\ 
+\ket{t_k} \otimes \ket{\lambda_k}\ =\ \ket{t_k} \otimes \ket{\psi^{(k)}}
 \end{equation}
+Es wird also beobachtet der Zustand $\ket{\psi^{(k)}}$ zur Zeit $t_k$.
+Dadurch ist die Dynamik am Ende angekommen. Jede weitere Beobachtung liefert immer wieder dieselben Eigenwerte und damit auch dieselbe Zeit $t_k$.
 
-\begin{equation}
-\ket{\psi} = \sum_{jk} \psi_{jk} \ket{E_j^\mathscr{H}} \otimes \ket{E_k^{\mathscr{E}}}
-\end{equation}
-QM handelt also nur von Wahrscheinlichkeiten für einen Unterraum.
-Kann nicht richtig sein, da wegen spez. Relat. sich das Weltgeschehen für einen relativ bewegeten Beobachter in einem anderen Unterraum von $\mathrm{H}\otimes\mathrm{E}$ abspielt.
+Den kontinuierlich parametrisierten Operator $\hat{U}(t_1-t_0)$ nähern wir an durch Potenzen $\hat{u}^n$ eines kleinstmöglichen Zeitentwicklungsoperators $\hat{u}$. Dabei stellen wir uns $t_1-t_0$ vor als Vielfaches einer kleinstmöglichen Zeitdifferenz $t_p$.
+\begin{equation*}
+t_1-t_0\ =\ n t_p \quad\quad 
+\hat{u} = \hat{U}(t_p) \quad\quad 
+\hat{u}^n = \hat{U}(t_1-t_0)
+\end{equation*}
+Der Operator $\hat{U}$ ist dabei der aus \eqref{eq:decoherence} und nicht der aus \eqref{eq:conditional_probability}. Er ist zuständig für die Gesamtwelt und nicht nur für einen Unterraum.
 
-Sollen die QM beider Beobachter gültige Theorien sein, dann muss sich für einen Beobachter seine QM in seinem Unterraum abspielen, während sich für den anderen Beobachter seine QM in einem anderen Unterraum abspielt. 
+Damit $\ket{\psi^{(k)}}$ zu $t_k$ passt und damit eine deterministische Zeitentwicklung vortäuschen kann, muss gelten 
+\begin{equation*}
+\ket{\psi^{(k)}}\ =\ \hat{u}^n \ket{\psi^{(0)}} \quad\quad n = \frac{t_k-t_0}{t_p}
+\end{equation*}
 
-Sollen beide Beobachter dasselbe Weltgeschehen beobachten, dann muss es einen Filter geben, so dass jeder Beobachter nur seinen Unterraum des beobachten kann. Der Beobachter ist dieser Filter.
 
-\section{Blockuniversen ersetzen absolute Zeit}
+------
+
 Sei $\ket{\psi}$ der Zustandsvektor einer Quantenwelt. Dann berechnet sich in der nichtrelativistischen Quantenmechanik die bedingte Wahrscheinlichkeit dafür, die Quantenwelt zur Zeit $t_1$ im Zustand $\ket{\psi^{(1)}}$ anzutreffen unter der Bedingung, dass sie zur Zeit $t_0$ im Zustand  $\ket{\psi{(0)}}$ war, zu
 
 %\label{eq:conditional_probability}
@@ -368,7 +383,7 @@ Unitarität von $u$ und $V$ sind zusätzlich zu fordern!
 
 -----------------
 
-(\ref{eq:time_evolution}) diagnonalisiert durch unitäre Matrix $W$ im x-Unterraum. D.h. auf $V$ wirkt $W \otimes \mathrm{1}$.
+\eqref{eq:time_evolution} diagnonalisiert durch unitäre Matrix $W$ im x-Unterraum. D.h. auf $V$ wirkt $W \otimes \mathrm{1}$.
 \begin{equation}
 U_{x'x\,t't} = e^\mathrm{i\varphi_x(t'-t)}\,\delta_{x'x}
 \end{equation}
@@ -392,7 +407,7 @@ Nur noch Unitarität von $V$ ist zusätzlich zu fordern!
 -----------------
 ab hier überarbeiten
 
-Wenn die Quantenzahlen kontinuierlich sind, dann drückt sich (\ref{eq:conditional_probability}) in den Komponenten zu einer weiteren Basis $f$ so aus\footnote{Es ist $x(f) \equiv \bra{f}\ket{x}$ und $U(t,f,f') \equiv \bra{f}\ket{\hat{U}(t)f'}$.}
+Wenn die Quantenzahlen kontinuierlich sind, dann drückt sich \eqref{eq:conditional_probability} in den Komponenten zu einer weiteren Basis $f$ so aus\footnote{Es ist $x(f) \equiv \bra{f}\ket{x}$ und $U(t,f,f') \equiv \bra{f}\ket{\hat{U}(t)f'}$.}
 \begin{equation} 
 \label{eq:conditional_probability_components}
 p(x_1,t_1) \Biggl|_{x_0,t_0}
@@ -411,13 +426,13 @@ Jeder unstetige Übergang von einem Zustandsvektor zum nächsten wird in der Phy
 
 Subjektiv erleben wir Ereignisse in der (psychischen) Zeit. $\ket{x,t}$ steht nun aber nicht für ein Ereignis der Erfahrung eines Zustands $\ket{x}$ in der Zeit $t$, sondern im Allgemeinen für einen x,t-verschränkten Zustand\footnote{Irgendeine Funktion zweier Veränderlicher $f(x,t)\equiv\bra{x,t}\ket{f}$ zerfällt im Allgemeinen nicht in ein Produkt $g(x)h(t)$ und ist damit im Allgemeinen x,t-verschränkt.}. Da das Subjekt keine Zustände erfährt, die in der Zeit verschränkt sind, muss es an der Messung in einer Weise beteiligt sein, so dass auf entschränkte Produktzustände projiziert wird. Das Subjekt muss also dafür sorgen, dass auf Produktzustände $\ket{x_i}\otimes\ket{t_i}$ projiziert wird, wobei $\ket{t_i}$ eine Zeiteigenfunktion\footnote{in Komponenten also eine Delta-Distribution $\delta(t-t_i)$} zum Zeiteigenwert $t_i$ ist. Dadurch erfährt das Subjekt die physikalische Zeit $t_i$ zusammen mit dem neuen Weltzustand $\ket{x_i}$. Wiederholt sich dies, dann erfährt das Subjekt eine Folge von Weltzuständen $\ket{x_i}$, die durch die \href{https://de.wikipedia.org/wiki/Zeitdilatation}{Eigenzeiten} $t_i$ nummeriert sind, also bei genügender Feinheit des Prozesses vermeintlich eine quasikontinuierliche Abfolge $\ket{x(t)}$.
 
-Sei $\ket{y_0}$ ein Blockuniversum vor der Messung, oder in Komponenten zur Produktbasis $f,t$ ausgedrückt $y_0(f,t)$. Dann ist die Übergangswahrscheinlichkeit (\ref{eq:conditional_probability_relat}) in einen subjektiv erfahrbaren Zustand $\ket{y_1} = \ket{x_1}\otimes\ket{t_1}$
+Sei $\ket{y_0}$ ein Blockuniversum vor der Messung, oder in Komponenten zur Produktbasis $f,t$ ausgedrückt $y_0(f,t)$. Dann ist die Übergangswahrscheinlichkeit \eqref{eq:conditional_probability_relat} in einen subjektiv erfahrbaren Zustand $\ket{y_1} = \ket{x_1}\otimes\ket{t_1}$
 \begin{equation} 
 \label{eq:conditional_probability_subject}
 p(x_1,t_1)\Biggl|_{y_0}\ =\ \Bigl| \iint \mathrm{d}f\mathrm{d}t\  x_1^*(f)\delta(t-t_1)\, y_0(f,t)\, \Bigr|^2
 \ =\ \Bigl| \int \mathrm{d}f\, x_1^*(f)\, y_0(f,t_1)\, \Bigr|^2
 \end{equation}
-Vergleichen wir dies nun mit (\ref{eq:conditional_probability_components}), dann lesen wir ab
+Vergleichen wir dies nun mit \eqref{eq:conditional_probability_components}, dann lesen wir ab
 \begin{equation} 
 y_0(f,t_1)\ =\ \int \mathrm{d}f'\, U(t_1-t_0,f,f')\, x_0(f')
 \end{equation}

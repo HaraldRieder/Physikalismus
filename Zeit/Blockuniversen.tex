@@ -95,6 +95,7 @@ Analog sind die Matrixelemente des Zeitoperators $\hat{t}$ und die Komponenten s
 
 und in der (Zeit-)Impuls- oder Energiebasis $\{\,\ket{E_j}\,\}$
 \begin{equation}
+\label{eq:time_components}
 \bra{E_j}\ket{\,\hat{t}\,E_k}\ =\ t_{E_j E_k}\ =\ 
 -\mathrm{i}\hbar\,\delta_{jk}\,\frac{\partial}{\partial E_k}
 \quad\quad 
@@ -121,27 +122,29 @@ An dieser Lage haben sich ein paar Dinge in 100 Jahren geändert:
 \end{itemize}
 
 Heute müssen wir uns die Messung vorstellen als einen Prozess, der ein zu beobachtendes Quantenteil zunächst quantendynamisch an die Umgebung koppelt. 
-Dabei entsteht bei einer idealen Messung ein Zustand, der einerseits immer noch eine Überlagerung mit den ursprünglichen Amplituden $\psi^{(0)}_{\lambda_j}$ bezogen auf die Messbasis $\{\ket{\lambda_j}\}$ darstellt, andererseits die Messbasis maximal verschränkt mit einer entsprechenden Umgebungsbasis $\{\ket{E_j}\}$. Die Verschränkung soll nach der Dekohärenztheorie mittels eines stetigen deterministischen Prozesses $\hat{U}$ erfolgen. Dabei kann $\hat{U}$ zunächst Quantenteil und Umgebung unabhängig entwickeln, aber zu einem späteren Zeitpunkt soll $\hat{U}$ durch den Wechselwirkungsoperator $\hat{H}_{int}$ zwischen Quantenteil und Umgebung dominiert sein.
+Dabei entsteht bei einer idealen Messung ein Zustand, der einerseits immer noch eine Überlagerung mit den ursprünglichen Amplituden $\psi^{(0)}_{\lambda_j}$ bezogen auf die Messbasis $\{\,\ket{\lambda_j}\,\}$ darstellt, andererseits die Messbasis maximal verschränkt mit einer entsprechenden Umgebungsbasis $\{\,\ket{e_j}\,\}$. Die Verschränkung soll nach der Dekohärenztheorie mittels eines stetigen deterministischen Prozesses $\hat{U}$ erfolgen. Dabei kann $\hat{U}$ zunächst Quantenteil und Umgebung unabhängig entwickeln, aber zu einem späteren Zeitpunkt soll $\hat{U}$ durch den Wechselwirkungsoperator $\hat{H}_{int}$ zwischen Quantenteil und Umgebung dominiert sein.
 \begin{equation}
 \label{eq:decoherence}
-\ket{E_0}\otimes\ket{\psi^{(0)}} = \ket{E_0}\otimes\sum_j \psi^{(0)}_{\lambda_j} \ket{\lambda_j}
-\ \xrightarrow{\hat{U}}\ \sum_j \psi^{(0)}_{\lambda_j} \left( \ket{E_j} \otimes \ket{\lambda_j} \right)
+\ket{e_0}\otimes\ket{\psi^{(0)}}\ =\ \ket{e_0}\otimes\sum_j \psi^{(0)}_{\lambda_j} \ket{\lambda_j}
+\ \xrightarrow{\hat{U}}\ \sum_j \psi^{(0)}_{\lambda_j} \left(\, \ket{e_j} \otimes \ket{\lambda_j}\, \right)
 \end{equation}
 Dadurch ist Information über $\ket{\psi^{(0)}}$ in der Umgebung verfügbar geworden und kann abgefragt werden. Dieser finale Abfrageschritt ist Stand heute nicht verstanden. Es ist aber gewiss, dass der Endzustand von (\ref{eq:decoherence}) im Allgemeinen nicht bewusst erfahren werden kann, sondern nur Zustände nach bestimmten finalen Schritten, zum Beispiel Projektionen auf die Ortsbasis. Eventuell ist es auch nur der Abfrageschritt selbst, der bewusst erfahren wird. Der Abfrageschritt ist verbunden mit einem Kollaps der Überlagerung in einen der Endzustände mit der Bornschen Wahrscheinlichkeit.
 \begin{equation} 
 \label{eq:collapse}
-\sum_j \psi^{(0)}_{\lambda_j} \left( \ket{E_j} \otimes \ket{\lambda_j} \right)
+\sum_j \psi^{(0)}_{\lambda_j} \left( \ket{e_j} \otimes \ket{\lambda_j} \right)
 \ \xrightarrow{p^{(0)\rightarrow(1)}\ =\ \left|\psi^{(0)}_{\lambda_j}\right|^2}\ 
-\ket{E_j} \otimes \ket{\lambda_j} = \ket{E_j} \otimes \ket{\psi^{(1)}}
+\ket{e_j} \otimes \ket{\lambda_j}\ =\ \ket{e_j} \otimes \ket{\psi^{(1)}}
 \end{equation}
-$\left|\psi^{(0)}_{\lambda_j}\right|^2$ ist nichts anderes als die Übergangswahrscheinlichkeit 
+$\left|\psi^{(0)}_{\lambda_j}\right|^2$ ist die Übergangswahrscheinlichkeit 
 \begin{equation} 
+\label{eq:orig_Born}
 p^{(0)\rightarrow(1)} 
 = \Bigl| \bra{\lambda_j}\ket{\psi^{(0)}} \Bigr| ^2
 =\ \Bigl| \bra{\psi^{(1)}}\ket{\psi^{(0)}} \Bigr| ^2
 \end{equation}
 in der ursprünglichen Formulierung der Bornschen Regel.
 \section{Die Zeit in der Quantenmechanik}
+\subsection{Zerlegung in H- und E-Raum}
 Gleichungen der Quantenmechanik sind vom Prinzip her eigentlich einfach. Ein linearer Operator $\hat{O}$ wird angewendet auf einen Zustandsvektor $\ket{\psi}$ und das Ergebnis soll $0$ ergeben.
 \begin{equation*} 
 \hat{O}\ket{\psi} = 0 
@@ -150,7 +153,9 @@ Beim Blick auf Schrödinger-, Dirac- und Klein-Gordon-Gleichungen fällt eine Ge
 \begin{equation*} 
 \hat{O} = \hat{H} \otimes \hat{1}^{\mathscr{E}} - \hat{1}^{\mathscr{H}} \otimes \hat{E}
 \end{equation*}
-und ist damit die Summe aus einem Operator $\hat{H}$, der nur im Teilraum $\mathscr{H}$ wirkt und einem Operator $\hat{E}$, der nur im Teilraum $\mathscr{E}$ wirkt. Dadurch bietet sich ein Produktansatz zur Lösung dieser Gleichungen an. Mit
+und ist damit die Summe aus einem Operator $\hat{H}$, der nur im Teilraum $\mathscr{H}$ wirkt und einem Operator $\hat{E}$, der nur im Teilraum $\mathscr{E}$ wirkt. Der Teilraum $\mathscr{E}$ ist der Zeitunterraum und eine wählbare Basis ist die der Zeiteigenvektoren $\ket{t_j}$. Der Teilraum $\mathscr{H}$ enthält alles andere.
+
+Durch die Zerlegung bietet sich ein Produktansatz zur Lösung dieser Gleichungen an. Mit
 \begin{equation*} 
 \ket{\psi} = \ket{\psi}^{\mathscr{H}} \otimes \ket{\psi}^{\mathscr{E}}
 \end{equation*}
@@ -175,15 +180,19 @@ Dieses Gleichungssystem ist noch gekoppelt über die Eigenwerte $E$.
 Aufgrund der Linearität von $\hat{H}$ und $\hat{E}$ sind alle Linearkombinationen von Produkten zum selben Eigenwert $E$ ebenfalls Lösungen. Die allgemeine Lösung
 \begin{equation}
 \label{eq:general_solution}
-\ket{\psi} = \sum_j\ \psi_j \ket{\psi_{E_j}}^{\mathscr{H}} \otimes\ \ket{\psi_{E_j}}^{\mathscr{E}}
+\ket{\psi}\ =\ \sum_j\ \psi_j\ \ket{{E_j}}^{\mathscr{H}} \otimes\ \ket{{E_j}}^{\mathscr{E}}
 \end{equation}
-mit mehr als einer Komponente steht für eine Verschränkung der Teilräume $\mathscr{H}$ und $\mathscr{E}$. Die Darstellung (\ref{eq:general_solution}) von $\ket{\psi}$ ist eine \href{https://en.wikipedia.org/wiki/Schmidt_decomposition}{Schmidt-Zerlegung}.
+mit mehr als einem Summand steht für eine Verschränkung der Teilräume $\mathscr{H}$ und $\mathscr{E}$. Die Darstellung (\ref{eq:general_solution}) von $\ket{\psi}$ ist eine \href{https://en.wikipedia.org/wiki/Schmidt_decomposition}{Schmidt-Zerlegung}.
 
-Die unverschränkten Lösungen $\ket{\psi_{E_j}}^{\mathscr{H}} \otimes\ \ket{\psi_{E_j}}^{\mathscr{E}}$ werden üblicherweise als \emph{stationäre Zustände} oder \emph{Energieeigenzustände} bezeichnet. Denn der Differentialoperator $\mathrm{i}\hbar\,\frac{\partial}{\partial t}$, der in den Gleichungen auftritt, muss aufgefasst werden als Matrixelemente $E(t-t')$ des kontinuierlichen Energieoperators $\hat{E}$ in der Zeitdarstellung. Nähme man es genauer, müsste man immer noch die Delta-Distribution dazuschreiben: $E(t-t')\ =\ \mathrm{i}\hbar\,\delta(t-t')\,\frac{\partial}{\partial t}$
+Die unverschränkten Lösungen $\ket{{E_j}}^{\mathscr{H}} \otimes\ \ket{{E_j}}^{\mathscr{E}}$ werden üblicherweise als \emph{stationäre Zustände} oder \emph{Energieeigenzustände} bezeichnet. Denn der Differentialoperator $\mathrm{i}\hbar\,\frac{\partial}{\partial t}$, der in den Gleichungen auftritt, muss aufgefasst werden als Matrixelemente $E(t-t')$ des kontinuierlichen Energieoperators $\hat{E}$ in der Zeitdarstellung. Nähme man es genauer, müsste man immer noch die Delta-Distribution dazuschreiben: 
+\begin{equation*}
+E(t-t')\ =\ \mathrm{i}\hbar\,\delta(t-t')\,\frac{\partial}{\partial t}
+\end{equation*}
 
 Der gesamte Produktraum $\mathscr{H} \otimes \mathscr{E}$ kann aus den allgemeinen Produkten der Eigenvektoren von $\hat{H}$ und $\hat{E}$ aufgespannt werden:
 \begin{equation}
-\ket{\psi} = \sum_{jk}\ \psi_{jk} \ket{\psi_{E_j}}^{\mathscr{H}} \otimes\ \ket{\psi_{E_k}}^{\mathscr{E}}
+\label{eq:general_state}
+\ket{\psi}\ =\ \sum_{jk}\ \psi_{jk}\ \ket{{E_j}}^{\mathscr{H}} \otimes\ \ket{{E_k}}^{\mathscr{E}}
 \end{equation}
 Doch alle Zustände, die Terme mit $j \neq k$ haben, sollen "in der Natur nicht vorkommen". Etwas geringer könnte man auch fordern, dass sie durch die uns zur Verfügung stehenden Messprozesse nicht beobachtbar sind.
 
@@ -197,42 +206,51 @@ Die Bornschen Übergangswahrscheinlichkeiten zwischen allgemeinen Zuständen, al
 p^{(0)\rightarrow(1)} =\ \sum_{jklm} \psi_{jk}^{(1)*}\psi_{lm}^{(1)}\psi_{jk}^{(0)}\psi_{lm}^{(0)*}
 \end{equation}
 
----------------------------
-
+\subsection{Zeitentwicklung}
+Oft wird die Zeitentwicklung durch einen parametrisch von der Zeitdifferenz $t_1-t_0$ abhängigen Zeitentwicklungsoperator ausgedrückt. Für die Übergangswahrscheinlichkeit von einem Ausgangszustand $\ket{\psi^{(0)}}$ zur Zeit $t_0$ zu einem Endzustand $\ket{\psi^{(1)}}$ zur Zeit $t_1$ gilt bei einem nicht explizit zeitabhängigen Operator $\hat{H}$
 \begin{equation} 
 \label{eq:conditional_probability}
 p^{(0)\rightarrow(1)} =\ \Bigl| \bra{\psi^{(1)}}\ket{\hat{U}(t_1-t_0)\,\psi^{(0)}} \Bigr|^2
 \end{equation}
+Dazu muss bemerkt werden:
+\begin{itemize}
+\item Ein zeitabhängiger Hamiltonoperator modelliert üblicherweise einen zeitabhängigen Einfluss der Umgebung. Betrachten wir das All als Quantenwelt, dann gibt es davon keine Umgebung. Dort stünde ein zeitabhängiger Operator $\hat{H}$ für zeitabhängige Naturgesetze. Diese Möglichkeit mag es geben, wir betrachten sie hier aber nicht.
+\item Was genau sich in \eqref{eq:conditional_probability} zeitlich entwickelt, ist ontologisch nicht klar. So lange die Wahrscheinlichkeit sich dabei nicht ändert, kann die Zeitentwicklung beliebig zwischen Operator und Vektoren hin- und hergeschoben werden, was in den verschiedenen "Bildern", also Schrödinger-, Heisenberg- und Wechselwirkungsbild, ausgenutzt wird.
+\item $\psi^{(0)}$ und $\psi^{(1)}$ sind Vektoren aus dem $\mathscr{H}$ Unterraum. Auch in der relativistischen Quantenmechanik wird das \href{http://www.itp.uni-bremen.de/~noack/dirac.pdf}{invariante Skalarprodukt} definiert als \emph{drei}dimensionales Integral proportional zu 
+$\int \frac{\mathrm{d}^3 \vec{k}}{k_0}\ \psi^*(k)\phi(k)$. Diese Integration "auf der Massenschale" entspricht der Vermeidung der Zustände (\ref{eq:general_state}) mit $j \neq k$.
+\item Es handelt sich um die ursprüngliche Formulierung (\ref{eq:orig_Born}) der Bornschen Wahrscheinlichkeit. Der Verschränkungsprozess mit der Umgebung ist nicht ausmodelliert.
+\end{itemize}
 
-In der Energiebasis ist $\hat{U}$ bei einem nicht explizit zeitabhängigen Hamilton-Operator diagonal.
-
-Matrixelemente in der Energiebasis
+In der Energiebasis des $\mathscr{H}$ Raumes ist $\hat{U}$ bei einem nicht explizit zeitabhängigen Hamilton-Operator diagonal. Die Matrixelemente in der Energiebasis sind 
 \begin{equation} 
 U_{E_j E_k} = \delta_{E_j E_k} e^{-\frac{\mathrm{i}}{\hbar}E_j(t_1-t_0)}
 = 
 \delta_{E_j E_k}(e^{\frac{\mathrm{i}}{\hbar}E_j t_1})^* e^{\frac{\mathrm{i}}{\hbar}E_j t_0}
 \end{equation}
-In Komponenten
+In Komponenten stellt sich \eqref{eq:conditional_probability} dann so dar:
 \begin{equation} 
 p^{(0)\rightarrow(1)} =\ 
 \Bigl| \sum_j
 (\psi_{E_j}^{(1)\mathscr{H}} e^{\frac{\mathrm{i}}{\hbar}E_j t_1})^*
 \psi_{E_j}^{(0)\mathscr{H}} e^{\frac{\mathrm{i}}{\hbar}E_j t_0}
 \Bigr|^2
-\ = \ 
-\Bigl| \sum_j
-(\psi_{E_j}^{(1)\mathscr{H}} \psi_{t_1 E_j}^{\mathscr{E}})^*
-\psi_{E_j}^{(0)\mathscr{H}} \psi_{t_0 E_j}^{\mathscr{E}}
-\Bigr|^2
 \end{equation}
-
-Das sind Born'sche Übergangswahrscheinlichkeiten für Vektoren aus dem $\mathrm{H}\otimes\mathrm{E}$ Raum. 
-
-\begin{equation}
-\ket{\psi} = \sum_j \psi_{E_j}^\mathscr{H} \ket{E_j^\mathscr{H}} 
+In den Exponentialfunktionen erkennen wir die Komponenten von Zeiteigenvektoren in der Energiedarstellung aus \eqref{eq:time_components} wieder.
+Wir haben es also eigentlich mit Skalarprodukten von Vektoren aus dem $\mathscr{H}\otimes\mathscr{E}$ Raum zu tun
+\begin{equation*}
+\ket{\psi^{(0)}}\ =\ \sum_j \psi_{E_j}^{\mathscr{H}(0)} \ket{E_j^\mathscr{H}} 
 \otimes \psi_{t_0 E_j}^\mathscr{E} \ket{E_j^\mathscr{E}}
-= \sum_j \psi_{E_j} \ket{E_j^{\mathscr{H}}} \otimes \ket{E_j^{\mathscr{E}}} \bra{E_j^{\mathscr{E}}}\ket{t_0}
-\end{equation}
+\ =\ \sum_j \bra{E_j}\ket{\psi_{E_j}}^{\mathscr{H}} \bra{E_j}\ket{t_0}^{\mathscr{E}} \ \ket{E_j^{\mathscr{H}}} \otimes \ket{E_j^{\mathscr{E}}} 
+\end{equation*}
+\begin{equation*}
+\ket{\psi^{(1)}}\ =\ \sum_j \psi_{E_j}^{\mathscr{H}(1)} \ket{E_j^\mathscr{H}} 
+\otimes \psi_{t_1 E_j}^\mathscr{E} \ket{E_j^\mathscr{E}}
+\ =\ \sum_j \bra{E_j}\ket{\psi_{E_j}}^{\mathscr{H}} \bra{E_j}\ket{t_1}^{\mathscr{E}} \ \ket{E_j^{\mathscr{H}}} \otimes \ket{E_j^{\mathscr{E}}} 
+\end{equation*}
+also mit Vektoren der Form \eqref{eq:general_solution}.
+
+----------
+
 Allgemein wäre
 \begin{equation}
 \ket{\psi^\mathscr{H}} = \sum_j \psi_{E_j}^\mathscr{H} \ket{E_j^\mathscr{H}}
@@ -252,8 +270,9 @@ Sollen beide Beobachter dasselbe Weltgeschehen beobachten, dann muss es einen Fi
 
 \section{Blockuniversen ersetzen absolute Zeit}
 Sei $\ket{\psi}$ der Zustandsvektor einer Quantenwelt. Dann berechnet sich in der nichtrelativistischen Quantenmechanik die bedingte Wahrscheinlichkeit dafür, die Quantenwelt zur Zeit $t_1$ im Zustand $\ket{\psi^{(1)}}$ anzutreffen unter der Bedingung, dass sie zur Zeit $t_0$ im Zustand  $\ket{\psi{(0)}}$ war, zu
+
+%\label{eq:conditional_probability}
 \begin{equation} 
-\label{eq:conditional_probability}
 p^{(0)\rightarrow(1)} =\ \Bigl| \bra{\psi^{(1)}}\ket{\hat{U}(t_1-t_0)\,\psi^{(0)}} \Bigr|^2
 \end{equation}
 Dabei ist $\hat{U}$ der unitäre Zeitentwicklungsoperator, der parametrisch von einem als absolut angesehenen Zeitparameter $t$ abhängt. Wir beschränken uns hier auf nicht explizit zeitabhängige Welten, d.h. $\hat{U}$ kann mit einem hermiteschen Operator $\hat{H}$ in der Form

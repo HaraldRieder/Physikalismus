@@ -256,13 +256,13 @@ also mit Vektoren der Form \eqref{eq:general_solution}.
 
 %Sollen beide Beobachter dasselbe Weltgeschehen beobachten, dann muss es einen Filter geben, so dass jeder Beobachter nur seinen Unterraum des beobachten kann. Der Beobachter ist dieser Filter.
 
-\section{Folgen von Blockuniversen statt von selbst vergehender physikalischer Zeit}
+\section{Eine Abfolge von Blockuniversen}
 
 Wir wollen nun die deterministische Zeitentwicklung durch einen stochastischen Prozess ersetzen. Der Ausgangspunkt dazu ist \eqref{eq:collapse}. Das heißt: ein Beobachter nimmt einen "Kollaps" wahr, bei dem ein zwischen $\mathscr{H}$ und $\mathscr{E}$ verschränkter Zustand entschränkt wird. Dieser Prozessschritt soll sein
 \begin{equation} 
 \label{eq:collapse}
 \sum_j a_j \left( \ket{t_j} \otimes \ket{\lambda_j} \right)
-\ \xrightarrow{p^{(0)\rightarrow(k)}\ =\ \left|a_j\right|^2}\ 
+\ \xrightarrow{p^{(0)\rightarrow(k)}\ =\ \left|a_k\right|^2}\ 
 \ket{t_k} \otimes \ket{\lambda_k}\ =\ \ket{t_k} \otimes \ket{\psi^{(k)}}
 \end{equation}
 Es wird also beobachtet der Zustand $\ket{\psi^{(k)}}$ zur Zeit $t_k$.
@@ -278,7 +278,17 @@ Der Operator $\hat{U}$ ist dabei der aus \eqref{eq:decoherence} und nicht der au
 
 Damit $\ket{\psi^{(k)}}$ zu $t_k$ passt und damit eine deterministische Zeitentwicklung vortäuschen kann, muss gelten 
 \begin{equation*}
-\ket{\psi^{(k)}}\ =\ \hat{u}^n \ket{\psi^{(0)}} \quad\quad n = \frac{t_k-t_0}{t_p}
+\ket{t_k} \otimes\ket{\psi^{(k)}}\ =\ 
+\hat{u}^k \ket{t_0} \otimes \ket{\psi^{(0)}}
+\end{equation*}
+Dabei haben wir $t_0 = 0$ gesetzt, was wir nach jedem Prozessschritt neu tun können, da die Wahrscheinlichkeiten nur von der Zeitdifferenz abhängig sind.
+
+Wir haben für den "Kollaps" mehr Zielzustände als in \eqref{eq:conditional_probability}, eben alle aus $\mathscr{H}\otimes\mathscr{E}$ im Gegensatz zu allen aus $\mathscr{H}$. Dadurch sind die Amplituden selbstverständlich anders zu normieren. 
+
+Es ist vollkommen unbestimmt, mit welcher Wahrscheinlichkeit eine bestimmte Zeit $t_k$ beobachtet wird. Für jede bestimmte Zeit $t_k$ müssen die Wahrscheinlichkeiten aber wie in \eqref{eq:conditional_probability} gewichtet sein. 
+
+\begin{equation*}
+\frac{\left|\bra{\lambda_k} \hat{u}^k \ket{\psi^{(0)}}\right|^2}{\sum }
 \end{equation*}
 
 

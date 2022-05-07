@@ -122,18 +122,18 @@ An dieser Lage haben sich ein paar Dinge in 100 Jahren geändert:
 \end{itemize}
 
 Heute müssen wir uns die Messung vorstellen als einen Prozess, der ein zu beobachtendes Quantenteil zunächst quantendynamisch an die Umgebung koppelt. 
-Dabei entsteht bei einer idealen Messung ein Zustand, der einerseits immer noch eine Überlagerung mit den ursprünglichen Amplituden $\psi^{(0)}_{\lambda_j}$ bezogen auf die Messbasis $\{\,\ket{\lambda_j}\,\}$ darstellt, andererseits die Messbasis maximal verschränkt mit einer entsprechenden Umgebungsbasis $\{\,\ket{e_j}\,\}$. Die Verschränkung soll nach der Dekohärenztheorie mittels eines stetigen deterministischen Prozesses $\hat{U}$ erfolgen. Dabei kann $\hat{U}$ zunächst Quantenteil und Umgebung unabhängig entwickeln, aber zu einem späteren Zeitpunkt soll $\hat{U}$ durch den Wechselwirkungsoperator $\hat{H}_{int}$ zwischen Quantenteil und Umgebung dominiert sein.
+Dabei entsteht bei einer idealen Messung ein Zustand, der einerseits immer noch eine Überlagerung mit den ursprünglichen Amplituden $\psi^{(0)}_{\lambda_j}$ bezogen auf die Messbasis $\{\,\ket{\lambda_j}\,\}$ darstellt, andererseits die Messbasis maximal verschränkt mit einer entsprechenden Umgebungsbasis $\{\,\ket{e_j}\,\}$. Die Verschränkung soll nach der Dekohärenztheorie mittels eines in der Zeit stetigen deterministischen Prozesses $\hat{U}(t-t_0)$ erfolgen. Dabei kann $\hat{U}$ zunächst Quantenteil und Umgebung unabhängig entwickeln, aber zu einem späteren Zeitpunkt $t_1$ soll $\hat{U}$ durch den Wechselwirkungsoperator $\hat{H}_{int}$ zwischen Quantenteil und Umgebung dominiert sein.
 \begin{equation}
 \label{eq:decoherence}
 \ket{e_0}\otimes\ket{\psi^{(0)}}\ =\ \ket{e_0}\otimes\sum_j \psi^{(0)}_{\lambda_j} \ket{\lambda_j}
-\ \xrightarrow{\hat{U}}\ \sum_j \psi^{(0)}_{\lambda_j} \left(\, \ket{e_j} \otimes \ket{\lambda_j}\, \right)
+\ \xrightarrow{\hat{U}(t_1-t_0)}\ \sum_j \psi^{(0)}_{\lambda_j} \left(\, \ket{e_j} \otimes \ket{\lambda_j}\, \right)
 \end{equation}
 Dadurch ist Information über $\ket{\psi^{(0)}}$ in der Umgebung verfügbar geworden und kann abgefragt werden. Dieser finale Abfrageschritt ist Stand heute nicht verstanden. Es ist aber gewiss, dass der Endzustand von \eqref{eq:decoherence} im Allgemeinen nicht bewusst erfahren werden kann, sondern nur Zustände nach bestimmten finalen Schritten, zum Beispiel Projektionen auf die Ortsbasis. Eventuell ist es auch nur der Abfrageschritt selbst, der bewusst erfahren wird. Der Abfrageschritt ist verbunden mit einem Kollaps der Überlagerung in einen der Endzustände mit der Bornschen Wahrscheinlichkeit.
 \begin{equation} 
 \label{eq:collapse}
 \sum_j \psi^{(0)}_{\lambda_j} \left( \ket{e_j} \otimes \ket{\lambda_j} \right)
-\ \xrightarrow{p^{(0)\rightarrow(1)}\ =\ \left|\psi^{(0)}_{\lambda_j}\right|^2}\ 
-\ket{e_j} \otimes \ket{\lambda_j}\ =\ \ket{e_j} \otimes \ket{\psi^{(1)}}
+\ \xrightarrow{p_j^{(0)\rightarrow(1)}\ =\ \left|\psi^{(0)}_{\lambda_j}\right|^2}\ 
+\ket{e_j} \otimes \ket{\lambda_j}
 \end{equation}
 $\left|\psi^{(0)}_{\lambda_j}\right|^2$ ist die Übergangswahrscheinlichkeit 
 \begin{equation} 
@@ -258,15 +258,32 @@ also mit Vektoren der Form \eqref{eq:general_solution}.
 
 \section{Eine Abfolge von Blockuniversen}
 
-Wir wollen nun die deterministische Zeitentwicklung durch einen stochastischen Prozess ersetzen. Der Ausgangspunkt dazu ist \eqref{eq:collapse}. Das heißt: ein Beobachter nimmt einen "Kollaps" wahr, bei dem ein zwischen $\mathscr{H}$ und $\mathscr{E}$ verschränkter Zustand entschränkt wird. Dieser Prozessschritt soll sein
+Wir wollen nun die deterministische Zeitentwicklung durch einen stochastischen Prozess ersetzen. Der Ausgangspunkt dazu ist \eqref{eq:collapse}. Das heißt: ein Beobachter nimmt einen "Kollaps" wahr, bei dem ein zwischen $\mathscr{H}$, $\mathscr{E}$ und der Umgebung verschränkter Zustand entschränkt wird. Dieser Prozessschritt soll sein
+\begin{equation*} 
+\label{eq:collapse_with_time}
+\sum_{jk} \psi_{jk} \left(\ \ket{e_{jk}} \otimes \ket{\lambda_j} \otimes \ket{t_k} \ \right)
+\ \xrightarrow{p_{jk}\ =\ \left|\psi_{jk}\right|^2}\ 
+\ket{e_{jk}} \otimes \ket{\lambda_j} \otimes \ket{t_k}
+\end{equation*}
+Es werden also beobachtet der Zustand $\ket{\lambda_j}$ \emph{und gleichzeitig} die Zeit $\ket{t_k}$, \emph{nicht} der Zustand $\ket{\lambda_j}$ \emph{zu} einer Zeit $t$. Dadurch ist die Dynamik am Ende angekommen. Jede weitere Beobachtung liefert immer wieder dieselben Eigenwerte und damit auch dieselbe Zeit $t_k$. 
+
+Die Frage stellt sich nun, zu welcher Zeit die Beobachtung der Zeit eigentlich stattfindet. Diese Zeit, in der alles Wahrgenommene beobachtet wird, kann natürlich nicht mehr dieselbe Zeit sein wie die, die sich erst dann preisgibt, wenn sie durch eine bestimmte Entschränkung beobachtet wird. Da wir außer dem Beobachter sonst nichts mehr haben, muss diese außerhalb des physikalischen Modells befindliche Zeit zum Beobachter gehören.
+
+Für jeden physikalischen Zeitpunkt $t_k$ müssen die Wahrscheinlichkeiten denen von \eqref{eq:collapse} entsprechen. Die $\left|\psi_{jk}\right|^2$ müssen also proportional sein zu den $\left|\psi_{\lambda_j}\right|^2$, das heißt wir können setzen
+\begin{equation*}
+\psi_{jk} =  \psi_{\lambda_j} \psi_{t_k}
+\end{equation*}
+Die $\psi_{t_k}$ sind frei wählbare komplexe Zahlen, es müssen nur die Normierungsbedingungen
+\begin{equation*}
+\sum_j \left|\psi_{\lambda_j}\right|^2 = 1 \quad\quad
+\sum_{k} \left|\psi_{t_k}\right|^2 = 1
+\end{equation*}
+erfüllt sein. Damit haben wir 
 \begin{equation} 
-\label{eq:collapse}
-\sum_j a_j \left( \ket{t_j} \otimes \ket{\lambda_j} \right)
-\ \xrightarrow{p^{(0)\rightarrow(k)}\ =\ \left|a_k\right|^2}\ 
-\ket{t_k} \otimes \ket{\lambda_k}\ =\ \ket{t_k} \otimes \ket{\psi^{(k)}}
+\sum_{jk} \psi_{\lambda_j}\psi_{t_k} \left(\ \ket{e_{jk}} \otimes \ket{\lambda_j} \otimes \ket{t_k} \ \right)
+\ \xrightarrow{p_{jk}\ =\ \left|\psi_{\lambda_j}\right|^2\ \cdot\ \left|\psi_{t_k}\right|^2}\ 
+\ket{e_{jk}} \otimes \ket{\lambda_j} \otimes \ket{t_k}
 \end{equation}
-Es wird also beobachtet der Zustand $\ket{\psi^{(k)}}$ zur Zeit $t_k$.
-Dadurch ist die Dynamik am Ende angekommen. Jede weitere Beobachtung liefert immer wieder dieselben Eigenwerte und damit auch dieselbe Zeit $t_k$.
 
 Den kontinuierlich parametrisierten Operator $\hat{U}(t_1-t_0)$ nähern wir an durch Potenzen $\hat{u}^n$ eines kleinstmöglichen Zeitentwicklungsoperators $\hat{u}$. Dabei stellen wir uns $t_1-t_0$ vor als Vielfaches einer kleinstmöglichen Zeitdifferenz $t_p$.
 \begin{equation*}
@@ -283,13 +300,6 @@ Damit $\ket{\psi^{(k)}}$ zu $t_k$ passt und damit eine deterministische Zeitentw
 \end{equation*}
 Dabei haben wir $t_0 = 0$ gesetzt, was wir nach jedem Prozessschritt neu tun können, da die Wahrscheinlichkeiten nur von der Zeitdifferenz abhängig sind.
 
-Wir haben für den "Kollaps" mehr Zielzustände als in \eqref{eq:conditional_probability}, eben alle aus $\mathscr{H}\otimes\mathscr{E}$ im Gegensatz zu allen aus $\mathscr{H}$. Dadurch sind die Amplituden selbstverständlich anders zu normieren. 
-
-Es ist vollkommen unbestimmt, mit welcher Wahrscheinlichkeit eine bestimmte Zeit $t_k$ beobachtet wird. Für jede bestimmte Zeit $t_k$ müssen die Wahrscheinlichkeiten aber wie in \eqref{eq:conditional_probability} gewichtet sein. 
-
-\begin{equation*}
-\frac{\left|\bra{\lambda_k} \hat{u}^k \ket{\psi^{(0)}}\right|^2}{\sum }
-\end{equation*}
 
 
 ------

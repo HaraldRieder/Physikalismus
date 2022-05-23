@@ -25,7 +25,7 @@
 
 \setcounter{secnumdepth}{-1}
 \begin{document}
-\title{\fontsize{25}{25}\selectfont \textbf{Eine Abfolge von Blockuniversen?}}
+\title{\fontsize{25}{25}\selectfont \textbf{Eine Abfolge von Blockuniversen}}
 \author{Harald Rieder}
 \date{\today}
 \maketitle
@@ -143,6 +143,12 @@ p^{(0)\rightarrow(1)}
 =\ \Bigl| \bra{\psi^{(1)}}\ket{\psi^{(0)}} \Bigr| ^2
 \end{equation}
 in der ursprünglichen Formulierung der Bornschen Regel.
+
+Ob nun \eqref{eq:decoherence} tatsächlich stattfindet ist von einem pragmatischen Standpunkt aus gesehen unerheblich, so lange sich der Dekohärenzprozess der Beobachtbarkeit aufgrund fehlender technologischer Fähigkeiten entzieht. Beobachtete Ereignisse mit ihren zugehörigen Wahrscheinlichkeiten sind am Ende dieselben. Doch seit einigen Jahren sind Dekohärenzprozesse technologisch greifbar geworden, z.B. in einem Experiment von \href{https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.98.200402}{Sonnentag und Hasselbach} aus dem Jahr 2006.
+
+Nimmt man an, dass erstens der Beobachter Information nicht direkt aus dem Quantenteil abgreifen kann sondern nur indirekt über dessen Umgebung, und zweitens die Quantentheorie am Ende der gesamten klassischen Physik zugrunde liegen muss, dann drängt sich ein Prozess \eqref{eq:decoherence} aus logischen Gründen geradezu auf. Die theoretische Idee reicht \href{https://de.wikipedia.org/wiki/Dieter_Zeh}{in das Jahr 1970 zurück}.
+ 
+
 \section{Die Zeit in der Quantenmechanik}
 \subsection{Zerlegung in H- und E-Raum}
 Gleichungen der Quantenmechanik sind vom Prinzip her eigentlich einfach. Ein linearer Operator $\hat{O}$ wird angewendet auf einen Zustandsvektor $\ket{\psi}$ und das Ergebnis soll $0$ ergeben.
@@ -209,16 +215,16 @@ p^{(0)\rightarrow(1)} =\ \sum_{jklm} \psi_{jk}^{(1)*}\psi_{lm}^{(1)}\psi_{jk}^{(
 \subsection{Zeitentwicklung}
 Oft wird die Zeitentwicklung durch einen parametrisch von der Zeitdifferenz $t_1-t_0$ abhängigen Zeitentwicklungsoperator ausgedrückt. Für die Übergangswahrscheinlichkeit von einem Ausgangszustand $\ket{\psi^{(0)}}$ zur Zeit $t_0$ zu einem Endzustand $\ket{\psi^{(1)}}$ zur Zeit $t_1$ gilt bei einem nicht explizit zeitabhängigen Operator $\hat{H}$
 \begin{equation} 
-\label{eq:conditional_probability}
+\label{eq:time_evolution}
 p^{(0)\rightarrow(1)} =\ \Bigl| \bra{\psi^{(1)}}\ket{\hat{U}(t_1-t_0)\,\psi^{(0)}} \Bigr|^2
 \end{equation}
 Dazu muss bemerkt werden:
 \begin{itemize}
 \item Ein zeitabhängiger Hamiltonoperator modelliert üblicherweise einen zeitabhängigen Einfluss der Umgebung. Betrachten wir das All als Quantenwelt, dann gibt es davon keine Umgebung. Dort stünde ein zeitabhängiger Operator $\hat{H}$ für zeitabhängige Naturgesetze. Diese Möglichkeit mag es geben, wir betrachten sie hier aber nicht.
-\item Was genau sich in \eqref{eq:conditional_probability} zeitlich entwickelt, ist ontologisch nicht klar. So lange die Wahrscheinlichkeit sich dabei nicht ändert, kann die Zeitentwicklung beliebig zwischen Operator und Vektoren hin- und hergeschoben werden, was in den gebräuchlichen "Bildern", also Schrödinger-, Heisenberg- und Wechselwirkungsbild, ausgenutzt wird.
+\item Was genau sich in \eqref{eq:time_evolution} zeitlich entwickelt, ist ontologisch nicht klar. So lange die Wahrscheinlichkeit sich dabei nicht ändert, kann die Zeitentwicklung beliebig zwischen Operator und Vektoren hin- und hergeschoben werden, was in den gebräuchlichen "Bildern", also Schrödinger-, Heisenberg- und Wechselwirkungsbild, ausgenutzt wird.
 \item $\ket{\psi^{(0)}}$ und $\ket{\psi^{(1)}}$ sind Vektoren aus dem $\mathscr{H}$ Unterraum. Statt abstrakter Vektoren aus dem $\mathscr{E}$ Unterraum treten in der Formel nur Zeiteigenwerte $t_0$, $t_1$ als Parameter auf. Auch in der relativistischen Quantenmechanik wird das \href{http://www.itp.uni-bremen.de/~noack/dirac.pdf}{invariante Skalarprodukt} definiert als \emph{drei}dimensionales Integral proportional zu 
 $\int \frac{\mathrm{d}^3 \vec{p}}{p_0}\ \psi^*(p)\, \phi(p)$. Diese Integration "auf der Massenschale" entspricht der Vermeidung der Zustände \eqref{eq:general_state}, bei denen $j \neq k$ ist. $p_0$ gehört zwar zum $\mathscr{E}$ Raum, ist aber in dieser Formel nicht unabhängig sondern eine Funktion von $\vec{p}$ aus dem $\mathscr{H}$ Raum. Diese Ungleichbehandlungen wirken verstörend, wenn man sie mit der zugrunde liegenden symmetrischen Aufgabenstellung \eqref{eq:system} vergleicht.
-\item Es handelt sich bei \eqref{eq:conditional_probability} um die ursprüngliche Formulierung \eqref{eq:orig_Born} der Bornschen Wahrscheinlichkeit. Der Verschränkungsprozess mit der Umgebung ist nicht ausmodelliert.
+\item Es handelt sich bei \eqref{eq:time_evolution} um die ursprüngliche Formulierung \eqref{eq:orig_Born} der Bornschen Wahrscheinlichkeit. Der Verschränkungsprozess mit der Umgebung ist nicht ausmodelliert.
 \end{itemize}
 
 In der Energiebasis des $\mathscr{H}$ Raumes ist $\hat{U}$ bei einem nicht explizit zeitabhängigen Hamilton-Operator diagonal. Die Matrixelemente in der Energiebasis sind 
@@ -227,7 +233,7 @@ U_{E_j E_k} = \delta_{E_j E_k} e^{-\frac{\mathrm{i}}{\hbar}E_j(t_1-t_0)}
 = 
 \delta_{E_j E_k}(e^{\frac{\mathrm{i}}{\hbar}E_j t_1})^* e^{\frac{\mathrm{i}}{\hbar}E_j t_0}
 \end{equation}
-In Komponenten stellt sich \eqref{eq:conditional_probability} dann so dar:
+In Komponenten stellt sich \eqref{eq:time_evolution} dann so dar:
 \begin{equation} 
 p^{(0)\rightarrow(1)} =\ 
 \Bigl| \sum_j
@@ -260,14 +266,13 @@ also mit Vektoren der Form \eqref{eq:general_solution}.
 
 Wir wollen nun die deterministische Zeitentwicklung durch einen stochastischen Prozess ersetzen. Der Ausgangspunkt dazu ist \eqref{eq:collapse}. Das heißt: ein Beobachter nimmt einen "Kollaps" wahr, bei dem ein zwischen $\mathscr{H}$, $\mathscr{E}$ und der Umgebung verschränkter Zustand entschränkt wird. Dieser Prozessschritt soll sein
 \begin{equation*} 
-\label{eq:collapse_with_time}
-\sum_{jk} \psi_{jk} \left(\ \ket{e_{jk}} \otimes \ket{\lambda_j} \otimes \ket{t_k} \ \right)
+\sum_{jk} \psi_{jk}\ \ket{e_{jk}} \otimes \ket{\lambda_j} \otimes \ket{t_k} 
 \ \xrightarrow{p_{jk}\ =\ \left|\psi_{jk}\right|^2}\ 
 \ket{e_{jk}} \otimes \ket{\lambda_j} \otimes \ket{t_k}
 \end{equation*}
 Es werden also beobachtet der Zustand $\ket{\lambda_j}$ \emph{und gleichzeitig} die Zeit $\ket{t_k}$, \emph{nicht} der Zustand $\ket{\lambda_j}$ \emph{zu} einer Zeit $t$. Dadurch ist die Dynamik am Ende angekommen. Jede weitere Beobachtung liefert immer wieder dieselben Eigenwerte und damit auch dieselbe Zeit $t_k$. 
 
-Die Frage stellt sich nun, zu welcher Zeit die Beobachtung der Zeit eigentlich stattfindet. Diese Zeit, in der alles Wahrgenommene beobachtet wird, kann natürlich nicht mehr dieselbe Zeit sein wie die, die sich erst dann preisgibt, wenn sie durch eine bestimmte Entschränkung beobachtet wird. Da wir außer dem Beobachter sonst nichts mehr haben, muss diese außerhalb des physikalischen Modells befindliche Zeit zum Beobachter gehören.
+Die Frage stellt sich nun, zu welcher Zeit die Beobachtung der Zeit eigentlich stattfindet. Diese Zeit, in der alles Wahrgenommene beobachtet wird, kann natürlich nicht mehr dieselbe Zeit sein wie die, die sich erst dann preisgibt, wenn sie durch eine bestimmte Entschränkung beobachtet wird. Da wir außer dem Beobachter sonst nichts mehr haben, muss diese außerhalb des physikalischen Modells befindliche Zeit zum Beobachter gehören. Es muss eine psychische Zeit sein.
 
 Für jeden physikalischen Zeitpunkt $t_k$ müssen die Wahrscheinlichkeiten denen von \eqref{eq:collapse} entsprechen. Die $\left|\psi_{jk}\right|^2$ müssen also proportional sein zu den $\left|\psi_{\lambda_j}\right|^2$, das heißt wir können setzen
 \begin{equation*}
@@ -280,7 +285,8 @@ Die $\psi_{t_k}$ sind frei wählbare komplexe Zahlen, es müssen nur die Normier
 \end{equation*}
 erfüllt sein. Damit haben wir 
 \begin{equation} 
-\sum_{jk} \psi_{\lambda_j}\psi_{t_k} \left(\ \ket{e_{jk}} \otimes \ket{\lambda_j} \otimes \ket{t_k} \ \right)
+\label{eq:collapse_with_time}
+\sum_{jk} \psi_{\lambda_j}\psi_{t_k} \ \ket{e_{jk}} \otimes \ket{\lambda_j} \otimes \ket{t_k} 
 \ \xrightarrow{p_{jk}\ =\ \left|\psi_{\lambda_j}\right|^2\ \cdot\ \left|\psi_{t_k}\right|^2}\ 
 \ket{e_{jk}} \otimes \ket{\lambda_j} \otimes \ket{t_k}
 \end{equation}
@@ -291,32 +297,33 @@ t_1-t_0\ =\ n t_p \quad\quad
 \hat{u} = \hat{U}(t_p) \quad\quad 
 \hat{u}^n = \hat{U}(t_1-t_0)
 \end{equation*}
-Der Operator $\hat{U}$ ist dabei der aus \eqref{eq:decoherence} und nicht der aus \eqref{eq:conditional_probability}. Er ist zuständig für die Gesamtwelt und nicht nur für einen Unterraum.
+Der Operator $\hat{U}$ ist dabei der aus \eqref{eq:decoherence} und nicht der aus \eqref{eq:time_evolution}. Er wirkt im Produktraum des Quantendings und seiner Umgebung, aber nicht im Unterraum $\mathscr{E}$, welcher von den Zeiteigenvektoren aufgespannt wird.
 
-Damit $\ket{\psi^{(k)}}$ zu $t_k$ passt und damit eine deterministische Zeitentwicklung vortäuschen kann, muss gelten 
+Die deterministische Zeitabhängigkeit des Ausgangszustands im konventionellen Schrödingerbild drückt sich aus durch
 \begin{equation*}
-\ket{t_k} \otimes\ket{\psi^{(k)}}\ =\ 
-\hat{u}^k \ket{t_0} \otimes \ket{\psi^{(0)}}
-\end{equation*}
-Dabei haben wir $t_0 = 0$ gesetzt, was wir nach jedem Prozessschritt neu tun können, da die Wahrscheinlichkeiten nur von der Zeitdifferenz abhängig sind.
+\ket{\psi(t)}\ =\ \hat{U}(t-t_0)\ket{\psi^{(0)}}
+\end{equation*} 
+In unserem neuen Bild transportiert die k-malige Anwendung von $\hat{u}$ vom Ausgangszustand zu jenem, der mit $\ket{t_k}$ verschränkt sein soll.
+\begin{equation*}
+\ket{\psi^{(k)}}\ =\ \hat{u}^k \ket{\psi^{(0)}}
+\end{equation*} 
 
-
-
-------
-
-Sei $\ket{\psi}$ der Zustandsvektor einer Quantenwelt. Dann berechnet sich in der nichtrelativistischen Quantenmechanik die bedingte Wahrscheinlichkeit dafür, die Quantenwelt zur Zeit $t_1$ im Zustand $\ket{\psi^{(1)}}$ anzutreffen unter der Bedingung, dass sie zur Zeit $t_0$ im Zustand  $\ket{\psi{(0)}}$ war, zu
-
-%\label{eq:conditional_probability}
-\begin{equation} 
-p^{(0)\rightarrow(1)} =\ \Bigl| \bra{\psi^{(1)}}\ket{\hat{U}(t_1-t_0)\,\psi^{(0)}} \Bigr|^2
-\end{equation}
-Dabei ist $\hat{U}$ der unitäre Zeitentwicklungsoperator, der parametrisch von einem als absolut angesehenen Zeitparameter $t$ abhängt. Wir beschränken uns hier auf nicht explizit zeitabhängige Welten, d.h. $\hat{U}$ kann mit einem hermiteschen Operator $\hat{H}$ in der Form
+Damit eine deterministische Zeitentwicklung vorgetäuscht werden kann, muss die Überlagerung auf der linken Seite von \eqref{eq:collapse_with_time} damit diese Gestalt annehmen
 \begin{equation}
-\label{eq:time_evolution}
-\hat{U}(t_1,t_0)=\exp \left(-\tfrac {\mathrm {i} }{\hbar}\hat{H}\cdot (t_1-t_0)\right)
+\label{eq:final_superposition}
+\sum_{jk} \psi_{\lambda_j}^{(0)}\psi_{t_k}\ \hat{u}^{k} \left(\,\ket{e_{jk}} \otimes \ket{\lambda_j} \,\right) \otimes \ket{t_k}
 \end{equation}
-geschrieben werden. 
+Diese kollabieren in der Beobachtung zu den Vektoren auf der rechten Seite von  \eqref{eq:collapse_with_time}. Die $|\psi_{\lambda_j}|^2$ haben wir durch \eqref{eq:final_superposition} so gewählt, dass sie die konventionelle Quantenmechanik wiedergeben, und die $\psi_{t_k}$ sind nach wie vor frei. Damit ein Kollaps stattfinden kann bzw. vor der Beobachtung eine Verschränkung vorliegt, müssen wenigstens 2 der $\psi_{t_k}$ ungleich 0 sein. 
 
+Damit sind wir am Ziel angekommen. Allerdings besteht noch die Unschönheit, dass der Prozess nach der ersten Beobachtung zum Erliegen kommt. Wir brauchen einen weiteren Prozessschritt, der wieder eine Überlagerung der Form \eqref{eq:final_superposition} aufbaut. 
+
+Dieser andere Prozessschritt ist für menschliche Beobachter verborgen, da wir postuliert haben, dass der Kollaps der Überlagerung das ist, das erfahren wird. 
+
+Dieser andere Prozessschritt darf aus mehreren Unterschritten bestehen und kann aus dem Unterraum der Lösungsvektoren \eqref{eq:general_solution} hinausführen. Der Prozess muss nicht markovsch sein und darf ein Gedächtnis haben.
+
+All das können wir nicht wissen, wenn es nicht gelingt, weitere Beobachtungsperspektiven zu erschließen. Das ist der Preis dafür, dass wir nur noch eine Zeitentwicklung haben und damit das Messproblem gelöst ist.
+
+Ein einfaches Beispiel in einem Hilbertraum aus 2 Qutrits und einem einfachen verborgenen Prozessschritt enthält der Artikel \href{http://vermaschung.de/index.php?title=Warum_Panpsychismus%3F}{Über psychische und physikalische Zeit}. Darin findet sich auch die Idee, die $\psi_{t_k}$ durch den verborgenen Schritt so zu belegen, dass die "Zeit in eine Richtung geht". Genauer gesagt soll die gerichtete psychische Zeit im Kollaps an immer andere Zeiteigenvektoren gebunden werden, die eben dadurch ihre subjektive zeitliche Ordnung bekommen.
 
 -----------------
 diskret
@@ -421,40 +428,6 @@ Nur noch Unitarität von $V$ ist zusätzlich zu fordern!
 \begin{equation} 
 \sum_{z} V_{x't'\, z} V^*_{xt\, z} = \delta_{x'x}\ \delta_{t't} \quad\quad
 \sum_{xt} V_{xt\, z'} V^*_{xt\, z} = \delta_{z'z}
-\end{equation}
-
-
------------------
-ab hier überarbeiten
-
-Wenn die Quantenzahlen kontinuierlich sind, dann drückt sich \eqref{eq:conditional_probability} in den Komponenten zu einer weiteren Basis $f$ so aus\footnote{Es ist $x(f) \equiv \bra{f}\ket{x}$ und $U(t,f,f') \equiv \bra{f}\ket{\hat{U}(t)f'}$.}
-\begin{equation} 
-\label{eq:conditional_probability_components}
-p(x_1,t_1) \Biggl|_{x_0,t_0}
-=\ \Bigl| \iint \mathrm{d}f\mathrm{d}f'\, x_1^*(f)\, U(t_1-t_0,f,f')\, x_0(f')\, \Bigr|^2
-\end{equation}
-Wenn wir von der parametrischen absoluten Zeit wegkommen wollen, dann wünschen wir uns so etwas wie
-\begin{equation} 
-\label{eq:conditional_probability_relat}
-p(x_1,t_1)\Biggl|_{x_0,t_0} =\ \Bigl| \bra{x_1,t_1}\ket{x_0,t_0} \Bigr|^2
-\end{equation}
-womit die bedingte Wahrscheinlichkeit gemeint ist, die Quantenwelt in den Zustand $\ket{x_1,t_1}$ zu bringen unter der Vorraussetzung, dass sie im Zustand $\ket{x_0,t_0}$ ist.  $x$ und $t$ nummerieren nun gemeinsam die Zustandsvektoren so wie in relativistischen Quantenfeldtheorien. Jeder Zustandsvektor stellt ein bestimmtes \href{https://de.wikipedia.org/wiki/Blockuniversum}{Blockuniversum} dar.
-
-Jeder unstetige Übergang von einem Zustandsvektor zum nächsten wird in der Physik traditionell als \emph{Messung} bezeichnet. 
-
-\section{Die Rolle des Subjekts}
-
-Subjektiv erleben wir Ereignisse in der (psychischen) Zeit. $\ket{x,t}$ steht nun aber nicht für ein Ereignis der Erfahrung eines Zustands $\ket{x}$ in der Zeit $t$, sondern im Allgemeinen für einen x,t-verschränkten Zustand\footnote{Irgendeine Funktion zweier Veränderlicher $f(x,t)\equiv\bra{x,t}\ket{f}$ zerfällt im Allgemeinen nicht in ein Produkt $g(x)h(t)$ und ist damit im Allgemeinen x,t-verschränkt.}. Da das Subjekt keine Zustände erfährt, die in der Zeit verschränkt sind, muss es an der Messung in einer Weise beteiligt sein, so dass auf entschränkte Produktzustände projiziert wird. Das Subjekt muss also dafür sorgen, dass auf Produktzustände $\ket{x_i}\otimes\ket{t_i}$ projiziert wird, wobei $\ket{t_i}$ eine Zeiteigenfunktion\footnote{in Komponenten also eine Delta-Distribution $\delta(t-t_i)$} zum Zeiteigenwert $t_i$ ist. Dadurch erfährt das Subjekt die physikalische Zeit $t_i$ zusammen mit dem neuen Weltzustand $\ket{x_i}$. Wiederholt sich dies, dann erfährt das Subjekt eine Folge von Weltzuständen $\ket{x_i}$, die durch die \href{https://de.wikipedia.org/wiki/Zeitdilatation}{Eigenzeiten} $t_i$ nummeriert sind, also bei genügender Feinheit des Prozesses vermeintlich eine quasikontinuierliche Abfolge $\ket{x(t)}$.
-
-Sei $\ket{y_0}$ ein Blockuniversum vor der Messung, oder in Komponenten zur Produktbasis $f,t$ ausgedrückt $y_0(f,t)$. Dann ist die Übergangswahrscheinlichkeit \eqref{eq:conditional_probability_relat} in einen subjektiv erfahrbaren Zustand $\ket{y_1} = \ket{x_1}\otimes\ket{t_1}$
-\begin{equation} 
-\label{eq:conditional_probability_subject}
-p(x_1,t_1)\Biggl|_{y_0}\ =\ \Bigl| \iint \mathrm{d}f\mathrm{d}t\  x_1^*(f)\delta(t-t_1)\, y_0(f,t)\, \Bigr|^2
-\ =\ \Bigl| \int \mathrm{d}f\, x_1^*(f)\, y_0(f,t_1)\, \Bigr|^2
-\end{equation}
-Vergleichen wir dies nun mit \eqref{eq:conditional_probability_components}, dann lesen wir ab
-\begin{equation} 
-y_0(f,t_1)\ =\ \int \mathrm{d}f'\, U(t_1-t_0,f,f')\, x_0(f')
 \end{equation}
 
 

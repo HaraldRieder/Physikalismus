@@ -38,13 +38,13 @@
 
 \section{Motivation}
 
-Das Messproblem der Quantenmechanik entsteht aus der Vorstellung einer stetigen Entwicklung von mathematischen Größen in der als absolut angesehen gemeinsamen Zeit in Verbindung mit der Erfahrung, dass Kenntnis über das durch die mathematischen Größen beschriebene Quantending nur dann erlangt werden kann, wenn sich dabei dessen Zustand unstetig ändert. Dadurch sind zu jedem Zeitpunkt 2 verschiedene sich daran anschließende Arten von Zukünften möglich und niemand kann sagen, wann oder warum die eine oder die andere gewählt wird. 
+Das \href{https://en.wikipedia.org/wiki/Measurement_problem}{Messproblem} der Quantenmechanik entsteht aus der Vorstellung einer stetigen Entwicklung von mathematischen Größen in der als absolut angesehen gemeinsamen Zeit in Verbindung mit der Erfahrung, dass Kenntnis über das durch die mathematischen Größen beschriebene Quantending nur dann erlangt werden kann, wenn sich dabei dessen Zustand unstetig ändert. Dadurch sind zu jedem Zeitpunkt 2 verschiedene sich daran anschließende Arten von Zukünften möglich und niemand kann sagen, wann oder warum die eine oder die andere gewählt wird. 
 
 Dieses Paradoxon hat schon die besten Köpfe herausgefordert und der ein oder andere dachte sich, eine Lösung zu haben. Mitunter taucht die Denke auf, dass verschiedene Sichten auf die Quantenmechanik möglich seien, so genannte "Interpretationen der Quantenmechanik", die am Ende doch nur eine Frage des Geschmacks seien. Wir werden hier diesen Weg nicht gehen. Statt dessen soll das Paradoxon dadurch aufgelöst werden, dass zu jedem Zeitpunkt nur eine Art von Zukunft möglich ist. Anstatt an der Vorstellung eines Zeitparameters, von dem Geschehen stetig abhängt, festzuhalten, werfen wir diese Vorstellung komplett über Bord. Es gibt einige gute Gründe, es auf diese Art zu versuchen:
 
 \begin{enumerate}
     \item Unterhalb der Planck-Zeit kann es keine stetige Zeitentwicklung mehr geben.
-    \item Eine Propagation des Geschehens durch lineare Operatoren, wie sie für die sich stetig anschließende Zukunft im Modell geschieht, treibt das Weltgeschehen eben \emph{linear} weiter. Man kann schwerlich glauben, dass dadurch irgend etwas wie Lebendigkeit erfolgreich modelliert werden kann. Aus der klassischen Chaos-Theorie haben wir gelernt, dass nur eine nichtlineare Dynamik zu etwas führt, dass uns an Leben erinnert. Die unstetig sich anschließende Zukunft liefert uns dagegen eine nichtlineare Dynamik.
+    \item Eine Propagation des Geschehens durch lineare Operatoren, wie sie für die sich stetig anschließende Zukunft im Modell geschieht, treibt das Weltgeschehen eben \emph{linear} weiter. Man kann schwerlich glauben, dass dadurch irgend etwas wie Lebendigkeit erfolgreich modelliert werden kann. Aus der klassischen Chaos-Theorie haben wir gelernt, dass eine nichtlineare Dynamik zu etwas führt, dass uns an Leben erinnert. Die unstetig sich anschließende Zukunft liefert uns so eine nichtlineare Dynamik.
     \item Um Kenntnis über ein Quantending zu erlangen ist ein Verlassen der stetigen Entwicklung notwendig. Die Dekohärenztheorie kann erklären, wie Information aus einem Quantending in seine Umgebung fließt unter der Annahme einer gemeinsamen stetigen Entwicklung. Doch wenn Kenntnis über Quantending und/oder Umgebung erlangt werden soll, ist ein unstetiger Schritt notwendig. Das \emph{problem of outcomes} wird durch die Dekoränztheorie nicht gelöst, und das ist das eigentliche Paradoxon.
     \item Eine komplett neue Dynamik könnte erfunden werden. Das erscheint aber schwieriger, als einfach die Hälfte der Dynamik wegzuwerfen.
 \end{enumerate}
@@ -68,7 +68,9 @@ Transformationen, die über Teilräume hinüberreichen, ändern i.A. deren Versc
 
 \subsection{Orts-, Impuls-, Zeit- und Energieoperatoren}
 
-Weil wir ihnen später begegnen werden, rufen wir uns die Matrixelemente spezieller Operatoren und die Komponenten ihrer Eigenvektoren in speziellen Vektorbasen in Erinnerung. Wir unterscheiden nicht zwischen abzählbaren und kontinuierlichen Dirac-Vektoren und verwenden durchgängig die Indexschreibweise, d.h. $f_{x_j} \equiv f(x)$.
+Weil wir ihnen später begegnen werden, rufen wir uns die Matrixelemente spezieller Operatoren und die Komponenten ihrer Eigenvektoren in speziellen Vektorbasen in Erinnerung. Wir unterscheiden nicht zwischen abzählbaren und kontinuierlichen Dirac-Vektoren und verwenden durchgängig die Indexschreibweise, d.h. $\psi_{x_j} \equiv \psi(x)$: aus unendlich vielen durch $x_j$ indizierten Vektorkomponenten entsteht im Grenzfall deren unendlicher Dichtheit eine Funktion einer kontinuierlichen Variable $x$. 
+
+Zur Notation: Im Kontinuum stellt die Variable $x$ einen kontinuierlichen Index dar. In Integralen treten Terme wie $\mathrm{d}x$ auf, wir haben dort also $\int\mathrm{d}x$. Dem entspricht im Diskreten eine Summe $\sum_{x_j}$. Gewöhnlich wird in der Literatur nur der Index $j$ hingeschrieben, also $\sum_j$ und aus dem jeweiligen Zusammenhang geht hervor, welche Basis der Index $j$ indiziert. Zwecks größerer Klarheit werden wir Vektorkomponenten meist mit $x_j$ usw. indizieren.
 
 Die Matrixelemente des Ortsoperator $\hat{x}$ und die Komponenten seiner Eigenvektoren $\ket{x_j}$ zu den Eigenwerten $x_j$ sind in der Ortsbasis $\{\,\ket{x_j}\,\}$
 \begin{equation}
@@ -85,8 +87,11 @@ und in der (Orts-)Impulsbasis $\{\,\ket{p_j}\,\}$
 \bra{p_k}\ket{x_j}\ =\ \psi_{x_j p_k}\ =\ 
 \frac{1}{\sqrt{2\pi}} e^{-\frac{i}{\hbar}x_j p_k}
 \end{equation}
+Zur besseren Vergleichbarkeit mit der Literatur haben wir dabei noch einmal auf die Schreibweise $\delta_{x_j x_k}$, das dem $\delta(x_j - x_k)$ des Kontinuums entsprechen würde, verzichtet.
 
-Analog sind die Matrixelemente des Zeitoperators $\hat{t}$ und die Komponenten seiner Eigenvektoren $\ket{t_j}$ zu den Eigenwerten $t_j$ in der Zeitbasis $\{\,\ket{t_j}\,\}$
+Wolfgang Pauli schrieb in \emph{Die allgemeinen Prinzipien der Wellenmechanik}: "Wir schließen also, daß auf die Einführung eines Operators $\hat{t}$ grundsätzlich verzichtet und die Zeit $t$ in der Wellenmechanik notwendig als gewöhnliche Zahl betrachtet werden muß." Dies mag für die nicht-relativistische Quantenmechanik praktikabel gewesen sein. Relativistische Theorien legen jedoch die Gleichbehandlung von Raum und Zeit nahe, und dies wollen wir hier auch tun.
+
+Die Matrixelemente des Zeitoperators $\hat{t}$ und die Komponenten seiner Eigenvektoren $\ket{t_j}$ zu den Eigenwerten $t_j$ sind in der Zeitbasis $\{\,\ket{t_j}\,\}$
 \begin{equation}
 \bra{t_j}\ket{\,\hat{t}\,t_k}\ =\ t_{t_j t_k}\ =\ \delta_{jk}\,t_j
 \quad\quad 
@@ -324,6 +329,12 @@ Dieser andere Prozessschritt darf aus mehreren Unterschritten bestehen und kann 
 All das können wir nicht wissen, wenn es nicht gelingt, weitere Beobachtungsperspektiven zu erschließen. Das ist der Preis dafür, dass wir nur noch eine Zeitentwicklung haben und damit das Messproblem gelöst ist.
 
 Ein einfaches Beispiel in einem Hilbertraum aus 2 Qutrits und einem einfachen verborgenen Prozessschritt enthält der Artikel \href{http://vermaschung.de/index.php?title=Warum_Panpsychismus%3F}{Über psychische und physikalische Zeit}. Darin findet sich auch die Idee, die $\psi_{t_k}$ durch den verborgenen Schritt so zu belegen, dass die "Zeit in eine Richtung geht". Genauer gesagt soll die gerichtete psychische Zeit im Kollaps an immer andere Zeiteigenvektoren gebunden werden, die eben dadurch ihre subjektive zeitliche Ordnung bekommen.
+
+\subsection{Und der Quanten-Zeno-Effekt?}
+
+Natürlich stellt sich jetzt die Frage, wie der Quanten-Zeno-Effekt in die neue Dynamik passt. In der konventionellen Sicht soll er ja entstehen durch die Störung der Dynamik \eqref{eq:time_evolution} durch wiederholte Beobachtung. Nun haben wir aber \eqref{eq:time_evolution} nicht mehr und statt dessen nur noch einen beobachtbaren Typ von Prozessschritt.
+
+Die Lösung muss in verschiedenen Gewichten $\psi_{t_k}$ liegen, so dass die Beobachtung eher früher oder später erfolgt.
 
 -----------------
 diskret

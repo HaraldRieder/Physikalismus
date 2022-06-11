@@ -324,17 +324,49 @@ Damit sind wir am Ziel angekommen. Allerdings besteht noch die Unschönheit, das
 
 Dieser andere Prozessschritt ist für menschliche Beobachter verborgen, da wir postuliert haben, dass der Kollaps der Überlagerung das ist, das erfahren wird. 
 
-Dieser andere Prozessschritt darf aus mehreren Unterschritten bestehen und kann aus dem Unterraum der Lösungsvektoren \eqref{eq:general_solution} hinausführen. Der Prozess muss nicht markovsch sein und darf ein Gedächtnis haben.
+Dieser andere Prozessschritt darf aus mehreren Unterschritten bestehen und kann aus dem Unterraum der Lösungsvektoren \eqref{eq:general_solution} hinausführen. Der Prozess muss nicht markovsch sein und darf ein Gedächtnis haben. All das können wir nicht wissen, wenn es nicht gelingt, weitere Beobachtungsperspektiven zu erschließen. 
 
-All das können wir nicht wissen, wenn es nicht gelingt, weitere Beobachtungsperspektiven zu erschließen. Das ist der Preis dafür, dass wir nur noch eine Zeitentwicklung haben und damit das Messproblem gelöst ist.
+\subsection{Gerichtete Zeit}
 
-Ein einfaches Beispiel in einem Hilbertraum aus 2 Qutrits und einem einfachen verborgenen Prozessschritt enthält der Artikel \href{http://vermaschung.de/index.php?title=Warum_Panpsychismus%3F}{Über psychische und physikalische Zeit}. Darin findet sich auch die Idee, die $\psi_{t_k}$ durch den verborgenen Schritt so zu belegen, dass die "Zeit in eine Richtung geht". Genauer gesagt soll die gerichtete psychische Zeit im Kollaps an immer andere Zeiteigenvektoren gebunden werden, die eben dadurch ihre subjektive zeitliche Ordnung bekommen.
+Die stochastischen Prozessschritte \eqref{eq:collapse_with_time} werden beobachtet und wechseln sich ab mit nicht beobachtbaren Prozessschritten. Das ergibt insgesamt eine Folge von Beobachtungen, die jeweils einen Zeitpunkt $t_k$ liefern. Der verborgene Prozess könnte theortisch Überlagerungen erzeugen, die uns ungewohnt abenteuerliche Folgen von Zeitpunkten $t_k$ liefern. Das uns erscheinende Fließen der Zeit im physikalischen Kanal kann dadurch dargestellt werden, dass ausgehend von $t_k$ nur Überlagerungen aus Zeiten $> t_k$ durch den verborgenen Prozess präpariert werden.
+
+\begin{equation} 
+\label{eq:preparation_with_time}
+\ket{e_{jk}} \otimes \ket{\lambda_j} \otimes \ket{t_k}
+\ \xrightarrow{p_{n}}\ 
+\sum_{l,m=k+1} \psi_{n,\lambda_l}\psi_{n,t_m} \ \ket{e_{lm}} \otimes \ket{\lambda_l} \otimes \ket{t_m} 
+\end{equation}
+Durch $p_n$ haben wir angedeutet, dass der verborgene Prozess mit verschiedenen  Wahrscheinlichkeiten in $n$ verschiedene Überlagerungen führen kann, ohne dass der Beobachter Mittel hätte, deren Unterschiedlichkeit festzustellen.
+
+Im einfachsten Fall kann ein Fließen durch sichere ($n=1$) verborgene Prozessschritte jeweils auf eine Überlagerung aus 2 benachbarten Zeiten so erzeugt werden:
+
+\begin{equation*} 
+\ket{e_{jk}} \otimes \ket{\lambda_j} \otimes \ket{t_k}
+\ \xrightarrow{100\,\%}\ 
+\sum_{l,m=k+1}^{m=k+2} \psi_{\lambda_l}\psi_{t_m} \ \ket{e_{lm}} \otimes \ket{\lambda_l} \otimes \ket{t_m} 
+\end{equation*}
+
+Ein einfaches Beispiel in einem Hilbertraum aus 2 Qutrits und unistochastichen, markovschen Prozessschritten enthält der Artikel \href{http://vermaschung.de/index.php?title=Warum_Panpsychismus%3F}{Über psychische und physikalische Zeit}. 
+
+Hier soll ausdrücklich betont werden, dass die Zeiteigenvektoren $\{\ \ket{t_k}\ \}$ des Raums $\mathscr{E}$ zunächst willkürlich nummeriert werden können. Erst durch das Vorhandenensein eines entsprechenden Prozesses und eine bestimmte Beobachtungsperspektive wird eine Reihenfolge nahegelegt, die dadurch immer einen subjektiven Charakter hat.
 
 \subsection{Und der Quanten-Zeno-Effekt?}
 
-Natürlich stellt sich jetzt die Frage, wie der Quanten-Zeno-Effekt in die neue Dynamik passt. In der konventionellen Sicht soll er ja entstehen durch die Störung der Dynamik \eqref{eq:time_evolution} durch wiederholte Beobachtung. Nun haben wir aber \eqref{eq:time_evolution} nicht mehr und statt dessen nur noch einen beobachtbaren Typ von Prozessschritt.
+Natürlich stellt sich jetzt die Frage, wie der Quanten-Zeno-Effekt in die neue Dynamik passt. In der konventionellen Quantenmechanik soll er ja entstehen durch die Störung der Dynamik \eqref{eq:time_evolution} durch wiederholte Beobachtung. Nun haben wir aber \eqref{eq:time_evolution} nicht mehr und statt dessen nur noch einen beobachtbaren Typ von Prozessschritt. \eqref{eq:final_superposition} liefert uns immer die richtigen, zu den beobachteten Zeitpunkten passenden Amplituden, wodurch wir eigentlich mit dem Quanten-Zeno-Effekt kein Problem haben. Was aber macht den Unterschied zwischen "häufig" und "selten" beobachten aus?
 
-Die Lösung muss in verschiedenen Gewichten $\psi_{t_k}$ liegen, so dass die Beobachtung eher früher oder später erfolgt.
+\eqref{eq:final_superposition} liefert Zeiten und stellt damit für den Beobachter eine Uhr dar. Nun will er diese für sein Quanten-Zeno-Experiment mehr oder weniger oft ablesen. Um dieses "mehr oder weniger oft" physikalisch abzusichern, muss er eine weitere "Laboruhr" haben, die er oft genug abliest. Diese Laboruhr bringt weitere Räume $\mathscr{H}$ und $\mathscr{E}$ in's Spiel. Der verborgene Prozess muss auch die Laboruhr geeignet präparieren, damit dem Beobachter auch durch sie ein Fluss der physikalischen Zeit erscheint.
+
+Damit haben wir ein "Quantensystem" Q, dessen Zeiten wir beobachten
+\begin{equation*}
+t_1^Q\ \rightarrow\ t_2^Q \ \rightarrow \dots
+\end{equation*}
+und eine Laboruhr L\footnote{Am Ende ist sie natürlich auch ein "Quantensystem". In der relativistischen Quantenfeldtheorie bringt jedes "Teilchen" seine eigene Zeitkoordinate mit. Oder anders ausgedrückt vergrößert ein Erzeugungsoperator die Fockraumbelegung um einen $\mathscr{H} \otimes \mathscr{E}$ Raum.}, die uns ebenfalls Zeiten liefert
+\begin{equation*}
+t_1^L\ \rightarrow\ t_2^L \ \rightarrow \dots
+\end{equation*}
+Nun ist klar, was mit "häufig" und "selten" gemeint ist. Der Beobachter bekommt von der Laboruhr immer wieder Überlagerungen \eqref{eq:final_superposition} angeboten und liest daraus die Laborzeiten ab. Für eine Verschränkung des Quantensystems mit der Umgebung sorgt er aber nicht bei jeder Ablesung der Laboruhr, sondern mal bei enger, mal bei weiter außeinander liegenden Ablesungen. 
+
+Das Quantensystem liefert ihm eine weitere Zeit. Selbst wenn sie gerichtet ist wie die Zeit der Laboruhr, könnte sie gegenüber dieser noch wilde Sperenzchen treiben. Dies widerspricht jedoch der empirischen Erfahrung, dass sich Uhren gut synchronisieren lassen. Damit sich Uhren synchronisieren lassen, muss der verborgene Prozess Zeiteigenvektoren aller Räume $\mathscr{E}$ geeignet verschränken. Anders ausgedrückt: Unterräume, die vom verborgenen Prozess in bestimmter Weise verschränkt werden, erscheinen uns als objektiv vergehende physikalische Zeit.
 
 -----------------
 diskret

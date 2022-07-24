@@ -16,6 +16,7 @@
 \setcounter{MaxMatrixCols}{16}
 \usepackage{amssymb}
 \usepackage{MnSymbol}
+\usepackage{leftidx}
 \MakeOuterQuote{"}
 \definecolor{quotecolor}{rgb}{0.8,0.9,1}
 \renewcommand{\familydefault}{\sfdefault} 
@@ -358,15 +359,62 @@ Natürlich stellt sich jetzt die Frage, wie der Quanten-Zeno-Effekt in die neue 
 
 Damit haben wir ein "Quantensystem" Q, dessen Zeiten wir beobachten
 \begin{equation*}
-t_1^Q\ \rightarrow\ t_2^Q \ \rightarrow \dots
+\leftidx{^Q}t_1\ \rightarrow\ \leftidx{^Q}t_2\ \rightarrow \dots
 \end{equation*}
 und eine Laboruhr L\footnote{Am Ende ist sie natürlich auch ein "Quantensystem". In der relativistischen Quantenfeldtheorie bringt jedes "Teilchen" seine eigene Zeitkoordinate mit. Oder anders ausgedrückt vergrößert ein Erzeugungsoperator die Fockraumbelegung um einen $\mathscr{H} \otimes \mathscr{E}$ Raum.}, die uns ebenfalls Zeiten liefert
 \begin{equation*}
-t_1^L\ \rightarrow\ t_2^L \ \rightarrow \dots
+\leftidx{^L}t_1\ \rightarrow\ \leftidx{^L}t_2 \ \rightarrow \dots
 \end{equation*}
 Nun ist klar, was mit "häufig" und "selten" gemeint ist. Der Beobachter bekommt von der Laboruhr immer wieder Überlagerungen \eqref{eq:final_superposition} angeboten und liest daraus die Laborzeiten ab. Für eine Verschränkung des Quantensystems mit der Umgebung sorgt er aber nicht bei jeder Ablesung der Laboruhr, sondern mal bei enger, mal bei weiter außeinander liegenden Ablesungen. 
 
 Das Quantensystem liefert ihm eine weitere Zeit. Selbst wenn sie gerichtet ist wie die Zeit der Laboruhr, könnte sie gegenüber dieser noch wilde Sperenzchen treiben. Dies widerspricht jedoch der empirischen Erfahrung, dass sich Uhren gut synchronisieren lassen. Damit sich Uhren synchronisieren lassen, muss der verborgene Prozess Zeiteigenvektoren aller Räume $\mathscr{E}$ geeignet verschränken. Anders ausgedrückt: Unterräume, die vom verborgenen Prozess in bestimmter Weise verschränkt werden, erscheinen uns als objektiv vergehende physikalische Zeit.
+
+Wir tasten uns an die neue Dynamik heran und lassen zunächst die Dekohärenz durch Verschränkung mit der Umgebung außen vor wohl wissend, dass es immer möglich sein muss, einen Dekoärenzprozess zu finden, der uns dieselben Wahrscheinlichkeiten liefert wie die ursprüngliche Sicht. Wie in \eqref{eq:orig_Born} soll es "jederzeit" möglich sein, durch eine projektive Messung entweder nur die Laboruhr abzulesen oder zusätzlich noch das Quantensystem zu messen. Die Überlagerung \eqref{eq:final_superposition} erweitert um die Laboruhr aber ohne Berücksichtigung der Umgebung soll uns der verborgene Prozess in dieser Form herstellen:
+\begin{equation}
+\label{eq:superposition_with_lab}
+\sum_{jkl}\ \leftidx{^\mathrm{Q}}\psi_{\lambda_j}^{(0)}\ 
+\leftidx{^\mathrm{Q}}{\hat{u}}^k
+\ket{\leftidx{^\mathrm{Q}}\lambda_j} 
+\ \otimes\ \ket{\leftidx{^\mathrm{Q}}t_k}
+\ \otimes\ \leftidx{^\mathrm{L}}{\hat{u}}^k \ket{ \leftidx{^\mathrm{L}}\lambda_l} 
+\ \otimes\ \ket{\leftidx{^\mathrm{L}}t_k}
+\end{equation}
+Hierbei haben wir Zeiteigenvektoren mit exakt denselben Indizes paarweise verschränkt. So lange noch nichts anderes gemessen wurde, könnten wir durchaus zulassen, dass z.B. auch Terme mit $\ket{\leftidx{^\mathrm{Q}}t_k} \otimes \ket{\leftidx{^\mathrm{L}}t_{k+1}}$ zur Überlagerung beitragen. Dies würde bedeuten, dass Uhren in der Natur nicht exakt synchron laufen können. Wir beschränken uns nun aber auf den einfachen Fall exakter Synchronizität.
+
+Von \eqref{eq:superposition_with_lab} aus können wir eine vollständige projektive Messung durchführen
+\begin{equation}
+\xrightarrow{}\ \leftidx{^\mathrm{Q}}\psi_{\lambda_j}^{(0)}\ 
+\leftidx{^\mathrm{Q}}{\hat{u}}^k
+\ket{\leftidx{^\mathrm{Q}}\lambda_j} 
+\ \otimes\ \ket{\leftidx{^\mathrm{Q}}t_k}
+\ \otimes\ \leftidx{^\mathrm{L}}{\hat{u}}^k \ket{ \leftidx{^\mathrm{L}}\lambda_l} 
+\ \otimes\ \ket{\leftidx{^\mathrm{L}}t_k}
+\end{equation}
+Von hier aus stellt uns der verborgene Prozess wieder die Überlagerung \eqref{eq:superposition_with_lab} zusammen. Da wir in der $\lambda$-Basis gemessen haben, vereinfacht sich \eqref{eq:superposition_with_lab} speziell in dieser Basis zu 
+\begin{equation}
+\label{eq:superposition_with_lab_after_meas}
+\sum_{kl}\ \leftidx{^\mathrm{Q}}{\hat{u}}^k
+\ket{\leftidx{^\mathrm{Q}}\lambda_j} 
+\ \otimes\ \ket{\leftidx{^\mathrm{Q}}t_k}
+\ \otimes\ \leftidx{^\mathrm{L}}{\hat{u}}^k \ket{ \leftidx{^\mathrm{L}}\lambda_l} 
+\ \otimes\ \ket{\leftidx{^\mathrm{L}}t_k}
+\end{equation}
+Wollen wir das nächste Mal in einer anderen Basis messen, so erscheint \eqref{eq:superposition_with_lab_after_meas} in dieser anderen Basis in der Gestalt \eqref{eq:superposition_with_lab}. Da wir beim Ablesen der Laborzeit die Messbasis immer beibehalten, bleibt es für L dagegen dauerhaft bei der einfacheren Form.
+
+Oder wir können eine teilprojektive Messung durchführen, wenn wir nur die Laborzeit ablesen aber das Quantensystem in Ruhe lassen
+\begin{equation}
+\xrightarrow{}\ \ket{\leftidx{^\mathrm{Q}}t_k}
+\ \otimes\ \ket{ \leftidx{^\mathrm{L}}\lambda_l} 
+\ \otimes\ \ket{\leftidx{^\mathrm{L}}t_k}
+\ \otimes\ \sum_{j}\ \leftidx{^\mathrm{Q}}\psi_{\lambda_j}^{(0)}\ 
+\leftidx{^\mathrm{Q}}{\hat{u}}^k
+\ket{\leftidx{^\mathrm{Q}}\lambda_j} 
+\end{equation}
+Von hier aus stellt der verborgene Prozess wieder \eqref{eq:superposition_with_lab} her, in der nicht-vereinfachten Form, da die Überlagerung in Q noch vorhanden ist.
+
+Damit kann die neue Dynamik die Wahrscheinlichkeiten für Ereignisse inklusive Quanten-Zeno-Effekt liefern. Es bleibt noch, diese Dynamik im Sinne der Dekohärenztheorie zu formulieren, also die richtigen Amplituden herzustellen unter Berücksichtigung einer Verschränkung mit der Umgebung.
+
+TODO...
 
 -----------------
 diskret

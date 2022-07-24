@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="sites/default/files/pyramid_power.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="Information" />
+<link rel="shortlink" href="node/8" />
+<link rel="revision" href="Information" />
+
+    <title>Information und Bedeutung | Physikalismus</title>
+    <link rel="stylesheet" href="sites/default/files/css/css_PXKyJUac5CjOsyl7xA6aCmq51JomRky41Sc9wSdnkNM.css?0" media="all" />
+<link rel="stylesheet" href="sites/default/files/css/css_kvuf9W72z-8g-N9c6BzDtMGKYJ3FX_sTPRyxFXkZVFk.css?0" media="all" />
+
+        <style media="all">/* <![CDATA[ */
+body {font-size: 87.5%; font-family: Verdana, Geneva, Arial, 'Bitstream Vera Sans', 'DejaVu Sans',
+      Meiryo, 'Hiragino Kaku Gothic Pro', 'MS PGothic', Osaka, sans-serif; }
+h1,h2,h3,h4,h5 {font-family: Verdana, Geneva, Arial, 'Bitstream Vera Sans', 'DejaVu Sans',
+      Meiryo, 'Hiragino Kaku Gothic Pro', 'MS PGothic', Osaka, sans-serif; }
+.sidebar h2 { font-size: 1.2em; }
+#content .node h2 { font-size: 1.4em; }
+/* ]]> */
+</style>
+    
+<!--[if lte IE 8]>
+<script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+
+  </head>
+  <body class="one-sidebar sidebar-first rc-3 path-node node--type-page">
+    <a href="Information#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div id="page-wrapper" style=" margin-top: 1px; margin-bottom: 1px;">
+<div id="page">
+    <header id="header" role="banner" style="border: none;" aria-label="Site header">
+    <div class="section clearfix">
+    <div id="header-watermark" style="background-image: url(themes/mayo/images/pat-2.png);" >
+    <div class="section clearfix">
+
+              <div id="header-searchbox">
+       <form class="search-block-form" data-drupal-selector="search-block-form" action="http://physikalismus.de/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label">
+      <label for="edit-keys" class="visually-hidden">Search</label>
+        <input onblur="if (this.value == &#039;&#039;) {this.value = &#039;search this site&#039;;}" onfocus="if (this.value == &#039;search this site&#039;) {this.value = &#039;&#039;;}" data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="search this site" size="13" maxlength="128" class="form-search form-text"  />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit" type="hidden" name="submit" value="" />
+</div>
+
+</form>
+
+        </div>
+      
+              <div id="header-fontsizer">
+        <a href="Information#" class="decreaseFont" title="Decrease text size"></a>
+        <a href="Information#" class="resetFont"    title="Restore default text size"></a>
+        <a href="Information#" class="increaseFont" title="Increase text size"></a>
+        </div>
+      
+      <div class="region region-header">
+    <div id="block-mayo-branding" class="site-branding block block-system block-system-branding-block">
+  
+    
+                <div id="site_logo">
+        <a href="http://physikalismus.de/" title="Home" rel="home">
+          <img src="sites/default/files/pyramid_power.png" alt="Home" />
+        </a>
+        </div> <!-- /#logo -->
+      
+              <div id="name-and-slogan" >
+                                  <h1 id="site-name">
+                <a href="http://physikalismus.de/" title="Home" rel="home"><span>Physikalismus</span></a>
+              </h1>
+                                                      <div id="site-slogan">Γνῶθι σεαυτόν</div>
+                  </div> <!-- /#name-and-slogan -->
+      </div>
+
+  </div>
+
+
+    </div> <!-- /.section -->
+    </div> <!-- /#header-watermark -->
+    </div></header> <!-- /#header -->
+
+    <div class="clearfix cfie"></div>
+
+    <!-- for nice_menus, superfish -->
+                <div class="region region-highlighted">
+    
+
+  </div>
+
+    
+    <!-- space between menus and contents -->
+    <div class="spacer clearfix cfie"></div>
+
+    <div id="main-wrapper">
+    <div id="main" class="clearfix"
+              style="padding: 0px 1px; box-sizing: border-box;"
+        >
+
+      
+
+     
+
+      <div class="clearfix cfie"></div>
+
+
+      <!-- main content -->
+      <main id="content" class="column"><section class="section">
+
+                  <div id="breadcrumb">  <div class="region region-breadcrumb">
+    <div id="block-mayo-breadcrumbs" class="block block-system block-system-breadcrumb-block">
+  
+    
+      <div class="content">
+        <nav class="breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
+    <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
+    <ol>
+          <li>
+                  <a href="http://physikalismus.de/">Home</a>
+              </li>
+        </ol>
+  </nav>
+
+    </div>
+  </div>
+
+  </div>
+</div>
+        
+        <a id="main-content"></a>
+        
+                
+                
+                  <div class="region region-content">
+    <div id="block-mayo-page-title" class="block block-core block-page-title-block">
+  
+    
+      <div class="content">
+      
+  <h1 class="title page-title"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Information und Bedeutung</span>
+</h1>
+
+
+    </div>
+  </div>
+<div id="block-mayo-content" class="block block-system block-system-main-block">
+  
+    
+      <div class="content">
+      <article data-history-node-id="8" role="article" about="/Information" typeof="schema:WebPage" class="node node--type-page node--view-mode-full clearfix">
+  <header>
+    
+          <span property="schema:name" content="Information und Bedeutung" class="hidden"></span>
+
+      </header>
+  <div class="node__content clearfix">
+    
+  </div>
+
+      <div class="node__links">
+      
+    </div>
+  
+  
+
+</article>
+
+    </div>
+  </div>
+
+  </div>
+
+
+
+      </section></main> <!-- /.section, /#content -->
+
+
+      <!-- sidebar (first) -->
+              <div id="sidebar-first" class="column sidebar"><div class="section">
+            <div class="region region-sidebar-first">
+    <nav role="navigation" aria-labelledby="block-mayo-main-menu-menu" id="block-mayo-main-menu" class="block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="block-mayo-main-menu-menu">Main navigation</h2>
+  
+
+          <div class="content">
+        <div class="menu-toggle-target menu-toggle-target-show" id="show-block-mayo-main-menu"></div>
+    <div class="menu-toggle-target" id="hide-block-mayo-main-menu"></div>
+    <a class="menu-toggle" href="Information#show-block-mayo-main-menu">Show &mdash; Main navigation</a>
+    <a class="menu-toggle menu-toggle--hide" href="Information#hide-block-mayo-main-menu">Hide &mdash; Main navigation</a>
+    
+              <ul class="menu-bart">
+                    <li class="menu-item">
+        <a href="Schopenhauer" data-drupal-link-system-path="node/4">Arthur Schopenhauer</a>
+              </li>
+                <li class="menu-item">
+        <a href="Goff" data-drupal-link-system-path="node/7">Philip Goff</a>
+              </li>
+                <li class="menu-item">
+        <a href="Hoffman" data-drupal-link-system-path="node/2">Donald Hoffman</a>
+              </li>
+                <li class="menu-item">
+        <a href="Gagliano" data-drupal-link-system-path="node/6">Monica Gagliano</a>
+              </li>
+                <li class="menu-item">
+        <a href="Duerr" data-drupal-link-system-path="node/3">Hans-Peter Dürr</a>
+              </li>
+                <li class="menu-item">
+        <a href="Zeh" data-drupal-link-system-path="node/14">H. Dieter Zeh</a>
+              </li>
+                <li class="menu-item">
+        <a href="Jesus" data-drupal-link-system-path="node/5">Jesus von Nazareth</a>
+              </li>
+                <li class="menu-item">
+        <a href="Upanishaden" data-drupal-link-system-path="node/13">Upanishaden</a>
+              </li>
+                <li class="menu-item">
+        <a href="FreeWill" data-drupal-link-system-path="node/10">Free Will Theorem</a>
+              </li>
+                <li class="menu-item">
+        <a href="Traeume" data-drupal-link-system-path="node/12">Träume</a>
+              </li>
+                <li class="menu-item">
+        <a href="Geister" data-drupal-link-system-path="node/11">Geister</a>
+              </li>
+                <li class="menu-item menu-item--expanded menu-item--active-trail">
+        <a href="Information" data-drupal-link-system-path="node/8" class="is-active">Information und Bedeutung</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="NoCloning" data-drupal-link-system-path="node/9">No Cloning</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="Baker" data-drupal-link-system-path="node/17">John Baker</a>
+              </li>
+                <li class="menu-item">
+        <a href="Messproblem" data-drupal-link-system-path="node/16">Messproblem</a>
+              </li>
+                <li class="menu-item">
+        <a href="Quantenelektrodynamik" data-drupal-link-system-path="node/15">Quantenelektrodynamik</a>
+              </li>
+        </ul>
+  
+
+
+  </div>
+</nav>
+  </div>
+
+        </div></div> <!-- /.section, /#sidebar-first -->
+            
+
+      <div class="clearfix cfie"></div>
+
+     
+      <div class="clearfix cfie"></div>
+
+
+      
+    </div> <!-- /#main -->
+    </div> <!-- /#main-wrapper -->
+
+    <!-- space between contents and footer -->
+    <div id="spacer" class="clearfix cfie"></div>
+
+    <div id="footer-wrapper">
+     
+            <div id="footer"><div class="section">
+          <div class="region region-footer">
+    <nav role="navigation" aria-labelledby="block-mayo-account-menu-menu" id="block-mayo-account-menu" class="block block-menu navigation menu--account">
+            
+  <h2 class="visually-hidden" id="block-mayo-account-menu-menu">User account menu</h2>
+  
+
+          <div class="content">
+        <div class="menu-toggle-target menu-toggle-target-show" id="show-block-mayo-account-menu"></div>
+    <div class="menu-toggle-target" id="hide-block-mayo-account-menu"></div>
+    <a class="menu-toggle" href="Information#show-block-mayo-account-menu">Show &mdash; User account menu</a>
+    <a class="menu-toggle menu-toggle--hide" href="Information#hide-block-mayo-account-menu">Hide &mdash; User account menu</a>
+    
+              <ul class="menu">
+                  <li>
+          <a href="user/login" data-drupal-link-system-path="user/login">Log in</a>
+                  </li>
+          </ul>
+  
+
+
+  </div>
+</nav>
+  </div>
+
+      </div></div> <!-- /.section, /#footer -->
+      
+    </div> <!-- /#footer-wrapper -->
+
+
+  </div> <!-- /#page -->
+</div> <!-- /#page-wrapper -->
+
+  </div>
+
+    
+    <script src="sites/default/files/js/js_wnwhPl_VswIyyy8Z_muEQdM21A0qAGIA8qL4AahFcoA.js"></script>
+
+  </body>
+</html>

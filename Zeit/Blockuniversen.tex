@@ -318,6 +318,7 @@ Damit eine deterministische Zeitentwicklung vorgetäuscht werden kann, muss die 
 \begin{equation}
 \label{eq:final_superposition}
 \sum_{jk} \psi_{\lambda_j}^{(0)}\psi_{t_k}\ \hat{u}^{k} \left(\,\ket{e_{jk}} \otimes \ket{\lambda_j} \,\right) \otimes \ket{t_k}
+\ \xrightarrow{}
 \end{equation}
 Diese kollabieren in der Beobachtung zu den Vektoren auf der rechten Seite von  \eqref{eq:collapse_with_time}. Die $|\psi_{\lambda_j}|^2$ haben wir durch \eqref{eq:final_superposition} so gewählt, dass sie die konventionelle Quantenmechanik wiedergeben, und die $\psi_{t_k}$ sind nach wie vor frei. Damit ein Kollaps stattfinden kann bzw. vor der Beobachtung eine Verschränkung vorliegt, müssen wenigstens 2 der $\psi_{t_k}$ ungleich 0 sein. 
 
@@ -372,12 +373,13 @@ Das Quantensystem liefert ihm eine weitere Zeit. Selbst wenn sie gerichtet ist w
 Wir tasten uns an die neue Dynamik heran und lassen zunächst die Dekohärenz durch Verschränkung mit der Umgebung außen vor wohl wissend, dass es immer möglich sein muss, einen Dekoärenzprozess zu finden, der uns dieselben Wahrscheinlichkeiten liefert wie die ursprüngliche Sicht. Wie in \eqref{eq:orig_Born} soll es "jederzeit" möglich sein, durch eine projektive Messung entweder nur die Laboruhr abzulesen oder zusätzlich noch das Quantensystem zu messen. Die Überlagerung \eqref{eq:final_superposition} erweitert um die Laboruhr aber ohne Berücksichtigung der Umgebung soll uns der verborgene Prozess in dieser Form herstellen:
 \begin{equation}
 \label{eq:superposition_with_lab}
-\sum_{jkl}\ \leftidx{^\mathrm{Q}}\psi_{\lambda_j}^{(0)}\ 
-\leftidx{^\mathrm{Q}}{\hat{u}}^k
+\sum_{jkl}\ \psi_{t_k} \leftidx{^\mathrm{Q}}\psi_{\lambda_j}^{(0)}\ 
+\leftidx{^\mathrm{Q}}{\hat{u}}^k 
 \ket{\leftidx{^\mathrm{Q}}\lambda_j} 
 \ \otimes\ \ket{\leftidx{^\mathrm{Q}}t_k}
 \ \otimes\ \leftidx{^\mathrm{L}}{\hat{u}}^k \ket{ \leftidx{^\mathrm{L}}\lambda_l} 
 \ \otimes\ \ket{\leftidx{^\mathrm{L}}t_k}
+\ \xrightarrow{}
 \end{equation}
 Hierbei haben wir Zeiteigenvektoren mit exakt denselben Indizes paarweise verschränkt. So lange noch nichts anderes gemessen wurde, könnten wir durchaus zulassen, dass z.B. auch Terme mit $\ket{\leftidx{^\mathrm{Q}}t_k} \otimes \ket{\leftidx{^\mathrm{L}}t_{k+1}}$ zur Überlagerung beitragen. Dies würde bedeuten, dass Uhren in der Natur nicht exakt synchron laufen können. Wir beschränken uns nun aber auf den einfachen Fall exakter Synchronizität.
 
@@ -398,6 +400,7 @@ Von hier aus stellt uns der verborgene Prozess wieder die Überlagerung \eqref{e
 \ \otimes\ \ket{\leftidx{^\mathrm{Q}}t_k}
 \ \otimes\ \leftidx{^\mathrm{L}}{\hat{u}}^k \ket{ \leftidx{^\mathrm{L}}\lambda_l} 
 \ \otimes\ \ket{\leftidx{^\mathrm{L}}t_k}
+\ \xrightarrow{}
 \end{equation}
 Wollen wir das nächste Mal in einer anderen Basis messen, so erscheint \eqref{eq:superposition_with_lab_after_meas} in dieser anderen Basis in der Gestalt \eqref{eq:superposition_with_lab}. Da wir beim Ablesen der Laborzeit die Messbasis immer beibehalten, bleibt es für L dagegen dauerhaft bei der einfacheren Form.
 
@@ -412,9 +415,20 @@ Oder wir können eine teilprojektive Messung durchführen, wenn wir nur die Labo
 \end{equation}
 Von hier aus stellt der verborgene Prozess wieder \eqref{eq:superposition_with_lab} her, in der nicht-vereinfachten Form, da die Überlagerung in Q noch vorhanden ist.
 
-Damit kann die neue Dynamik die Wahrscheinlichkeiten für Ereignisse inklusive Quanten-Zeno-Effekt liefern. Es bleibt noch, diese Dynamik im Sinne der Dekohärenztheorie zu formulieren, also die richtigen Amplituden herzustellen unter Berücksichtigung einer Verschränkung mit der Umgebung.
+Damit kann die neue Dynamik die Wahrscheinlichkeiten für Ereignisse inklusive Ausbremsen durch häufige Beobachtungen liefern, allerdings mit einem wichtigen Unterschied. Die Summe in \eqref{eq:preparation_with_time} muss über mindestens 2 verschiedene Zeiten gehen, da nur eine Überlagerung erfahren werden kann. Selbst wenn dort statt der Summe ein Integral stünde, müsste das Integral über ein endliches Intervall laufen. Der Erwartungswert der physikalischen Zeit kann deswegen nicht gleich der letzten gemessenen Zeit sein. Im Unterschied zur Formulierung des Quanten-Zeno-Effekts mit kontinuierlicher deterministischer Zeitentwicklung ist die Voraussage der neuen Dynamik: 
 
-TODO...
+\textbf{Es ist nicht möglich, die Bewegung eines Quantensystems komplett anzuhalten.} Denn die Beobachtbarkeit setzt eine Veränderung des Zustands seit der letzten Beobachtung voraus. Vielmehr erwarten wir eine Mindestveränderung der physikalischen Zeit mit jeder Beobachtung, die durch die Präparation, die der verborgene Prozess uns anbietet, bestimmt ist.
+
+Es bleibt noch, diese Dynamik im Sinne der Dekohärenztheorie zu formulieren, also die richtigen Amplituden herzustellen unter Berücksichtigung einer Verschränkung mit der Umgebung.
+
+\begin{equation}
+\label{eq:final_superposition_with_lab}
+\sum_{jk} \ \psi_{t_k} \leftidx{^\mathrm{Q}}\psi_{\lambda_j}^{(0)}\ \hat{u}^{k} \left(\,\ket{e_{jk}} \otimes \ket{\lambda_j} \,\right) \otimes \ket{t_k}
+\ \xrightarrow{}
+\end{equation}
+
+
+TODO... 2 Summen über disjunkte Indexmengen machen. einmal u verschränkt nur Laboruhr und Umgebung, die andere verschränkt alles.
 
 -----------------
 diskret

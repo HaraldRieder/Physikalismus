@@ -15,7 +15,7 @@
 \usepackage{physics}
 \setcounter{MaxMatrixCols}{16}
 \usepackage{amssymb}
-\usepackage{MnSymbol}
+%\usepackage{MnSymbol}
 \usepackage{leftidx}
 \MakeOuterQuote{"}
 \definecolor{quotecolor}{rgb}{0.8,0.9,1}
@@ -419,16 +419,58 @@ Damit kann die neue Dynamik die Wahrscheinlichkeiten für Ereignisse inklusive A
 
 \textbf{Es ist nicht möglich, die Bewegung eines Quantensystems komplett anzuhalten.} Denn die Beobachtbarkeit setzt eine Veränderung des Zustands seit der letzten Beobachtung voraus. Vielmehr erwarten wir eine Mindestveränderung der physikalischen Zeit mit jeder Beobachtung, die durch die Präparation, die der verborgene Prozess uns anbietet, bestimmt ist.
 
-Es bleibt noch, diese Dynamik im Sinne der Dekohärenztheorie zu formulieren, also die richtigen Amplituden herzustellen unter Berücksichtigung einer Verschränkung mit der Umgebung.
+\textbf{Im Dekohärenzbild} 
 
+In der Dekohärenztheorie ergibt sich ein anderes Bild. Es ist nicht so, dass ein Zustand \eqref{eq:superposition_with_lab} stets die Wahl erlaubt, die Laboruhr abzulesen oder ein Quantending zu messen oder beides. Vielmehr muss die Entscheidung bereits davor gefallen sein. Entweder wird nur die Laboruhr mit der Umgebung verschränkt, dann kann auch nur sie gemessen werden. Oder es wird zusätzlich das Quantending mir der Umgebung verschränkt. Die Entscheidung, worüber im nächsten Schritt Information erlangt werden kann, muss \emph{vor} dem verborgenen Prozess getroffen werden.
+
+Um über die physikalische Zeit informiert zu sein, muss der Experimentator dafür sorgen, dass sich seine Laboruhr stets mit der Umgebung verschränkt. Der verborgene Prozess soll ihm solche Überlagerungen anbieten
 \begin{equation}
-\label{eq:final_superposition_with_lab}
-\sum_{jk} \ \psi_{t_k} \leftidx{^\mathrm{Q}}\psi_{\lambda_j}^{(0)}\ \hat{u}^{k} \left(\,\ket{e_{jk}} \otimes \ket{\lambda_j} \,\right) \otimes \ket{t_k}
+\label{eq:partial_superposition_with_lab}
+\sum_{jkl} \ \psi_{t_k} \leftidx{^\mathrm{Q}}\psi_{\lambda_j}^{(0)}\ 
+\leftidx{^\mathrm{Q \otimes E}}{\hat{u}}^k \left( \ket{e_{00}} \otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} \right) 
+\otimes \leftidx{^\mathrm{Q}}{\hat{u}}^{k}\, \leftidx{^\mathrm{Q}}{\ket{\lambda_j}}
+\otimes \leftidx{^\mathrm{Q}}{\ket{t_k}}
+\otimes \leftidx{^\mathrm{L}}{\ket{t_k}}
 \ \xrightarrow{}
 \end{equation}
+Der linke Operator $\hat{u}$ wirkt auf Laboruhr und Umgebung, der rechte auf das Quantending. Insgesamt haben wir einen Operator
+\begin{equation}
+\label{eq:unitary_2_parts}
+\hat{u}\ =\ \leftidx{^\mathrm{Q \otimes E}}{\hat{u}}\ \otimes\ \leftidx{^\mathrm{L}}{\hat{u}}
+\end{equation}
+Von \eqref{eq:partial_superposition_with_lab} aus kann er eine physikalische Zeit ablesen
+\begin{equation*}
+\xrightarrow{} \ \ket{e_{0l}} 
+\otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} \,
+\otimes \leftidx{^\mathrm{Q}}{\ket{t_k}}
+\otimes \leftidx{^\mathrm{L}}{\ket{t_k}}
+\otimes \sum_{j} \, \leftidx{^\mathrm{Q}}{\psi_{\lambda_j}}^{(0)}\ 
+\leftidx{^\mathrm{Q}}{\hat{u}}^{k}\ 
+\leftidx{^\mathrm{Q}}{\ket{\lambda_j}}
+\end{equation*}
+TODO wieso steht $e_{0l}$ nun für die Zeit $t_k$?
 
+Will der Experimentator dagegen Informationen über das Quantending erhalten, dann muss er es auch mit der Umgebung verschränken. Dazu muss der verborgene Prozess einen anderen Operator $\hat{u}$ synthetisieren.
+\begin{equation}
+\label{eq:full_superposition_with_lab}
+\sum_{jkl} \ \psi_{t_k}\ \leftidx{^\mathrm{Q}}{\psi_{\lambda_j}}^{(0)}\ 
+\hat{u}^k \left( \ket{e_{00}} \otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} 
+\leftidx{^\mathrm{Q}}{\ket{\lambda_j}} \right) 
+\otimes \leftidx{^\mathrm{Q}}{\ket{t_k}}
+\otimes \leftidx{^\mathrm{L}}{\ket{t_k}}
+\ \xrightarrow{}
+\end{equation}
+Von hier aus kann er die volle Information erlangen.
+\begin{equation*}
+\xrightarrow{}\ \ket{e_{jl}} 
+\otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} 
+\otimes \leftidx{^\mathrm{Q}}{\ket{\lambda_j}}
+\end{equation*}
+Nun stellt sich natürlich die Frage, warum und aufgrund wovon der verborgene Prozess häufig \eqref{eq:partial_superposition_with_lab} und seltener \eqref{eq:full_superposition_with_lab} präparieren sollte. Dies entspräche einer häufigen Ablesung der Laboruhr mit ab und zu stattfindenden Quantenmessungen. Einen unitären Operator \eqref{eq:unitary_2_parts}, der nur in bestimmten Potenzen $k$ eine Verschränkung des Quantendings mit der Umgebung durchführt, gibt es nicht.
 
-TODO... 2 Summen über disjunkte Indexmengen machen. einmal u verschränkt nur Laboruhr und Umgebung, die andere verschränkt alles.
+Soll der verborgene Prozess Teil einer objektiven Wirklichkeit sein, so ist die Erwartung eher, dass er von den Ausgangszuständen $\ket{e_{00}} \otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} \otimes \leftidx{^\mathrm{Q}}{\ket{\lambda_j}}$ immer gleich präpariert. Und der Experimentator kann der Meinung sein, dass er aufgrund seiner "freien Willensentscheidung" einen Schalter umlegt und damit entscheidet, ob \eqref{eq:partial_superposition_with_lab} oder \eqref{eq:full_superposition_with_lab} durchgeführt wird.
+
+Um dies zu modellieren wird wenigstens ein weiteres QBit-Paar benötigt. 
 
 -----------------
 diskret
@@ -534,6 +576,9 @@ Nur noch Unitarität von $V$ ist zusätzlich zu fordern!
 \sum_{z} V_{x't'\, z} V^*_{xt\, z} = \delta_{x'x}\ \delta_{t't} \quad\quad
 \sum_{xt} V_{xt\, z'} V^*_{xt\, z} = \delta_{z'z}
 \end{equation}
-
+testsetstestestestestreterte 
+ert
+ert
+ert
 
 \end{document}

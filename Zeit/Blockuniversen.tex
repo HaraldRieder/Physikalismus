@@ -468,9 +468,74 @@ Von hier aus kann er die volle Information erlangen.
 \end{equation*}
 Nun stellt sich natürlich die Frage, warum und aufgrund wovon der verborgene Prozess häufig \eqref{eq:partial_superposition_with_lab} und seltener \eqref{eq:full_superposition_with_lab} präparieren sollte. Dies entspräche einer häufigen Ablesung der Laboruhr mit ab und zu stattfindenden Quantenmessungen. Einen unitären Operator \eqref{eq:unitary_2_parts}, der nur in bestimmten Potenzen $k$ eine Verschränkung des Quantendings mit der Umgebung durchführt, gibt es nicht.
 
-Soll der verborgene Prozess Teil einer objektiven Wirklichkeit sein, so ist die Erwartung eher, dass er von den Ausgangszuständen $\ket{e_{00}} \otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} \otimes \leftidx{^\mathrm{Q}}{\ket{\lambda_j}}$ immer gleich präpariert. Und der Experimentator kann der Meinung sein, dass er aufgrund seiner "freien Willensentscheidung" einen Schalter umlegt und damit entscheidet, ob \eqref{eq:partial_superposition_with_lab} oder \eqref{eq:full_superposition_with_lab} durchgeführt wird.
+Soll der verborgene Prozess Teil einer objektiven Wirklichkeit sein, so ist die Erwartung eher, dass er von einem bestimmten Ausgangszustanda ausgehend immer das Gleiche präpariert, wobei allerdings die $\psi_{t_k}$ frei bleiben können. Und der Experimentator kann der Meinung sein, dass er aufgrund seiner "freien Willensentscheidung" einen Schalter umlegt und damit entscheidet, ob \eqref{eq:partial_superposition_with_lab} oder \eqref{eq:full_superposition_with_lab} durchgeführt wird, also die "kleine" oder die "große" Verschränkung entsteht.
 
-Um dies zu modellieren wird wenigstens ein weiteres QBit-Paar benötigt. 
+Um dies zu modellieren wird im einfachsten Fall ein weiteres Qubit-Paar benötigt. Zunächst stellen wir fest, dass der Übergang vom Ausgangszustand aus hin zu   \eqref{eq:partial_superposition_with_lab} eine unitäre Operation ist, die wir als $\hat{U_0}$ bezeichnen wollen.
+\begin{equation}
+\eqref{eq:partial_superposition_with_lab} = \hat{U}_0
+\left(
+\ket{e_{00}} 
+\otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} 
+\otimes \leftidx{^\mathrm{Q}}{\ket{\psi^{(0)}}}
+\otimes \leftidx{^\mathrm{Q}}{\ket{t_0}}
+\otimes \leftidx{^\mathrm{L}}{\ket{t_0}}
+\right)
+\end{equation} 
+Genauso ist der Übergang vom Ausgangszustand aus hin zu \eqref{eq:full_superposition_with_lab} eine unitäre Operation, die wir als $\hat{U_1}$ bezeichnen wollen.
+\begin{equation}
+\eqref{eq:full_superposition_with_lab} = \hat{U}_1
+\left(
+\ket{e_{00}} 
+\otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} 
+\otimes \leftidx{^\mathrm{Q}}{\ket{\psi^{(0)}}}
+\otimes \leftidx{^\mathrm{Q}}{\ket{t_0}}
+\otimes \leftidx{^\mathrm{L}}{\ket{t_0}}
+\right)
+\end{equation} 
+Das Qubit-Paar soll aus einem $\mathscr{H}$-artigen Bit und einem $\mathscr{E}$-artigen Zeitbit bestehen. $\leftidx{^\mathscr{H}}{\ket{0}}$ soll dafür stehen, dass eine Messung an Q durchgeführt werden soll. $\leftidx{^\mathscr{H}}{\ket{1}}$ soll dagegen bedeuten, dass im nächsten Schritt nur die Laborzeit abgelesen werden soll. $\leftidx{^\mathscr{E}}{\ket{0}}$ und $\leftidx{^\mathscr{E}}{\ket{1}}$ sind irgendwelche verschiedenen Zustände im Qubit-Zeitraum. Wir definieren uns die Qubit-Produktzustände
+\begin{equation*}
+\ket{00} \equiv \leftidx{^\mathscr{H}}{\ket{0}}\ \otimes\ \leftidx{^\mathscr{E}}{\ket{0}}
+\quad\quad\quad\quad
+\ket{11} \equiv \leftidx{^\mathscr{H}}{\ket{1}}\ \otimes\ \leftidx{^\mathscr{E}}{\ket{1}}
+\end{equation*}
+\begin{equation*}
+\ket{++} \equiv \frac{1}{\sqrt(2)}\left(\ket{00}+\ket{11}\right)
+\quad\quad\quad\quad
+\ket{--} \equiv \frac{1}{\sqrt(2)}\left(\ket{00}-\ket{11}\right)
+\end{equation*}
+$\ket{++}$ und $\ket{--}$ verschränken also $\mathscr{H}$ und $\mathscr{E}$.
+
+Als nächstes erweitern wir den Ausgangszustand um das Qubit-Paar. Er soll sein 
+\begin{equation*}
+\ket{e_{00}} 
+\otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} 
+\otimes \leftidx{^\mathrm{Q}}{\ket{\psi^{(0)}}}
+\otimes \leftidx{^\mathrm{Q}}{\ket{t_0}}
+\otimes \leftidx{^\mathrm{L}}{\ket{t_0}}
+\otimes \ket{00}
+\end{equation*}
+wenn als nächstes nur die Laborzeit abgelesen werden soll und 
+\begin{equation*}
+\ket{e_{00}} 
+\otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} 
+\otimes \leftidx{^\mathrm{Q}}{\ket{\psi^{(0)}}}
+\otimes \leftidx{^\mathrm{Q}}{\ket{t_0}}
+\otimes \leftidx{^\mathrm{L}}{\ket{t_0}}
+\otimes \ket{11}
+\end{equation*}
+wenn eine vollständige Messung durchgeführt werden soll. Nun können wir leicht einen unitären Operator $\hat{U}$ angeben, der in Abhängigkeit des Ausgangszustands zu \eqref{eq:partial_superposition_with_lab} oder \eqref{eq:full_superposition_with_lab} führt.
+\begin{equation*}
+\hat{U}\ =\ \hat{U}_0 \otimes \ket{++}\bra{00}\ +\ \hat{U}_1 \otimes \ket{--}\bra{11}
+\end{equation*}
+Von $\ket{00}$ aus führt uns dieser Operator zu 
+\begin{equation*}
+\eqref{eq:partial_superposition_with_lab} \otimes \ket{++}
+\end{equation*}
+und von $\ket{11}$ zu 
+\begin{equation*}
+\eqref{eq:full_superposition_with_lab} \otimes \ket{--}
+\end{equation*}
+Bei der Beobachtung zerfällt nun die Verschränkung \eqref{eq:partial_superposition_with_lab} bzw. \eqref{eq:full_superposition_with_lab} zugleich mit der Verschränkung des Qubit-Paares und damit fällt die Entscheidung, ob als nächstes nur die Laborzeit abgelesen werden soll oder eine vollständige Messung durchgeführt werden soll. 
 
 -----------------
 diskret

@@ -537,6 +537,34 @@ und von $\ket{11}$ zu
 \end{equation*}
 Bei der Beobachtung zerfällt nun die Verschränkung \eqref{eq:partial_superposition_with_lab} bzw. \eqref{eq:full_superposition_with_lab} zugleich mit der Verschränkung des Qubit-Paares und damit fällt die Entscheidung, ob als nächstes nur die Laborzeit abgelesen werden soll oder eine vollständige Messung durchgeführt werden soll. 
 
+\textbf{Ein Beispiel für $\hat{u}$ in \eqref{eq:full_superposition_with_lab}}
+
+Ein zur Vorbereitung einer Messung geeigneter Operator $\hat{U}$ in \eqref{eq:decoherence} ist
+\begin{equation*}
+\hat{U}(t-t_0)\ =\ \mathrm{exp}\left(-\frac{i(t-t_0)}{\hbar}f(\hat{\lambda})\otimes \leftidx{^E}{\hat{H}}\right)
+\end{equation*}
+mit irgendeiner operatorwertigen Funktion $f$ und einem Operator $\leftidx{^E}{\hat{H}}$, der nur auf die Umgebung wirkt. $\lambda_j$ sind die Eigenwerte\footnote{In diesem Beispiel sind sie ohne physikalische Einheit.} von $\hat{\lambda}$.
+Angewendet auf den Zustand von \eqref{eq:decoherence} ergibt sich
+\begin{equation*}
+\hat{U}(t-t_0)\left(\sum_j \psi^{(0)}_{\lambda_j} \ket{\lambda_j}\otimes\ket{e_0}\right)
+\ =\ \sum_j \psi^{(0)}_{\lambda_j} \ket{\lambda_j} 
+\otimes \mathrm{exp}\left(-\frac{i(t-t_0)}{\hbar}f(\lambda_j)\leftidx{^E}{\hat{H}}\right)
+\ket{e_0} 
+\end{equation*}
+\begin{equation*}
+\ \equiv\ 
+\sum_j \psi^{(0)}_{\lambda_j} \ket{\lambda_j} 
+\otimes \ket{e_j(t-t_0)} 
+\end{equation*}
+wodurch $\hat{U}$ das Quantending mit der Umgebung verschränkt\footnote{Die Exponentialfunktion verschränkt Operatorpotenzen: $\mathrm{exp}(\hat{a}\otimes\hat{b})=\sum \frac{1}{n\mathrm{!}}\ \hat{a}^n\otimes\hat{b}^n$} hat unter Beibehaltung der Amplituden $\psi^{(0)}$ und damit der Bornschen Wahrscheinlichkeiten von \eqref{eq:collapse}.
+
+Der Bezug zur neuen Dynamik geht über $t_p$ und ist für \eqref{eq:full_superposition_with_lab} einfach
+\begin{equation*}
+\hat{u} = \mathrm{exp}\left(
+-\frac{\mathrm{i}t_p}{\hbar}\ f\left(\leftidx{^L}{\hat{\lambda}}\right)\ \otimes\  g\left(\leftidx{^Q}{\hat{\lambda}}\right)\ \otimes\ \leftidx{^E}{\hat{H}}
+\right)
+\end{equation*}
+
 -----------------
 diskret
 

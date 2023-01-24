@@ -154,6 +154,28 @@ Ob nun \eqref{eq:decoherence} tatsächlich stattfindet ist von einem pragmatisch
 
 Nimmt man an, dass erstens der Beobachter Information nicht direkt aus dem Quantenteil abgreifen kann, sondern nur indirekt über dessen Umgebung, und zweitens die Quantentheorie am Ende der gesamten klassischen Physik zugrunde liegen muss, dann drängt sich ein Prozess \eqref{eq:decoherence} aus logischen Gründen geradezu auf. Die theoretische Idee reicht \href{https://de.wikipedia.org/wiki/Dieter_Zeh}{in das Jahr 1970 zurück}.
  
+\textbf{Ein Beispiel für $\hat{U}(t_1-t_0)$}
+
+Ein zur Vorbereitung einer Messung geeigneter Operator $\hat{U}$ in \eqref{eq:decoherence} ist
+\begin{equation}
+\label{eq:decoherence_measurement}
+\hat{U}(t-t_0)\ =\ \mathrm{exp}\left(-\frac{i(t-t_0)}{\hbar}f(\hat{\lambda})\otimes \leftidx{^E}{\hat{H}}\right)
+\end{equation}
+mit einer einheitenlosen operatorwertigen Funktion $f$ und einem hermiteschen Operator $\leftidx{^E}{\hat{H}}$, der nur auf die Umgebung wirkt. $\lambda_j$ sind die Eigenwerte von $\hat{\lambda}$.
+Angewendet auf den Zustand von \eqref{eq:decoherence} ergibt sich
+\begin{equation*}
+\hat{U}(t-t_0)\left(\sum_j \psi^{(0)}_{\lambda_j} \ket{\lambda_j}\otimes\ket{e^{(0)}}\right)
+\ =\ \sum_j \psi^{(0)}_{\lambda_j} \ket{\lambda_j} 
+\otimes \mathrm{exp}\left(-\frac{i(t-t_0)}{\hbar}f(\lambda_j)\leftidx{^E}{\hat{H}}\right)
+\ket{e^{(0)}} 
+\end{equation*}
+\begin{equation}
+\label{eq:entangled_environment}
+\ \equiv\ 
+\sum_j \psi^{(0)}_{\lambda_j} \ket{\lambda_j} 
+\otimes \ket{e_j(t-t_0)} 
+\end{equation}
+wodurch $\hat{U}$ das Quantending mit der Umgebung verschränkt\footnote{Die Exponentialfunktion verschränkt auf diese Weise: $\mathrm{exp}(\hat{a}\otimes\hat{b})=\sum \frac{1}{n\mathrm{!}}\ \hat{a}^n\otimes\hat{b}^n$} hat unter Beibehaltung der Amplituden $\psi^{(0)}$ und damit der Bornschen Wahrscheinlichkeiten von \eqref{eq:collapse}.
 
 \section{Die Zeit in der Quantenmechanik}
 \subsection{Zerlegung in H- und E-Raum}
@@ -321,6 +343,28 @@ Damit eine deterministische Zeitentwicklung vorgetäuscht werden kann, muss die 
 \ \xrightarrow{}
 \end{equation}
 Diese kollabieren in der Beobachtung zu den Vektoren auf der rechten Seite von  \eqref{eq:collapse_with_time}. Die $|\psi_{\lambda_j}|^2$ haben wir durch \eqref{eq:final_superposition} so gewählt, dass sie die konventionelle Quantenmechanik wiedergeben, und die $\psi_{t_k}$ sind nach wie vor frei. Damit ein Kollaps stattfinden kann bzw. vor der Beobachtung eine Verschränkung vorliegt, müssen wenigstens 2 der $\psi_{t_k}$ ungleich 0 sein. 
+
+Das Analogon zum Beispiel \eqref{eq:decoherence_measurement} ist nun
+\begin{equation}
+\label{eq:decoherence_measurement_new}
+\hat{u}^k\ =\ \mathrm{exp}\left(-\frac{\mathrm{i}k}{\hbar}f(\hat{\lambda})\otimes \leftidx{^E}{\hat{H}}\right)
+\end{equation}
+
+Die Wirkung von $\hat{u}^k$ ist analog zu \eqref{eq:entangled_environment}
+
+\begin{equation*}
+\hat{u}^k\left(\sum_j \psi^{(0)}_{\lambda_j} \ket{\lambda_j}\otimes\ket{e^{(0)}}\right)
+\ =\ \sum_j \psi^{(0)}_{\lambda_j} \ket{\lambda_j} 
+\otimes \mathrm{exp}\left(-\frac{\mathrm{i}k}{\hbar}f(\lambda_j)\leftidx{^E}{\hat{H}}\right)
+\ket{e^{(0)}} 
+\end{equation*}
+\begin{equation}
+\label{eq:entangled_environment_new}
+\ \equiv\ 
+\sum_j \psi^{(0)}_{\lambda_j} \ket{\lambda_j} 
+\otimes \ket{e_{jk}} 
+\end{equation}
+Insgesamt werden damit in \eqref{eq:final_superposition} $\mathscr{H}$ und $\mathscr{E}$ Räume des Quantendings mit der Umgebung verschränkt.
 
 Damit sind wir am Ziel angekommen. Allerdings besteht noch die Unschönheit, dass der Prozess nach der ersten Beobachtung zum Erliegen kommt. Wir brauchen einen weiteren Prozessschritt, der wieder eine Überlagerung der Form \eqref{eq:final_superposition} aufbaut. 
 
@@ -671,9 +715,5 @@ Nur noch Unitarität von $V$ ist zusätzlich zu fordern!
 \sum_{z} V_{x't'\, z} V^*_{xt\, z} = \delta_{x'x}\ \delta_{t't} \quad\quad
 \sum_{xt} V_{xt\, z'} V^*_{xt\, z} = \delta_{z'z}
 \end{equation}
-testsetstestestestestreterte 
-ert
-ert
-ert
 
 \end{document}

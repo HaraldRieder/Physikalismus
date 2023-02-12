@@ -57,16 +57,6 @@ Während in gewöhnlicher Quantentheorie mit der Beobachtung üblicherweise Schl
 
 \section{Grundlagen}
 
-\subsection{Koordinatentransformationen, Produkträume und Verschränkung}
-
-Zu tun: 
-
-Indextransformationen, bei denen sich die Zahl der Indexe nicht ändert, entsprechen im Kontinuum Koordinatentransformationen. 
-
-Bei Bildung von Produkträumen lassen sich die Indexe der Einzelräume auf einen einzigen Produktraumindex bijektiv abbilden. Wichtig: dies gilt auch für das Kontinuum! Auch dort existieren immer bijektive Abbildungen aufgrund der Gleichmächtigkeit der beteiligten Mengen.
-
-Transformationen, die über Teilräume hinüberreichen, ändern i.A. deren Verschränkung. Solche, die sich nur auf Teilräume beschränken, erhalten die von-Neumann-Entropie.
-
 \subsection{Orts-, Impuls-, Zeit- und Energieoperatoren}
 
 Weil wir ihnen später begegnen werden, rufen wir uns die Matrixelemente spezieller Operatoren und die Komponenten ihrer Eigenvektoren in speziellen Vektorbasen in Erinnerung. Wir unterscheiden nicht zwischen abzählbaren und kontinuierlichen Dirac-Vektoren und verwenden durchgängig die Indexschreibweise, d.h. $\{\psi_{x_j}\} \equiv \psi(x)$: aus unendlich vielen durch $x_j$ indizierten Vektorkomponenten entsteht im Grenzfall deren unendlicher Dichtheit eine Funktion einer kontinuierlichen Variable $x$. 
@@ -77,7 +67,7 @@ Die Matrixelemente des Ortsoperator $\hat{x}$ und die Komponenten seiner Eigenve
 \begin{equation}
 \bra{x_j}\ket{\,\hat{x}\,x_k}\ =\ x_{x_j x_k}\ =\ \delta_{x_j x_k}\,x_j
 \quad\quad 
-\bra{x_k}\ket{x_j}\ =\ \psi_{x_j x_k}\ =\ \delta_{jk}
+\bra{x_k}\ket{x_j}\ =\ \psi_{x_j x_k}\ =\ \delta_{x_j x_k}
 \end{equation}
 
 und in der Impulsbasis\footnote{Da wir weiter unten einen Zeitimpuls einführen, müssten wir hier eigentlich genauer von einem Ortsimpuls sprechen.} $\{\,\ket{p_j}\,\}$
@@ -93,17 +83,20 @@ $\delta_{x_j x_k}$ soll im Kontinuum dem $\delta(x_j - x_k)$ entsprechen.
 Wolfgang Pauli schrieb in \emph{Die allgemeinen Prinzipien der Wellenmechanik}: "Wir schließen also, daß auf die Einführung eines Operators $\hat{t}$ grundsätzlich verzichtet und die Zeit $t$ in der Wellenmechanik notwendig als gewöhnliche Zahl betrachtet werden muß." Dies mag für die nicht-relativistische Quantenmechanik praktikabel gewesen sein. Relativistische Theorien legen jedoch die Gleichbehandlung von Raum und Zeit nahe, und dies wollen wir hier auch tun.
 
 Die Matrixelemente des Zeitoperators $\hat{t}$ und die Komponenten seiner Eigenvektoren $\ket{t_j}$ zu den Eigenwerten $t_j$ sind in der Zeitbasis $\{\,\ket{t_j}\,\}$
+
+TODO Vorzeichen und Wurzel 2 Pi!
+
 \begin{equation}
-\bra{t_j}\ket{\,\hat{t}\,t_k}\ =\ t_{t_j t_k}\ =\ \delta_{jk}\,t_j
+\bra{t_j}\ket{\,\hat{t}\,t_k}\ =\ t_{t_j t_k}\ =\ \delta_{t_j t_k}\,t_j
 \quad\quad 
-\bra{t_k}\ket{t_j}\ =\ \psi_{t_j t_k}\ =\ \delta_{jk}
+\bra{t_k}\ket{t_j}\ =\ \psi_{t_j t_k}\ =\ \delta_{t_j t_k}
 \end{equation}
 
 und in der (Zeit-)Impuls- oder Energiebasis $\{\,\ket{E_j}\,\}$
 \begin{equation}
 \label{eq:time_components}
 \bra{E_j}\ket{\,\hat{t}\,E_k}\ =\ t_{E_j E_k}\ =\ 
--\mathrm{i}\hbar\,\delta_{jk}\,\frac{\partial}{\partial E_k}
+-\mathrm{i}\hbar\,\frac{\partial}{\partial E_k}\,\delta_{E_j E_k}
 \quad\quad 
 \bra{E_k}\ket{t_j}\ =\ \psi_{t_j E_k}\ =\ 
 \frac{1}{\sqrt{2\pi}} e^{\frac{i}{\hbar}t_j E_k}
@@ -122,7 +115,7 @@ Offen bleiben musste zunächst, was genau eigentlich eine Messung ist. Das Messe
 
 An dieser Lage haben sich ein paar Dinge in 100 Jahren geändert:
 \begin{itemize}
-\item In den Gleichunge der Quantentheorien gibt es Größen, die kein klassisches Analogon haben, z.B. den Spin. 
+\item In den Gleichungen der Quantentheorien gibt es Größen, die kein klassisches Analogon haben, z.B. den Spin. 
 \item Die meisten Physiker dürften daran glauben, dass die Natur vollständig quantenmechanisch zu beschreiben ist, und dass die klassische Physik irgendwie daraus abzuleiten ist.
 \item Mit der Dekoährenztheorie ist es mit quantenmechanischen Mitteln gelungen, mehr von dem zu beschreiben, was bei einer Messung geschieht.
 \end{itemize}
@@ -290,6 +283,16 @@ also mit Vektoren der Form \eqref{eq:general_solution}.
 
 %Sollen beide Beobachter dasselbe Weltgeschehen beobachten, dann muss es einen Filter geben, so dass jeder Beobachter nur seinen Unterraum des beobachten kann. Der Beobachter ist dieser Filter.
 
+\section{Koordinatentransformationen, Produkträume und Verschränkung}
+
+Zu tun: 
+
+Indextransformationen, bei denen sich die Zahl der Indexe nicht ändert, entsprechen im Kontinuum Koordinatentransformationen. 
+
+Bei Bildung von Produkträumen lassen sich die Indexe der Einzelräume auf einen einzigen Produktraumindex bijektiv abbilden. Wichtig: dies gilt auch für das Kontinuum! Auch dort existieren immer bijektive Abbildungen aufgrund der Gleichmächtigkeit der beteiligten Mengen.
+
+Transformationen, die über Teilräume hinüberreichen, ändern i.A. deren Verschränkung. Solche, die sich nur auf Teilräume beschränken, erhalten die von-Neumann-Entropie.
+
 \section{Eine Abfolge von Blockuniversen}
 
 Wir wollen nun die deterministische Zeitentwicklung durch einen stochastischen Prozess ersetzen. Der Ausgangspunkt dazu ist ein Prozessschritt wie in \eqref{eq:collapse}. Das heißt: ein Beobachter nimmt einen "Kollaps" wahr, bei dem ein zwischen $\mathscr{H}$, $\mathscr{E}$ und der Umgebung $\mathrm{E}$ verschränkter Zustand entschränkt wird. Dieser Prozessschritt soll sein
@@ -347,7 +350,7 @@ Diese kollabieren in der Beobachtung zu den Vektoren auf der rechten Seite von  
 Das Analogon zum Beispiel \eqref{eq:decoherence_measurement} ist nun
 \begin{equation}
 \label{eq:decoherence_measurement_new}
-\hat{u}^k\ =\ \mathrm{exp}\left(-\frac{\mathrm{i}k}{\hbar}f(\hat{\lambda})\otimes \leftidx{^E}{\hat{H}}\right)
+\hat{u}^k\ =\ \mathrm{exp}\left(-\frac{\mathrm{i}k t_p}{\hbar}f(\hat{\lambda})\otimes \leftidx{^E}{\hat{H}}\right)
 \end{equation}
 
 Die Wirkung von $\hat{u}^k$ ist analog zu \eqref{eq:entangled_environment}
@@ -364,6 +367,13 @@ Die Wirkung von $\hat{u}^k$ ist analog zu \eqref{eq:entangled_environment}
 \sum_j \psi^{(0)}_{\lambda_j} \ket{\lambda_j} 
 \otimes \ket{e_{jk}} 
 \end{equation}
+und deswegen kann \eqref{eq:final_superposition} unter der Annahme eines geeigneten Messoperators $\hat{u}$ gleichwertig geschrieben werden als
+\begin{equation}
+\label{eq:final_superposition_2}
+\sum_{jk} \psi_{\lambda_j}^{(0)}\psi_{t_k}\ \ket{e_{jk}} \otimes \ket{\lambda_j} \otimes \ket{t_k}
+\ \xrightarrow{}
+\end{equation}
+
 Insgesamt werden damit in \eqref{eq:final_superposition} $\mathscr{H}$ und $\mathscr{E}$ Räume des Quantendings mit der Umgebung verschränkt.
 
 Damit sind wir am Ziel angekommen. Allerdings besteht noch die Unschönheit, dass der Prozess nach der ersten Beobachtung zum Erliegen kommt. Wir brauchen einen weiteren Prozessschritt, der wieder eine Überlagerung der Form \eqref{eq:final_superposition} aufbaut. 
@@ -410,11 +420,11 @@ und eine Laboruhr L\footnote{Am Ende ist sie natürlich auch ein Quantending. In
 \begin{equation*}
 \leftidx{^L}t_1\ \rightarrow\ \leftidx{^L}t_2 \ \rightarrow \dots
 \end{equation*}
-Nun ist klar, was mit "häufig" und "selten" gemeint ist. Der Beobachter bekommt von der Laboruhr immer wieder Überlagerungen der Gestalt \eqref{eq:final_superposition} angeboten und liest daraus die Laborzeiten ab. Für eine Verschränkung des Quantensystems mit der Umgebung sorgt er aber nicht bei jeder Ablesung der Laboruhr, sondern mal bei enger, mal bei weiter außeinander liegenden Ablesungen. 
+Nun ist klar, was mit "häufig" und "selten" gemeint ist. Der Beobachter bekommt von der Laboruhr immer wieder Überlagerungen der Gestalt \eqref{eq:final_superposition} angeboten und liest daraus die Laborzeiten ab. Für eine Verschränkung des Quantendings mit der Umgebung sorgt er aber nicht bei jeder Ablesung der Laboruhr, sondern mal bei enger, mal bei weiter außeinander liegenden Ablesungen. 
 
-Das Quantensystem liefert ihm eine weitere Zeit. Selbst wenn sie gerichtet ist wie die Zeit der Laboruhr, könnte sie gegenüber dieser noch wilde Sperenzchen treiben. Dies widerspricht jedoch der empirischen Erfahrung, dass sich Uhren gut synchronisieren lassen. Damit sich Uhren synchronisieren lassen, muss der verborgene Prozess Zeiteigenvektoren aller Räume $\mathscr{E}$ geeignet verschränken. Anders ausgedrückt: Unterräume, die vom verborgenen Prozess in bestimmter Weise verschränkt werden, erscheinen uns als objektiv vergehende physikalische Zeit.
+Das Quantending liefert ihm eine weitere Zeit. Selbst wenn sie gerichtet ist wie die Zeit der Laboruhr, könnte sie gegenüber dieser noch wilde Sperenzchen treiben. Dies widerspricht jedoch der empirischen Erfahrung, dass sich Uhren gut synchronisieren lassen. Damit sich Uhren synchronisieren lassen, muss der verborgene Prozess Zeiteigenvektoren aller Räume $\mathscr{E}$ geeignet verschränken. Anders ausgedrückt: Unterräume, die vom verborgenen Prozess in bestimmter Weise verschränkt werden, erscheinen uns als objektiv vergehende physikalische Zeit.
 
-Wir tasten uns an die neue Dynamik heran und lassen zunächst die Dekohärenz durch Verschränkung mit der Umgebung außen vor wohl wissend, dass es immer möglich sein muss, einen Dekoärenzprozess zu finden, der uns dieselben Wahrscheinlichkeiten liefert wie die ursprüngliche Sicht. Wie in \eqref{eq:orig_Born} soll es "jederzeit" möglich sein, durch eine projektive Messung entweder nur die Laboruhr abzulesen oder zusätzlich noch das Quantensystem zu messen. Die Überlagerung \eqref{eq:final_superposition} erweitert um die Laboruhr aber ohne Berücksichtigung der Umgebung soll uns der verborgene Prozess in dieser Form herstellen:
+Wir tasten uns an die neue Dynamik heran und lassen zunächst die Dekohärenz durch Verschränkung mit der Umgebung außen vor wohl wissend, dass es immer möglich sein muss, einen Dekoärenzprozess zu finden, der uns dieselben Wahrscheinlichkeiten liefert wie die ursprüngliche Sicht. Wie in \eqref{eq:orig_Born} soll es "jederzeit" möglich sein, durch eine projektive Messung entweder nur die Laboruhr abzulesen oder zusätzlich noch das Quantending zu messen. Die Überlagerung \eqref{eq:final_superposition} erweitert um die Laboruhr aber ohne Berücksichtigung der Umgebung soll uns der verborgene Prozess in dieser Form herstellen:
 \begin{equation}
 \label{eq:superposition_with_lab}
 \sum_{jkl}\ \psi_{t_k} \leftidx{^\mathrm{Q}}\psi_{\lambda_j}^{(0)}\ 
@@ -469,16 +479,25 @@ Damit kann die neue Dynamik die Wahrscheinlichkeiten für Ereignisse inklusive A
 In der Dekohärenztheorie ergibt sich ein anderes Bild. Es ist nicht so, dass ein Zustand \eqref{eq:superposition_with_lab} stets die Wahl erlaubt, die Laboruhr abzulesen oder ein Quantending zu messen oder beides. Vielmehr muss die Entscheidung bereits davor gefallen sein. Entweder wird nur die Laboruhr mit der Umgebung verschränkt, dann kann auch nur sie gemessen werden. Oder es wird zusätzlich das Quantending mir der Umgebung verschränkt. Die Entscheidung, worüber im nächsten Schritt Information erlangt werden kann, muss \emph{vor} dem verborgenen Prozess getroffen werden.
 
 Um über die physikalische Zeit informiert zu sein, muss der Experimentator dafür sorgen, dass sich seine Laboruhr L stets mit der Umgebung E verschränkt. Der verborgene Prozess soll ihm solche Überlagerungen anbieten
-\begin{equation}
-\label{eq:partial_superposition_with_lab}
+\begin{equation*}
 \sum_{jk} \ \psi_{t_k} \leftidx{^\mathrm{Q}}\psi_{\lambda_j}^{(0)}\ 
 \leftidx{^\mathrm{E \otimes L}}{\hat{u}}^k \left( \ket{e^{(0)}} \otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} \right) 
 \otimes \leftidx{^\mathrm{Q}}{\hat{u}}^{k}\, \leftidx{^\mathrm{Q}}{\ket{\lambda_j}}
 \otimes \leftidx{^\mathrm{Q}}{\ket{t_k}}
 \otimes \leftidx{^\mathrm{L}}{\ket{t_k}}
 \ \xrightarrow{}
+\end{equation*}
+\begin{equation}
+\label{eq:partial_superposition_with_lab}
+\equiv\ \sum_{jk} \ \psi_{t_k} \leftidx{^\mathrm{Q}}\psi_{\lambda_j}^{(0)}\ 
+\ket{e_{jk}} 
+\otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} 
+\otimes \leftidx{^\mathrm{Q}}{\hat{u}}^{k}\, \leftidx{^\mathrm{Q}}{\ket{\lambda_j}}
+\otimes \leftidx{^\mathrm{Q}}{\ket{t_k}}
+\otimes \leftidx{^\mathrm{L}}{\ket{t_k}}
+\ \xrightarrow{}
 \end{equation}
-Der linke Operator $\hat{u}$ wirkt auf Laboruhr und Umgebung, der rechte auf das Quantending. Insgesamt haben wir einen Operator
+Der linke Operator $\hat{u}$ wirkt auf Laboruhr und Umgebung wieder wie ein idealer Messoperator, der rechte auf das Quantending. Insgesamt haben wir einen Operator
 \begin{equation}
 \label{eq:unitary_2_parts}
 \hat{u}\ =\ \leftidx{^\mathrm{E \otimes L}}{\hat{u}}\ \otimes\ \leftidx{^\mathrm{Q}}{\hat{u}}
@@ -494,16 +513,33 @@ Von \eqref{eq:partial_superposition_with_lab} aus kann er eine physikalische Zei
 \leftidx{^\mathrm{Q}}{\ket{\lambda_j}}
 \end{equation*}
 
-Will der Experimentator dagegen Informationen über das Quantending erhalten, dann muss er es auch mit der Umgebung verschränken. Dazu muss der verborgene Prozess einen anderen Operator $\hat{u}$ synthetisieren.
-\begin{equation}
-\label{eq:full_superposition_with_lab}
+Will der Experimentator dagegen Informationen über das Quantending erhalten, dann muss er es auch mit der Umgebung verschränken. Dazu muss der verborgene Prozess eine andere Überlagerung synthetisieren.
+\begin{equation*}
 \sum_{jk} \ \psi_{t_k}\ \leftidx{^\mathrm{Q}}{\psi_{\lambda_j}}^{(0)}\ 
 \hat{u}^k \left( \ket{e^{(0)}} \otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} 
 \otimes \leftidx{^\mathrm{Q}}{\ket{\lambda_j}} \right) 
 \otimes \leftidx{^\mathrm{Q}}{\ket{t_k}}
 \otimes \leftidx{^\mathrm{L}}{\ket{t_k}}
 \ \xrightarrow{}
+\end{equation*}
+\begin{equation}
+\label{eq:full_superposition_with_lab}
+\equiv \sum_{jk} \ \psi_{t_k}\ \leftidx{^\mathrm{Q}}{\psi_{\lambda_j}}^{(0)}\ 
+\ket{e_{jkl}} \otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} 
+\otimes \leftidx{^\mathrm{Q}}{\ket{\lambda_j}}
+\otimes \leftidx{^\mathrm{Q}}{\ket{t_k}}
+\otimes \leftidx{^\mathrm{L}}{\ket{t_k}}
+\ \xrightarrow{}
 \end{equation}
+wobei wir als Analogon zu \eqref{eq:decoherence_measurement} diesen Messoperator angenommen haben
+\begin{equation*}
+\hat{u}^k = \mathrm{exp}\left(
+-\frac{\mathrm{i}k t_p}{\hbar}\ f\left(\leftidx{^L}{\hat{\lambda}}\right)\ \otimes\  g\left(\leftidx{^Q}{\hat{\lambda}}\right)\ \otimes\ \leftidx{^E}{\hat{H}}
+\right)
+\end{equation*}
+
+TODO Summe über $l$?
+
 Von hier aus kann er die volle Information erlangen.
 \begin{equation*}
 \xrightarrow{}\ \ket{e_{jl}} 
@@ -514,7 +550,7 @@ Von hier aus kann er die volle Information erlangen.
 \end{equation*}
 Nun stellt sich natürlich die Frage, warum und aufgrund wovon der verborgene Prozess häufig \eqref{eq:partial_superposition_with_lab} und seltener \eqref{eq:full_superposition_with_lab} präparieren sollte. Dies entspräche einer häufigen Ablesung der Laboruhr mit ab und zu stattfindenden Quantenmessungen. Einen unitären Operator \eqref{eq:unitary_2_parts}, der nur in bestimmten Potenzen\footnote{und damit zu bestimmten physikalischen Zeiten} $k$ eine Verschränkung des Quantendings mit der Umgebung durchführt, gibt es nicht.
 
-Soll der verborgene Prozess Teil einer objektiven Wirklichkeit sein, so ist die Erwartung eher, dass er von einem bestimmten Ausgangszustanda ausgehend immer das Gleiche präpariert, wobei allerdings die $\psi_{t_k}$ frei bleiben können. Und der Experimentator kann der Meinung sein, dass er aufgrund seiner "freien Willensentscheidung" einen Schalter umlegt und damit entscheidet, ob \eqref{eq:partial_superposition_with_lab} oder \eqref{eq:full_superposition_with_lab} durchgeführt wird, also die "kleine" oder die "große" Verschränkung entsteht.
+Soll der verborgene Prozess Teil einer objektiven Wirklichkeit sein, so ist die Erwartung eher, dass er von einem bestimmten Ausgangszustand ausgehend immer das Gleiche präpariert, wobei allerdings die $\psi_{t_k}$ frei bleiben können. Und der Experimentator kann der Meinung sein, dass er aufgrund seiner "freien Willensentscheidung" einen Schalter umlegt und damit entscheidet, ob \eqref{eq:partial_superposition_with_lab} oder \eqref{eq:full_superposition_with_lab} durchgeführt wird, also die "kleine" oder die "große" Verschränkung entsteht.
 
 Um dies zu modellieren wird im einfachsten Fall ein weiteres Qubit-Paar benötigt. Zunächst stellen wir fest, dass der Übergang vom Ausgangszustand aus hin zu   \eqref{eq:partial_superposition_with_lab} eine unitäre Operation ist, die wir als $\hat{U_0}$ bezeichnen wollen.
 \begin{equation}
@@ -583,137 +619,108 @@ und von $\ket{11}$ zu
 \end{equation*}
 Bei der Beobachtung zerfällt nun die Verschränkung \eqref{eq:partial_superposition_with_lab} bzw. \eqref{eq:full_superposition_with_lab} zugleich mit der Verschränkung des Qubit-Paares und damit fällt die Entscheidung, ob als nächstes nur die Laborzeit abgelesen werden soll oder eine vollständige Messung durchgeführt werden soll. 
 
-\textbf{Ein Beispiel für $\hat{u}$ in \eqref{eq:full_superposition_with_lab}}
-
-Ein zur Vorbereitung einer Messung geeigneter Operator $\hat{U}$ in \eqref{eq:decoherence} ist
-\begin{equation*}
-\hat{U}(t-t_0)\ =\ \mathrm{exp}\left(-\frac{i(t-t_0)}{\hbar}f(\hat{\lambda})\otimes \leftidx{^E}{\hat{H}}\right)
-\end{equation*}
-mit irgendeiner operatorwertigen Funktion $f$ und einem hermiteschen Operator $\leftidx{^E}{\hat{H}}$, der nur auf die Umgebung wirkt. $\lambda_j$ sind die Eigenwerte\footnote{In diesem Beispiel sind sie ohne physikalische Einheit.} von $\hat{\lambda}$.
-Angewendet auf den Zustand von \eqref{eq:decoherence} ergibt sich
-\begin{equation*}
-\hat{U}(t-t_0)\left(\sum_j \psi^{(0)}_{\lambda_j} \ket{\lambda_j}\otimes\ket{e^{(0)}}\right)
-\ =\ \sum_j \psi^{(0)}_{\lambda_j} \ket{\lambda_j} 
-\otimes \mathrm{exp}\left(-\frac{i(t-t_0)}{\hbar}f(\lambda_j)\leftidx{^E}{\hat{H}}\right)
-\ket{e^{(0)}} 
-\end{equation*}
-\begin{equation*}
-\ \equiv\ 
-\sum_j \psi^{(0)}_{\lambda_j} \ket{\lambda_j} 
-\otimes \ket{e_j(t-t_0)} 
-\end{equation*}
-wodurch $\hat{U}$ das Quantending mit der Umgebung verschränkt\footnote{Die Exponentialfunktion verschränkt Operatorpotenzen: $\mathrm{exp}(\hat{a}\otimes\hat{b})=\sum \frac{1}{n\mathrm{!}}\ \hat{a}^n\otimes\hat{b}^n$} hat unter Beibehaltung der Amplituden $\psi^{(0)}$ und damit der Bornschen Wahrscheinlichkeiten von \eqref{eq:collapse}.
-
-Der Bezug zur neuen Dynamik geht über $t_p$ und ist für \eqref{eq:full_superposition_with_lab} einfach
-\begin{equation*}
-\hat{u} = \mathrm{exp}\left(
--\frac{\mathrm{i}t_p}{\hbar}\ f\left(\leftidx{^L}{\hat{\lambda}}\right)\ \otimes\  g\left(\leftidx{^Q}{\hat{\lambda}}\right)\ \otimes\ \leftidx{^E}{\hat{H}}
-\right)
-\end{equation*}
-
------------------
-diskret
-
-Schrödi + 1 Kollaps
-\begin{equation} 
-p^{(0)\rightarrow(1)} =\ \Bigl| \sum_{x'x} \psi^{(1)*}_{x'}\ U(\Delta t)_{x'x}\ \psi^{(0)}_x \Bigr|^2
-\end{equation}
-Elementares $\Delta t$ Planck-Zeit $\hat{U} = \hat{u}^{t/t_{Planck}}$
-\begin{equation} 
-p^{(0)\rightarrow(1)} =\ \Bigl| \sum_{x'x} \psi^{(1)*}_{x'}\ u_{x'x}\ \psi^{(0)}_x \Bigr|^2
-\end{equation}
-1 Zwischenbasis, 2 Kollapse
-\begin{equation} 
-\ket{\psi}^{(0)} =  \sum_{x} \psi^{(0)}_x \ket{x} \otimes \ket{t_0} \quad\quad
-\ket{\psi}^{(1)} =  \sum_{x} \psi^{(1)}_x \ket{x} \otimes \ket{t_1}
-\end{equation}
-Zwischenbasis $\{\ket{z}\}$ $N \cdot M$ Elemente
-\begin{equation} 
-\begin{matrix}
-\ket{x} \otimes \ket{t} = \sum_z V_{xt\, z}\ \ket{z} && 
-\ket{z} = \sum_{xt} V^*_{z\, xt}\ \ket{x} \otimes \ket{t} 
-\\ \\
-\bra{x} \otimes \bra{t} = \sum_z V^*_{z\, xt}\ \bra{z} &&
-\bra{z} = \sum_{xt} V_{xt\, z}\ \bra{x} \otimes \bra{t} 
-\end{matrix}
-\end{equation}
-\begin{equation} 
-p^{(0)\rightarrow(z)} =\ \Bigl| \bra{z} \hat{V} \left(\ket{x}\otimes\ket{t_0}\right)\Bigr|^2
-= \Bigl|\sum_{xt\, x'} \psi^{(0)}_{x'} \bra{x'} \otimes \bra{t} V_{xt\, z}\ \ket{x} \otimes \ket{t_0}\Bigr|^2 
-\end{equation}
-\begin{equation} 
-p^{(0)\rightarrow(z)} =\ \Bigl|\sum_{x} \psi^{(0)}_{x} V_{xt_0\, z}\ \Bigr|^2 
-\end{equation}
-analog
-\begin{equation} 
-p^{(z)\rightarrow(1)} =\ \Bigl|\sum_{x} \psi^{(1)}_{x} V_{xt_1\, z}\ \Bigr|^2 
-\end{equation}
-Gesamtübergangswahrscheinlichkeit
-\begin{equation} 
-p^{(0)\rightarrow(1)} =\ \sum_z\ p^{(0)\rightarrow(z)}\ p^{(z)\rightarrow(1)}
-= \ \sum_{z}\ \Bigl(\ \Bigl|\sum_{x} \psi^{(1)}_{x} V_{xt_1\, z}\ \Bigr|^2\ \Bigl|\sum_{x} \psi^{(0)}_{x} V_{xt_0\, z}\ \Bigr|^2\ \Bigr)
-\end{equation}
-\begin{equation} 
-p^{(0)\rightarrow(1)} 
-= \ \sum_{z}\ \Bigl|\sum_{x'x} \psi^{(1)}_{x'} V_{x't_1\, z}\ V_{xt_0\, z}\ \psi^{(0)}_{x} \Bigr|^2  
-\end{equation}
-
+% Dies war der Versuch, allein mit Markov-Schritten eine stochastische Dynamik zu bekommen, die die gewünschten Bornschen Wahrscheinlichkeiten ergibt. 
+% Der Versuch ist eher gescheitert. 
+% Schrödi + 1 Kollaps
+%\begin{equation} 
+%p^{(0)\rightarrow(1)} =\ \Bigl| \sum_{x'x} \psi^{(1)*}_{x'}\ U(\Delta t)_{x'x}\ \psi^{(0)}_x \Bigr|^2
+%\end{equation}
+%Elementares $\Delta t$ Planck-Zeit $\hat{U} = \hat{u}^{t/t_{Planck}}$
+%\begin{equation} 
+%p^{(0)\rightarrow(1)} =\ \Bigl| \sum_{x'x} \psi^{(1)*}_{x'}\ u_{x'x}\ \psi^{(0)}_x \Bigr|^2
+%\end{equation}
+%1 Zwischenbasis, 2 Kollapse
+%\begin{equation} 
+%\ket{\psi}^{(0)} =  \sum_{x} \psi^{(0)}_x \ket{x} \otimes \ket{t_0} \quad\quad
+%\ket{\psi}^{(1)} =  \sum_{x} \psi^{(1)}_x \ket{x} \otimes \ket{t_1}
+%\end{equation}
+%Zwischenbasis $\{\ket{z}\}$ $N \cdot M$ Elemente
+%\begin{equation} 
+%\begin{matrix}
+%\ket{x} \otimes \ket{t} = \sum_z V_{xt\, z}\ \ket{z} && 
+%\ket{z} = \sum_{xt} V^*_{z\, xt}\ \ket{x} \otimes \ket{t} 
+%\\ \\
+%\bra{x} \otimes \bra{t} = \sum_z V^*_{z\, xt}\ \bra{z} &&
+%\bra{z} = \sum_{xt} V_{xt\, z}\ \bra{x} \otimes \bra{t} 
+%\end{matrix}
+%\end{equation}
+%\begin{equation} 
+%p^{(0)\rightarrow(z)} =\ \Bigl| \bra{z} \hat{V} \left(\ket{x}\otimes\ket{t_0}\right)%\Bigr|^2
+%= \Bigl|\sum_{xt\, x'} \psi^{(0)}_{x'} \bra{x'} \otimes \bra{t} V_{xt\, z}\ \ket{x} %\otimes \ket{t_0}\Bigr|^2 
+%\end{equation}
+%\begin{equation} 
+%p^{(0)\rightarrow(z)} =\ \Bigl|\sum_{x} \psi^{(0)}_{x} V_{xt_0\, z}\ \Bigr|^2 
+%\end{equation}
+%analog
+%\begin{equation} 
+%p^{(z)\rightarrow(1)} =\ \Bigl|\sum_{x} \psi^{(1)}_{x} V_{xt_1\, z}\ \Bigr|^2 
+%\end{equation}
+%Gesamtübergangswahrscheinlichkeit
+%\begin{equation} 
+%p^{(0)\rightarrow(1)} =\ \sum_z\ p^{(0)\rightarrow(z)}\ p^{(z)\rightarrow(1)}
+%= \ \sum_{z}\ \Bigl(\ \Bigl|\sum_{x} \psi^{(1)}_{x} V_{xt_1\, z}\ \Bigr|^2\ \Bigl|%\sum_{x} \psi^{(0)}_{x} V_{xt_0\, z}\ \Bigr|^2\ \Bigr)
+%\end{equation}
+%\begin{equation} 
+%p^{(0)\rightarrow(1)} 
+%= \ \sum_{z}\ \Bigl|\sum_{x'x} \psi^{(1)}_{x'} V_{x't_1\, z}\ V_{xt_0\, z}\ \psi^{(0)}%_{x} \Bigr|^2  
+%\end{equation}
+%
 %\begin{equation} 
 %p^{(0)\rightarrow(1)} 
 %= \ \sum_{z}\ \Bigl|\sum_{x'x} \psi^{(1)}_{x'} v_{z\, x'}\ w_{z\, x}\ \psi^{(0)}_{x} %\Bigr|^2  
 %\end{equation}
-Also 
-\begin{equation} 
-\boxed{
-\quad\Bigl| \sum_{x'x} \psi^{(1)*}_{x'}\ u_{x'x}\ \psi^{(0)}_x \Bigr|^2 
-\ =\ \sum_{z}\ \Bigl|\sum_{x'x} \psi^{(1)}_{x'} V_{x't_1\, z}\, V_{xt_0\, z}\ \psi^{(0)}_{x} \Bigr|^2 \quad
-}
-\end{equation}
-
-Ausmultipliziert links
-\begin{equation} 
-\sum_{x'''x''x'x}\psi^{(1)}_{x'''}\psi^{(0)*}_{x''}\psi^{(1)*}_{x'}\psi^{(0)}_x
-\ u^*_{x'''x''}\ u_{x'x}
-\end{equation}
-rechts
-\begin{equation} 
-\sum_{z\,x'''x''x'x}\ 
-\psi^{(1)}_{x'''}\psi^{(0)*}_{x''}\psi^{(1)*}_{x'}\psi^{(0)}_{x}
-\, V_{x'''t_1\, z}\, V^*_{x''t_0\, z}\, V^*_{x't_1\, z}\, V_{xt_0\, z}
-\end{equation}
-Muss für alle $\ket{\psi^{(0)}}$ und $\ket{\psi^{(1)}}$ gelten, deshalb
-\begin{equation} 
-\boxed{
-u^*_{x'''x''}\ u_{x'x} = \sum_z \, V_{x'''t_1\, z}\, V^*_{x''t_0\, z}\, V^*_{x't_1\, z}\, V_{xt_0\, z} 
-}
-\end{equation}
-Unitarität von $u$ und $V$ sind zusätzlich zu fordern!
-\begin{equation} 
-\sum_{x''} u_{x'x''}\, u^*_{xx''} = \delta_{x'x} \quad\quad 
-\sum_{z} V_{x't'\, z} V^*_{xt\, z} = \delta_{x'x}\ \delta_{t't} \quad\quad
-\sum_{xt} V_{xt\, z'} V^*_{xt\, z} = \delta_{z'z}
-\end{equation}
-
------------------
-
-\eqref{eq:time_evolution} diagnonalisiert durch unitäre Matrix $W$ im x-Unterraum. D.h. auf $V$ wirkt $W \otimes \mathrm{1}$.
-\begin{equation}
-U_{x'x\,t't} = e^\mathrm{i\varphi_x(t'-t)}\,\delta_{x'x}
-\end{equation}
-\begin{equation}
-\begin{split}
-\boxed{
-e^\mathrm{i(\varphi_x-\varphi_{x''})(t'-t)}\,\delta_{x'''x''}\,\delta_{x'x}\ =\ \sum_z \, V_{x'''t'\, z}\, V^*_{x''t\, z}\, V^*_{x't'\, z}\, V_{xt\, z} 
-} \\
-\varphi_x \in \mathbb{R} \\ V_{xt\, z} \in \mathbb{C} \\
-x \in \{1,2,...,N_x\}\\ t \in \{1,2,...,N_t\}\\ z \in \{1,2,...,N_x \cdot N_t\} 
-\end{split}
-\end{equation}
-
-Nur noch Unitarität von $V$ ist zusätzlich zu fordern!
-\begin{equation} 
-\sum_{z} V_{x't'\, z} V^*_{xt\, z} = \delta_{x'x}\ \delta_{t't} \quad\quad
-\sum_{xt} V_{xt\, z'} V^*_{xt\, z} = \delta_{z'z}
-\end{equation}
-
+%Also 
+%\begin{equation} 
+%\boxed{
+%\quad\Bigl| \sum_{x'x} \psi^{(1)*}_{x'}\ u_{x'x}\ \psi^{(0)}_x \Bigr|^2 
+%\ =\ \sum_{z}\ \Bigl|\sum_{x'x} \psi^{(1)}_{x'} V_{x't_1\, z}\, V_{xt_0\, z}\ \psi^{(0)}%_{x} \Bigr|^2 \quad
+%}
+%\end{equation}
+%
+%Ausmultipliziert links
+%\begin{equation} 
+%\sum_{x'''x''x'x}\psi^{(1)}_{x'''}\psi^{(0)*}_{x''}\psi^{(1)*}_{x'}\psi^{(0)}_x
+%\ u^*_{x'''x''}\ u_{x'x}
+%\end{equation}
+%rechts
+%\begin{equation} 
+%\sum_{z\,x'''x''x'x}\ 
+%\psi^{(1)}_{x'''}\psi^{(0)*}_{x''}\psi^{(1)*}_{x'}\psi^{(0)}_{x}
+%\, V_{x'''t_1\, z}\, V^*_{x''t_0\, z}\, V^*_{x't_1\, z}\, V_{xt_0\, z}
+%\end{equation}
+%Muss für alle $\ket{\psi^{(0)}}$ und $\ket{\psi^{(1)}}$ gelten, deshalb
+%\begin{equation} 
+%\boxed{
+%u^*_{x'''x''}\ u_{x'x} = \sum_z \, V_{x'''t_1\, z}\, V^*_{x''t_0\, z}\, V^*_{x't_1\, z}\, %V_{xt_0\, z} 
+%}
+%\end{equation}
+%Unitarität von $u$ und $V$ sind zusätzlich zu fordern!
+%\begin{equation} 
+%\sum_{x''} u_{x'x''}\, u^*_{xx''} = \delta_{x'x} \quad\quad 
+%\sum_{z} V_{x't'\, z} V^*_{xt\, z} = \delta_{x'x}\ \delta_{t't} \quad\quad
+%\sum_{xt} V_{xt\, z'} V^*_{xt\, z} = \delta_{z'z}
+%\end{equation}
+%
+%-----------------
+%
+%\eqref{eq:time_evolution} diagnonalisiert durch unitäre Matrix $W$ im x-Unterraum. D.h. %auf $V$ wirkt $W \otimes \mathrm{1}$.
+%\begin{equation}
+%U_{x'x\,t't} = e^\mathrm{i\varphi_x(t'-t)}\,\delta_{x'x}
+%\end{equation}
+%\begin{equation}
+%\begin{split}
+%\boxed{
+%e^\mathrm{i(\varphi_x-\varphi_{x''})(t'-t)}\,\delta_{x'''x''}\,\delta_{x'x}\ =\ \sum_z \, %V_{x'''t'\, z}\, V^*_{x''t\, z}\, V^*_{x't'\, z}\, V_{xt\, z} 
+%} \\
+%\varphi_x \in \mathbb{R} \\ V_{xt\, z} \in \mathbb{C} \\
+%x \in \{1,2,...,N_x\}\\ t \in \{1,2,...,N_t\}\\ z \in \{1,2,...,N_x \cdot N_t\} 
+%\end{split}
+%\end{equation}
+%
+%Nur noch Unitarität von $V$ ist zusätzlich zu fordern!
+%\begin{equation} 
+%\sum_{z} V_{x't'\, z} V^*_{xt\, z} = \delta_{x'x}\ \delta_{t't} \quad\quad
+%\sum_{xt} V_{xt\, z'} V^*_{xt\, z} = \delta_{z'z}
+%\end{equation}
+%
 \end{document}

@@ -73,7 +73,7 @@ Die Matrixelemente des Ortsoperator $\hat{x}$ und die Komponenten seiner Eigenve
 und in der Impulsbasis\footnote{Da wir weiter unten einen Zeitimpuls einführen, müssten wir hier eigentlich genauer von einem Ortsimpuls sprechen.} $\{\,\ket{p_j}\,\}$
 \begin{equation}
 \bra{p_j}\ket{\,\hat{x}\,p_k}\ =\ x_{p_j p_k}\ =\ 
--\mathrm{i}\hbar\,\frac{\partial}{\partial p_k}\,\delta_{p_j p_k}
+-\mathrm{i}\hbar\,\frac{\partial}{\partial p_j}\,\delta_{p_j p_k}
 \quad\quad 
 \bra{p_k}\ket{x_j}\ =\ \psi_{x_j p_k}\ =\ 
 \frac{1}{\sqrt{2\pi}} e^{-\frac{i}{\hbar}x_j p_k}
@@ -84,7 +84,7 @@ Wolfgang Pauli schrieb in \emph{Die allgemeinen Prinzipien der Wellenmechanik}: 
 
 Die Matrixelemente des Zeitoperators $\hat{t}$ und die Komponenten seiner Eigenvektoren $\ket{t_j}$ zu den Eigenwerten $t_j$ sind in der Zeitbasis $\{\,\ket{t_j}\,\}$
 
-TODO Vorzeichen und Wurzel 2 Pi!
+TODO Wurzel 2 Pi!
 
 \begin{equation}
 \bra{t_j}\ket{\,\hat{t}\,t_k}\ =\ t_{t_j t_k}\ =\ \delta_{t_j t_k}\,t_j
@@ -96,7 +96,7 @@ und in der (Zeit-)Impuls- oder Energiebasis $\{\,\ket{E_j}\,\}$
 \begin{equation}
 \label{eq:time_components}
 \bra{E_j}\ket{\,\hat{t}\,E_k}\ =\ t_{E_j E_k}\ =\ 
--\mathrm{i}\hbar\,\frac{\partial}{\partial E_k}\,\delta_{E_j E_k}
+-\mathrm{i}\hbar\,\frac{\partial}{\partial E_j}\,\delta_{E_j E_k}
 \quad\quad 
 \bra{E_k}\ket{t_j}\ =\ \psi_{t_j E_k}\ =\ 
 \frac{1}{\sqrt{2\pi}} e^{\frac{i}{\hbar}t_j E_k}
@@ -618,6 +618,79 @@ und von $\ket{11}$ zu
 \eqref{eq:full_superposition_with_lab} \otimes \ket{--}
 \end{equation*}
 Bei der Beobachtung zerfällt nun die Verschränkung \eqref{eq:partial_superposition_with_lab} bzw. \eqref{eq:full_superposition_with_lab} zugleich mit der Verschränkung des Qubit-Paares und damit fällt die Entscheidung, ob als nächstes nur die Laborzeit abgelesen werden soll oder eine vollständige Messung durchgeführt werden soll. 
+
+\section{Anhang}
+\subsection{Beispiel Schrödingergleichung mit Potential}
+Die Schrödingergleichung in der gebräuchlichen Form 
+\begin{equation*}
+\left(-\frac {\hbar^2}{2m}\frac{\partial^2}{\partial x^2} +V(x)\right)\psi(x,t)
+-\mathrm {i} \hbar \frac {\partial }{\partial t}\psi(x,t) = 0
+\end{equation*} 
+ist aufzufassen als Gleichung zwischen Matrixelementen und Vektorkomponenten, wobei Summationen\footnote{auch hier synonym für Integrationen gebraucht} bereits ausgeführt wurden. Um die Summationen wiederzubekommen muss gewählt werden
+\begin{equation*}
+\bra{t}\ket{^\mathscr{E}\hat{E}\,t'}\equiv E_{tt'} = 
+\mathrm {i} \hbar \frac{\partial }{\partial t}\delta(t-t')
+\end{equation*} 
+denn es ist 
+\begin{equation*}
+\mathrm{i}\hbar\,\frac{\partial }{\partial t} \int \mathrm{d}t'\,\delta(t-t') \psi (x ,t')
+=\, \mathrm {i} \hbar \frac {\partial }{\partial t}\psi (x ,t)
+\end{equation*}
+Alternativ funktioniert auch
+\begin{equation*}
+E_{tt'} = - \mathrm {i} \hbar \frac{\partial }{\partial t'}\delta(t-t')
+\end{equation*} 
+was durch partielle Integration leicht zu zeigen ist.
+
+Für eine hermitesche Matrix $E_{tt'}$ muss gelten $E_{t't}^* = E_{tt'}$. Wenn also Ableitungen der Delta-Distribution zum Aufbau hermitescher Matrizen verwendet werden, dann muss der Koeffizient der 0. Ableitung reell sein, der der 1. Ableitung imaginär, und so weiter.
+
+Analog ist das Matrixelement des Potentials
+\begin{equation*}
+\bra{x}\ket{^\mathscr{H}\hat{V}\,x'}\equiv V_{xx'} = 
+\delta(x-x') V(x)
+\end{equation*}
+denn es ist
+\begin{equation*}
+V(x) \int \mathrm{d}x'\,\delta(x-x') \psi (x',t)
+=\, V(x) \psi (x,t)
+\end{equation*}
+Gleichwertig ist diesmal 
+\begin{equation*}
+V_{xx'} = \delta(x-x') V(x')
+\end{equation*}
+denn aufgrund der Definition der Delta-Distribution ist
+\begin{equation*}
+\int \mathrm{d}x'\,\delta(x-x') V(x') \psi (x',t)
+=\, V(x) \psi (x,t)
+\end{equation*}
+Wenn der Operator der kinetischen Energie $\frac{\hat{p}^2}{2m}$ sein soll, dann taugen als Matrixelemente des Impulsoperators
+\begin{equation*}
+\bra{x}\ket{^\mathscr{H}\hat{p}\,x'}\equiv p_{xx'} = 
+\mathrm {i} \hbar \frac{\partial }{\partial x}\delta(x-x')
+\end{equation*} 
+oder gleichwertig
+\begin{equation*}
+p_{xx'} = - \mathrm {i} \hbar \frac{\partial }{\partial x'}\delta(x-x')
+\end{equation*} 
+denn es ist
+\begin{equation*}
+\frac{(\mathrm {i}\hbar)^2}{2m}\,\frac{\partial }{\partial x} 
+\int \mathrm{d}x'\mathrm{d}x''\,\delta(x-x') \frac{\partial }{\partial x'} \delta(x'-x'')\psi(x'',t)
+\end{equation*}
+\begin{equation*}
+=-\frac{\hbar^2}{2m} \frac{\partial }{\partial x}\int \mathrm{d}x'\,\delta(x-x')\frac{\partial }{\partial x'} \psi(x',t)
+=-\frac{\hbar^2}{2m} \frac {\partial^2}{\partial x^2}\psi (x,t)
+\end{equation*}
+
+\subsection{Beispiel freie Dirac-Gleichung}
+Die Dirac-Gleichung in der Schrödingerform ist
+\begin{equation*}
+\left(-\mathrm{i}\hbar c \sum_{k=1}^{3}\alpha^{k}\frac{\partial }{\partial x^k}+\gamma^{0}m c^2 \right)\Psi(\mathbf{x},t) 
+- {\mathrm i}\hbar{\frac  {\partial }{\partial t}}\,\Psi(\mathbf{x},t) = 0
+\end{equation*}
+Auch diese Gleichung ist aufzufassen als Gleichung zwischen Matrixelementen und Vektorkomponenten, wobei Summationen bereits ausgeführt wurden. Um die Summationen wiederzubekommen kann wie oben vorgegangen werden.
+
+
 
 % Dies war der Versuch, allein mit Markov-Schritten eine stochastische Dynamik zu bekommen, die die gewünschten Bornschen Wahrscheinlichkeiten ergibt. 
 % Der Versuch ist eher gescheitert. 

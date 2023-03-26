@@ -72,19 +72,17 @@ Die Matrixelemente des Ortsoperator $\hat{x}$ und die Komponenten seiner Eigenve
 
 und in der Impulsbasis\footnote{Da wir weiter unten einen Zeitimpuls einführen, müssten wir hier eigentlich genauer von einem Ortsimpuls sprechen.} $\{\,\ket{p_j}\,\}$
 \begin{equation}
+\label{eq:space_components}
 \bra{p_j}\ket{\,\hat{x}\,p_k}\ =\ x_{p_j p_k}\ =\ 
--\mathrm{i}\hbar\,\frac{\partial}{\partial p_j}\,\delta_{p_j p_k}
+\mathrm{i}\hbar\,\frac{\partial}{\partial p_j}\,\delta_{p_j p_k}
 \quad\quad 
-\bra{p_k}\ket{x_j}\ =\ \psi_{x_j p_k}\ =\ 
-\frac{1}{\sqrt{2\pi}} e^{-\frac{i}{\hbar}x_j p_k}
+\bra{p_k}\ket{x_j}\ =\ \psi_{x_j p_k}\ =\ C e^{-\frac{i}{\hbar}x_j p_k}
 \end{equation}
-$\delta_{x_j x_k}$ soll im Kontinuum dem $\delta(x_j - x_k)$ entsprechen.
+$\delta_{x_j x_k}$ soll im Kontinuum dem $\delta(x_j - x_k)$ entsprechen. $C$ ist eine Normierungskonstante\footnote{Im Allgemeinen ist $|C|=(2\pi\hbar)^{-N}$ zu fordern, wenn $N$ die Anzahl der Integrationsvariablen im Skalarprodukt ist.}
 
 Wolfgang Pauli schrieb in \emph{Die allgemeinen Prinzipien der Wellenmechanik}: "Wir schließen also, daß auf die Einführung eines Operators $\hat{t}$ grundsätzlich verzichtet und die Zeit $t$ in der Wellenmechanik notwendig als gewöhnliche Zahl betrachtet werden muß." Dies mag für die nicht-relativistische Quantenmechanik praktikabel gewesen sein. Relativistische Theorien legen jedoch die Gleichbehandlung von Raum und Zeit nahe, und dies wollen wir hier auch tun.
 
 Die Matrixelemente des Zeitoperators $\hat{t}$ und die Komponenten seiner Eigenvektoren $\ket{t_j}$ zu den Eigenwerten $t_j$ sind in der Zeitbasis $\{\,\ket{t_j}\,\}$
-
-TODO Wurzel 2 Pi!
 
 \begin{equation}
 \bra{t_j}\ket{\,\hat{t}\,t_k}\ =\ t_{t_j t_k}\ =\ \delta_{t_j t_k}\,t_j
@@ -98,9 +96,9 @@ und in der (Zeit-)Impuls- oder Energiebasis $\{\,\ket{E_j}\,\}$
 \bra{E_j}\ket{\,\hat{t}\,E_k}\ =\ t_{E_j E_k}\ =\ 
 -\mathrm{i}\hbar\,\frac{\partial}{\partial E_j}\,\delta_{E_j E_k}
 \quad\quad 
-\bra{E_k}\ket{t_j}\ =\ \psi_{t_j E_k}\ =\ 
-\frac{1}{\sqrt{2\pi}} e^{\frac{i}{\hbar}t_j E_k}
+\bra{E_k}\ket{t_j}\ =\ \psi_{t_j E_k}\ =\ C e^{\frac{i}{\hbar}t_j E_k}
 \end{equation}
+Eine Begründung für die unterschiedlichen Vorzeichen in \eqref{eq:space_components} und \eqref{eq:time_components} findet sich im Anhang.
 
 \subsection{Die Bornsche Regel}
 
@@ -274,14 +272,9 @@ Wir haben es also eigentlich mit Skalarprodukten von Vektoren aus dem $\mathscr{
 \otimes\ ^\mathscr{E}\psi_{t_1 E_j} \leftidx{^\mathscr{E}}{\ket{E_j}}
 \ =\ \sum_j \leftidx{^\mathscr{H}}{\bra{E_j}\ket{\psi_{E_j}}} ^\mathscr{E}\bra{E_j}\ket{t_1} \ ^\mathscr{H}\ket{E_j}\ \otimes\ ^\mathscr{E}\ket{E_j} 
 \end{equation*}
-also mit Vektoren der Form \eqref{eq:general_solution}.
+also mit Vektoren der Form \eqref{eq:general_solution}. \eqref{eq:time_evolution} legt es somit schon nahe, die Abfolge von Ereignissen, die die Quantenmechanik voraussagen will, als projektive Messungen unter Beteiligung einer Projektion auf einen Zeitunterraum anzusehen. 
 
-%QM handelt also nur von Wahrscheinlichkeiten für einen Unterraum.
-%Kann nicht richtig sein, da wegen spez. Relat. sich das Weltgeschehen für einen relativ bewegeten Beobachter in einem anderen Unterraum von $\mathrm{H}\otimes\mathrm{E}$ abspielt.
-
-%Sollen die QM beider Beobachter gültige Theorien sein, dann muss sich für einen Beobachter seine QM in seinem Unterraum abspielen, während sich für den anderen Beobachter seine QM in einem anderen Unterraum abspielt. 
-
-%Sollen beide Beobachter dasselbe Weltgeschehen beobachten, dann muss es einen Filter geben, so dass jeder Beobachter nur seinen Unterraum des beobachten kann. Der Beobachter ist dieser Filter.
+Dies ist auch das, was uns die spezielle Relativitätstheorie nahelegt. Eine Lorentz-Transformation "dreht" die Grenze zwischen $\mathscr{H}$ und $\mathscr{E}$ Unterräumen. Selbst wenn eine projektive Messung für einen Beobachter auf den $\mathscr{H}$ Raum beschränkt wäre, müsste sie allen zu diesem Beobachter relativ bewegten Beobachter auch als Messung in ihrem $\mathscr{E}$ Eigenzeitraum erscheinen.
 
 \section{Koordinatentransformationen, Produkträume und Verschränkung}
 
@@ -629,7 +622,7 @@ Die Schrödingergleichung in der gebräuchlichen Form
 ist aufzufassen als Gleichung zwischen Matrixelementen und Vektorkomponenten, wobei Summationen\footnote{auch hier synonym für Integrationen gebraucht} bereits ausgeführt wurden. Um die Summationen wiederzubekommen muss gewählt werden
 \begin{equation*}
 \bra{t}\ket{^\mathscr{E}\hat{E}\,t'}\equiv E_{tt'} = 
-\mathrm {i} \hbar \frac{\partial }{\partial t}\delta(t-t')
++\mathrm {i} \hbar \frac{\partial }{\partial t}\delta(t-t')
 \end{equation*} 
 denn es ist 
 \begin{equation*}
@@ -666,20 +659,36 @@ denn aufgrund der Definition der Delta-Distribution ist
 Wenn der Operator der kinetischen Energie $\frac{\hat{p}^2}{2m}$ sein soll, dann taugen als Matrixelemente des Impulsoperators
 \begin{equation*}
 \bra{x}\ket{^\mathscr{H}\hat{p}\,x'}\equiv p_{xx'} = 
-\mathrm {i} \hbar \frac{\partial }{\partial x}\delta(x-x')
-\end{equation*} 
-oder gleichwertig
-\begin{equation*}
-p_{xx'} = - \mathrm {i} \hbar \frac{\partial }{\partial x'}\delta(x-x')
+\pm \mathrm {i} \hbar \frac{\partial }{\partial x}\delta(x-x')
 \end{equation*} 
 denn es ist
 \begin{equation*}
-\frac{(\mathrm {i}\hbar)^2}{2m}\,\frac{\partial }{\partial x} 
+\frac{(\pm\mathrm{i}\hbar)^2}{2m}\,\frac{\partial }{\partial x} 
 \int \mathrm{d}x'\mathrm{d}x''\,\delta(x-x') \frac{\partial }{\partial x'} \delta(x'-x'')\psi(x'',t)
 \end{equation*}
 \begin{equation*}
 =-\frac{\hbar^2}{2m} \frac{\partial }{\partial x}\int \mathrm{d}x'\,\delta(x-x')\frac{\partial }{\partial x'} \psi(x',t)
 =-\frac{\hbar^2}{2m} \frac {\partial^2}{\partial x^2}\psi (x,t)
+\end{equation*}
+Damit der Kommutator $[\hat{x},\hat{p}]$ zu $+\mathrm{i}\hbar\hat{1}$ wird, müssen wir oben das \emph{negative} Vorzeichen wählen und gleichwertig ist dann
+\begin{equation*}
+p_{xx'} = + \mathrm {i} \hbar \frac{\partial }{\partial x'}\delta(x-x')
+\end{equation*} 
+Die Matrixelemente des Kommutators sind dann
+\begin{equation*}
+\bra{x}\ket{[\hat{x},\hat{p}]x'}\ =\ 
+\int \mathrm{d}x'' \bra{x}\ket{\hat{x}x''} \bra{x''}\ket{\hat{p}x'} 
+- \int \mathrm{d}x'' \bra{x}\ket{\hat{p}x''} \bra{x''}\ket{\hat{x}x'} 
+\end{equation*}
+\begin{equation*}
+\ =\ \int \mathrm{d}x'' x''\delta(x-x'') \bra{x''}\ket{\hat{p}x'} 
+- \int \mathrm{d}x'' \bra{x}\ket{\hat{p}x''} x'\delta(x''-x')
+\end{equation*}
+\begin{equation*}
+\ =\ x \bra{x}\ket{\hat{p}x'} - \bra{x}\ket{\hat{p}x'} x'
+= -\mathrm {i} \hbar x \frac{\partial }{\partial x}\delta(x-x')
++\mathrm{i} \hbar \frac{\partial }{\partial x}\delta(x-x') x'
+= +\mathrm{i} \hbar \frac{\partial }{\partial x}\delta(x-x')
 \end{equation*}
 
 \subsection{Beispiel freie Dirac-Gleichung}

@@ -276,16 +276,6 @@ also mit Vektoren der Form \eqref{eq:general_solution}. \eqref{eq:time_evolution
 
 Dies ist auch das, was uns die spezielle Relativitätstheorie nahelegt. Eine Lorentz-Transformation "dreht" die Grenze zwischen $\mathscr{H}$ und $\mathscr{E}$ Unterräumen. Selbst wenn eine projektive Messung für einen Beobachter auf den $\mathscr{H}$ Raum beschränkt wäre, müsste sie allen zu diesem Beobachter relativ bewegten Beobachter auch als Messung in ihrem $\mathscr{E}$ Eigenzeitraum erscheinen.
 
-\section{Koordinatentransformationen, Produkträume und Verschränkung}
-
-Zu tun: 
-
-Indextransformationen, bei denen sich die Zahl der Indexe nicht ändert, entsprechen im Kontinuum Koordinatentransformationen. 
-
-Bei Bildung von Produkträumen lassen sich die Indexe der Einzelräume auf einen einzigen Produktraumindex bijektiv abbilden. Wichtig: dies gilt auch für das Kontinuum! Auch dort existieren immer bijektive Abbildungen aufgrund der Gleichmächtigkeit der beteiligten Mengen.
-
-Transformationen, die über Teilräume hinüberreichen, ändern i.A. deren Verschränkung. Solche, die sich nur auf Teilräume beschränken, erhalten die von-Neumann-Entropie.
-
 \section{Eine Abfolge von Blockuniversen}
 
 Wir wollen nun die deterministische Zeitentwicklung durch einen stochastischen Prozess ersetzen. Der Ausgangspunkt dazu ist ein Prozessschritt wie in \eqref{eq:collapse}. Das heißt: ein Beobachter nimmt einen "Kollaps" wahr, bei dem ein zwischen $\mathscr{H}$, $\mathscr{E}$ und der Umgebung $\mathrm{E}$ verschränkter Zustand entschränkt wird. Dieser Prozessschritt soll sein
@@ -612,6 +602,60 @@ und von $\ket{11}$ zu
 \end{equation*}
 Bei der Beobachtung zerfällt nun die Verschränkung \eqref{eq:partial_superposition_with_lab} bzw. \eqref{eq:full_superposition_with_lab} zugleich mit der Verschränkung des Qubit-Paares und damit fällt die Entscheidung, ob als nächstes nur die Laborzeit abgelesen werden soll oder eine vollständige Messung durchgeführt werden soll. 
 
+\section{Beobachterabhängige Verschränkung}
+
+Verschränkung ist wie Überlagerung in der Quantenmechanik eine subjektive Eigenschaft. Während die Eigenschaft "ist eine Überlagerung" von der subjektiven Wahl der Basis abhängt, in der ein Vektor dargestellt wird, hängt die Eigenschaft "ist verschränkt" von der subjektiven Aufteilung seines Produktraums in Teilräume ab. Dabei gibt es den Zusammenhang, dass mit der Zweiteilung eines Produktraums Schmidt-Basen je Zustand festgelegt werden. Verschränkt ein Zustand die Teilräume, dann ist er in seinen Schmidt-Basen eine Überlagerung. Verschränkt er sie nicht, dann ist er ein keine Überlagerung.
+
+Ein Lorentz-Boost wechselt von der Perspektive einer Beobachters A zur Perspektive eines zu diesem relativ bewegten Beobachters B. In 2 Kontinuums-Dimensionen stellen sich die Matrixelemente des Lorentz-Transformationsoperators $\hat{\Lambda}_\beta$ so dar:
+\begin{equation*}
+\Lambda_\beta(x,t,x',t')\ =\ \delta(x'-\gamma(x+\beta t))\ \delta(t'-\gamma(t+\beta x))
+\end{equation*}
+Angewendet auf die Komponenten eines Vektors $\psi_A(x,t)$ bewirkt diese Matrix die Transformation auf die Perspektive von B
+\begin{equation*}
+\Lambda:\ \psi_A(x,t)\ \mapsto\ \psi_B(x,t) = \psi_A(\gamma(x+\beta t),\gamma(t+\beta x))
+\end{equation*}
+Dabei ändert sich die subjektive Aufteilung des Gesamtraums in $\mathscr{H}$ und $\mathscr{E}$ Räume.
+
+Wir starten mit einem zwischen $\mathscr{H}_A$ und $\mathscr{E}_A$ entschränkten Vektor. Dessen Komponenten $\psi_A(x,t)$ lassen sich als Produkt zweier Funktionen von $x$ und $t$ darstellen. 
+\begin{equation*}
+\ket{\psi} = \sum f(x) \ket{x} \otimes  \sum g(t) \ket{t}
+\end{equation*}
+\begin{equation*}
+\bra{x,t}\ket{\psi}_A \equiv \psi_A(x,t) = f(x) \cdot g(t)
+\end{equation*}
+Wenn die Komponenten nicht als Produkt in dieser Form geschrieben werden können, dann ist der Vektor verschränkt. 
+
+\subsection{Beispiele}
+
+\subsubsection{Freie Lösung}
+
+\begin{equation*}
+e^{\mathrm{i}(kx-\omega t)}
+= 
+e^{\mathrm{i}kx}\cdot e^{-\mathrm{i}\omega t}
+\ \mapsto \ 
+e^{\mathrm{i}k\gamma(x+\beta t)} \cdot e^{-\mathrm{i}\omega \gamma(t+\beta x)}
+= 
+e^{\mathrm{i}\gamma(k-\omega \beta)x} \cdot e^{-\mathrm{i}\gamma(\omega- k \beta)t}
+\end{equation*}
+Die freie Lösung ist auch aus Sicht von B eine freie Lösung und entschränkt. 
+
+Die Überlagerung zweier freier Lösungen
+\begin{equation*}
+C_1 e^{\mathrm{i}(k_1 x-\omega_1 t)} + C_2 e^{\mathrm{i}(k_2 x-\omega_2 t)}
+\end{equation*}
+ist aus Sicht von A und B $\mathscr{H}$ - $\mathscr{E}$  verschränkt.
+
+\subsubsection{Harmonischer Oszillator}
+
+Nach der Beobachtung einer Entschränkung durch A liegt ein Vektor vor mit den Komponenten 
+\begin{equation*}
+\psi _{n}(x,t)=\left({\frac {m\omega }{\pi \hbar }}\right)^{\frac {1}{4}}{\frac {1}{\sqrt {2^{n}n!}}}H_{n}\left({\sqrt {\frac {m\omega }{\hbar }}}x\right)e^{-{\frac {1}{2}}{\frac {m\omega }{\hbar }}x^{2}} \cdot e^{-\mathrm{i}\omega t}
+\end{equation*}
+mit den Hermiteschen Polynomen $H_n$. Der Term $x^2$ führt nach der Transformation zum Auftreten eines Terms $xt$ im Exponenten, so dass die Komponenten nicht mehr in ein Produkt der Form $f(x) \cdot g(t)$ zerlegt werden können.
+
+Dies bedeutet nach unserem Postulat, dass wenn das Geschehen durch die Beobachtung durch A für A zum Erliegen gekommen ist, dies für B nicht der Fall ist. Aus Sicht von B kann nun eine Beobachtung erfolgen. Es steht also die Vermutung im Raum, dass zu A relativ bewegte Beobachter an dem ihm verborgenen Prozess beteiligt sind.
+
 \section{Anhang}
 \subsection{Beispiel Schrödingergleichung mit Potential}
 Die Schrödingergleichung in der gebräuchlichen Form 
@@ -694,12 +738,17 @@ Die Matrixelemente des Kommutators sind dann
 \subsection{Beispiel freie Dirac-Gleichung}
 Die Dirac-Gleichung in der Schrödingerform ist
 \begin{equation*}
-\left(-\mathrm{i}\hbar c \sum_{k=1}^{3}\alpha^{k}\frac{\partial }{\partial x^k}+\gamma^{0}m c^2 \right)\Psi(\mathbf{x},t) 
-- {\mathrm i}\hbar{\frac  {\partial }{\partial t}}\,\Psi(\mathbf{x},t) = 0
+\sum_{j=0}^{3}\left(-\mathrm{i}\hbar c \sum_{k=1}^{3}\alpha^{k}_{ij}\frac{\partial }{\partial x^k}+\gamma^{0}_{ij} m c^2 \right)\Psi_j(x^1,x^2,x^3,t) 
+- {\mathrm i}\hbar{\frac  {\partial }{\partial t}}\,\Psi_i(x^1,x^2,x^3,t) = 0
 \end{equation*}
-Auch diese Gleichung ist aufzufassen als Gleichung zwischen Matrixelementen und Vektorkomponenten, wobei Summationen bereits ausgeführt wurden. Um die Summationen wiederzubekommen kann wie oben vorgegangen werden.
+Dabei nummerieren $k$ die $\alpha$-Matrizen und $i$ und $j$ indizieren Spinor-Komponenten.
 
+Auch diese Gleichung ist aufzufassen als Gleichung zwischen Matrixelementen und Vektorkomponenten, wobei Summationen bereits ausgeführt wurden. Um die Summationen wiederzubekommen kann wie oben vorgegangen werden. 
 
+Der Term $\gamma^{0}_{ij} m c^2$ wird beispielsweise zu 
+\begin{equation*}
+\gamma^{0}_{ij} m c^2 \delta(x^1-{x'}^1)\,\delta(x^2-{x'}^2)\,\delta(x^3-{x'}^3)
+\end{equation*}
 
 % Dies war der Versuch, allein mit Markov-Schritten eine stochastische Dynamik zu bekommen, die die gewünschten Bornschen Wahrscheinlichkeiten ergibt. 
 % Der Versuch ist eher gescheitert. 

@@ -457,13 +457,13 @@ Damit kann die neue Dynamik die Wahrscheinlichkeiten für Ereignisse inklusive A
 
 \emph{Es ist nicht möglich, die Bewegung komplett anzuhalten.} Denn die Beobachtbarkeit setzt eine Veränderung des Zustands seit der letzten Beobachtung voraus. Vielmehr erwarten wir eine Mindestveränderung der physikalischen Zeit mit jeder Beobachtung, die durch die Präparation, die der verborgene Prozess uns anbietet, bestimmt ist\footnote{also eine Art Planck-Zeit}.
 
-\textbf{Im Dekohärenzbild} 
+\subsubsection{Im Dekohärenzbild} 
 
 In der Dekohärenztheorie ergibt sich ein anderes Bild. Es ist nicht so, dass ein Zustand \eqref{eq:superposition_with_lab} stets die Wahl erlaubt, die Laboruhr abzulesen oder ein Quantending zu messen oder beides. Vielmehr muss die Entscheidung bereits davor gefallen sein. Entweder wird nur die Laboruhr mit der Umgebung verschränkt, dann kann auch nur sie gemessen werden. Oder es wird zusätzlich das Quantending mir der Umgebung verschränkt. Die Entscheidung, worüber im nächsten Schritt Information erlangt werden kann, muss \emph{vor} dem verborgenen Prozess getroffen werden.
 
 Um über die physikalische Zeit informiert zu sein, muss der Experimentator dafür sorgen, dass sich seine Laboruhr L stets mit der Umgebung E verschränkt. Der verborgene Prozess soll ihm solche Überlagerungen anbieten
 \begin{equation*}
-\sum_{jk} \ \psi_{t_k} \leftidx{^\mathrm{Q}}\psi_{\lambda_j}^{(0)}\ 
+\sum_{jkl} \ \psi_{t_k} \leftidx{^\mathrm{Q}}\psi_{\lambda_j}^{(0)}\ 
 \leftidx{^\mathrm{E \otimes L}}{\hat{u}}^k \left( \ket{e^{(0)}} \otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} \right) 
 \otimes \leftidx{^\mathrm{Q}}{\hat{u}}^{k}\, \leftidx{^\mathrm{Q}}{\ket{\lambda_j}}
 \otimes \leftidx{^\mathrm{Q}}{\ket{t_k}}
@@ -472,8 +472,8 @@ Um über die physikalische Zeit informiert zu sein, muss der Experimentator daf�
 \end{equation*}
 \begin{equation}
 \label{eq:partial_superposition_with_lab}
-\equiv\ \sum_{jk} \ \psi_{t_k} \leftidx{^\mathrm{Q}}\psi_{\lambda_j}^{(0)}\ 
-\ket{e_{jk}} 
+\equiv\ \sum_{jkl} \ \psi_{t_k} \leftidx{^\mathrm{Q}}\psi_{\lambda_j}^{(0)}\ 
+\ket{e_{kl}} 
 \otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} 
 \otimes \leftidx{^\mathrm{Q}}{\hat{u}}^{k}\, \leftidx{^\mathrm{Q}}{\ket{\lambda_j}}
 \otimes \leftidx{^\mathrm{Q}}{\ket{t_k}}
@@ -487,7 +487,7 @@ Der linke Operator $\hat{u}$ wirkt auf Laboruhr und Umgebung wieder wie ein idea
 \end{equation}
 Von \eqref{eq:partial_superposition_with_lab} aus kann er eine physikalische Zeit ablesen
 \begin{equation*}
-\xrightarrow{} \ \ket{e_{lk}} 
+\xrightarrow{} \ \ket{e_{kl}} 
 \otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} \,
 \otimes \leftidx{^\mathrm{Q}}{\ket{t_k}}
 \otimes \leftidx{^\mathrm{L}}{\ket{t_k}}
@@ -498,7 +498,7 @@ Von \eqref{eq:partial_superposition_with_lab} aus kann er eine physikalische Zei
 
 Will der Experimentator dagegen Informationen über das Quantending erhalten, dann muss er es auch mit der Umgebung verschränken. Dazu muss der verborgene Prozess eine andere Überlagerung synthetisieren.
 \begin{equation*}
-\sum_{jk} \ \psi_{t_k}\ \leftidx{^\mathrm{Q}}{\psi_{\lambda_j}}^{(0)}\ 
+\sum_{jkl} \ \psi_{t_k}\ \leftidx{^\mathrm{Q}}{\psi_{\lambda_j}}^{(0)}\ 
 \hat{u}^k \left( \ket{e^{(0)}} \otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} 
 \otimes \leftidx{^\mathrm{Q}}{\ket{\lambda_j}} \right) 
 \otimes \leftidx{^\mathrm{Q}}{\ket{t_k}}
@@ -507,7 +507,7 @@ Will der Experimentator dagegen Informationen über das Quantending erhalten, da
 \end{equation*}
 \begin{equation}
 \label{eq:full_superposition_with_lab}
-\equiv \sum_{jk} \ \psi_{t_k}\ \leftidx{^\mathrm{Q}}{\psi_{\lambda_j}}^{(0)}\ 
+\equiv \sum_{jkl} \ \psi_{t_k}\ \leftidx{^\mathrm{Q}}{\psi_{\lambda_j}}^{(0)}\ 
 \ket{e_{jkl}} \otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} 
 \otimes \leftidx{^\mathrm{Q}}{\ket{\lambda_j}}
 \otimes \leftidx{^\mathrm{Q}}{\ket{t_k}}
@@ -520,12 +520,9 @@ wobei wir als Analogon zu \eqref{eq:decoherence_measurement} diesen Messoperator
 -\frac{\mathrm{i}k t_p}{\hbar}\ f\left(\leftidx{^L}{\hat{\lambda}}\right)\ \otimes\  g\left(\leftidx{^Q}{\hat{\lambda}}\right)\ \otimes\ \leftidx{^E}{\hat{H}}
 \right)
 \end{equation*}
-
-TODO Summe über $l$?
-
-Von hier aus kann er die volle Information erlangen.
+Von hier aus kann er die volle Information erlangen
 \begin{equation*}
-\xrightarrow{}\ \ket{e_{jl}} 
+\xrightarrow{}\ \ket{e_{jkl}} 
 \otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} 
 \otimes \leftidx{^\mathrm{Q}}{\ket{\lambda_j}}
 \otimes \leftidx{^\mathrm{L}}{\ket{t_k}}

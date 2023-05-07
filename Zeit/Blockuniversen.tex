@@ -141,7 +141,7 @@ p^{(0)\rightarrow(1)}
 \end{equation}
 in der ursprünglichen Formulierung der Bornschen Regel.
 
-Ob nun \eqref{eq:decoherence} tatsächlich stattfindet ist von einem pragmatischen Standpunkt aus gesehen unerheblich\footnote{"shut up and calculate"}, so lange sich der Dekohärenzprozess der Beobachtbarkeit aufgrund fehlender technologischer Fähigkeiten entzieht. Beobachtete Ereignisse mit ihren zugehörigen Wahrscheinlichkeiten sind am Ende dieselben. Doch seit einigen Jahren sind Dekohärenzprozesse technologisch greifbar geworden, z.B. in einem Experiment von \href{https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.98.200402}{Sonnentag und Hasselbach} aus dem Jahr 2006.
+Ob nun \eqref{eq:decoherence} tatsächlich stattfindet, ist von einem pragmatischen Standpunkt aus gesehen unerheblich\footnote{"shut up and calculate"}, so lange sich der Dekohärenzprozess der Beobachtbarkeit aufgrund fehlender technologischer Fähigkeiten entzieht. Beobachtete Ereignisse mit ihren zugehörigen Wahrscheinlichkeiten sind am Ende dieselben. Doch seit einigen Jahren sind Dekohärenzprozesse technologisch greifbar geworden, z.B. in einem Experiment von \href{https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.98.200402}{Sonnentag und Hasselbach} aus dem Jahr 2006.
 
 Nimmt man an, dass erstens der Beobachter Information nicht direkt aus dem Quantenteil abgreifen kann, sondern nur indirekt über dessen Umgebung, und zweitens die Quantentheorie am Ende der gesamten klassischen Physik zugrunde liegen muss, dann drängt sich ein Prozess \eqref{eq:decoherence} aus logischen Gründen geradezu auf. Die theoretische Idee reicht \href{https://de.wikipedia.org/wiki/Dieter_Zeh}{in das Jahr 1970 zurück}.
  
@@ -152,7 +152,7 @@ Ein zur Vorbereitung einer Messung geeigneter Operator $\hat{U}$ in \eqref{eq:de
 \label{eq:decoherence_measurement}
 \hat{U}(t-t_0)\ =\ \mathrm{exp}\left(-\frac{i(t-t_0)}{\hbar}f(\hat{\lambda})\otimes \leftidx{^E}{\hat{H}}\right)
 \end{equation}
-mit einer einheitenlosen operatorwertigen Funktion $f$ und einem hermiteschen Operator $\leftidx{^E}{\hat{H}}$, der nur auf die Umgebung wirkt. $\lambda_j$ sind die Eigenwerte von $\hat{\lambda}$.
+mit einer einheitenlosen operatorwertigen Funktion $f$ und einem hermiteschen Operator $\leftidx{^E}{\hat{H}}$, der nur auf die Umgebung E wirkt. $\lambda_j$ sind die Eigenwerte von $\hat{\lambda}$.
 Angewendet auf den Zustand von \eqref{eq:decoherence} ergibt sich
 \begin{equation*}
 \hat{U}(t-t_0)\left(\sum_j \psi^{(0)}_{\lambda_j} \ket{\lambda_j}\otimes\ket{e^{(0)}}\right)
@@ -357,7 +357,7 @@ und deswegen kann \eqref{eq:final_superposition} unter der Annahme eines geeigne
 \ \xrightarrow{}
 \end{equation}
 
-Insgesamt werden damit in \eqref{eq:final_superposition} $\mathscr{H}$ und $\mathscr{E}$ Räume des Quantendings mit der Umgebung verschränkt.
+Insgesamt werden damit in \eqref{eq:final_superposition} $\mathscr{H}$ \textbf{und} $\mathscr{E}$ Räume des Quantendings mit der Umgebung verschränkt. Die Information ist für den Beobachter abgreifbar über die Vektoren $\ket{e_{jk}}$ der Umgebung, an die er direkt angeschlossen ist. Seine Perspektive teilt die Umgebung wiederum in $\mathscr{H}$ und $\mathscr{E}$ Räume, die ihm im Zustand \eqref{eq:final_superposition_2} verschränkt erscheinen. Er schließt durch den Kollaps $\xrightarrow{}\ket{e_{jk}}$ aufgrund seines mathematischen Modells auf die Information $\ket{\lambda_j}$ und $\ket{t_k}$.
 
 Damit sind wir am Ziel angekommen. Allerdings besteht noch die Unschönheit, dass der Prozess nach der ersten Beobachtung zum Erliegen kommt. Wir brauchen einen weiteren Prozessschritt, der wieder eine Überlagerung der Form \eqref{eq:final_superposition} aufbaut. 
 
@@ -603,7 +603,7 @@ Bei der Beobachtung zerfällt nun die Verschränkung \eqref{eq:partial_superposi
 
 Verschränkung ist wie Überlagerung in der Quantenmechanik eine subjektive Eigenschaft. Während die Eigenschaft "ist eine Überlagerung" von der subjektiven Wahl der Basis abhängt, in der ein Vektor dargestellt wird, hängt die Eigenschaft "ist verschränkt" von der subjektiven Aufteilung seines Produktraums in Teilräume ab. Dabei gibt es den Zusammenhang, dass mit der Zweiteilung eines Produktraums Schmidt-Basen je Zustand festgelegt werden. Verschränkt ein Zustand die Teilräume, dann ist er in seinen Schmidt-Basen eine Überlagerung. Verschränkt er sie nicht, dann ist er ein keine Überlagerung.
 
-Ein Lorentz-Boost wechselt von der Perspektive einer Beobachters A zur Perspektive eines zu diesem relativ bewegten Beobachters B. In 2 Kontinuums-Dimensionen stellen sich die Matrixelemente des Lorentz-Transformationsoperators $\hat{\Lambda}_\beta$ so dar:
+Ein Lorentz-Boost wechselt von der Perspektive eines Beobachters A zur Perspektive eines zu diesem relativ bewegten Beobachters B. In 2 Kontinuums-Dimensionen stellen sich die Matrixelemente des Lorentz-Transformationsoperators $\hat{\Lambda}_\beta$ so dar:
 \begin{equation}
 \label{eq:matrix_lorentz}
 \Lambda_\beta(x,t,x',t')\ =\ \delta(x'-\gamma(x+\beta t))\ \delta(t'-\gamma(t+\beta x))
@@ -654,6 +654,15 @@ Nach der Beobachtung einer Entschränkung durch A liegt ein Vektor vor mit den K
 mit den Hermiteschen Polynomen $H_n$. Der Term $x^2$ führt nach der Transformation zum Auftreten eines Terms $xt$ im Exponenten, so dass die Komponenten nicht mehr in ein Produkt der Form $f(x) \cdot g(t)$ zerlegt werden können.
 
 Dies bedeutet nach unserem Postulat, dass wenn das Geschehen durch die Beobachtung durch A für A zum Erliegen gekommen ist, dies für B nicht der Fall ist. Aus Sicht von B kann nun eine Beobachtung erfolgen. Es steht also die Vermutung im Raum, dass zu A relativ bewegte Beobachter an dem ihm verborgenen Prozessschritt beteiligt sind. Umgekehrt kann A am dem Prozessschritt beteiligt sein, der B verborgen ist.
+
+\section{Zusammenfassung}
+Wir haben die Idee von Hugh Everett aufgegriffen, das Messproblem der Quantenmechanik dadurch zu lösen, dass auf einen Prozesstyp verzichtet wird. Anders als in seinem Vorschlag, der zur Viele-Welten-Interpretation geführt hat, haben wir uns genau anders entschieden und auf die stetige Zeitentwicklung zugunsten einer rein stochastischen Dynamik verzichtet. Dazu haben wir die Bornsche Regel auf einen um den Zeitunterraum erweiterten Hilbertraum angewendet mit der Konsequenz, dass die physikalische Zeit durch die Beobachtung angehalten wird. Wir mussten einen verborgenen Prozessschritt postulieren, der aus Sicht des Beobachters neue Überlagerungen aufbauen kann, um die Dynamik am Laufen zu halten. 
+
+Wie es die relativistische Physik nahelegt, werden nun Zeit- und Ortsunterräume gleichwertig behandelt und die Trennung des Gesamtraums in Zeit- und nicht-Zeitunterräume hängt ab von der Perspektive des Beobachters. Sie ist sozusagen eine Eigenschaft des Subjekts, sie ist die Art, wie der Geist an den physikalischen Kanal angeschlossen ist. 
+
+Durch die Gleichbehandlung von Zeit und Raum ist die Richtung der physikalischen Zeit und ihr Fließen verlorengegangen. Wir konnten sehen, dass das Anbieten geeigneter Überlagerungen aus Sicht des Beobachters wie ein Fließen der physikalischen Zeit erscheinen kann. Dies ließ erahnen, dass der Eindruck einer fließenden physikalischen Zeit eine Illusion ist, die durch 2 Dinge entsteht: die spezielle Perspektive des Beobachters und die spezielle Präparation durch den verborgenen Prozess. Das Fließen der psychischen Zeit erscheint dem Beobachter dadurch als Anwachsen von Indizes von Vektoren bestimmter Unterräume und damit als fließende physikalische Zeit. Das Modell bietet dabei die Freiheiten an, dass Uhren ("Elementarteilchen") nicht exakt synchronisierbar sein müssen, oder dass die Zeitrichtung wie zufällig wechselt. 
+
+Zuletzt haben wir das Thema gestreift, dass Relativbewegung ein Perspektivwechsel ist, der die Verschränkung zwischen Zeit- und nicht-Zeitunterräumen ändert. Dadurch haben wir gesehen, dass relativbewegte Beobachter am für den nicht bewegten Beobachter verborgenen Prozess irgendwie beteiligt sein müssen.
 
 \section{Anhang}
 \subsection{Beispiel Schrödingergleichung mit Potential}

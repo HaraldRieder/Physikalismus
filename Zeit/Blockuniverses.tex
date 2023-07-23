@@ -1,0 +1,902 @@
+\documentclass[12pt]{article}
+\usepackage[margin=2cm, bindingoffset=0cm]{geometry}
+\usepackage[english]{babel} %sudo apt-get install texlive-lang-german
+\usepackage{hyperref} % web links etc.
+\usepackage[parfill]{parskip}
+\usepackage[utf8]{inputenc}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tcolorbox}
+\usepackage{helvet} 
+\usepackage{framed}
+\usepackage{anyfontsize}
+\usepackage{csquotes}
+\usepackage{mathrsfs}
+\usepackage{physics}
+\setcounter{MaxMatrixCols}{16}
+\usepackage{amssymb}
+%\usepackage{MnSymbol}
+\usepackage{leftidx}
+\MakeOuterQuote{"}
+\definecolor{quotecolor}{rgb}{0.8,0.9,1}
+\renewcommand{\familydefault}{\sfdefault} 
+\setlength\parindent{0pt}
+\tcbset{boxrule=0pt,colback=quotecolor,arc=5pt,auto outer arc,left=5pt,right=5pt,boxsep=5pt}
+%  width=0.9\textwidth,
+
+\setcounter{secnumdepth}{-1}
+\begin{document}
+\title{\fontsize{25}{25}\selectfont \textbf{A Sequence of Block Universes}}
+\author{Harald Rieder}
+\date{\today}
+\maketitle
+
+%\begin{abstract}
+
+%\end{abstract}
+
+\tableofcontents
+
+\section{Motivation}
+
+The \href{https://en.wikipedia.org/wiki/Measurement_problem}{measurement problem} of quantum mechanics arises from the idea of a continuous evolution of mathematical quantities in a common time considered as absolute, in connection with the experience that knowledge about the quantum thing described by the mathematical quantities\footnote{Intentionally we avoid the term "quantum system". A system consists of primarily existing parts, which secondarily interact with each other. This is a notion that does not do justice to the quantum world. The division of a Hilbert space into subspaces is always something arbitrary.} can only be obtained if its state changes unsteadily. Thus, 2 different kinds of futures are possible at every point of time and nobody can say when or why the one or the other will happen.
+
+This paradox has already challenged the best minds and one or the other thought to have a solution. Sometimes the thought appears that different views on quantum mechanics are possible, so-called "interpretations of quantum mechanics", which in the end are only a question of taste. We will not follow this path here. Instead, the paradox shall be resolved by the fact that at any time only one kind of future is possible. Instead of holding on to the idea of a time parameter on which events continuously depend, we throw this idea completely overboard. There are some good reasons to try it this way:
+
+\begin{enumerate}
+    \item Below the Planck time there can be no more continuous time evolution.
+    \item A propagation by linear operators, as it happens for the continuously following future in the model, drives the world \emph{linearly} into the future. It is hard to believe that anything like live can be successfully modeled by this. From the classical chaos theory we have learned that only a nonlinear dynamics leads to something that reminds us of life. The discontinuous future provides us with such a nonlinear dynamic.
+    \item To get knowledge about a quantum thing it is necessary to abandon the continuous development somewhere\footnote{at a so-called Heisenberg cut} on the long way into the consciousness. The decoherence theory can explain how information flows from a quantum thing into its environment under the assumption of a common steady evolution. But if knowledge about quantum thing (and its environment) shall be obtained, a discontinuous step is necessary. The \emph{problem of outcomes} is not solved by the decorence theory, and this is the real paradox.
+    \item A completely new dynamic could be invented. But that seems more difficult than simply throwing away half of the dynamics.
+\end{enumerate}
+Quantum mechanics provides us with statistical quantities: Probabilities for events. We have learned how to link perceptions with the events that the mathematical model provides. The theory can deliver frequencies and mean values sometimes frighteningly accurate. If half of the dynamics is to be thrown overboard, then the statistical statements of the theory must nevertheless be preserved in the limits currently available to our experiments. Whether this is at all possible shall be investigated here.
+
+The discontinuous dynamics has the peculiarity that the propagation stops if one always asks for the same information. In technical terms, the application of a projective measurement operator leads to the "collapse" of the state vector onto an eigenspace of the measurement operator. After that, the repetition of the projective measurement does not leave the eigenspace. In order to keep affairs apparently running for an observer, there must be process steps which always produce new superpositions.
+
+While ordinary quantum theory usually ends with the observation, because then the subjective perceptions can be compared against the numbers coming out of the mathematical model, we demand permanent observations, so that events can take place at all. But since the human subject is connected only to the side of projective measurements, the other is hidden from him. Of course, it would be ontologically the simplest to assume that the other process steps take place just like the one, that they are connected with perceptions at the end, just for other subjects.
+
+\section{Fundamentals}
+
+\subsection{Position, Momentum, Time and Energy Operators}
+
+Because we will encounter them later, we recall the matrix elements of special operators and the components of their eigenvectors in special vector bases. We do not distinguish between countable and continuous Dirac vectors and use index notation throughout, i.e., $\{\psi_{x_j}\} \equiv \psi(x)$: a function of a continuous variable $x$ arises from infinitely many vector components indexed by $x_j$ in the limes of their infinite density.
+
+Concerning notation: In the continuum, the variable $x$ represents a continuous index. In integrals, terms like $\mathrm{d}x$ occur, so we have $\int\mathrm{d}x$ there. Corresponding to this in the discrete is a sum $\sum_{x_j}$. Usually in the literature only the index $j$ is written down, i.e. $\sum_j$ and from the respective context it is clear which basis the index $j$ indexes. For the sake of greater clarity, we will usually index vector components with $x_j$ and so on.
+
+The matrix elements of the position operator $\hat{x}$ and the components of its eigenvectors $\ket{x_j}$ to the eigenvalues $x_j$ are in the position basis $\{\,\ket{x_j}\,\}$
+\begin{equation}
+\bra{x_j}\ket{\,\hat{x}\,x_k}\ =\ x_{x_j x_k}\ =\ \delta_{x_j x_k}\,x_j
+\quad\quad 
+\bra{x_k}\ket{x_j}\ =\ \psi_{x_j x_k}\ =\ \delta_{x_j x_k}
+\end{equation}
+
+and in the momentum basis\footnote{Since we introduce a time momentum below, we should actually speak more precisely of a spatial momentum here.}. $\{\,\ket{p_j}\,\}$
+\begin{equation}
+\label{eq:space_components}
+\bra{p_j}\ket{\,\hat{x}\,p_k}\ =\ x_{p_j p_k}\ =\ 
+\mathrm{i}\hbar\,\frac{\partial}{\partial p_j}\,\delta_{p_j p_k}
+\quad\quad 
+\bra{p_k}\ket{x_j}\ =\ \psi_{x_j p_k}\ =\ C e^{-\frac{i}{\hbar}x_j p_k}
+\end{equation}
+$\delta_{x_j x_k}$ shall correspond to $\delta(x_j - x_k)$ in the continuum. $C$ is a normalization constant\footnote{In general, $|C|=(2\pi\hbar)^{-N}$ must be required when $N$ is the number of integration variables in the scalar product.}.
+
+Wolfgang Pauli wrote in \emph{Die allgemeinen Prinzipien der Wellenmechanik}: "We conclude, then, that the introduction of an operator $\hat{t}$ must be dispensed with and that time $t$ in wave mechanics must necessarily be regarded as an ordinary number." This may have been practical for non-relativistic quantum mechanics. Relativistic theories, however, suggest the equal treatment of space and time, and this is what we intend to do here.
+
+The matrix elements of the time operator $\hat{t}$ and the components of its eigenvectors $\ket{t_j}$ to the eigenvalues $t_j$ are in the time basis $\{\,\ket{t_j}\,\}$
+
+\begin{equation}
+\bra{t_j}\ket{\,\hat{t}\,t_k}\ =\ t_{t_j t_k}\ =\ \delta_{t_j t_k}\,t_j
+\quad\quad 
+\bra{t_k}\ket{t_j}\ =\ \psi_{t_j t_k}\ =\ \delta_{t_j t_k}
+\end{equation}
+
+and in the (time) momentum or energy base $\{\,\ket{E_j}\,\}$
+\begin{equation}
+\label{eq:time_components}
+\bra{E_j}\ket{\,\hat{t}\,E_k}\ =\ t_{E_j E_k}\ =\ 
+-\mathrm{i}\hbar\,\frac{\partial}{\partial E_j}\,\delta_{E_j E_k}
+\quad\quad 
+\bra{E_k}\ket{t_j}\ =\ \psi_{t_j E_k}\ =\ C e^{\frac{i}{\hbar}t_j E_k}
+\end{equation}
+The reason for the different signs in \eqref{eq:space_components} and \eqref{eq:time_components} can be found in the appendix.
+
+\subsection{Born's Rule}
+
+In the original (1926) formulation,\href{https://en.wikipedia.org/wiki/Born_rule}{Born's rule} stated that
+\begin{itemize}
+\item one of the eigenvalues $\{\lambda_j\}$ of the corresponding measurement operator $\hat{L}$ is observed when measuring an observable.
+\item the probability of measuring the eigenvalue $\lambda_j$ is determined by the absolute square of the scalar product between initial state $\ket{\psi^{(0)}}$ and eigenvector $\ket{\lambda_j}$.
+\end{itemize}
+After the measurement, the eigenstate $\ket{\psi^{(1)}} = \ket{\lambda_j}$ is present and repeated measurements of $\hat{L}$ do not change it.
+
+At first, it had to remain open what exactly a measurement actually is. The measurement experiment was described in the language of classical physics. One had a few mechanical quantities like location and momentum, which could be transferred into the language of quantum mechanics. Somewhere there had to be a transition between quantum mechanics and classical physics, but where and how was unclear.
+
+A few things have changed about this situation in 100 years:
+\begin{itemize}
+\item In the equations of quantum theories there are quantities which have no classical analogue, e.g. spin. 
+\item Most physicists are likely to believe that nature can be described entirely in quantum mechanical terms, and that classical physics can somehow be derived from it.
+\item With decoherence theory, more of what happens in a measurement can be described with quantum mechanical means. 
+\end{itemize}
+
+Today we should imagine the measurement as a process which couples a quantum thing to be observed first quantum dynamically to the environment. 
+In this process, an ideal measurement gives rise to a state which, on the one hand, is still a superposition with the original amplitudes $\psi^{(0)}_{\lambda_j}$ related to the measurement basis $\{\,\ket{\lambda_j}\,\}$, and, on the other hand, maximally entangles the measurement basis with a corresponding environment basis $\{\,\ket{e_j}\,\}$. According to decoherence theory, the entanglement will take place by means of a deterministic process $\hat{U}(t-t_0)$ which is continuous in time.
+\begin{equation}
+\label{eq:decoherence}
+\ket{e^{(0)}}\otimes\ket{\psi^{(0)}}\ =\ \ket{e^{(0)}}\otimes\sum_j \psi^{(0)}_{\lambda_j} \ket{\lambda_j}
+\ \xrightarrow{\hat{U}(t_1-t_0)}\ \sum_j \psi^{(0)}_{\lambda_j} \left(\, \ket{e_j} \otimes \ket{\lambda_j}\, \right)
+\end{equation}
+This way, information about $\ket{\psi^{(0)}}$ has become available in the environment and can be queried. This final query step is not understood as of today. However, it is certain that the final state in \eqref{eq:decoherence} cannot be consciously experienced in general, but only states after certain final steps, for example projections to the position basis\footnote{This is related to the question why no Schrödinger cats have been observed yet.}. It may also just be the query step itself that is consciously experienced. The query step is connected with a collapse of the superposition into one of the final states with Born's probabilities.
+\begin{equation} 
+\label{eq:collapse}
+\sum_j \psi^{(0)}_{\lambda_j} \left( \ket{e_j} \otimes \ket{\lambda_j} \right)
+\ \xrightarrow{p_j^{(0)\rightarrow(1)}\ =\ \left|\psi^{(0)}_{\lambda_j}\right|^2}\ 
+\ket{e_j} \otimes \ket{\lambda_j}
+\end{equation}
+$\left|\psi^{(0)}_{\lambda_j}\right|^2$ is the transition probability 
+\begin{equation} 
+\label{eq:orig_Born}
+p^{(0)\rightarrow(1)} 
+= \Bigl| \bra{\lambda_j}\ket{\psi^{(0)}} \Bigr| ^2
+=\ \Bigl| \bra{\psi^{(1)}}\ket{\psi^{(0)}} \Bigr| ^2
+\end{equation}
+in the original formulation of Born's rule.
+
+Whether \eqref{eq:decoherence} really happens is irrelevant from a pragmatic point of view\footnote{"shut up and calculate"}, as long as the decoherence process escapes observability due to lack of technological capabilities. Observed events with their corresponding probabilities are the same. However, decoherence processes have become technologically tangible in recent years, e.g., in a 2006 experiment by \href{https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.98.200402}{Sonnentag and Hasselbach}.
+
+If one assumes, first, that the observer cannot pick up information directly from the quantum part, but only indirectly via its environment, and second, that quantum theory must in the end underlie all classical physics, then a process \eqref{eq:decoherence} imposes itself on logical grounds. The theoretical idea reaches \href{https://de.wikipedia.org/wiki/Dieter_Zeh}{back to the year 1970}.
+ 
+\textbf{Example for $\hat{U}(t_1-t_0)$}
+
+An operator $\hat{U}$ suitable for the preparation of a measurement in \eqref{eq:decoherence} is
+\begin{equation}
+\label{eq:decoherence_measurement}
+\hat{U}(t-t_0)\ =\ \mathrm{exp}\left(-\frac{i(t-t_0)}{\hbar}f(\hat{\lambda})\otimes \leftidx{^E}{\hat{H}}\right)
+\end{equation}
+with a unitless operator-valued function $f$ and a Hermitian operator $\leftidx{^E}{\hat{H}}$ acting only on the environment E. $\lambda_j$ are the eigenvalues of $\hat{\lambda}$.
+Applied to the state of \eqref{eq:decoherence} we get
+\begin{equation*}
+\hat{U}(t-t_0)\left(\sum_j \psi^{(0)}_{\lambda_j} \ket{\lambda_j}\otimes\ket{e^{(0)}}\right)
+\ =\ \sum_j \psi^{(0)}_{\lambda_j} \ket{\lambda_j} 
+\otimes \mathrm{exp}\left(-\frac{i(t-t_0)}{\hbar}f(\lambda_j)\leftidx{^E}{\hat{H}}\right)
+\ket{e^{(0)}} 
+\end{equation*}
+\begin{equation}
+\label{eq:entangled_environment}
+\ \equiv\ 
+\sum_j \psi^{(0)}_{\lambda_j} \ket{\lambda_j} 
+\otimes \ket{e_j(t-t_0)} 
+\end{equation}
+whereby $\hat{U}$ has entangled the quantum thing with the environment\footnote{The exponential function entangles in this way: $\mathrm{exp}(\hat{a}\otimes\hat{b})=\sum \frac{1}{n\mathrm{! }}\ \hat{a}^n\otimes\hat{b}^n$} while keeping the amplitudes $\psi^{(0)}$ and thus the Born probabilities of \eqref{eq:collapse}.
+
+\section{Time in Quantum Mechanics}
+\subsection{Decomposition into H And E Spaces}
+Equations of quantum mechanics actually are simple in principle. A linear operator $\hat{O}$ is applied to a state vector $\ket{\psi}$ and the result should give $0$.
+\begin{equation*} 
+\hat{O}\ket{\psi} = 0 
+\end{equation*}
+When looking at Schrödinger, Dirac and Klein-Gordon equations, a common feature catches the eye. The operator $\hat{O}$ always acts in a product space $\mathscr{H} \otimes \mathscr{E}$. It has the form 
+\begin{equation*} 
+\hat{O}\ =\ ^\mathscr{H}\hat{H}\ \otimes\ ^\mathscr{E}\hat{1}\ -\ ^\mathscr{H}\hat{1}\ \otimes\ ^\mathscr{E}\hat{E}
+\end{equation*}
+and is thus the sum of an operator $\hat{H}$ acting only in the subspace $\mathscr{H}$ and an operator $\hat{E}$ acting only in the subspace $\mathscr{E}$. The subspace $\mathscr{E}$ is the time subspace and a suitable basis is that of the time eigenvectors $\ket{t_j}$. The subspace $\mathscr{H}$ contains everything else.
+
+This decomposition suggests a product approach to solve these equations. With
+\begin{equation*} 
+\ket{\psi}\ =\ ^\mathscr{H}\ket{\psi}\ \otimes\ ^\mathscr{E}\ket{\psi}
+\end{equation*}
+we get
+\begin{equation} 
+\label{eq:productspace}
+\hat{H}\ ^\mathscr{H}\ket{\psi}\ \otimes\ ^\mathscr{E}\ket{\psi}
+\ - \ 
+^\mathscr{H}\ket{\psi}\ \otimes\ \hat{E}\ ^\mathscr{E}\ket{\psi} \ =\ 0
+\end{equation}
+and the equation decomposes into 2 eigenvalue equations for the operators $\hat{H}$ and $\hat{E}$.
+\begin{equation}
+\label{eq:system}
+\begin{split}
+\hat{H}\ ^\mathscr{H}\ket{\psi} = E\ ^\mathscr{H}\ket{\psi}\\
+\hat{E}\ ^\mathscr{E}\ket{\psi} = E\ ^\mathscr{E}\ket{\psi}\ 
+\end{split}
+\end{equation}
+This system of equations is still coupled via the eigenvalues $E$.
+
+Due to the linearity of $\hat{H}$ and $\hat{E}$, all linear combinations of products to the same eigenvalue $E$ are also solutions. The general solution
+\begin{equation}
+\label{eq:general_solution}
+\ket{\psi}\ =\ \sum_j\ \psi_j\ ^\mathscr{H}\ket{E_j}\ \otimes\ ^\mathscr{E}\ket{E_j}
+\end{equation}
+with more than one summand stands for a (subjective) entanglement of the subspaces $\mathscr{H}$ and $\mathscr{E}$. The representation \eqref{eq:general_solution} of $\ket{\psi}$ is a \href{https://en.wikipedia.org/wiki/Schmidt_decomposition}{Schmidt decomposition}.
+
+The unentangled solutions $^\mathscr{H}\ket{E_j}\ \otimes\ ^\mathscr{E}\ket{E_j}$ are usually called \emph{stationary states} or \emph{energy eigenstates}. This is because the differential operator $\mathrm{i}\hbar\,\frac{\partial}{\partial t}$ appearing in the equations must be understood as matrix elements $E(t-t')$ of the energy operator $\hat{E}$ in the time basis. More exactly, one would still have to add the delta distribution:
+\begin{equation*}
+E(t-t')\ =\ \mathrm{i}\hbar\,\frac{\partial}{\partial t}\,\delta(t-t')
+\end{equation*}
+
+The entire product space $\mathscr{H} \otimes \mathscr{E}$ can be spanned from general products of the eigenvectors of $\hat{H}$ and $\hat{E}$:
+\begin{equation}
+\label{eq:general_state}
+\ket{\psi}\ =\ \sum_{jk}\ \psi_{jk}\ ^\mathscr{H}\ket{E_j}\ \otimes\ ^\mathscr{E}\ket{E_k}
+\end{equation}
+But all states which have terms with $j \neq k$ shall "not occur in nature". Somewhat lower one could demand that they just are not observable by the measuring processes available to us.
+
+The Born transition probabilities between solutions are
+\begin{equation} 
+p^{(0)\rightarrow(1)} =\ \sum_{jk} \psi_j^{(1)*}\psi_k^{(1)}\psi_j^{(0)}\psi_k^{(0)*}
+\end{equation}
+
+The Born transition probabilities between general states, i.e. also the unobservable ones, are
+\begin{equation} 
+p^{(0)\rightarrow(1)} =\ \sum_{jklm} \psi_{jk}^{(1)*}\psi_{lm}^{(1)}\psi_{jk}^{(0)}\psi_{lm}^{(0)*}
+\end{equation}
+
+\subsection{Time Evolution}
+Often the time evolution is expressed by a time evolution operator parametrically dependent on the time difference $t_1-t_0$. For the transition probability from an initial state $\ket{\psi^{(0)}}$ at time $t_0$ to a final state $\ket{\psi^{(1)}}$ at time $t_1$, the following holds for an operator $\hat{H}$ that is not explicitly time dependent
+\begin{equation} 
+\label{eq:time_evolution}
+p^{(0)\rightarrow(1)} =\ \Bigl| \bra{\psi^{(1)}}\ket{\hat{U}(t_1-t_0)\,\psi^{(0)}} \Bigr|^2
+\end{equation}
+In this regard, it must be noted:
+\begin{itemize}
+\item A time-dependent Hamiltonian operator usually models a time-dependent influence of the environment. If we consider the universe as a quantum world, then there is no environment of it. There, a time-dependent operator $\hat{H}$ would stand for time-dependent laws of nature. This possibility may exist, but we do not consider it here.
+\item What exactly evolves in time in \eqref{eq:time_evolution} is ontologically unclear. As long as the probabilities and events do not change, the time evolution can be arbitrarily shifted back and forth between operators and vectors, which is exploited in the common "pictures", i.e. Schrödinger, Heisenberg and interaction pictures.
+\item $\ket{\psi^{(0)}}$ and $\ket{\psi^{(1)}}$ are vectors from the $\mathscr{H}$ subspace. Instead of abstract vectors from the $\mathscr{E}$ subspace, only time eigenvalues $t_0$, $t_1$ appear as parameters in the formula. Also in relativistic quantum mechanics, the \href{http://www.itp.uni-bremen.de/~noack/dirac.pdf}{invariant scalar product} is defined as \emph{three} dimensional integral proportional to 
+$\int \frac{\mathrm{d}^3 \vec{p}}{p_0}\ \psi^*(p)\, \phi(p)$. This integration "on the mass shell" corresponds to the avoidance of such states \eqref{eq:general_state} where $j \neq k$. $p_0$ belongs to the $\mathscr{E}$ space, but in this formula it is not independent but a function of $\vec{p}$ from the $\mathscr{H}$ space. These discriminations seem disturbing when compared to the underlying symmetric problem \eqref{eq:system}.
+\item \eqref{eq:time_evolution} is the original formulation \eqref{eq:orig_Born} of Born's probabilities. The entanglement process with the environment is not modeled out.
+\end{itemize}
+In the energy basis of $\mathscr{H}$ space, $\hat{U}$ is diagonal for a Hamiltonian operator that is not explicitly time-dependent. The matrix elements in the energy basis are
+\begin{equation} 
+U_{E_j E_k} = \delta_{E_j E_k} e^{-\frac{\mathrm{i}}{\hbar}E_j(t_1-t_0)}
+= 
+\delta_{E_j E_k}(e^{\frac{\mathrm{i}}{\hbar}E_j t_1})^* e^{\frac{\mathrm{i}}{\hbar}E_j t_0}
+\end{equation}
+In components, \eqref{eq:time_evolution} then looks like this:
+\begin{equation} 
+p^{(0)\rightarrow(1)} =\ 
+\Bigl| \sum_j
+(\leftidx{^\mathscr{H}}{\psi_{E_j}}^{(1)} e^{\frac{\mathrm{i}}{\hbar}E_j t_1})^*\ 
+\leftidx{^\mathscr{H}}{\psi_{E_j}}^{(0)} e^{\frac{\mathrm{i}}{\hbar}E_j t_0}
+\Bigr|^2
+\end{equation}
+In the exponential functions, we recognize the components of time eigenvectors in the energy basis from \eqref{eq:time_components}.
+So we are actually dealing with scalar products of vectors from the $\mathscr{H}\otimes\mathscr{E}$ space
+\begin{equation*}
+\ket{\psi^{(0)}}\ =\ \sum_j \leftidx{^\mathscr{H}}{\psi_{E_j}}^{(0)}\ ^\mathscr{H}\ket{E_j} 
+\ \otimes\ ^\mathscr{E}\psi_{t_0 E_j} \leftidx{^\mathscr{E}}{\ket{E_j}}
+\ =\ \sum_j \leftidx{^\mathscr{H}}{\bra{E_j}\ket{\psi_{E_j}}} ^\mathscr{E}\bra{E_j}\ket{t_0} \ ^\mathscr{H}\ket{E_j}\ \otimes\ ^\mathscr{E}\ket{E_j}
+\end{equation*}
+\begin{equation*}
+\ket{\psi^{(1)}}\ =\ \sum_j \leftidx{^\mathscr{H}}{\psi_{E_j}}^{(1)}\ ^\mathscr{H}\ket{E_j} 
+\otimes\ ^\mathscr{E}\psi_{t_1 E_j} \leftidx{^\mathscr{E}}{\ket{E_j}}
+\ =\ \sum_j \leftidx{^\mathscr{H}}{\bra{E_j}\ket{\psi_{E_j}}} ^\mathscr{E}\bra{E_j}\ket{t_1} \ ^\mathscr{H}\ket{E_j}\ \otimes\ ^\mathscr{E}\ket{E_j} 
+\end{equation*}
+thus with vectors of the form \eqref{eq:general_solution}. \eqref{eq:time_evolution} thus already suggests to consider the sequence of events quantum mechanics wants to predict as projective measurements involving a projection onto a time subspace.
+
+This is also what special relativity suggests to us. A Lorentz transformation "turns" the boundary between $\mathscr{H}$ and $\mathscr{E}$ subspaces. Even if a projective measurement for an observer would be restricted to $\mathscr{H}$ space, it would have to appear to all observers moving relative to that observer also as a measurement in their $\mathscr{E}$ space.
+
+\section{A Sequence of Block Universes}
+
+We now want to replace the deterministic time evolution by a stochastic process. The starting point for this is a process step as in \eqref{eq:collapse}. That is: an observer perceives a "collapse" in which a state entangled between $\mathscr{H}$, $\mathscr{E}$ and the environment $\mathrm{E}$ is detangled. This process step shall be
+\begin{equation*} 
+\sum_{jk} \psi_{jk}\ \ket{e_{jk}} \otimes \ket{\lambda_j} \otimes \ket{t_k} 
+\ \xrightarrow{p_{jk}\ =\ \left|\psi_{jk}\right|^2}\ 
+\ket{e_{jk}} \otimes \ket{\lambda_j} \otimes \ket{t_k}
+\end{equation*}
+So the state $\ket{\lambda_j}$ \emph{and simultaneously} the time $\ket{t_k}$ are observed, \emph{not} the state $\ket{\lambda_j}$ \emph{at} a time $t$. Thus, the dynamics has reached its end. Each further observation yields again and again the same eigenvalues and thus also the same time $t_k$.
+
+The question now arises, at which time the observation of time actually takes place. This time in which everything observable is observed can of course no longer be the same time as the time which reveals itself only when it is observed by a certain detangling. Since we have nothing else besides the observer, this time which is outside of the physical model must belong to the observer. It must be a psychic time.
+
+For each physical time $t_k$, the probabilities must be equal to those of \eqref{eq:collapse}. So the $\left|\psi_{jk}\right|^2$ must be proportional to the $\left|\psi_{\lambda_j}\right|^2$, that is we can set
+\begin{equation*}
+\psi_{jk} =  \psi_{\lambda_j} \psi_{t_k}
+\end{equation*}
+The complex numbers $\psi_{t_k}$ can be freely chosen, only the normalization conditions
+\begin{equation*}
+\sum_j \left|\psi_{\lambda_j}\right|^2 = 1 \quad\quad
+\sum_{k} \left|\psi_{t_k}\right|^2 = 1
+\end{equation*}
+must be fulfilled. With this we have
+\begin{equation} 
+\label{eq:collapse_with_time}
+\sum_{jk} \psi_{\lambda_j}\psi_{t_k} \ \ket{e_{jk}} \otimes \ket{\lambda_j} \otimes \ket{t_k} 
+\ \xrightarrow{p_{jk}\ =\ \left|\psi_{\lambda_j}\right|^2\ \cdot\ \left|\psi_{t_k}\right|^2}\ 
+\ket{e_{jk}} \otimes \ket{\lambda_j} \otimes \ket{t_k}
+\end{equation}
+
+We approximate the continuously parameterized operator $\hat{U}(t_1-t_0)$ by powers $\hat{u}^n$ of a smallest possible time evolution operator $\hat{u}$. Here we imagine $t_1-t_0$ as a multiple of a smallest possible time difference $t_p$.\begin{equation*}
+t_1-t_0\ =\ n t_p \quad\quad 
+\hat{u} = \hat{U}(t_p) \quad\quad 
+\hat{u}^n = \hat{U}(t_1-t_0)
+\end{equation*}
+The operator $\hat{U}$ is the one from \eqref{eq:decoherence} and not the one from \eqref{eq:time_evolution}. It acts in the product space of the quantum thing and its environment, but not in the subspace $\mathscr{E}$, which is spanned by the time eigenvectors.
+
+The deterministic time dependence of the initial state in the conventional Schrödinger picture is expressed by
+\begin{equation*}
+\ket{\psi(t)}\ =\ \hat{U}(t-t_0)\ket{\psi^{(0)}}
+\end{equation*} 
+In our new picture, the k times application of $\hat{u}$ transports from the initial state to the one that is supposed to be entangled with $\ket{t_k}$.
+\begin{equation*}
+\ket{\psi^{(k)}}\ =\ \hat{u}^k \ket{\psi^{(0)}}
+\end{equation*} 
+
+In order to fake a deterministic time evolution, the superposition on the left side of \eqref{eq:collapse_with_time} must thus take this shape
+\begin{equation}
+\label{eq:final_superposition}
+\sum_{jk} \psi_{\lambda_j}^{(0)}\psi_{t_k}\ \hat{u}^{k} \left(\,\ket{e^{(0)}} \otimes \ket{\lambda_j} \,\right) \otimes \ket{t_k}
+\ \xrightarrow{}
+\end{equation}
+It collapses on observation to the vectors on the right-hand side of \eqref{eq:collapse_with_time}. We have chosen the $|\psi_{\lambda_j}|^2$ of \eqref{eq:final_superposition} to reflect conventional quantum mechanics, and the $\psi_{t_k}$ are still free. For collapse to occur, or entanglement be present prior to observation, at least 2 of the $\psi_{t_k}$ must be non-zero. 
+
+The analogue to the example \eqref{eq:decoherence_measurement} is now
+\begin{equation}
+\label{eq:decoherence_measurement_new}
+\hat{u}^k\ =\ \mathrm{exp}\left(-\frac{\mathrm{i}k t_p}{\hbar}f(\hat{\lambda})\otimes \leftidx{^E}{\hat{H}}\right)
+\end{equation}
+
+The effect of $\hat{u}^k$ is analogous to \eqref{eq:entangled_environment}
+
+\begin{equation*}
+\hat{u}^k\left(\sum_j \psi^{(0)}_{\lambda_j} \ket{\lambda_j}\otimes\ket{e^{(0)}}\right)
+\ =\ \sum_j \psi^{(0)}_{\lambda_j} \ket{\lambda_j} 
+\otimes \mathrm{exp}\left(-\frac{\mathrm{i}k}{\hbar}f(\lambda_j)\leftidx{^E}{\hat{H}}\right)
+\ket{e^{(0)}} 
+\end{equation*}
+\begin{equation}
+\label{eq:entangled_environment_new}
+\ \equiv\ 
+\sum_j \psi^{(0)}_{\lambda_j} \ket{\lambda_j} 
+\otimes \ket{e_{jk}} 
+\end{equation}
+and therefore, assuming a suitable measurement operator $\hat{u}$, \eqref{eq:final_superposition} can be written equivalently as
+\begin{equation}
+\label{eq:final_superposition_2}
+\sum_{jk} \psi_{\lambda_j}^{(0)}\psi_{t_k}\ \ket{e_{jk}} \otimes \ket{\lambda_j} \otimes \ket{t_k}
+\ \xrightarrow{}
+\end{equation}
+
+Altogether, in \eqref{eq:final_superposition} $\mathscr{H}$ \textbf{and} $\mathscr{E}$ spaces of the quantum thing are thus entangled with the environment. The information is tappable to the observer via the vectors $\ket{e_{jk}}$ of the environment to which he is directly connected. His perspective in turn divides the environment into $\mathscr{H}$ and $\mathscr{E}$ spaces, which appear to him to be entangled in the state \eqref{eq:final_superposition_2}. Based on his mathematical model, he infers the information $\ket{\lambda_j}$ and $\ket{t_k}$ by the collapse $\xrightarrow{}\ket{e_{jk}}$.
+
+With this, we have reached our goal. However, there is still the inconvenience that the process stops after the first observation. We need another process step that again sets up a superposition of the form \eqref{eq:final_superposition}. 
+
+This other process step is hidden from human observers because we postulated that the collapse of the superposition is what is experienced. 
+
+This other process step may consist of multiple substeps and may lead out of the subspace of solution vectors \eqref{eq:general_solution}. The process need not be Markovian and may have a memory. We cannot know all this unless we succeed in opening up further observational perspectives. 
+
+\subsection{Time with Direction}
+
+The stochastic process steps \eqref{eq:collapse_with_time} are observed and alternate with unobservable process steps. This results in a total sequence of observations, each providing a time $t_k$. The hidden process could theortically generate superpositions that provide us with unusually adventurous sequences of time points $t_k$. The flow of time appearing to us in the physical channel can be represented by the fact that starting from $t_k$ only superpositions from times $> t_k$ are prepared by the hidden process.
+
+\begin{equation} 
+\label{eq:preparation_with_time}
+\ket{e^{(0)}} \otimes \ket{\lambda_j} \otimes \ket{t_k}
+\ \xrightarrow{p_{n}}\ 
+\sum_{l,m=k+1} \psi_{n,\lambda_l}\psi_{n,t_m} \ \ket{e_{lm}} \otimes \ket{\lambda_l} \otimes \ket{t_m} 
+\end{equation}
+By $p_n$ we have implied that the hidden process can lead to $n$ different superpositions with different probabilities, without the observer having means to detect their difference.
+
+In the simplest case, a flow of time can be created through certain ($n=1$) hidden process steps onto superpositions of 2 adjacent times like this:
+
+\begin{equation*} 
+\ket{e^{(0)}} \otimes \ket{\lambda_j} \otimes \ket{t_k}
+\ \xrightarrow{100\,\%}\ 
+\sum_{l,m=k+1}^{m=k+2} \psi_{\lambda_l}\psi_{t_m} \ \ket{e_{lm}} \otimes \ket{\lambda_l} \otimes \ket{t_m} 
+\end{equation*}
+
+A simple example in a Hilbert space of 2 qutrits and unistochastic Markovian process steps is given in the article \href{http://vermaschung.de/index.php?title=Warum_Panpsychismus%3F}{On Psychic and Physical Time}. 
+
+Here it should be emphasized that the time eigenvectors $\{\ \ket{t_k}\ \}$ of the space $\mathscr{E}$ can be indexed arbitrarily at first. Only by the existence of a corresponding process and a certain observation perspective an order is suggested, which thereby always has a subjective character.
+
+\subsection{And the Quantum Zeno Effect?}
+
+Of course, the question now arises how the quantum Zeno effect fits into the new dynamics. In conventional quantum mechanics it is supposed to arise from the perturbation of the dynamics \eqref{eq:time_evolution} by repeated observation. But now we no longer have \eqref{eq:time_evolution}. Instead we have only one observable type of process step. \eqref{eq:final_superposition} always gives us the correct amplitudes matching the observed times, which means we actually have no problem with the quantum Zeno effect. But what makes the difference between observing "frequently" and "rarely"?
+
+\eqref{eq:final_superposition} provides times and thus represents a clock for the observer. Now he wants to read it more or less often for his quantum Zeno experiment. To physically secure this "more or less often", he must have another "laboratory clock", which he reads often enough. This lab clock brings more spaces $\mathscr{H}$ and $\mathscr{E}$ into play. The hidden process must prepare also the laboratory clock suitably, so that a flow of the physical time appears to the observer also by it.
+
+Thus we have a quantum thing Q whose times we observe
+\begin{equation*}
+\leftidx{^Q}t_1\ \rightarrow\ \leftidx{^Q}t_2\ \rightarrow \dots
+\end{equation*}
+and a laboratory clock L\footnote{At the end it is of course also a quantum thing. In relativistic quantum field theory, each "particle" brings its own time coordinate. Or, to put it another way, a creation operator increases the Fock space occupancy by one $\mathscr{H} \mathscr{E}$ space,} which also gives us times
+\begin{equation*}
+\leftidx{^L}t_1\ \rightarrow\ \leftidx{^L}t_2 \ \rightarrow \dots
+\end{equation*}
+Now it is clear what is meant by "frequently" and "rarely". The observer is offered by the laboratory clock again and again superpositions of the shape \eqref{eq:final_superposition} and reads the laboratory times from it. However, he does not provide at every reading of the laboratory clock an entanglement of the quantum thing with the environment, but sometimes at readings which are closer, sometimes at readings which are further apart. 
+
+The quantum thing supplies him another time. Even if it is directed like the time of the laboratory clock, it could still do wild things compared to it. However, this contradicts the empirical experience that clocks can be synchronized well. For clocks to synchronize, the hidden process must suitably entangle time eigenvectors of all spaces $\mathscr{E}$. In other words, subspaces that are entangled by the hidden process in a certain way appear to us as objectively passing physical time.
+
+We approach the new dynamics, initially leaving out decoherence due to entanglement with the environment knowing well that it must always be possible to find a decoherence process that gives us the same probabilities as the original view. As in \eqref{eq:orig_Born}, it should be possible "at any time" to either just read the laboratory clock or additionally measure the quantum thing by a projective measurement. The hidden process shall produce us the superposition \eqref{eq:final_superposition} extended by the laboratory clock but without considering the environment in this form:
+\begin{equation}
+\label{eq:superposition_with_lab}
+\sum_{jkl}\ \psi_{t_k} \leftidx{^\mathrm{Q}}\psi_{\lambda_j}^{(0)}\ 
+\leftidx{^\mathrm{Q}}{\hat{u}}^k 
+\ket{\leftidx{^\mathrm{Q}}\lambda_j} 
+\ \otimes\ \ket{\leftidx{^\mathrm{Q}}t_k}
+\ \otimes\ \leftidx{^\mathrm{L}}{\hat{u}}^k \ket{ \leftidx{^\mathrm{L}}\lambda_l} 
+\ \otimes\ \ket{\leftidx{^\mathrm{L}}t_k}
+\ \xrightarrow{}
+\end{equation}
+Here we have pairwise entangled time eigenvectors with exactly the same indices. As long as nothing else has been measured, we could well allow that e.g. also terms with $\ket{\leftidx{^\mathrm{Q}}t_k} \otimes \ket{\leftidx{^\mathrm{L}}t_{k+1}}$ contribute to the superposition. This would mean that clocks in nature cannot run exactly synchronously. However, we now restrict ourselves to the simple case of exact synchronicity.
+
+From \eqref{eq:superposition_with_lab} we can perform a complete projective measurement
+\begin{equation}
+\xrightarrow{p_{jk}}\ \leftidx{^\mathrm{Q}}\psi_{\lambda_j}^{(0)}\ 
+\leftidx{^\mathrm{Q}}{\hat{u}}^k
+\ket{\leftidx{^\mathrm{Q}}\lambda_j} 
+\ \otimes\ \ket{\leftidx{^\mathrm{Q}}t_k}
+\ \otimes\ \leftidx{^\mathrm{L}}{\hat{u}}^k \ket{ \leftidx{^\mathrm{L}}\lambda_l} 
+\ \otimes\ \ket{\leftidx{^\mathrm{L}}t_k}
+\end{equation}
+From here, the hidden process again composes us the superposition \eqref{eq:superposition_with_lab}. Since we measured in the $\lambda$ basis, \eqref{eq:superposition_with_lab} specifically in this basis simplifies to 
+\begin{equation}
+\label{eq:superposition_with_lab_after_meas}
+\sum_{kl}\ \leftidx{^\mathrm{Q}}{\hat{u}}^k
+\ket{\leftidx{^\mathrm{Q}}\lambda_j} 
+\ \otimes\ \ket{\leftidx{^\mathrm{Q}}t_k}
+\ \otimes\ \leftidx{^\mathrm{L}}{\hat{u}}^k \ket{ \leftidx{^\mathrm{L}}\lambda_l} 
+\ \otimes\ \ket{\leftidx{^\mathrm{L}}t_k}
+\ \xrightarrow{}
+\end{equation}
+If we want to measure in a different basis the next time, \eqref{eq:superposition_with_lab_after_meas} appears in this other basis in the form \eqref{eq:superposition_with_lab}. On the other hand, since we always keep the measurement basis when reading the lab time, L is permanently left with the simpler form.
+
+Or we can do a partial projective measurement, if we only read the lab time but leave the quantum thing alone
+\begin{equation}
+\xrightarrow{|\psi_{t_k}|^2}\ 
+\leftidx{^\mathrm{L}}{\hat{u}}^k \ket{ \leftidx{^\mathrm{L}}\lambda_l} 
+\ \otimes\ \ket{\leftidx{^\mathrm{Q}}t_k}
+\ \otimes\ \ket{\leftidx{^\mathrm{L}}t_k}
+\ \otimes\ \sum_{j}\ \leftidx{^\mathrm{Q}}\psi_{\lambda_j}^{(0)}\ 
+\leftidx{^\mathrm{Q}}{\hat{u}}^k
+\ket{\leftidx{^\mathrm{Q}}\lambda_j} 
+\end{equation}
+From here, the hidden process re-establishes \eqref{eq:superposition_with_lab}, in the non-simplified form, since the superposition in Q is still present.
+
+Thus, the new dynamics can provide the probabilities for events including slowdowns due to frequent observations, but with an important difference. The sum in \eqref{eq:preparation_with_time} must go over at least 2 different times, since only  superpositions can be observed. Even if there would be an integral instead of the sum, the integral would have to run over a finite interval. The expectation value of the physical time therefore cannot be equal to the last measured time. In contrast to the formulation of the quantum Zeno effect with continuous deterministic time evolution, the prediction of the new dynamics is: 
+
+\emph{It is not possible to stop the motion completely}. This is because observability requires a change of state since the last observation. Rather, we expect a minimum change in physical time with each observation, determined by the preparation offered to us by the hidden process\footnote{thus a kind of Planck time}.
+
+\subsubsection{In the Decoherence Picture} 
+
+In decoherence theory, a different picture emerges. It is not the case that a state \eqref{eq:superposition_with_lab} always allows the choice of reading the lab clock or measuring a quantum thing or both. Rather, the decision must have been made beforehand. Either only the lab clock is entangled with the environment, in which case only it can be measured. Or the quantum thing is additionally entangled with the environment. The decision, which information can be obtained in the next step, must be made \emph{before} the hidden process.
+
+In order to be informed about the physical time, the experimenter must make sure that his laboratory clock L is always entangled with the environment E. The hidden process shall offer him such superpositions
+\begin{equation*}
+\sum_{jkl} \ \psi_{t_k} \leftidx{^\mathrm{Q}}\psi_{\lambda_j}^{(0)}\ 
+\leftidx{^\mathrm{E \otimes L}}{\hat{u}}^k \left( \ket{e^{(0)}} \otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} \right) 
+\otimes \leftidx{^\mathrm{Q}}{\hat{u}}^{k}\, \leftidx{^\mathrm{Q}}{\ket{\lambda_j}}
+\otimes \leftidx{^\mathrm{Q}}{\ket{t_k}}
+\otimes \leftidx{^\mathrm{L}}{\ket{t_k}}
+\ \xrightarrow{}
+\end{equation*}
+\begin{equation}
+\label{eq:partial_superposition_with_lab}
+\equiv\ \sum_{jkl} \ \psi_{t_k} \leftidx{^\mathrm{Q}}\psi_{\lambda_j}^{(0)}\ 
+\ket{e_{kl}} 
+\otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} 
+\otimes \leftidx{^\mathrm{Q}}{\hat{u}}^{k}\, \leftidx{^\mathrm{Q}}{\ket{\lambda_j}}
+\otimes \leftidx{^\mathrm{Q}}{\ket{t_k}}
+\otimes \leftidx{^\mathrm{L}}{\ket{t_k}}
+\ \xrightarrow{}
+\end{equation}
+The left operator $\hat{u}$ acts on laboratory clock and environment again like an ideal measurement operator, the right one on the quantum thing. Altogether we have an operator
+\begin{equation}
+\label{eq:unitary_2_parts}
+\hat{u}\ =\ \leftidx{^\mathrm{E \otimes L}}{\hat{u}}\ \otimes\ \leftidx{^\mathrm{Q}}{\hat{u}}
+\end{equation}
+From \eqref{eq:partial_superposition_with_lab} he can read a physical time
+\begin{equation*}
+\xrightarrow{} \ \ket{e_{kl}} 
+\otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} \,
+\otimes \leftidx{^\mathrm{Q}}{\ket{t_k}}
+\otimes \leftidx{^\mathrm{L}}{\ket{t_k}}
+\otimes \sum_{j} \, \leftidx{^\mathrm{Q}}{\psi_{\lambda_j}}^{(0)}\ 
+\leftidx{^\mathrm{Q}}{\hat{u}}^{k}\ 
+\leftidx{^\mathrm{Q}}{\ket{\lambda_j}}
+\end{equation*}
+
+If, on the other hand, the experimenter wants to obtain information about the quantum thing, then he must entangle it with the environment, too. For this purpose, the hidden process must synthesize a different superposition
+\begin{equation*}
+\sum_{jkl} \ \psi_{t_k}\ \leftidx{^\mathrm{Q}}{\psi_{\lambda_j}}^{(0)}\ 
+\hat{u}^k \left( \ket{e^{(0)}} \otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} 
+\otimes \leftidx{^\mathrm{Q}}{\ket{\lambda_j}} \right) 
+\otimes \leftidx{^\mathrm{Q}}{\ket{t_k}}
+\otimes \leftidx{^\mathrm{L}}{\ket{t_k}}
+\ \xrightarrow{}
+\end{equation*}
+\begin{equation}
+\label{eq:full_superposition_with_lab}
+\equiv \sum_{jkl} \ \psi_{t_k}\ \leftidx{^\mathrm{Q}}{\psi_{\lambda_j}}^{(0)}\ 
+\ket{e_{jkl}} \otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} 
+\otimes \leftidx{^\mathrm{Q}}{\ket{\lambda_j}}
+\otimes \leftidx{^\mathrm{Q}}{\ket{t_k}}
+\otimes \leftidx{^\mathrm{L}}{\ket{t_k}}
+\ \xrightarrow{}
+\end{equation}
+where we have assumed this measurement operator as analogue of \eqref{eq:decoherence_measurement} 
+\begin{equation*}
+\hat{u}^k = \mathrm{exp}\left(
+-\frac{\mathrm{i}k t_p}{\hbar}\ f\left(\leftidx{^L}{\hat{\lambda}}\right)\ \otimes\  g\left(\leftidx{^Q}{\hat{\lambda}}\right)\ \otimes\ \leftidx{^E}{\hat{H}}
+\right)
+\end{equation*}
+From here he can obtain the full information
+\begin{equation*}
+\xrightarrow{}\ \ket{e_{jkl}} 
+\otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} 
+\otimes \leftidx{^\mathrm{Q}}{\ket{\lambda_j}}
+\otimes \leftidx{^\mathrm{L}}{\ket{t_k}}
+\otimes \leftidx{^\mathrm{Q}}{\ket{t_k}}
+\end{equation*}
+Now, of course, the question arises why and due to what the hidden process should frequently prepare \eqref{eq:partial_superposition_with_lab} and more rarely \eqref{eq:full_superposition_with_lab}. This would correspond to a frequent reading of the laboratory clock with quantum measurements occurring from time to time. A unitary operator \eqref{eq:unitary_2_parts}, which performs entanglement of the quantum thing with the environment only in certain powers\footnote{and thus at certain physical times} $k$, does not exist.
+
+If the hidden process is to be part of an objective reality, the expectation is rather that it always prepares the same thing starting from a certain initial state, although the $\psi_{t_k}$ can remain free. And the experimenter may think that, based on his "free will decision", he flips a switch and thus decides whether \eqref{eq:partial_superposition_with_lab} or \eqref{eq:full_superposition_with_lab} is performed, i.e., the "small" or the "large" entanglement arises.
+
+To model this, another pair of qubits is needed in the simplest case. First, we note that the transition from the initial state to \eqref{eq:partial_superposition_with_lab} is a unitary operation, which we will denote as $\hat{U_0}$.
+\begin{equation}
+\eqref{eq:partial_superposition_with_lab} = \hat{U}_0
+\left(
+\ket{e^{(0)}} 
+\otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} 
+\otimes \leftidx{^\mathrm{Q}}{\ket{\psi^{(0)}}}
+\otimes \leftidx{^\mathrm{Q}}{\ket{t_0}}
+\otimes \leftidx{^\mathrm{L}}{\ket{t_0}}
+\right)
+\end{equation} 
+Likewise, the transition from the initial state to \eqref{eq:full_superposition_with_lab} is a unitary operation, which we will refer to as $\hat{U_1}$.
+\begin{equation}
+\eqref{eq:full_superposition_with_lab} = \hat{U}_1
+\left(
+\ket{e^{(0)}} 
+\otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} 
+\otimes \leftidx{^\mathrm{Q}}{\ket{\psi^{(0)}}}
+\otimes \leftidx{^\mathrm{Q}}{\ket{t_0}}
+\otimes \leftidx{^\mathrm{L}}{\ket{t_0}}
+\right)
+\end{equation} 
+The qubit pair shall consist of a $\mathscr{H}$-type bit and a $\mathscr{E}$-type time bit. $\leftidx{^\mathscr{H}}{\ket{0}}$ shall signify that a measurement shall be performed on Q. $\leftidx{^\mathscr{H}}{\ket{1}}$, on the other hand, is supposed to mean that only the laboratory time is to be read in the next step. $\leftidx{^\mathscr{E}}{\ket{0}}$ and $\leftidx{^\mathscr{E}}{\ket{1}}$ are any different states in the qubit time space. We define ourselves the qubit product states
+\begin{equation*}
+\ket{00} \equiv \leftidx{^\mathscr{H}}{\ket{0}}\ \otimes\ \leftidx{^\mathscr{E}}{\ket{0}}
+\quad\quad\quad\quad
+\ket{11} \equiv \leftidx{^\mathscr{H}}{\ket{1}}\ \otimes\ \leftidx{^\mathscr{E}}{\ket{1}}
+\end{equation*}
+\begin{equation*}
+\ket{++} \equiv \frac{1}{\sqrt(2)}\left(\ket{00}+\ket{11}\right)
+\quad\quad\quad\quad
+\ket{--} \equiv \frac{1}{\sqrt(2)}\left(\ket{00}-\ket{11}\right)
+\end{equation*}
+$\ket{++}$ and $\ket{--}$ thus entangle $\mathscr{H}$ and $\mathscr{E}$.
+
+Next, we extend the initial state to include the qubit pair. It shall be 
+\begin{equation*}
+\ket{e^{(0)}} 
+\otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} 
+\otimes \leftidx{^\mathrm{Q}}{\ket{\psi^{(0)}}}
+\otimes \leftidx{^\mathrm{Q}}{\ket{t_0}}
+\otimes \leftidx{^\mathrm{L}}{\ket{t_0}}
+\otimes \ket{00}
+\end{equation*}
+if only the laboratory time is to be read next, and 
+\begin{equation*}
+\ket{e^{(0)}} 
+\otimes \leftidx{^\mathrm{L}}{\ket{\lambda_l}} 
+\otimes \leftidx{^\mathrm{Q}}{\ket{\psi^{(0)}}}
+\otimes \leftidx{^\mathrm{Q}}{\ket{t_0}}
+\otimes \leftidx{^\mathrm{L}}{\ket{t_0}}
+\otimes \ket{11}
+\end{equation*}
+if a complete measurement is to be performed. Now we can easily specify a unitary operator $\hat{U}$ which leads to \eqref{eq:partial_superposition_with_lab} or \eqref{eq:full_superposition_with_lab} depending on the initial state.
+\begin{equation*}
+\hat{U}\ =\ \hat{U}_0 \otimes \ket{++}\bra{00}\ +\ \hat{U}_1 \otimes \ket{--}\bra{11}
+\end{equation*}
+From $\ket{00}$ this operator leads us to 
+\begin{equation*}
+\eqref{eq:partial_superposition_with_lab} \otimes \ket{++}
+\end{equation*}
+und from $\ket{11}$ to
+\begin{equation*}
+\eqref{eq:full_superposition_with_lab} \otimes \ket{--}
+\end{equation*}
+During the observation, the entanglement \eqref{eq:partial_superposition_with_lab} resp. \eqref{eq:full_superposition_with_lab} ends simultaneously with the entanglement of the qubit pair and thus the decision is made whether to read only the lab time next or to perform a full measurement. 
+
+\section{Observer-Dependent Entanglement}
+
+Entanglement, like superposition, is a subjective property in quantum mechanics. While the property "is a superposition" depends on the subjective choice of the basis in which a vector is represented, the property "is entangled" depends on the subjective division of its product space into subspaces. There is the connection both. With the division of a product space Schmidt bases are determined for every state vector. If a state entangles the subspaces, then it is a superposition in its Schmidt bases. If it does not entangle them, then it is a no superposition.
+
+A Lorentz boost changes from the perspective of an observer A to the perspective of an observer B moving relative to it with constant velocity. In 2 continuum dimensions the matrix elements of the Lorentz transformation operator $\hat{\Lambda}_\beta$ appear like this:
+\begin{equation}
+\label{eq:matrix_lorentz}
+\Lambda_\beta(x,t,x',t')\ =\ \delta(x'-\gamma(x+\beta t))\ \delta(t'-\gamma(t+\beta x))
+\end{equation}
+Applied to the components $\psi_A(x,t)$ of a Hilbert space vector, this matrix causes the transformation to the perspective of B
+\begin{equation}
+\label{eq:lorentz_scalar}
+\Lambda:\ \psi_A(x,t)\ \mapsto\ \psi_B(x,t) = \psi_A(\gamma(x+\beta t),\gamma(t+\beta x))
+\end{equation}
+Thereby the subjective division of the total space into $\mathscr{H}$ and $\mathscr{E}$ spaces changes.
+
+We start with a vector detangled between $\mathscr{H}_A$ and $\mathscr{E}_A$. Its components $\psi_A(x,t)$ can be represented as the product of two functions of $x$ and $t$. 
+\begin{equation*}
+\ket{\psi} = \sum f(x) \ket{x} \otimes  \sum g(t) \ket{t}
+\end{equation*}
+\begin{equation*}
+\bra{x,t}\ket{\psi}_A \equiv \psi_A(x,t) = f(x) \cdot g(t)
+\end{equation*}
+If the components cannot be written as a product in this form, then the vector is entangled. 
+
+\subsection{Examples}
+
+\subsubsection{Free Solution}
+
+\begin{equation*}
+e^{\mathrm{i}(kx-\omega t)}
+= 
+e^{\mathrm{i}kx}\cdot e^{-\mathrm{i}\omega t}
+\ \mapsto \ 
+e^{\mathrm{i}k\gamma(x+\beta t)} \cdot e^{-\mathrm{i}\omega \gamma(t+\beta x)}
+= 
+e^{\mathrm{i}\gamma(k-\omega \beta)x} \cdot e^{-\mathrm{i}\gamma(\omega- k \beta)t}
+\end{equation*}
+The free solution is also a free solution from the point of view of B and is not entangled. 
+
+The superposition of two free solutions
+\begin{equation*}
+C_1 e^{\mathrm{i}(k_1 x-\omega_1 t)} + C_2 e^{\mathrm{i}(k_2 x-\omega_2 t)}
+\end{equation*}
+is $\mathscr{H}$ - $\mathscr{E}$ entangled from the point of view of A and B.
+
+\subsubsection{Harmonic Oscillator}
+
+After the observation of a detanglement by A, a vector is present with the components 
+\begin{equation*}
+\psi _{n}(x,t)=\left({\frac {m\omega }{\pi \hbar }}\right)^{\frac {1}{4}}{\frac {1}{\sqrt {2^{n}n!}}}H_{n}\left({\sqrt {\frac {m\omega }{\hbar }}}x\right)e^{-{\frac {1}{2}}{\frac {m\omega }{\hbar }}x^{2}} \cdot e^{-\mathrm{i}\omega t}
+\end{equation*}
+with the Hermitian polynomials $H_n$. The term $x^2$ leads after the transformation to the appearance of a term $xt$ in the exponent, so that the components can no longer be decomposed into a product of the form $f(x) \cdot g(t)$.
+
+According to our postulate, this means that if the event has come to a standstill for A as a result of the observation by A, this is not the case for B. From the point of view of B, an observation can now be made. So there is the assumption that observers moving relative to A are involved in the process steps hidden to him. Vice versa, A can be involved in the process steps which are hidden from B.
+
+\section{Summary}
+We have taken up Hugh Everett's idea of solving the measurement problem of quantum mechanics by dropping one process type. Unlike his proposal, which led to the many-worlds interpretation, we have chosen to do exactly the opposite and have dropped the continuous time evolution in favor of purely stochastic dynamics. To do so, we applied Born's rule to a Hilbert space extended by the time subspace with the consequence that physical time is stopped by observation. We had to postulate a hidden process step that, from the observer's point of view, can build new superpositions to keep the dynamics going. 
+
+As relativistic physics suggests, time and position subspaces are now treated equally and the separation of total space into time and non-time subspaces depends on the perspective of the observer. It is a property of the subject, so to speak, it belongs to the way the mind is connected to the physical channel. 
+
+By the equal treatment of time and space the direction of the physical time and its flowing has been lost. We could see that offering suitable superpositions can appear like a flowing of the physical time from the view of the observer. This suggested that the impression of flowing physical time is an illusion created by 2 things: the special perspective of the observer and the special preparation by the hidden process. The flowing of the psychic time appears to the observer thereby as accretion of indices of vectors of certain subspaces and thus as flowing physical time. The model thereby offers the freedom that clocks ("elementary particles") need not to be exactly synchronizable, and that the direction of time may change randomly. 
+
+Last, we touched on the theme that relative motion is a change of perspective that changes the entanglement between time and non-time subspaces. Thus we have seen that relative-moving observers must somehow be involved in the process hidden to the non-moving observer.
+
+\section{Appendix}
+\subsection{Example Schrödinger Equation with Potential}
+The Schrödinger equation in the common form 
+\begin{equation*}
+\left(-\frac {\hbar^2}{2m}\frac{\partial^2}{\partial x^2} +V(x)\right)\psi(x,t)
+-\mathrm {i} \hbar \frac {\partial }{\partial t}\psi(x,t) = 0
+\end{equation*} 
+must be understood as an equation between matrix elements and vector components, where summations\footnote{also used here synonymously for integrations} have already been performed. To get the summations back we have to choose\footnote{We start from \eqref{eq:system} where $\mathscr{H}$ and $\mathscr{E}$ are already separated.}.\begin{equation*}
+\bra{t}\ket{^\mathscr{E}\hat{E}\,t'}\equiv E_{tt'} = 
++\mathrm {i} \hbar \frac{\partial }{\partial t}\delta(t-t')
+\end{equation*} 
+because it is 
+\begin{equation*}
+\mathrm{i}\hbar\,\frac{\partial }{\partial t} \int \mathrm{d}t'\,\delta(t-t') \psi (x ,t')
+=\, \mathrm {i} \hbar \frac {\partial }{\partial t}\psi (x ,t)
+\end{equation*}
+Alternatively 
+\begin{equation*}
+E_{tt'} = - \mathrm {i} \hbar \frac{\partial }{\partial t'}\delta(t-t')
+\end{equation*} 
+works which is easily shown by partial integration.
+
+For a Hermitian matrix, $E_{tt'}$ $E_{t't}^* = E_{tt'}$ must hold. Thus, if derivatives of the delta distribution are used to construct Hermitian matrices, then the coefficient of the 0th derivative must be real, that of the 1st derivative imaginary, and so on.
+
+Analogously, the matrix element of the potential is
+\begin{equation*}
+\bra{x}\ket{^\mathscr{H}\hat{V}\,x'}\equiv V_{xx'} = 
+\delta(x-x') V(x)
+\end{equation*}
+because it is
+\begin{equation*}
+V(x) \int \mathrm{d}x'\,\delta(x-x') \psi (x',t)
+=\, V(x) \psi (x,t)
+\end{equation*}
+This time
+\begin{equation*}
+V_{xx'} = \delta(x-x') V(x')
+\end{equation*}
+is equivalent because of the definition of the delta distribution
+\begin{equation*}
+\int \mathrm{d}x'\,\delta(x-x') V(x') \psi (x',t)
+=\, V(x) \psi (x,t)
+\end{equation*}
+If the operator of kinetic energy shall be $\frac{\hat{p}^2}{2m}$, then 
+\begin{equation*}
+\bra{x}\ket{^\mathscr{H}\hat{p}\,x'}\equiv p_{xx'} = 
+\pm \mathrm {i} \hbar \frac{\partial }{\partial x}\delta(x-x')
+\end{equation*} 
+are suitable as matrix elements of the momentum operator, because it is
+\begin{equation*}
+\frac{(\pm\mathrm{i}\hbar)^2}{2m}\,\frac{\partial }{\partial x} 
+\int \mathrm{d}x'\mathrm{d}x''\,\delta(x-x') \frac{\partial }{\partial x'} \delta(x'-x'')\psi(x'',t)
+\end{equation*}
+\begin{equation*}
+=-\frac{\hbar^2}{2m} \frac{\partial }{\partial x}\int \mathrm{d}x'\,\delta(x-x')\frac{\partial }{\partial x'} \psi(x',t)
+=-\frac{\hbar^2}{2m} \frac {\partial^2}{\partial x^2}\psi (x,t)
+\end{equation*}
+In order for the commutator $[\hat{x},\hat{p}]$ to become $+\mathrm{i}\hbar\hat{1}$, we must choose the \emph{negative} sign above, and then
+\begin{equation*}
+p_{xx'} = + \mathrm {i} \hbar \frac{\partial }{\partial x'}\delta(x-x')
+\end{equation*} 
+is equivalent. The matrix elements of the commutator are then
+\begin{equation*}
+\bra{x}\ket{[\hat{x},\hat{p}]x'}\ =\ 
+\int \mathrm{d}x'' \bra{x}\ket{\hat{x}x''} \bra{x''}\ket{\hat{p}x'} 
+- \int \mathrm{d}x'' \bra{x}\ket{\hat{p}x''} \bra{x''}\ket{\hat{x}x'} 
+\end{equation*}
+\begin{equation*}
+\ =\ \int \mathrm{d}x'' x''\delta(x-x'') \bra{x''}\ket{\hat{p}x'} 
+- \int \mathrm{d}x'' \bra{x}\ket{\hat{p}x''} x'\delta(x''-x')
+\end{equation*}
+\begin{equation*}
+\ =\ x \bra{x}\ket{\hat{p}x'} - \bra{x}\ket{\hat{p}x'} x'
+= -\mathrm {i} \hbar x \frac{\partial }{\partial x}\delta(x-x')
++\mathrm{i} \hbar \frac{\partial }{\partial x}\delta(x-x') x'
+= +\mathrm{i} \hbar \frac{\partial }{\partial x}\delta(x-x')
+\end{equation*}
+In total we get from the left terms 
+\begin{equation*}
+\bra{x}\ket{^\mathscr{H}\hat{H}\,x'}\equiv H_{xx'} = 
+\left(-\frac{\hbar^2}{2m} \frac {\partial^2}{\partial x^2}+V(x)\right) \delta(x-x')
+\end{equation*}
+
+\subsection{Example Free Dirac Equation}
+The Dirac equation in the Schrödinger form is
+\begin{equation*}
+\sum_{j=0}^{3}\left(-\mathrm{i}\hbar c \sum_{k=1}^{3}\alpha^{k}_{ij}\frac{\partial }{\partial x^k}+\gamma^{0}_{ij} m c^2 \right)\Psi_j(x^1,x^2,x^3,t) 
+- {\mathrm i}\hbar{\frac  {\partial }{\partial t}}\,\Psi_i(x^1,x^2,x^3,t) = 0
+\end{equation*}
+Here $k$ number the $\alpha$ matrices and $i$ and $j$ index spinor components.
+
+Also this equation must be understood as an equation between matrix elements and vector components, where summations have already been performed. To get the summations again we can proceed as above. 
+
+We have again
+\begin{equation*}
+E_{tt'} = +\mathrm {i} \hbar \frac{\partial }{\partial t}\delta(t-t')
+\end{equation*} 
+and from the left hand term we get
+\begin{equation*}
+H_{x^1\,x^2\,x^3\ {x'}^1{x'}^2{x'}^3}\ =\ 
+\sum_{j=0}^{3}\left(-\mathrm{i}\hbar c \sum_{k=1}^{3}\alpha^{k}_{ij}\frac{\partial }{\partial x^k}+\gamma^{0}_{ij} m c^2 \right) 
+\delta(x^1-{x'}^1)\,\delta(x^2-{x'}^2)\,\delta(x^3-{x'}^3)
+\end{equation*} 
+For the matrix elements of the operator $\Lambda$ we now have to consider the spinor transformation in addition to \eqref{eq:matrix_lorentz}. For example, for a Lorentz boost in direction $x^1$ we would get
+\begin{equation*}
+\Lambda_{\beta\ ii'}(x^1,x^2,x^3,t,{x'}^1,{x'}^2,{x'}^3,t')\ =
+\end{equation*}
+\begin{equation*}
+\delta({x'}^1-\gamma(x^1+\beta t))\ 
+\delta({x'}^2-x^2)\ 
+\delta({x'}^3-x^3)\ 
+\delta(t'-\gamma(t+\beta x^1))\ 
+\left( e^{-\frac{\mathrm{i}}{2}\eta\alpha^1} \right)_{i\,i'}
+\end{equation*}
+with the rapidity $\tanh \eta = \beta$ and the matrix $\alpha^1$ in the common representation
+\begin{equation*}
+\alpha^1 = \begin{pmatrix}
+0 & 0 & 0 & 1 \\
+0 & 0 & 1 & 0 \\
+0 & 1 & 0 & 0 \\
+1 & 0 & 0 & 0 
+\end{pmatrix}
+\end{equation*}
+
+Applied to the components $\Psi_i(x^1,x^2,x^3,t)$ of a bispinor, the matrix of $\Lambda$ causes the transformation from the perspective of A to the perspective of B.
+\begin{equation*}
+\Lambda:\ \Psi_A(x^1,x^2,x^3,t)\ \mapsto\ \Psi_B(x^1,x^2,x^3,t)\ =
+\end{equation*}
+\begin{equation*}
+e^{-\frac{\mathrm{i}}{2}\eta\alpha^1} \Psi_{A}\left(\gamma(x^1+\beta t),x^2,x^3,\gamma(t+\beta x^1)\right)
+\end{equation*}
+Again, in general, the $\mathscr{H}$ - $\mathscr{E}$ entanglement of a vector will change when changing perspective.
+
+In this mapping, a set of fourfold\footnote{due to the spinor components} power $\mathbb{R}^4$ is mapped onto itself. Because this set has equal cardinality with $\mathbb{R}$, it is possible to index the Hilbert space vectors with a single real index $z$, so that the matrices of all transformations can be written as $\Lambda_{zz'}$. From the special shape of these matrices, which determine the possible changes of perspectives for observers, the structure of space and time in perceptions results.
+
+% Dies war der Versuch, allein mit Markov-Schritten eine stochastische Dynamik zu bekommen, die die gewünschten Bornschen Wahrscheinlichkeiten ergibt. 
+% Der Versuch ist eher gescheitert. 
+% Schrödi + 1 Kollaps
+%\begin{equation} 
+%p^{(0)\rightarrow(1)} =\ \Bigl| \sum_{x'x} \psi^{(1)*}_{x'}\ U(\Delta t)_{x'x}\ \psi^{(0)}_x \Bigr|^2
+%\end{equation}
+%Elementares $\Delta t$ Planck-Zeit $\hat{U} = \hat{u}^{t/t_{Planck}}$
+%\begin{equation} 
+%p^{(0)\rightarrow(1)} =\ \Bigl| \sum_{x'x} \psi^{(1)*}_{x'}\ u_{x'x}\ \psi^{(0)}_x \Bigr|^2
+%\end{equation}
+%1 Zwischenbasis, 2 Kollapse
+%\begin{equation} 
+%\ket{\psi}^{(0)} =  \sum_{x} \psi^{(0)}_x \ket{x} \otimes \ket{t_0} \quad\quad
+%\ket{\psi}^{(1)} =  \sum_{x} \psi^{(1)}_x \ket{x} \otimes \ket{t_1}
+%\end{equation}
+%Zwischenbasis $\{\ket{z}\}$ $N \cdot M$ Elemente
+%\begin{equation} 
+%\begin{matrix}
+%\ket{x} \otimes \ket{t} = \sum_z V_{xt\, z}\ \ket{z} && 
+%\ket{z} = \sum_{xt} V^*_{z\, xt}\ \ket{x} \otimes \ket{t} 
+%\\ \\
+%\bra{x} \otimes \bra{t} = \sum_z V^*_{z\, xt}\ \bra{z} &&
+%\bra{z} = \sum_{xt} V_{xt\, z}\ \bra{x} \otimes \bra{t} 
+%\end{matrix}
+%\end{equation}
+%\begin{equation} 
+%p^{(0)\rightarrow(z)} =\ \Bigl| \bra{z} \hat{V} \left(\ket{x}\otimes\ket{t_0}\right)%\Bigr|^2
+%= \Bigl|\sum_{xt\, x'} \psi^{(0)}_{x'} \bra{x'} \otimes \bra{t} V_{xt\, z}\ \ket{x} %\otimes \ket{t_0}\Bigr|^2 
+%\end{equation}
+%\begin{equation} 
+%p^{(0)\rightarrow(z)} =\ \Bigl|\sum_{x} \psi^{(0)}_{x} V_{xt_0\, z}\ \Bigr|^2 
+%\end{equation}
+%analog
+%\begin{equation} 
+%p^{(z)\rightarrow(1)} =\ \Bigl|\sum_{x} \psi^{(1)}_{x} V_{xt_1\, z}\ \Bigr|^2 
+%\end{equation}
+%Gesamtübergangswahrscheinlichkeit
+%\begin{equation} 
+%p^{(0)\rightarrow(1)} =\ \sum_z\ p^{(0)\rightarrow(z)}\ p^{(z)\rightarrow(1)}
+%= \ \sum_{z}\ \Bigl(\ \Bigl|\sum_{x} \psi^{(1)}_{x} V_{xt_1\, z}\ \Bigr|^2\ \Bigl|%\sum_{x} \psi^{(0)}_{x} V_{xt_0\, z}\ \Bigr|^2\ \Bigr)
+%\end{equation}
+%\begin{equation} 
+%p^{(0)\rightarrow(1)} 
+%= \ \sum_{z}\ \Bigl|\sum_{x'x} \psi^{(1)}_{x'} V_{x't_1\, z}\ V_{xt_0\, z}\ \psi^{(0)}%_{x} \Bigr|^2  
+%\end{equation}
+%
+%\begin{equation} 
+%p^{(0)\rightarrow(1)} 
+%= \ \sum_{z}\ \Bigl|\sum_{x'x} \psi^{(1)}_{x'} v_{z\, x'}\ w_{z\, x}\ \psi^{(0)}_{x} %\Bigr|^2  
+%\end{equation}
+%Also 
+%\begin{equation} 
+%\boxed{
+%\quad\Bigl| \sum_{x'x} \psi^{(1)*}_{x'}\ u_{x'x}\ \psi^{(0)}_x \Bigr|^2 
+%\ =\ \sum_{z}\ \Bigl|\sum_{x'x} \psi^{(1)}_{x'} V_{x't_1\, z}\, V_{xt_0\, z}\ \psi^{(0)}%_{x} \Bigr|^2 \quad
+%}
+%\end{equation}
+%
+%Ausmultipliziert links
+%\begin{equation} 
+%\sum_{x'''x''x'x}\psi^{(1)}_{x'''}\psi^{(0)*}_{x''}\psi^{(1)*}_{x'}\psi^{(0)}_x
+%\ u^*_{x'''x''}\ u_{x'x}
+%\end{equation}
+%rechts
+%\begin{equation} 
+%\sum_{z\,x'''x''x'x}\ 
+%\psi^{(1)}_{x'''}\psi^{(0)*}_{x''}\psi^{(1)*}_{x'}\psi^{(0)}_{x}
+%\, V_{x'''t_1\, z}\, V^*_{x''t_0\, z}\, V^*_{x't_1\, z}\, V_{xt_0\, z}
+%\end{equation}
+%Muss für alle $\ket{\psi^{(0)}}$ und $\ket{\psi^{(1)}}$ gelten, deshalb
+%\begin{equation} 
+%\boxed{
+%u^*_{x'''x''}\ u_{x'x} = \sum_z \, V_{x'''t_1\, z}\, V^*_{x''t_0\, z}\, V^*_{x't_1\, z}\, %V_{xt_0\, z} 
+%}
+%\end{equation}
+%Unitarität von $u$ und $V$ sind zusätzlich zu fordern!
+%\begin{equation} 
+%\sum_{x''} u_{x'x''}\, u^*_{xx''} = \delta_{x'x} \quad\quad 
+%\sum_{z} V_{x't'\, z} V^*_{xt\, z} = \delta_{x'x}\ \delta_{t't} \quad\quad
+%\sum_{xt} V_{xt\, z'} V^*_{xt\, z} = \delta_{z'z}
+%\end{equation}
+%
+%-----------------
+%
+%\eqref{eq:time_evolution} diagnonalisiert durch unitäre Matrix $W$ im x-Unterraum. D.h. %auf $V$ wirkt $W \otimes \mathrm{1}$.
+%\begin{equation}
+%U_{x'x\,t't} = e^\mathrm{i\varphi_x(t'-t)}\,\delta_{x'x}
+%\end{equation}
+%\begin{equation}
+%\begin{split}
+%\boxed{
+%e^\mathrm{i(\varphi_x-\varphi_{x''})(t'-t)}\,\delta_{x'''x''}\,\delta_{x'x}\ =\ \sum_z \, %V_{x'''t'\, z}\, V^*_{x''t\, z}\, V^*_{x't'\, z}\, V_{xt\, z} 
+%} \\
+%\varphi_x \in \mathbb{R} \\ V_{xt\, z} \in \mathbb{C} \\
+%x \in \{1,2,...,N_x\}\\ t \in \{1,2,...,N_t\}\\ z \in \{1,2,...,N_x \cdot N_t\} 
+%\end{split}
+%\end{equation}
+%
+%Nur noch Unitarität von $V$ ist zusätzlich zu fordern!
+%\begin{equation} 
+%\sum_{z} V_{x't'\, z} V^*_{xt\, z} = \delta_{x'x}\ \delta_{t't} \quad\quad
+%\sum_{xt} V_{xt\, z'} V^*_{xt\, z} = \delta_{z'z}
+%\end{equation}
+%
+\end{document}
